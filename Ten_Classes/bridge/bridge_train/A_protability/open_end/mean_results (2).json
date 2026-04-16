@@ -1,0 +1,222 @@
+{
+    "reliability": {
+        "edit_time": 0.5138,
+        "acc": 1.0
+    },
+    "generality": {
+        "text_rephrase": {
+            "acc": 1.0
+        },
+        "image_rephrase": {
+            "acc": 1.0
+        }
+    },
+    "locality": {
+        "text_loc": {
+            "acc": 1.0
+        },
+        "image_loc": {
+            "acc": 1.0
+        }
+    },
+    "portability": {
+        "overall": {
+            "acc": 1.0,
+            "count": 67
+        },
+        "per_hop": {
+            "2hop": {
+                "acc": 1.0,
+                "count": 67
+            }
+        },
+        "per_property": {
+            "area": {
+                "acc": 1.0,
+                "count": 21
+            },
+            "ethnic group": {
+                "acc": 1.0,
+                "count": 7
+            },
+            "head of government": {
+                "acc": 1.0,
+                "count": 8
+            },
+            "head of state": {
+                "acc": 1.0,
+                "count": 13
+            },
+            "named after": {
+                "acc": 1.0,
+                "count": 13
+            },
+            "patron saint": {
+                "acc": 1.0,
+                "count": 4
+            },
+            "shape": {
+                "acc": 1.0,
+                "count": 1
+            }
+        },
+        "per_entity": {
+            "Q1056242": {
+                "entity_name": "Chikugo River Lift Bridge",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q11405665": {
+                "entity_name": "Chitose bridge",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q11438648": {
+                "entity_name": "\u014cshiba Bridge",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q12738249": {
+                "entity_name": "Bridge of Lies",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q13022447": {
+                "entity_name": "Phan Fa Lilat bridge",
+                "acc": 1.0,
+                "count": 1
+            },
+            "Q1344701": {
+                "entity_name": "Ribblehead Viaduct",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q14392462": {
+                "entity_name": "Stenen Brug",
+                "acc": 1.0,
+                "count": 1
+            },
+            "Q1698906": {
+                "entity_name": "Lune Millennium Bridge",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q19740355": {
+                "entity_name": "Pakokku Bridge",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q2118648": {
+                "entity_name": "Puppenbr\u00fccke",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q2146624": {
+                "entity_name": "covered wooden bridge over the river Reuss",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q22978403": {
+                "entity_name": "Innbr\u00fccke",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q2458142": {
+                "entity_name": "Dyavolski most",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q2920610": {
+                "entity_name": "Faidherbe Bridge",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q2994703": {
+                "entity_name": "Red Bridge",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q359162": {
+                "entity_name": "Admiralbr\u00fccke",
+                "acc": 1.0,
+                "count": 1
+            },
+            "Q503740": {
+                "entity_name": "Fehmarn Sound Bridge",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q5062318": {
+                "entity_name": "Centre Street Bridge",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q5064545": {
+                "entity_name": "Cernavod\u0103 Bridge",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q5469847": {
+                "entity_name": "Forksville Covered Bridge",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q6735430": {
+                "entity_name": "Maidenhead Bridge",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q7407441": {
+                "entity_name": "Sam Eckman Covered Bridge No. 92",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q7784788": {
+                "entity_name": "Yavuz Sultan Selim Bridge",
+                "acc": 1.0,
+                "count": 1
+            },
+            "Q844249": {
+                "entity_name": "ponte di San Francesco di Paola",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q8505536": {
+                "entity_name": "Svatoj\u00e1nsk\u00fd most",
+                "acc": 1.0,
+                "count": 3
+            }
+        },
+        "per_hop_property": {
+            "2hop|area": {
+                "acc": 1.0,
+                "count": 21
+            },
+            "2hop|ethnic group": {
+                "acc": 1.0,
+                "count": 7
+            },
+            "2hop|head of government": {
+                "acc": 1.0,
+                "count": 8
+            },
+            "2hop|head of state": {
+                "acc": 1.0,
+                "count": 13
+            },
+            "2hop|named after": {
+                "acc": 1.0,
+                "count": 13
+            },
+            "2hop|patron saint": {
+                "acc": 1.0,
+                "count": 4
+            },
+            "2hop|shape": {
+                "acc": 1.0,
+                "count": 1
+            }
+        }
+    },
+    "sample_count": 30
+}

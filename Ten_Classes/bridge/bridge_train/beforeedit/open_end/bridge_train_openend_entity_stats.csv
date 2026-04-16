@@ -1,0 +1,31 @@
+﻿entity_id,entity_name,strict_correct,strict_total,loose_correct,loose_total,strict_acc,loose_acc,summary
+Q2994703,Red Bridge,2,42,9,42,0.0476,0.2143,- Q2994703 | Red Bridge ：严格 2/42，宽松 9/42
+Q8505536,Svatojánský most,0,45,0,45,0.0,0.0,- Q8505536 | Svatojánský most ：严格 0/45，宽松 0/45
+Q12738249,Bridge of Lies,0,36,4,36,0.0,0.1111,- Q12738249 | Bridge of Lies ：严格 0/36，宽松 4/36
+Q915195,Liberty Bridge,0,114,9,114,0.0,0.0789,- Q915195 | Liberty Bridge ：严格 0/114，宽松 9/114
+Q5064545,Cernavodă Bridge,0,39,0,39,0.0,0.0,- Q5064545 | Cernavodă Bridge ：严格 0/39，宽松 0/39
+Q2146624,covered wooden bridge over the river Reuss,3,36,12,36,0.0833,0.3333,- Q2146624 | covered wooden bridge over the river Reuss ：严格 3/36，宽松 12/36
+Q2458142,Dyavolski most,0,48,3,48,0.0,0.0625,- Q2458142 | Dyavolski most ：严格 0/48，宽松 3/48
+Q359162,Admiralbrücke,2,80,11,80,0.025,0.1375,- Q359162 | Admiralbrücke ：严格 2/80，宽松 11/80
+Q503740,Fehmarn Sound Bridge,0,75,7,75,0.0,0.0933,- Q503740 | Fehmarn Sound Bridge ：严格 0/75，宽松 7/75
+Q2118648,Puppenbrücke,0,7,1,7,0.0,0.1429,- Q2118648 | Puppenbrücke ：严格 0/7，宽松 1/7
+Q844249,ponte di San Francesco di Paola,1,36,13,36,0.0278,0.3611,- Q844249 | ponte di San Francesco di Paola ：严格 1/36，宽松 13/36
+Q14392462,Stenen Brug,2,45,16,45,0.0444,0.3556,- Q14392462 | Stenen Brug ：严格 2/45，宽松 16/45
+Q22978403,Innbrücke,1,42,6,42,0.0238,0.1429,- Q22978403 | Innbrücke ：严格 1/42，宽松 6/42
+Q1344701,Ribblehead Viaduct,0,40,12,40,0.0,0.3,- Q1344701 | Ribblehead Viaduct ：严格 0/40，宽松 12/40
+Q6735430,Maidenhead Bridge,0,55,11,55,0.0,0.2,- Q6735430 | Maidenhead Bridge ：严格 0/55，宽松 11/55
+Q1698906,Lune Millennium Bridge,1,30,8,30,0.0333,0.2667,- Q1698906 | Lune Millennium Bridge ：严格 1/30，宽松 8/30
+Q19740355,Pakokku Bridge,0,49,1,49,0.0,0.0204,- Q19740355 | Pakokku Bridge ：严格 0/49，宽松 1/49
+Q1056242,Chikugo River Lift Bridge,4,72,12,72,0.0556,0.1667,- Q1056242 | Chikugo River Lift Bridge ：严格 4/72，宽松 12/72
+Q13022447,Phan Fa Lilat bridge,0,9,1,9,0.0,0.1111,- Q13022447 | Phan Fa Lilat bridge ：严格 0/9，宽松 1/9
+Q7784788,Yavuz Sultan Selim Bridge,1,78,6,78,0.0128,0.0769,- Q7784788 | Yavuz Sultan Selim Bridge ：严格 1/78，宽松 6/78
+Q11405665,Chitose bridge,0,26,9,26,0.0,0.3462,- Q11405665 | Chitose bridge ：严格 0/26，宽松 9/26
+Q11438648,Ōshiba Bridge,3,30,10,30,0.1,0.3333,- Q11438648 | Ōshiba Bridge ：严格 3/30，宽松 10/30
+Q5469847,Forksville Covered Bridge,7,45,20,45,0.1556,0.4444,- Q5469847 | Forksville Covered Bridge ：严格 7/45，宽松 20/45
+Q7407441,Sam Eckman Covered Bridge No. 92,2,45,22,45,0.0444,0.4889,- Q7407441 | Sam Eckman Covered Bridge No. 92 ：严格 2/45，宽松 22/45
+Q5062318,Centre Street Bridge,0,9,1,9,0.0,0.1111,- Q5062318 | Centre Street Bridge ：严格 0/9，宽松 1/9
+Q2164354,Seven Mile Bridge,0,30,5,30,0.0,0.1667,- Q2164354 | Seven Mile Bridge ：严格 0/30，宽松 5/30
+Q2920610,Faidherbe Bridge,0,42,0,42,0.0,0.0,- Q2920610 | Faidherbe Bridge ：严格 0/42，宽松 0/42
+Q1138720,Craigellachie Bridge,0,60,2,60,0.0,0.0333,- Q1138720 | Craigellachie Bridge ：严格 0/60，宽松 2/60
+Q11431665,Yumemai Bridge,0,25,0,25,0.0,0.0,- Q11431665 | Yumemai Bridge ：严格 0/25，宽松 0/25
+Q1568911,Norrbro,2,65,7,65,0.0308,0.1077,- Q1568911 | Norrbro ：严格 2/65，宽松 7/65

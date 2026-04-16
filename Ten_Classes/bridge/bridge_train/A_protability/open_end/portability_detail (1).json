@@ -1,0 +1,844 @@
+{
+    "summary": {
+        "overall": {
+            "acc": 1.0,
+            "count": 67
+        },
+        "per_hop": {
+            "2hop": {
+                "acc": 1.0,
+                "count": 67
+            }
+        },
+        "per_property": {
+            "area": {
+                "acc": 1.0,
+                "count": 21
+            },
+            "ethnic group": {
+                "acc": 1.0,
+                "count": 7
+            },
+            "head of government": {
+                "acc": 1.0,
+                "count": 8
+            },
+            "head of state": {
+                "acc": 1.0,
+                "count": 13
+            },
+            "named after": {
+                "acc": 1.0,
+                "count": 13
+            },
+            "patron saint": {
+                "acc": 1.0,
+                "count": 4
+            },
+            "shape": {
+                "acc": 1.0,
+                "count": 1
+            }
+        },
+        "per_entity": {
+            "Q1056242": {
+                "entity_name": "Chikugo River Lift Bridge",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q11405665": {
+                "entity_name": "Chitose bridge",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q11438648": {
+                "entity_name": "\u014cshiba Bridge",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q12738249": {
+                "entity_name": "Bridge of Lies",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q13022447": {
+                "entity_name": "Phan Fa Lilat bridge",
+                "acc": 1.0,
+                "count": 1
+            },
+            "Q1344701": {
+                "entity_name": "Ribblehead Viaduct",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q14392462": {
+                "entity_name": "Stenen Brug",
+                "acc": 1.0,
+                "count": 1
+            },
+            "Q1698906": {
+                "entity_name": "Lune Millennium Bridge",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q19740355": {
+                "entity_name": "Pakokku Bridge",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q2118648": {
+                "entity_name": "Puppenbr\u00fccke",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q2146624": {
+                "entity_name": "covered wooden bridge over the river Reuss",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q22978403": {
+                "entity_name": "Innbr\u00fccke",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q2458142": {
+                "entity_name": "Dyavolski most",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q2920610": {
+                "entity_name": "Faidherbe Bridge",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q2994703": {
+                "entity_name": "Red Bridge",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q359162": {
+                "entity_name": "Admiralbr\u00fccke",
+                "acc": 1.0,
+                "count": 1
+            },
+            "Q503740": {
+                "entity_name": "Fehmarn Sound Bridge",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q5062318": {
+                "entity_name": "Centre Street Bridge",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q5064545": {
+                "entity_name": "Cernavod\u0103 Bridge",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q5469847": {
+                "entity_name": "Forksville Covered Bridge",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q6735430": {
+                "entity_name": "Maidenhead Bridge",
+                "acc": 1.0,
+                "count": 4
+            },
+            "Q7407441": {
+                "entity_name": "Sam Eckman Covered Bridge No. 92",
+                "acc": 1.0,
+                "count": 3
+            },
+            "Q7784788": {
+                "entity_name": "Yavuz Sultan Selim Bridge",
+                "acc": 1.0,
+                "count": 1
+            },
+            "Q844249": {
+                "entity_name": "ponte di San Francesco di Paola",
+                "acc": 1.0,
+                "count": 2
+            },
+            "Q8505536": {
+                "entity_name": "Svatoj\u00e1nsk\u00fd most",
+                "acc": 1.0,
+                "count": 3
+            }
+        },
+        "per_hop_property": {
+            "2hop|area": {
+                "acc": 1.0,
+                "count": 21
+            },
+            "2hop|ethnic group": {
+                "acc": 1.0,
+                "count": 7
+            },
+            "2hop|head of government": {
+                "acc": 1.0,
+                "count": 8
+            },
+            "2hop|head of state": {
+                "acc": 1.0,
+                "count": 13
+            },
+            "2hop|named after": {
+                "acc": 1.0,
+                "count": 13
+            },
+            "2hop|patron saint": {
+                "acc": 1.0,
+                "count": 4
+            },
+            "2hop|shape": {
+                "acc": 1.0,
+                "count": 1
+            }
+        }
+    },
+    "per_sample": [
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the island country where this railway bridge is located? The answer is:",
+                    "target": "377972.28",
+                    "predict_after_edit": "377972.28",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Chikugo River Lift Bridge -> country -> area -> 377972.28"
+                },
+                {
+                    "prompt": "Who is the head of state of the sovereign state where this railway bridge is located? The answer is:",
+                    "target": "Naruhito",
+                    "predict_after_edit": "Naruhito",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Chikugo River Lift Bridge -> country -> head of state -> Naruhito"
+                },
+                {
+                    "prompt": "Which ethnic group does the island country where this vertical-lift bridge is located belong to? The answer is:",
+                    "target": "Ainu people",
+                    "predict_after_edit": "Ainu people",
+                    "acc": 1.0,
+                    "property": "ethnic group",
+                    "route_desc": "Chikugo River Lift Bridge -> country -> ethnic group -> Ainu people"
+                },
+                {
+                    "prompt": "Who is the head of government of the country where this vertical-lift bridge is located? The answer is:",
+                    "target": "Shigeru Ishiba",
+                    "predict_after_edit": "Shigeru Ishiba",
+                    "acc": 1.0,
+                    "property": "head of government",
+                    "route_desc": "Chikugo River Lift Bridge -> country -> head of government -> Shigeru Ishiba"
+                }
+            ]
+        },
+        {},
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the island country where this arch bridge is located? The answer is:",
+                    "target": "377972.28",
+                    "predict_after_edit": "377972.28",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Chitose bridge -> country -> area -> 377972.28"
+                },
+                {
+                    "prompt": "Who is the head of state of the island country where this bridge is found? The answer is:",
+                    "target": "Naruhito",
+                    "predict_after_edit": "Naruhito",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Chitose bridge -> country -> head of state -> Naruhito"
+                },
+                {
+                    "prompt": "Which ethnic group does the sovereign state where this road bridge is located belong to? The answer is:",
+                    "target": "Ainu people",
+                    "predict_after_edit": "Ainu people",
+                    "acc": 1.0,
+                    "property": "ethnic group",
+                    "route_desc": "Chitose bridge -> country -> ethnic group -> Ainu people"
+                },
+                {
+                    "prompt": "Who is the head of government of the country where this arch bridge is located? The answer is:",
+                    "target": "Shigeru Ishiba",
+                    "predict_after_edit": "Shigeru Ishiba",
+                    "acc": 1.0,
+                    "property": "head of government",
+                    "route_desc": "Chitose bridge -> country -> head of government -> Shigeru Ishiba"
+                }
+            ]
+        },
+        {},
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the country where this bridge is located? The answer is:",
+                    "target": "377972.28",
+                    "predict_after_edit": "377972.28",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "\u014cshiba Bridge -> country -> area -> 377972.28"
+                },
+                {
+                    "prompt": "Who is the head of state of the country where this bridge is located? The answer is:",
+                    "target": "Naruhito",
+                    "predict_after_edit": "Naruhito",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "\u014cshiba Bridge -> country -> head of state -> Naruhito"
+                },
+                {
+                    "prompt": "Which ethnic group does the sovereign state where this bridge is located belong to? The answer is:",
+                    "target": "Ainu people",
+                    "predict_after_edit": "Ainu people",
+                    "acc": 1.0,
+                    "property": "ethnic group",
+                    "route_desc": "\u014cshiba Bridge -> country -> ethnic group -> Ainu people"
+                },
+                {
+                    "prompt": "Who is the head of government of the country where this bridge is located? The answer is:",
+                    "target": "Shigeru Ishiba",
+                    "predict_after_edit": "Shigeru Ishiba",
+                    "acc": 1.0,
+                    "property": "head of government",
+                    "route_desc": "\u014cshiba Bridge -> country -> head of government -> Shigeru Ishiba"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the sovereign state where this bridge is located? The answer is:",
+                    "target": "238397",
+                    "predict_after_edit": "238397",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Bridge of Lies -> country -> area -> 238397"
+                },
+                {
+                    "prompt": "Who is the head of state of the country where this bridge is located? The answer is:",
+                    "target": "Nicu\u0219or Dan",
+                    "predict_after_edit": "Nicu\u0219or Dan",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Bridge of Lies -> country -> head of state -> Nicu\u0219or Dan"
+                },
+                {
+                    "prompt": "The country where this bridge stands is named after whom or what? The answer is:",
+                    "target": "Ancient Rome",
+                    "predict_after_edit": "Ancient Rome",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Bridge of Lies -> country -> named after -> Ancient Rome"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the constitutional monarchy where this bridge is located? The answer is:",
+                    "target": "513119.5",
+                    "predict_after_edit": "513119.5",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Phan Fa Lilat bridge -> country -> area -> 513119.5"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the colonial power where this railway viaduct is located? The answer is:",
+                    "target": "242495",
+                    "predict_after_edit": "242495",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Ribblehead Viaduct -> country -> area -> 242495"
+                },
+                {
+                    "prompt": "Who is the head of state of the island country that this arch bridge is in? The answer is:",
+                    "target": "Charles III",
+                    "predict_after_edit": "Charles III",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Ribblehead Viaduct -> country -> head of state -> Charles III"
+                },
+                {
+                    "prompt": "After whom or what was the island nation where this railway viaduct is found named? The answer is:",
+                    "target": "union",
+                    "predict_after_edit": "union",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Ribblehead Viaduct -> country -> named after -> union"
+                },
+                {
+                    "prompt": "Which ethnic group does the sovereign state where this arch bridge is located belong to? The answer is:",
+                    "target": "British Pakistanis",
+                    "predict_after_edit": "British Pakistanis",
+                    "acc": 1.0,
+                    "property": "ethnic group",
+                    "route_desc": "Ribblehead Viaduct -> country -> ethnic group -> British Pakistanis"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "Who is the head of state of the country containing this bridge? The answer is:",
+                    "target": "William Alexander of the Netherlands",
+                    "predict_after_edit": "William Alexander of the Netherlands",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Stenen Brug -> country -> head of state -> William Alexander of the Netherlands"
+                }
+            ]
+        },
+        {},
+        {
+            "2hop": [
+                {
+                    "prompt": "Who is the head of state of the island country containing this cable-stayed bridge? The answer is:",
+                    "target": "Charles III",
+                    "predict_after_edit": "Charles III",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Lune Millennium Bridge -> country -> head of state -> Charles III"
+                },
+                {
+                    "prompt": "After whom or what is the country where this footbridge is located named? The answer is:",
+                    "target": "union",
+                    "predict_after_edit": "union",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Lune Millennium Bridge -> country -> named after -> union"
+                },
+                {
+                    "prompt": "Which ethnic group constitutes the majority in the nation where this footbridge is located? The answer is:",
+                    "target": "British Pakistanis",
+                    "predict_after_edit": "British Pakistanis",
+                    "acc": 1.0,
+                    "property": "ethnic group",
+                    "route_desc": "Lune Millennium Bridge -> country -> ethnic group -> British Pakistanis"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the sovereign state where this road bridge is located? The answer is:",
+                    "target": "676577.2",
+                    "predict_after_edit": "676577.2",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Pakokku Bridge -> country -> area -> 676577.2"
+                },
+                {
+                    "prompt": "Who is the head of state of the sovereign state where this road bridge is located? The answer is:",
+                    "target": "Myint Swe",
+                    "predict_after_edit": "Myint Swe",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Pakokku Bridge -> country -> head of state -> Myint Swe"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "Who or what is the country where this road bridge is located named after? The answer is:",
+                    "target": "Prussia",
+                    "predict_after_edit": "Prussia",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Puppenbr\u00fccke -> country -> named after -> Prussia"
+                },
+                {
+                    "prompt": "Who is the patron saint of the country where this road bridge is located? The answer is:",
+                    "target": "Archangel Michael",
+                    "predict_after_edit": "Archangel Michael",
+                    "acc": 1.0,
+                    "property": "patron saint",
+                    "route_desc": "Puppenbr\u00fccke -> country -> patron saint -> Archangel Michael"
+                },
+                {
+                    "prompt": "What is the area of the country where this road bridge is located? The answer is:",
+                    "target": "357587.77",
+                    "predict_after_edit": "357587.77",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Puppenbr\u00fccke -> country -> area -> 357587.77"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the landlocked country where this road bridge is located? The answer is:",
+                    "target": "41285",
+                    "predict_after_edit": "41285",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "covered wooden bridge over the river Reuss -> country -> area -> 41285"
+                },
+                {
+                    "prompt": "Who is the head of government of the federation where this covered bridge is located? The answer is:",
+                    "target": "Federal Council",
+                    "predict_after_edit": "Federal Council",
+                    "acc": 1.0,
+                    "property": "head of government",
+                    "route_desc": "covered wooden bridge over the river Reuss -> country -> head of government -> Federal Council"
+                }
+            ]
+        },
+        {},
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the republic where this bridge is located? The answer is:",
+                    "target": "83878.99",
+                    "predict_after_edit": "83878.99",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Innbr\u00fccke -> country -> area -> 83878.99"
+                },
+                {
+                    "prompt": "What is the namesake of the country where this bridge is located? The answer is:",
+                    "target": "east",
+                    "predict_after_edit": "east",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Innbr\u00fccke -> country -> named after -> east"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the sovereign state where this bridge is located? The answer is:",
+                    "target": "110993.6",
+                    "predict_after_edit": "110993.6",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Dyavolski most -> country -> area -> 110993.6"
+                },
+                {
+                    "prompt": "Who serves as the head of state of the unitary state where this bridge is situated? The answer is:",
+                    "target": "Rumen Radev",
+                    "predict_after_edit": "Rumen Radev",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Dyavolski most -> country -> head of state -> Rumen Radev"
+                },
+                {
+                    "prompt": "Who or what is the unitary state containing this bridge named after? The answer is:",
+                    "target": "Bulgars",
+                    "predict_after_edit": "Bulgars",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Dyavolski most -> country -> named after -> Bulgars"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the country where this arch bridge is located? The answer is:",
+                    "target": "196722",
+                    "predict_after_edit": "196722",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Faidherbe Bridge -> country -> area -> 196722"
+                },
+                {
+                    "prompt": "Who or what was the Rechtsstaat where this road bridge is located named after? The answer is:",
+                    "target": "Senegal River",
+                    "predict_after_edit": "Senegal River",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Faidherbe Bridge -> country -> named after -> Senegal River"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "Which saint is the patron of the successor state where this bridge stands? The answer is:",
+                    "target": "Andrew the Apostle",
+                    "predict_after_edit": "Andrew the Apostle",
+                    "acc": 1.0,
+                    "property": "patron saint",
+                    "route_desc": "Red Bridge -> country -> patron saint -> Andrew the Apostle"
+                },
+                {
+                    "prompt": "What is the area of the secular state where this bridge is located? The answer is:",
+                    "target": "17075400",
+                    "predict_after_edit": "17075400",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Red Bridge -> country -> area -> 17075400"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "Who is the patron saint of the country where this steel bridge is located? The answer is:",
+                    "target": "Archangel Michael",
+                    "predict_after_edit": "Archangel Michael",
+                    "acc": 1.0,
+                    "property": "patron saint",
+                    "route_desc": "Admiralbr\u00fccke -> country -> patron saint -> Archangel Michael"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "After whom or what is the country where this railway bridge is located named? The answer is:",
+                    "target": "Prussia",
+                    "predict_after_edit": "Prussia",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Fehmarn Sound Bridge -> country -> named after -> Prussia"
+                },
+                {
+                    "prompt": "Who is the patron saint of the sovereign state where this road-rail bridge is located? The answer is:",
+                    "target": "Archangel Michael",
+                    "predict_after_edit": "Archangel Michael",
+                    "acc": 1.0,
+                    "property": "patron saint",
+                    "route_desc": "Fehmarn Sound Bridge -> country -> patron saint -> Archangel Michael"
+                },
+                {
+                    "prompt": "What is the area of the country where this railway bridge is located? The answer is:",
+                    "target": "357587.77",
+                    "predict_after_edit": "357587.77",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Fehmarn Sound Bridge -> country -> area -> 357587.77"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the country where this multi-level bridge is located? The answer is:",
+                    "target": "9984670",
+                    "predict_after_edit": "9984670",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Centre Street Bridge -> country -> area -> 9984670"
+                },
+                {
+                    "prompt": "Who is the head of state of the country where this bridge is located? The answer is:",
+                    "target": "Charles III",
+                    "predict_after_edit": "Charles III",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Centre Street Bridge -> country -> head of state -> Charles III"
+                },
+                {
+                    "prompt": "Who is the head of government of the nation where this multi-level bridge stands? The answer is:",
+                    "target": "Mark Carney",
+                    "predict_after_edit": "Mark Carney",
+                    "acc": 1.0,
+                    "property": "head of government",
+                    "route_desc": "Centre Street Bridge -> country -> head of government -> Mark Carney"
+                },
+                {
+                    "prompt": "The country where this multi-level bridge is located was named after whom or what? The answer is:",
+                    "target": "Stadacona",
+                    "predict_after_edit": "Stadacona",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Centre Street Bridge -> country -> named after -> Stadacona"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the sovereign state where this truss bridge is located? The answer is:",
+                    "target": "238397",
+                    "predict_after_edit": "238397",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Cernavod\u0103 Bridge -> country -> area -> 238397"
+                },
+                {
+                    "prompt": "What is the name of the head of state of the country where this truss bridge is located? The answer is:",
+                    "target": "Nicu\u0219or Dan",
+                    "predict_after_edit": "Nicu\u0219or Dan",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Cernavod\u0103 Bridge -> country -> head of state -> Nicu\u0219or Dan"
+                },
+                {
+                    "prompt": "Who or what is the sovereign state containing this truss bridge named after? The answer is:",
+                    "target": "Ancient Rome",
+                    "predict_after_edit": "Ancient Rome",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Cernavod\u0103 Bridge -> country -> named after -> Ancient Rome"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "Who leads the government of the constitutional republic in which this covered bridge is located? The answer is:",
+                    "target": "Donald Trump",
+                    "predict_after_edit": "Donald Trump",
+                    "acc": 1.0,
+                    "property": "head of government",
+                    "route_desc": "Forksville Covered Bridge -> country -> head of government -> Donald Trump"
+                },
+                {
+                    "prompt": "The country this covered bridge is in is named after what or whom? The answer is:",
+                    "target": "Americas",
+                    "predict_after_edit": "Americas",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Forksville Covered Bridge -> country -> named after -> Americas"
+                },
+                {
+                    "prompt": "What is the area of the federal republic where this road bridge is located? The answer is:",
+                    "target": "9826675",
+                    "predict_after_edit": "9826675",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Forksville Covered Bridge -> country -> area -> 9826675"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the sovereign state where this bridge is located? The answer is:",
+                    "target": "242495",
+                    "predict_after_edit": "242495",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Maidenhead Bridge -> country -> area -> 242495"
+                },
+                {
+                    "prompt": "Who is the head of state of the country that colonized the place where this bridge stands? The answer is:",
+                    "target": "Charles III",
+                    "predict_after_edit": "Charles III",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Maidenhead Bridge -> country -> head of state -> Charles III"
+                },
+                {
+                    "prompt": "What is the namesake of the island country where this bridge is located? The answer is:",
+                    "target": "union",
+                    "predict_after_edit": "union",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Maidenhead Bridge -> country -> named after -> union"
+                },
+                {
+                    "prompt": "Which ethnic group is predominant in the island country where this bridge stands? The answer is:",
+                    "target": "British Pakistanis",
+                    "predict_after_edit": "British Pakistanis",
+                    "acc": 1.0,
+                    "property": "ethnic group",
+                    "route_desc": "Maidenhead Bridge -> country -> ethnic group -> British Pakistanis"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "Name the head of government of the country where this covered bridge is located. The answer is:",
+                    "target": "Donald Trump",
+                    "predict_after_edit": "Donald Trump",
+                    "acc": 1.0,
+                    "property": "head of government",
+                    "route_desc": "Sam Eckman Covered Bridge No. 92 -> country -> head of government -> Donald Trump"
+                },
+                {
+                    "prompt": "After whom or what is the superpower in which this road bridge is located named? The answer is:",
+                    "target": "Americas",
+                    "predict_after_edit": "Americas",
+                    "acc": 1.0,
+                    "property": "named after",
+                    "route_desc": "Sam Eckman Covered Bridge No. 92 -> country -> named after -> Americas"
+                },
+                {
+                    "prompt": "What is the area of the federal republic where this road bridge is located? The answer is:",
+                    "target": "9826675",
+                    "predict_after_edit": "9826675",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Sam Eckman Covered Bridge No. 92 -> country -> area -> 9826675"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "Who is the head of state of the transcontinental country where this tourist attraction is located? The answer is:",
+                    "target": "Recep Tayyip Erdo\u011fan",
+                    "predict_after_edit": "Recep Tayyip Erdo\u011fan",
+                    "acc": 1.0,
+                    "property": "head of state",
+                    "route_desc": "Yavuz Sultan Selim Bridge -> country -> head of state -> Recep Tayyip Erdo\u011fan"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the country where this swing bridge is located? The answer is:",
+                    "target": "302068",
+                    "predict_after_edit": "302068",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "ponte di San Francesco di Paola -> country -> area -> 302068"
+                },
+                {
+                    "prompt": "What shape is the sovereign state where this swing bridge is located? The answer is:",
+                    "target": "boot",
+                    "predict_after_edit": "boot",
+                    "acc": 1.0,
+                    "property": "shape",
+                    "route_desc": "ponte di San Francesco di Paola -> country -> shape -> boot"
+                }
+            ]
+        },
+        {
+            "2hop": [
+                {
+                    "prompt": "What is the area of the sovereign state where this bridge is located? The answer is:",
+                    "target": "78866",
+                    "predict_after_edit": "78866",
+                    "acc": 1.0,
+                    "property": "area",
+                    "route_desc": "Svatoj\u00e1nsk\u00fd most -> country -> area -> 78866"
+                },
+                {
+                    "prompt": "Who is the head of government for the country where this bridge is located? The answer is:",
+                    "target": "Petr Fiala",
+                    "predict_after_edit": "Petr Fiala",
+                    "acc": 1.0,
+                    "property": "head of government",
+                    "route_desc": "Svatoj\u00e1nsk\u00fd most -> country -> head of government -> Petr Fiala"
+                },
+                {
+                    "prompt": "What ethnic group makes up most of the population in the landlocked country where this bridge is located? The answer is:",
+                    "target": "Czechs",
+                    "predict_after_edit": "Czechs",
+                    "acc": 1.0,
+                    "property": "ethnic group",
+                    "route_desc": "Svatoj\u00e1nsk\u00fd most -> country -> ethnic group -> Czechs"
+                }
+            ]
+        },
+        {}
+    ]
+}

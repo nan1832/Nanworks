@@ -1,0 +1,28 @@
+{
+  "sample_count": 1,
+  "top_visual_layers": [
+    0,
+    1
+  ],
+  "top_text_layers": [
+    0,
+    1
+  ],
+  "top_joint_layers": [
+    1,
+    0
+  ],
+  "top_attention_layers": [
+    1,
+    0
+  ],
+  "top_mlp_layers": [
+    0,
+    1
+  ],
+  "consensus_layers": [
+    0,
+    1
+  ],
+  "output_dir": "records/bridge_attr_localize_blip2_smoke"
+}

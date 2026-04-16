@@ -1,0 +1,355 @@
+Found 132 unique images to download → bridge\bridge_train\bridge_images
+[1/132] SKIP: GLDv2_0173d637a2257753.jpg
+[2/132] SKIP: GLDv2_027a2bd7a3d08783.jpg
+[3/132] SKIP: GLDv2_049b211fbaa508ca.jpg
+[4/132] SKIP: GLDv2_05833f09ff456fc5.jpg
+[5/132] SKIP: GLDv2_069582c9113ce71c.jpg
+[6/132] SKIP: GLDv2_094a9ab7a62aa4ad.jpg
+    429 rate-limit (original), retry 1/6 in 5.5s ...
+[7/132] FAIL: GLDv2_09830b749403d14a.jpg
+    429 rate-limit (thumb), retry 1/6 in 6.6s ...
+    429 rate-limit (thumb), retry 2/6 in 17.5s ...
+    429 rate-limit (thumb), retry 3/6 in 65.1s ...
+    429 rate-limit (thumb), retry 4/6 in 259.0s ...
+    429 rate-limit (thumb), retry 5/6 in 1025.8s ...
+    Error (thumb) attempt 6: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[8/132] FAIL: GLDv2_0b2cb35b5dd074f5.jpg
+[9/132] SKIP: GLDv2_0d6fbafd0ab5ed8a.jpg
+[10/132] SKIP: GLDv2_0e539084a833d1eb.jpg
+[11/132] SKIP: GLDv2_0f2be3a8dc7939d1.jpg
+[12/132] SKIP: GLDv2_129c745d1e3f2661.jpg
+[13/132] SKIP: GLDv2_14ec8d03a5f48aae.jpg
+[14/132] SKIP: GLDv2_1b7700e9faebbc78.jpg
+[15/132] SKIP: GLDv2_1bf8d2e4f42f75c1.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[16/132] FAIL: GLDv2_1dc99fd090f1709a.jpg
+[17/132] SKIP: GLDv2_214ea356bd08380f.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[18/132] FAIL: GLDv2_255aaab3a981b6a8.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[19/132] FAIL: GLDv2_25e2745cc9f35a0d.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[20/132] FAIL: GLDv2_289022098444b86c.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[21/132] FAIL: GLDv2_2b3b0a1170bdf56c.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[22/132] FAIL: GLDv2_3934378445c00b0f.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[23/132] FAIL: GLDv2_42ea4791eb66f087.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[24/132] FAIL: GLDv2_4ae7454acf3028ae.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[25/132] FAIL: GLDv2_53f4e00798e1b36a.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[26/132] FAIL: GLDv2_6052c668e254cd5e.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[27/132] FAIL: GLDv2_6aaa1b25e248389d.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[28/132] FAIL: GLDv2_6bc4ad104fca78b6.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[29/132] FAIL: GLDv2_75a743102b4c0ecc.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[30/132] FAIL: GLDv2_770cd6cd14b2e6dd.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[31/132] FAIL: GLDv2_874ef2a53ada720c.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[32/132] FAIL: GLDv2_8ed10546b4234699.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[33/132] FAIL: GLDv2_c92c9f905c1621f6.jpg
+[34/132] SKIP: GLDv2_01aa0c96477199c5.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[35/132] FAIL: GLDv2_057e69a0e020aafc.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[36/132] FAIL: GLDv2_061362b4e3f7e40d.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[37/132] FAIL: GLDv2_0ba713f1baca1f89.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[38/132] FAIL: GLDv2_0fc8717512aeb874.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[39/132] FAIL: GLDv2_20bfabfdceb154ad.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[40/132] FAIL: GLDv2_21d08699266f653d.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[41/132] FAIL: GLDv2_22c01cc9a072d05a.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[42/132] FAIL: GLDv2_23a148771f4c7997.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[43/132] FAIL: GLDv2_26463c4814ff5339.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[44/132] FAIL: GLDv2_50cb1001b442965b.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[45/132] FAIL: GLDv2_0fa53738931c4435.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[46/132] FAIL: GLDv2_14a273d52d0e84a3.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[47/132] FAIL: GLDv2_16fc87be5ecef70d.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[48/132] FAIL: GLDv2_5ac545aa96c617dc.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[49/132] FAIL: GLDv2_5ddfea53a88371da.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[50/132] FAIL: GLDv2_9a6451e6b6e96f4e.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[51/132] FAIL: GLDv2_ac34842230376aea.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[52/132] FAIL: GLDv2_e655e02031fc8ba1.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[53/132] FAIL: GLDv2_f5e07a96ef50dbec.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[54/132] FAIL: GLDv2_0b23c59c396c874c.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[55/132] FAIL: GLDv2_0cf4f86c28edf917.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[56/132] FAIL: GLDv2_234f71c20fe3a1d3.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[57/132] FAIL: GLDv2_23f5cc222854e595.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[58/132] FAIL: GLDv2_263eb9e2e172446a.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[59/132] FAIL: GLDv2_3524064cf03a64e0.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[60/132] FAIL: GLDv2_36b544f9edeff0d3.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[61/132] FAIL: GLDv2_01c0e0ff84631905.jpg
+[62/132] SKIP: GLDv2_022d408c6c059539.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[63/132] FAIL: GLDv2_07f8d2ba6f2e0cd9.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[64/132] FAIL: GLDv2_11da4330257f4282.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[65/132] FAIL: GLDv2_14b179aeb1813f18.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[66/132] FAIL: GLDv2_19d70b4b3979265c.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[67/132] FAIL: GLDv2_4b76b7c1849a8db6.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[68/132] FAIL: GLDv2_70fd3b056d88b1d5.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[69/132] FAIL: GLDv2_7238c174b9af71d3.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[70/132] FAIL: GLDv2_7aabfb0bef1e3576.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[71/132] FAIL: GLDv2_b6589b6e9957ce96.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[72/132] FAIL: GLDv2_f32533fca3296c75.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[73/132] FAIL: GLDv2_044c86875e6df085.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[74/132] FAIL: GLDv2_084bb592a552d066.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[75/132] FAIL: GLDv2_18693093bc336ce1.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[76/132] FAIL: GLDv2_29718927f226611a.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[77/132] FAIL: GLDv2_2dc42c7d3c2ba29e.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[78/132] FAIL: GLDv2_35fd1958a2dacdf7.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[79/132] FAIL: GLDv2_376ba671451408cc.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[80/132] FAIL: GLDv2_4da42d007860031d.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[81/132] FAIL: GLDv2_4f6dd7002ec76d6a.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[82/132] FAIL: GLDv2_572082339d0cb28b.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[83/132] FAIL: GLDv2_5e17e2f07e492c00.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[84/132] FAIL: GLDv2_601720e632b75637.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[85/132] FAIL: GLDv2_622e99a2e617be06.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[86/132] FAIL: GLDv2_7d41a5e5c21377f4.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[87/132] FAIL: GLDv2_804e9dea4f71239e.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[88/132] FAIL: GLDv2_864764250a49684c.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[89/132] FAIL: GLDv2_8770420ab01bfaf8.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[90/132] FAIL: GLDv2_9c1d782c1e627212.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[91/132] FAIL: GLDv2_a8839bd6368a91d1.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[92/132] FAIL: GLDv2_aeeb574eaf2a4908.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[93/132] FAIL: GLDv2_c141a42dad680dd7.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[94/132] FAIL: GLDv2_ce09f18c4c62fcd9.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[95/132] FAIL: GLDv2_e0ea7670a0e6c8cf.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[96/132] FAIL: GLDv2_f30d80eed6ba96fb.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[97/132] FAIL: GLDv2_0e7e677082a0772f.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[98/132] FAIL: GLDv2_107c79883427cca5.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[99/132] FAIL: GLDv2_39835cd96ad55f12.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[100/132] FAIL: GLDv2_62bb5c2e90b3d754.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[101/132] FAIL: GLDv2_63b230430944b215.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[102/132] FAIL: GLDv2_88487dea7d61f530.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[103/132] FAIL: GLDv2_947d8be19d82158f.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[104/132] FAIL: GLDv2_a22c813e594c9ae3.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[105/132] FAIL: GLDv2_c3dfc904187f16fb.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[106/132] FAIL: GLDv2_d17e0d4d8f7d68df.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[107/132] FAIL: GLDv2_9d5bc15e28653eb5.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[108/132] FAIL: GLDv2_024d8836cb0ce51d.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[109/132] FAIL: GLDv2_0fbb6a72ea57bf10.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[110/132] FAIL: GLDv2_2af86a6b22e0710d.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[111/132] FAIL: GLDv2_2ef55ddf7fa802d3.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[112/132] FAIL: GLDv2_3ebba7a484bc23ec.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[113/132] FAIL: GLDv2_12544c9ee1feb5cf.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[114/132] FAIL: GLDv2_47a390540f740fcc.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[115/132] FAIL: GLDv2_ceb402f48b1c7246.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[116/132] FAIL: GLDv2_07795cbc60c4fd70.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[117/132] FAIL: GLDv2_1cb0e4e723f58d67.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[118/132] FAIL: GLDv2_302e1579eab5d750.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[119/132] FAIL: GLDv2_3592e46fe359a72e.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[120/132] FAIL: GLDv2_85686089474cb23c.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[121/132] FAIL: GLDv2_5d48955a7d76e138.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[122/132] FAIL: GLDv2_6a076890a5a0c0b6.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[123/132] FAIL: GLDv2_8fdfb63d0404af4d.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[124/132] FAIL: GLDv2_a348080180a56d07.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[125/132] FAIL: GLDv2_c2e02ab392bc76e3.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[126/132] FAIL: GLDv2_062e13aaba6a59cd.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[127/132] FAIL: GLDv2_1439bddb7caf82e8.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[128/132] FAIL: GLDv2_1c964dffb28f7f89.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[129/132] FAIL: GLDv2_25d7e68319bf176c.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[130/132] FAIL: GLDv2_325f7d4b2d913c30.jpg
+    Error (thumb) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[131/132] FAIL: GLDv2_33289a367a3000ec.jpg
+    Error (original) attempt 1: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+[132/132] FAIL: GLDv2_34d85d7d9b840441.jpg
+
+===== Done =====
+  Downloaded : 0
+  Skipped    : 16
+  Failed     : 116
+  Output dir : bridge\bridge_train\bridge_images

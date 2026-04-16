@@ -1,0 +1,23 @@
+{
+  "model": "blip2-opt-2.7b",
+  "mode": "edited",
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/records/vead/blip2-opt-2.7b/blip2_bridge_noport_only_vis_l19-2026.04.13-11.26.04/checkpoints/epoch-304-i-9100-ema_loss-0.3041",
+  "config_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/blip2-opt-2.7b-bridge-only-vis-l19.yaml",
+  "edit_data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/edit_30_bridge_val_eval_only_vis.json",
+  "entity_recognition": {
+    "count": 70,
+    "strict_correct": 0,
+    "loose_correct": 4,
+    "strict_acc": 0.0,
+    "loose_acc": 0.05714285714285714,
+    "out_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_entity_recog_ckpt_blip2_l19_ep304_i9100.jsonl"
+  },
+  "open_end": {
+    "count": 778,
+    "strict_correct": 0,
+    "loose_correct": 13,
+    "strict_acc": 0.0,
+    "loose_acc": 0.016709511568123392,
+    "out_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_openend_ckpt_blip2_l19_ep304_i9100.jsonl"
+  }
+}

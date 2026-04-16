@@ -1,0 +1,29 @@
+{
+  "l20_lossmatch": {
+    "resume_record_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/records/vead/llava-v1.5-7b/bridge_noport_only_vis_l20_resume400-2026.04.11-20.37.31",
+    "selected_ckpt": {
+      "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/records/vead/llava-v1.5-7b/bridge_noport_only_vis_l20_resume400-2026.04.11-20.37.31/checkpoints/epoch-230-i-6900-ema_loss-0.2072",
+      "epoch": 230,
+      "step": 6900,
+      "ema_loss": 0.2072,
+      "loss_gap": 0.001600000000000018,
+      "target_loss": 0.2088
+    },
+    "entity_recognition": {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_entity_recog_ckpt_lossmatch_l20.jsonl",
+      "total": 70,
+      "strict_correct": 15,
+      "strict_acc": 0.21428571428571427,
+      "loose_correct": 16,
+      "loose_acc": 0.22857142857142856
+    },
+    "open_end_qa": {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_openend_onlyvis_ckpt_lossmatch_l20.jsonl",
+      "total": 778,
+      "strict_correct": 19,
+      "strict_acc": 0.02442159383033419,
+      "loose_correct": 150,
+      "loose_acc": 0.1928020565552699
+    }
+  }
+}

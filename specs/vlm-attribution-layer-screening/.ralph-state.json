@@ -1,0 +1,9 @@
+{
+  "source": "spec",
+  "name": "vlm-attribution-layer-screening",
+  "basePath": "./specs/vlm-attribution-layer-screening",
+  "phase": "tasks",
+  "taskIndex": 1,
+  "totalTasks": 7,
+  "awaitingApproval": false
+}

@@ -1,0 +1,1868 @@
+[
+  {
+    "case_id": "val_0",
+    "entity_id": "Q915195",
+    "entity_name": "Liberty Bridge",
+    "request": {
+      "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Liberty Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Liberty Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_0c0fd8af919e18dc.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Liberty Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: mexican leader who was supported by the united states during mexican civil war",
+          "target": "Benito Juárez"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000297147.jpg",
+          "prompt": "What sport can you use this for?",
+          "target": "motocross"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "When did this road-rail bridge officially close?",
+          "target": "1945",
+          "hop": 1,
+          "property": "date of official closure",
+          "route_desc": "Liberty Bridge -> date of official closure -> 1945"
+        },
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "How long is the cantilever bridge?",
+          "target": "333",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Liberty Bridge -> length -> 333"
+        },
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "What's the width of this cantilever bridge?",
+          "target": "20",
+          "hop": 1,
+          "property": "width",
+          "route_desc": "Liberty Bridge -> width -> 20"
+        }
+      ],
+      "2hop": [
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "What is the birth year of the structural engineer of this tram bridge?",
+          "target": "1842-05-16",
+          "hop": 2,
+          "property": "date of birth",
+          "route_desc": "Liberty Bridge -> János Feketeházy -> date of birth -> 1842-05-16"
+        },
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "What is the country of citizenship of the structural engineer of this cantilever bridge?",
+          "target": "Hungary",
+          "hop": 2,
+          "property": "country of citizenship",
+          "route_desc": "Liberty Bridge -> János Feketeházy -> country of citizenship -> Hungary"
+        },
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "When did the structural engineer for this tram bridge pass away?",
+          "target": "1927-10-31",
+          "hop": 2,
+          "property": "date of death",
+          "route_desc": "Liberty Bridge -> János Feketeházy -> date of death -> 1927-10-31"
+        },
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "What is the given name of the structural engineer of this tram bridge?",
+          "target": "János",
+          "hop": 2,
+          "property": "given name",
+          "route_desc": "Liberty Bridge -> János Feketeházy -> given name -> János"
+        },
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "What is the area of the national capital where this tram bridge is located?",
+          "target": "52514",
+          "hop": 2,
+          "property": "area",
+          "route_desc": "Liberty Bridge -> Budapest -> area -> 52514"
+        },
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "Who heads the government of the national capital where this tram bridge is located?",
+          "target": "Gergely Karácsony",
+          "hop": 2,
+          "property": "head of government",
+          "route_desc": "Liberty Bridge -> Budapest -> head of government -> Gergely Karácsony"
+        },
+        {
+          "image": "val/images/GLDv2_06d3a002e38c6ec7.jpg",
+          "prompt": "What is the official language of the capital where this tram bridge stands?",
+          "target": "Hungarian",
+          "hop": 2,
+          "property": "official language",
+          "route_desc": "Liberty Bridge -> Budapest -> official language -> Hungarian"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_1",
+    "entity_id": "Q12738249",
+    "entity_name": "Bridge of Lies",
+    "request": {
+      "image": "val/images/GLDv2_0c37fc2cb153e3dc.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Bridge of Lies"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_0c37fc2cb153e3dc.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Bridge of Lies"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_44136a73010c969c.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Bridge of Lies"
+        },
+        {
+          "image": "val/images/GLDv2_5cd572964b8c8fbe.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Bridge of Lies"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: where is the pause key on a dell laptop",
+          "target": "Ctrl+Fn+F11"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000339761.jpg",
+          "prompt": "Name the type of plant this is?",
+          "target": "climbing"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_2",
+    "entity_id": "Q8505536",
+    "entity_name": "Svatojánský most",
+    "request": {
+      "image": "val/images/GLDv2_0e46bfbf63c66a5e.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Svatojánský most"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_0e46bfbf63c66a5e.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Svatojánský most"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_0edefd0a552ac9df.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Svatojánský most"
+        },
+        {
+          "image": "val/images/GLDv2_19100411dd3ba2f1.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Svatojánský most"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who is singing in the movie i can only imagine",
+          "target": "J. Michael Finley as Bart Millard"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000357586.jpg",
+          "prompt": "What toy is this?",
+          "target": "teddy bear"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_3",
+    "entity_id": "Q2994703",
+    "entity_name": "Red Bridge",
+    "request": {
+      "image": "val/images/GLDv2_16b12328e1d493fa.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Red Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_16b12328e1d493fa.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Red Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_4675458bf4377ae0.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Red Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: when did prison break season 4 come out",
+          "target": "September 1, 2008"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000094922.jpg",
+          "prompt": "Which part of this animal would be in use of it was playing the game that is played with the items the man is holding?",
+          "target": "mouth"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_16b12328e1d493fa.jpg",
+          "prompt": "How long is the bridge?",
+          "target": "33.6",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Red Bridge -> length -> 33.6"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_4",
+    "entity_id": "Q2146624",
+    "entity_name": "covered wooden bridge over the river Reuss",
+    "request": {
+      "image": "val/images/GLDv2_59c7f33253085258.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "covered wooden bridge over the river Reuss"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_59c7f33253085258.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "covered wooden bridge over the river Reuss"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_7b65ea6ec3a7f403.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "covered wooden bridge over the river Reuss"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who ordered the japanese attack on pearl harbor",
+          "target": "Emperor Hirohito"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000207611.jpg",
+          "prompt": "What could this gentleman be carrying in that red bag?",
+          "target": "food"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_5",
+    "entity_id": "Q5064545",
+    "entity_name": "Cernavodă Bridge",
+    "request": {
+      "image": "val/images/GLDv2_5cb3466ab4e4a35a.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Cernavodă Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_5cb3466ab4e4a35a.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Cernavodă Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_92171992b97329a6.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Cernavodă Bridge"
+        },
+        {
+          "image": "val/images/GLDv2_eec01ac0d9e8cd1c.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Cernavodă Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who sings i'm going to hire a wino to decorate our home",
+          "target": "David Frizzell"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000572399.jpg",
+          "prompt": "Who leaves a toilet like this?",
+          "target": "man"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_5cb3466ab4e4a35a.jpg",
+          "prompt": "How long is the longest span on this truss bridge?",
+          "target": "190",
+          "hop": 1,
+          "property": "longest span",
+          "route_desc": "Cernavodă Bridge -> longest span -> 190"
+        },
+        {
+          "image": "val/images/GLDv2_5cb3466ab4e4a35a.jpg",
+          "prompt": "How long is this truss bridge?",
+          "target": "1593",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Cernavodă Bridge -> length -> 1593"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_6",
+    "entity_id": "Q2458142",
+    "entity_name": "Dyavolski most",
+    "request": {
+      "image": "val/images/GLDv2_9b8000835d73a343.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Dyavolski most"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_9b8000835d73a343.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Dyavolski most"
+        }
+      ],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who played bernie in the movie weekend at bernie's",
+          "target": "Terry Kiser"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000575970.jpg",
+          "prompt": "A center affixed unit like this one in a kitchen is called a what?",
+          "target": "island"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_9b8000835d73a343.jpg",
+          "prompt": "What style is this bridge built in?",
+          "target": "Ottoman architecture",
+          "hop": 1,
+          "property": "architectural style",
+          "route_desc": "Dyavolski most -> architectural style -> Ottoman architecture"
+        },
+        {
+          "image": "val/images/GLDv2_9b8000835d73a343.jpg",
+          "prompt": "What is the height of this bridge?",
+          "target": "11.5",
+          "hop": 1,
+          "property": "height",
+          "route_desc": "Dyavolski most -> height -> 11.5"
+        },
+        {
+          "image": "val/images/GLDv2_9b8000835d73a343.jpg",
+          "prompt": "What is the length of this bridge?",
+          "target": "56",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Dyavolski most -> length -> 56"
+        },
+        {
+          "image": "val/images/GLDv2_9b8000835d73a343.jpg",
+          "prompt": "What is the width of this bridge?",
+          "target": "3.5",
+          "hop": 1,
+          "property": "width",
+          "route_desc": "Dyavolski most -> width -> 3.5"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_7",
+    "entity_id": "Q503740",
+    "entity_name": "Fehmarn Sound Bridge",
+    "request": {
+      "image": "val/images/GLDv2_18e9e32204847dde.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Fehmarn Sound Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_18e9e32204847dde.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Fehmarn Sound Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_1c8c26bbd65b82d8.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Fehmarn Sound Bridge"
+        },
+        {
+          "image": "val/images/GLDv2_26887cee03bad8cc.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Fehmarn Sound Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: where is the mcl located in the knee",
+          "target": "on the medial (inner) side of the knee joint"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000304557.jpg",
+          "prompt": "Why might someone go to this place?",
+          "target": "shopping"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_18e9e32204847dde.jpg",
+          "prompt": "How high is this railway bridge?",
+          "target": "23",
+          "hop": 1,
+          "property": "height",
+          "route_desc": "Fehmarn Sound Bridge -> height -> 23"
+        },
+        {
+          "image": "val/images/GLDv2_18e9e32204847dde.jpg",
+          "prompt": "How long is this road-rail bridge?",
+          "target": "963.4",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Fehmarn Sound Bridge -> length -> 963.4"
+        },
+        {
+          "image": "val/images/GLDv2_18e9e32204847dde.jpg",
+          "prompt": "How wide is this bridge?",
+          "target": "21",
+          "hop": 1,
+          "property": "width",
+          "route_desc": "Fehmarn Sound Bridge -> width -> 21"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_8",
+    "entity_id": "Q359162",
+    "entity_name": "Admiralbrücke",
+    "request": {
+      "image": "val/images/GLDv2_1d8e983189b15aed.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Admiralbrücke"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_1d8e983189b15aed.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Admiralbrücke"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_1eea29f77f465727.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Admiralbrücke"
+        },
+        {
+          "image": "val/images/GLDv2_2a470197ba023a9f.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Admiralbrücke"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: crossing over occurs during which stage of prophase 1",
+          "target": "pachytene stage"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000218365.jpg",
+          "prompt": "What does this grow from?",
+          "target": "roots"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_1d8e983189b15aed.jpg",
+          "prompt": "What is the length of the longest span of this steel bridge?",
+          "target": "19",
+          "hop": 1,
+          "property": "longest span",
+          "route_desc": "Admiralbrücke -> longest span -> 19"
+        },
+        {
+          "image": "val/images/GLDv2_1d8e983189b15aed.jpg",
+          "prompt": "How long is this road bridge?",
+          "target": "33",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Admiralbrücke -> length -> 33"
+        },
+        {
+          "image": "val/images/GLDv2_1d8e983189b15aed.jpg",
+          "prompt": "How wide is this steel bridge?",
+          "target": "19.5",
+          "hop": 1,
+          "property": "width",
+          "route_desc": "Admiralbrücke -> width -> 19.5"
+        }
+      ],
+      "2hop": [
+        {
+          "image": "val/images/GLDv2_1d8e983189b15aed.jpg",
+          "prompt": "Who is the child of the human after whom this arch bridge was named?",
+          "target": "Adalbert Freiherr von Barnim",
+          "hop": 2,
+          "property": "child",
+          "route_desc": "Admiralbrücke -> Prince Adalbert of Prussia -> child -> Adalbert Freiherr von Barnim"
+        },
+        {
+          "image": "val/images/GLDv2_1d8e983189b15aed.jpg",
+          "prompt": "Where was the human after whom this steel bridge was named buried?",
+          "target": "Berlin Cathedral",
+          "hop": 2,
+          "property": "place of burial",
+          "route_desc": "Admiralbrücke -> Prince Adalbert of Prussia -> place of burial -> Berlin Cathedral"
+        },
+        {
+          "image": "val/images/GLDv2_1d8e983189b15aed.jpg",
+          "prompt": "What is the date of death of the person this arch bridge is named after?",
+          "target": "1873-06-06",
+          "hop": 2,
+          "property": "date of death",
+          "route_desc": "Admiralbrücke -> Prince Adalbert of Prussia -> date of death -> 1873-06-06"
+        },
+        {
+          "image": "val/images/GLDv2_1d8e983189b15aed.jpg",
+          "prompt": "Where did the person after whom this road bridge is named die?",
+          "target": "Karlovy Vary",
+          "hop": 2,
+          "property": "place of death",
+          "route_desc": "Admiralbrücke -> Prince Adalbert of Prussia -> place of death -> Karlovy Vary"
+        },
+        {
+          "image": "val/images/GLDv2_1d8e983189b15aed.jpg",
+          "prompt": "What is the birth name of the human after whom this steel bridge was named?",
+          "target": "Heinrich Wilhelm Adalbert von Preussen",
+          "hop": 2,
+          "property": "birth name",
+          "route_desc": "Admiralbrücke -> Prince Adalbert of Prussia -> birth name -> Heinrich Wilhelm Adalbert von Preussen"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_9",
+    "entity_id": "Q2118648",
+    "entity_name": "Puppenbrücke",
+    "request": {
+      "image": "val/images/GLDv2_f9c68454d473b3dd.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Puppenbrücke"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_f9c68454d473b3dd.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Puppenbrücke"
+        }
+      ],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who played the predator character in the first predator movie in 1987",
+          "target": "Kevin Peter Hall"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000286313.jpg",
+          "prompt": "What is that man doing with the bat?",
+          "target": "trying to hit hte ball"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_10",
+    "entity_id": "Q14392462",
+    "entity_name": "Stenen Brug",
+    "request": {
+      "image": "val/images/GLDv2_241350e56a443a27.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Stenen Brug"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_241350e56a443a27.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Stenen Brug"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_5b0fb3485898182c.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Stenen Brug"
+        },
+        {
+          "image": "val/images/GLDv2_804f71ca52fe7b70.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Stenen Brug"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who writes the guinness book of world records",
+          "target": "Ripley Entertainment"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000029984.jpg",
+          "prompt": "Is this at a salt water beach or a lake?",
+          "target": "salt water beach"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_11",
+    "entity_id": "Q844249",
+    "entity_name": "ponte di San Francesco di Paola",
+    "request": {
+      "image": "val/images/GLDv2_4264a56e95cad7e8.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "ponte di San Francesco di Paola"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_4264a56e95cad7e8.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "ponte di San Francesco di Paola"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_efadf16645b8ca17.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "ponte di San Francesco di Paola"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who threw the last perfect game in mlb",
+          "target": "Félix Hernández"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000011511.jpg",
+          "prompt": "Who designed the statues?",
+          "target": "artist"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_4264a56e95cad7e8.jpg",
+          "prompt": "What is this swing bridge's length?",
+          "target": "89.9",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "ponte di San Francesco di Paola -> length -> 89.9"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_12",
+    "entity_id": "Q22978403",
+    "entity_name": "Innbrücke",
+    "request": {
+      "image": "val/images/GLDv2_01b5d6187cbcdcea.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Innbrücke"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_01b5d6187cbcdcea.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Innbrücke"
+        }
+      ],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: where is oklahoma located in the united states",
+          "target": "in the Great Plains near the geographical center of the 48 contiguous states"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000323460.jpg",
+          "prompt": "What is the name of the items the hot dog are topped with?",
+          "target": "onions relish"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_01b5d6187cbcdcea.jpg",
+          "prompt": "How long is this bridge?",
+          "target": "81",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Innbrücke -> length -> 81"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_13",
+    "entity_id": "Q1698906",
+    "entity_name": "Lune Millennium Bridge",
+    "request": {
+      "image": "val/images/GLDv2_08b89e72ab886db1.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Lune Millennium Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_08b89e72ab886db1.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Lune Millennium Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_30947cf89b9c2e51.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Lune Millennium Bridge"
+        },
+        {
+          "image": "val/images/GLDv2_ab425dcae8f98105.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Lune Millennium Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who came up with the butterfly effect theory",
+          "target": "Edward Lorenz"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000516916.jpg",
+          "prompt": "What is this desk used for?",
+          "target": "office"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_08b89e72ab886db1.jpg",
+          "prompt": "What's the length of this footbridge?",
+          "target": "114",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Lune Millennium Bridge -> length -> 114"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_14",
+    "entity_id": "Q1344701",
+    "entity_name": "Ribblehead Viaduct",
+    "request": {
+      "image": "val/images/GLDv2_0ad493553f5e5e45.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Ribblehead Viaduct"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_0ad493553f5e5e45.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Ribblehead Viaduct"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_0ca86f247cd24d3d.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Ribblehead Viaduct"
+        },
+        {
+          "image": "val/images/GLDv2_11a1b83793b79841.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Ribblehead Viaduct"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: when is the next new episode of the have and the have nots",
+          "target": "September 11, 2018"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000021711.jpg",
+          "prompt": "What type of bike is on the ground?",
+          "target": "bicycle"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_15",
+    "entity_id": "Q6735430",
+    "entity_name": "Maidenhead Bridge",
+    "request": {
+      "image": "val/images/GLDv2_64ab1722523893ab.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Maidenhead Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_64ab1722523893ab.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Maidenhead Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_670aa578ef64bbc2.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Maidenhead Bridge"
+        },
+        {
+          "image": "val/images/GLDv2_78ba2935406c57b4.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Maidenhead Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: why is piper in jail in orange is the new black",
+          "target": "carrying a bag of drug-money ($50,000) to Belgium"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000313386.jpg",
+          "prompt": "What type of plane is that?",
+          "target": "passenger"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_16",
+    "entity_id": "Q13022447",
+    "entity_name": "Phan Fa Lilat bridge",
+    "request": {
+      "image": "val/images/GLDv2_0e2327192cdd86a1.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Phan Fa Lilat bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_0e2327192cdd86a1.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Phan Fa Lilat bridge"
+        }
+      ],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who is the us mens national team coach",
+          "target": "Dave Sarachan"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000402639.jpg",
+          "prompt": "Is this a room for a boy or girl?",
+          "target": "girl"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_17",
+    "entity_id": "Q7784788",
+    "entity_name": "Yavuz Sultan Selim Bridge",
+    "request": {
+      "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Yavuz Sultan Selim Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Yavuz Sultan Selim Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_295f1659ce1c3759.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Yavuz Sultan Selim Bridge"
+        },
+        {
+          "image": "val/images/GLDv2_6630fb0a36c17592.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Yavuz Sultan Selim Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: when was the last time phoenix suns were in the playoffs",
+          "target": "2009–10"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000457584.jpg",
+          "prompt": "In what year was this desert first introduced?",
+          "target": "1934"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "What is the length of the longest span of this tourist attraction?",
+          "target": "1408",
+          "hop": 1,
+          "property": "longest span",
+          "route_desc": "Yavuz Sultan Selim Bridge -> longest span -> 1408"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "How high is this toll bridge?",
+          "target": "320",
+          "hop": 1,
+          "property": "height",
+          "route_desc": "Yavuz Sultan Selim Bridge -> height -> 320"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "What is the length of this road bridge?",
+          "target": "2164",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Yavuz Sultan Selim Bridge -> length -> 2164"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "What's the clearance for this tourist attraction?",
+          "target": "73",
+          "hop": 1,
+          "property": "clearance",
+          "route_desc": "Yavuz Sultan Selim Bridge -> clearance -> 73"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "How wide is the roadway on this bridge?",
+          "target": "59",
+          "hop": 1,
+          "property": "width",
+          "route_desc": "Yavuz Sultan Selim Bridge -> width -> 59"
+        }
+      ],
+      "2hop": [
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "Which field does the bridge’s structural engineer specialize in?",
+          "target": "viaduct",
+          "hop": 2,
+          "property": "field of work",
+          "route_desc": "Yavuz Sultan Selim Bridge -> Michel Virlogeux -> field of work -> viaduct"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "What was the birthplace of the structural engineer for this toll bridge?",
+          "target": "Vichy",
+          "hop": 2,
+          "property": "place of birth",
+          "route_desc": "Yavuz Sultan Selim Bridge -> Michel Virlogeux -> place of birth -> Vichy"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "At which institution was the structural engineer of this tourist attraction educated?",
+          "target": "École des Ponts ParisTech",
+          "hop": 2,
+          "property": "educated at",
+          "route_desc": "Yavuz Sultan Selim Bridge -> Michel Virlogeux -> educated at -> École des Ponts ParisTech"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "Who is the child of the human after whom this toll bridge was named?",
+          "target": "Suleiman the Magnificent",
+          "hop": 2,
+          "property": "child",
+          "route_desc": "Yavuz Sultan Selim Bridge -> Selim I -> child -> Suleiman the Magnificent"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "How did the person this road-rail bridge is named after die?",
+          "target": "natural causes",
+          "hop": 2,
+          "property": "manner of death",
+          "route_desc": "Yavuz Sultan Selim Bridge -> Selim I -> manner of death -> natural causes"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "When did the individual for whom this road-rail bridge is named die?",
+          "target": "1520-10-02",
+          "hop": 2,
+          "property": "date of death",
+          "route_desc": "Yavuz Sultan Selim Bridge -> Selim I -> date of death -> 1520-10-02"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "Which ancient city is this road bridge in?",
+          "target": "Eshanebul",
+          "hop": 2,
+          "property": "name",
+          "route_desc": "Yavuz Sultan Selim Bridge -> Istanbul -> name -> Eshanebul"
+        },
+        {
+          "image": "val/images/GLDv2_1ece98d7db8c5e17.jpg",
+          "prompt": "Who is the head of the port city's government where this cross-sea bridge is located?",
+          "target": "Ekrem İmamoğlu",
+          "hop": 2,
+          "property": "head of government",
+          "route_desc": "Yavuz Sultan Selim Bridge -> Istanbul -> head of government -> Ekrem İmamoğlu"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_18",
+    "entity_id": "Q1056242",
+    "entity_name": "Chikugo River Lift Bridge",
+    "request": {
+      "image": "val/images/GLDv2_2c9f69349f6c5ba8.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Chikugo River Lift Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_2c9f69349f6c5ba8.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Chikugo River Lift Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_6b04ab43efaa9b1a.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Chikugo River Lift Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who has the most championship rings in basketball",
+          "target": "Bill Russell"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000488377.jpg",
+          "prompt": "What is this surf trick called?",
+          "target": "wave runner"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_2c9f69349f6c5ba8.jpg",
+          "prompt": "What is the height of this bridge?",
+          "target": "23",
+          "hop": 1,
+          "property": "height",
+          "route_desc": "Chikugo River Lift Bridge -> height -> 23"
+        },
+        {
+          "image": "val/images/GLDv2_2c9f69349f6c5ba8.jpg",
+          "prompt": "How long is this railway bridge?",
+          "target": "5072",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Chikugo River Lift Bridge -> length -> 5072"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_19",
+    "entity_id": "Q19740355",
+    "entity_name": "Pakokku Bridge",
+    "request": {
+      "image": "val/images/GLDv2_48ef9ae7270afff8.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Pakokku Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_48ef9ae7270afff8.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Pakokku Bridge"
+        }
+      ],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: first clinical gene therapy was done for the treatment of",
+          "target": "beta-thalassemia"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000301753.jpg",
+          "prompt": "What do they call running around the bases on a single hit?",
+          "target": "homerun"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_20",
+    "entity_id": "Q11438648",
+    "entity_name": "Ōshiba Bridge",
+    "request": {
+      "image": "val/images/GLDv2_5667a4ec7742eb4a.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Ōshiba Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_5667a4ec7742eb4a.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Ōshiba Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_7cd7644cfcbc6347.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Ōshiba Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: where do benthic organisms live in aquatic ecosystems",
+          "target": "at the lowest level of a body of water"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000183319.jpg",
+          "prompt": "Why is this plugged in?",
+          "target": "charging"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_21",
+    "entity_id": "Q11405665",
+    "entity_name": "Chitose bridge",
+    "request": {
+      "image": "val/images/GLDv2_6897855e7605b224.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Chitose bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_6897855e7605b224.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Chitose bridge"
+        }
+      ],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who sings the theme song for casino royale",
+          "target": "Chris Cornell"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000397063.jpg",
+          "prompt": "What is the shape?",
+          "target": "round"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_6897855e7605b224.jpg",
+          "prompt": "What's the length of this bridge's longest arch span?",
+          "target": "260",
+          "hop": 1,
+          "property": "longest span",
+          "route_desc": "Chitose bridge -> longest span -> 260"
+        },
+        {
+          "image": "val/images/GLDv2_6897855e7605b224.jpg",
+          "prompt": "What is this arch bridge's length?",
+          "target": "365",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Chitose bridge -> length -> 365"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_22",
+    "entity_id": "Q7407441",
+    "entity_name": "Sam Eckman Covered Bridge No. 92",
+    "request": {
+      "image": "val/images/GLDv2_1456aa896ffed68c.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Sam Eckman Covered Bridge No. 92"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_1456aa896ffed68c.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Sam Eckman Covered Bridge No. 92"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_b80b7e0af1c699e5.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Sam Eckman Covered Bridge No. 92"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who sings at the end of bullet by hollywood undead",
+          "target": "Petra Christensen"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000497660.jpg",
+          "prompt": "What is the horsepower of the truck pulling the load?",
+          "target": "500"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_23",
+    "entity_id": "Q5469847",
+    "entity_name": "Forksville Covered Bridge",
+    "request": {
+      "image": "val/images/GLDv2_1ed75883d5668517.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Forksville Covered Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_1ed75883d5668517.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Forksville Covered Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_7ef0bac266230544.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Forksville Covered Bridge"
+        },
+        {
+          "image": "val/images/GLDv2_d2cfdf01c3cd1464.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Forksville Covered Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: this winelands area is known as the birthplace of south africa’s wine industry",
+          "target": "The Constantia Valley"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000235784.jpg",
+          "prompt": "What kind of skiing is this person engaged in?",
+          "target": "cross country"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_24",
+    "entity_id": "Q5062318",
+    "entity_name": "Centre Street Bridge",
+    "request": {
+      "image": "val/images/GLDv2_671d1d4e40547fc6.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Centre Street Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_671d1d4e40547fc6.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Centre Street Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_d91f8d88ca181f1e.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Centre Street Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: which organisation created the topographical maps of india",
+          "target": "Great Trigonometrical Survey"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000319073.jpg",
+          "prompt": "What is the person in the photo wearing?",
+          "target": "suit"
+        }
+      ]
+    },
+    "portability": {}
+  },
+  {
+    "case_id": "val_25",
+    "entity_id": "Q2164354",
+    "entity_name": "Seven Mile Bridge",
+    "request": {
+      "image": "val/images/GLDv2_14ce2f9e20e13534.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Seven Mile Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_14ce2f9e20e13534.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Seven Mile Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_322cad1804f60235.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Seven Mile Bridge"
+        },
+        {
+          "image": "val/images/GLDv2_3bfd3fa4cccb0de8.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Seven Mile Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who sang the theme song for toy story",
+          "target": "Randy Newman"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000514468.jpg",
+          "prompt": "What is the name of the board he is on?",
+          "target": "surf board"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_14ce2f9e20e13534.jpg",
+          "prompt": "How long is this railway bridge?",
+          "target": "10887.5",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Seven Mile Bridge -> length -> 10887.5"
+        }
+      ],
+      "2hop": [
+        {
+          "image": "val/images/GLDv2_14ce2f9e20e13534.jpg",
+          "prompt": "Who or what gave its name to the archipelago where this road bridge is located?",
+          "target": "cay",
+          "hop": 2,
+          "property": "named after",
+          "route_desc": "Seven Mile Bridge -> Florida Keys -> named after -> cay"
+        },
+        {
+          "image": "val/images/GLDv2_14ce2f9e20e13534.jpg",
+          "prompt": "What is the area of the archipelago where this girder bridge is located?",
+          "target": "356",
+          "hop": 2,
+          "property": "area",
+          "route_desc": "Seven Mile Bridge -> Florida Keys -> area -> 356"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_26",
+    "entity_id": "Q2920610",
+    "entity_name": "Faidherbe Bridge",
+    "request": {
+      "image": "val/images/GLDv2_5a1b0556cc535259.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Faidherbe Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_5a1b0556cc535259.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Faidherbe Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_67783045c599cb6a.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Faidherbe Bridge"
+        },
+        {
+          "image": "val/images/GLDv2_a6e82a4155c685eb.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Faidherbe Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who won man of the match in asia cup 2018",
+          "target": "Liton Das"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000437126.jpg",
+          "prompt": "Name the material used to make this car seat shown in this picture?",
+          "target": "cloth"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_5a1b0556cc535259.jpg",
+          "prompt": "What is the length of this arch bridge?",
+          "target": "507",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Faidherbe Bridge -> length -> 507"
+        }
+      ],
+      "2hop": [
+        {
+          "image": "val/images/GLDv2_5a1b0556cc535259.jpg",
+          "prompt": "Where did the namesake of this swing bridge die?",
+          "target": "Paris",
+          "hop": 2,
+          "property": "place of death",
+          "route_desc": "Faidherbe Bridge -> Louis Faidherbe -> place of death -> Paris"
+        },
+        {
+          "image": "val/images/GLDv2_5a1b0556cc535259.jpg",
+          "prompt": "Where was the person after whom this swing bridge is named born?",
+          "target": "Lille",
+          "hop": 2,
+          "property": "place of birth",
+          "route_desc": "Faidherbe Bridge -> Louis Faidherbe -> place of birth -> Lille"
+        },
+        {
+          "image": "val/images/GLDv2_5a1b0556cc535259.jpg",
+          "prompt": "Where is the person this road bridge is named after buried?",
+          "target": "cimetière de l’Est",
+          "hop": 2,
+          "property": "place of burial",
+          "route_desc": "Faidherbe Bridge -> Louis Faidherbe -> place of burial -> cimetière de l’Est"
+        },
+        {
+          "image": "val/images/GLDv2_5a1b0556cc535259.jpg",
+          "prompt": "When did the bridge’s namesake die?",
+          "target": "1889-09-28",
+          "hop": 2,
+          "property": "date of death",
+          "route_desc": "Faidherbe Bridge -> Louis Faidherbe -> date of death -> 1889-09-28"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_27",
+    "entity_id": "Q1138720",
+    "entity_name": "Craigellachie Bridge",
+    "request": {
+      "image": "val/images/GLDv2_5642551c5f0b5ee5.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Craigellachie Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_5642551c5f0b5ee5.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Craigellachie Bridge"
+        }
+      ],
+      "image_rephrase": [
+        {
+          "image": "val/images/GLDv2_955656ef52183414.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Craigellachie Bridge"
+        },
+        {
+          "image": "val/images/GLDv2_aace338fe1c92c1c.jpg",
+          "prompt": "What is the name of this bridge?",
+          "target": "Craigellachie Bridge"
+        }
+      ]
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who was at the end of batman bad blood",
+          "target": "Batgirl"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000518287.jpg",
+          "prompt": "What part of the face is the toothbrush in?",
+          "target": "mouth"
+        }
+      ]
+    },
+    "portability": {
+      "2hop": [
+        {
+          "image": "val/images/GLDv2_5642551c5f0b5ee5.jpg",
+          "prompt": "When was the structural engineer of this steel bridge born?",
+          "target": "1757-08-09",
+          "hop": 2,
+          "property": "date of birth",
+          "route_desc": "Craigellachie Bridge -> Thomas Telford -> date of birth -> 1757-08-09"
+        },
+        {
+          "image": "val/images/GLDv2_5642551c5f0b5ee5.jpg",
+          "prompt": "When did the structural engineer for this road bridge die?",
+          "target": "1834-09-02",
+          "hop": 2,
+          "property": "date of death",
+          "route_desc": "Craigellachie Bridge -> Thomas Telford -> date of death -> 1834-09-02"
+        },
+        {
+          "image": "val/images/GLDv2_5642551c5f0b5ee5.jpg",
+          "prompt": "What is the country of citizenship of the structural engineer of this steel bridge?",
+          "target": "United Kingdom of Great Britain and Ireland",
+          "hop": 2,
+          "property": "country of citizenship",
+          "route_desc": "Craigellachie Bridge -> Thomas Telford -> country of citizenship -> United Kingdom of Great Britain and Ireland"
+        },
+        {
+          "image": "val/images/GLDv2_5642551c5f0b5ee5.jpg",
+          "prompt": "What field does the structural engineer for this arch bridge work in?",
+          "target": "construction industry",
+          "hop": 2,
+          "property": "field of work",
+          "route_desc": "Craigellachie Bridge -> Thomas Telford -> field of work -> construction industry"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_28",
+    "entity_id": "Q11431665",
+    "entity_name": "Yumemai Bridge",
+    "request": {
+      "image": "val/images/GLDv2_e4e4707ccc2920c9.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Yumemai Bridge"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_e4e4707ccc2920c9.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Yumemai Bridge"
+        }
+      ],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: who sings the theme song for freaks and geeks",
+          "target": "Joan Jett"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000380459.jpg",
+          "prompt": "What flavor is this pastry?",
+          "target": "chocolate"
+        }
+      ]
+    },
+    "portability": {
+      "1hop": [
+        {
+          "image": "val/images/GLDv2_e4e4707ccc2920c9.jpg",
+          "prompt": "How long is this bridge?",
+          "target": "940",
+          "hop": 1,
+          "property": "length",
+          "route_desc": "Yumemai Bridge -> length -> 940"
+        },
+        {
+          "image": "val/images/GLDv2_e4e4707ccc2920c9.jpg",
+          "prompt": "How wide is this pontoon bridge?",
+          "target": "33.8",
+          "hop": 1,
+          "property": "width",
+          "route_desc": "Yumemai Bridge -> width -> 33.8"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "val_29",
+    "entity_id": "Q1568911",
+    "entity_name": "Norrbro",
+    "request": {
+      "image": "val/images/GLDv2_1912c963caa6001d.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Norrbro"
+    },
+    "generality": {
+      "text_rephrase": [
+        {
+          "image": "val/images/GLDv2_1912c963caa6001d.jpg",
+          "prompt": "What building is depicted in this photograph?",
+          "target": "Norrbro"
+        }
+      ],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [
+        {
+          "image": null,
+          "prompt": "nq question: when does season 5 forged in fire start",
+          "target": "March 7, 2018"
+        }
+      ],
+      "image_loc": [
+        {
+          "image": "val2014/COCO_val2014_000000500200.jpg",
+          "prompt": "What kind of container are the flowers in?",
+          "target": "vase"
+        }
+      ]
+    },
+    "portability": {}
+  }
+]

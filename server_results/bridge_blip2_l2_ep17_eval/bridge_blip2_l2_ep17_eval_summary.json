@@ -1,0 +1,23 @@
+{
+  "model": "blip2-opt-2.7b",
+  "mode": "edited",
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/records/vead/blip2-opt-2.7b/blip2_bridge_noport_only_vis_l2-2026.04.13-19.22.37/checkpoints/epoch-17-i-500-ema_loss-0.3075",
+  "config_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/blip2-opt-2.7b-bridge-only-vis-l2.yaml",
+  "edit_data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/edit_30_bridge_val_eval_only_vis.json",
+  "entity_recognition": {
+    "count": 70,
+    "strict_correct": 0,
+    "loose_correct": 1,
+    "strict_acc": 0.0,
+    "loose_acc": 0.014285714285714285,
+    "out_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_entity_recog_ckpt_blip2_l2_ep17_i500.jsonl"
+  },
+  "open_end": {
+    "count": 778,
+    "strict_correct": 0,
+    "loose_correct": 2,
+    "strict_acc": 0.0,
+    "loose_acc": 0.002570694087403599,
+    "out_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_openend_ckpt_blip2_l2_ep17_i500.jsonl"
+  }
+}

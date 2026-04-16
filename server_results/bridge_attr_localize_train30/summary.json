@@ -1,0 +1,46 @@
+{
+  "sample_count": 30,
+  "top_visual_layers": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "top_text_layers": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "top_joint_layers": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "top_attention_layers": [
+    31,
+    30,
+    25,
+    6,
+    26
+  ],
+  "top_mlp_layers": [
+    30,
+    28,
+    27,
+    29,
+    31
+  ],
+  "consensus_layers": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "output_dir": "records/bridge_attr_localize_train30"
+}

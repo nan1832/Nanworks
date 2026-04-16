@@ -1,0 +1,46 @@
+{
+  "sample_count": 4,
+  "top_visual_layers": [
+    4,
+    15,
+    2,
+    5,
+    3
+  ],
+  "top_text_layers": [
+    0,
+    1,
+    2,
+    4,
+    3
+  ],
+  "top_joint_layers": [
+    1,
+    0,
+    4,
+    2,
+    3
+  ],
+  "top_attention_layers": [
+    15,
+    31,
+    25,
+    30,
+    8
+  ],
+  "top_mlp_layers": [
+    29,
+    26,
+    8,
+    28,
+    24
+  ],
+  "consensus_layers": [
+    4,
+    2,
+    3,
+    15,
+    0
+  ],
+  "output_dir": "records/bridge_attr_localize_blip2_pilot4"
+}

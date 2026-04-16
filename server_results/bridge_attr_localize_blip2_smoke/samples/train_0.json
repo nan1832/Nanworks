@@ -1,0 +1,56 @@
+{
+  "sample_id": "train_0",
+  "entity_name": "Chikugo River Lift Bridge",
+  "target_text": "Chikugo River Lift Bridge",
+  "target_first_token": "ĠCh",
+  "pred_token": "\n",
+  "prompt": "What is the name of this bridge? The answer is:",
+  "image_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_train/bridge_images/GLDv2_084bb592a552d066.jpg",
+  "track_position": 44,
+  "anchor_word": "bridge",
+  "text_anchor_ids": [
+    44
+  ],
+  "vt_range": [
+    0,
+    32
+  ],
+  "layers": [
+    {
+      "layer": 0,
+      "visual_rep_norm": 74.27204895019531,
+      "visual_track_cos": 0.652321994304657,
+      "layer_target_logit": 0.6613211631774902,
+      "layer_target_prob": 0.00018924751202575862,
+      "layer_pred_logit": 4.0917534828186035,
+      "layer_pred_prob": 0.00584585452452302,
+      "att_target_logit": 0.10521173477172852,
+      "att_target_prob": 0.00011245540372328833,
+      "att_target_pxv": 1.1831628110182263e-05,
+      "mlp_target_logit": 0.08350929617881775,
+      "mlp_target_prob": 0.0001198042300529778,
+      "mlp_target_pxv": 1.0004766930969342e-05,
+      "kl_visual": 0.042805179953575134,
+      "kl_text_anchor": 3.265549421310425,
+      "kl_joint": 2.637009620666504
+    },
+    {
+      "layer": 1,
+      "visual_rep_norm": 82.54405212402344,
+      "visual_track_cos": 0.763706386089325,
+      "layer_target_logit": 0.3579111099243164,
+      "layer_target_prob": 0.00016716166283003986,
+      "layer_pred_logit": 3.403169870376587,
+      "layer_pred_prob": 0.0035129806492477655,
+      "att_target_logit": 0.7547493577003479,
+      "att_target_prob": 2.4152932383003645e-05,
+      "att_target_pxv": 1.8229410202651934e-05,
+      "mlp_target_logit": -0.27784019708633423,
+      "mlp_target_prob": 7.706893666181713e-05,
+      "mlp_target_pxv": -2.1412848551353482e-05,
+      "kl_visual": 0.03565356880426407,
+      "kl_text_anchor": 3.097320556640625,
+      "kl_joint": 2.95890474319458
+    }
+  ]
+}

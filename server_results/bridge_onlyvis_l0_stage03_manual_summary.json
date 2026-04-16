@@ -1,0 +1,33 @@
+{
+  "layer": "l0",
+  "checkpoint": "epoch-134-i-4000-ema_loss-0.2993",
+  "ema_loss": 0.2993,
+  "entity_recognition": {
+    "total": 70,
+    "strict_correct": 25,
+    "strict_acc": 0.35714285714285715,
+    "loose_correct": 34,
+    "loose_acc": 0.4857142857142857
+  },
+  "open_end_qa": {
+    "total": 778,
+    "strict_correct": 119,
+    "strict_acc": 0.15295629820051415,
+    "loose_correct": 194,
+    "loose_acc": 0.2493573264781491
+  },
+  "official_eval": {
+    "reliability_acc": 0.8619,
+    "generality_text_rephrase_acc": 0.8544,
+    "generality_image_rephrase_acc": 0.8738,
+    "locality_text_loc_acc": 1.0,
+    "locality_image_loc_acc": 1.0,
+    "portability_overall_acc": 0.3002,
+    "portability_overall_count": 62,
+    "portability_1hop_acc": 0.2969,
+    "portability_1hop_count": 32,
+    "portability_2hop_acc": 0.3037,
+    "portability_2hop_count": 30
+  },
+  "note": "Official metrics were read from the bridge_Bport_eval.py console summary after evaluation completed; the wrapper's auto-read of mean_results.json failed due a path mismatch."
+}

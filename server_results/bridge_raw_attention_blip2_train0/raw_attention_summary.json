@@ -1,0 +1,2964 @@
+{
+  "sample_id": "train_0",
+  "entity_name": "Chikugo River Lift Bridge",
+  "target_text": "Chikugo River Lift Bridge",
+  "pred_token": "\n",
+  "prompt": "What is the name of this bridge? The answer is:",
+  "image_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_train/bridge_images/GLDv2_084bb592a552d066.jpg",
+  "vt_range": [
+    0,
+    32
+  ],
+  "track_position": 44,
+  "query_labels": [
+    "q00",
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "q21",
+    "q22",
+    "q23",
+    "q24",
+    "q25",
+    "q26",
+    "q27",
+    "q28",
+    "q29",
+    "q30",
+    "q31"
+  ],
+  "token_labels": [
+    "<eos>",
+    "What",
+    "Ġis",
+    "Ġthe",
+    "Ġname",
+    "Ġof",
+    "Ġthis",
+    "Ġbridge",
+    "?",
+    "ĠThe",
+    "Ġanswer",
+    "Ġis",
+    ":"
+  ],
+  "token_positions": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "selected_layers": [
+    4,
+    15,
+    29
+  ],
+  "layer_records": [
+    {
+      "layer": 0,
+      "query_mass": 0.6316027641296387,
+      "text_mass": 0.3683972004801035,
+      "self_mass": 0.01786070503294468,
+      "top_query_tokens": [
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.027770191431045532
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.027087971568107605
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.02500954270362854
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.02401711419224739
+        },
+        {
+          "label": "q18",
+          "index": 18,
+          "weight": 0.023931710049510002
+        },
+        {
+          "label": "q10",
+          "index": 10,
+          "weight": 0.023926466703414917
+        },
+        {
+          "label": "q16",
+          "index": 16,
+          "weight": 0.023910440504550934
+        },
+        {
+          "label": "q23",
+          "index": 23,
+          "weight": 0.02389666810631752
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.07477718591690063
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.03232462331652641
+        },
+        {
+          "label": "What",
+          "index": 1,
+          "weight": 0.02986196242272854
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.02882341668009758
+        },
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.028718462213873863
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.025674041360616684
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.024437233805656433
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.023336468264460564
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "query_mass": 0.057393934577703476,
+      "text_mass": 0.9426060756668448,
+      "self_mass": 0.09298951923847198,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.04387052357196808
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.009153415448963642
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.0020690548699349165
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.00018433702643960714
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.00018085094052366912
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.0001188476089737378
+        },
+        {
+          "label": "q24",
+          "index": 24,
+          "weight": 0.00011315810115775093
+        },
+        {
+          "label": "q08",
+          "index": 8,
+          "weight": 0.00011011051537934691
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.19387619197368622
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.17523100972175598
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.09298951923847198
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.0903555154800415
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.07286997884511948
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.07040365785360336
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.06842891871929169
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.047119274735450745
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "query_mass": 0.09561820328235626,
+      "text_mass": 0.9043817999772727,
+      "self_mass": 0.07742447406053543,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.07642202079296112
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.009244279935956001
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.0039664823561906815
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.0009384289151057601
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.0005891240434721112
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.00042587274219840765
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.0003109570825472474
+        },
+        {
+          "label": "q20",
+          "index": 20,
+          "weight": 0.0002934074145741761
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.22561585903167725
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.15261654555797577
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.10318966954946518
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.07742447406053543
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.07328001409769058
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.06916042417287827
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.06634607166051865
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.05776778608560562
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "query_mass": 0.3051721155643463,
+      "text_mass": 0.69482785416767,
+      "self_mass": 0.07629969716072083,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.27750900387763977
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.012030385434627533
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.004237475339323282
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.0012344102142378688
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.001231173169799149
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.0006126122316345572
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.0005546790780499578
+        },
+        {
+          "label": "q21",
+          "index": 21,
+          "weight": 0.0004998614313080907
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.1830744594335556
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.12416206300258636
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.07629969716072083
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.06527604162693024
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.05994956195354462
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.05602271854877472
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.04563898220658302
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.03596360981464386
+        }
+      ]
+    },
+    {
+      "layer": 4,
+      "query_mass": 0.4787766933441162,
+      "text_mass": 0.5212232177145779,
+      "self_mass": 0.057303376495838165,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.3166511058807373
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.06526470929384232
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.03353317826986313
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.011382538825273514
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.00890160072594881
+        },
+        {
+          "label": "q24",
+          "index": 24,
+          "weight": 0.003635949920862913
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.0034712336491793394
+        },
+        {
+          "label": "q18",
+          "index": 18,
+          "weight": 0.003032088279724121
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.1626129299402237
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.07433126121759415
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.057303376495838165
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.03785768523812294
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.03283135965466499
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.03157404437661171
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.03155353292822838
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.027647502720355988
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "query_mass": 0.5805548429489136,
+      "text_mass": 0.41944514121860266,
+      "self_mass": 0.04211790859699249,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.2867061197757721
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.1396145522594452
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.027561381459236145
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.016702909022569656
+        },
+        {
+          "label": "q23",
+          "index": 23,
+          "weight": 0.015525643713772297
+        },
+        {
+          "label": "q18",
+          "index": 18,
+          "weight": 0.013965105637907982
+        },
+        {
+          "label": "q16",
+          "index": 16,
+          "weight": 0.013538692146539688
+        },
+        {
+          "label": "q10",
+          "index": 10,
+          "weight": 0.009072464890778065
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.16715025901794434
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.04956252872943878
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.04211790859699249
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.025425830855965614
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.025197787210345268
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.02062571980059147
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.01792689599096775
+        },
+        {
+          "label": "Ġis",
+          "index": 2,
+          "weight": 0.015351995825767517
+        }
+      ]
+    },
+    {
+      "layer": 6,
+      "query_mass": 0.5425925254821777,
+      "text_mass": 0.45740747917443514,
+      "self_mass": 0.04232922941446304,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.3346216082572937
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.10453791171312332
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.023097973316907883
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.011319562792778015
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.010507393628358841
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.007744086906313896
+        },
+        {
+          "label": "q23",
+          "index": 23,
+          "weight": 0.006574545055627823
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.006390356458723545
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.21428954601287842
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.05031520128250122
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.04232922941446304
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.024313371628522873
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.022853029891848564
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.022654665634036064
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.01600758731365204
+        },
+        {
+          "label": "Ġis",
+          "index": 2,
+          "weight": 0.01534320879727602
+        }
+      ]
+    },
+    {
+      "layer": 7,
+      "query_mass": 0.48587340116500854,
+      "text_mass": 0.5141265448182821,
+      "self_mass": 0.05084102600812912,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.3464428782463074
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.07156304270029068
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.013629695400595665
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.008163243532180786
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.0052975998260080814
+        },
+        {
+          "label": "q23",
+          "index": 23,
+          "weight": 0.0036755921319127083
+        },
+        {
+          "label": "q18",
+          "index": 18,
+          "weight": 0.003577322466298938
+        },
+        {
+          "label": "q16",
+          "index": 16,
+          "weight": 0.0035542179830372334
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.19892200827598572
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.0677696019411087
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.05084102600812912
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.033693864941596985
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.03126510605216026
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.027770843356847763
+        },
+        {
+          "label": "Ġis",
+          "index": 2,
+          "weight": 0.019959451630711555
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.019405441358685493
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "query_mass": 0.4718714952468872,
+      "text_mass": 0.5281284656375647,
+      "self_mass": 0.060969091951847076,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.2979692220687866
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.08488736301660538
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.024138346314430237
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.01556655764579773
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.009452804923057556
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.006429827772080898
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.005206093192100525
+        },
+        {
+          "label": "q16",
+          "index": 16,
+          "weight": 0.0030779875814914703
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.19632436335086823
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.060969091951847076
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.04680908843874931
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.040371477603912354
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.04024793580174446
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.03164570406079292
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.022000249475240707
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.021580591797828674
+        }
+      ]
+    },
+    {
+      "layer": 9,
+      "query_mass": 0.47292113304138184,
+      "text_mass": 0.5270788474008441,
+      "self_mass": 0.060940783470869064,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.2909463942050934
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.08837926387786865
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.03346080705523491
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.011240238323807716
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.010700581595301628
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.0063430448062717915
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.0046364376321434975
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.0033747940324246883
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.18388542532920837
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.06273071467876434
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.060940783470869064
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.04425366222858429
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.03906245157122612
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.029718315228819847
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.026010578498244286
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.018475882709026337
+        }
+      ]
+    },
+    {
+      "layer": 10,
+      "query_mass": 0.49656179547309875,
+      "text_mass": 0.5034382119774818,
+      "self_mass": 0.06349751353263855,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.3394686281681061
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.06202438846230507
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.021338406950235367
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.012892140075564384
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.007680357433855534
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.005500506609678268
+        },
+        {
+          "label": "q10",
+          "index": 10,
+          "weight": 0.005386906675994396
+        },
+        {
+          "label": "q16",
+          "index": 16,
+          "weight": 0.005197911523282528
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.15530891716480255
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.06349751353263855
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.05409035086631775
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.04937314987182617
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.03875570744276047
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.032183289527893066
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.021331317722797394
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.019628474488854408
+        }
+      ]
+    },
+    {
+      "layer": 11,
+      "query_mass": 0.5533818006515503,
+      "text_mass": 0.4466182207688689,
+      "self_mass": 0.06543393433094025,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.3485860228538513
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.08016720414161682
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.023689504712820053
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.021765505895018578
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.011607476510107517
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.011430571787059307
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.005778408609330654
+        },
+        {
+          "label": "q10",
+          "index": 10,
+          "weight": 0.005538539960980415
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.12770795822143555
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.06543393433094025
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.05193691700696945
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.04654567688703537
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.03244706988334656
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.0315001904964447
+        },
+        {
+          "label": "What",
+          "index": 1,
+          "weight": 0.01764686591923237
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.016508640721440315
+        }
+      ]
+    },
+    {
+      "layer": 12,
+      "query_mass": 0.5957328081130981,
+      "text_mass": 0.4042671946808696,
+      "self_mass": 0.05601469799876213,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.44935470819473267
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.05439641326665878
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.017690561711788177
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.008226500824093819
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.007858041673898697
+        },
+        {
+          "label": "q10",
+          "index": 10,
+          "weight": 0.007517500780522823
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.0074256113730371
+        },
+        {
+          "label": "q16",
+          "index": 16,
+          "weight": 0.007149477489292622
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.13231760263442993
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.05601469799876213
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.050991810858249664
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.03045012056827545
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.028544267639517784
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.02250022441148758
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.018298691138625145
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.014849449507892132
+        }
+      ]
+    },
+    {
+      "layer": 13,
+      "query_mass": 0.6033702492713928,
+      "text_mass": 0.39662971114739776,
+      "self_mass": 0.058561231940984726,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.4697573184967041
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.05494207516312599
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.0152936652302742
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.008937104605138302
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.00640165526419878
+        },
+        {
+          "label": "q10",
+          "index": 10,
+          "weight": 0.006078342907130718
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.00598102156072855
+        },
+        {
+          "label": "q18",
+          "index": 18,
+          "weight": 0.0059425681829452515
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.09070941805839539
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.06803219020366669
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.058561231940984726
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.057427242398262024
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.03789735957980156
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.025728724896907806
+        },
+        {
+          "label": "What",
+          "index": 1,
+          "weight": 0.011670868843793869
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.009838822297751904
+        }
+      ]
+    },
+    {
+      "layer": 14,
+      "query_mass": 0.6322751641273499,
+      "text_mass": 0.36772493831813335,
+      "self_mass": 0.05598510801792145,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.5014966130256653
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.05661267787218094
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.012367185205221176
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.0095079829916358
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.00614528264850378
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.006141413003206253
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.004932594019919634
+        },
+        {
+          "label": "q10",
+          "index": 10,
+          "weight": 0.004662437364459038
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.10498186945915222
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.05598510801792145
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.04622379690408707
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.03913307934999466
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.036500103771686554
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.028586355969309807
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.01095515675842762
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.010654685087502003
+        }
+      ]
+    },
+    {
+      "layer": 15,
+      "query_mass": 0.6104494333267212,
+      "text_mass": 0.38955063838511705,
+      "self_mass": 0.0666857585310936,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.5094811916351318
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.024374166503548622
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.015516549348831177
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.0068503450602293015
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.006195445545017719
+        },
+        {
+          "label": "q10",
+          "index": 10,
+          "weight": 0.005644894205033779
+        },
+        {
+          "label": "q16",
+          "index": 16,
+          "weight": 0.0054155378602445126
+        },
+        {
+          "label": "q18",
+          "index": 18,
+          "weight": 0.005399538204073906
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.07886215299367905
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.0666857585310936
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.055235590785741806
+        },
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.05495551973581314
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.035587310791015625
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.031034285202622414
+        },
+        {
+          "label": "What",
+          "index": 1,
+          "weight": 0.0135475043207407
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.011638966389000416
+        }
+      ]
+    },
+    {
+      "layer": 16,
+      "query_mass": 0.6288231611251831,
+      "text_mass": 0.37117685563862324,
+      "self_mass": 0.06006346270442009,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.525264322757721
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.01315183937549591
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.011661146767437458
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.007502623368054628
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.007012503687292337
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.006937163881957531
+        },
+        {
+          "label": "q10",
+          "index": 10,
+          "weight": 0.006771039683371782
+        },
+        {
+          "label": "q16",
+          "index": 16,
+          "weight": 0.006499296985566616
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.07247918844223022
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.07093609869480133
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.06006346270442009
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.034451670944690704
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.029106484726071358
+        },
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.02202911302447319
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.020132262259721756
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.013962464407086372
+        }
+      ]
+    },
+    {
+      "layer": 17,
+      "query_mass": 0.6696467399597168,
+      "text_mass": 0.33035322604700923,
+      "self_mass": 0.04410102218389511,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.5017606616020203
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.045509278774261475
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.016901955008506775
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.013191279955208302
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.013183257542550564
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.01032179594039917
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.00974726676940918
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.008821818977594376
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.05568837374448776
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.054627254605293274
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.04410102218389511
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.04307616129517555
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.040452804416418076
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.019837502390146255
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.015377589501440525
+        },
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.012863692827522755
+        }
+      ]
+    },
+    {
+      "layer": 18,
+      "query_mass": 0.7449662685394287,
+      "text_mass": 0.2550337119027972,
+      "self_mass": 0.029964163899421692,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.5982214212417603
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.01813693158328533
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.017158523201942444
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.016914017498493195
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.015222370624542236
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.013162900693714619
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.012710647657513618
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.007407851982861757
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.04585069790482521
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.029964163899421692
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.02765844389796257
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.026811838150024414
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.021618174389004707
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.017362473532557487
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.015885332599282265
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.015306340530514717
+        }
+      ]
+    },
+    {
+      "layer": 19,
+      "query_mass": 0.6540243029594421,
+      "text_mass": 0.34597575664520264,
+      "self_mass": 0.045333556830883026,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.4369885325431824
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.06005231663584709
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.022285349667072296
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.016846053302288055
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.016326863318681717
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.011697148904204369
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.01021159440279007
+        },
+        {
+          "label": "q09",
+          "index": 9,
+          "weight": 0.008887866511940956
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.060595039278268814
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.05053403601050377
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.045333556830883026
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.03147266432642937
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.02954556979238987
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.023413926362991333
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.02163681760430336
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.020390566438436508
+        }
+      ]
+    },
+    {
+      "layer": 20,
+      "query_mass": 0.7379788160324097,
+      "text_mass": 0.26202115416526794,
+      "self_mass": 0.043944962322711945,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.42041659355163574
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.04971595108509064
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.0371621772646904
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.024365045130252838
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.02344740554690361
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.01711103320121765
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.014341008849442005
+        },
+        {
+          "label": "q24",
+          "index": 24,
+          "weight": 0.010571056976914406
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.043944962322711945
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.042196229100227356
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.02909090742468834
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.02846754714846611
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.024569280445575714
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.02343788370490074
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.016261104494333267
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.011808022856712341
+        }
+      ]
+    },
+    {
+      "layer": 21,
+      "query_mass": 0.7570940256118774,
+      "text_mass": 0.24290598928928375,
+      "self_mass": 0.031023096293210983,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.4701613485813141
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.07398778200149536
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.026874683797359467
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.026428820565342903
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.020674243569374084
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.014821415767073631
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.014710825867950916
+        },
+        {
+          "label": "q11",
+          "index": 11,
+          "weight": 0.008814981207251549
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.04114128276705742
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.03927234560251236
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.031023096293210983
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.02306915447115898
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.0191391259431839
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.01738087646663189
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.017116056755185127
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.012101983651518822
+        }
+      ]
+    },
+    {
+      "layer": 22,
+      "query_mass": 0.7891584634780884,
+      "text_mass": 0.21084155095741153,
+      "self_mass": 0.021596292033791542,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.48842984437942505
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.04738244414329529
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.024780940264463425
+        },
+        {
+          "label": "q07",
+          "index": 7,
+          "weight": 0.0182302575558424
+        },
+        {
+          "label": "q28",
+          "index": 28,
+          "weight": 0.016849402338266373
+        },
+        {
+          "label": "q17",
+          "index": 17,
+          "weight": 0.016585994511842728
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.016291150823235512
+        },
+        {
+          "label": "q24",
+          "index": 24,
+          "weight": 0.014832019805908203
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.044151999056339264
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.040300820022821426
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.021596292033791542
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.020327527076005936
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.019179275259375572
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.01390828751027584
+        },
+        {
+          "label": "What",
+          "index": 1,
+          "weight": 0.01064738817512989
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.00873839482665062
+        }
+      ]
+    },
+    {
+      "layer": 23,
+      "query_mass": 0.7742860913276672,
+      "text_mass": 0.22571386792697012,
+      "self_mass": 0.02325345017015934,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.45842066407203674
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.03846103698015213
+        },
+        {
+          "label": "q28",
+          "index": 28,
+          "weight": 0.024314701557159424
+        },
+        {
+          "label": "q11",
+          "index": 11,
+          "weight": 0.022033285349607468
+        },
+        {
+          "label": "q14",
+          "index": 14,
+          "weight": 0.018652673810720444
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.01579780876636505
+        },
+        {
+          "label": "q06",
+          "index": 6,
+          "weight": 0.015749452635645866
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.015650777146220207
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.08999922126531601
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.028552386909723282
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.02325345017015934
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.018812324851751328
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.014037661254405975
+        },
+        {
+          "label": "What",
+          "index": 1,
+          "weight": 0.01150554046034813
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.010159291326999664
+        },
+        {
+          "label": "Ġis",
+          "index": 2,
+          "weight": 0.006768427789211273
+        }
+      ]
+    },
+    {
+      "layer": 24,
+      "query_mass": 0.8321506381034851,
+      "text_mass": 0.1678494676016271,
+      "self_mass": 0.008978002704679966,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.497863233089447
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.04374266043305397
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.03774270787835121
+        },
+        {
+          "label": "q11",
+          "index": 11,
+          "weight": 0.03233734890818596
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.03144397586584091
+        },
+        {
+          "label": "q20",
+          "index": 20,
+          "weight": 0.02494262531399727
+        },
+        {
+          "label": "q06",
+          "index": 6,
+          "weight": 0.022134073078632355
+        },
+        {
+          "label": "q28",
+          "index": 28,
+          "weight": 0.020703572779893875
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.09324902296066284
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.012892019934952259
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.00980926863849163
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.008978002704679966
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.006555273197591305
+        },
+        {
+          "label": "Ġis",
+          "index": 2,
+          "weight": 0.005621510092169046
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.005593414418399334
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.00483785942196846
+        }
+      ]
+    },
+    {
+      "layer": 25,
+      "query_mass": 0.8824359774589539,
+      "text_mass": 0.11756410775706172,
+      "self_mass": 0.015211472287774086,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.7235498428344727
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.027109939604997635
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.015783462673425674
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.01486150361597538
+        },
+        {
+          "label": "q06",
+          "index": 6,
+          "weight": 0.009362969547510147
+        },
+        {
+          "label": "q28",
+          "index": 28,
+          "weight": 0.008564111776649952
+        },
+        {
+          "label": "q20",
+          "index": 20,
+          "weight": 0.008423974737524986
+        },
+        {
+          "label": "q01",
+          "index": 1,
+          "weight": 0.007759144529700279
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.03307287395000458
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.018169773742556572
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.015211472287774086
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.013998614624142647
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.005847906228154898
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.0052018314599990845
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.004955923184752464
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.004720190539956093
+        }
+      ]
+    },
+    {
+      "layer": 26,
+      "query_mass": 0.8402634859085083,
+      "text_mass": 0.1597364677581936,
+      "self_mass": 0.021937953308224678,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.5342053174972534
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.0433330163359642
+        },
+        {
+          "label": "q28",
+          "index": 28,
+          "weight": 0.035863593220710754
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.03299643099308014
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.031086768954992294
+        },
+        {
+          "label": "q11",
+          "index": 11,
+          "weight": 0.029185283929109573
+        },
+        {
+          "label": "q20",
+          "index": 20,
+          "weight": 0.021057553589344025
+        },
+        {
+          "label": "q06",
+          "index": 6,
+          "weight": 0.020544525235891342
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.0457894541323185
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.039289023727178574
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.021937953308224678
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.017875101417303085
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.00666358508169651
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.006572916638106108
+        },
+        {
+          "label": "Ġanswer",
+          "index": 10,
+          "weight": 0.006223822012543678
+        },
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.004228013567626476
+        }
+      ]
+    },
+    {
+      "layer": 27,
+      "query_mass": 0.9190499782562256,
+      "text_mass": 0.0809500299510546,
+      "self_mass": 0.016576118767261505,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.5789189338684082
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.10982619225978851
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.053619563579559326
+        },
+        {
+          "label": "q06",
+          "index": 6,
+          "weight": 0.023275092244148254
+        },
+        {
+          "label": "q28",
+          "index": 28,
+          "weight": 0.021264804527163506
+        },
+        {
+          "label": "q11",
+          "index": 11,
+          "weight": 0.019868766888976097
+        },
+        {
+          "label": "q20",
+          "index": 20,
+          "weight": 0.019527148455381393
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.015369154512882233
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.026609811931848526
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.017228687182068825
+        },
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.016576118767261505
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.00748011888936162
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.0023434406612068415
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.002078353427350521
+        },
+        {
+          "label": "<eos>",
+          "index": 0,
+          "weight": 0.0019967067055404186
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.001659537316299975
+        }
+      ]
+    },
+    {
+      "layer": 28,
+      "query_mass": 0.8767343759536743,
+      "text_mass": 0.1232656566426158,
+      "self_mass": 0.02942103147506714,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.43293339014053345
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.13523563742637634
+        },
+        {
+          "label": "q31",
+          "index": 31,
+          "weight": 0.04200778156518936
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.0418490394949913
+        },
+        {
+          "label": "q08",
+          "index": 8,
+          "weight": 0.027536174282431602
+        },
+        {
+          "label": "q28",
+          "index": 28,
+          "weight": 0.018880479037761688
+        },
+        {
+          "label": "q06",
+          "index": 6,
+          "weight": 0.018778067082166672
+        },
+        {
+          "label": "q20",
+          "index": 20,
+          "weight": 0.018569502979516983
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.02942103147506714
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.018584690988063812
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.017536865547299385
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.01449110172688961
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.007550049107521772
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.006893183570355177
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.0066656190901994705
+        },
+        {
+          "label": "What",
+          "index": 1,
+          "weight": 0.00460376963019371
+        }
+      ]
+    },
+    {
+      "layer": 29,
+      "query_mass": 0.8457571268081665,
+      "text_mass": 0.1542427644599229,
+      "self_mass": 0.06615279614925385,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.59650719165802
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.12883096933364868
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.01263207197189331
+        },
+        {
+          "label": "q28",
+          "index": 28,
+          "weight": 0.011316116899251938
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.009149233810603619
+        },
+        {
+          "label": "q06",
+          "index": 6,
+          "weight": 0.0077581098303198814
+        },
+        {
+          "label": "q21",
+          "index": 21,
+          "weight": 0.007517168298363686
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.006824352778494358
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.06615279614925385
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.0229802168905735
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.02103312313556671
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.008240731433033943
+        },
+        {
+          "label": "Ġname",
+          "index": 4,
+          "weight": 0.007636586204171181
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.006848026532679796
+        },
+        {
+          "label": "Ġis",
+          "index": 2,
+          "weight": 0.004571779631078243
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.004277595318853855
+        }
+      ]
+    },
+    {
+      "layer": 30,
+      "query_mass": 0.887872040271759,
+      "text_mass": 0.11212805571267381,
+      "self_mass": 0.0400996208190918,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.7549020648002625
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.035593181848526
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.015927691012620926
+        },
+        {
+          "label": "q11",
+          "index": 11,
+          "weight": 0.011167643591761589
+        },
+        {
+          "label": "q24",
+          "index": 24,
+          "weight": 0.0069162300787866116
+        },
+        {
+          "label": "q20",
+          "index": 20,
+          "weight": 0.005511849652975798
+        },
+        {
+          "label": "q14",
+          "index": 14,
+          "weight": 0.0047777858562767506
+        },
+        {
+          "label": "q08",
+          "index": 8,
+          "weight": 0.004675386007875204
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.0400996208190918
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.025112150236964226
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.02261367067694664
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.005192852579057217
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.003836178220808506
+        },
+        {
+          "label": "Ġis",
+          "index": 2,
+          "weight": 0.003179847029969096
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.002908760914579034
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.001958462642505765
+        }
+      ]
+    },
+    {
+      "layer": 31,
+      "query_mass": 0.8490857481956482,
+      "text_mass": 0.1509142522700131,
+      "self_mass": 0.06095273792743683,
+      "top_query_tokens": [
+        {
+          "label": "q00",
+          "index": 0,
+          "weight": 0.7061256170272827
+        },
+        {
+          "label": "q13",
+          "index": 13,
+          "weight": 0.04979224130511284
+        },
+        {
+          "label": "q22",
+          "index": 22,
+          "weight": 0.012445610016584396
+        },
+        {
+          "label": "q11",
+          "index": 11,
+          "weight": 0.010274380445480347
+        },
+        {
+          "label": "q20",
+          "index": 20,
+          "weight": 0.008254442363977432
+        },
+        {
+          "label": "q15",
+          "index": 15,
+          "weight": 0.007418214343488216
+        },
+        {
+          "label": "q21",
+          "index": 21,
+          "weight": 0.0052283513359725475
+        },
+        {
+          "label": "q03",
+          "index": 3,
+          "weight": 0.005043841432780027
+        }
+      ],
+      "top_text_tokens": [
+        {
+          "label": ":",
+          "index": 12,
+          "weight": 0.06095273792743683
+        },
+        {
+          "label": "ĠThe",
+          "index": 9,
+          "weight": 0.027537457644939423
+        },
+        {
+          "label": "Ġis",
+          "index": 11,
+          "weight": 0.02190430462360382
+        },
+        {
+          "label": "Ġbridge",
+          "index": 7,
+          "weight": 0.011724923737347126
+        },
+        {
+          "label": "Ġthe",
+          "index": 3,
+          "weight": 0.006784400902688503
+        },
+        {
+          "label": "Ġof",
+          "index": 5,
+          "weight": 0.004017719067633152
+        },
+        {
+          "label": "?",
+          "index": 8,
+          "weight": 0.0034469058737158775
+        },
+        {
+          "label": "Ġthis",
+          "index": 6,
+          "weight": 0.003166362876072526
+        }
+      ]
+    }
+  ]
+}

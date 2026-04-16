@@ -1,0 +1,317 @@
+{
+    "reliability": {
+        "edit_time": 0.5158,
+        "acc": 0.863
+    },
+    "generality": {
+        "text_rephrase": {
+            "acc": 0.8377
+        },
+        "image_rephrase": {
+            "acc": 0.8884
+        }
+    },
+    "locality": {
+        "text_loc": {
+            "acc": 1.0
+        },
+        "image_loc": {
+            "acc": 1.0
+        }
+    },
+    "portability": {
+        "overall": {
+            "acc": 0.3405,
+            "count": 62
+        },
+        "per_hop": {
+            "1hop": {
+                "acc": 0.3422,
+                "count": 32
+            },
+            "2hop": {
+                "acc": 0.3388,
+                "count": 30
+            }
+        },
+        "per_property": {
+            "architectural style": {
+                "acc": 0.3333,
+                "count": 1
+            },
+            "area": {
+                "acc": 0.3333,
+                "count": 2
+            },
+            "birth name": {
+                "acc": 0.25,
+                "count": 1
+            },
+            "child": {
+                "acc": 0.4821,
+                "count": 2
+            },
+            "clearance": {
+                "acc": 0.3333,
+                "count": 1
+            },
+            "country of citizenship": {
+                "acc": 0.5357,
+                "count": 2
+            },
+            "date of birth": {
+                "acc": 0.4091,
+                "count": 2
+            },
+            "date of death": {
+                "acc": 0.3273,
+                "count": 5
+            },
+            "date of official closure": {
+                "acc": 0.4,
+                "count": 1
+            },
+            "educated at": {
+                "acc": 0.625,
+                "count": 1
+            },
+            "field of work": {
+                "acc": 0.3333,
+                "count": 2
+            },
+            "given name": {
+                "acc": 0.0,
+                "count": 1
+            },
+            "head of government": {
+                "acc": 0.7232,
+                "count": 2
+            },
+            "height": {
+                "acc": 0.4625,
+                "count": 4
+            },
+            "length": {
+                "acc": 0.3433,
+                "count": 15
+            },
+            "longest span": {
+                "acc": 0.2583,
+                "count": 4
+            },
+            "manner of death": {
+                "acc": 0.5,
+                "count": 1
+            },
+            "name": {
+                "acc": 0.0,
+                "count": 1
+            },
+            "named after": {
+                "acc": 0.0,
+                "count": 1
+            },
+            "official language": {
+                "acc": 0.5,
+                "count": 1
+            },
+            "place of birth": {
+                "acc": 0.1667,
+                "count": 2
+            },
+            "place of burial": {
+                "acc": 0.1429,
+                "count": 2
+            },
+            "place of death": {
+                "acc": 0.2,
+                "count": 2
+            },
+            "width": {
+                "acc": 0.3083,
+                "count": 6
+            }
+        },
+        "per_entity": {
+            "Q1056242": {
+                "entity_name": "Chikugo River Lift Bridge",
+                "acc": 0.3667,
+                "count": 2
+            },
+            "Q1138720": {
+                "entity_name": "Craigellachie Bridge",
+                "acc": 0.3701,
+                "count": 4
+            },
+            "Q11405665": {
+                "entity_name": "Chitose bridge",
+                "acc": 0.25,
+                "count": 2
+            },
+            "Q11431665": {
+                "entity_name": "Yumemai Bridge",
+                "acc": 0.225,
+                "count": 2
+            },
+            "Q1698906": {
+                "entity_name": "Lune Millennium Bridge",
+                "acc": 0.25,
+                "count": 1
+            },
+            "Q2164354": {
+                "entity_name": "Seven Mile Bridge",
+                "acc": 0.25,
+                "count": 3
+            },
+            "Q22978403": {
+                "entity_name": "Innbr\u00fccke",
+                "acc": 0.6667,
+                "count": 1
+            },
+            "Q2458142": {
+                "entity_name": "Dyavolski most",
+                "acc": 0.3792,
+                "count": 4
+            },
+            "Q2920610": {
+                "entity_name": "Faidherbe Bridge",
+                "acc": 0.2117,
+                "count": 5
+            },
+            "Q2994703": {
+                "entity_name": "Red Bridge",
+                "acc": 0.2,
+                "count": 1
+            },
+            "Q359162": {
+                "entity_name": "Admiralbr\u00fccke",
+                "acc": 0.333,
+                "count": 8
+            },
+            "Q503740": {
+                "entity_name": "Fehmarn Sound Bridge",
+                "acc": 0.4444,
+                "count": 3
+            },
+            "Q5064545": {
+                "entity_name": "Cernavod\u0103 Bridge",
+                "acc": 0.225,
+                "count": 2
+            },
+            "Q7784788": {
+                "entity_name": "Yavuz Sultan Selim Bridge",
+                "acc": 0.408,
+                "count": 13
+            },
+            "Q844249": {
+                "entity_name": "ponte di San Francesco di Paola",
+                "acc": 0.4,
+                "count": 1
+            },
+            "Q915195": {
+                "entity_name": "Liberty Bridge",
+                "acc": 0.3358,
+                "count": 10
+            }
+        },
+        "per_hop_property": {
+            "1hop|architectural style": {
+                "acc": 0.3333,
+                "count": 1
+            },
+            "1hop|clearance": {
+                "acc": 0.3333,
+                "count": 1
+            },
+            "1hop|date of official closure": {
+                "acc": 0.4,
+                "count": 1
+            },
+            "1hop|height": {
+                "acc": 0.4625,
+                "count": 4
+            },
+            "1hop|length": {
+                "acc": 0.3433,
+                "count": 15
+            },
+            "1hop|longest span": {
+                "acc": 0.2583,
+                "count": 4
+            },
+            "1hop|width": {
+                "acc": 0.3083,
+                "count": 6
+            },
+            "2hop|area": {
+                "acc": 0.3333,
+                "count": 2
+            },
+            "2hop|birth name": {
+                "acc": 0.25,
+                "count": 1
+            },
+            "2hop|child": {
+                "acc": 0.4821,
+                "count": 2
+            },
+            "2hop|country of citizenship": {
+                "acc": 0.5357,
+                "count": 2
+            },
+            "2hop|date of birth": {
+                "acc": 0.4091,
+                "count": 2
+            },
+            "2hop|date of death": {
+                "acc": 0.3273,
+                "count": 5
+            },
+            "2hop|educated at": {
+                "acc": 0.625,
+                "count": 1
+            },
+            "2hop|field of work": {
+                "acc": 0.3333,
+                "count": 2
+            },
+            "2hop|given name": {
+                "acc": 0.0,
+                "count": 1
+            },
+            "2hop|head of government": {
+                "acc": 0.7232,
+                "count": 2
+            },
+            "2hop|manner of death": {
+                "acc": 0.5,
+                "count": 1
+            },
+            "2hop|name": {
+                "acc": 0.0,
+                "count": 1
+            },
+            "2hop|named after": {
+                "acc": 0.0,
+                "count": 1
+            },
+            "2hop|official language": {
+                "acc": 0.5,
+                "count": 1
+            },
+            "2hop|place of birth": {
+                "acc": 0.1667,
+                "count": 2
+            },
+            "2hop|place of burial": {
+                "acc": 0.1429,
+                "count": 2
+            },
+            "2hop|place of death": {
+                "acc": 0.2,
+                "count": 2
+            }
+        }
+    },
+    "sample_count": 30
+}

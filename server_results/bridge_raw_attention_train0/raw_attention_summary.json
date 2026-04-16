@@ -1,0 +1,1590 @@
+{
+  "sample_id": "train_0",
+  "entity_name": "Chikugo River Lift Bridge",
+  "target_text": "Chikugo River Lift Bridge",
+  "pred_token": "Golden",
+  "prompt": "What is the name of this bridge? The answer is:",
+  "image_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_train/bridge_images/GLDv2_084bb592a552d066.jpg",
+  "vt_range": [
+    1,
+    577
+  ],
+  "track_position": 590,
+  "token_labels": [
+    "<bos>",
+    " ",
+    "<0x0A>",
+    "What",
+    " is",
+    " the",
+    " name",
+    " of",
+    " this",
+    " bridge",
+    "?",
+    " The",
+    " answer",
+    " is",
+    ":"
+  ],
+  "token_positions": [
+    0,
+    577,
+    578,
+    579,
+    580,
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    587,
+    588,
+    589,
+    590
+  ],
+  "selected_layers": [
+    1,
+    30,
+    31
+  ],
+  "layer_records": [
+    {
+      "layer": 0,
+      "visual_mass": 0.7476330995559692,
+      "text_mass": 0.2523669134825468,
+      "self_mass": 0.023715946823358536,
+      "top_text_tokens": [
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.029020480811595917
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.02855219878256321
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.02662823721766472
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.020014043897390366
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.019506821408867836
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.016639912500977516
+        },
+        {
+          "token": " the",
+          "merged_idx": 581,
+          "weight": 0.015142222866415977
+        },
+        {
+          "token": " of",
+          "merged_idx": 583,
+          "weight": 0.014818517491221428
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "visual_mass": 0.41181838512420654,
+      "text_mass": 0.5881816018372774,
+      "self_mass": 0.09850183129310608,
+      "top_text_tokens": [
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.08906562626361847
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.05634880065917969
+        },
+        {
+          "token": " ",
+          "merged_idx": 577,
+          "weight": 0.05384284257888794
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.050410762429237366
+        },
+        {
+          "token": " the",
+          "merged_idx": 581,
+          "weight": 0.04928049072623253
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.0480736568570137
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.04069633409380913
+        },
+        {
+          "token": " of",
+          "merged_idx": 583,
+          "weight": 0.020531736314296722
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "visual_mass": 0.10841763764619827,
+      "text_mass": 0.8915823152055964,
+      "self_mass": 0.03845393657684326,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.70188307762146
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.05466461554169655
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.03941812738776207
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.01546742394566536
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.011001983657479286
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.007857955992221832
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.004839376546442509
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.00418230751529336
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "visual_mass": 0.048700001090765,
+      "text_mass": 0.9512999920116272,
+      "self_mass": 0.010619056411087513,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8680199384689331
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.026123128831386566
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.014201400801539421
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.010000009089708328
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.007368769496679306
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.0033388440497219563
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.002220987807959318
+        },
+        {
+          "token": " of",
+          "merged_idx": 583,
+          "weight": 0.0020991258788853884
+        }
+      ]
+    },
+    {
+      "layer": 4,
+      "visual_mass": 0.040896087884902954,
+      "text_mass": 0.9591037921782117,
+      "self_mass": 0.023596758022904396,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.7747135162353516
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.06047523394227028
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.03888307511806488
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.014391393400728703
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.010870633646845818
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.01037275418639183
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.007591766305267811
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.004907146096229553
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "visual_mass": 0.03887858986854553,
+      "text_mass": 0.9611214135948103,
+      "self_mass": 0.014331964775919914,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8371378183364868
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.0428951233625412
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.011804554611444473
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.011754843406379223
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.010893702507019043
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.007748346775770187
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.007550179958343506
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.004202496726065874
+        }
+      ]
+    },
+    {
+      "layer": 6,
+      "visual_mass": 0.03595324233174324,
+      "text_mass": 0.9640467206481844,
+      "self_mass": 0.015417443588376045,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8409587144851685
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.016304124146699905
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.016278430819511414
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.014452390372753143
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.013095671311020851
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.01082739606499672
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.00917961448431015
+        },
+        {
+          "token": " of",
+          "merged_idx": 583,
+          "weight": 0.008235625922679901
+        }
+      ]
+    },
+    {
+      "layer": 7,
+      "visual_mass": 0.029596438631415367,
+      "text_mass": 0.9704035928589292,
+      "self_mass": 0.02422405034303665,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8433330059051514
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.016192207112908363
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.016142740845680237
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.014767332002520561
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.012280615977942944
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.010881852358579636
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.0066634658724069595
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.006083835382014513
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "visual_mass": 0.03946106880903244,
+      "text_mass": 0.9605389040661976,
+      "self_mass": 0.05511815845966339,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.7321004867553711
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.03423149883747101
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.02753632515668869
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.022599512711167336
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.01755816861987114
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.01660231314599514
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.012408497743308544
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.011464623734354973
+        }
+      ]
+    },
+    {
+      "layer": 9,
+      "visual_mass": 0.03871652111411095,
+      "text_mass": 0.9612834902945906,
+      "self_mass": 0.033392470329999924,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.6879231929779053
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.052682749927043915
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.052254170179367065
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.021620288491249084
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.02084480971097946
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.020237836986780167
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.016416817903518677
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.01639842987060547
+        }
+      ]
+    },
+    {
+      "layer": 10,
+      "visual_mass": 0.04845620319247246,
+      "text_mass": 0.9515438183443621,
+      "self_mass": 0.04519224911928177,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.703389048576355
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.03456984460353851
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.029023122042417526
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.02862698584794998
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.025176752358675003
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.02439899556338787
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.018004294484853745
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.012594770640134811
+        }
+      ]
+    },
+    {
+      "layer": 11,
+      "visual_mass": 0.07455538213253021,
+      "text_mass": 0.9254445919650607,
+      "self_mass": 0.03467177972197533,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.6922740936279297
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.04310073330998421
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.029907507821917534
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.029494501650333405
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.016993777826428413
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.01457882858812809
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.014176162891089916
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.012452183291316032
+        }
+      ]
+    },
+    {
+      "layer": 12,
+      "visual_mass": 0.05619782954454422,
+      "text_mass": 0.9438021643436514,
+      "self_mass": 0.010538599453866482,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.7383414506912231
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.07563593238592148
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.03925742954015732
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.012907633557915688
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.012251920066773891
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.010472243651747704
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.010268175974488258
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.009961182251572609
+        }
+      ]
+    },
+    {
+      "layer": 13,
+      "visual_mass": 0.09229828417301178,
+      "text_mass": 0.9077017933304887,
+      "self_mass": 0.02945254184305668,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.6823791265487671
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.05175260454416275
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.036436572670936584
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.02536913752555847
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.015041975304484367
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.014798743650317192
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.01219151634722948
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.012048454023897648
+        }
+      ]
+    },
+    {
+      "layer": 14,
+      "visual_mass": 0.09005296230316162,
+      "text_mass": 0.9099470452638343,
+      "self_mass": 0.025038065388798714,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.7095427513122559
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.06767942011356354
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.02494674362242222
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.01701963320374489
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.01673879101872444
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.01250592339783907
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.008684461005032063
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.007787282578647137
+        }
+      ]
+    },
+    {
+      "layer": 15,
+      "visual_mass": 0.1268661618232727,
+      "text_mass": 0.8731338230718393,
+      "self_mass": 0.06652545928955078,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.5896894931793213
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.07203451544046402
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.03809208795428276
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.03312397748231888
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.014385375194251537
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.013720253482460976
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.01097852736711502
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.01038779504597187
+        }
+      ]
+    },
+    {
+      "layer": 16,
+      "visual_mass": 0.18029877543449402,
+      "text_mass": 0.8197012543096207,
+      "self_mass": 0.04566030204296112,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.5514566898345947
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.09723728895187378
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.042442020028829575
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.016395974904298782
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.014254177920520306
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.010591253638267517
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.009176639840006828
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.008450021035969257
+        }
+      ]
+    },
+    {
+      "layer": 17,
+      "visual_mass": 0.16141702234745026,
+      "text_mass": 0.8385829552717041,
+      "self_mass": 0.04554881900548935,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.6582833528518677
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.05559403821825981
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.01685759797692299
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.015738122165203094
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.014517968520522118
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.008583426475524902
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.005797531921416521
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.005485108122229576
+        }
+      ]
+    },
+    {
+      "layer": 18,
+      "visual_mass": 0.14661641418933868,
+      "text_mass": 0.8533835259731859,
+      "self_mass": 0.04914437234401703,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.6569833755493164
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.041349537670612335
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.02587239071726799
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.019801169633865356
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.014619845896959305
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.013305183500051498
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.012227525003254414
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.0052607087418437
+        }
+      ]
+    },
+    {
+      "layer": 19,
+      "visual_mass": 0.14547434449195862,
+      "text_mass": 0.8545255555945914,
+      "self_mass": 0.02588009648025036,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.7580324411392212
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.028120670467615128
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.011871732771396637
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.008921517059206963
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.00777933094650507
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.0034133573062717915
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.0025135092437267303
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.002210523234680295
+        }
+      ]
+    },
+    {
+      "layer": 20,
+      "visual_mass": 0.18670888245105743,
+      "text_mass": 0.8132912058499642,
+      "self_mass": 0.018657222390174866,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.7025572061538696
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.039818596094846725
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.01613491028547287
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.011914676986634731
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.00952612143009901
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.003483791835606098
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.002671040128916502
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.002271926961839199
+        }
+      ]
+    },
+    {
+      "layer": 21,
+      "visual_mass": 0.10622803866863251,
+      "text_mass": 0.8937720351386815,
+      "self_mass": 0.02496725134551525,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8052782416343689
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.023839296773076057
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.012117719277739525
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.00888090766966343
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.008777018636465073
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.002737443894147873
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.0024120190646499395
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.0012190660927444696
+        }
+      ]
+    },
+    {
+      "layer": 22,
+      "visual_mass": 0.15129703283309937,
+      "text_mass": 0.8487029604730196,
+      "self_mass": 0.06524399667978287,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.6939207315444946
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.028729870915412903
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.019149720668792725
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.014337376691401005
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.00871594063937664
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.006170305889099836
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.004101848229765892
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.002196046756580472
+        }
+      ]
+    },
+    {
+      "layer": 23,
+      "visual_mass": 0.061025384813547134,
+      "text_mass": 0.9389747160021216,
+      "self_mass": 0.02706955187022686,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8357040882110596
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.025215592235326767
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.018396958708763123
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.012389172799885273
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.006002672016620636
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.00453336164355278
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.002420139964669943
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.002412009285762906
+        }
+      ]
+    },
+    {
+      "layer": 24,
+      "visual_mass": 0.0746549665927887,
+      "text_mass": 0.9253450566902757,
+      "self_mass": 0.02687682956457138,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8399860858917236
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.01266595907509327
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.012399658560752869
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.01158884633332491
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.007438010070472956
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.00430792011320591
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.0032971841283142567
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.0016360103618353605
+        }
+      ]
+    },
+    {
+      "layer": 25,
+      "visual_mass": 0.05315076559782028,
+      "text_mass": 0.9468492405721918,
+      "self_mass": 0.0353313572704792,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8633900284767151
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.0100707421079278
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.00996972806751728
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.008246744982898235
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.004802662879228592
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.003965216688811779
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.003631826024502516
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.0015082386089488864
+        }
+      ]
+    },
+    {
+      "layer": 26,
+      "visual_mass": 0.07728935778141022,
+      "text_mass": 0.9227105926838703,
+      "self_mass": 0.029960164800286293,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8006372451782227
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.02174661122262478
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.020193520933389664
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.013715909793972969
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.013709146529436111
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.008436597883701324
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.003285739803686738
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.002742705401033163
+        }
+      ]
+    },
+    {
+      "layer": 27,
+      "visual_mass": 0.031841665506362915,
+      "text_mass": 0.9681582102493849,
+      "self_mass": 0.02575698308646679,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8406261205673218
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.02790025621652603
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.027184082195162773
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.013465821743011475
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.010340536013245583
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.009676997549831867
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.003403150476515293
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.0026123139541596174
+        }
+      ]
+    },
+    {
+      "layer": 28,
+      "visual_mass": 0.06823185086250305,
+      "text_mass": 0.9317682452965528,
+      "self_mass": 0.03788379952311516,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8084619641304016
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.023824578151106834
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.017179276794195175
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.01419266127049923
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.007468799129128456
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.00552937900647521
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.004679722711443901
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.003929746802896261
+        }
+      ]
+    },
+    {
+      "layer": 29,
+      "visual_mass": 0.06427880376577377,
+      "text_mass": 0.9357211511814967,
+      "self_mass": 0.017471082508563995,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8539475202560425
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.01853998191654682
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.009886804036796093
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.008886446245014668
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.006301434710621834
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.00497617619112134
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.003925039432942867
+        },
+        {
+          "token": " this",
+          "merged_idx": 584,
+          "weight": 0.003255140036344528
+        }
+      ]
+    },
+    {
+      "layer": 30,
+      "visual_mass": 0.04148680716753006,
+      "text_mass": 0.9585131836356595,
+      "self_mass": 0.014869454316794872,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.8609576225280762
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.017607595771551132
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.016761187463998795
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.011073376052081585
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.00980372540652752
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.008649203926324844
+        },
+        {
+          "token": " name",
+          "merged_idx": 582,
+          "weight": 0.005325557664036751
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.0050102598033845425
+        }
+      ]
+    },
+    {
+      "layer": 31,
+      "visual_mass": 0.11821556091308594,
+      "text_mass": 0.8817844158038497,
+      "self_mass": 0.04971254616975784,
+      "top_text_tokens": [
+        {
+          "token": "<bos>",
+          "merged_idx": 0,
+          "weight": 0.6468366384506226
+        },
+        {
+          "token": " is",
+          "merged_idx": 589,
+          "weight": 0.04951808601617813
+        },
+        {
+          "token": " The",
+          "merged_idx": 587,
+          "weight": 0.026503216475248337
+        },
+        {
+          "token": " bridge",
+          "merged_idx": 585,
+          "weight": 0.02576957829296589
+        },
+        {
+          "token": " answer",
+          "merged_idx": 588,
+          "weight": 0.021360261365771294
+        },
+        {
+          "token": "?",
+          "merged_idx": 586,
+          "weight": 0.019600143656134605
+        },
+        {
+          "token": "<0x0A>",
+          "merged_idx": 578,
+          "weight": 0.014525489881634712
+        },
+        {
+          "token": "What",
+          "merged_idx": 579,
+          "weight": 0.0063980575650930405
+        }
+      ]
+    }
+  ]
+}

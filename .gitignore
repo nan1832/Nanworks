@@ -1,0 +1,80 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.trae/
+trae/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Large downloads and caches
+downloads/
+tmp/
+tmp_bridge_attr/
+sampling10000/
+sampling2000/
+Add_2_facts_2_images/
+GDLV2ChurchCircle/
+autodlpdf/
+pdf/
+documents/
+
+# Unrelated or heavyweight side projects not needed for the current backup
+AI-research-SKILLs/
+awesome-ai-research-writing/
+DataAnalysis/
+DataDivision/
+GLAME-main/
+Trae-Ralph/
+ralph/
+ralph2/
+Useless/
+
+# Packed archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Python / training artifacts
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.sqlite
+*.db
+
+# Media and raw datasets under task folders
+Ten_Classes/**/images/
+Ten_Classes/**/bridge_images/
+Ten_Classes/**/*_images/
+Ten_Classes/**/*.jpg
+Ten_Classes/**/*.jpeg
+Ten_Classes/**/*.png
+Ten_Classes/**/*.webp
+
+# Model / dataset payloads inside imported repos
+DualEdit-main/models/
+DualEdit-main/data/
+DualEdit-main/records/
+DualEdit-main/**/checkpoints/
+VisEdit-main/models/
+VisEdit-main/data/
+VisEdit-main/records/
+VisEdit-main/**/checkpoints/
+
+# Generated experiment artifacts that can be recomputed
+server_results/**/visual_reps/
+server_results/**/*.npy
+server_results/**/*.npz
+
+# Keep lightweight metadata and plans tracked
+!.gitignore

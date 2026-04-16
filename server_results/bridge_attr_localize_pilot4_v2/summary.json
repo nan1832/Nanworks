@@ -1,0 +1,46 @@
+{
+  "sample_count": 4,
+  "top_visual_layers": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "top_text_layers": [
+    0,
+    1,
+    3,
+    2,
+    6
+  ],
+  "top_joint_layers": [
+    0,
+    1,
+    3,
+    2,
+    4
+  ],
+  "top_attention_layers": [
+    31,
+    6,
+    25,
+    26,
+    28
+  ],
+  "top_mlp_layers": [
+    30,
+    28,
+    27,
+    29,
+    31
+  ],
+  "consensus_layers": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "output_dir": "records/bridge_attr_localize_pilot4_v2"
+}

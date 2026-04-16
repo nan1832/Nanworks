@@ -1,0 +1,69 @@
+{
+  "stage_loss_target": 0.3,
+  "checkpoints": {
+    "l1": {
+      "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/records/vead/llava-v1.5-7b/bridge_noport_only_vis_l1-2026.04.12-06.43.51/checkpoints/epoch-67-i-2000-ema_loss-0.3015",
+      "ema_loss": 0.3015
+    },
+    "l18": {
+      "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/records/vead/llava-v1.5-7b/bridge_noport_only_vis-2026.04.07-09.24.21/checkpoints/epoch-184-i-5500-ema_loss-0.3012",
+      "ema_loss": 0.3012
+    },
+    "l20": {
+      "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/records/vead/llava-v1.5-7b/bridge_noport_only_vis_l20_resume400-2026.04.11-20.37.31/checkpoints/epoch-166-i-5000-ema_loss-0.3003",
+      "ema_loss": 0.3003
+    }
+  },
+  "entity_recognition": {
+    "l1": {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_entity_recog_ckpt_stage03_l1.jsonl",
+      "total": 70,
+      "strict_correct": 38,
+      "strict_acc": 0.5428571428571428,
+      "loose_correct": 44,
+      "loose_acc": 0.6285714285714286
+    },
+    "l18": {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_entity_recog_ckpt_stage03_l18.jsonl",
+      "total": 70,
+      "strict_correct": 20,
+      "strict_acc": 0.2857142857142857,
+      "loose_correct": 21,
+      "loose_acc": 0.3
+    },
+    "l20": {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_entity_recog_ckpt_stage03_l20.jsonl",
+      "total": 70,
+      "strict_correct": 15,
+      "strict_acc": 0.21428571428571427,
+      "loose_correct": 15,
+      "loose_acc": 0.21428571428571427
+    }
+  },
+  "open_end_qa": {
+    "l1": {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_openend_onlyvis_ckpt_stage03_l1.jsonl",
+      "total": 778,
+      "strict_correct": 130,
+      "strict_acc": 0.16709511568123395,
+      "loose_correct": 199,
+      "loose_acc": 0.25578406169665807
+    },
+    "l18": {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_openend_onlyvis_ckpt_stage03_l18.jsonl",
+      "total": 778,
+      "strict_correct": 24,
+      "strict_acc": 0.030848329048843187,
+      "loose_correct": 140,
+      "loose_acc": 0.17994858611825193
+    },
+    "l20": {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_val/onlyvis/open_end/bridge_val_openend_onlyvis_ckpt_stage03_l20.jsonl",
+      "total": 778,
+      "strict_correct": 18,
+      "strict_acc": 0.02313624678663239,
+      "loose_correct": 145,
+      "loose_acc": 0.18637532133676094
+    }
+  }
+}

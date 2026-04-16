@@ -1,0 +1,228 @@
+Found 68 images to download → D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\Ten_Classes\castle_fort\castle_fort_val\castle_fort_images
+    429 rate-limit, retry 1/5 in 4.2s
+    429 rate-limit, retry 2/5 in 18.7s
+    429 rate-limit, retry 3/5 in 66.0s
+    429 rate-limit, retry 4/5 in 256.9s
+    429 rate-limit, retry 5/5 in 1024.6s
+[1/68] FAIL: GLDv2_009b2081c1f53617.jpg
+    waiting 3.0s ...
+[2/68] SKIP: GLDv2_01da4b1af46cf802.jpg
+[3/68] SKIP: GLDv2_086970b431e324a2.jpg
+    429 rate-limit, retry 1/5 in 6.9s
+    429 rate-limit, retry 2/5 in 17.3s
+    429 rate-limit, retry 3/5 in 66.2s
+    429 rate-limit, retry 4/5 in 257.8s
+    429 rate-limit, retry 5/5 in 1024.9s
+[4/68] FAIL: GLDv2_08905fc6204e8877.jpg
+    waiting 4.6s ...
+    429 rate-limit, retry 1/5 in 4.1s
+    429 rate-limit, retry 2/5 in 18.4s
+[5/68] OK: GLDv2_0a5e4f58a8658853.jpg
+    waiting 4.2s ...
+[6/68] OK: GLDv2_0b209493d8047597.jpg
+    waiting 7.9s ...
+    429 rate-limit, retry 1/5 in 4.8s
+    429 rate-limit, retry 2/5 in 16.0s
+    429 rate-limit, retry 3/5 in 65.9s
+    429 rate-limit, retry 4/5 in 258.0s
+    429 rate-limit, retry 5/5 in 1024.8s
+[7/68] FAIL: GLDv2_0bf699593fc7dc65.jpg
+    waiting 6.5s ...
+    429 rate-limit, retry 1/5 in 4.9s
+    429 rate-limit, retry 2/5 in 18.3s
+    429 rate-limit, retry 3/5 in 65.6s
+    429 rate-limit, retry 4/5 in 256.7s
+[8/68] OK: GLDv2_0d46d2f9809817ab.jpg
+    waiting 6.1s ...
+    429 rate-limit, retry 1/5 in 5.4s
+    429 rate-limit, retry 2/5 in 18.8s
+    429 rate-limit, retry 3/5 in 66.0s
+    429 rate-limit, retry 4/5 in 257.7s
+    429 rate-limit, retry 5/5 in 1024.1s
+[9/68] FAIL: GLDv2_0e593d2bf8499cee.jpg
+    waiting 1.2s ...
+[10/68] SKIP: GLDv2_11a4df4b6de8ed86.jpg
+[11/68] SKIP: GLDv2_12cc2ca1b6eaf795.jpg
+    429 rate-limit, retry 1/5 in 5.2s
+    429 rate-limit, retry 2/5 in 16.9s
+    429 rate-limit, retry 3/5 in 66.8s
+    429 rate-limit, retry 4/5 in 256.6s
+    429 rate-limit, retry 5/5 in 1025.4s
+[12/68] FAIL: GLDv2_13529cba9900fd1c.jpg
+    waiting 4.2s ...
+    429 rate-limit, retry 1/5 in 6.2s
+    429 rate-limit, retry 2/5 in 16.0s
+    429 rate-limit, retry 3/5 in 64.4s
+    429 rate-limit, retry 4/5 in 257.4s
+    429 rate-limit, retry 5/5 in 1026.1s
+[13/68] FAIL: GLDv2_14a9a874a6e9fbc3.jpg
+    waiting 3.3s ...
+    429 rate-limit, retry 1/5 in 6.0s
+    429 rate-limit, retry 2/5 in 17.8s
+    429 rate-limit, retry 3/5 in 65.3s
+    429 rate-limit, retry 4/5 in 258.9s
+[14/68] OK: GLDv2_160e6a0f6bea6358.jpg
+    waiting 4.3s ...
+    429 rate-limit, retry 1/5 in 6.4s
+[15/68] OK: GLDv2_1a98b62fcd30b727.jpg
+    waiting 9.8s ...
+    429 rate-limit, retry 1/5 in 4.7s
+[16/68] OK: GLDv2_1b1121652ad43bce.jpg
+    waiting 3.0s ...
+    429 rate-limit, retry 1/5 in 6.9s
+    429 rate-limit, retry 2/5 in 16.1s
+    429 rate-limit, retry 3/5 in 65.3s
+    429 rate-limit, retry 4/5 in 258.5s
+    429 rate-limit, retry 5/5 in 1026.3s
+[17/68] FAIL: GLDv2_26c4c92b6d4ed271.jpg
+    waiting 3.1s ...
+[18/68] SKIP: GLDv2_2bafb55da61478d8.jpg
+[19/68] SKIP: GLDv2_2f6a02e4c5dc7a4a.jpg
+    429 rate-limit, retry 1/5 in 5.0s
+    429 rate-limit, retry 2/5 in 16.2s
+    429 rate-limit, retry 3/5 in 64.1s
+    429 rate-limit, retry 4/5 in 257.6s
+    429 rate-limit, retry 5/5 in 1026.8s
+[20/68] FAIL: GLDv2_316360814707fa1f.jpg
+    waiting 6.3s ...
+[21/68] SKIP: GLDv2_4d98193349a3eeb7.jpg
+[22/68] SKIP: GLDv2_99f4bd1b256c470a.jpg
+[23/68] SKIP: GLDv2_9c30f48765b9fb7e.jpg
+[24/68] SKIP: GLDv2_e8c013fce9fc7aca.jpg
+[25/68] SKIP: GLDv2_1118a8b30fe9fc89.jpg
+[26/68] SKIP: GLDv2_13eab459d451c3b8.jpg
+[27/68] SKIP: GLDv2_161a4fc2c7711786.jpg
+[28/68] SKIP: GLDv2_2022e5feb57864a5.jpg
+    429 rate-limit, retry 1/5 in 6.8s
+[29/68] OK: GLDv2_2199f2873ca249f3.jpg
+    waiting 3.7s ...
+[30/68] OK: GLDv2_38396423970b0258.jpg
+    waiting 3.2s ...
+    429 rate-limit, retry 1/5 in 4.4s
+[31/68] OK: GLDv2_424e3c516d5a412f.jpg
+    waiting 8.3s ...
+[32/68] SKIP: GLDv2_42dfbf6ceb6811e2.jpg
+[33/68] SKIP: GLDv2_5a217811dda3f370.jpg
+[34/68] SKIP: GLDv2_72c14505606a1e15.jpg
+[35/68] OK: GLDv2_92dc5c9d98f04993.jpg
+    waiting 9.9s ...
+[36/68] SKIP: GLDv2_e6d7be2d14f9bf97.jpg
+[37/68] SKIP: GLDv2_037a25f30dd8ac54.jpg
+[38/68] OK: GLDv2_09bda67d620a5ae4.jpg
+    waiting 6.0s ...
+[39/68] SKIP: GLDv2_0d1342e5ade937e3.jpg
+[40/68] SKIP: GLDv2_270673ce70974a60.jpg
+[41/68] SKIP: GLDv2_272433a94ff070c7.jpg
+[42/68] OK: GLDv2_2d62471e02848f91.jpg
+    waiting 5.5s ...
+[43/68] OK: GLDv2_3fa5419871b28a49.jpg
+    waiting 5.6s ...
+[44/68] OK: GLDv2_5a58d1713a51bd77.jpg
+    waiting 8.3s ...
+    429 rate-limit, retry 1/5 in 5.0s
+    429 rate-limit, retry 2/5 in 17.7s
+    429 rate-limit, retry 3/5 in 64.2s
+    429 rate-limit, retry 4/5 in 258.5s
+    429 rate-limit, retry 5/5 in 1025.3s
+[45/68] FAIL: GLDv2_5d870c63d938f7a8.jpg
+    waiting 2.0s ...
+    429 rate-limit, retry 1/5 in 5.1s
+    429 rate-limit, retry 2/5 in 17.6s
+    429 rate-limit, retry 3/5 in 65.7s
+    429 rate-limit, retry 4/5 in 257.4s
+    429 rate-limit, retry 5/5 in 1026.3s
+[46/68] FAIL: GLDv2_60f0f6dc94f128e3.jpg
+    waiting 7.7s ...
+    429 rate-limit, retry 1/5 in 5.1s
+    429 rate-limit, retry 2/5 in 16.9s
+    429 rate-limit, retry 3/5 in 65.6s
+    429 rate-limit, retry 4/5 in 258.3s
+    429 rate-limit, retry 5/5 in 1026.8s
+[47/68] FAIL: GLDv2_793c82deeaf4dbd3.jpg
+    waiting 6.7s ...
+    429 rate-limit, retry 1/5 in 5.3s
+    429 rate-limit, retry 2/5 in 16.4s
+[48/68] OK: GLDv2_8a3ac8b5edf880d1.jpg
+    waiting 4.4s ...
+    429 rate-limit, retry 1/5 in 5.2s
+    429 rate-limit, retry 2/5 in 17.8s
+    429 rate-limit, retry 3/5 in 64.7s
+    429 rate-limit, retry 4/5 in 256.6s
+    429 rate-limit, retry 5/5 in 1026.6s
+[49/68] FAIL: GLDv2_97e60d6171814050.jpg
+    waiting 1.5s ...
+    429 rate-limit, retry 1/5 in 4.1s
+    429 rate-limit, retry 2/5 in 18.8s
+    429 rate-limit, retry 3/5 in 64.7s
+    429 rate-limit, retry 4/5 in 258.3s
+    429 rate-limit, retry 5/5 in 1025.0s
+[50/68] FAIL: GLDv2_a3cc3d98b3c9d6b2.jpg
+    waiting 6.2s ...
+    429 rate-limit, retry 1/5 in 4.7s
+    429 rate-limit, retry 2/5 in 18.0s
+    429 rate-limit, retry 3/5 in 66.9s
+    429 rate-limit, retry 4/5 in 258.8s
+    429 rate-limit, retry 5/5 in 1024.6s
+[51/68] FAIL: GLDv2_bd63640e0f72c8d1.jpg
+    waiting 4.4s ...
+    429 rate-limit, retry 1/5 in 4.2s
+    429 rate-limit, retry 2/5 in 16.2s
+    429 rate-limit, retry 3/5 in 64.3s
+    429 rate-limit, retry 4/5 in 256.7s
+    429 rate-limit, retry 5/5 in 1024.2s
+[52/68] FAIL: GLDv2_d8857a1f94fc9051.jpg
+    waiting 3.8s ...
+    429 rate-limit, retry 1/5 in 6.7s
+    429 rate-limit, retry 2/5 in 17.1s
+    429 rate-limit, retry 3/5 in 65.5s
+    429 rate-limit, retry 4/5 in 257.6s
+    429 rate-limit, retry 5/5 in 1024.1s
+[53/68] FAIL: GLDv2_ebbc9f965b5ff002.jpg
+    waiting 2.7s ...
+    429 rate-limit, retry 1/5 in 4.5s
+    429 rate-limit, retry 2/5 in 18.8s
+    429 rate-limit, retry 3/5 in 66.0s
+    429 rate-limit, retry 4/5 in 256.2s
+[54/68] OK: GLDv2_ba0f70e2cdb67d11.jpg
+    waiting 2.7s ...
+    429 rate-limit, retry 1/5 in 6.0s
+    429 rate-limit, retry 2/5 in 18.2s
+    429 rate-limit, retry 3/5 in 65.2s
+    429 rate-limit, retry 4/5 in 258.2s
+    429 rate-limit, retry 5/5 in 1025.7s
+[55/68] FAIL: GLDv2_bd770b6a06a8caf2.jpg
+    waiting 9.9s ...
+    429 rate-limit, retry 1/5 in 5.1s
+    429 rate-limit, retry 2/5 in 16.4s
+    429 rate-limit, retry 3/5 in 66.7s
+    HTTP 404: HTTP Error 404: Not Found
+[56/68] FAIL: GLDv2_cb937f31f4c8c524.jpg
+    waiting 4.1s ...
+[57/68] OK: GLDv2_16be420d593d3a30.jpg
+    waiting 9.1s ...
+[58/68] SKIP: GLDv2_76e8ea319926055b.jpg
+[59/68] SKIP: GLDv2_d822ee8d75d6dac9.jpg
+[60/68] OK: GLDv2_096ecb011adcdb39.jpg
+    waiting 9.6s ...
+    429 rate-limit, retry 1/5 in 4.2s
+    429 rate-limit, retry 2/5 in 18.2s
+    429 rate-limit, retry 3/5 in 66.6s
+    429 rate-limit, retry 4/5 in 258.0s
+    429 rate-limit, retry 5/5 in 1024.1s
+[61/68] FAIL: GLDv2_61a8edf272937680.jpg
+    waiting 7.8s ...
+[62/68] SKIP: GLDv2_61e8d3551bfade67.jpg
+[63/68] SKIP: GLDv2_067a956a2428f962.jpg
+[64/68] SKIP: GLDv2_12e99a48d0ae7169.jpg
+[65/68] SKIP: GLDv2_17c8b2511d2270f3.jpg
+[66/68] SKIP: GLDv2_b57f8251ccddbfa4.jpg
+[67/68] SKIP: GLDv2_447c724638713814.jpg
+    HTTP 404: HTTP Error 404: Not Found
+[68/68] FAIL: GLDv2_7ddb4cf623133f91.jpg
+    waiting 8.8s ...
+
+===== Done =====
+  Downloaded : 18
+  Skipped    : 30
+  Failed     : 20
+  Output dir : D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\Ten_Classes\castle_fort\castle_fort_val\castle_fort_images

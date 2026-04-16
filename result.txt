@@ -1,0 +1,4 @@
+Trae-Ralph exists: True
+ralph-loop exists: False
+npm version: OK
+node version: OK
