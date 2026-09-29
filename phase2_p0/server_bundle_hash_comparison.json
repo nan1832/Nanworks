@@ -1,0 +1,86 @@
+[
+  {
+    "server_path": "scripts/run_evqa_pilot500_blip2_visedit_sweep.py",
+    "bundle_path": "code/runner/run_blip2_mmke_entity_sweep.py",
+    "server_sha256": "7c26d9f37d0d0aca4e6f70a7e730d7edbe1dbdb03954ca7766689b4ce91656b3",
+    "bundle_sha256": "7c26d9f37d0d0aca4e6f70a7e730d7edbe1dbdb03954ca7766689b4ce91656b3",
+    "match": true
+  },
+  {
+    "server_path": "editor/vllm_editors/vead/vead.py",
+    "bundle_path": "code/editor/vead.py",
+    "server_sha256": "65d5c23e22796cabc8e99782c2eec391ec433f48d0a4e3ebdb100e31a59b20d8",
+    "bundle_sha256": "65d5c23e22796cabc8e99782c2eec391ec433f48d0a4e3ebdb100e31a59b20d8",
+    "match": true
+  },
+  {
+    "server_path": "editor/vllm_editors/vead/adpt_model.py",
+    "bundle_path": "code/adapter/adpt_model.py",
+    "server_sha256": "d1fc7394dc886e57513a80aace6ae96392a8632ff8670e2923dce77eae6d4eca",
+    "bundle_sha256": "d1fc7394dc886e57513a80aace6ae96392a8632ff8670e2923dce77eae6d4eca",
+    "match": true
+  },
+  {
+    "server_path": "editor/vllm_editors/base.py",
+    "bundle_path": "code/editor/base_editor_training.py",
+    "server_sha256": "ae585443e35b54f08f7655d212219327ef0d83ee994cfed7178390b663d25296",
+    "bundle_sha256": "ae585443e35b54f08f7655d212219327ef0d83ee994cfed7178390b663d25296",
+    "match": true
+  },
+  {
+    "server_path": "editor/vllms_for_edit/base.py",
+    "bundle_path": "code/model/base_vllm.py",
+    "server_sha256": "ed3492dfbb35b73481c2a1777744ea76c58d4162d0f71465f8cd8439d06ba17f",
+    "bundle_sha256": "ed3492dfbb35b73481c2a1777744ea76c58d4162d0f71465f8cd8439d06ba17f",
+    "match": true
+  },
+  {
+    "server_path": "utils/__init__.py",
+    "bundle_path": "code/utils/model_factory_and_helpers.py",
+    "server_sha256": "115081101b6499d2c8815c265454fb46c43529d2a38f9b0caa8d5c929461ec70",
+    "bundle_sha256": "115081101b6499d2c8815c265454fb46c43529d2a38f9b0caa8d5c929461ec70",
+    "match": true
+  },
+  {
+    "server_path": "utils/GLOBAL.py",
+    "bundle_path": "code/utils/GLOBAL.py",
+    "server_sha256": "5b333c5bbe35526f4785bcdccbf75211556f4931d937723b57e46bb931c6e30e",
+    "bundle_sha256": "5b333c5bbe35526f4785bcdccbf75211556f4931d937723b57e46bb931c6e30e",
+    "match": true
+  },
+  {
+    "server_path": "utils/nethook.py",
+    "bundle_path": "code/utils/nethook.py",
+    "server_sha256": "83183993b78b7f612dcf5210eb231068f7e5a51e3a56fcabe8661f8d9ccf88ae",
+    "bundle_sha256": "83183993b78b7f612dcf5210eb231068f7e5a51e3a56fcabe8661f8d9ccf88ae",
+    "match": true
+  },
+  {
+    "server_path": "dataset/vllm.py",
+    "bundle_path": "code/data/vllm_dataset.py",
+    "server_sha256": "6fd3c021ce9fd3a4d283be69da45a02386de1f920867ee56f40e02b41961f7cf",
+    "bundle_sha256": "6fd3c021ce9fd3a4d283be69da45a02386de1f920867ee56f40e02b41961f7cf",
+    "match": true
+  },
+  {
+    "server_path": "evaluation/vllm_editor_eval.py",
+    "bundle_path": "code/evaluation/vllm_editor_eval.py",
+    "server_sha256": "42ff8a6a12733e3fb82cb00414f6294c4f37f8b54ae818fdc56f403be622e720",
+    "bundle_sha256": "42ff8a6a12733e3fb82cb00414f6294c4f37f8b54ae818fdc56f403be622e720",
+    "match": true
+  },
+  {
+    "server_path": "configs/vead/blip2-opt-2.7b.yaml",
+    "bundle_path": "config/blip2-opt-2.7b.yaml",
+    "server_sha256": "3bff59712d0975a60d4cad7976a18aca326ccaf31eecf8f5e164f0905d6a6fc3",
+    "bundle_sha256": "3bff59712d0975a60d4cad7976a18aca326ccaf31eecf8f5e164f0905d6a6fc3",
+    "match": true
+  },
+  {
+    "server_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllms_for_edit/blip2/blip2.py",
+    "bundle_path": "code/model/blip2.py",
+    "server_sha256": "ab9e9f64c990d65475104a94dbcd0e2dc21cae1f785053420431cae4683e65f3",
+    "bundle_sha256": "ab9e9f64c990d65475104a94dbcd0e2dc21cae1f785053420431cae4683e65f3",
+    "match": true
+  }
+]

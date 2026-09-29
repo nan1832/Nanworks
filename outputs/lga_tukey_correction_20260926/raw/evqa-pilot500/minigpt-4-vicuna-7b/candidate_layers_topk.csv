@@ -1,0 +1,9 @@
+dataset,model,method,variant,top_k,rank,layer,score,raw_rank,filtered_rank,raw_candidate_layers,clean_candidate_layers,selection_source,candidate_conversion,status,failure_reason
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,3,1,L29,0.49799743226079835,1,,"L29,L25,L22","L29,L25,L22",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,3,2,L25,-0.039311676946450456,2,,"L29,L25,L22","L29,L25,L22",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,3,3,L22,-0.050701461338815104,3,,"L29,L25,L22","L29,L25,L22",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,5,1,L29,0.49799743226079835,1,,"L29,L25,L22,L26,L21","L29,L25,L22,L26,L21",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,5,2,L25,-0.039311676946450456,2,,"L29,L25,L22,L26,L21","L29,L25,L22,L26,L21",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,5,3,L22,-0.050701461338815104,3,,"L29,L25,L22,L26,L21","L29,L25,L22,L26,L21",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,5,4,L26,-0.06524452806661794,4,,"L29,L25,L22,L26,L21","L29,L25,L22,L26,L21",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,5,5,L21,-0.06847445784453471,5,,"L29,L25,L22,L26,L21","L29,L25,L22,L26,L21",raw_old_new_parameter_gradient_dot,direct,done,

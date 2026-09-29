@@ -1,0 +1,117 @@
+{
+  "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17",
+  "host": "login01",
+  "errors": [],
+  "warnings": [],
+  "artifacts": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/eval_full.done": {
+      "size": 794,
+      "sha256": "22e83428462be8f4f04fe3e3d2866be2820a6a965ac4e9f8aa5c23d2d57c1c77"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/selected_checkpoint.tsv": {
+      "size": 353,
+      "sha256": "24949720fe7d02d3a6bcbdf6b25c525f2f4fe28abe68d8f1ddea0b49c6ec54eb"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L17/single_edit/results.json": {
+      "size": 1116540,
+      "sha256": "84447db335f771543920679142a83b676249fb99c4839e160d138145708be1e3"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L17/single_edit/mean_results.json": {
+      "size": 398,
+      "sha256": "05a644ca27cd0bb0992b827dc7acd57e0e12ebbe9f86e5d5b2c5e1dd38c4f3a7"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/train.done": {
+      "size": 399,
+      "sha256": "a24d17c28d86e40de153be9df41116354a50f47a688d6071420e7a998d3092c3"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/loss_history.csv": {
+      "size": 16065,
+      "sha256": "6c660177becdc2efe81a6c20b99d83b8cddbacbddd8b41ac7c2520985444162d"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/records/vead/paligemma-3b/pilot500_blip2_visedit_L17-lr-1-t-1-v-1/config.yaml": {
+      "size": 452,
+      "sha256": "94584f9a0dd23a78e06acd27a85d83568ee82cc238c2a932d1c7dad076755454"
+    }
+  },
+  "evaluation": {
+    "layer": 17,
+    "status": "EVAL_DONE",
+    "eval_samples": 293,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/records/vead/paligemma-3b/pilot500_blip2_visedit_L17-lr-1-t-1-v-1/checkpoints/epoch-6-i-642-ema_loss-30.8626",
+    "ckpt_epoch": "6",
+    "ckpt_i": "642",
+    "ckpt_loss": "30.51978874206543",
+    "ckpt_ema_loss": "30.862625106101333",
+    "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L17/single_edit",
+    "Rel": 0.08,
+    "T-Gen": 0.08,
+    "M-Gen": 0.09,
+    "T-Loc": 100.0,
+    "M-Loc": 100.0,
+    "Average": 40.05
+  },
+  "selected": {
+    "layer": "17",
+    "status": "TRAIN_DONE",
+    "epoch": "6",
+    "i": "642",
+    "loss": "30.51978874206543",
+    "ema_loss": "30.862625106101333",
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/records/vead/paligemma-3b/pilot500_blip2_visedit_L17-lr-1-t-1-v-1/checkpoints/epoch-6-i-642-ema_loss-30.8626"
+  },
+  "checkpoint": {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/records/vead/paligemma-3b/pilot500_blip2_visedit_L17-lr-1-t-1-v-1/checkpoints/epoch-6-i-642-ema_loss-30.8626",
+    "exists": true,
+    "size": 214298958
+  },
+  "results_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L17/single_edit/results.json",
+  "results_count": 293,
+  "recomputed_metrics": {
+    "Rel": 0.08,
+    "T-Gen": 0.08,
+    "M-Gen": 0.09,
+    "T-Loc": 100.0,
+    "M-Loc": 100.0
+  },
+  "mean_results": {
+    "reliability": {
+      "edit_time": 0.0324,
+      "acc": 0.0008
+    },
+    "generality": {
+      "text_rephrase": {
+        "acc": 0.0008
+      },
+      "image_rephrase": {
+        "acc": 0.0009
+      }
+    },
+    "locality": {
+      "text_loc": {
+        "acc": 1.0
+      },
+      "image_loc": {
+        "acc": 1.0
+      }
+    },
+    "sample_count": 293
+  },
+  "mean_results_text": "{\n    \"reliability\": {\n        \"edit_time\": 0.0324,\n        \"acc\": 0.0008\n    },\n    \"generality\": {\n        \"text_rephrase\": {\n            \"acc\": 0.0008\n        },\n        \"image_rephrase\": {\n            \"acc\": 0.0009\n        }\n    },\n    \"locality\": {\n        \"text_loc\": {\n            \"acc\": 1.0\n        },\n        \"image_loc\": {\n            \"acc\": 1.0\n        }\n    },\n    \"sample_count\": 293\n}",
+  "train_done": true,
+  "history_rows": 50,
+  "max_epoch": 50,
+  "all_50_epochs_present": true,
+  "minimum_ema_row": {
+    "time": "2026-07-13 13:36:15",
+    "layer": "17",
+    "epoch": "6",
+    "i": "642",
+    "loss": "30.51978874206543",
+    "ema_loss": "30.862625106101333",
+    "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_17/records/vead/paligemma-3b/pilot500_blip2_visedit_L17-lr-1-t-1-v-1/checkpoints/epoch-6-i-642-ema_loss-30.8626",
+    "kept": "1"
+  },
+  "minimum_ema_matches": true,
+  "model_config_text": "IT:\n  add_it: true\n  layers:\n  - 13\n  - 14\n  - 15\n  - 16\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 17\nedit_model_name: paligemma-3b\nllm_att_tmp: language_model.model.layers.{}.self_attn\nllm_hidden_size: 2048\nllm_layer_tmp: language_model.model.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 1.0e-05\n  rel_lambda: 1\n",
+  "evaluation_verified": true
+}

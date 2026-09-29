@@ -1,0 +1,28 @@
+{
+  "downloaded_files_verified": 65,
+  "evaluation_sample_counts": {
+    "main_original\\layer_01": 293,
+    "main_original\\layer_02": 293,
+    "main_original\\layer_06": 293,
+    "main_original\\layer_07": 293,
+    "main_original\\layer_13": 293,
+    "main_diagnostic\\layer_03": 293,
+    "main_diagnostic\\layer_05": 293
+  },
+  "all_per_sample_numbers_finite": true,
+  "ledger_diffs": [
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\md\\Location\\6location_7model_3datas_top_3_5_layers_outcome.md",
+      "added_table_rows": 7,
+      "removed_table_rows": 0
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\md\\TODO\\Second_prashe\\Firstprash_testvalue_our_direct_recommend.md",
+      "added_table_rows": 9,
+      "removed_table_rows": 1
+    }
+  ],
+  "main_observed_layers": 16,
+  "main_full_50_epoch_layers": 13,
+  "new_training_started": false
+}

@@ -1,0 +1,50 @@
+﻿[
+    {
+        "Hash":  "1E54BF341D9E2743121036150E135053BBFA98492111969CDD2C189E87406A57",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\diagnostic_epoch2_request.json"
+    },
+    {
+        "Hash":  "685B6C4B5CCB1F4751421AE9122F213C149BBAE07CA903668D39FD1F715BC794",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\eval_full.done"
+    },
+    {
+        "Hash":  "BDF55D0022943F7E3C988271FB6692030B4A42158CE2C2A42CE93FAD6396BC2E",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\loss_history.csv"
+    },
+    {
+        "Hash":  "B0FF017310606241EDE1B14620208AAA12F9CF1AA1587D564E5F22BDBB806C84",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\mean_results.json"
+    },
+    {
+        "Hash":  "408EA59CF079C7EB7B1E70AEE64603812D8F81DFA9E3E02E2EF5C871EDCAC3B6",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\original_main_config.yaml"
+    },
+    {
+        "Hash":  "8CC1DBD4106E0545F9C0874594EA44B87D1EF91DF84ADAEC3493F4ABF13EA93A",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\paligemma_diagnostic_verified.json"
+    },
+    {
+        "Hash":  "5F43F510F01A11A9F11FC7BD350110E38D6A3CCBEE5F9CB3A066EF5DCFE8E2A6",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\protocol.json"
+    },
+    {
+        "Hash":  "05F60B78E9A874D20E8B2F84A278864AEC8852325BF3A0C4645419F63A20E970",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\results.json"
+    },
+    {
+        "Hash":  "B60E90800B1263A3E9DD241EED04E8ECB4C4BAD110C5CF1CDBDFEF31534D29D9",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\selected_checkpoint.tsv"
+    },
+    {
+        "Hash":  "9CC3A597C569A42BA7F2A15419AB9F97C8C828A24B33050F5E89D7DBE4B9F6F5",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\selection_audit.json"
+    },
+    {
+        "Hash":  "18E4F10DB685A6FA9DA8C4BAA05362D2E86D1384601B7A74113965E194D9E066",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\standard_training_verifier.json"
+    },
+    {
+        "Hash":  "8CAE13A3EFEBCD5F40CA3F951D57FC26EAF0B635C1D5CF575BFDAACEBAB36AFB",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00.partial\\verified_evaluation.json"
+    }
+]

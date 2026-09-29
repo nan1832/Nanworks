@@ -1,0 +1,7846 @@
+{
+  "model": "qwen2.5-vl-3b",
+  "time": "2026-09-29T11:56:43+0800",
+  "model_config_dtype": "bfloat16",
+  "original_auto_resolves_to": "float16",
+  "fp16": [
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 0,
+      "previously_failed": false,
+      "dtype": "float16",
+      "image_sha256": "e2f3180ed60673fd13a5a7e17fafba67fe1429adb7687beb377298bf49998e18",
+      "prompt": "What does this everyday gesture in the image mean? The answer is:",
+      "finite": true,
+      "target_id": 785,
+      "target_token": "The",
+      "old_target_id": 785,
+      "target_matches_old_fp16": true,
+      "max_abs_p_delta_from_old_fp16": 0.0,
+      "max_abs_v_delta_from_old_fp16": 0.0,
+      "activations": {
+        "visual": {
+          "shape": [
+            1350,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 43.375
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 48.8125
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 56.28125
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2548.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2778.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2846.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2868.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2888.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2898.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2918.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2920.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2916.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2910.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2904.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4436.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4372.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4248.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 862.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 174.375
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 23.96875,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.float16",
+        "finite": true,
+        "nan": 0,
+        "inf": 0,
+        "max_finite_abs": 23.96875
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 137,
+      "previously_failed": true,
+      "dtype": "float16",
+      "image_sha256": "9fed9d27ea59daaf496a962a2a62777f109b8191827b18d46aa78cc66db30ab4",
+      "prompt": "What does this human expression in the image mean? The answer is:",
+      "finite": false,
+      "error": "Traceback (most recent call last):\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 116, in diagnose\n    with torch.no_grad():p,v=runner.trace_one(prompt,image,None)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/source_snapshot/scripts__run_evqa_module_contribution_pilot500_multi.py\", line 383, in trace_one\n    pred_id = self.predict_id(predict_word, logits)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 74, in predict\n    raise FloatingPointError('Nonfinite next-token logits')\nFloatingPointError: Nonfinite next-token logits\n",
+      "activations": {
+        "visual": {
+          "shape": [
+            6417,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 12288,
+          "inf": 0,
+          "max_finite_abs": 55.375
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 61.75
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 73.5
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2548.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2778.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2846.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2868.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2888.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2898.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2918.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2920.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2916.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2910.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2904.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 4436.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 4372.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 4248.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 860.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 3776512,
+          "inf": 0,
+          "max_finite_abs": 191.375
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 151936,
+          "inf": 0,
+          "max_finite_abs": null,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.float16",
+        "finite": false,
+        "nan": 151936,
+        "inf": 0,
+        "max_finite_abs": null
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 181,
+      "previously_failed": true,
+      "dtype": "float16",
+      "image_sha256": "af2646f521e658c6d34e66cb88bbd1ce9979dde75a147c27dd87be96ebb16dcf",
+      "prompt": "What does this human expression in the image mean? The answer is:",
+      "finite": false,
+      "error": "Traceback (most recent call last):\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 116, in diagnose\n    with torch.no_grad():p,v=runner.trace_one(prompt,image,None)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/source_snapshot/scripts__run_evqa_module_contribution_pilot500_multi.py\", line 383, in trace_one\n    pred_id = self.predict_id(predict_word, logits)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 74, in predict\n    raise FloatingPointError('Nonfinite next-token logits')\nFloatingPointError: Nonfinite next-token logits\n",
+      "activations": {
+        "visual": {
+          "shape": [
+            10179,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 6144,
+          "inf": 0,
+          "max_finite_abs": 80.1875
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 85.3125
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 96.0
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2548.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2778.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2846.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2868.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2888.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2898.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2918.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2920.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2916.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2910.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2904.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 4436.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 4372.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 4248.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 860.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10956800,
+          "inf": 0,
+          "max_finite_abs": 210.625
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 151936,
+          "inf": 0,
+          "max_finite_abs": null,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.float16",
+        "finite": false,
+        "nan": 151936,
+        "inf": 0,
+        "max_finite_abs": null
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 207,
+      "previously_failed": true,
+      "dtype": "float16",
+      "image_sha256": "2d38743a02597cf74fb8c6a8c8dd08dfe9d6245c8386503f034d6c6e62dabec0",
+      "prompt": "What does this human expression in the image mean? The answer is:",
+      "finite": false,
+      "error": "Traceback (most recent call last):\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 116, in diagnose\n    with torch.no_grad():p,v=runner.trace_one(prompt,image,None)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/source_snapshot/scripts__run_evqa_module_contribution_pilot500_multi.py\", line 383, in trace_one\n    pred_id = self.predict_id(predict_word, logits)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 74, in predict\n    raise FloatingPointError('Nonfinite next-token logits')\nFloatingPointError: Nonfinite next-token logits\n",
+      "activations": {
+        "visual": {
+          "shape": [
+            10179,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 79872,
+          "inf": 0,
+          "max_finite_abs": 53.46875
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 59.65625
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 71.1875
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2548.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2778.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2846.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2868.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2888.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2898.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2918.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2920.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2916.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2910.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2904.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 4436.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 4372.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 4248.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 860.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 19869696,
+          "inf": 0,
+          "max_finite_abs": 154.875
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 151936,
+          "inf": 0,
+          "max_finite_abs": null,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.float16",
+        "finite": false,
+        "nan": 151936,
+        "inf": 0,
+        "max_finite_abs": null
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 0,
+      "previously_failed": false,
+      "dtype": "float16",
+      "image_sha256": "b01c33a3d49eb2a8c8fdea1017d5e6393343ac9e2ce2c7ed61d02a34cd094e47",
+      "prompt": "Give me some important information about the human in the image. The answer is:",
+      "finite": true,
+      "target_id": 1986,
+      "target_token": "This",
+      "old_target_id": 1986,
+      "target_matches_old_fp16": true,
+      "max_abs_p_delta_from_old_fp16": 0.0,
+      "max_abs_v_delta_from_old_fp16": 0.0,
+      "activations": {
+        "visual": {
+          "shape": [
+            66,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 48.4375
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 54.5
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 64.6875
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2548.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2778.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2846.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2868.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2888.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2898.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2918.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2920.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2916.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2910.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2904.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4440.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4428.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4428.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4376.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4252.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 868.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 155.375
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.float16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 19.796875,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.float16",
+        "finite": true,
+        "nan": 0,
+        "inf": 0,
+        "max_finite_abs": 19.796875
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 1,
+      "previously_failed": true,
+      "dtype": "float16",
+      "image_sha256": "df680af813bbc99040dbf24510e126618d6823f874520f4e0f742d5430b54536",
+      "prompt": "Give me some important information about the bird in the image. The answer is:",
+      "finite": false,
+      "error": "Traceback (most recent call last):\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 116, in diagnose\n    with torch.no_grad():p,v=runner.trace_one(prompt,image,None)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/source_snapshot/scripts__run_evqa_module_contribution_pilot500_multi.py\", line 383, in trace_one\n    pred_id = self.predict_id(predict_word, logits)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 74, in predict\n    raise FloatingPointError('Nonfinite next-token logits')\nFloatingPointError: Nonfinite next-token logits\n",
+      "activations": {
+        "visual": {
+          "shape": [
+            5530,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 26624,
+          "inf": 0,
+          "max_finite_abs": 108.9375
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 107.0
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 116.3125
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2548.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2778.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2846.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2868.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2888.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2898.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2918.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2924.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2920.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2916.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2910.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2904.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 2874.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 4440.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 4428.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 4428.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 4376.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 4252.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 868.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 9041920,
+          "inf": 0,
+          "max_finite_abs": 155.375
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 151936,
+          "inf": 0,
+          "max_finite_abs": null,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.float16",
+        "finite": false,
+        "nan": 151936,
+        "inf": 0,
+        "max_finite_abs": null
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 16,
+      "previously_failed": true,
+      "dtype": "float16",
+      "image_sha256": "3e478ea9bc1d7e14613096c96a5f2368b420b528663050a0fb5e9b6dcafddb17",
+      "prompt": "Give me some important information about the aircraft in the image. The answer is:",
+      "finite": false,
+      "error": "Traceback (most recent call last):\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 116, in diagnose\n    with torch.no_grad():p,v=runner.trace_one(prompt,image,None)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/source_snapshot/scripts__run_evqa_module_contribution_pilot500_multi.py\", line 383, in trace_one\n    pred_id = self.predict_id(predict_word, logits)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 74, in predict\n    raise FloatingPointError('Nonfinite next-token logits')\nFloatingPointError: Nonfinite next-token logits\n",
+      "activations": {
+        "visual": {
+          "shape": [
+            16335,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 20480,
+          "inf": 0,
+          "max_finite_abs": 57.15625
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 63.5
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 75.5
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2550.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2780.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2866.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2870.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2876.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2882.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2890.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2902.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2902.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2902.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2902.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2902.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2920.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2922.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2918.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2912.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2906.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 2876.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 4436.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 4372.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 4248.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 862.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 25927680,
+          "inf": 0,
+          "max_finite_abs": 155.125
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 151936,
+          "inf": 0,
+          "max_finite_abs": null,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.float16",
+        "finite": false,
+        "nan": 151936,
+        "inf": 0,
+        "max_finite_abs": null
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 22,
+      "previously_failed": true,
+      "dtype": "float16",
+      "image_sha256": "f791ef279e305c15a7c091154f157ac2cd294dccc36d2a92614e8eec25a80c0d",
+      "prompt": "Give me some important information about the bird in the image. The answer is:",
+      "finite": false,
+      "error": "Traceback (most recent call last):\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 116, in diagnose\n    with torch.no_grad():p,v=runner.trace_one(prompt,image,None)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/source_snapshot/scripts__run_evqa_module_contribution_pilot500_multi.py\", line 383, in trace_one\n    pred_id = self.predict_id(predict_word, logits)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/code/repair_visedit_qwen_bf16_20260929.py\", line 74, in predict\n    raise FloatingPointError('Nonfinite next-token logits')\nFloatingPointError: Nonfinite next-token logits\n",
+      "activations": {
+        "visual": {
+          "shape": [
+            16170,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 10240,
+          "inf": 0,
+          "max_finite_abs": 80.625
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 84.875
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 97.0
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2550.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2780.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2866.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2870.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2876.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2882.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2890.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2900.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2902.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2902.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2902.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2902.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2902.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2920.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2926.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2922.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2918.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2912.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2906.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 2876.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 4436.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 4424.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 4372.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 4248.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 862.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 11696128,
+          "inf": 0,
+          "max_finite_abs": 180.75
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.float16",
+          "finite": false,
+          "nan": 151936,
+          "inf": 0,
+          "max_finite_abs": null,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.float16",
+        "finite": false,
+        "nan": 151936,
+        "inf": 0,
+        "max_finite_abs": null
+      }
+    }
+  ],
+  "bf16": [
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 0,
+      "previously_failed": false,
+      "dtype": "bfloat16",
+      "image_sha256": "e2f3180ed60673fd13a5a7e17fafba67fe1429adb7687beb377298bf49998e18",
+      "prompt": "What does this everyday gesture in the image mean? The answer is:",
+      "finite": true,
+      "target_id": 785,
+      "target_token": "The",
+      "old_target_id": 785,
+      "target_matches_old_fp16": true,
+      "max_abs_p_delta_from_old_fp16": 0.02880859375,
+      "max_abs_v_delta_from_old_fp16": 0.30078125,
+      "activations": {
+        "visual": {
+          "shape": [
+            1350,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 44.5
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 50.0
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 57.0
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2544.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2768.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2832.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4448.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4448.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4448.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4256.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 896.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            1385,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 177.0
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 23.875,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.bfloat16",
+        "finite": true,
+        "nan": 0,
+        "inf": 0,
+        "max_finite_abs": 23.875
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 137,
+      "previously_failed": true,
+      "dtype": "bfloat16",
+      "image_sha256": "9fed9d27ea59daaf496a962a2a62777f109b8191827b18d46aa78cc66db30ab4",
+      "prompt": "What does this human expression in the image mean? The answer is:",
+      "finite": true,
+      "target_id": 785,
+      "target_token": "The",
+      "activations": {
+        "visual": {
+          "shape": [
+            6417,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 55.5
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 61.75
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 73.5
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2544.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2768.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2832.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4320.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4192.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 832.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            6452,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 192.0
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 26.875,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.bfloat16",
+        "finite": true,
+        "nan": 0,
+        "inf": 0,
+        "max_finite_abs": 26.875
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 181,
+      "previously_failed": true,
+      "dtype": "bfloat16",
+      "image_sha256": "af2646f521e658c6d34e66cb88bbd1ce9979dde75a147c27dd87be96ebb16dcf",
+      "prompt": "What does this human expression in the image mean? The answer is:",
+      "finite": true,
+      "target_id": 785,
+      "target_token": "The",
+      "activations": {
+        "visual": {
+          "shape": [
+            10179,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 80.0
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 85.0
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 95.5
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2544.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2768.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2832.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4320.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4192.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 832.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 204.0
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 28.0,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.bfloat16",
+        "finite": true,
+        "nan": 0,
+        "inf": 0,
+        "max_finite_abs": 28.0
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 207,
+      "previously_failed": true,
+      "dtype": "bfloat16",
+      "image_sha256": "2d38743a02597cf74fb8c6a8c8dd08dfe9d6245c8386503f034d6c6e62dabec0",
+      "prompt": "What does this human expression in the image mean? The answer is:",
+      "finite": true,
+      "target_id": 785,
+      "target_token": "The",
+      "activations": {
+        "visual": {
+          "shape": [
+            10179,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 53.25
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 59.5
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 71.0
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2544.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2768.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2832.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4320.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4192.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 832.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            10214,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 182.0
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 26.5,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.bfloat16",
+        "finite": true,
+        "nan": 0,
+        "inf": 0,
+        "max_finite_abs": 26.5
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 0,
+      "previously_failed": false,
+      "dtype": "bfloat16",
+      "image_sha256": "b01c33a3d49eb2a8c8fdea1017d5e6393343ac9e2ce2c7ed61d02a34cd094e47",
+      "prompt": "Give me some important information about the human in the image. The answer is:",
+      "finite": true,
+      "target_id": 785,
+      "target_token": "The",
+      "old_target_id": 1986,
+      "target_matches_old_fp16": false,
+      "max_abs_p_delta_from_old_fp16": 0.0205078125,
+      "max_abs_v_delta_from_old_fp16": 8.0546875,
+      "activations": {
+        "visual": {
+          "shape": [
+            66,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 49.25
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 55.25
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 65.5
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2576.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2816.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2912.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2928.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2944.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2912.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4448.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4448.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4448.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4256.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 912.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            103,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 158.0
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 20.25,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.bfloat16",
+        "finite": true,
+        "nan": 0,
+        "inf": 0,
+        "max_finite_abs": 20.25
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 1,
+      "previously_failed": true,
+      "dtype": "bfloat16",
+      "image_sha256": "df680af813bbc99040dbf24510e126618d6823f874520f4e0f742d5430b54536",
+      "prompt": "Give me some important information about the bird in the image. The answer is:",
+      "finite": true,
+      "target_id": 785,
+      "target_token": "The",
+      "activations": {
+        "visual": {
+          "shape": [
+            5530,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 106.5
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 111.0
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 122.0
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2544.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2768.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2832.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4448.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4448.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4448.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4384.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4256.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 896.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            5567,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 185.0
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 25.625,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.bfloat16",
+        "finite": true,
+        "nan": 0,
+        "inf": 0,
+        "max_finite_abs": 25.625
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 16,
+      "previously_failed": true,
+      "dtype": "bfloat16",
+      "image_sha256": "3e478ea9bc1d7e14613096c96a5f2368b420b528663050a0fb5e9b6dcafddb17",
+      "prompt": "Give me some important information about the aircraft in the image. The answer is:",
+      "finite": true,
+      "target_id": 785,
+      "target_token": "The",
+      "activations": {
+        "visual": {
+          "shape": [
+            16335,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 58.5
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 63.5
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 75.0
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2544.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2768.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2832.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4416.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4416.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4416.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4352.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4224.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 864.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            16372,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 172.0
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 25.625,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.bfloat16",
+        "finite": true,
+        "nan": 0,
+        "inf": 0,
+        "max_finite_abs": 25.625
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 22,
+      "previously_failed": true,
+      "dtype": "bfloat16",
+      "image_sha256": "f791ef279e305c15a7c091154f157ac2cd294dccc36d2a92614e8eec25a80c0d",
+      "prompt": "Give me some important information about the bird in the image. The answer is:",
+      "finite": true,
+      "target_id": 785,
+      "target_token": "The",
+      "activations": {
+        "visual": {
+          "shape": [
+            16170,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 81.5
+        },
+        "model.layers.0": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 86.0
+        },
+        "model.layers.1": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 98.0
+        },
+        "model.layers.2": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2544.0
+        },
+        "model.layers.3": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2768.0
+        },
+        "model.layers.4": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2832.0
+        },
+        "model.layers.5": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.6": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.7": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.8": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2848.0
+        },
+        "model.layers.9": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.10": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.11": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.12": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.13": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.14": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.15": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2880.0
+        },
+        "model.layers.16": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.17": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.18": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.19": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.20": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.21": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.22": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.23": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.24": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.25": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.26": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.27": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.28": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2896.0
+        },
+        "model.layers.29": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 2864.0
+        },
+        "model.layers.30": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4416.0
+        },
+        "model.layers.31": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4416.0
+        },
+        "model.layers.32": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4416.0
+        },
+        "model.layers.33": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4352.0
+        },
+        "model.layers.34": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 4224.0
+        },
+        "model.layers.35": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 864.0
+        },
+        "model.norm": {
+          "shape": [
+            1,
+            16207,
+            2048
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 181.0
+        },
+        "lm_head": {
+          "shape": [
+            151936
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "nan": 0,
+          "inf": 0,
+          "max_finite_abs": 23.125,
+          "scope": "final prompt position"
+        }
+      },
+      "next_token_logits": {
+        "shape": [
+          151936
+        ],
+        "dtype": "torch.bfloat16",
+        "finite": true,
+        "nan": 0,
+        "inf": 0,
+        "max_finite_abs": 23.125
+      }
+    }
+  ],
+  "fp16_nonfinite": 6,
+  "bf16_nonfinite": 0
+}

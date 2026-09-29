@@ -1,0 +1,6 @@
+﻿dataset,model,layer,reason
+evqa-pilot500,instructblip-vicuna-7b,9,new_norm_top3_outside_existing_formal8_top3_union
+evqa-pilot500,llava-v1.5-7b,3,new_norm_top3_outside_existing_formal8_top3_union
+mmke-entity,llava-v1.5-7b,6,new_norm_top3_outside_existing_formal8_top3_union
+mmke-visual,llava-v1.5-7b,5,new_norm_top3_outside_existing_formal8_top3_union
+mmke-visual,llava-v1.5-7b,6,new_norm_top3_outside_existing_formal8_top3_union

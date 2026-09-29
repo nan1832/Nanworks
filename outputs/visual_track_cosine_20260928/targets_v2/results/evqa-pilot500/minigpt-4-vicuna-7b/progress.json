@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "dataset": "evqa-pilot500",
+  "model": "minigpt-4-vicuna-7b",
+  "processed": 500,
+  "total": 500,
+  "failures": 0,
+  "elapsed_seconds": 526.872487783432,
+  "job_id": "3443209"
+}

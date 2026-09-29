@@ -1,0 +1,1 @@
+bash: line 4: 765758 Terminated              MMKE_SPLIT=eval RUN_ROOT="$ROOT" bash scripts/launch_no_edit_mmke_alt_7models_g07.sh

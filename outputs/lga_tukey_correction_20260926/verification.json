@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "source_hashes_verified": 88,
+  "groups": 21,
+  "independent_quantiles": "statistics.quantiles inclusive (type 7)",
+  "rank_lists_verified": 126,
+  "excluded_layers": 76,
+  "complete_metric_rows_verified": 730,
+  "paired_summary_rows_verified": 141,
+  "same_cohort_tables_verified": 11,
+  "missing_top3": 17,
+  "missing_top5": 35,
+  "l9_full_evaluation_verified": {
+    "dataset": "mmke-entity",
+    "model": "llava-v1.5-7b",
+    "layer": 9,
+    "samples": 954,
+    "training_epochs": 50,
+    "selected_epoch": 48,
+    "average": 75.626,
+    "metric_mean_from_sample_records": {
+      "Rel": 0.6095968553459119,
+      "T-Gen": 0.609914465408805,
+      "M-Gen": 0.6095137316561845,
+      "T-Loc": 1.0,
+      "M-Loc": 0.9523110062893082
+    },
+    "files_sha256_verified": 7
+  },
+  "server_mutations": 0,
+  "new_gpu_training_launched": false
+}

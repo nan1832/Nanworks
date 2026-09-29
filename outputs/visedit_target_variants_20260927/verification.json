@@ -1,0 +1,19 @@
+{
+  "candidate_rows": 42,
+  "alt_done": 21,
+  "model_pred_done": 7,
+  "model_pred_pending": 14,
+  "main_tables_synced": [
+    "### 2.2 ",
+    "### 2.11",
+    "### 2.12"
+  ],
+  "historical_alt_reproduced": 21,
+  "real_edit_section_unchanged": true,
+  "lga_correction_unchanged": true,
+  "other_method_candidate_rows_unchanged": true,
+  "updated_sha256": {
+    "md/Location/6location_7model_3datas_top_3_5_layers_outcome.md": "01bef34e2b917dfeb5c9acd1970a2ce6ee3adc939cc623d1b81330d9e8fcd325",
+    "md/Location/6edit_layer_localization_candidate_methods_简洁说明版.md": "eb4a90859f278dba048a3a8c9b87d05a66cb8f4853e9f24770f7a9cd5dcf3159"
+  }
+}

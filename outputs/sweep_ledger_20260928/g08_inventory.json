@@ -1,0 +1,994 @@
+{
+  "started": "2026-09-28T10:58:21+08:00",
+  "finished": "2026-09-28T10:58:21+08:00",
+  "host": "g08",
+  "roots": [
+    "/tmp/ph_teacher3"
+  ],
+  "visited": 46,
+  "errors": [],
+  "layers": [
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_07",
+      "layer": 7,
+      "files": [
+        "selected_checkpoint.tsv"
+      ],
+      "artifacts": {
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_07/selected_checkpoint.tsv",
+          "size": 312,
+          "sha256": "c817c60c0dd1bae86d930d3484f3c9fa98d5d19861041e3acca1140b8dd72fae",
+          "mtime": "2026-08-28T19:22:35+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\r\n7\tTRAIN_DONE\t31\t7750\t0.41849350929260254\t0.4784238142936448\t/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_07/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L07-lr-1-t-1-v-1/checkpoints/epoch-31-i-7750-ema_loss-0.4784\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1250,
+        "sha256": "d053622b8a21e9a1578d91567c0c3518854f0e1a6212a51b8d1ffafe5a85cc05",
+        "mtime": "2026-09-24T13:33:22+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"2\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "selected": [
+        {
+          "layer": "7",
+          "status": "TRAIN_DONE",
+          "epoch": "31",
+          "i": "7750",
+          "loss": "0.41849350929260254",
+          "ema_loss": "0.4784238142936448",
+          "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_07/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L07-lr-1-t-1-v-1/checkpoints/epoch-31-i-7750-ema_loss-0.4784"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_14",
+      "layer": 14,
+      "files": [
+        "selected_checkpoint.tsv"
+      ],
+      "artifacts": {
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_14/selected_checkpoint.tsv",
+          "size": 359,
+          "sha256": "d50d53e4da79a65004ed71144377cac283d402116b720a203d0f42955dd250ee",
+          "mtime": "2026-08-25T22:18:32+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\r\n14\tTRAIN_DONE\t43\t10750\t0.350848913192749\t0.3650369929883922\t/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_14/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L14-lr-1-t-1-v-1/checkpoints/epoch-43-i-10750-ema_loss-0.3650\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1250,
+        "sha256": "d053622b8a21e9a1578d91567c0c3518854f0e1a6212a51b8d1ffafe5a85cc05",
+        "mtime": "2026-09-24T13:33:22+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"2\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "selected": [
+        {
+          "layer": "14",
+          "status": "TRAIN_DONE",
+          "epoch": "43",
+          "i": "10750",
+          "loss": "0.350848913192749",
+          "ema_loss": "0.3650369929883922",
+          "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_14/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L14-lr-1-t-1-v-1/checkpoints/epoch-43-i-10750-ema_loss-0.3650"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_15",
+      "layer": 15,
+      "files": [
+        "selected_checkpoint.tsv"
+      ],
+      "artifacts": {
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_15/selected_checkpoint.tsv",
+          "size": 358,
+          "sha256": "394d0ac3b042bdfa7b8f7f5442fb55622c354b6940d39c06778e3d68d56ae4cd",
+          "mtime": "2026-08-22T23:29:59+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\r\n15\tTRAIN_DONE\t37\t9250\t0.30954262614250183\t0.366532340369138\t/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_15/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-37-i-9250-ema_loss-0.3665\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1250,
+        "sha256": "d053622b8a21e9a1578d91567c0c3518854f0e1a6212a51b8d1ffafe5a85cc05",
+        "mtime": "2026-09-24T13:33:22+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"2\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "selected": [
+        {
+          "layer": "15",
+          "status": "TRAIN_DONE",
+          "epoch": "37",
+          "i": "9250",
+          "loss": "0.30954262614250183",
+          "ema_loss": "0.366532340369138",
+          "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_15/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-37-i-9250-ema_loss-0.3665"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_16",
+      "layer": 16,
+      "files": [
+        "selected_checkpoint.tsv"
+      ],
+      "artifacts": {
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_16/selected_checkpoint.tsv",
+          "size": 360,
+          "sha256": "1d875d81148b1bee46c8c6e2ec62a87746f2175c073cca05fc1eb812aa060e73",
+          "mtime": "2026-08-24T09:35:37+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\r\n16\tTRAIN_DONE\t48\t12000\t0.436350017786026\t0.35079254661034465\t/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_16/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L16-lr-1-t-1-v-1/checkpoints/epoch-48-i-12000-ema_loss-0.3508\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1250,
+        "sha256": "d053622b8a21e9a1578d91567c0c3518854f0e1a6212a51b8d1ffafe5a85cc05",
+        "mtime": "2026-09-24T13:33:22+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"2\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "selected": [
+        {
+          "layer": "16",
+          "status": "TRAIN_DONE",
+          "epoch": "48",
+          "i": "12000",
+          "loss": "0.436350017786026",
+          "ema_loss": "0.35079254661034465",
+          "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_16/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L16-lr-1-t-1-v-1/checkpoints/epoch-48-i-12000-ema_loss-0.3508"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_06",
+      "layer": 6,
+      "files": [
+        "selected_checkpoint.tsv"
+      ],
+      "artifacts": {
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_06/selected_checkpoint.tsv",
+          "size": 314,
+          "sha256": "67a888dc28a818b9f6697d9fa8ac806930096a212ac1b8607126e127bd07c7f9",
+          "mtime": "2026-08-30T19:25:58+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\r\n6\tTRAIN_DONE\t50\t12500\t0.25576409697532654\t0.4196222431569211\t/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_06/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L06-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4196\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1250,
+        "sha256": "d053622b8a21e9a1578d91567c0c3518854f0e1a6212a51b8d1ffafe5a85cc05",
+        "mtime": "2026-09-24T13:33:22+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"2\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "selected": [
+        {
+          "layer": "6",
+          "status": "TRAIN_DONE",
+          "epoch": "50",
+          "i": "12500",
+          "loss": "0.25576409697532654",
+          "ema_loss": "0.4196222431569211",
+          "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_06/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L06-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4196"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_05",
+      "layer": 5,
+      "files": [
+        "selected_checkpoint.tsv"
+      ],
+      "artifacts": {
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_05/selected_checkpoint.tsv",
+          "size": 311,
+          "sha256": "267771f289672ceec4e5c1f1394b6e5cc805ba69bf892cc069825aedcefdafe9",
+          "mtime": "2026-09-01T20:16:09+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\r\n5\tTRAIN_DONE\t30\t7500\t0.4291675090789795\t0.4374698702018458\t/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_05/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L05-lr-1-t-1-v-1/checkpoints/epoch-30-i-7500-ema_loss-0.4375\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1250,
+        "sha256": "d053622b8a21e9a1578d91567c0c3518854f0e1a6212a51b8d1ffafe5a85cc05",
+        "mtime": "2026-09-24T13:33:22+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"2\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "selected": [
+        {
+          "layer": "5",
+          "status": "TRAIN_DONE",
+          "epoch": "30",
+          "i": "7500",
+          "loss": "0.4291675090789795",
+          "ema_loss": "0.4374698702018458",
+          "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_05/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L05-lr-1-t-1-v-1/checkpoints/epoch-30-i-7500-ema_loss-0.4375"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24",
+      "layer": 24,
+      "files": [
+        "eval_full.done",
+        "selected_checkpoint.tsv",
+        "train.done"
+      ],
+      "artifacts": {
+        "train.done": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24/train.done",
+          "size": 360,
+          "sha256": "58597d3095fc423862dfc8f2c00c45f5528a50f6fcaeb19dd61dca234108d8e9",
+          "mtime": "2026-09-03T00:14:53+08:00",
+          "text": "{\n  \"layer\": 24,\n  \"status\": \"TRAIN_DONE\",\n  \"epoch\": 41,\n  \"i\": 10250,\n  \"loss\": 0.2783174216747284,\n  \"ema_loss\": 0.3512645831833475,\n  \"checkpoint\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L24-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.3513\"\n}"
+        },
+        "eval_full.done": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24/eval_full.done",
+          "size": 727,
+          "sha256": "c371b2ab64ce169d28309ab24a90b26fdf6d58cdcad92cff5ffcfde15ad13c32",
+          "mtime": "2026-09-04T18:56:17+08:00",
+          "text": "{\n  \"layer\": 24,\n  \"status\": \"EVAL_DONE\",\n  \"eval_samples\": 2093,\n  \"checkpoint\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L24-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.3513\",\n  \"ckpt_epoch\": \"41\",\n  \"ckpt_i\": \"10250\",\n  \"ckpt_loss\": \"0.2783174216747284\",\n  \"ckpt_ema_loss\": \"0.3512645831833475\",\n  \"result_dir\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L24/single_edit\",\n  \"Rel\": 52.26,\n  \"T-Gen\": 44.18,\n  \"M-Gen\": 42.27,\n  \"T-Loc\": 100.0,\n  \"M-Loc\": 73.38,\n  \"Average\": 62.418000000000006\n}"
+        },
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24/selected_checkpoint.tsv",
+          "size": 314,
+          "sha256": "5de937216ad2b6ede55b9947c332dd52490a7c11716c93e9596562caf7ae419f",
+          "mtime": "2026-09-03T00:14:53+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\r\n24\tTRAIN_DONE\t41\t10250\t0.2783174216747284\t0.3512645831833475\t/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L24-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.3513\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1250,
+        "sha256": "d053622b8a21e9a1578d91567c0c3518854f0e1a6212a51b8d1ffafe5a85cc05",
+        "mtime": "2026-09-24T13:33:22+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"2\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "evaluation": {
+        "layer": 24,
+        "status": "EVAL_DONE",
+        "eval_samples": 2093,
+        "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L24-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.3513",
+        "ckpt_epoch": "41",
+        "ckpt_i": "10250",
+        "ckpt_loss": "0.2783174216747284",
+        "ckpt_ema_loss": "0.3512645831833475",
+        "result_dir": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L24/single_edit",
+        "Rel": 52.26,
+        "T-Gen": 44.18,
+        "M-Gen": 42.27,
+        "T-Loc": 100.0,
+        "M-Loc": 73.38,
+        "Average": 62.418000000000006
+      },
+      "selected": [
+        {
+          "layer": "24",
+          "status": "TRAIN_DONE",
+          "epoch": "41",
+          "i": "10250",
+          "loss": "0.2783174216747284",
+          "ema_loss": "0.3512645831833475",
+          "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L24-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.3513"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00",
+      "layer": 0,
+      "files": [
+        "eval_full.done",
+        "loss_history.csv",
+        "selected_checkpoint.tsv",
+        "train.done"
+      ],
+      "artifacts": {
+        "train.done": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/train.done",
+          "size": 358,
+          "sha256": "d35274d895a4e35cbac69e45a48bb8090745fc55d74d0162b9a5bacf4dcc352b",
+          "mtime": "2026-09-17T00:26:16+08:00",
+          "text": "{\n  \"layer\": 0,\n  \"status\": \"TRAIN_DONE\",\n  \"epoch\": 26,\n  \"i\": 6500,\n  \"loss\": 0.48669499158859253,\n  \"ema_loss\": 0.4893115578225491,\n  \"checkpoint\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.4893\"\n}"
+        },
+        "eval_full.done": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/eval_full.done",
+          "size": 737,
+          "sha256": "258dbd62a707ee4c3cf260a2a2cb0b6e10bd21eb4620aa38fca67a995430754f",
+          "mtime": "2026-09-17T02:17:10+08:00",
+          "text": "{\n  \"layer\": 0,\n  \"status\": \"EVAL_DONE\",\n  \"eval_samples\": 2093,\n  \"checkpoint\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.4893\",\n  \"ckpt_epoch\": \"26\",\n  \"ckpt_i\": \"6500\",\n  \"ckpt_loss\": \"0.48669499158859253\",\n  \"ckpt_ema_loss\": \"0.4893115578225491\",\n  \"result_dir\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit\",\n  \"Rel\": 45.9,\n  \"T-Gen\": 40.339999999999996,\n  \"M-Gen\": 41.86,\n  \"T-Loc\": 100.0,\n  \"M-Loc\": 74.33999999999999,\n  \"Average\": 60.488\n}"
+        },
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/selected_checkpoint.tsv",
+          "size": 312,
+          "sha256": "0ad854e5bcc8dbda3a2f7ba80762debd2d26cbc284a8bcd5dab1a27d27288368",
+          "mtime": "2026-09-17T00:26:16+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\r\n0\tTRAIN_DONE\t26\t6500\t0.48669499158859253\t0.4893115578225491\t/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.4893\r\n"
+        },
+        "loss_history.csv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/loss_history.csv",
+          "size": 13773,
+          "sha256": "ec657f62673a54e1688990e28a1c981dc2dfc8dfb2c7d604606c225418171d51",
+          "mtime": "2026-09-17T00:26:16+08:00",
+          "text": "time,layer,epoch,i,loss,ema_loss,ckpt_path,kept\r\n2026-09-12 20:40:14,0,1,250,9.291302680969238,7.611158421672184,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-1-i-250-ema_loss-7.6112,1\r\n2026-09-12 21:51:08,0,2,500,7.16084098815918,6.365438180149541,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-2-i-500-ema_loss-6.3654,1\r\n2026-09-12 23:00:12,0,3,750,4.805421829223633,6.149421575888833,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-3-i-750-ema_loss-6.1494,1\r\n2026-09-13 00:10:50,0,4,1000,4.524419784545898,5.818320335739344,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-4-i-1000-ema_loss-5.8183,1\r\n2026-09-13 01:22:09,0,5,1250,3.5443215370178223,5.14564654754177,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-5-i-1250-ema_loss-5.1456,1\r\n2026-09-13 02:34:29,0,6,1500,5.042261600494385,4.34936419274317,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-6-i-1500-ema_loss-4.3494,1\r\n2026-09-13 03:43:10,0,7,1750,1.3025612831115723,2.181220643184674,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-7-i-1750-ema_loss-2.1812,1\r\n2026-09-13 04:48:09,0,8,2000,1.8486640453338623,1.5752918897481623,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-8-i-2000-ema_loss-1.5753,1\r\n2026-09-13 05:52:56,0,9,2250,0.8736236095428467,1.1797327572644374,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-9-i-2250-ema_loss-1.1797,1\r\n2026-09-13 06:57:52,0,10,2500,1.14559805393219,1.1610171873436081,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-10-i-2500-ema_loss-1.1610,1\r\n2026-09-13 08:02:43,0,11,2750,1.1695692539215088,0.9713442849253783,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-11-i-2750-ema_loss-0.9713,1\r\n2026-09-13 09:07:34,0,12,3000,0.5792896747589111,0.8159117991212569,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-12-i-3000-ema_loss-0.8159,1\r\n2026-09-13 10:12:31,0,13,3250,0.784278392791748,0.7323364096393186,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-13-i-3250-ema_loss-0.7323,1\r\n2026-09-13 11:17:30,0,14,3500,0.4879187047481537,0.6776421439756665,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-14-i-3500-ema_loss-0.6776,1\r\n2026-09-13 12:22:22,0,15,3750,0.9789258241653442,0.8534260853543443,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-15-i-3750-ema_loss-0.8534,1\r\n2026-09-13 13:29:18,0,16,4000,0.5235421657562256,0.5949216379839704,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-16-i-4000-ema_loss-0.5949,1\r\n2026-09-13 14:41:38,0,17,4250,0.7912957668304443,0.787517012829993,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-17-i-4250-ema_loss-0.7875,1\r\n2026-09-13 16:12:14,0,18,4500,0.7347335815429688,0.7585120940921246,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-18-i-4500-ema_loss-0.7585,1\r\n2026-09-13 18:15:20,0,19,4750,1.1711556911468506,0.9377622647208659,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-19-i-4750-ema_loss-0.9378,1\r\n2026-09-13 20:16:18,0,20,5000,1.4943406581878662,0.9257121238736782,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-20-i-5000-ema_loss-0.9257,1\r\n2026-09-13 22:23:20,0,21,5250,0.7217957973480225,0.8351505828826244,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-21-i-5250-ema_loss-0.8352,1\r\n2026-09-14 00:25:31,0,22,5500,0.5275629758834839,0.5945042771158064,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-22-i-5500-ema_loss-0.5945,1\r\n2026-09-14 02:15:47,0,23,5750,0.5971379280090332,0.5739398584711582,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-23-i-5750-ema_loss-0.5739,1\r\n2026-09-14 04:05:41,0,24,6000,0.6234706044197083,0.5643496342910752,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-24-i-6000-ema_loss-0.5643,1\r\n2026-09-14 06:23:44,0,25,6250,0.548305094242096,0.5088997748494685,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-25-i-6250-ema_loss-0.5089,1\r\n2026-09-14 08:26:13,0,26,6500,0.48669499158859253,0.4893115578225491,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.4893,1\r\n2026-09-14 10:43:57,0,27,6750,0.48683902621269226,0.4899019565267829,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-27-i-6750-ema_loss-0.4899,1\r\n2026-09-14 13:30:58,0,28,7000,0.5483808517456055,0.5013140891769172,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-28-i-7000-ema_loss-0.5013,1\r\n2026-09-14 16:31:30,0,29,7250,0.875697910785675,1.4138031003695444,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-29-i-7250-ema_loss-1.4138,1\r\n2026-09-14 19:28:18,0,30,7500,0.8162128925323486,1.3754628628065035,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-30-i-7500-ema_loss-1.3755,1\r\n2026-09-14 22:23:06,0,31,7750,0.6234570741653442,1.0696216106420746,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-31-i-7750-ema_loss-1.0696,1\r\n2026-09-15 01:00:45,0,32,8000,0.5468642711639404,0.807959601710143,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-32-i-8000-ema_loss-0.8080,1\r\n2026-09-15 05:03:42,0,33,8250,0.5455000400543213,0.5910687111349332,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-33-i-8250-ema_loss-0.5911,1\r\n2026-09-15 08:48:41,0,34,8500,0.5798882842063904,0.5515670620345151,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-34-i-8500-ema_loss-0.5516,1\r\n2026-09-15 12:44:57,0,35,8750,0.5826495885848999,0.6594885030227107,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-35-i-8750-ema_loss-0.6595,1\r\n2026-09-15 16:27:22,0,36,9000,0.5173155069351196,0.6097338373007795,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-36-i-9000-ema_loss-0.6097,1\r\n2026-09-15 19:18:53,0,37,9250,0.5382332801818848,0.5386899920209456,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-37-i-9250-ema_loss-0.5387,1\r\n2026-09-15 22:11:55,0,38,9500,0.4545051157474518,0.5337399170169522,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.5337,1\r\n2026-09-16 01:22:15,0,39,9750,0.7387745380401611,0.5739788095129011,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-39-i-9750-ema_loss-0.5740,1\r\n2026-09-16 04:22:46,0,40,10000,0.5517106056213379,0.5698704173877696,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-40-i-10000-ema_loss-0.5699,1\r\n2026-09-16 07:49:25,0,41,10250,0.7904081344604492,1.0472313033653295,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-1.0472,1\r\n2026-09-16 10:39:41,0,42,10500,0.7932219505310059,1.2285418720054189,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-42-i-10500-ema_loss-1.2285,1\r\n2026-09-16 13:42:41,0,43,10750,0.7755006551742554,0.9583633411074279,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-43-i-10750-ema_loss-0.9584,1\r\n2026-09-16 16:50:21,0,44,11000,0.5408681035041809,0.614499937722975,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-44-i-11000-ema_loss-0.6145,1\r\n2026-09-16 19:01:18,0,45,11250,0.5753915905952454,0.640041102147744,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-45-i-11250-ema_loss-0.6400,1\r\n2026-09-16 20:06:18,0,46,11500,0.5236760973930359,0.5587861780405312,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-46-i-11500-ema_loss-0.5588,1\r\n2026-09-16 21:11:19,0,47,11750,0.5636946558952332,0.5334333363332056,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-47-i-11750-ema_loss-0.5334,1\r\n2026-09-16 22:16:17,0,48,12000,0.5334471464157104,0.5278544540171544,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-48-i-12000-ema_loss-0.5279,1\r\n2026-09-16 23:21:15,0,49,12250,0.532974123954773,0.5030437909163138,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-49-i-12250-ema_loss-0.5030,1\r\n2026-09-17 00:26:16,0,50,12500,0.723903238773346,0.6347557351923242,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.6348,1\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1250,
+        "sha256": "d053622b8a21e9a1578d91567c0c3518854f0e1a6212a51b8d1ffafe5a85cc05",
+        "mtime": "2026-09-24T13:33:22+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"2\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "rows": 50,
+        "min_row": {
+          "time": "2026-09-14 08:26:13",
+          "layer": "0",
+          "epoch": "26",
+          "i": "6500",
+          "loss": "0.48669499158859253",
+          "ema_loss": "0.4893115578225491",
+          "ckpt_path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.4893",
+          "kept": "1"
+        },
+        "tail": [
+          {
+            "time": "2026-09-17 00:26:16",
+            "layer": "0",
+            "epoch": "50",
+            "i": "12500",
+            "loss": "0.723903238773346",
+            "ema_loss": "0.6347557351923242",
+            "ckpt_path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.6348",
+            "kept": "1"
+          }
+        ]
+      },
+      "evaluation": {
+        "layer": 0,
+        "status": "EVAL_DONE",
+        "eval_samples": 2093,
+        "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.4893",
+        "ckpt_epoch": "26",
+        "ckpt_i": "6500",
+        "ckpt_loss": "0.48669499158859253",
+        "ckpt_ema_loss": "0.4893115578225491",
+        "result_dir": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit",
+        "Rel": 45.9,
+        "T-Gen": 40.339999999999996,
+        "M-Gen": 41.86,
+        "T-Loc": 100.0,
+        "M-Loc": 74.33999999999999,
+        "Average": 60.488
+      },
+      "selected": [
+        {
+          "layer": "0",
+          "status": "TRAIN_DONE",
+          "epoch": "26",
+          "i": "6500",
+          "loss": "0.48669499158859253",
+          "ema_loss": "0.4893115578225491",
+          "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.4893"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01",
+      "layer": 1,
+      "files": [
+        "eval_full.done",
+        "loss_history.csv",
+        "selected_checkpoint.tsv",
+        "train.done"
+      ],
+      "artifacts": {
+        "train.done": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/train.done",
+          "size": 359,
+          "sha256": "4bbbfa4832766c06e661474e5a4fc5e27f4a72975e5765484001ae7931520ca7",
+          "mtime": "2026-09-19T07:19:54+08:00",
+          "text": "{\n  \"layer\": 1,\n  \"status\": \"TRAIN_DONE\",\n  \"epoch\": 50,\n  \"i\": 12500,\n  \"loss\": 0.4593764543533325,\n  \"ema_loss\": 0.4781023975814999,\n  \"checkpoint\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4781\"\n}"
+        },
+        "eval_full.done": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/eval_full.done",
+          "size": 714,
+          "sha256": "3975fa5590f78196d041deff7300c29e814d6e32f6906334efe2f7769eb2f897",
+          "mtime": "2026-09-19T09:12:20+08:00",
+          "text": "{\n  \"layer\": 1,\n  \"status\": \"EVAL_DONE\",\n  \"eval_samples\": 2093,\n  \"checkpoint\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4781\",\n  \"ckpt_epoch\": \"50\",\n  \"ckpt_i\": \"12500\",\n  \"ckpt_loss\": \"0.4593764543533325\",\n  \"ckpt_ema_loss\": \"0.4781023975814999\",\n  \"result_dir\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L01/single_edit\",\n  \"Rel\": 43.28,\n  \"T-Gen\": 37.56,\n  \"M-Gen\": 40.29,\n  \"T-Loc\": 100.0,\n  \"M-Loc\": 70.75,\n  \"Average\": 58.376\n}"
+        },
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/selected_checkpoint.tsv",
+          "size": 313,
+          "sha256": "20f843ce9a2c232cdc4cc815575a680f9e54a207db82f986b4c430e324cd3351",
+          "mtime": "2026-09-19T07:19:54+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\r\n1\tTRAIN_DONE\t50\t12500\t0.4593764543533325\t0.4781023975814999\t/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4781\r\n"
+        },
+        "loss_history.csv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/loss_history.csv",
+          "size": 13770,
+          "sha256": "78641237aad2d9ddf2004bb45d244a8571a0fff571675bd1fcb235376f6f4fcf",
+          "mtime": "2026-09-19T07:19:53+08:00",
+          "text": "time,layer,epoch,i,loss,ema_loss,ckpt_path,kept\r\n2026-09-17 03:26:42,1,1,250,7.903792381286621,7.836291787092013,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-1-i-250-ema_loss-7.8363,1\r\n2026-09-17 04:30:09,1,2,500,3.1980724334716797,7.261043049533038,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-2-i-500-ema_loss-7.2610,1\r\n2026-09-17 05:33:33,1,3,750,4.917935848236084,5.616006205889485,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-3-i-750-ema_loss-5.6160,1\r\n2026-09-17 06:36:59,1,4,1000,10.945085525512695,6.123504989972247,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-4-i-1000-ema_loss-6.1235,1\r\n2026-09-17 07:40:20,1,5,1250,4.213621616363525,5.4606898010046265,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-5-i-1250-ema_loss-5.4607,1\r\n2026-09-17 08:43:40,1,6,1500,6.039441108703613,4.7422259538601,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-6-i-1500-ema_loss-4.7422,1\r\n2026-09-17 09:47:06,1,7,1750,3.460721492767334,3.845161388748478,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-7-i-1750-ema_loss-3.8452,1\r\n2026-09-17 10:50:31,1,8,2000,4.088354587554932,2.6188415085036887,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-8-i-2000-ema_loss-2.6188,1\r\n2026-09-17 11:56:16,1,9,2250,1.8156273365020752,1.5842983757403284,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-9-i-2250-ema_loss-1.5843,1\r\n2026-09-17 13:02:19,1,10,2500,1.3953526020050049,1.3580340139488871,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-10-i-2500-ema_loss-1.3580,1\r\n2026-09-17 14:05:38,1,11,2750,1.2257013320922852,1.343263433495882,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-2750-ema_loss-1.3433,1\r\n2026-09-17 15:08:58,1,12,3000,0.6426390409469604,0.9624734927363904,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-12-i-3000-ema_loss-0.9625,1\r\n2026-09-17 16:12:14,1,13,3250,1.599552869796753,0.8645325120877949,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-13-i-3250-ema_loss-0.8645,1\r\n2026-09-17 17:15:25,1,14,3500,0.5874521136283875,0.6876296479185141,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-14-i-3500-ema_loss-0.6876,1\r\n2026-09-17 18:18:38,1,15,3750,0.5590465664863586,0.7029659881508514,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-15-i-3750-ema_loss-0.7030,1\r\n2026-09-17 19:21:46,1,16,4000,0.6845698952674866,0.7884704095359129,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-16-i-4000-ema_loss-0.7885,1\r\n2026-09-17 20:24:55,1,17,4250,0.6104340553283691,0.6741669428425585,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-17-i-4250-ema_loss-0.6742,1\r\n2026-09-17 21:28:02,1,18,4500,0.7373393774032593,1.3584325718540262,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-18-i-4500-ema_loss-1.3584,1\r\n2026-09-17 22:31:03,1,19,4750,0.6629030108451843,0.8189487528200495,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-19-i-4750-ema_loss-0.8189,1\r\n2026-09-17 23:34:09,1,20,5000,0.5821443200111389,1.555019023479009,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-20-i-5000-ema_loss-1.5550,1\r\n2026-09-18 00:37:17,1,21,5250,1.2669479846954346,1.0104389970447272,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-21-i-5250-ema_loss-1.0104,1\r\n2026-09-18 01:40:24,1,22,5500,0.8008365631103516,0.8397208637308067,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-22-i-5500-ema_loss-0.8397,1\r\n2026-09-18 02:43:30,1,23,5750,0.5314497351646423,0.708398292044829,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-23-i-5750-ema_loss-0.7084,1\r\n2026-09-18 03:46:39,1,24,6000,0.6733306646347046,0.5859883336302569,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-24-i-6000-ema_loss-0.5860,1\r\n2026-09-18 04:49:52,1,25,6250,0.5112279653549194,0.5256576729359516,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-25-i-6250-ema_loss-0.5257,1\r\n2026-09-18 05:53:08,1,26,6500,0.5907667279243469,0.5284177042792239,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.5284,1\r\n2026-09-18 06:56:23,1,27,6750,0.6884465217590332,0.5511938854411633,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-27-i-6750-ema_loss-0.5512,1\r\n2026-09-18 07:59:36,1,28,7000,0.4955650568008423,0.5251274143561965,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-28-i-7000-ema_loss-0.5251,1\r\n2026-09-18 09:02:56,1,29,7250,0.8826677799224854,0.9058826581105057,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-29-i-7250-ema_loss-0.9059,1\r\n2026-09-18 10:06:21,1,30,7500,1.0567028522491455,1.0331634748990293,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-30-i-7500-ema_loss-1.0332,1\r\n2026-09-18 11:12:10,1,31,7750,1.2708098888397217,0.8410039010684103,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-31-i-7750-ema_loss-0.8410,1\r\n2026-09-18 12:15:20,1,32,8000,0.5005943179130554,0.5733932482528106,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-32-i-8000-ema_loss-0.5734,1\r\n2026-09-18 13:18:22,1,33,8250,0.5461000204086304,0.5080911007637787,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-33-i-8250-ema_loss-0.5081,1\r\n2026-09-18 14:21:23,1,34,8500,0.5642188787460327,0.570832993526109,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-34-i-8500-ema_loss-0.5708,1\r\n2026-09-18 15:26:22,1,35,8750,0.49348169565200806,0.6012852846207641,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-35-i-8750-ema_loss-0.6013,1\r\n2026-09-18 16:30:47,1,36,9000,1.1255648136138916,0.8919619739136048,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-36-i-9000-ema_loss-0.8920,1\r\n2026-09-18 17:34:21,1,37,9250,0.5965051651000977,0.6395472322316542,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-37-i-9250-ema_loss-0.6395,1\r\n2026-09-18 18:37:54,1,38,9500,0.6243390440940857,0.7416511826624247,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.7417,1\r\n2026-09-18 19:41:21,1,39,9750,0.5787365436553955,0.609496486420096,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-39-i-9750-ema_loss-0.6095,1\r\n2026-09-18 20:44:48,1,40,10000,0.5551061630249023,0.7721846720758787,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-40-i-10000-ema_loss-0.7722,1\r\n2026-09-18 21:48:14,1,41,10250,0.5199554562568665,0.6140353416531668,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.6140,1\r\n2026-09-18 22:51:43,1,42,10500,0.6191478967666626,0.594466986864998,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-42-i-10500-ema_loss-0.5945,1\r\n2026-09-18 23:55:11,1,43,10750,0.493461012840271,0.5742482487742279,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-43-i-10750-ema_loss-0.5742,1\r\n2026-09-19 00:58:42,1,44,11000,1.8804006576538086,1.415574121883287,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-44-i-11000-ema_loss-1.4156,1\r\n2026-09-19 02:02:11,1,45,11250,0.6734437942504883,1.1089688759295642,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-45-i-11250-ema_loss-1.1090,1\r\n2026-09-19 03:05:42,1,46,11500,1.238813877105713,0.674282529202039,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-46-i-11500-ema_loss-0.6743,1\r\n2026-09-19 04:09:14,1,47,11750,0.528881311416626,0.567750992730831,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-47-i-11750-ema_loss-0.5678,1\r\n2026-09-19 05:12:48,1,48,12000,0.4179399609565735,0.523153241567978,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-48-i-12000-ema_loss-0.5232,1\r\n2026-09-19 06:16:20,1,49,12250,0.5308641791343689,0.5149339803658992,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-49-i-12250-ema_loss-0.5149,1\r\n2026-09-19 07:19:53,1,50,12500,0.4593764543533325,0.4781023975814999,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4781,1\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1250,
+        "sha256": "d053622b8a21e9a1578d91567c0c3518854f0e1a6212a51b8d1ffafe5a85cc05",
+        "mtime": "2026-09-24T13:33:22+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"2\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "rows": 50,
+        "min_row": {
+          "time": "2026-09-19 07:19:53",
+          "layer": "1",
+          "epoch": "50",
+          "i": "12500",
+          "loss": "0.4593764543533325",
+          "ema_loss": "0.4781023975814999",
+          "ckpt_path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4781",
+          "kept": "1"
+        },
+        "tail": [
+          {
+            "time": "2026-09-19 07:19:53",
+            "layer": "1",
+            "epoch": "50",
+            "i": "12500",
+            "loss": "0.4593764543533325",
+            "ema_loss": "0.4781023975814999",
+            "ckpt_path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4781",
+            "kept": "1"
+          }
+        ]
+      },
+      "evaluation": {
+        "layer": 1,
+        "status": "EVAL_DONE",
+        "eval_samples": 2093,
+        "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4781",
+        "ckpt_epoch": "50",
+        "ckpt_i": "12500",
+        "ckpt_loss": "0.4593764543533325",
+        "ckpt_ema_loss": "0.4781023975814999",
+        "result_dir": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L01/single_edit",
+        "Rel": 43.28,
+        "T-Gen": 37.56,
+        "M-Gen": 40.29,
+        "T-Loc": 100.0,
+        "M-Loc": 70.75,
+        "Average": 58.376
+      },
+      "selected": [
+        {
+          "layer": "1",
+          "status": "TRAIN_DONE",
+          "epoch": "50",
+          "i": "12500",
+          "loss": "0.4593764543533325",
+          "ema_loss": "0.4781023975814999",
+          "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4781"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02",
+      "layer": 2,
+      "files": [
+        "loss_history.csv",
+        "selected_checkpoint.tsv",
+        "train.done"
+      ],
+      "artifacts": {
+        "train.done": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/train.done",
+          "size": 361,
+          "sha256": "9c9f514c8a8558e9b3dca1794aa5110c70b63a232c179da6864d9c390efbf691",
+          "mtime": "2026-09-21T17:40:25+08:00",
+          "text": "{\n  \"layer\": 2,\n  \"status\": \"TRAIN_DONE\",\n  \"epoch\": 41,\n  \"i\": 10250,\n  \"loss\": 0.39901894330978394,\n  \"ema_loss\": 0.46263132155274744,\n  \"checkpoint\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626\"\n}"
+        },
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/selected_checkpoint.tsv",
+          "size": 315,
+          "sha256": "2e83e92e122ae7eb831ea678fce35ca590fa410b4c837448fa0322e842dc4560",
+          "mtime": "2026-09-21T17:40:25+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\r\n2\tTRAIN_DONE\t41\t10250\t0.39901894330978394\t0.46263132155274744\t/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626\r\n"
+        },
+        "loss_history.csv": {
+          "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/loss_history.csv",
+          "size": 13787,
+          "sha256": "cc7c9b8274cd0da49c02754ee1ead6b534df843dd7696d97bbc9f524af593a29",
+          "mtime": "2026-09-21T17:40:25+08:00",
+          "text": "time,layer,epoch,i,loss,ema_loss,ckpt_path,kept\r\n2026-09-19 10:21:54,2,1,250,4.405521392822266,7.20111822399411,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-1-i-250-ema_loss-7.2011,1\r\n2026-09-19 11:23:52,2,2,500,4.263429164886475,7.443361790790481,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-2-i-500-ema_loss-7.4434,1\r\n2026-09-19 12:25:50,2,3,750,7.586559295654297,6.165500422901612,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-3-i-750-ema_loss-6.1655,1\r\n2026-09-19 13:27:41,2,4,1000,6.174492835998535,5.302898790520188,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-4-i-1000-ema_loss-5.3029,1\r\n2026-09-19 14:29:34,2,5,1250,6.068631649017334,4.300690535899139,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-5-i-1250-ema_loss-4.3007,1\r\n2026-09-19 15:31:23,2,6,1500,2.404972791671753,2.0002247795963837,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-6-i-1500-ema_loss-2.0002,1\r\n2026-09-19 16:33:12,2,7,1750,1.0923722982406616,1.346225951156902,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-7-i-1750-ema_loss-1.3462,1\r\n2026-09-19 17:35:02,2,8,2000,0.9589954018592834,2.0635840982650078,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-8-i-2000-ema_loss-2.0636,1\r\n2026-09-19 18:36:51,2,9,2250,0.7223621606826782,0.9846440086909767,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-9-i-2250-ema_loss-0.9846,1\r\n2026-09-19 19:47:23,2,10,2500,0.6106116771697998,1.0894380789430487,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-10-i-2500-ema_loss-1.0894,1\r\n2026-09-19 21:00:06,2,11,2750,2.4350790977478027,1.5455965661656108,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-11-i-2750-ema_loss-1.5456,1\r\n2026-09-19 22:08:11,2,12,3000,0.8163688778877258,1.0972519546395871,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-12-i-3000-ema_loss-1.0973,1\r\n2026-09-19 23:10:03,2,13,3250,0.40763580799102783,0.6808238674434495,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-13-i-3250-ema_loss-0.6808,1\r\n2026-09-20 00:11:08,2,14,3500,0.39861518144607544,0.57047697496648,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-14-i-3500-ema_loss-0.5705,1\r\n2026-09-20 01:11:24,2,15,3750,0.5087550282478333,0.6168385580332093,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-15-i-3750-ema_loss-0.6168,1\r\n2026-09-20 02:11:35,2,16,4000,0.5565587878227234,0.66701121416649,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-16-i-4000-ema_loss-0.6670,1\r\n2026-09-20 03:11:47,2,17,4250,0.5537216663360596,0.6049647960307915,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-17-i-4250-ema_loss-0.6050,1\r\n2026-09-20 04:13:12,2,18,4500,0.48919788002967834,0.5923759290125533,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-18-i-4500-ema_loss-0.5924,1\r\n2026-09-20 05:15:11,2,19,4750,0.48247042298316956,0.5703892701779221,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-19-i-4750-ema_loss-0.5704,1\r\n2026-09-20 06:17:03,2,20,5000,0.5288975238800049,0.590052143572357,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-20-i-5000-ema_loss-0.5901,1\r\n2026-09-20 07:18:55,2,21,5250,0.5518807768821716,0.5561883614481232,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-21-i-5250-ema_loss-0.5562,1\r\n2026-09-20 08:20:59,2,22,5500,1.9070736169815063,1.0027972221551877,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-22-i-5500-ema_loss-1.0028,1\r\n2026-09-20 09:22:54,2,23,5750,0.6940698623657227,1.3290162122284082,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-23-i-5750-ema_loss-1.3290,1\r\n2026-09-20 10:24:55,2,24,6000,0.5635262131690979,1.0914888693913558,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-24-i-6000-ema_loss-1.0915,1\r\n2026-09-20 11:26:57,2,25,6250,0.6831568479537964,0.7225528806134963,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-25-i-6250-ema_loss-0.7226,1\r\n2026-09-20 12:29:02,2,26,6500,0.5061527490615845,0.6338648177786784,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.6339,1\r\n2026-09-20 13:42:20,2,27,6750,1.1068525314331055,0.5864642806851033,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-27-i-6750-ema_loss-0.5865,1\r\n2026-09-20 14:55:57,2,28,7000,0.5774312019348145,0.5424575357093299,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-28-i-7000-ema_loss-0.5425,1\r\n2026-09-20 16:08:14,2,29,7250,0.5031180381774902,0.49219464168482985,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-29-i-7250-ema_loss-0.4922,1\r\n2026-09-20 17:10:24,2,30,7500,0.5326560735702515,0.47892767960362337,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-30-i-7500-ema_loss-0.4789,1\r\n2026-09-20 18:12:29,2,31,7750,0.2523622512817383,0.46639289084911406,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-31-i-7750-ema_loss-0.4664,1\r\n2026-09-20 19:14:39,2,32,8000,0.49643656611442566,0.5018912803904397,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-32-i-8000-ema_loss-0.5019,1\r\n2026-09-20 20:16:40,2,33,8250,0.5138871669769287,0.5801371155756424,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-33-i-8250-ema_loss-0.5801,1\r\n2026-09-20 21:33:10,2,34,8500,0.4583013653755188,0.8152478116523281,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-34-i-8500-ema_loss-0.8152,1\r\n2026-09-20 22:50:23,2,35,8750,0.8257691860198975,1.4620197608983658,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-35-i-8750-ema_loss-1.4620,1\r\n2026-09-21 00:11:13,2,36,9000,0.7141484022140503,0.69812534862563,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-36-i-9000-ema_loss-0.6981,1\r\n2026-09-21 01:26:15,2,37,9250,0.6630429029464722,0.6376230003953377,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-37-i-9250-ema_loss-0.6376,1\r\n2026-09-21 02:46:13,2,38,9500,0.5562030673027039,0.5458956873284669,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.5459,1\r\n2026-09-21 04:01:10,2,39,9750,0.5114017724990845,0.5081822208897906,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-39-i-9750-ema_loss-0.5082,1\r\n2026-09-21 05:18:54,2,40,10000,0.4801230728626251,0.5926435761065378,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-40-i-10000-ema_loss-0.5926,1\r\n2026-09-21 06:34:51,2,41,10250,0.39901894330978394,0.46263132155274744,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626,1\r\n2026-09-21 07:54:08,2,42,10500,0.5015208721160889,0.48346672835734694,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-42-i-10500-ema_loss-0.4835,1\r\n2026-09-21 09:15:41,2,43,10750,0.6409256458282471,0.7746102865528014,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-43-i-10750-ema_loss-0.7746,1\r\n2026-09-21 10:31:15,2,44,11000,0.4131459891796112,0.5726270470426943,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-44-i-11000-ema_loss-0.5726,1\r\n2026-09-21 11:51:06,2,45,11250,0.6213454604148865,0.8950613445120598,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-45-i-11250-ema_loss-0.8951,1\r\n2026-09-21 13:05:10,2,46,11500,0.9243923425674438,0.7311297676779723,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-46-i-11500-ema_loss-0.7311,1\r\n2026-09-21 14:23:51,2,47,11750,0.6569291353225708,0.6147759718884518,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-47-i-11750-ema_loss-0.6148,1\r\n2026-09-21 15:27:13,2,48,12000,0.4164905846118927,0.5129852844146854,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-48-i-12000-ema_loss-0.5130,1\r\n2026-09-21 16:35:00,2,49,12250,0.572876513004303,0.536039637456626,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-49-i-12250-ema_loss-0.5360,1\r\n2026-09-21 17:40:25,2,50,12500,0.49759942293167114,0.5922635431556609,/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.5923,1\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1250,
+        "sha256": "d053622b8a21e9a1578d91567c0c3518854f0e1a6212a51b8d1ffafe5a85cc05",
+        "mtime": "2026-09-24T13:33:22+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"2\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "rows": 50,
+        "min_row": {
+          "time": "2026-09-21 06:34:51",
+          "layer": "2",
+          "epoch": "41",
+          "i": "10250",
+          "loss": "0.39901894330978394",
+          "ema_loss": "0.46263132155274744",
+          "ckpt_path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626",
+          "kept": "1"
+        },
+        "tail": [
+          {
+            "time": "2026-09-21 17:40:25",
+            "layer": "2",
+            "epoch": "50",
+            "i": "12500",
+            "loss": "0.49759942293167114",
+            "ema_loss": "0.5922635431556609",
+            "ckpt_path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.5923",
+            "kept": "1"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "layer": "2",
+          "status": "TRAIN_DONE",
+          "epoch": "41",
+          "i": "10250",
+          "loss": "0.39901894330978394",
+          "ema_loss": "0.46263132155274744",
+          "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02",
+      "layer": 2,
+      "files": [
+        "eval_full.done",
+        "loss_history.csv",
+        "selected_checkpoint.tsv",
+        "train.done"
+      ],
+      "artifacts": {
+        "train.done": {
+          "path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/train.done",
+          "size": 353,
+          "sha256": "fdf8dac2bbc25914b356c37dc9607303bc53a6d4102bdfd2a7fa87acbd7001b9",
+          "mtime": "2026-09-24T14:05:47+08:00",
+          "text": "{\n  \"layer\": 2,\n  \"status\": \"TRAIN_DONE\",\n  \"epoch\": 41,\n  \"i\": 10250,\n  \"loss\": 0.39901894330978394,\n  \"ema_loss\": 0.46263132155274744,\n  \"checkpoint\": \"/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626\"\n}"
+        },
+        "eval_full.done": {
+          "path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/eval_full.done",
+          "size": 750,
+          "sha256": "9ffb7ae38aeaec08ce2a64c7f4ccdd52ebb5a32662ca633cb56608f0b3ded915",
+          "mtime": "2026-09-24T15:53:58+08:00",
+          "text": "{\n  \"layer\": 2,\n  \"status\": \"EVAL_DONE\",\n  \"eval_samples\": 2093,\n  \"checkpoint\": \"/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626\",\n  \"ckpt_epoch\": \"41\",\n  \"ckpt_i\": \"10250\",\n  \"ckpt_loss\": \"0.39901894330978394\",\n  \"ckpt_ema_loss\": \"0.46263132155274744\",\n  \"result_dir\": \"/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L02/single_edit\",\n  \"Rel\": 59.550000000000004,\n  \"T-Gen\": 56.910000000000004,\n  \"M-Gen\": 57.099999999999994,\n  \"T-Loc\": 100.0,\n  \"M-Loc\": 71.74000000000001,\n  \"Average\": 69.06\n}"
+        },
+        "selected_checkpoint.tsv": {
+          "path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/selected_checkpoint.tsv",
+          "size": 305,
+          "sha256": "30565355dd87d1fbcb76bd2f75386af84f51139eafc8a06566f9f674084eff0f",
+          "mtime": "2026-09-24T14:05:47+08:00",
+          "text": "layer\tstatus\tepoch\ti\tloss\tema_loss\tcheckpoint\n2\tTRAIN_DONE\t41\t10250\t0.39901894330978394\t0.46263132155274744\t/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626\n"
+        },
+        "loss_history.csv": {
+          "path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/loss_history.csv",
+          "size": 13336,
+          "sha256": "96c6e29414085b3e8e87633552cde4d296f8d55bec907eb129996ea539a9f7c5",
+          "mtime": "2026-09-24T14:05:47+08:00",
+          "text": "time,layer,epoch,i,loss,ema_loss,ckpt_path,kept\n2026-09-19 10:21:54,2,1,250,4.405521392822266,7.20111822399411,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-1-i-250-ema_loss-7.2011,1\n2026-09-19 11:23:52,2,2,500,4.263429164886475,7.443361790790481,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-2-i-500-ema_loss-7.4434,1\n2026-09-19 12:25:50,2,3,750,7.586559295654297,6.165500422901612,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-3-i-750-ema_loss-6.1655,1\n2026-09-19 13:27:41,2,4,1000,6.174492835998535,5.302898790520188,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-4-i-1000-ema_loss-5.3029,1\n2026-09-19 14:29:34,2,5,1250,6.068631649017334,4.300690535899139,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-5-i-1250-ema_loss-4.3007,1\n2026-09-19 15:31:23,2,6,1500,2.404972791671753,2.0002247795963837,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-6-i-1500-ema_loss-2.0002,1\n2026-09-19 16:33:12,2,7,1750,1.0923722982406616,1.346225951156902,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-7-i-1750-ema_loss-1.3462,1\n2026-09-19 17:35:02,2,8,2000,0.9589954018592834,2.0635840982650078,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-8-i-2000-ema_loss-2.0636,1\n2026-09-19 18:36:51,2,9,2250,0.7223621606826782,0.9846440086909767,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-9-i-2250-ema_loss-0.9846,1\n2026-09-19 19:47:23,2,10,2500,0.6106116771697998,1.0894380789430487,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-10-i-2500-ema_loss-1.0894,1\n2026-09-19 21:00:06,2,11,2750,2.4350790977478027,1.5455965661656108,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-11-i-2750-ema_loss-1.5456,1\n2026-09-19 22:08:11,2,12,3000,0.8163688778877258,1.0972519546395871,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-12-i-3000-ema_loss-1.0973,1\n2026-09-19 23:10:03,2,13,3250,0.40763580799102783,0.6808238674434495,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-13-i-3250-ema_loss-0.6808,1\n2026-09-20 00:11:08,2,14,3500,0.39861518144607544,0.57047697496648,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-14-i-3500-ema_loss-0.5705,1\n2026-09-20 01:11:24,2,15,3750,0.5087550282478333,0.6168385580332093,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-15-i-3750-ema_loss-0.6168,1\n2026-09-20 02:11:35,2,16,4000,0.5565587878227234,0.66701121416649,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-16-i-4000-ema_loss-0.6670,1\n2026-09-20 03:11:47,2,17,4250,0.5537216663360596,0.6049647960307915,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-17-i-4250-ema_loss-0.6050,1\n2026-09-20 04:13:12,2,18,4500,0.48919788002967834,0.5923759290125533,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-18-i-4500-ema_loss-0.5924,1\n2026-09-20 05:15:11,2,19,4750,0.48247042298316956,0.5703892701779221,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-19-i-4750-ema_loss-0.5704,1\n2026-09-20 06:17:03,2,20,5000,0.5288975238800049,0.590052143572357,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-20-i-5000-ema_loss-0.5901,1\n2026-09-20 07:18:55,2,21,5250,0.5518807768821716,0.5561883614481232,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-21-i-5250-ema_loss-0.5562,1\n2026-09-20 08:20:59,2,22,5500,1.9070736169815063,1.0027972221551877,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-22-i-5500-ema_loss-1.0028,1\n2026-09-20 09:22:54,2,23,5750,0.6940698623657227,1.3290162122284082,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-23-i-5750-ema_loss-1.3290,1\n2026-09-20 10:24:55,2,24,6000,0.5635262131690979,1.0914888693913558,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-24-i-6000-ema_loss-1.0915,1\n2026-09-20 11:26:57,2,25,6250,0.6831568479537964,0.7225528806134963,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-25-i-6250-ema_loss-0.7226,1\n2026-09-20 12:29:02,2,26,6500,0.5061527490615845,0.6338648177786784,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.6339,1\n2026-09-20 13:42:20,2,27,6750,1.1068525314331055,0.5864642806851033,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-27-i-6750-ema_loss-0.5865,1\n2026-09-20 14:55:57,2,28,7000,0.5774312019348145,0.5424575357093299,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-28-i-7000-ema_loss-0.5425,1\n2026-09-20 16:08:14,2,29,7250,0.5031180381774902,0.49219464168482985,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-29-i-7250-ema_loss-0.4922,1\n2026-09-20 17:10:24,2,30,7500,0.5326560735702515,0.47892767960362337,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-30-i-7500-ema_loss-0.4789,1\n2026-09-20 18:12:29,2,31,7750,0.2523622512817383,0.46639289084911406,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-31-i-7750-ema_loss-0.4664,1\n2026-09-20 19:14:39,2,32,8000,0.49643656611442566,0.5018912803904397,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-32-i-8000-ema_loss-0.5019,1\n2026-09-20 20:16:40,2,33,8250,0.5138871669769287,0.5801371155756424,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-33-i-8250-ema_loss-0.5801,1\n2026-09-20 21:33:10,2,34,8500,0.4583013653755188,0.8152478116523281,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-34-i-8500-ema_loss-0.8152,1\n2026-09-20 22:50:23,2,35,8750,0.8257691860198975,1.4620197608983658,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-35-i-8750-ema_loss-1.4620,1\n2026-09-21 00:11:13,2,36,9000,0.7141484022140503,0.69812534862563,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-36-i-9000-ema_loss-0.6981,1\n2026-09-21 01:26:15,2,37,9250,0.6630429029464722,0.6376230003953377,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-37-i-9250-ema_loss-0.6376,1\n2026-09-21 02:46:13,2,38,9500,0.5562030673027039,0.5458956873284669,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.5459,1\n2026-09-21 04:01:10,2,39,9750,0.5114017724990845,0.5081822208897906,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-39-i-9750-ema_loss-0.5082,1\n2026-09-21 05:18:54,2,40,10000,0.4801230728626251,0.5926435761065378,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-40-i-10000-ema_loss-0.5926,1\n2026-09-21 06:34:51,2,41,10250,0.39901894330978394,0.46263132155274744,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626,1\n2026-09-21 07:54:08,2,42,10500,0.5015208721160889,0.48346672835734694,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-42-i-10500-ema_loss-0.4835,1\n2026-09-21 09:15:41,2,43,10750,0.6409256458282471,0.7746102865528014,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-43-i-10750-ema_loss-0.7746,1\n2026-09-21 10:31:15,2,44,11000,0.4131459891796112,0.5726270470426943,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-44-i-11000-ema_loss-0.5726,1\n2026-09-21 11:51:06,2,45,11250,0.6213454604148865,0.8950613445120598,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-45-i-11250-ema_loss-0.8951,1\n2026-09-21 13:05:10,2,46,11500,0.9243923425674438,0.7311297676779723,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-46-i-11500-ema_loss-0.7311,1\n2026-09-21 14:23:51,2,47,11750,0.6569291353225708,0.6147759718884518,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-47-i-11750-ema_loss-0.6148,1\n2026-09-21 15:27:13,2,48,12000,0.4164905846118927,0.5129852844146854,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-48-i-12000-ema_loss-0.5130,1\n2026-09-21 16:35:00,2,49,12250,0.572876513004303,0.536039637456626,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-49-i-12250-ema_loss-0.5360,1\n2026-09-21 17:40:25,2,50,12500,0.49759942293167114,0.5922635431556609,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.5923,1\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1242,
+        "sha256": "b4cbfd83ac905ae906dee2d354e4033ff33a879c360fa8a051d77b1972c6aecc",
+        "mtime": "2026-09-24T15:55:46+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"4\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"False\",\n  \"skip_eval\": \"True\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "rows": 50,
+        "min_row": {
+          "time": "2026-09-21 06:34:51",
+          "layer": "2",
+          "epoch": "41",
+          "i": "10250",
+          "loss": "0.39901894330978394",
+          "ema_loss": "0.46263132155274744",
+          "ckpt_path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626",
+          "kept": "1"
+        },
+        "tail": [
+          {
+            "time": "2026-09-21 17:40:25",
+            "layer": "2",
+            "epoch": "50",
+            "i": "12500",
+            "loss": "0.49759942293167114",
+            "ema_loss": "0.5922635431556609",
+            "ckpt_path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.5923",
+            "kept": "1"
+          }
+        ]
+      },
+      "evaluation": {
+        "layer": 2,
+        "status": "EVAL_DONE",
+        "eval_samples": 2093,
+        "checkpoint": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626",
+        "ckpt_epoch": "41",
+        "ckpt_i": "10250",
+        "ckpt_loss": "0.39901894330978394",
+        "ckpt_ema_loss": "0.46263132155274744",
+        "result_dir": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L02/single_edit",
+        "Rel": 59.550000000000004,
+        "T-Gen": 56.910000000000004,
+        "M-Gen": 57.099999999999994,
+        "T-Loc": 100.0,
+        "M-Loc": 71.74000000000001,
+        "Average": 69.06
+      },
+      "selected": [
+        {
+          "layer": "2",
+          "status": "TRAIN_DONE",
+          "epoch": "41",
+          "i": "10250",
+          "loss": "0.39901894330978394",
+          "ema_loss": "0.46263132155274744",
+          "checkpoint": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626"
+        }
+      ]
+    },
+    {
+      "host": "g08",
+      "path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04",
+      "layer": 4,
+      "files": [
+        "loss_history.csv"
+      ],
+      "artifacts": {
+        "loss_history.csv": {
+          "path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/loss_history.csv",
+          "size": 7750,
+          "sha256": "c5f6ee3dfafa9537673346d7f062a360a7c2f087f207b721c4aab1821c2c226d",
+          "mtime": "2026-09-25T20:01:51+08:00",
+          "text": "time,layer,epoch,i,loss,ema_loss,ckpt_path,kept\r\n2026-09-24 17:00:20,4,1,250,7.154109001159668,9.565908950109812,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-1-i-250-ema_loss-9.5659,1\r\n2026-09-24 18:02:41,4,2,500,3.8501381874084473,6.73283757382349,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-2-i-500-ema_loss-6.7328,1\r\n2026-09-24 19:13:18,4,3,750,6.742709159851074,6.312554282631079,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-3-i-750-ema_loss-6.3126,1\r\n2026-09-24 20:15:31,4,4,1000,15.42127799987793,7.3136083869503965,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-4-i-1000-ema_loss-7.3136,1\r\n2026-09-24 21:13:52,4,5,1250,10.912816047668457,5.257011680711558,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-5-i-1250-ema_loss-5.2570,1\r\n2026-09-24 22:12:14,4,6,1500,2.666072368621826,3.8487270167433425,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-6-i-1500-ema_loss-3.8487,1\r\n2026-09-24 23:10:37,4,7,1750,2.160306215286255,3.2826090347882992,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-7-i-1750-ema_loss-3.2826,1\r\n2026-09-25 00:07:31,4,8,2000,1.2587324380874634,1.5626321504183145,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-8-i-2000-ema_loss-1.5626,1\r\n2026-09-25 01:04:14,4,9,2250,3.9221603870391846,1.491092616126348,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-9-i-2250-ema_loss-1.4911,1\r\n2026-09-25 02:01:00,4,10,2500,1.2178722620010376,1.2244764918283642,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-10-i-2500-ema_loss-1.2245,1\r\n2026-09-25 02:57:52,4,11,2750,0.6455948352813721,1.2108024335849805,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-11-i-2750-ema_loss-1.2108,1\r\n2026-09-25 03:54:41,4,12,3000,0.5502536296844482,0.7125490332407518,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-12-i-3000-ema_loss-0.7125,1\r\n2026-09-25 04:51:31,4,13,3250,0.5867330431938171,0.8561763288158564,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-13-i-3250-ema_loss-0.8562,1\r\n2026-09-25 05:48:23,4,14,3500,0.6528279781341553,0.7637608008622486,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-14-i-3500-ema_loss-0.7638,1\r\n2026-09-25 06:45:17,4,15,3750,0.5203611850738525,0.6086209050778633,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-15-i-3750-ema_loss-0.6086,1\r\n2026-09-25 07:42:11,4,16,4000,0.5657135248184204,0.7869898354739976,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-16-i-4000-ema_loss-0.7870,1\r\n2026-09-25 08:38:56,4,17,4250,2.698086738586426,1.931182303699289,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-17-i-4250-ema_loss-1.9312,1\r\n2026-09-25 09:35:44,4,18,4500,1.3490681648254395,1.5061446213546679,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-18-i-4500-ema_loss-1.5061,1\r\n2026-09-25 10:32:32,4,19,4750,0.9366331696510315,1.1309564998839858,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-19-i-4750-ema_loss-1.1310,1\r\n2026-09-25 11:29:22,4,20,5000,0.9810926914215088,0.717638710485643,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-20-i-5000-ema_loss-0.7176,1\r\n2026-09-25 12:26:17,4,21,5250,0.47989845275878906,0.5732083197419519,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-21-i-5250-ema_loss-0.5732,1\r\n2026-09-25 13:23:11,4,22,5500,0.5464633107185364,0.6001440015057655,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-22-i-5500-ema_loss-0.6001,1\r\n2026-09-25 14:20:06,4,23,5750,0.573826789855957,0.5355426636451319,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-23-i-5750-ema_loss-0.5355,1\r\n2026-09-25 15:17:02,4,24,6000,0.5856283903121948,0.564083881377459,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-24-i-6000-ema_loss-0.5641,1\r\n2026-09-25 16:13:59,4,25,6250,0.529767632484436,0.568582163771796,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-25-i-6250-ema_loss-0.5686,1\r\n2026-09-25 17:10:57,4,26,6500,3.9250259399414062,1.0744287438131244,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-1.0744,1\r\n2026-09-25 18:07:57,4,27,6750,0.7203519940376282,0.74150009757918,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-27-i-6750-ema_loss-0.7415,1\r\n2026-09-25 19:04:52,4,28,7000,0.44245922565460205,0.7746607457151925,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-28-i-7000-ema_loss-0.7747,1\r\n2026-09-25 20:01:51,4,29,7250,0.6367655992507935,0.7029528717667594,/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-29-i-7250-ema_loss-0.7030,1\r\n"
+        }
+      },
+      "model": "llava-v1.5-7b",
+      "dataset": "evqa-pilot500",
+      "recipe": "main",
+      "config": {
+        "path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/run_config.json",
+        "size": 1242,
+        "sha256": "b4cbfd83ac905ae906dee2d354e4033ff33a879c360fa8a051d77b1972c6aecc",
+        "mtime": "2026-09-24T15:55:46+08:00",
+        "text": "{\n  \"out_root\": \"/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b\",\n  \"layers\": \"4\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"llava-v1.5-7b\",\n  \"device\": \"cuda:0\",\n  \"data_proc_device\": \"cuda:0\",\n  \"share_data_proc_vllm\": \"True\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images\",\n  \"config_path\": \"configs/vead/llava-v1.5-7b.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"1\",\n  \"synchronous_data_loading\": \"True\",\n  \"activation_checkpointing\": \"True\",\n  \"resume_checkpoint\": \"None\",\n  \"resume_layer\": \"None\",\n  \"keep_top_ckpts\": \"1\",\n  \"keep_last_ckpts\": \"0\",\n  \"skip_train\": \"False\",\n  \"skip_eval\": \"True\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}"
+      },
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "rows": 29,
+        "min_row": {
+          "time": "2026-09-25 14:20:06",
+          "layer": "4",
+          "epoch": "23",
+          "i": "5750",
+          "loss": "0.573826789855957",
+          "ema_loss": "0.5355426636451319",
+          "ckpt_path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-23-i-5750-ema_loss-0.5355",
+          "kept": "1"
+        },
+        "tail": [
+          {
+            "time": "2026-09-25 20:01:51",
+            "layer": "4",
+            "epoch": "29",
+            "i": "7250",
+            "loss": "0.6367655992507935",
+            "ema_loss": "0.7029528717667594",
+            "ckpt_path": "/tmp/ph_teacher3/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-29-i-7250-ema_loss-0.7030",
+            "kept": "1"
+          }
+        ]
+      }
+    }
+  ],
+  "queue": "3435286|jupyter|RUNNING|g08|3-21:00:53|26-02:59:07\n3443209|jupyter|RUNNING|g09|1-16:14:32|28-07:45:28\n"
+}

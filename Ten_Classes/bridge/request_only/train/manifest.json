@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-05-20T09:52:33",
+  "sources": [
+    {
+      "path": "Ten_Classes\\bridge\\bridge_train\\edit_30_bridge_trainA.json",
+      "sha256": "187b72aba9c89283ab50e085ef581fa782039f255cf7905200c1a61339a82491"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Ten_Classes\\bridge\\request_only\\train\\edit_30_bridge_train_request_only.json",
+      "sha256": "06a179ade8f066e12a1e999137d1921a819bdb495404ede73e44d64ba43172d9",
+      "sample_count": 30,
+      "metric_item_counts": {
+        "request": 30,
+        "generality.text_rephrase": 0,
+        "generality.image_rephrase": 0,
+        "locality.text_loc": 0,
+        "locality.image_loc": 0,
+        "portability.1hop": 0,
+        "portability.2hop": 0,
+        "portability.overall": 0
+      }
+    }
+  ]
+}

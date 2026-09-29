@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-09-29T20:13:22+08:00",
+  "server_checked_at": "2026-09-29T20:03:47.407516+08:00",
+  "passed": true,
+  "target": "model_pred-NextTokenArgmax",
+  "server_sources": [
+    {
+      "model": "blip2-opt-2.7b",
+      "local_source": "downloads/evqa_module_contribution/blip2/evqa_proxy500_blip2_module_contribution_model_pred_20260604_100403/contribution_layer.csv",
+      "server_source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_model_pred_20260604_100403/contribution_layer.csv",
+      "sha256": "b344297cc95204ca75fc230387e18344e1bd18abf65190f5534441dc3adf8fb1",
+      "sample_count": 500,
+      "layers": 32
+    },
+    {
+      "model": "instructblip-vicuna-7b",
+      "local_source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_pred/instructblip-vicuna-7b/contribution_layer.csv",
+      "server_source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/instructblip-vicuna-7b/contribution_layer.csv",
+      "sha256": "fe2b6035e29a13820b9d22faf20efab6a39dcda09c8a77de56c40fe69c200920",
+      "sample_count": 500,
+      "layers": 32
+    },
+    {
+      "model": "minigpt-4-vicuna-7b",
+      "local_source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_pred/minigpt-4-vicuna-7b/contribution_layer.csv",
+      "server_source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/minigpt-4-vicuna-7b/contribution_layer.csv",
+      "sha256": "e1ce85b85c5d6f01667926fa3f32f6c0e255bfe502c8afd36659b3a0f10b6c95",
+      "sample_count": 500,
+      "layers": 32
+    },
+    {
+      "model": "llava-v1.5-7b",
+      "local_source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_pred/llava-v1.5-7b/contribution_layer.csv",
+      "server_source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/llava-v1.5-7b/contribution_layer.csv",
+      "sha256": "bcc03f825c3b233e1e6a04202043febd2316f89dbd5271b04f290b96d6083faf",
+      "sample_count": 500,
+      "layers": 32
+    },
+    {
+      "model": "qwen2.5-vl-3b",
+      "local_source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_pred/qwen2.5-vl-3b/contribution_layer.csv",
+      "server_source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/qwen2.5-vl-3b/contribution_layer.csv",
+      "sha256": "e5c428f54371a27e8ef1805b3d101468d7bbf8ed0ecdce4c28960ae746f13419",
+      "sample_count": 500,
+      "layers": 36
+    },
+    {
+      "model": "paligemma-3b",
+      "local_source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_pred/paligemma-3b/contribution_layer.csv",
+      "server_source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/paligemma-3b/contribution_layer.csv",
+      "sha256": "63055b0354ecfb87dc9a54e38b2e4c1c502e65098e4018f8066454f5feb2a836",
+      "sample_count": 500,
+      "layers": 18
+    },
+    {
+      "model": "smolvlm-1.7b",
+      "local_source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_pred/smolvlm-1.7b/contribution_layer.csv",
+      "server_source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/smolvlm-1.7b/contribution_layer.csv",
+      "sha256": "28446a19761dc33b8bb9853d298c94725eea48dc559679a50fc087f8a3027e58",
+      "sample_count": 500,
+      "layers": 24
+    }
+  ],
+  "evqa_added_branch_records": 14,
+  "evqa_added_layer_scores": 412,
+  "model_pred_combinations": 21,
+  "model_pred_branch_records": 63,
+  "coverage_by_module": {
+    "attn+mlp": 21,
+    "attn": 21,
+    "mlp": 21
+  },
+  "evqa_joint_results_unchanged": true,
+  "mmke_table_rows_unchanged": true,
+  "other_methods_and_sections_7_through_A_unchanged": true,
+  "protected_section_sha256": "08b0f543c0e94098626a46b408c5984d4c12d39866288e589ab1d15e54a336b5",
+  "no_model_execution": true,
+  "no_server_mutation": true,
+  "document_before_sha256": "07546620e708e9721ea24d40ca322b2c982edda1efba77818c9dc5170c8f9658",
+  "output_sha256": {
+    "md/Location/ALL_Methods_Recommends_layers.md": "0da74c458767d70a7ed3b5e82b71ec42ed15b53c173a5c8c26b1e0ae355e2cb9",
+    "outputs/all_methods_recommendations_20260928/recommendations.json": "66fc9b2352279227be1a7c34f32d99b510e0c8d9c34f6f47d6a16f83cfaa3864",
+    "outputs/all_methods_recommendations_20260928/recommendations.csv": "4e1317b34b5fa9c084518599b8bf3e24134026e9e4df7c2eba01aa24d2e9cff2",
+    "outputs/all_methods_recommendations_20260928/all_layer_scores.csv": "40a2a131aff1f564917c0e2a129a616758ab7dfb02dd443fd1838fd25fc24f6e",
+    "outputs/all_methods_recommendations_20260928/visedit_full_rankings.json": "ea0f4cf379cfc7eb19e06c3679008878dce33f046f4a2b8b645ed71fd23fd11b",
+    "outputs/all_methods_recommendations_20260928/input_sha256.json": "e6f9d81c4e1c76740feb91e26f16300091477837df8412b9688adef4a2cc22d1"
+  },
+  "post_write_verification": {
+    "checked_at": "2026-09-29T20:15:14+08:00",
+    "passed": true,
+    "markdown_rows_matched_to_machine_data": 63,
+    "all_machine_artifact_hashes_match": true,
+    "visedit_section_sha256": "da80abde3d1438b0573120d1c86f2662037f3c6bd51c0026db6c604089c5bee2",
+    "outside_visedit_unchanged_except_live_ours_results_block": true,
+    "concurrent_changes_observed": [
+      "Ours result verification timestamp",
+      "Ours manifest snapshot link"
+    ],
+    "document_sha256_at_check": "8bfe950c9a1eeb0fa49aebd3b3402a4f89cbc3310f6ac3f749882337f97cd3c6"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "issues": [
+    {
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "layer": 29,
+      "recipe": "main",
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mmke_visual_minigpt_llava_job3044841_20260728/minigpt-4-vicuna-7b/layer_29",
+      "errors": [
+        "result_file_count:0"
+      ],
+      "warnings": [
+        "checkpoint_binary_not_at_recorded_path"
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "layer": 3,
+      "recipe": "main",
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mmke_visual_minigpt_llava_job3044841_20260728/minigpt-4-vicuna-7b/layer_03",
+      "errors": [
+        "result_file_count:0"
+      ],
+      "warnings": [
+        "checkpoint_binary_not_at_recorded_path"
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "layer": 0,
+      "recipe": "main",
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mmke_visual_minigpt_llava_job3044841_20260728/minigpt-4-vicuna-7b/layer_00",
+      "errors": [
+        "result_file_count:0"
+      ],
+      "warnings": [
+        "checkpoint_binary_not_at_recorded_path"
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "layer": 1,
+      "recipe": "main",
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mmke_visual_minigpt_llava_job3044841_20260728/minigpt-4-vicuna-7b/layer_01",
+      "errors": [
+        "result_file_count:0"
+      ],
+      "warnings": [
+        "checkpoint_binary_not_at_recorded_path"
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "layer": 2,
+      "recipe": "main",
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mmke_visual_minigpt_llava_job3044841_20260728/minigpt-4-vicuna-7b/layer_02",
+      "errors": [
+        "result_file_count:0"
+      ],
+      "warnings": [
+        "checkpoint_binary_not_at_recorded_path"
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "layer": 2,
+      "recipe": "stable",
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_pending8_job3044208_20260713_204917/paligemma-3b/layer_02",
+      "errors": [],
+      "warnings": [
+        "selected_not_minimum_of_available_history"
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "layer": 13,
+      "recipe": "stable",
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_pending8_job3044208_20260713_204917/paligemma-3b/layer_13",
+      "errors": [],
+      "warnings": [
+        "selected_not_minimum_of_available_history"
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "paligemma-3b",
+      "layer": 14,
+      "recipe": "main",
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_14",
+      "errors": [],
+      "warnings": [
+        "selected_not_minimum_of_available_history"
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "layer": 12,
+      "recipe": "main",
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/invalid_nan_20260616_083522/layer_12",
+      "errors": [],
+      "warnings": [
+        "checkpoint_binary_not_at_recorded_path"
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "layer": 11,
+      "recipe": "main",
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/invalid_nan_20260616_083522/layer_11",
+      "errors": [],
+      "warnings": [
+        "checkpoint_binary_not_at_recorded_path"
+      ]
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,33 @@
+{
+  "method": "Ours-Direct",
+  "score_source": "virtual_delta_h_visual_gradient",
+  "ranking_metric": "S_ours",
+  "rank_formula": "max(0, -S_v_cos) * S_v_new_norm * ((layer + 1) / num_layers)^2",
+  "num_layers": 36,
+  "raw_top3_layers": [
+    "L0",
+    "L1",
+    "L2"
+  ],
+  "raw_top5_layers": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "cleaned_top3_layers": [],
+  "cleaned_top5_layers": [],
+  "top3_layers": [],
+  "top5_layers": [],
+  "invalid_layers": [
+    {
+      "layer": "L35",
+      "reason": "S_v_zero_grad"
+    }
+  ],
+  "status": "failed",
+  "failure_reasons": [
+    "no_valid_ours_direct_layer"
+  ]
+}

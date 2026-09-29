@@ -1,0 +1,450 @@
+{
+  "time": "2026-09-29T07:44:10.433043+08:00",
+  "state": {
+    "time": "2026-09-29T07:43:48+0800",
+    "state": "RUNNING_THREE_VARIANTS",
+    "node": "g09",
+    "job": "3443209",
+    "pid": 2500705,
+    "child_pid": 2501972,
+    "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/variants_smolvlm-1.7b.log",
+    "command": [
+      "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/repair_20260929/run_visual_track_targets_20260929_inputfix.py",
+      "--project",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main",
+      "--out",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results",
+      "--model",
+      "smolvlm-1.7b"
+    ],
+    "model": "smolvlm-1.7b",
+    "verified_groups": 15,
+    "resume_checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171"
+  },
+  "validation": {
+    "smolvlm-1.7b": {
+      "status": "passed",
+      "model": "smolvlm-1.7b",
+      "sample_count": 9,
+      "runner_sha256": "3c3abb8c33b8870bb84c25fa3fc4c1520a53d8ee9183ef8b0dfc58d3cd4fcedc",
+      "cases": [
+        {
+          "dataset": "evqa-pilot500",
+          "sample_id": "8a5e8af7c0b647d7",
+          "variants": {
+            "alt": {
+              "tokens": 1,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 24
+            },
+            "model_pred": {
+              "tokens": 2,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 24
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "pixel_values",
+            "pixel_attention_mask"
+          ]
+        },
+        {
+          "dataset": "evqa-pilot500",
+          "sample_id": "0b685992780ad722",
+          "variants": {
+            "alt": {
+              "tokens": 1,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 24
+            },
+            "model_pred": {
+              "tokens": 2,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 24
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "pixel_values",
+            "pixel_attention_mask"
+          ]
+        },
+        {
+          "dataset": "evqa-pilot500",
+          "sample_id": "e8cb8c334d685c04",
+          "variants": {
+            "alt": {
+              "tokens": 2,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 24
+            },
+            "model_pred": {
+              "tokens": 3,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 24
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "pixel_values",
+            "pixel_attention_mask"
+          ]
+        },
+        {
+          "dataset": "mmke-visual",
+          "sample_id": "mmke_0",
+          "variants": {
+            "alt": {
+              "tokens": 42,
+              "first_predict_max_abs_delta": 0.00390625,
+              "layers": 24
+            },
+            "model_pred": {
+              "tokens": 13,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 24
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "pixel_values",
+            "pixel_attention_mask"
+          ]
+        },
+        {
+          "dataset": "mmke-visual",
+          "sample_id": "mmke_1",
+          "variants": {
+            "alt": {
+              "tokens": 58,
+              "first_predict_max_abs_delta": 0.0078125,
+              "layers": 24
+            },
+            "model_pred": {
+              "tokens": 3,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 24
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "pixel_values",
+            "pixel_attention_mask"
+          ]
+        },
+        {
+          "dataset": "mmke-visual",
+          "sample_id": "mmke_2",
+          "variants": {
+            "alt": {
+              "tokens": 36,
+              "first_predict_max_abs_delta": 0.00390625,
+              "layers": 24
+            },
+            "model_pred": {
+              "tokens": 3,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 24
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "pixel_values",
+            "pixel_attention_mask"
+          ]
+        },
+        {
+          "dataset": "mmke-entity",
+          "sample_id": "mmke_0",
+          "variants": {
+            "alt": {
+              "tokens": 125,
+              "first_predict_max_abs_delta": 0.0078125,
+              "layers": 24
+            },
+            "model_pred": {
+              "tokens": 9,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 24
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "pixel_values",
+            "pixel_attention_mask"
+          ]
+        },
+        {
+          "dataset": "mmke-entity",
+          "sample_id": "mmke_1",
+          "variants": {
+            "alt": {
+              "tokens": 69,
+              "first_predict_max_abs_delta": 0.00390625,
+              "layers": 24
+            },
+            "model_pred": {
+              "tokens": 32,
+              "first_predict_max_abs_delta": 0.00390625,
+              "layers": 24
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "pixel_values",
+            "pixel_attention_mask"
+          ]
+        },
+        {
+          "dataset": "mmke-entity",
+          "sample_id": "mmke_2",
+          "variants": {
+            "alt": {
+              "tokens": 109,
+              "first_predict_max_abs_delta": 0.009765625,
+              "layers": 24
+            },
+            "model_pred": {
+              "tokens": 32,
+              "first_predict_max_abs_delta": 0.0078125,
+              "layers": 24
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "pixel_values",
+            "pixel_attention_mask"
+          ]
+        }
+      ]
+    },
+    "qwen2.5-vl-3b": {
+      "status": "passed",
+      "model": "qwen2.5-vl-3b",
+      "sample_count": 9,
+      "runner_sha256": "3c3abb8c33b8870bb84c25fa3fc4c1520a53d8ee9183ef8b0dfc58d3cd4fcedc",
+      "cases": [
+        {
+          "dataset": "evqa-pilot500",
+          "sample_id": "8a5e8af7c0b647d7",
+          "variants": {
+            "alt": {
+              "tokens": 1,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            },
+            "model_pred": {
+              "tokens": 32,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "image_grid_thw"
+          ]
+        },
+        {
+          "dataset": "evqa-pilot500",
+          "sample_id": "0b685992780ad722",
+          "variants": {
+            "alt": {
+              "tokens": 1,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            },
+            "model_pred": {
+              "tokens": 32,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "image_grid_thw"
+          ]
+        },
+        {
+          "dataset": "evqa-pilot500",
+          "sample_id": "e8cb8c334d685c04",
+          "variants": {
+            "alt": {
+              "tokens": 2,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            },
+            "model_pred": {
+              "tokens": 20,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "image_grid_thw"
+          ]
+        },
+        {
+          "dataset": "mmke-visual",
+          "sample_id": "mmke_0",
+          "variants": {
+            "alt": {
+              "tokens": 41,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            },
+            "model_pred": {
+              "tokens": 32,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "image_grid_thw"
+          ]
+        },
+        {
+          "dataset": "mmke-visual",
+          "sample_id": "mmke_1",
+          "variants": {
+            "alt": {
+              "tokens": 58,
+              "first_predict_max_abs_delta": 0.00390625,
+              "layers": 36
+            },
+            "model_pred": {
+              "tokens": 32,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "image_grid_thw"
+          ]
+        },
+        {
+          "dataset": "mmke-visual",
+          "sample_id": "mmke_2",
+          "variants": {
+            "alt": {
+              "tokens": 37,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            },
+            "model_pred": {
+              "tokens": 32,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "image_grid_thw"
+          ]
+        },
+        {
+          "dataset": "mmke-entity",
+          "sample_id": "mmke_0",
+          "variants": {
+            "alt": {
+              "tokens": 120,
+              "first_predict_max_abs_delta": 0.013671875,
+              "layers": 36
+            },
+            "model_pred": {
+              "tokens": 32,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "image_grid_thw"
+          ]
+        },
+        {
+          "dataset": "mmke-entity",
+          "sample_id": "mmke_1",
+          "variants": {
+            "alt": {
+              "tokens": 68,
+              "first_predict_max_abs_delta": 0.0078125,
+              "layers": 36
+            },
+            "model_pred": {
+              "tokens": 32,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "image_grid_thw"
+          ]
+        },
+        {
+          "dataset": "mmke-entity",
+          "sample_id": "mmke_2",
+          "variants": {
+            "alt": {
+              "tokens": 116,
+              "first_predict_max_abs_delta": 0.015625,
+              "layers": 36
+            },
+            "model_pred": {
+              "tokens": 32,
+              "first_predict_max_abs_delta": 0.0,
+              "layers": 36
+            }
+          },
+          "input_fields": [
+            "input_ids",
+            "attention_mask",
+            "inputs_embeds",
+            "image_grid_thw"
+          ]
+        }
+      ]
+    }
+  },
+  "groups": [],
+  "log_tail": "Loading smolvlm-1.7b from \"models/SmolVLM-Instruct\".\n"
+}

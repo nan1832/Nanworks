@@ -1,0 +1,13 @@
+Communication job: By the end, an academic or technical audience should understand how seven localization methods generate candidate layers, what the current real-edit evidence supports, and how localization feeds the knowledge-graph-enhanced editing workflow.
+
+Primary sources:
+- C:\Users\zhoun\Desktop\mywork\实验说明\mywork-通用版.docx
+- D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\Location\6edit_layer_localization_candidate_methods_简洁说明版.md
+- D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\Location\6location_7model_3datas_top_3_5_layers_outcome.md
+- D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\Location\VisualGradient_11formula_analysis_files_20260720\analysis_outputs_20260731\formula_global_summary.csv
+- D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\Location\VisualGradient_11formula_analysis_files_20260720\analysis_outputs_20260731\formula_topk_all_21.csv
+- D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\Location\VisualGradient_11formula_analysis_files_20260720\analysis_outputs_20260731\baseline_candidates.csv
+- D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\Location\VisualGradient_11formula_analysis_files_20260720\analysis_outputs_20260731\baseline_pairwise_vs_M_abscos.csv
+- D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\Location\VisualGradient_11formula_analysis_files_20260720\analysis_outputs_20260731\visual_gradient_formula_evidence_report.md
+
+No web assets or external images were used. All flowcharts, tables, and heatmaps are native editable PowerPoint objects.

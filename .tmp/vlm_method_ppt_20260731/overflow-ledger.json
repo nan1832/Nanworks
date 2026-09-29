@@ -1,0 +1,514 @@
+﻿[
+    {
+        "Slide":  1,
+        "Shape":  "TextBox 2",
+        "BoundW":  639.5,
+        "BoxW":  820,
+        "BoundH":  62.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  1,
+        "Shape":  "TextBox 3",
+        "BoundW":  608.6,
+        "BoxW":  820,
+        "BoundH":  26.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  2,
+        "Shape":  "slide-title",
+        "BoundW":  710.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  2,
+        "Shape":  "TextBox 5",
+        "BoundW":  223.9,
+        "BoxW":  300,
+        "BoundH":  26.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  2,
+        "Shape":  "TextBox 6",
+        "BoundW":  301.2,
+        "BoxW":  300,
+        "BoundH":  145.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  2,
+        "Shape":  "TextBox 13",
+        "BoundW":  550,
+        "BoxW":  569,
+        "BoundH":  52.8,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  3,
+        "Shape":  "slide-title",
+        "BoundW":  788.6,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  3,
+        "Shape":  "TextBox 16",
+        "BoundW":  319.1,
+        "BoxW":  350,
+        "BoundH":  28.8,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  3,
+        "Shape":  "TextBox 17",
+        "BoundW":  856.9,
+        "BoxW":  850,
+        "BoundH":  45.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  4,
+        "Shape":  "slide-title",
+        "BoundW":  780.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  4,
+        "Shape":  "TextBox 7",
+        "BoundW":  114.6,
+        "BoxW":  250,
+        "BoundH":  26.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  4,
+        "Shape":  "TextBox 8",
+        "BoundW":  252,
+        "BoxW":  250,
+        "BoundH":  97.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  4,
+        "Shape":  "TextBox 9",
+        "BoundW":  92.6,
+        "BoxW":  250,
+        "BoundH":  26.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  4,
+        "Shape":  "TextBox 10",
+        "BoundW":  203.8,
+        "BoxW":  240,
+        "BoundH":  105.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  4,
+        "Shape":  "TextBox 11",
+        "BoundW":  138.5,
+        "BoxW":  250,
+        "BoundH":  26.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  4,
+        "Shape":  "TextBox 12",
+        "BoundW":  233.8,
+        "BoxW":  250,
+        "BoundH":  215.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  5,
+        "Shape":  "slide-title",
+        "BoundW":  847.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  6,
+        "Shape":  "slide-title",
+        "BoundW":  659,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  6,
+        "Shape":  "TextBox 6",
+        "BoundW":  284.9,
+        "BoxW":  300,
+        "BoundH":  145.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  6,
+        "Shape":  "TextBox 17",
+        "BoundW":  516.8,
+        "BoxW":  510,
+        "BoundH":  19.2,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  7,
+        "Shape":  "slide-title",
+        "BoundW":  761.1,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  7,
+        "Shape":  "TextBox 6",
+        "BoundW":  294.8,
+        "BoxW":  300,
+        "BoundH":  145.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  8,
+        "Shape":  "slide-title",
+        "BoundW":  896.8,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  8,
+        "Shape":  "TextBox 6",
+        "BoundW":  306.9,
+        "BoxW":  300,
+        "BoundH":  102.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  9,
+        "Shape":  "slide-title",
+        "BoundW":  851.7,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  9,
+        "Shape":  "TextBox 5",
+        "BoundW":  180.3,
+        "BoxW":  300,
+        "BoundH":  45.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  9,
+        "Shape":  "TextBox 6",
+        "BoundW":  294.4,
+        "BoxW":  300,
+        "BoundH":  145.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  10,
+        "Shape":  "slide-title",
+        "BoundW":  867.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  10,
+        "Shape":  "TextBox 6",
+        "BoundW":  316.2,
+        "BoxW":  300,
+        "BoundH":  124,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  11,
+        "Shape":  "slide-title",
+        "BoundW":  866.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  11,
+        "Shape":  "TextBox 6",
+        "BoundW":  299.8,
+        "BoxW":  300,
+        "BoundH":  145.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  11,
+        "Shape":  "TextBox 17",
+        "BoundW":  506.5,
+        "BoxW":  510,
+        "BoundH":  38.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  12,
+        "Shape":  "slide-title",
+        "BoundW":  829,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  12,
+        "Shape":  "TextBox 6",
+        "BoundW":  297,
+        "BoxW":  300,
+        "BoundH":  145.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  12,
+        "Shape":  "TextBox 17",
+        "BoundW":  508,
+        "BoxW":  510,
+        "BoundH":  38.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  13,
+        "Shape":  "slide-title",
+        "BoundW":  707.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  13,
+        "Shape":  "TextBox 293",
+        "BoundW":  850,
+        "BoxW":  852,
+        "BoundH":  40.8,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  14,
+        "Shape":  "slide-title",
+        "BoundW":  842.6,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  14,
+        "Shape":  "Rounded Rectangle 11",
+        "BoundW":  62,
+        "BoxW":  86,
+        "BoundH":  38.4,
+        "BoxH":  28
+    },
+    {
+        "Slide":  14,
+        "Shape":  "Rounded Rectangle 53",
+        "BoundW":  94.8,
+        "BoxW":  174,
+        "BoundH":  38.4,
+        "BoxH":  26
+    },
+    {
+        "Slide":  14,
+        "Shape":  "TextBox 101",
+        "BoundW":  804.4,
+        "BoxW":  876,
+        "BoundH":  38.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  15,
+        "Shape":  "slide-title",
+        "BoundW":  811.7,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  15,
+        "Shape":  "TextBox 47",
+        "BoundW":  870.2,
+        "BoxW":  876,
+        "BoundH":  38.4,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  16,
+        "Shape":  "slide-title",
+        "BoundW":  850.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  16,
+        "Shape":  "TextBox 5",
+        "BoundW":  167.9,
+        "BoxW":  390,
+        "BoundH":  27.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  16,
+        "Shape":  "TextBox 6",
+        "BoundW":  398,
+        "BoxW":  390,
+        "BoundH":  175.2,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  16,
+        "Shape":  "TextBox 7",
+        "BoundW":  167.9,
+        "BoxW":  390,
+        "BoundH":  27.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  16,
+        "Shape":  "TextBox 8",
+        "BoundW":  389.5,
+        "BoxW":  390,
+        "BoundH":  175.2,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  17,
+        "Shape":  "slide-title",
+        "BoundW":  640.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  17,
+        "Shape":  "TextBox 15",
+        "BoundW":  408,
+        "BoxW":  418,
+        "BoundH":  61.2,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  17,
+        "Shape":  "TextBox 17",
+        "BoundW":  377.1,
+        "BoxW":  388,
+        "BoundH":  40.8,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  18,
+        "Shape":  "slide-title",
+        "BoundW":  780.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  19,
+        "Shape":  "slide-title",
+        "BoundW":  780.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  19,
+        "Shape":  "TextBox 15",
+        "BoundW":  839.8,
+        "BoxW":  840,
+        "BoundH":  43.2,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  20,
+        "Shape":  "slide-title",
+        "BoundW":  780.4,
+        "BoxW":  890,
+        "BoundH":  42,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  20,
+        "Shape":  "TextBox 9",
+        "BoundW":  156.4,
+        "BoxW":  152,
+        "BoundH":  76.8,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  20,
+        "Shape":  "TextBox 13",
+        "BoundW":  123.6,
+        "BoxW":  152,
+        "BoundH":  57.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  20,
+        "Shape":  "TextBox 17",
+        "BoundW":  148.8,
+        "BoxW":  152,
+        "BoundH":  57.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  20,
+        "Shape":  "TextBox 21",
+        "BoundW":  148.8,
+        "BoxW":  152,
+        "BoundH":  57.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  20,
+        "Shape":  "TextBox 25",
+        "BoundW":  148.8,
+        "BoxW":  152,
+        "BoundH":  57.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  21,
+        "Shape":  "TextBox 2",
+        "BoundW":  673.1,
+        "BoxW":  780,
+        "BoundH":  105.6,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  21,
+        "Shape":  "TextBox 5",
+        "BoundW":  236,
+        "BoxW":  250,
+        "BoundH":  40.8,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  21,
+        "Shape":  "TextBox 7",
+        "BoundW":  238,
+        "BoxW":  250,
+        "BoundH":  40.8,
+        "BoxH":  21.8
+    },
+    {
+        "Slide":  21,
+        "Shape":  "TextBox 9",
+        "BoundW":  238,
+        "BoxW":  250,
+        "BoundH":  40.8,
+        "BoxH":  21.8
+    }
+]

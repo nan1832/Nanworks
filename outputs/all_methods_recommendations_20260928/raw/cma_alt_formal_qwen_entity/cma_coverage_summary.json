@@ -1,0 +1,72 @@
+{
+  "schema_version": "cma-formal-multinoise-v1",
+  "method": "CMA-Direct",
+  "variant": "direct",
+  "dataset": "MMKE-entity",
+  "model": "Qwen2.5-VL-3B",
+  "run_stage": "formal636",
+  "total_samples": 636,
+  "input_unique_samples": 636,
+  "nonempty_target_samples": 636,
+  "valid_unique_samples": 43,
+  "fully_excluded_unique_samples": 593,
+  "total_sample_alpha_seed_pairs": 5724,
+  "valid_corruption_pairs": 96,
+  "valid_restore_pairs": 96,
+  "low_corruption_gap_pair_count": 5628,
+  "nonfinite_gap_pair_count": 0,
+  "runtime_error_pair_count": 0,
+  "missing_restore_pair_count": 0,
+  "nonfinite_restore_pair_count": 0,
+  "excluded_pair_count": 5628,
+  "common_restore_pairs_all_layers": 96,
+  "nonfinite_restore_records": 0,
+  "missing_restore_records": 0,
+  "valid_ratio_unique": 0.06761006289308176,
+  "valid_ratio_pairs": 0.016771488469601678,
+  "minimum_valid_unique_samples": 128,
+  "status": "low_valid_coverage",
+  "rank_metric": "CR_mean",
+  "aux_metric": "KCR_mean",
+  "top3": [
+    1,
+    0,
+    2
+  ],
+  "top5": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "valid_sample_id_hash": "670144cf0e849078f3b8a9ae728706732d0cdf84d14ec282118761a9289aa0e5",
+  "pair_weighted_vs_sample_balanced_rank_agreement": {
+    "pair_weighted_top3": [
+      1,
+      0,
+      2
+    ],
+    "sample_balanced_top3": [
+      1,
+      0,
+      2
+    ],
+    "pair_weighted_top5": [
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    "sample_balanced_top5": [
+      1,
+      0,
+      2,
+      3,
+      5
+    ],
+    "spearman": 0.9899613899613899,
+    "kendall": 0.9428571428571428
+  }
+}

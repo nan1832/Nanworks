@@ -1,0 +1,74 @@
+﻿[
+    {
+        "top":  24,
+        "left":  36,
+        "text":  "BLIP2 L0编辑效果：两种评分，两种含义",
+        "width":  1080,
+        "textHeight":  36,
+        "boxHeight":  36.3515739
+    },
+    {
+        "top":  77,
+        "left":  36,
+        "text":  "MMKE-entity官方955条配对评测　固定Epoch 24编辑器　2026-09-22完成　此次无参数更新",
+        "width":  1080,
+        "textHeight":  18,
+        "boxHeight":  18.1757488
+    },
+    {
+        "top":  116,
+        "left":  36,
+        "text":  "Teacher forcing：提供正确答案前缀",
+        "width":  523,
+        "textHeight":  25.2,
+        "boxHeight":  25.4460621
+    },
+    {
+        "top":  153,
+        "left":  36,
+        "text":  "预测每个位置时，使用参考答案的正确前缀。\n准确率 = 预测正确的目标token数 / 目标token数。\n衡量条件预测能力，不能解释为整题答对比例。",
+        "width":  520,
+        "textHeight":  57.6,
+        "boxHeight":  58.16252
+    },
+    {
+        "top":  116,
+        "left":  602,
+        "text":  "自由生成：模型使用自己生成的前文",
+        "width":  514,
+        "textHeight":  25.2,
+        "boxHeight":  25.4460621
+    },
+    {
+        "top":  153,
+        "left":  602,
+        "text":  "只输入图片和问题，生成后与参考答案比较。\n词级F1 = 2PR / (P + R)，P、R衡量重叠词比例。\n衡量文字匹配程度，不直接代表语义正确率。",
+        "width":  514,
+        "textHeight":  57.6,
+        "boxHeight":  58.16252
+    },
+    {
+        "top":  499,
+        "left":  36,
+        "text":  "结果含义：目标与改写表现提升，尚未带来关联知识和1-hop的同步改善",
+        "width":  1080,
+        "textHeight":  25.2,
+        "boxHeight":  25.4460621
+    },
+    {
+        "top":  538,
+        "left":  36,
+        "text":  "完整作答仍受限：直接目标自由生成EM为0%（前后均为0），编辑后732/955条达到长度上限。",
+        "width":  1080,
+        "textHeight":  20.4,
+        "boxHeight":  20.5992126
+    },
+    {
+        "top":  580,
+        "left":  36,
+        "text":  "¹ 此处按参考答案评分。Locality预测一致率另为文本100.000%、图片60.427%，常规五指标Average为66.679。\nF1使用归一化后的空格分词。1-hop生成F1差值的95%区间跨0；两列评分不可直接比高低。pp＝百分点。",
+        "width":  1080,
+        "textHeight":  30,
+        "boxHeight":  30.2929916
+    }
+]

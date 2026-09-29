@@ -1,0 +1,4 @@
+source=/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/evqa-pilot500/minigpt-4-vicuna-7b/layer_01
+destination=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/evqa-pilot500/minigpt-4-vicuna-7b/layer_01
+synced_at=2026-08-22 08:04:47 CST
+selected=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/evqa-pilot500/minigpt-4-vicuna-7b/layer_01/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-48-i-12000-ema_loss-0.3843

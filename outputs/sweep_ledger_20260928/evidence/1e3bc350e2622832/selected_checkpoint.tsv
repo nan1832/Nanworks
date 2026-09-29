@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+27	TRAIN_DONE	48	5136	0.2811765670776367	0.5569851312722189	/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_27/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L27-lr-1-t-1-v-1/checkpoints/epoch-48-i-5136-ema_loss-0.5570

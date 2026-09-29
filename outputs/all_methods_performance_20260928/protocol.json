@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-28T14:52:19.773025+08:00",
+  "recommendations_updated_at": "2026-09-28T14:35:59+08:00",
+  "sweep_updated_at": "2026-09-28T11:10:16+08:00",
+  "scope": "31 registered method/target/formula/filter variants plus 3 explicitly diagnostic VisEdit Direct variants; no historical depth-weighted formulas added",
+  "metrics": "Top1 uses first candidate. Best@K=max stored Average; Mean@K=mean stored Average. Require K candidates and all K outcomes. Regret/Hit use observed pool best, NOT full-layer oracle.",
+  "top5": "Deterministically extend recorded all_ranking or VisEdit high-region Pre rule; preserve recorded Top3 exactly; never extend by observed editing performance.",
+  "policies": {
+    "observed_main": "all main records including evaluated failed/numeric/incomplete runs",
+    "main_without_flagged": "main excluding recovered/diagnostic training, numeric/NaN-guard and nonconvergent labels; other resumed or repaired selection records retained",
+    "verified50_main": "main_without_flagged with training=50轮已核验",
+    "stable_only": "stable rows only, retain own failure flags; never fill main with stable"
+  },
+  "main_rerun": "preserved in outcomes_used.csv, excluded from primary pools; no best-of-run selection",
+  "random": "exact expected Best/Mean/Hit of uniform K-subsets within recorded observed pool; conditional diagnostic, not full-network random experiment",
+  "pooling": "dataset-model macro; method-only averages are descriptive, not a shared-cohort leaderboard. All pairwise comparisons use matched groups. coverage80 requires each compared localization coverage>=80%.",
+  "source_version_cautions": "CMA alt/model_pred also differ noise/seed protocol; parameter/visual LGA differ sample cohorts; VisEdit pred-field not model_pred; zero-gradient finite terminal layers kept per source rules.",
+  "incomplete_formula": "210 original LGA ablation group-variant rows lack strict cross-statistics; never replace E[ab] by E[a]E[b]. MMKE model_pred contribution missing in 14 original rows, plus 14 diagnostic Direct rows.",
+  "input_manifest": {
+    "recommendations.json": {
+      "original": "outputs/all_methods_recommendations_20260928/recommendations.json",
+      "sha256": "bc3214706575063443eea5645ecfafb9fc5271bcad324094830ba91a29e681a9",
+      "original_current_sha256": "bc3214706575063443eea5645ecfafb9fc5271bcad324094830ba91a29e681a9"
+    },
+    "recommendations.csv": {
+      "original": "outputs/all_methods_recommendations_20260928/recommendations.csv",
+      "sha256": "2eb6078b575adf799a93a2fba2da882aa20e5eebd1ebeb79d9cc9160e77e6e15",
+      "original_current_sha256": "2eb6078b575adf799a93a2fba2da882aa20e5eebd1ebeb79d9cc9160e77e6e15"
+    },
+    "all_layer_scores.csv": {
+      "original": "outputs/all_methods_recommendations_20260928/all_layer_scores.csv",
+      "sha256": "11199bb2a7f4b2d182fa9a24f748274008b18509ccc4215145ae6ec5e0567c8e",
+      "original_current_sha256": "11199bb2a7f4b2d182fa9a24f748274008b18509ccc4215145ae6ec5e0567c8e"
+    },
+    "visedit_full_rankings.json": {
+      "original": "outputs/all_methods_recommendations_20260928/visedit_full_rankings.json",
+      "sha256": "4355cc75db6efbbf141d34eb3a2cf64a25d444d2bdf1401a839f51d2684a1c4e",
+      "original_current_sha256": "4355cc75db6efbbf141d34eb3a2cf64a25d444d2bdf1401a839f51d2684a1c4e"
+    },
+    "recommendations_verification.json": {
+      "original": "outputs/all_methods_recommendations_20260928/verification.json",
+      "sha256": "4dadcd90e63fd1893e42fa273f4e134ab7f2d0b15a3bbb0bfeebb69126f338c1",
+      "original_current_sha256": "4dadcd90e63fd1893e42fa273f4e134ab7f2d0b15a3bbb0bfeebb69126f338c1"
+    },
+    "ledger.json": {
+      "original": "outputs/sweep_ledger_20260928_110311/ledger.json",
+      "sha256": "1fca9b575451ac101dccab12ff44c3cb59dba93d94dedeb429d7f297e340c71a",
+      "original_current_sha256": "1fca9b575451ac101dccab12ff44c3cb59dba93d94dedeb429d7f297e340c71a"
+    },
+    "sweep_results.csv": {
+      "original": "outputs/sweep_ledger_20260928_110311/sweep_results.csv",
+      "sha256": "2576bd40552c30e8826891d4975dc95327e445fdee4373553d372e17b4abb949",
+      "original_current_sha256": "2576bd40552c30e8826891d4975dc95327e445fdee4373553d372e17b4abb949"
+    },
+    "audit_issues.json": {
+      "original": "outputs/sweep_ledger_20260928_110311/audit_issues.json",
+      "sha256": "61874e6de6ab37b20dcadd918f960aa1e2734c8ac58e784852bb72e2ff63e134",
+      "original_current_sha256": "61874e6de6ab37b20dcadd918f960aa1e2734c8ac58e784852bb72e2ff63e134"
+    },
+    "ALL_Methods_Recommends_layers.md": {
+      "original": "md/Location/ALL_Methods_Recommends_layers.md",
+      "sha256": "35462e97955b5331c6aceee702532084fce84d1155d3830718d7e492a0e10fa9",
+      "original_current_sha256": "35462e97955b5331c6aceee702532084fce84d1155d3830718d7e492a0e10fa9"
+    },
+    "SWeeplayers.md": {
+      "original": "md/Location/SWeeplayers.md",
+      "sha256": "2d214ed1dfbaaa735323214da97ac7c81274b15c5c673fc038d5657ece24bf20",
+      "original_current_sha256": "2d214ed1dfbaaa735323214da97ac7c81274b15c5c673fc038d5657ece24bf20"
+    },
+    "strict_ablation_sync_status.json": {
+      "original": "outputs/lga_two_spaces_ablation_20260928/sync_status.json",
+      "sha256": "b1f3e9fc965efeb3e5b7ae1cb4066368fd1642cbee0d820a69d3558c04b9fb98",
+      "original_current_sha256": "b1f3e9fc965efeb3e5b7ae1cb4066368fd1642cbee0d820a69d3558c04b9fb98"
+    }
+  }
+}

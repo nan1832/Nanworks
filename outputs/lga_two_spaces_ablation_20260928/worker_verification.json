@@ -1,0 +1,35 @@
+{
+  "server_time": "2026-09-28T14:41:12.566130+08:00",
+  "workers": {
+    "g08": {
+      "pid": 3047130,
+      "alive": true,
+      "is_lga_waiter": true,
+      "waiter_uses_no_gpu": true,
+      "state": {
+        "state": "WAITING_PREVIOUS_EXPERIMENTS",
+        "node": "g08",
+        "time": "2026-09-28T14:41:05+0800",
+        "job": "3435286",
+        "pid": 3047130,
+        "completion_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_L4_wait_memory_20260928/completion_verified.json",
+        "space": "visual"
+      }
+    },
+    "g09": {
+      "pid": 2328322,
+      "alive": true,
+      "is_lga_waiter": true,
+      "waiter_uses_no_gpu": true,
+      "state": {
+        "state": "WAITING_PREVIOUS_EXPERIMENTS",
+        "node": "g09",
+        "time": "2026-09-28T14:41:06+0800",
+        "job": "3443209",
+        "pid": 2328322,
+        "completion_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/control/g09/DONE.json",
+        "space": "parameter"
+      }
+    }
+  }
+}

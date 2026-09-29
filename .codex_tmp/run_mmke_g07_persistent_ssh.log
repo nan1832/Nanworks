@@ -1,0 +1,15 @@
+PERSISTENT_SSH_RESTART time=Fri Jun 12 22:05:57 CST 2026 host=g07
+NO_EDIT_MMKE_RUN_ROOT=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/no_edit_mmke_alt_eval_7models_20260612_161034
+NO_EDIT_MMKE_START time=Fri Jun 12 22:05:57 CST 2026 host=g07 cuda_visible=1 split=eval
+GPU1_FREE used_mib=0 cuda_ok=1 time=Fri Jun 12 22:06:08 CST 2026
+MODEL_START task=visual model=blip2-opt-2.7b py=/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python time=Fri Jun 12 22:06:08 CST 2026
+MODEL_END task=visual model=blip2-opt-2.7b rc=1 time=Fri Jun 12 22:07:12 CST 2026
+GPU1_FREE used_mib=0 cuda_ok=1 time=Fri Jun 12 22:07:41 CST 2026
+MODEL_START task=visual model=instructblip-vicuna-7b py=/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python time=Fri Jun 12 22:07:41 CST 2026
+MODEL_END task=visual model=instructblip-vicuna-7b rc=1 time=Fri Jun 12 22:09:47 CST 2026
+GPU1_FREE used_mib=0 cuda_ok=1 time=Fri Jun 12 22:10:22 CST 2026
+MODEL_START task=visual model=minigpt-4-vicuna-7b py=/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python time=Fri Jun 12 22:10:22 CST 2026
+MODEL_END task=visual model=minigpt-4-vicuna-7b rc=1 time=Fri Jun 12 22:12:24 CST 2026
+GPU1_FREE used_mib=0 cuda_ok=1 time=Fri Jun 12 22:12:57 CST 2026
+MODEL_START task=visual model=llava-v1.5-7b py=/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python time=Fri Jun 12 22:12:57 CST 2026
+MODEL_END task=visual model=llava-v1.5-7b rc=1 time=Fri Jun 12 22:14:56 CST 2026

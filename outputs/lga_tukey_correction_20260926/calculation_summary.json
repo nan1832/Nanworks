@@ -1,0 +1,14 @@
+{
+  "version": "lga-tukey-k1-20260926",
+  "groups": 21,
+  "parameter_layers": 618,
+  "excluded_layers": 76,
+  "changed_top3": 15,
+  "changed_top5": 15,
+  "top3_missing_unique": 17,
+  "top5_missing_unique": 35,
+  "interpolation_top3_changed": 2,
+  "interpolation_top5_changed": 2,
+  "observed_main_outcomes": 383,
+  "source_manifest_captured_utc": "2026-09-26T11:05:15.551972+00:00"
+}

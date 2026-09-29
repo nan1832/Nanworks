@@ -1,0 +1,127 @@
+﻿dataset,model,method,top3,top5,candidate_coverage,reliability,status,gradient_coverage,measured_layer_count,full_3,best_3,mean_3,regret_3,full_5,best_5,mean_5,regret_5
+evqa-pilot500,blip2-opt-2.7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,20,True,75.192,74.01066666666667,0.40800000000000125,False,,,
+evqa-pilot500,blip2-opt-2.7b,VisEdit-Contrib-Pre-KeyToken,"[20, 19, 18]","[20, 19, 18, 17, 16]",,historical_firsttoken_not_strict_keytoken,original pilot500 result; KeyToken table row,1.0,20,True,74.85,73.31,0.75,True,75.6,73.866,0.0
+evqa-pilot500,blip2-opt-2.7b,SaLEM-Alt-Direct,"[0, 18, 19]","[0, 18, 19, 17, 21]",1.0,eligible,done; n=500/500,1.0,20,True,74.85,68.40333333333334,0.75,True,75.6,70.428,0.0
+evqa-pilot500,blip2-opt-2.7b,LGA-Param-Direct-AltModelPred,"[0, 1, 3]","[0, 1, 3, 4, 16]",0.808,eligible,done; n=404/500,0.808,20,True,62.46,59.708666666666666,13.139999999999993,True,73.8,62.038,1.7999999999999972
+evqa-pilot500,blip2-opt-2.7b,Perturb-KL-Direct-AltSeq,"[3, 4, 2]","[3, 4, 2, 1, 5]",1.0,eligible,done; n=500/500; valid_groups=12,1.0,20,True,62.46,56.617333333333335,13.139999999999993,True,68.89,59.449600000000004,6.709999999999994
+evqa-pilot500,blip2-opt-2.7b,CMA-Direct,"[4, 2, 5]","[4, 2, 5, 3, 1]",0.778,low_candidate_coverage,done; n=389/500; coverage=0.7780,0.778,20,True,68.89,58.760666666666665,6.709999999999994,True,68.89,59.449600000000004,6.709999999999994
+evqa-pilot500,instructblip-vicuna-7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,3,False,,,,False,,,
+evqa-pilot500,instructblip-vicuna-7b,VisEdit-Contrib-Pre-KeyToken,"[28, 27, 26]","[28, 27, 26, 25, 24]",,historical_firsttoken_not_strict_keytoken,original pilot500 result; KeyToken table row,1.0,3,True,53.27,52.32666666666667,0.0,False,,,
+evqa-pilot500,instructblip-vicuna-7b,SaLEM-Alt-Direct,"[0, 18, 19]","[0, 18, 19, 20, 17]",1.0,eligible,done; n=500/500,1.0,3,False,,,,False,,,
+evqa-pilot500,instructblip-vicuna-7b,LGA-Param-Direct-AltModelPred,"[2, 0, 1]","[2, 0, 1, 4, 17]",0.69,low_candidate_coverage,done; n=345/500,0.69,3,False,,,,False,,,
+evqa-pilot500,instructblip-vicuna-7b,Perturb-KL-Direct-AltSeq,"[2, 3, 4]","[2, 3, 4, 5, 6]",1.0,eligible,done; n=500/500; valid_groups=12,1.0,3,False,,,,False,,,
+evqa-pilot500,instructblip-vicuna-7b,CMA-Direct,"[1, 0, 25]","[1, 0, 25, 22, 2]",0.842,eligible,done; n=421/500; coverage=0.8420,0.842,3,False,,,,False,,,
+evqa-pilot500,minigpt-4-vicuna-7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,9,False,,,,False,,,
+evqa-pilot500,minigpt-4-vicuna-7b,VisEdit-Contrib-Pre-KeyToken,"[26, 25, 24]","[26, 25, 24, 23, 22]",,historical_firsttoken_not_strict_keytoken,original pilot500 result; KeyToken table row,1.0,9,True,58.47,57.81333333333333,6.469999999999999,False,,,
+evqa-pilot500,minigpt-4-vicuna-7b,SaLEM-Alt-Direct,"[8, 9, 10]","[8, 9, 10, 5, 6]",1.0,eligible,done; n=500/500,1.0,9,False,,,,False,,,
+evqa-pilot500,minigpt-4-vicuna-7b,LGA-Param-Direct-AltModelPred,"[29, 25, 22]","[29, 25, 22, 26, 21]",0.998,eligible,done; n=499/500,0.998,9,False,,,,False,,,
+evqa-pilot500,minigpt-4-vicuna-7b,Perturb-KL-Direct-AltSeq,"[0, 1, 2]","[0, 1, 2, 3, 4]",1.0,eligible,done; n=500/500; valid_groups=12,1.0,9,False,,,,False,,,
+evqa-pilot500,minigpt-4-vicuna-7b,CMA-Direct,"[7, 1, 0]","[7, 1, 0, 2, 8]",0.57,low_candidate_coverage,done; n=285/500; coverage=0.5700,0.57,9,False,,,,False,,,
+evqa-pilot500,llava-v1.5-7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,5,False,,,,False,,,
+evqa-pilot500,llava-v1.5-7b,VisEdit-Contrib-Pre-KeyToken,"[28, 27, 26]","[28, 27, 26, 25, 24]",,historical_firsttoken_not_strict_keytoken,original pilot500 result; KeyToken table row,1.0,5,True,62.99,62.093333333333334,0.0,False,,,
+evqa-pilot500,llava-v1.5-7b,SaLEM-Alt-Direct,"[7, 6, 5]","[7, 6, 5, 8, 9]",1.0,eligible,done; n=500/500,1.0,5,False,,,,False,,,
+evqa-pilot500,llava-v1.5-7b,LGA-Param-Direct-AltModelPred,"[24, 25, 26]","[24, 25, 26, 23, 27]",0.748,low_candidate_coverage,done; n=374/500,0.748,5,False,,,,False,,,
+evqa-pilot500,llava-v1.5-7b,Perturb-KL-Direct-AltSeq,"[0, 1, 2]","[0, 1, 2, 3, 4]",1.0,eligible,done; n=500/500; valid_groups=12,1.0,5,False,,,,False,,,
+evqa-pilot500,llava-v1.5-7b,CMA-Direct,"[0, 1, 4]","[0, 1, 4, 6, 10]",0.794,low_candidate_coverage,done; n=397/500; coverage=0.7940,0.794,5,False,,,,False,,,
+evqa-pilot500,qwen2.5-vl-3b,Middle-Prior-Direct,"[17, 18, 16]","[17, 18, 16, 19, 15]",,eligible,done; dataset-independent,1.0,23,True,63.55,62.97,0.19000000000000483,False,,,
+evqa-pilot500,qwen2.5-vl-3b,VisEdit-Contrib-Pre-KeyToken,"[29, 28, 27]","[29, 28, 27, 26, 25]",,historical_firsttoken_not_strict_keytoken,original pilot500 result; KeyToken table row,1.0,23,True,62.53,62.28,1.2100000000000009,False,,,
+evqa-pilot500,qwen2.5-vl-3b,SaLEM-Alt-Direct,"[11, 14, 12]","[11, 14, 12, 13, 15]",1.0,eligible,done; n=500/500,1.0,23,True,63.39,62.63,0.3500000000000014,False,,,
+evqa-pilot500,qwen2.5-vl-3b,LGA-Param-Direct-AltModelPred,"[2, 30, 1]","[2, 30, 1, 3, 10]",0.986,eligible,done; n=493/500,0.986,23,True,62.52,62.07666666666667,1.2199999999999989,False,,,
+evqa-pilot500,qwen2.5-vl-3b,Perturb-KL-Direct-AltSeq,"[0, 1, 2]","[0, 1, 2, 3, 4]",1.0,eligible,done; n=500/500; valid_groups=12,1.0,23,True,62.89,62.2,0.8500000000000014,False,,,
+evqa-pilot500,qwen2.5-vl-3b,CMA-Direct,"[1, 0, 3]","[1, 0, 3, 6, 4]",0.478,low_candidate_coverage,done; n=239/500; coverage=0.4780,0.478,23,True,62.89,61.980000000000004,0.8500000000000014,False,,,
+evqa-pilot500,paligemma-3b,Middle-Prior-Direct,"[8, 9, 7]","[8, 9, 7, 10, 6]",,eligible,done; dataset-independent,1.0,13,True,81.0,64.27,0.0,True,81.0,66.0,0.0
+evqa-pilot500,paligemma-3b,VisEdit-Contrib-Pre-KeyToken,"[12, 11, 10]","[12, 11, 10, 9, 8]",,historical_firsttoken_not_strict_keytoken,original pilot500 result; KeyToken table row,1.0,13,True,80.99,75.83,0.010000000000005116,True,81.0,68.92999999999999,0.0
+evqa-pilot500,paligemma-3b,SaLEM-Alt-Direct,"[8, 7, 9]","[8, 7, 9, 10, 6]",1.0,eligible,done; n=500/500,1.0,13,True,81.0,64.27,0.0,True,81.0,66.0,0.0
+evqa-pilot500,paligemma-3b,LGA-Param-Direct-AltModelPred,"[17, 7, 0]","[17, 7, 0, 8, 13]",0.572,low_candidate_coverage,done; n=286/500,0.572,13,False,,,,False,,,
+evqa-pilot500,paligemma-3b,Perturb-KL-Direct-AltSeq,"[5, 7, 6]","[5, 7, 6, 3, 4]",1.0,eligible,done; n=500/500; valid_groups=12,1.0,13,True,78.17,73.49666666666667,2.8299999999999983,False,,,
+evqa-pilot500,paligemma-3b,CMA-Direct,"[5, 4, 0]","[5, 4, 0, 3, 2]",0.43,low_candidate_coverage,done; n=215/500; coverage=0.4300,0.43,13,False,,,,False,,,
+evqa-pilot500,smolvlm-1.7b,Middle-Prior-Direct,"[11, 12, 10]","[11, 12, 10, 13, 9]",,eligible,done; dataset-independent,1.0,19,True,69.81,66.32666666666667,0.1599999999999966,True,69.81,65.298,0.1599999999999966
+evqa-pilot500,smolvlm-1.7b,VisEdit-Contrib-Pre-KeyToken,"[17, 16, 15]","[17, 16, 15, 14, 13]",,historical_firsttoken_not_strict_keytoken,original pilot500 result; KeyToken table row,1.0,19,True,59.74,59.163333333333334,10.229999999999997,True,68.22,61.032000000000004,1.75
+evqa-pilot500,smolvlm-1.7b,SaLEM-Alt-Direct,"[9, 8, 7]","[9, 8, 7, 6, 10]",1.0,eligible,done; n=500/500,1.0,19,True,68.45,66.83,1.519999999999996,False,,,
+evqa-pilot500,smolvlm-1.7b,LGA-Param-Direct-AltModelPred,"[22, 21, 20]","[22, 21, 20, 19, 18]",0.998,eligible,done; n=499/500,0.998,19,True,57.15,56.46333333333333,12.82,False,,,
+evqa-pilot500,smolvlm-1.7b,Perturb-KL-Direct-AltSeq,"[1, 2, 0]","[1, 2, 0, 4, 3]",1.0,eligible,done; n=500/500; valid_groups=12,1.0,19,True,69.97,64.38333333333333,0.0,False,,,
+evqa-pilot500,smolvlm-1.7b,CMA-Direct,"[0, 1, 3]","[0, 1, 3, 2, 6]",0.586,low_candidate_coverage,done; n=293/500; coverage=0.5860,0.586,19,True,69.97,65.1,0.0,False,,,
+mmke-visual,blip2-opt-2.7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,19,True,71.39,70.81,0.730000000000004,False,,,
+mmke-visual,blip2-opt-2.7b,VisEdit-Contrib-Pre-KeyToken,"[26, 25, 24]","[26, 25, 24, 23, 22]",1.0,eligible,strict KeyToken done; n=214/214,1.0,19,True,71.47,71.30333333333333,0.6500000000000057,False,,,
+mmke-visual,blip2-opt-2.7b,SaLEM-Alt-Direct,"[0, 18, 19]","[0, 18, 19, 17, 20]",1.0,eligible,done; n=214/214,1.0,19,True,71.37,68.34333333333333,0.75,True,71.81,69.612,0.3100000000000023
+mmke-visual,blip2-opt-2.7b,LGA-Param-Direct-AltModelPred,"[0, 1, 3]","[0, 1, 3, 4, 2]",0.8037383177570093,eligible,done; n=172/214,0.8037383177570093,19,True,69.69,66.93333333333334,2.430000000000007,True,69.87,67.972,2.25
+mmke-visual,blip2-opt-2.7b,Perturb-KL-Direct-AltSeq,"[3, 4, 2]","[3, 4, 2, 1, 5]",1.0,eligible,done; n=214/214; valid_groups=12,1.0,19,True,69.87,69.26666666666667,2.25,False,,,
+mmke-visual,blip2-opt-2.7b,CMA-Direct,"[3, 0, 1]","[3, 0, 1, 2, 4]",0.9907,eligible,done; n=212/214; coverage=0.9907,0.9907,19,True,69.69,66.93333333333334,2.430000000000007,True,69.87,67.972,2.25
+mmke-visual,instructblip-vicuna-7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,21,True,50.56,50.190000000000005,20.730000000000004,False,,,
+mmke-visual,instructblip-vicuna-7b,VisEdit-Contrib-Pre-KeyToken,"[28, 27, 26]","[28, 27, 26, 25, 24]",1.0,eligible,strict KeyToken done; n=214/214,1.0,21,True,50.59,50.17666666666667,20.700000000000003,True,50.59,50.226,20.700000000000003
+mmke-visual,instructblip-vicuna-7b,SaLEM-Alt-Direct,"[18, 17, 19]","[18, 17, 19, 20, 16]",1.0,eligible,done; n=214/214,1.0,21,True,50.73,50.61666666666667,20.56000000000001,False,,,
+mmke-visual,instructblip-vicuna-7b,LGA-Param-Direct-AltModelPred,"[2, 0, 4]","[2, 0, 4, 28, 1]",1.0,eligible,done; n=214/214,1.0,21,True,71.29,57.27666666666667,0.0,True,71.29,58.416000000000004,0.0
+mmke-visual,instructblip-vicuna-7b,Perturb-KL-Direct-AltSeq,"[2, 3, 5]","[2, 3, 5, 4, 8]",1.0,eligible,done; n=214/214; valid_groups=12,1.0,21,True,51.16,50.513333333333335,20.13000000000001,False,,,
+mmke-visual,instructblip-vicuna-7b,CMA-Direct,"[23, 22, 24]","[23, 22, 24, 19, 17]",0.9907,eligible,done; n=212/214; coverage=0.9907,0.9907,21,True,50.59,50.51,20.700000000000003,True,50.73,50.578,20.56000000000001
+mmke-visual,minigpt-4-vicuna-7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,18,True,76.35,76.10666666666667,0.5900000000000034,False,,,
+mmke-visual,minigpt-4-vicuna-7b,VisEdit-Contrib-Pre-KeyToken,"[26, 25, 24]","[26, 25, 24, 23, 22]",1.0,eligible,strict KeyToken done; n=214/214,1.0,18,True,74.32,74.17,2.6200000000000045,False,,,
+mmke-visual,minigpt-4-vicuna-7b,SaLEM-Alt-Direct,"[31, 5, 8]","[31, 5, 8, 6, 9]",1.0,eligible,done; n=214/214,1.0,18,True,76.94,73.89666666666666,0.0,False,,,
+mmke-visual,minigpt-4-vicuna-7b,LGA-Param-Direct-AltModelPred,"[0, 1, 3]","[0, 1, 3, 4, 25]",1.0,eligible,done; n=214/214,1.0,18,True,76.634,76.09,0.3059999999999974,False,,,
+mmke-visual,minigpt-4-vicuna-7b,Perturb-KL-Direct-AltSeq,"[0, 1, 2]","[0, 1, 2, 3, 4]",1.0,eligible,done; n=214/214; valid_groups=12,1.0,18,True,76.064,75.89999999999999,0.8760000000000048,False,,,
+mmke-visual,minigpt-4-vicuna-7b,CMA-Direct,"[0, 1, 2]","[0, 1, 2, 3, 4]",0.2336,low_candidate_coverage,done; n=50/214; coverage=0.2336,0.2336,18,True,76.064,75.89999999999999,0.8760000000000048,False,,,
+mmke-visual,llava-v1.5-7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,1,False,,,,False,,,
+mmke-visual,llava-v1.5-7b,VisEdit-Contrib-Pre-KeyToken,"[28, 27, 26]","[28, 27, 26, 25, 24]",1.0,eligible,strict KeyToken done; n=214/214,1.0,1,False,,,,False,,,
+mmke-visual,llava-v1.5-7b,SaLEM-Alt-Direct,"[7, 8, 9]","[7, 8, 9, 6, 10]",1.0,eligible,done; n=214/214,1.0,1,False,,,,False,,,
+mmke-visual,llava-v1.5-7b,LGA-Param-Direct-AltModelPred,"[24, 22, 27]","[24, 22, 27, 25, 23]",1.0,eligible,done; n=214/214,1.0,1,False,,,,False,,,
+mmke-visual,llava-v1.5-7b,Perturb-KL-Direct-AltSeq,"[0, 1, 2]","[0, 1, 2, 3, 4]",1.0,eligible,done; n=214/214; valid_groups=12,1.0,1,False,,,,False,,,
+mmke-visual,llava-v1.5-7b,CMA-Direct,"[0, 1, 2]","[0, 1, 2, 3, 4]",0.9673,eligible,done; n=207/214; coverage=0.9673,0.9673,1,False,,,,False,,,
+mmke-visual,qwen2.5-vl-3b,Middle-Prior-Direct,"[17, 18, 16]","[17, 18, 16, 19, 15]",,eligible,done; dataset-independent,1.0,21,True,70.65,70.02,0.3499999999999943,False,,,
+mmke-visual,qwen2.5-vl-3b,VisEdit-Contrib-Pre-KeyToken,"[28, 27, 26]","[28, 27, 26, 25, 24]",1.0,eligible,strict KeyToken done; n=214/214,1.0,21,True,68.35,68.24333333333334,2.6500000000000057,False,,,
+mmke-visual,qwen2.5-vl-3b,SaLEM-Alt-Direct,"[12, 11, 14]","[12, 11, 14, 15, 13]",1.0,eligible,done; n=214/214,1.0,21,True,71.0,70.60666666666667,0.0,False,,,
+mmke-visual,qwen2.5-vl-3b,LGA-Param-Direct-AltModelPred,"[2, 30, 1]","[2, 30, 1, 3, 6]",1.0,eligible,done; n=214/214,1.0,21,True,69.93,68.82000000000001,1.0699999999999932,False,,,
+mmke-visual,qwen2.5-vl-3b,Perturb-KL-Direct-AltSeq,"[0, 13, 14]","[0, 13, 14, 12, 15]",1.0,eligible,done; n=214/214; valid_groups=12,1.0,21,True,70.42,70.21,0.5799999999999983,False,,,
+mmke-visual,qwen2.5-vl-3b,CMA-Direct,"[1, 0, 6]","[1, 0, 6, 7, 3]",0.1449,low_candidate_coverage,done; n=31/214; coverage=0.1449,0.1449,21,True,70.42,70.01666666666667,0.5799999999999983,False,,,
+mmke-visual,paligemma-3b,Middle-Prior-Direct,"[8, 9, 7]","[8, 9, 7, 10, 6]",,eligible,done; dataset-independent,1.0,7,False,,,,False,,,
+mmke-visual,paligemma-3b,VisEdit-Contrib-Pre-KeyToken,"[14, 13, 12]","[14, 13, 12, 11, 10]",1.0,eligible,strict KeyToken done; n=214/214,1.0,7,False,,,,False,,,
+mmke-visual,paligemma-3b,SaLEM-Alt-Direct,"[10, 8, 9]","[10, 8, 9, 7, 5]",1.0,eligible,done; n=214/214,1.0,7,True,99.06,96.14666666666668,0.0,False,,,
+mmke-visual,paligemma-3b,LGA-Param-Direct-AltModelPred,"[17, 0, 7]","[17, 0, 7, 8, 10]",1.0,eligible,done; n=214/214,1.0,7,False,,,,False,,,
+mmke-visual,paligemma-3b,Perturb-KL-Direct-AltSeq,"[7, 5, 6]","[7, 5, 6, 8, 9]",1.0,eligible,done; n=214/214; valid_groups=12,1.0,7,False,,,,False,,,
+mmke-visual,paligemma-3b,CMA-Direct,"[1, 2, 0]","[1, 2, 0, 3, 5]",0.3551,low_candidate_coverage,done; n=76/214; coverage=0.3551,0.3551,7,False,,,,False,,,
+mmke-visual,smolvlm-1.7b,Middle-Prior-Direct,"[11, 12, 10]","[11, 12, 10, 13, 9]",,eligible,done; dataset-independent,1.0,19,True,69.62,69.16,1.7399999999999949,True,69.83,69.352,1.5300000000000011
+mmke-visual,smolvlm-1.7b,VisEdit-Contrib-Pre-KeyToken,"[18, 17, 16]","[18, 17, 16, 15, 14]",1.0,eligible,strict KeyToken done; n=214/214,1.0,19,True,67.89,67.44333333333333,3.469999999999999,True,68.64,67.89,2.719999999999999
+mmke-visual,smolvlm-1.7b,SaLEM-Alt-Direct,"[9, 8, 0]","[9, 8, 0, 10, 7]",1.0,eligible,done; n=214/214,1.0,19,True,71.36,70.15666666666667,0.0,True,71.36,70.116,0.0
+mmke-visual,smolvlm-1.7b,LGA-Param-Direct-AltModelPred,"[1, 7, 6]","[1, 7, 6, 8, 5]",1.0,eligible,done; n=214/214,1.0,19,True,70.77,70.27666666666667,0.5900000000000034,False,,,
+mmke-visual,smolvlm-1.7b,Perturb-KL-Direct-AltSeq,"[1, 4, 0]","[1, 4, 0, 2, 5]",1.0,eligible,done; n=214/214; valid_groups=12,1.0,19,True,71.36,70.69,0.0,False,,,
+mmke-visual,smolvlm-1.7b,CMA-Direct,"[0, 1, 15]","[0, 1, 15, 2, 7]",0.6542,low_candidate_coverage,done; n=140/214; coverage=0.6542,0.6542,19,True,71.36,70.00666666666667,0.0,False,,,
+mmke-entity,blip2-opt-2.7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,20,True,70.06,69.76666666666667,2.1799999999999926,True,70.26,69.894,1.9799999999999898
+mmke-entity,blip2-opt-2.7b,VisEdit-Contrib-Pre-KeyToken,"[22, 21, 20]","[22, 21, 20, 19, 18]",1.0,eligible,strict KeyToken done; n=636/636,1.0,20,True,70.63,70.29333333333334,1.6099999999999994,True,70.63,70.278,1.6099999999999994
+mmke-entity,blip2-opt-2.7b,SaLEM-Alt-Direct,"[0, 18, 30]","[0, 18, 30, 19, 17]",1.0,eligible,done; n=636/636,1.0,20,True,71.14,69.04,1.0999999999999943,True,71.14,69.554,1.0999999999999943
+mmke-entity,blip2-opt-2.7b,LGA-Param-Direct-AltModelPred,"[16, 13, 18]","[16, 13, 18, 17, 15]",0.45440251572327045,low_candidate_coverage,done; n=289/636,0.45440251572327045,20,True,70.12,69.82666666666667,2.1199999999999903,True,70.26,69.906,1.9799999999999898
+mmke-entity,blip2-opt-2.7b,Perturb-KL-Direct-AltSeq,"[3, 2, 4]","[3, 2, 4, 1, 0]",1.0,eligible,done; n=636/636; valid_groups=12,1.0,20,True,72.24,71.52333333333333,0.0,False,,,
+mmke-entity,blip2-opt-2.7b,CMA-Direct,"[3, 0, 2]","[3, 0, 2, 4, 1]",0.9969,eligible,done; n=634/636; coverage=0.9969,0.9969,20,True,71.32,69.39666666666666,0.9200000000000017,False,,,
+mmke-entity,instructblip-vicuna-7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,22,True,48.84,48.733333333333334,20.340000000000003,False,,,
+mmke-entity,instructblip-vicuna-7b,VisEdit-Contrib-Pre-KeyToken,"[28, 27, 26]","[28, 27, 26, 25, 24]",1.0,eligible,strict KeyToken done; n=636/636,1.0,22,True,47.52,47.11,21.660000000000004,True,47.58,47.236,21.60000000000001
+mmke-entity,instructblip-vicuna-7b,SaLEM-Alt-Direct,"[18, 17, 19]","[18, 17, 19, 16, 20]",1.0,eligible,done; n=636/636,1.0,22,True,48.93,48.71666666666667,20.250000000000007,False,,,
+mmke-entity,instructblip-vicuna-7b,LGA-Param-Direct-AltModelPred,"[2, 28, 0]","[2, 28, 0, 4, 30]",1.0,eligible,done; n=636/636,1.0,22,True,68.32,54.99333333333333,0.8600000000000136,True,68.32,52.07,0.8600000000000136
+mmke-entity,instructblip-vicuna-7b,Perturb-KL-Direct-AltSeq,"[5, 4, 3]","[5, 4, 3, 2, 8]",1.0,eligible,done; n=636/636; valid_groups=12,1.0,22,True,50.02,49.03666666666667,19.160000000000004,False,,,
+mmke-entity,instructblip-vicuna-7b,CMA-Direct,"[23, 24, 22]","[23, 24, 22, 19, 17]",0.9906,eligible,done; n=630/636; coverage=0.9906,0.9906,22,True,48.33,47.910000000000004,20.85000000000001,True,48.93,48.252,20.250000000000007
+mmke-entity,minigpt-4-vicuna-7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,7,False,,,,False,,,
+mmke-entity,minigpt-4-vicuna-7b,VisEdit-Contrib-Pre-KeyToken,"[25, 24, 23]","[25, 24, 23, 22, 21]",1.0,eligible,strict KeyToken done; n=636/636,1.0,7,True,75.18,75.08333333333334,1.0899999999999892,False,,,
+mmke-entity,minigpt-4-vicuna-7b,SaLEM-Alt-Direct,"[31, 22, 24]","[31, 22, 24, 21, 23]",1.0,eligible,done; n=636/636,1.0,7,False,,,,False,,,
+mmke-entity,minigpt-4-vicuna-7b,LGA-Param-Direct-AltModelPred,"[4, 3, 6]","[4, 3, 6, 0, 1]",1.0,eligible,done; n=636/636,1.0,7,False,,,,False,,,
+mmke-entity,minigpt-4-vicuna-7b,Perturb-KL-Direct-AltSeq,"[0, 1, 2]","[0, 1, 2, 3, 4]",1.0,eligible,done; n=636/636; valid_groups=12,1.0,7,False,,,,False,,,
+mmke-entity,minigpt-4-vicuna-7b,CMA-Direct,"[0, 1, 2]","[0, 1, 2, 3, 4]",0.1525,low_candidate_coverage,done; n=97/636; coverage=0.1525,0.1525,7,False,,,,False,,,
+mmke-entity,llava-v1.5-7b,Middle-Prior-Direct,"[15, 16, 14]","[15, 16, 14, 17, 13]",,eligible,done; dataset-independent,1.0,0,False,,,,False,,,
+mmke-entity,llava-v1.5-7b,VisEdit-Contrib-Pre-KeyToken,"[28, 27, 26]","[28, 27, 26, 25, 24]",1.0,eligible,strict KeyToken done; n=636/636,1.0,0,False,,,,False,,,
+mmke-entity,llava-v1.5-7b,SaLEM-Alt-Direct,"[23, 22, 24]","[23, 22, 24, 25, 21]",1.0,eligible,done; n=636/636,1.0,0,False,,,,False,,,
+mmke-entity,llava-v1.5-7b,LGA-Param-Direct-AltModelPred,"[1, 9, 7]","[1, 9, 7, 8, 6]",1.0,eligible,done; n=636/636,1.0,0,False,,,,False,,,
+mmke-entity,llava-v1.5-7b,Perturb-KL-Direct-AltSeq,"[0, 1, 2]","[0, 1, 2, 3, 4]",1.0,eligible,done; n=636/636; valid_groups=12,1.0,0,False,,,,False,,,
+mmke-entity,llava-v1.5-7b,CMA-Direct,"[0, 1, 2]","[0, 1, 2, 3, 4]",0.9937,eligible,done; n=632/636; coverage=0.9937,0.9937,0,False,,,,False,,,
+mmke-entity,qwen2.5-vl-3b,Middle-Prior-Direct,"[17, 18, 16]","[17, 18, 16, 19, 15]",,eligible,done; dataset-independent,1.0,18,True,71.59,71.42333333333333,1.0699999999999932,False,,,
+mmke-entity,qwen2.5-vl-3b,VisEdit-Contrib-Pre-KeyToken,"[29, 28, 27]","[29, 28, 27, 26, 25]",1.0,eligible,strict KeyToken done; n=636/636,1.0,18,True,72.66,71.93666666666667,0.0,True,72.66,71.634,0.0
+mmke-entity,qwen2.5-vl-3b,SaLEM-Alt-Direct,"[15, 14, 13]","[15, 14, 13, 16, 12]",1.0,eligible,done; n=636/636,1.0,18,True,71.48,71.34666666666666,1.1799999999999926,False,,,
+mmke-entity,qwen2.5-vl-3b,LGA-Param-Direct-AltModelPred,"[2, 30, 1]","[2, 30, 1, 6, 3]",1.0,eligible,done; n=636/636,1.0,18,True,72.41,72.24333333333334,0.25,False,,,
+mmke-entity,qwen2.5-vl-3b,Perturb-KL-Direct-AltSeq,"[0, 1, 2]","[0, 1, 2, 3, 14]",1.0,eligible,done; n=636/636; valid_groups=12,1.0,18,True,72.28,72.18,0.37999999999999545,False,,,
+mmke-entity,qwen2.5-vl-3b,CMA-Direct,"[1, 0, 2]","[1, 0, 2, 3, 6]",0.0142,low_candidate_coverage,low_confidence; n=9/636; coverage=0.0142,0.0142,18,True,72.28,72.18,0.37999999999999545,False,,,
+mmke-entity,paligemma-3b,Middle-Prior-Direct,"[8, 9, 7]","[8, 9, 7, 10, 6]",,eligible,done; dataset-independent,1.0,15,True,96.3,90.61,0.6800000000000068,True,96.98,81.418,0.0
+mmke-entity,paligemma-3b,VisEdit-Contrib-Pre-KeyToken,"[12, 11, 10]","[12, 11, 10, 9, 8]",1.0,eligible,strict KeyToken done; n=636/636,1.0,15,True,90.67,57.85666666666667,6.310000000000002,True,96.3,71.056,0.6800000000000068
+mmke-entity,paligemma-3b,SaLEM-Alt-Direct,"[17, 16, 13]","[17, 16, 13, 0, 10]",1.0,eligible,done; n=636/636,1.0,15,True,48.65,45.339999999999996,48.330000000000005,True,48.65,38.86,48.330000000000005
+mmke-entity,paligemma-3b,LGA-Param-Direct-AltModelPred,"[17, 16, 7]","[17, 16, 7, 8, 13]",1.0,eligible,done; n=636/636,1.0,15,True,90.12,59.163333333333334,6.859999999999999,True,96.3,64.488,0.6800000000000068
+mmke-entity,paligemma-3b,Perturb-KL-Direct-AltSeq,"[7, 5, 6]","[7, 5, 6, 8, 9]",1.0,eligible,done; n=636/636; valid_groups=12,1.0,15,True,96.98,92.63666666666667,0.0,True,96.98,91.924,0.0
+mmke-entity,paligemma-3b,CMA-Direct,"[0, 2, 1]","[0, 2, 1, 3, 7]",0.1965,low_candidate_coverage,done; n=125/636; coverage=0.1965,0.1965,15,True,88.86,63.63333333333333,8.120000000000005,True,92.97,74.798,4.010000000000005
+mmke-entity,smolvlm-1.7b,Middle-Prior-Direct,"[11, 12, 10]","[11, 12, 10, 13, 9]",,eligible,done; dataset-independent,1.0,15,True,70.84,70.33666666666667,0.6299999999999955,True,70.84,70.22,0.6299999999999955
+mmke-entity,smolvlm-1.7b,VisEdit-Contrib-Pre-KeyToken,"[18, 17, 16]","[18, 17, 16, 15, 14]",1.0,eligible,strict KeyToken done; n=636/636,1.0,15,True,71.47,70.55,0.0,True,71.47,70.1,0.0
+mmke-entity,smolvlm-1.7b,SaLEM-Alt-Direct,"[0, 1, 6]","[0, 1, 6, 7, 5]",1.0,eligible,done; n=636/636,1.0,15,True,71.05,70.67,0.4200000000000017,False,,,
+mmke-entity,smolvlm-1.7b,LGA-Param-Direct-AltModelPred,"[1, 7, 0]","[1, 7, 0, 6, 8]",1.0,eligible,done; n=636/636,1.0,15,True,71.05,70.60666666666667,0.4200000000000017,False,,,
+mmke-entity,smolvlm-1.7b,Perturb-KL-Direct-AltSeq,"[0, 1, 2]","[0, 1, 2, 3, 4]",1.0,eligible,done; n=636/636; valid_groups=12,1.0,15,True,71.12,70.88,0.3499999999999943,False,,,
+mmke-entity,smolvlm-1.7b,CMA-Direct,"[15, 18, 16]","[15, 18, 16, 19, 14]",0.8553,eligible,done; n=544/636; coverage=0.8553,0.8553,15,True,71.47,70.19666666666667,0.0,False,,,

@@ -1,0 +1,1 @@
+{"jobs": "3435286|jupyter|RUNNING|g08|gres/gpu:1|30-00:00:00|25-21:22:27\n3443209|jupyter|RUNNING|g09|gres/gpu:1|30-00:00:00|28-02:08:48\n", "nodes": "g07|gpu:2|drng\ng08|gpu:2|alloc\ng09|gpu:2|mix\n", "g08": "0, NVIDIA A800 80GB PCIe, 81920 MiB, 74197 MiB, 100 %\n", "g09": "0, NVIDIA A800 80GB PCIe, 81920 MiB, 77622 MiB, 100 %\n"}

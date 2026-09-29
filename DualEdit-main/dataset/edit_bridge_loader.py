@@ -1,10 +1,20 @@
 import json
 import os
 from copy import deepcopy
+import importlib.util
+from pathlib import Path
 
 from tqdm import tqdm
 
-from dataset.vllm import BaseVLLMEditData
+try:
+    from .vllm import BaseVLLMEditData
+except ImportError:
+    _VMLL_PATH = Path(__file__).resolve().with_name("vllm.py")
+    _spec = importlib.util.spec_from_file_location("dualedit_dataset_vllm", _VMLL_PATH)
+    _module = importlib.util.module_from_spec(_spec)
+    assert _spec.loader is not None
+    _spec.loader.exec_module(_module)
+    BaseVLLMEditData = _module.BaseVLLMEditData
 
 
 class EditBridge(BaseVLLMEditData):
@@ -12,7 +22,10 @@ class EditBridge(BaseVLLMEditData):
         if coco_img_dir is None:
             coco_img_dir = img_root_dir
         if img_path_map is None:
-            img_path_map = {"train/images": "bridge_train/bridge_images"}
+            img_path_map = {
+                "train/images": "bridge_train/bridge_images",
+                "val/images": "bridge_val/bridge_images",
+            }
 
         with open(data_path, "r", encoding="utf-8") as f:
             raw_data = json.load(f)
@@ -84,6 +97,21 @@ class EditBridge(BaseVLLMEditData):
                         "target": loc["target"],
                     }
                 )
+            for port_name in ("1hop", "2hop"):
+                for port in item.get("portability", {}).get(port_name, []):
+                    port_item = {
+                        key: value
+                        for key, value in port.items()
+                        if key not in {"image", "prompt", "target"}
+                    }
+                    port_item.update(
+                        {
+                            "image": resolve_bridge(port.get("image")) if port.get("image") else None,
+                            "prompt": f"{port['prompt']} The answer is:",
+                            "target": port["target"],
+                        }
+                    )
+                    new_item["portability"][port_name].append(port_item)
 
             data_with_img_path.append(new_item)
 

@@ -1,0 +1,342 @@
+{
+  "server_time": "2026-09-28T20:12:34.186234+08:00",
+  "runs": [
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701",
+      "summaries": [
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-entity",
+          "model": "paligemma-3b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "3902c3e1694d6b422609b9b30fd8dfe21f4d19e53196578579ecba07f2994cc8"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/qwen2.5-vl-3b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-entity",
+          "model": "qwen2.5-vl-3b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "9b15dcc4018f9a007cdbf536f7369b73ecd87b7578ddc8c39ac402a099ab499e"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/llava-v1.5-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-entity",
+          "model": "llava-v1.5-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "f1ddf1c865f185d540b93b2ea83180eeb5930fbf1ca132cf493cebe5b7aea0a4"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/instructblip-vicuna-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-entity",
+          "model": "instructblip-vicuna-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "3747c2a2befbee076f276f3dbe567bc006a4ae0f74aea21f9661f246a7178763"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/blip2-opt-2.7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-entity",
+          "model": "blip2-opt-2.7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "baacedb7acae6770c7d01789b7bf62e77c5ee511d95205574eeb8f42cabeafe4"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/minigpt-4-vicuna-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-entity",
+          "model": "minigpt-4-vicuna-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "ee5fda6da4be1b265cb7c4e5fe2c87f1972f7c857a34586a6046e1731b032be2"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/smolvlm-1.7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-entity",
+          "model": "smolvlm-1.7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "b9819e2aef3109bb157206d7f78b116d0d352dcc9f85fdfd178eef9d198fe291"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/paligemma-3b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-visual",
+          "model": "paligemma-3b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "b3a9a69a38cf49fd9a86a7c1196a3b8d96ccff2fc7f48714300496887114a858"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/qwen2.5-vl-3b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-visual",
+          "model": "qwen2.5-vl-3b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "690bc4629c36511ea5f197197c805f5ec7118d1cef8eadbc55b8aa2e285a16d8"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/llava-v1.5-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-visual",
+          "model": "llava-v1.5-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "1160401f9db566c884b1b90903e7e198065a90debca7cd6277b1f12a87127be7"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/instructblip-vicuna-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-visual",
+          "model": "instructblip-vicuna-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "b11e30e0bf5ea4228b45d2303dfab00f8e9562ca3a6f4ee45a9cc7bdd006f82d"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/blip2-opt-2.7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-visual",
+          "model": "blip2-opt-2.7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "c1f816d8a46c36cbc9fc7b43033c2c458f196f5441064fbbdca2ccea2c19ec1d"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/minigpt-4-vicuna-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-visual",
+          "model": "minigpt-4-vicuna-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "68ade4aea30a987d3dac628c7aaf7bc4d3c18aba84f2ad55eff7cef9afe8e2a7"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/smolvlm-1.7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "mmke-visual",
+          "model": "smolvlm-1.7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "4855923641f28a22bdc19cb47a6f3997f57cdf5fa687c3d08f5e849e30f31bd9"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/paligemma-3b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "evqa-pilot500",
+          "model": "paligemma-3b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "a5c90b59a8c9f5c0cb7c2bcad7d8bf13e7ee06d9c253564da678442a1be4f234"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/qwen2.5-vl-3b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "evqa-pilot500",
+          "model": "qwen2.5-vl-3b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "16b7a811f06585b998be5c8f6a4214bd0300592cac0eda27a9609d0d8441f4d5"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/llava-v1.5-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "evqa-pilot500",
+          "model": "llava-v1.5-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "0351006a71627dff7ada8b6e972cf00c894be19592adde42b23db2f2a9e28e21"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/instructblip-vicuna-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "evqa-pilot500",
+          "model": "instructblip-vicuna-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "f2056504f278340d5c9ed36fa4f3002f962adc08b835b43b136fa1be295c5755"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/blip2-opt-2.7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "evqa-pilot500",
+          "model": "blip2-opt-2.7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "41df96412824ae4ca9f1236a9aa43ba61e06eb3eed2634661d390ddb943f2e91"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/minigpt-4-vicuna-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "evqa-pilot500",
+          "model": "minigpt-4-vicuna-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "03b114c3da2ae5615465d31b5c2d99b776860d5bb4cf650ce264a5166384deab"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/smolvlm-1.7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "evqa-pilot500",
+          "model": "smolvlm-1.7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "daf7bd360b57319271d8dbf9064035e86582e9ee73c3860d6a184d1a36fc50de"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143",
+      "summaries": [
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/blip2-opt-2.7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "evqa-pilot500",
+          "model": "blip2-opt-2.7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "41df96412824ae4ca9f1236a9aa43ba61e06eb3eed2634661d390ddb943f2e91"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/instructblip-vicuna-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "evqa-pilot500",
+          "model": "instructblip-vicuna-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "f2056504f278340d5c9ed36fa4f3002f962adc08b835b43b136fa1be295c5755"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/minigpt-4-vicuna-7b/summary.json",
+          "method": "Perturb-KL-Direct",
+          "score_source": "visual_token_noise_altseq_kl",
+          "target_sequence": "complete alt sequence",
+          "status": "done",
+          "dataset": "evqa-pilot500",
+          "model": "minigpt-4-vicuna-7b",
+          "DONE": true,
+          "scores": true,
+          "sha256": "03b114c3da2ae5615465d31b5c2d99b776860d5bb4cf650ce264a5166384deab"
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/watch_perturb_kl_patch_qwen_then_resume_mmke_entity_g08_gpu0.sh",
+      "sha256": "4a5fbcb933d979f99fa20155b782fcb08df720e4595f47c94a23ea598661c492",
+      "target_lines": []
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0_safe.sh",
+      "sha256": "c7a18daa925017859dcc8c213ca1aa6af2cc55ef1c92089d9e86f840bf01df75",
+      "target_lines": []
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_perturb_kl_direct_candidate_layers.py",
+      "sha256": "e09d30f5409eba5a9727f94a4a6f04b74fe555ca5939c948d65c5f4d576bf9d7",
+      "target_lines": [
+        {
+          "line": 31,
+          "text": "SCORE_SOURCE = \"visual_token_noise_altseq_kl\""
+        },
+        {
+          "line": 380,
+          "text": "            target = req[\"target_new\"]"
+        },
+        {
+          "line": 724,
+          "text": "        \"target_sequence\": \"complete alt sequence\","
+        },
+        {
+          "line": 823,
+          "text": "    run.add_argument(\"--data-path\", default=None)"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0.sh",
+      "sha256": "f8fb4d20717ae6b987f8ccae33a4f5777c293844edf1b85d3fe11c1861c53cf4",
+      "target_lines": []
+    }
+  ]
+}

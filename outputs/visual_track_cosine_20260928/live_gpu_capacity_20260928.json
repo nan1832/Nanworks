@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-09-28T17:56:31.629585+08:00",
+  "jobs": "3463118|PENDING||(QOSMaxGRESPerUser)|gres/gpu:1|0:00|2:00:00\n3435286|RUNNING|g08|g08|gres/gpu:1|4-03:59:03|25-20:00:57\n3443209|RUNNING|g09|g09|gres/gpu:1|1-23:12:42|28-00:47:18\n",
+  "job_details": "scontrol_print_job error: Invalid job id specified\n",
+  "g08": {
+    "rc": 0,
+    "err": "",
+    "data": {
+      "timestamp": "2026-09-28T17:56:32.449916+08:00",
+      "hostname": {
+        "rc": 0,
+        "out": "g08\n"
+      },
+      "gpu": {
+        "rc": 0,
+        "out": "0, GPU-b17f9d7c-3b14-ca32-233a-40ad82b6ef47, NVIDIA A800 80GB PCIe, 81920, 77569, 3607, 100\n"
+      },
+      "gpu_processes": {
+        "rc": 0,
+        "out": "GPU-b17f9d7c-3b14-ca32-233a-40ad82b6ef47, 3007577, /datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python, 73660\nGPU-b17f9d7c-3b14-ca32-233a-40ad82b6ef47, 3061841, /datapool/home/ph_teacher3/.conda/envs/MVML/bin/python, 3892\n"
+      },
+      "own_processes": []
+    }
+  },
+  "g09": {
+    "rc": 0,
+    "err": "",
+    "data": {
+      "timestamp": "2026-09-28T17:56:32.428011+08:00",
+      "hostname": {
+        "rc": 0,
+        "out": "g09\n"
+      },
+      "gpu": {
+        "rc": 0,
+        "out": "0, GPU-ff89626e-b94a-6caf-823e-0facd635d9c1, NVIDIA A800 80GB PCIe, 81920, 79390, 1767, 100\n"
+      },
+      "gpu_processes": {
+        "rc": 0,
+        "out": "GPU-ff89626e-b94a-6caf-823e-0facd635d9c1, 2049332, /datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/env/bin/python, 3444\nGPU-ff89626e-b94a-6caf-823e-0facd635d9c1, 2258027, python, 4064\nGPU-ff89626e-b94a-6caf-823e-0facd635d9c1, 2287248, /datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python, 69556\nGPU-ff89626e-b94a-6caf-823e-0facd635d9c1, 2324808, /datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/env/bin/python, 1762\nGPU-ff89626e-b94a-6caf-823e-0facd635d9c1, 2344474, /datapool/home/ph_teacher3/.conda/envs/MVML/bin/python, 532\n"
+      },
+      "own_processes": []
+    }
+  },
+  "queue_states": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/control/g08_status.json": "{\n  \"state\": \"WAITING_PREVIOUS_EXPERIMENTS\",\n  \"node\": \"g08\",\n  \"time\": \"2026-09-28T17:56:17+0800\",\n  \"job\": \"3435286\",\n  \"pid\": 3047130,\n  \"completion_marker\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_L4_wait_memory_20260928/completion_verified.json\",\n  \"space\": \"visual\"\n}\n",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/control/g09_status.json": "{\n  \"state\": \"WAITING_PREVIOUS_EXPERIMENTS\",\n  \"node\": \"g09\",\n  \"time\": \"2026-09-28T17:56:17+0800\",\n  \"job\": \"3443209\",\n  \"pid\": 2328322,\n  \"completion_marker\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/control/g09/DONE.json\",\n  \"space\": \"parameter\"\n}\n"
+  }
+}

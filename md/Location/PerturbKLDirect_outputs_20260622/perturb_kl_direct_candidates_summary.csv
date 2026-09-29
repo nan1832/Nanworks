@@ -1,0 +1,22 @@
+Dataset,Model,Method,Score source,Top-3,Top-5,Status
+EVQA-pilot500,BLIP2-OPT-2.7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L3,L4,L2","L3,L4,L2,L1,L5",done; n=500/500; valid_groups=12
+EVQA-pilot500,InstructBLIP-Vicuna-7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L2,L3,L4","L2,L3,L4,L5,L6",done; n=500/500; valid_groups=12
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L0,L1,L2","L0,L1,L2,L3,L4",done; n=500/500; valid_groups=12
+EVQA-pilot500,LLaVA-v1.5-7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L0,L1,L2","L0,L1,L2,L3,L4",done; n=500/500; valid_groups=12
+EVQA-pilot500,Qwen2.5-VL-3B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L0,L1,L2","L0,L1,L2,L3,L4",done; n=500/500; valid_groups=12
+EVQA-pilot500,PaliGemma-3B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L5,L7,L6","L5,L7,L6,L3,L4",done; n=500/500; valid_groups=12
+EVQA-pilot500,SmolVLM-Instruct-1.7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L1,L2,L0","L1,L2,L0,L4,L3",done; n=500/500; valid_groups=12
+MMKE-visual,BLIP2-OPT-2.7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L3,L4,L2","L3,L4,L2,L1,L5",done; n=214/214; valid_groups=12
+MMKE-visual,InstructBLIP-Vicuna-7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L2,L3,L5","L2,L3,L5,L4,L8",done; n=214/214; valid_groups=12
+MMKE-visual,MiniGPT-4-Vicuna-7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L0,L1,L2","L0,L1,L2,L3,L4",done; n=214/214; valid_groups=12
+MMKE-visual,LLaVA-v1.5-7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L0,L1,L2","L0,L1,L2,L3,L4",done; n=214/214; valid_groups=12
+MMKE-visual,Qwen2.5-VL-3B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L0,L13,L14","L0,L13,L14,L12,L15",done; n=214/214; valid_groups=12
+MMKE-visual,PaliGemma-3B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L7,L5,L6","L7,L5,L6,L8,L9",done; n=214/214; valid_groups=12
+MMKE-visual,SmolVLM-Instruct-1.7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L1,L4,L0","L1,L4,L0,L2,L5",done; n=214/214; valid_groups=12
+MMKE-entity,BLIP2-OPT-2.7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L3,L2,L4","L3,L2,L4,L1,L0",done; n=636/636; valid_groups=12
+MMKE-entity,InstructBLIP-Vicuna-7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L5,L4,L3","L5,L4,L3,L2,L8",done; n=636/636; valid_groups=12
+MMKE-entity,MiniGPT-4-Vicuna-7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L0,L1,L2","L0,L1,L2,L3,L4",done; n=636/636; valid_groups=12
+MMKE-entity,LLaVA-v1.5-7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L0,L1,L2","L0,L1,L2,L3,L4",done; n=636/636; valid_groups=12
+MMKE-entity,Qwen2.5-VL-3B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L0,L1,L2","L0,L1,L2,L3,L14",done; n=636/636; valid_groups=12
+MMKE-entity,PaliGemma-3B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L7,L5,L6","L7,L5,L6,L8,L9",done; n=636/636; valid_groups=12
+MMKE-entity,SmolVLM-Instruct-1.7B,Perturb-KL-Direct,visual_token_noise_altseq_kl,"L0,L1,L2","L0,L1,L2,L3,L4",done; n=636/636; valid_groups=12

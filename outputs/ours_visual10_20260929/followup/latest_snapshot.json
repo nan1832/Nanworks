@@ -1,0 +1,19 @@
+{
+  "status": {
+    "state": "WAITING_CURRENT_GROUP",
+    "time": "2026-09-29T19:42:53.703146+08:00",
+    "pid": 3678031,
+    "job": "3435286",
+    "node": "g08",
+    "followup": true,
+    "original_queue_state": "RUNNING_OURS_VISUAL10",
+    "model": "instructblip-vicuna-7b",
+    "dataset": "mmke-entity",
+    "current_summary": "running",
+    "original_processes_alive": [
+      true,
+      true
+    ]
+  },
+  "artifacts": {}
+}

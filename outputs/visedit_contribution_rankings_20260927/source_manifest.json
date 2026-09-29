@@ -1,0 +1,287 @@
+{
+  "date": "2026-09-27",
+  "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full",
+  "operation": "read-only archive fetch",
+  "files": [
+    {
+      "relative_path": "mmke-visual/blip2-opt-2.7b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/blip2-opt-2.7b/layer_scores.csv",
+      "sha256": "421f6687974de2a066f947e2ae96607f4d163548b5b6ed403f135d8d867cf50f"
+    },
+    {
+      "relative_path": "mmke-visual/blip2-opt-2.7b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/blip2-opt-2.7b/config.json",
+      "sha256": "b417526428f5d89ee01039db0473d3aca5e70227056346a29ff7419254e5b89d"
+    },
+    {
+      "relative_path": "mmke-visual/blip2-opt-2.7b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/blip2-opt-2.7b/summary.json",
+      "sha256": "3e8e50021c2995c0bcd61074a486a960496eb30fe552c414c6fba112e9aa0ef4"
+    },
+    {
+      "relative_path": "mmke-visual/blip2-opt-2.7b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/blip2-opt-2.7b/high_contribution_region.json",
+      "sha256": "b369026fcdc8878ade5a6209b0c3210e75cb4715f9a1ee53c2d006cba09f3d0b"
+    },
+    {
+      "relative_path": "mmke-visual/instructblip-vicuna-7b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/instructblip-vicuna-7b/layer_scores.csv",
+      "sha256": "4d649bf4a31968de21e2c8ad20acaf8fca09e513ba4f77a6fbb23637d4a12483"
+    },
+    {
+      "relative_path": "mmke-visual/instructblip-vicuna-7b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/instructblip-vicuna-7b/config.json",
+      "sha256": "a04678893086e0e6ed763d64b433efd88cb911437c5c864442a0aacccdd6aa60"
+    },
+    {
+      "relative_path": "mmke-visual/instructblip-vicuna-7b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/instructblip-vicuna-7b/summary.json",
+      "sha256": "54637806e7f38b8acbcb36fbcab55bf2ab2d3c791edec7f5a7e868ef2e07227e"
+    },
+    {
+      "relative_path": "mmke-visual/instructblip-vicuna-7b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/instructblip-vicuna-7b/high_contribution_region.json",
+      "sha256": "99d965d5666a76ef0c581a05f1cc7e9237cb855498dc9867c4db811998115dd0"
+    },
+    {
+      "relative_path": "mmke-visual/minigpt-4-vicuna-7b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/minigpt-4-vicuna-7b/layer_scores.csv",
+      "sha256": "c7f9a6a7ab35f49ec1e91f866ab8d178edf57d54bbed33af9ed752f0811934fe"
+    },
+    {
+      "relative_path": "mmke-visual/minigpt-4-vicuna-7b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/minigpt-4-vicuna-7b/config.json",
+      "sha256": "67ee2b6de1997f566a717cef8bef05ea8ad70701473f040da88aeb0d3804d91c"
+    },
+    {
+      "relative_path": "mmke-visual/minigpt-4-vicuna-7b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "1185931d1812798cd25d9d044e56e5abbd99db18421523a61547bdb15bcb209a"
+    },
+    {
+      "relative_path": "mmke-visual/minigpt-4-vicuna-7b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/minigpt-4-vicuna-7b/high_contribution_region.json",
+      "sha256": "0b63e9a32ec9668b15e29888bfb1fd5cb0dcda0f23c43abb932d2a17eca5496d"
+    },
+    {
+      "relative_path": "mmke-visual/llava-v1.5-7b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/llava-v1.5-7b/layer_scores.csv",
+      "sha256": "e4dbdf7062b46659b990fd4b6f60cd3f2cb706f71be602b72dbe1f48f4bbb46a"
+    },
+    {
+      "relative_path": "mmke-visual/llava-v1.5-7b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/llava-v1.5-7b/config.json",
+      "sha256": "e0ea5958287f6b54e73fdc51da00940596d85ee1ae6194e7089436ae95caa480"
+    },
+    {
+      "relative_path": "mmke-visual/llava-v1.5-7b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/llava-v1.5-7b/summary.json",
+      "sha256": "c48bd71219bd21fa9076a80554d134e9879ca8b2edff0c88b4fad6e16a6bddae"
+    },
+    {
+      "relative_path": "mmke-visual/llava-v1.5-7b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/llava-v1.5-7b/high_contribution_region.json",
+      "sha256": "246a5441744c063593e3b7352ba4d73c82bdc1bf733c75558f62359c0db8e153"
+    },
+    {
+      "relative_path": "mmke-visual/qwen2.5-vl-3b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/qwen2.5-vl-3b/layer_scores.csv",
+      "sha256": "105f06ddce53d562e137f6c054f7e880416ea358673d88f19c1f477a5c307db9"
+    },
+    {
+      "relative_path": "mmke-visual/qwen2.5-vl-3b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/qwen2.5-vl-3b/config.json",
+      "sha256": "bd299c1187b79f36410f37f296c66863e22b98e84ac35de3c8577c003da995f4"
+    },
+    {
+      "relative_path": "mmke-visual/qwen2.5-vl-3b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/qwen2.5-vl-3b/summary.json",
+      "sha256": "057d37590b8c3e0db050ce996ffd7594225407636136e1e24c608d08f6cca2bd"
+    },
+    {
+      "relative_path": "mmke-visual/qwen2.5-vl-3b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/qwen2.5-vl-3b/high_contribution_region.json",
+      "sha256": "eee0e30bd9bcc20b2a0a4d9cb46979f14bcdf4da7b688639d05aaf11dbf16444"
+    },
+    {
+      "relative_path": "mmke-visual/paligemma-3b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/paligemma-3b/layer_scores.csv",
+      "sha256": "d65a10e8bd3f1f73c73db959c40f5a8372c26ea88bd32145d0cea90e92f5e94b"
+    },
+    {
+      "relative_path": "mmke-visual/paligemma-3b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/paligemma-3b/config.json",
+      "sha256": "9cb2b3da145efbab43ab707be9ccbff6a271618357f43794804a76908afcabdb"
+    },
+    {
+      "relative_path": "mmke-visual/paligemma-3b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/paligemma-3b/summary.json",
+      "sha256": "b7f129cb9f44cf5ea40264a1871922f15a4dd680d611c600d4ef8c51cf6a6649"
+    },
+    {
+      "relative_path": "mmke-visual/paligemma-3b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/paligemma-3b/high_contribution_region.json",
+      "sha256": "8f49be26a5b85eb621ac6701120db74342c0e8aab852446fc3e3c42a850f7d85"
+    },
+    {
+      "relative_path": "mmke-visual/smolvlm-1.7b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/smolvlm-1.7b/layer_scores.csv",
+      "sha256": "4febba5601f905f5efaebd81b4ef21132f5c493b113cbadeb02009a7a3a05223"
+    },
+    {
+      "relative_path": "mmke-visual/smolvlm-1.7b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/smolvlm-1.7b/config.json",
+      "sha256": "dfa87f28d7d333bfcf96950aa88d2ec4bd387b0772c879f0e2ea43343996a9f8"
+    },
+    {
+      "relative_path": "mmke-visual/smolvlm-1.7b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/smolvlm-1.7b/summary.json",
+      "sha256": "d32720694ab7e842a58e786ff6ffa3dae0184d331ea3416abbde8a3cdbf1c7f2"
+    },
+    {
+      "relative_path": "mmke-visual/smolvlm-1.7b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/smolvlm-1.7b/high_contribution_region.json",
+      "sha256": "9e56ff3b9dd027df9d9c9250a31d1fdc7c106eb0cb12cac24142b8c4957e2ddc"
+    },
+    {
+      "relative_path": "mmke-entity/blip2-opt-2.7b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/blip2-opt-2.7b/layer_scores.csv",
+      "sha256": "1276287c9e674fb15e43161a9ff49f11a40c82391d75de0ed628a94e52e851e8"
+    },
+    {
+      "relative_path": "mmke-entity/blip2-opt-2.7b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/blip2-opt-2.7b/config.json",
+      "sha256": "7b57ad0801c4dffb075a44a829e20316a2f37352ae29e27f2077bf5f52e156c8"
+    },
+    {
+      "relative_path": "mmke-entity/blip2-opt-2.7b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/blip2-opt-2.7b/summary.json",
+      "sha256": "5985589b41c1fa8361d1ba839dde929e6b28f4fc817789e64bde00e265475a4d"
+    },
+    {
+      "relative_path": "mmke-entity/blip2-opt-2.7b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/blip2-opt-2.7b/high_contribution_region.json",
+      "sha256": "ebca8d161059b96134c666b52f305a1fa249be21e9fe8464373b12cee426b1ea"
+    },
+    {
+      "relative_path": "mmke-entity/instructblip-vicuna-7b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/instructblip-vicuna-7b/layer_scores.csv",
+      "sha256": "a10db1a4d1e35feb0010204c3f3cc7aee6e2c314e850c4077c524e35d064eabe"
+    },
+    {
+      "relative_path": "mmke-entity/instructblip-vicuna-7b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/instructblip-vicuna-7b/config.json",
+      "sha256": "65e99ec5d8596ed6832915a6b313b22743732473b8f1138dbeb96e19ea04caee"
+    },
+    {
+      "relative_path": "mmke-entity/instructblip-vicuna-7b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/instructblip-vicuna-7b/summary.json",
+      "sha256": "606e5b35c969085ed3433146e5595daed2e93396ac026e787f6263ad1ea17422"
+    },
+    {
+      "relative_path": "mmke-entity/instructblip-vicuna-7b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/instructblip-vicuna-7b/high_contribution_region.json",
+      "sha256": "b7cda850ed88ac0e2cb7110d498ffd98d0460b80a6f943363f568b14563bd7ba"
+    },
+    {
+      "relative_path": "mmke-entity/minigpt-4-vicuna-7b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/minigpt-4-vicuna-7b/layer_scores.csv",
+      "sha256": "feb0853673d2f1d986f3bd46b90032c488697ba5c6799df9c2f2e40ca81123c1"
+    },
+    {
+      "relative_path": "mmke-entity/minigpt-4-vicuna-7b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/minigpt-4-vicuna-7b/config.json",
+      "sha256": "385e4d878cbfb862babb4c3ccf80c688c306029ea64dc6bd56741b15e9c9f5cd"
+    },
+    {
+      "relative_path": "mmke-entity/minigpt-4-vicuna-7b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "d37918dc90d521ae121774d3c0821593e9b850cc38a7e095651f267495c0bb35"
+    },
+    {
+      "relative_path": "mmke-entity/minigpt-4-vicuna-7b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/minigpt-4-vicuna-7b/high_contribution_region.json",
+      "sha256": "05c275135048d2848885d0cf6fb9ea116f227e31b256e2dd01af380bd6dcab25"
+    },
+    {
+      "relative_path": "mmke-entity/llava-v1.5-7b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/llava-v1.5-7b/layer_scores.csv",
+      "sha256": "e21c75bec4989563a87e729eb12fa4feb926562f21ddea675623b73ad2755b47"
+    },
+    {
+      "relative_path": "mmke-entity/llava-v1.5-7b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/llava-v1.5-7b/config.json",
+      "sha256": "0b9dc81f3f6e2998e7bbf97c8fef09c09e9ab6f08ac7f26ca7d95b25332bf03c"
+    },
+    {
+      "relative_path": "mmke-entity/llava-v1.5-7b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/llava-v1.5-7b/summary.json",
+      "sha256": "9eb620b326fa51bf1f694a3eadd90aca4b2c8803a1bd9c934dc62fb9567239fa"
+    },
+    {
+      "relative_path": "mmke-entity/llava-v1.5-7b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/llava-v1.5-7b/high_contribution_region.json",
+      "sha256": "34ee7e0a4d7ba73d2984cf3b2434983b920776da8c41133f30f5d5589b319bb6"
+    },
+    {
+      "relative_path": "mmke-entity/qwen2.5-vl-3b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/qwen2.5-vl-3b/layer_scores.csv",
+      "sha256": "103bf1c9c766edd109b37b6106db3dcc457192214ac8c4fcdfdae3084e0b7d3a"
+    },
+    {
+      "relative_path": "mmke-entity/qwen2.5-vl-3b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/qwen2.5-vl-3b/config.json",
+      "sha256": "94ce5760bf98462dcf4714d44f6d23ec4ca63d4e187e550092660eca0119a9d9"
+    },
+    {
+      "relative_path": "mmke-entity/qwen2.5-vl-3b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/qwen2.5-vl-3b/summary.json",
+      "sha256": "fc1eae565df70621ff5d73cc9d9833bd34a053da77161eb2e160fd9eec3c85f9"
+    },
+    {
+      "relative_path": "mmke-entity/qwen2.5-vl-3b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/qwen2.5-vl-3b/high_contribution_region.json",
+      "sha256": "8ac156c03dc7a9866f7d83a3b43a6bd573ad7977f5b8010fab48ef73112d47f2"
+    },
+    {
+      "relative_path": "mmke-entity/paligemma-3b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/paligemma-3b/layer_scores.csv",
+      "sha256": "3a06552942f5ed08e0fa125b1a61a2798076b73d289d09291276a0d3fc1071bb"
+    },
+    {
+      "relative_path": "mmke-entity/paligemma-3b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/paligemma-3b/config.json",
+      "sha256": "5f150395b56058cd82dd4e34272867fd1fa0bc55474213b8cab2676013f216ef"
+    },
+    {
+      "relative_path": "mmke-entity/paligemma-3b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/paligemma-3b/summary.json",
+      "sha256": "6c5a0a1ed26c91a79bbec845e3addb2dd21377d3795696024af3034a1c09d183"
+    },
+    {
+      "relative_path": "mmke-entity/paligemma-3b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/paligemma-3b/high_contribution_region.json",
+      "sha256": "f033ba79b1142e6a04f930533730cb04796bea6d35be3e40d31fb457ed152ace"
+    },
+    {
+      "relative_path": "mmke-entity/smolvlm-1.7b/layer_scores.csv",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/smolvlm-1.7b/layer_scores.csv",
+      "sha256": "2228c9e7fc29762ec7b311ec6fe2cf263a3412da9165dffcb58a5fe1c9fd5cdf"
+    },
+    {
+      "relative_path": "mmke-entity/smolvlm-1.7b/config.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/smolvlm-1.7b/config.json",
+      "sha256": "23ad6a97bc13d4f705884b50ed83a6d741480f052e2773732d225cc5062415a3"
+    },
+    {
+      "relative_path": "mmke-entity/smolvlm-1.7b/summary.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/smolvlm-1.7b/summary.json",
+      "sha256": "f22aeb4e0bf3f7adbd63340154823824e2a48f668be2c382ab95ea6818aeb58e"
+    },
+    {
+      "relative_path": "mmke-entity/smolvlm-1.7b/high_contribution_region.json",
+      "remote_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/smolvlm-1.7b/high_contribution_region.json",
+      "sha256": "e08ff6c29ba3d68cac9b4ff48b94a382c77a272307707b7349c79857e621fac9"
+    }
+  ]
+}

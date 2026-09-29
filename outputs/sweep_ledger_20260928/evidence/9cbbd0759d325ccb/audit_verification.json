@@ -1,0 +1,117 @@
+{
+  "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15",
+  "host": "login01",
+  "errors": [],
+  "warnings": [],
+  "artifacts": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/eval_full.done": {
+      "size": 889,
+      "sha256": "91a8f4ba532fd7efafa5109e88f4ed5adcb7da474c5c472334a00b85cba87661"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/selected_checkpoint.tsv": {
+      "size": 394,
+      "sha256": "63b600fecde40c990bfad373393b3bef4a2220d51422a37f84361d9f9f8d84d2"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/eval_full/vead/qwen2.5-vl-3b-instruct/EVQA_full_test_pilot500_blip2_visedit_L15/single_edit/results.json": {
+      "size": 4896222,
+      "sha256": "4db848bece4ad0d2f3a5ea10b30d4bc89ec5d3ad633e7e8f27c84582283d79f1"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/eval_full/vead/qwen2.5-vl-3b-instruct/EVQA_full_test_pilot500_blip2_visedit_L15/single_edit/mean_results.json": {
+      "size": 401,
+      "sha256": "8aa35d8167e06a13ede933283b286f9d7fd43ecf264e3d8a8f17d9780474c2ec"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/train.done": {
+      "size": 441,
+      "sha256": "ec1808a66ae455c2ad3f6c7ed96fab2d62ef14c78bfbfcb1c1bcf87e11d17d87"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/loss_history.csv": {
+      "size": 14734,
+      "sha256": "d83c1ad0294be929ae12f1fc4f99c77c3b525730c3e8b00ac16d8710e70144b9"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/config.yaml": {
+      "size": 445,
+      "sha256": "5010740ccdb5a48e372cb1154c700e15e4f1e0435575d3c8ba533bd94576e9c0"
+    }
+  },
+  "evaluation": {
+    "layer": 15,
+    "status": "EVAL_DONE",
+    "eval_samples": 2093,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-49-i-12250-ema_loss-0.4056",
+    "ckpt_epoch": "49",
+    "ckpt_i": "12250",
+    "ckpt_loss": "0.4599936604499817",
+    "ckpt_ema_loss": "0.4055993850727198",
+    "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/eval_full/vead/qwen2.5-vl-3b-instruct/EVQA_full_test_pilot500_blip2_visedit_L15/single_edit",
+    "Rel": 52.839999999999996,
+    "T-Gen": 42.3,
+    "M-Gen": 35.61,
+    "T-Loc": 100.0,
+    "M-Loc": 81.23,
+    "Average": 62.396
+  },
+  "selected": {
+    "layer": "15",
+    "status": "TRAIN_DONE",
+    "epoch": "49",
+    "i": "12250",
+    "loss": "0.4599936604499817",
+    "ema_loss": "0.4055993850727198",
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-49-i-12250-ema_loss-0.4056"
+  },
+  "checkpoint": {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-49-i-12250-ema_loss-0.4056",
+    "exists": true,
+    "size": 214299174
+  },
+  "results_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423/evqa-pilot500/qwen2.5-vl-3b/layer_15/eval_full/vead/qwen2.5-vl-3b-instruct/EVQA_full_test_pilot500_blip2_visedit_L15/single_edit/results.json",
+  "results_count": 2093,
+  "recomputed_metrics": {
+    "Rel": 52.84,
+    "T-Gen": 42.3,
+    "M-Gen": 35.61,
+    "T-Loc": 100.0,
+    "M-Loc": 81.23
+  },
+  "mean_results": {
+    "reliability": {
+      "edit_time": 0.0916,
+      "acc": 0.5284
+    },
+    "generality": {
+      "text_rephrase": {
+        "acc": 0.423
+      },
+      "image_rephrase": {
+        "acc": 0.3561
+      }
+    },
+    "locality": {
+      "text_loc": {
+        "acc": 1.0
+      },
+      "image_loc": {
+        "acc": 0.8123
+      }
+    },
+    "sample_count": 2093
+  },
+  "mean_results_text": "{\n    \"reliability\": {\n        \"edit_time\": 0.0916,\n        \"acc\": 0.5284\n    },\n    \"generality\": {\n        \"text_rephrase\": {\n            \"acc\": 0.423\n        },\n        \"image_rephrase\": {\n            \"acc\": 0.3561\n        }\n    },\n    \"locality\": {\n        \"text_loc\": {\n            \"acc\": 1.0\n        },\n        \"image_loc\": {\n            \"acc\": 0.8123\n        }\n    },\n    \"sample_count\": 2093\n}",
+  "train_done": true,
+  "history_rows": 50,
+  "max_epoch": 50,
+  "all_50_epochs_present": true,
+  "minimum_ema_row": {
+    "time": "2026-09-14 01:33:38",
+    "layer": "15",
+    "epoch": "49",
+    "i": "12250",
+    "loss": "0.4599936604499817",
+    "ema_loss": "0.4055993850727198",
+    "ckpt_path": "/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/evqa-pilot500/qwen2.5-vl-3b/layer_15/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-49-i-12250-ema_loss-0.4056",
+    "kept": "1"
+  },
+  "minimum_ema_matches": true,
+  "model_config_text": "IT:\n  add_it: true\n  layers:\n  - 30\n  - 31\n  - 32\n  - 33\n  - 34\n  - 35\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 15\nedit_model_name: qwen2.5-vl-3b-instruct\nllm_att_tmp: model.layers.{}.self_attn\nllm_hidden_size: 2048\nllm_layer_tmp: model.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 0.0001\n  rel_lambda: 1\n",
+  "evaluation_verified": true
+}

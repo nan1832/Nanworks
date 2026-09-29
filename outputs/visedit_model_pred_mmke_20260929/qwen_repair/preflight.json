@@ -1,0 +1,231 @@
+{
+  "time": "2026-09-29T11:12:41.449149+08:00",
+  "queue": {
+    "state": "NEEDS_REPAIR",
+    "time": "2026-09-29T10:32:03+0800",
+    "completed_groups": 12,
+    "outcomes": [
+      {
+        "model": "blip2-opt-2.7b",
+        "returncode": 0,
+        "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/control/blip2-opt-2.7b_095530.log",
+        "time": "2026-09-29T10:03:01+0800"
+      },
+      {
+        "model": "instructblip-vicuna-7b",
+        "returncode": 0,
+        "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/control/instructblip-vicuna-7b_100301.log",
+        "time": "2026-09-29T10:08:01+0800"
+      },
+      {
+        "model": "minigpt-4-vicuna-7b",
+        "returncode": 0,
+        "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/control/minigpt-4-vicuna-7b_100801.log",
+        "time": "2026-09-29T10:14:31+0800"
+      },
+      {
+        "model": "llava-v1.5-7b",
+        "returncode": 0,
+        "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/control/llava-v1.5-7b_101431.log",
+        "time": "2026-09-29T10:18:54+0800"
+      },
+      {
+        "model": "qwen2.5-vl-3b",
+        "returncode": 1,
+        "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/control/qwen2.5-vl-3b_101855.log",
+        "time": "2026-09-29T10:22:20+0800"
+      },
+      {
+        "model": "paligemma-3b",
+        "returncode": 0,
+        "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/control/paligemma-3b_102220.log",
+        "time": "2026-09-29T10:25:40+0800"
+      },
+      {
+        "model": "smolvlm-1.7b",
+        "returncode": 0,
+        "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/control/smolvlm-1.7b_102540.log",
+        "time": "2026-09-29T10:32:03+0800"
+      }
+    ]
+  },
+  "qwen_protocols": {
+    "mmke-visual": {
+      "dataset": "mmke-visual",
+      "model": "qwen2.5-vl-3b",
+      "key_mode": "model_pred",
+      "sample_count": 214,
+      "dataset_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+      "dataset_sha256": "b8e8e53aaeb231df09cfcd5dd75fd2bd882d7d31dbd82e02625b10cd0be6edce",
+      "cfg_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/configs/p_track/qwen2.5-vl-3b.yaml",
+      "cfg_sha256": "8653b7d35bac5bd564c0ac16fa037f81b8ee0f67de999f277898deb0e0dda70b",
+      "source_sha256": {
+        "scripts__run_visedit_keytoken_candidate_layers.py": "08da1fe15da9ad669e4c6c8c3f0b743fbaaa5e38b00d6b165526a7d2f21094c6",
+        "scripts__run_evqa_module_contribution_pilot500_multi.py": "3ce6aca58f4815ec9b6c96a7d3059ad437c245493347de6973a60575b9a89c30",
+        "p_track__p_track.py": "cc130cc57fa1f89a31b46c4522d2864ac61b9674448fd8381ff55e7f37aeca78",
+        "scripts__run_evqa_blip2_module_contribution_proxy500.py": "a2259723ec563efa77ac885050d0345b46232e4a6004c1ef1a6dedb0363bcc5f"
+      },
+      "runner_sha256": "74d81216f7d57db521412d173c7cd6607065ecd9b9d0c6d5393791afe4b4e7e3",
+      "torch_version": "2.4.1+cu118",
+      "transformers_version": "4.51.3",
+      "target_rule": "next-token argmax at final prompt position, no answer teacher forcing",
+      "prompt_rule": "row['src'] + ' The answer is:'",
+      "loader": "qwen25vl",
+      "torch_dtype": "original auto",
+      "contribution_rule": "sign(v/M)*sqrt(abs(v/M)+1e-12)*sqrt(max(p,0)); M=max_abs_attn_mlp_per_sample",
+      "aggregate_rule": "mean signed contribution first; clip each module mean to nonnegative; sum for attn+mlp",
+      "pre_rule": "window=3; mean+0.5 population std; longest high region; precede by up to 3 layers",
+      "tie_rule": "numpy argsort(-scores), matching original contribution rank_positive",
+      "num_layers": 36
+    },
+    "mmke-entity": {
+      "dataset": "mmke-entity",
+      "model": "qwen2.5-vl-3b",
+      "key_mode": "model_pred",
+      "sample_count": 636,
+      "dataset_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+      "dataset_sha256": "1c1ed7d25bbcfcf52ba315217970d33b09f36265e5742ef98567a04946b60edc",
+      "cfg_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/configs/p_track/qwen2.5-vl-3b.yaml",
+      "cfg_sha256": "8653b7d35bac5bd564c0ac16fa037f81b8ee0f67de999f277898deb0e0dda70b",
+      "source_sha256": {
+        "scripts__run_visedit_keytoken_candidate_layers.py": "08da1fe15da9ad669e4c6c8c3f0b743fbaaa5e38b00d6b165526a7d2f21094c6",
+        "scripts__run_evqa_module_contribution_pilot500_multi.py": "3ce6aca58f4815ec9b6c96a7d3059ad437c245493347de6973a60575b9a89c30",
+        "p_track__p_track.py": "cc130cc57fa1f89a31b46c4522d2864ac61b9674448fd8381ff55e7f37aeca78",
+        "scripts__run_evqa_blip2_module_contribution_proxy500.py": "a2259723ec563efa77ac885050d0345b46232e4a6004c1ef1a6dedb0363bcc5f"
+      },
+      "runner_sha256": "74d81216f7d57db521412d173c7cd6607065ecd9b9d0c6d5393791afe4b4e7e3",
+      "torch_version": "2.4.1+cu118",
+      "transformers_version": "4.51.3",
+      "target_rule": "next-token argmax at final prompt position, no answer teacher forcing",
+      "prompt_rule": "row['src'] + ' The answer is:'",
+      "loader": "qwen25vl",
+      "torch_dtype": "original auto",
+      "contribution_rule": "sign(v/M)*sqrt(abs(v/M)+1e-12)*sqrt(max(p,0)); M=max_abs_attn_mlp_per_sample",
+      "aggregate_rule": "mean signed contribution first; clip each module mean to nonnegative; sum for attn+mlp",
+      "pre_rule": "window=3; mean+0.5 population std; longest high region; precede by up to 3 layers",
+      "tie_rule": "numpy argsort(-scores), matching original contribution rank_positive",
+      "num_layers": 36
+    }
+  },
+  "workers": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_visual10_20260929/control/status.json": {
+      "state": "RUNNING_OURS_VISUAL10",
+      "time": "2026-09-29T11:11:19+0800",
+      "job": "3435286",
+      "node": "g08",
+      "pid": 3549330,
+      "model": "paligemma-3b",
+      "dataset": "mmke-visual",
+      "child_pid": 3557519,
+      "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_visual10_20260929/control/paligemma-3b_mmke-visual_111119.log",
+      "outcomes": [
+        {
+          "model": "smolvlm-1.7b",
+          "dataset": "evqa-pilot500",
+          "returncode": 0,
+          "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_visual10_20260929/control/smolvlm-1.7b_evqa-pilot500_103819.log"
+        },
+        {
+          "model": "smolvlm-1.7b",
+          "dataset": "mmke-visual",
+          "returncode": 0,
+          "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_visual10_20260929/control/smolvlm-1.7b_mmke-visual_104337.log"
+        },
+        {
+          "model": "smolvlm-1.7b",
+          "dataset": "mmke-entity",
+          "returncode": 0,
+          "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_visual10_20260929/control/smolvlm-1.7b_mmke-entity_104612.log"
+        },
+        {
+          "model": "paligemma-3b",
+          "dataset": "evqa-pilot500",
+          "returncode": 0,
+          "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_visual10_20260929/control/paligemma-3b_evqa-pilot500_105142.log"
+        }
+      ]
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/control/g09_status.json": {
+      "state": "WAITING_PREVIOUS_EXPERIMENTS",
+      "node": "g09",
+      "time": "2026-09-29T11:12:26+0800",
+      "job": "3443209",
+      "pid": 2328322,
+      "completion_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/control/g09/DONE.json",
+      "space": "parameter"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/control/g08_status.json": {
+      "state": "STOPPED_BY_USER",
+      "node": "g08",
+      "job": "3435286",
+      "time": "2026-09-29T08:24:25+08:00",
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "stopped_controller_pid": 3047130,
+      "stopped_child_pid": 3500529,
+      "retained_sample_files": 40,
+      "stop_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/control/STOP_g08",
+      "receipt": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/control/stop_user_g08_20260929_082424.json",
+      "previous_log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/results/visual/mmke-entity/llava-v1.5-7b/run_20260929_082014.log"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/status.json": {
+      "time": "2026-09-29T08:44:35+0800",
+      "state": "RESUMING_MINIGPT_L8",
+      "node": "g09",
+      "job": "3443209",
+      "pid": 2500705,
+      "child_pid": 2512011,
+      "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/resume_minigpt_L8.log",
+      "command": [
+        "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+        "-u",
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_mmke_minigpt_llava_lowmem_sweep.py",
+        "--out-root",
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-entity/minigpt-4-vicuna-7b",
+        "--layers",
+        "8",
+        "--epochs",
+        "50",
+        "--batch-size",
+        "2",
+        "--model-name",
+        "minigpt-4-vicuna-7b",
+        "--device",
+        "cuda:0",
+        "--train-data",
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_train_evqa_compat.json",
+        "--eval-data",
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_eval_evqa_compat.json",
+        "--train-img-root",
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+        "--eval-img-root",
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+        "--config-path",
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/provenance/code/configs/vead/minigpt-4-vicuna-7b.yaml",
+        "--seed",
+        "20260601",
+        "--ema-alpha",
+        "0.1",
+        "--data-buffer-size",
+        "1",
+        "--keep-top-ckpts",
+        "1",
+        "--keep-last-ckpts",
+        "0",
+        "--skip-eval",
+        "--synchronous-data-loading",
+        "--activation-checkpointing",
+        "--resume-checkpoint",
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171",
+        "--resume-layer",
+        "8"
+      ],
+      "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171",
+      "resume_epoch": 15,
+      "resume_i": 4453
+    }
+  },
+  "g08": "{\"gpu\": \"GPU-b17f9d7c-3b14-ca32-233a-40ad82b6ef47, 81920 MiB, 13475 MiB, 67701 MiB, 65 %\\n\", \"gpu_pids\": \"3061841, 5814 MiB\\n3557519, 7644 MiB\\n\", \"jobs\": \"3435286|RUNNING|g08|25-02:44:46\\n3443209|RUNNING|g09|27-07:31:07\\n\", \"processes\": [{\"pid\": \"3549330\", \"cmd\": \"/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python -u /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_visual10_20260929/code/ours_visual10_20260929.py queue \"}, {\"pid\": \"3557519\", \"cmd\": \"/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python -u /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_visual10_20260929/code/ours_visual10_20260929.py run --dataset mmke-visual --model paligemma-3b \"}]}\n",
+  "g08_stderr": ""
+}

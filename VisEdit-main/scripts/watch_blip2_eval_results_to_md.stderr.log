@@ -1,0 +1,4 @@
+  File "<stdin>", line 106
+    print("鏍锋湰鏁帮細	rain_request=30锛宍val_request=70锛宍val_full=70銆傝繖閲岀殑 acc 鏉ヨ嚜鍚?split 鐨?single_edit/mean_results.json 涓?
+                                                                                                                      ^
+SyntaxError: EOL while scanning string literal

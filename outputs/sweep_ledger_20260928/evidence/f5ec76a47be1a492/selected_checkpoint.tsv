@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+2	TRAIN_DONE	46	4922	0.36743274331092834	0.4114225463580293	/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mabscos_top3_completion_job3126082_20260801/mmke-visual/smolvlm-1.7b/layer_02/records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-46-i-4922-ema_loss-0.4114

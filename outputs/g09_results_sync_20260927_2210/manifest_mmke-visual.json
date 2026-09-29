@@ -1,0 +1,241 @@
+{
+  "root": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual",
+  "dataset": "mmke-visual",
+  "expected_eval_samples": 293,
+  "complete_count": 1,
+  "incomplete_count": 0,
+  "layers": [
+    {
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "layer": 20,
+      "layer_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20",
+      "complete": true,
+      "errors": [],
+      "selected": {
+        "layer": "20",
+        "status": "TRAIN_DONE",
+        "epoch": "50",
+        "i": "5350",
+        "loss": "5.900425910949707",
+        "ema_loss": "6.889281721605075",
+        "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/checkpoints/epoch-50-i-5350-ema_loss-6.8893"
+      },
+      "selected_checkpoint": {
+        "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/checkpoints/epoch-50-i-5350-ema_loss-6.8893",
+        "relative_path": "selected_checkpoint/epoch-50-i-5350-ema_loss-6.8893",
+        "size": 415895994,
+        "sha256": "62604d7088262d6717611e98a94cd249fb18ff0035c41a42ade1331a8c3b502e"
+      },
+      "evaluation": {
+        "status": "EVAL_DONE",
+        "eval_samples": 293,
+        "Rel": 18.52,
+        "T-Gen": 17.29,
+        "M-Gen": 18.68,
+        "T-Loc": 100,
+        "M-Loc": 99.9,
+        "Average": 50.878
+      },
+      "artifacts": [
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/train.done",
+          "relative_path": "train.done",
+          "size": 432,
+          "sha256": "4ef823f2e7b8ede5c22e7e68ffd09e0ebae02206d5bde18d7c0c076b9ffba61c",
+          "source_relative_path": "train.done"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/selected_checkpoint.tsv",
+          "relative_path": "selected_checkpoint.tsv",
+          "size": 384,
+          "sha256": "dcf95642ba5ce105e9be25059e3a4dd592f86808e7db4a909cc61133f4790e11",
+          "source_relative_path": "selected_checkpoint.tsv"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/eval_full.done",
+          "relative_path": "eval_full.done",
+          "size": 861,
+          "sha256": "9b065d4313c3b6de0c93001435ed6912a9933b842c49175064192b68403120a2",
+          "source_relative_path": "eval_full.done"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L20/single_edit/results.json",
+          "relative_path": "results.json",
+          "size": 1096162,
+          "sha256": "9ece13f4f881462d07623dd1ca19c76f6294eb585dcdfbeca1e1c74ece10f058",
+          "source_relative_path": "eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L20/single_edit/results.json"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/loss_history.csv",
+          "relative_path": "loss_history.csv",
+          "size": 17519,
+          "sha256": "36e1627443745859995a442e89a67cb6ccdf982bc3bf7bfad36e2ff716d6cae6",
+          "source_relative_path": "loss_history.csv"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/verification.json",
+          "relative_path": "verification.json",
+          "size": 3556,
+          "sha256": "ed5590cb758fe3b3b5b55a27e73ccb22ad982c2119595d984455fec574453f90",
+          "source_relative_path": "verification.json"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/ARCHIVE_MANIFEST.json",
+          "relative_path": "ARCHIVE_MANIFEST.json",
+          "size": 2264,
+          "sha256": "d8990e750c4e17ed49be61f41915c3cbd3986cb17bda3c25e5b0db77449affd1",
+          "source_relative_path": "ARCHIVE_MANIFEST.json"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/SYNC_VERIFIED",
+          "relative_path": "SYNC_VERIFIED",
+          "size": 23,
+          "sha256": "39f61d89f677f104080c0a95479cfd9fdf18fde1d6ca8de6c8ef2a4ec28a2859",
+          "source_relative_path": "SYNC_VERIFIED"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L20/single_edit/mean_results.json",
+          "relative_path": "mean_results.json",
+          "size": 400,
+          "sha256": "bdee4942b21ecf9394b855e5142c374332c4ebf26c0d4c88b8a8dd2f0051f3ae",
+          "source_relative_path": "eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L20/single_edit/mean_results.json"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/config.yaml",
+          "relative_path": "config.yaml",
+          "size": 454,
+          "sha256": "c7a857199502650807a541242e14d09ed2932565e496f26d40ad152215728935",
+          "source_relative_path": "records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/config.yaml"
+        }
+      ],
+      "history_check": {
+        "epoch_count": 50,
+        "epochs_1_to_50": true,
+        "all_finite": true,
+        "best_epoch": 50,
+        "best_ema": 6.889281721605075,
+        "selection_matches": true
+      },
+      "archive_verification": {
+        "root": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20",
+        "dataset": "mmke-visual",
+        "expected_eval_samples": 293,
+        "complete_count": 1,
+        "incomplete_count": 0,
+        "layers": [
+          {
+            "dataset": "mmke-visual",
+            "model": "instructblip-vicuna-7b",
+            "layer": 20,
+            "layer_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20",
+            "complete": true,
+            "errors": [],
+            "selected": {
+              "layer": "20",
+              "status": "TRAIN_DONE",
+              "epoch": "50",
+              "i": "5350",
+              "loss": "5.900425910949707",
+              "ema_loss": "6.889281721605075",
+              "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/checkpoints/epoch-50-i-5350-ema_loss-6.8893"
+            },
+            "selected_checkpoint": {
+              "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/checkpoints/epoch-50-i-5350-ema_loss-6.8893",
+              "relative_path": "selected_checkpoint/epoch-50-i-5350-ema_loss-6.8893",
+              "size": 415895994,
+              "sha256": null
+            },
+            "evaluation": {
+              "status": "EVAL_DONE",
+              "eval_samples": 293,
+              "Rel": 18.52,
+              "T-Gen": 17.29,
+              "M-Gen": 18.68,
+              "T-Loc": 100,
+              "M-Loc": 99.9,
+              "Average": 50.878
+            },
+            "artifacts": [
+              {
+                "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/train.done",
+                "relative_path": "train.done",
+                "size": 432,
+                "sha256": "4ef823f2e7b8ede5c22e7e68ffd09e0ebae02206d5bde18d7c0c076b9ffba61c"
+              },
+              {
+                "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/selected_checkpoint.tsv",
+                "relative_path": "selected_checkpoint.tsv",
+                "size": 384,
+                "sha256": "dcf95642ba5ce105e9be25059e3a4dd592f86808e7db4a909cc61133f4790e11"
+              },
+              {
+                "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/eval_full.done",
+                "relative_path": "eval_full.done",
+                "size": 861,
+                "sha256": "9b065d4313c3b6de0c93001435ed6912a9933b842c49175064192b68403120a2"
+              },
+              {
+                "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L20/single_edit/results.json",
+                "relative_path": "eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L20/single_edit/results.json",
+                "size": 1096162,
+                "sha256": "9ece13f4f881462d07623dd1ca19c76f6294eb585dcdfbeca1e1c74ece10f058"
+              }
+            ]
+          }
+        ]
+      },
+      "archive_manifest": [
+        {
+          "file": "records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/checkpoints/epoch-50-i-5350-ema_loss-6.8893",
+          "source_sha256": "62604d7088262d6717611e98a94cd249fb18ff0035c41a42ade1331a8c3b502e",
+          "bytes": 415895994,
+          "archive_sha256": "62604d7088262d6717611e98a94cd249fb18ff0035c41a42ade1331a8c3b502e"
+        },
+        {
+          "file": "train.done",
+          "source_sha256": "51d3947e8633a3c1a8150eba5a4c170d3e1ebac3b368a284730adb2e93423606",
+          "bytes": 428,
+          "archive_sha256": "4ef823f2e7b8ede5c22e7e68ffd09e0ebae02206d5bde18d7c0c076b9ffba61c"
+        },
+        {
+          "file": "selected_checkpoint.tsv",
+          "source_sha256": "432fe942ff7bca6f4d1f5226b5d778901813f166599362872229303a53d47079",
+          "bytes": 382,
+          "archive_sha256": "dcf95642ba5ce105e9be25059e3a4dd592f86808e7db4a909cc61133f4790e11"
+        },
+        {
+          "file": "eval_full.done",
+          "source_sha256": "e6df51a1f452bc45fefab2e372cc9b218300f73d47ec8c1d9fbec3ba77ad9d69",
+          "bytes": 853,
+          "archive_sha256": "9b065d4313c3b6de0c93001435ed6912a9933b842c49175064192b68403120a2"
+        },
+        {
+          "file": "loss_history.csv",
+          "source_sha256": "baea05088d2491610ee6c4174a7aceb8bb8df194c2ce6c3e893c9a64290c4ead",
+          "bytes": 17370,
+          "archive_sha256": "36e1627443745859995a442e89a67cb6ccdf982bc3bf7bfad36e2ff716d6cae6"
+        },
+        {
+          "file": "eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L20/single_edit/mean_results.json",
+          "source_sha256": "bdee4942b21ecf9394b855e5142c374332c4ebf26c0d4c88b8a8dd2f0051f3ae",
+          "bytes": 400,
+          "archive_sha256": "bdee4942b21ecf9394b855e5142c374332c4ebf26c0d4c88b8a8dd2f0051f3ae"
+        },
+        {
+          "file": "eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L20/single_edit/results.json",
+          "source_sha256": "9ece13f4f881462d07623dd1ca19c76f6294eb585dcdfbeca1e1c74ece10f058",
+          "bytes": 1096162,
+          "archive_sha256": "9ece13f4f881462d07623dd1ca19c76f6294eb585dcdfbeca1e1c74ece10f058"
+        },
+        {
+          "file": "records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/config.yaml",
+          "source_sha256": "c7a857199502650807a541242e14d09ed2932565e496f26d40ad152215728935",
+          "bytes": 454,
+          "archive_sha256": "c7a857199502650807a541242e14d09ed2932565e496f26d40ad152215728935"
+        }
+      ],
+      "verified_at": "2026-09-27T22:08:48.603371"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "syntax": "PASS",
+  "resume_only_adds_checkpoint_arguments": true,
+  "checkpoint_step_matches_epoch_boundary": true,
+  "target_job": "3443209",
+  "next_epoch": 15,
+  "next_i": 4453,
+  "target_epochs": 50,
+  "g08_action": "read_only_verification"
+}

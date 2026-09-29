@@ -1,0 +1,9 @@
+﻿profile,objective,heldout_unit,n,best,norm_best,delta_norm,wins,ties,losses,choices
+clean,best,model,16,72.145375,72.74775,-0.602374999999999,3,12,1,"{""rrf_w1_t0"": 5, ""rank_max_w1.25"": 1}"
+clean,best,dataset,16,72.48162500000001,72.74775,-0.2661249999999993,3,12,1,"{""M_abscos_x_newn"": 1, ""rrf_w1_t0"": 2}"
+clean,wins,model,16,72.145375,72.74775,-0.602374999999999,3,12,1,"{""rrf_w1_t0"": 5, ""rank_max_w1.25"": 1}"
+clean,wins,dataset,16,72.48162500000001,72.74775,-0.2661249999999993,3,12,1,"{""M_abscos_x_newn"": 1, ""rrf_w1_t0"": 2}"
+recorded,best,model,17,73.72658823529412,74.29352941176471,-0.5669411764705873,3,13,1,"{""rrf_w1_t0"": 5, ""rank_max_w1.25"": 1}"
+recorded,best,dataset,17,74.0430588235294,74.29352941176471,-0.25047058823529345,3,13,1,"{""M_abscos_x_newn"": 1, ""rrf_w1_t0"": 2}"
+recorded,wins,model,17,73.72658823529412,74.29352941176471,-0.5669411764705873,3,13,1,"{""rrf_w1_t0"": 5, ""rank_max_w1.25"": 1}"
+recorded,wins,dataset,17,74.0430588235294,74.29352941176471,-0.25047058823529345,3,13,1,"{""M_abscos_x_newn"": 1, ""rrf_w1_t0"": 2}"

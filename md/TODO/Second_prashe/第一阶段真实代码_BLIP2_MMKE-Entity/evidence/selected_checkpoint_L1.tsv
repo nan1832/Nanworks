@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+1	TRAIN_DONE	11	3498	5.893988132476807	5.9904003300769855	/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-3498-ema_loss-5.9904

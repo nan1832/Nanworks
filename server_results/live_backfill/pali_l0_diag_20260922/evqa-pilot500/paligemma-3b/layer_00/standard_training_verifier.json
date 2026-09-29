@@ -1,0 +1,64 @@
+{
+  "root": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921",
+  "dataset": "evqa-pilot500",
+  "expected_eval_samples": 2093,
+  "complete_count": 0,
+  "incomplete_count": 1,
+  "layers": [
+    {
+      "dataset": "evqa-pilot500",
+      "model": "unknown",
+      "layer": 0,
+      "layer_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00",
+      "complete": false,
+      "errors": [
+        "missing_train.done"
+      ],
+      "selected": {
+        "layer": "0",
+        "status": "TRAIN_INCOMPLETE_FINITE_RECOVERED",
+        "epoch": "2",
+        "i": "500",
+        "loss": "3187.056884765625",
+        "ema_loss": "3209.824509720526",
+        "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/records/vead/paligemma-3b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-2-i-500-ema_loss-3209.8245"
+      },
+      "selected_checkpoint": {
+        "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/records/vead/paligemma-3b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-2-i-500-ema_loss-3209.8245",
+        "relative_path": "selected_checkpoint/epoch-2-i-500-ema_loss-3209.8245",
+        "size": 214299066,
+        "sha256": "9405c64d2e1d5b96f5ab96b0109a25b8dcde2697f46faec319b37727efbef260"
+      },
+      "evaluation": {
+        "status": "EVAL_DONE",
+        "eval_samples": 2093,
+        "Rel": 0.16,
+        "T-Gen": 0.18,
+        "M-Gen": 0.16,
+        "T-Loc": 100.0,
+        "M-Loc": 76.96,
+        "Average": 35.492
+      },
+      "artifacts": [
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/selected_checkpoint.tsv",
+          "relative_path": "selected_checkpoint.tsv",
+          "size": 360,
+          "sha256": "b60e90800b1263a3e9dd241eed04e8ecb4c4bad110c5cf1cdbdfef31534d29d9"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/eval_full.done",
+          "relative_path": "eval_full.done",
+          "size": 764,
+          "sha256": "685b6c4b5ccb1f4751421ae9122f213c149bbae07ca903668d39fd1f715bc794"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit/results.json",
+          "relative_path": "eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit/results.json",
+          "size": 4881545,
+          "sha256": "05f60b78e9a874d20e8b2f84a278864aec8852325bf3a0c4645419f63a20e970"
+        }
+      ]
+    }
+  ]
+}

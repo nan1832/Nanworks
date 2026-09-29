@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-28T18:08:13.206778+08:00",
+  "job_id": "3463118",
+  "status": "pending_upgraded_to_three_variants",
+  "old_source_sha256": "abbeb49979bc041d53bd1e4adefbb04c4d99572699256705850e464e83822e4a",
+  "entry_sha256": "2e3d4f77d3d01392ee16b4dcd32f3bfdc14f247b471b2acc4c7e81c822498999",
+  "pins": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/code/run_visual_track_targets_20260928.py": "075f790afcd4212f54c71bbb3895b4db2d67957d4f7b748dfb2d5b327acf48e0",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/code/test_visual_track_targets_20260928.py": "9d2303bc1628fe8ca37900b07b5872cd04bb7f7fc817348113a776ebdd52436f"
+  },
+  "results": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results",
+  "time_limit": "12:00:00",
+  "existing_training_jobs_modified": false,
+  "queue": "3463118|PENDING|(None)|0:00|12:00:00\n"
+}

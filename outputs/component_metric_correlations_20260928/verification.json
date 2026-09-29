@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "independently_verified_correlation_rows": 10608,
+  "main_records": 396,
+  "main_tloc_unique": [
+    100.0
+  ],
+  "summary_rows": 8976,
+  "strong_case_rows": 1117,
+  "registered_variants": 34,
+  "variants_with_computable_main_correlations": 20,
+  "source_sweep_at": "2026-09-28T11:10:16+08:00",
+  "source_recommendations_at": "2026-09-28T14:35:59+08:00",
+  "source_hashes": {
+    "layer_score_correlations.csv": "9779133235106937bf7f2b2796b0d38754e440cc1a4fa01b936a97cbb7c2cfef",
+    "method_catalog_and_coverage.csv": "4c52bf9dbdcbdd8b5987b4a0c1dde8c00ae2e1babfad8742518ce6a964cb8b2a",
+    "recommendation_registry.json": "e3d7f8ca0b1c603c86ba257a2e437b14dfd2428918d7d6bdf2e695176ca942e8",
+    "inputs/ledger.json": "1fca9b575451ac101dccab12ff44c3cb59dba93d94dedeb429d7f297e340c71a",
+    "inputs/all_layer_scores.csv": "11199bb2a7f4b2d182fa9a24f748274008b18509ccc4215145ae6ec5e0567c8e",
+    "inputs/visedit_full_rankings.json": "4355cc75db6efbbf141d34eb3a2cf64a25d444d2bdf1401a839f51d2684a1c4e",
+    "protocol.json": "a731a22debdf21dadec8e3b3808f0a287737ef6a94e92f40d1ec3c547c559dd7"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "recommendations_recomputed": 252,
+  "performance_rows_recomputed": 252,
+  "existing_recommendation_sections_preserved": true,
+  "existing_real_editing_rows_preserved": true,
+  "rebuild_retains_visual_track_index": true
+}

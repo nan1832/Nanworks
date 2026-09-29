@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "dataset": "mmke-entity",
+  "model": "minigpt-4-vicuna-7b",
+  "processed": 636,
+  "total": 636,
+  "failures": 0,
+  "elapsed_seconds": 841.0554230213165,
+  "job_id": "3443209"
+}

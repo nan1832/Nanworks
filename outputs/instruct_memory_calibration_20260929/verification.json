@@ -1,0 +1,15 @@
+{
+  "time": "2026-09-29T20:08:43.148132+08:00",
+  "all_plan_pins_passed": true,
+  "pending_entrypoint_verified": true,
+  "current_training_pid": 2512011,
+  "current_controller_pid": 2500705,
+  "latest_training_progress": "Epoch 39:   0%|          | 2/636 [00:04<21:52,  2.07s/it]",
+  "calibration_not_started_yet": true,
+  "torch_api": {
+    "torch": "2.2.0",
+    "memory_cap_api": true,
+    "peak_reserved_api": true
+  },
+  "test_count": 7
+}

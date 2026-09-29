@@ -1,0 +1,8 @@
+﻿version,method,complete_combos,mean_best,mean_mean,mean_regret,hit_rate,rank_best,rank_mean,rank_regret,rank_hit
+formal7-cma-modelpred-v2-20260914-l0-excluded-sensitivity,Middle-Prior-Direct,9,71.788,68.92503703703704,5.435555555555556,0.0,3,3,3,6
+formal7-cma-modelpred-v2-20260914-l0-excluded-sensitivity,VisEdit-Contrib-Pre-KeyToken,9,70.69955555555555,66.08296296296297,6.524,0.1111111111111111,4,5,4,4
+formal7-cma-modelpred-v2-20260914-l0-excluded-sensitivity,SaLEM-Alt-Direct,9,66.74422222222222,64.13962962962962,10.479333333333335,0.3333333333333333,7,6,7,2
+formal7-cma-modelpred-v2-20260914-l0-excluded-sensitivity,LGA-Param-Direct-AltModelPred,9,69.376,63.520074074074074,7.847555555555555,0.0,6,7,6,6
+formal7-cma-modelpred-v2-20260914-l0-excluded-sensitivity,Perturb-KL-Direct-AltSeq,9,70.35955555555556,68.29659259259259,6.864,0.1111111111111111,5,4,5,4
+formal7-cma-modelpred-v2-20260914-l0-excluded-sensitivity,Ours-Direct,9,75.44177777777779,70.61925925925927,1.7817777777777755,0.4444444444444444,1,1,1,1
+formal7-cma-modelpred-v2-20260914-l0-excluded-sensitivity,CMA-ModelPred-Direct,9,72.30333333333334,69.10385185185186,4.92022222222222,0.3333333333333333,2,2,2,2

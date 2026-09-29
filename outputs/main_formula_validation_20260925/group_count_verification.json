@@ -1,0 +1,34 @@
+{
+  "counts": {
+    "ours_recorded_complete": 19,
+    "ours_main_complete": 18,
+    "pair_recorded_complete": 17,
+    "pair_main_complete": 16,
+    "pair_main_coverage80": 15
+  },
+  "formal8_recorded_coverage": 19,
+  "summaries": [
+    {
+      "scope": "同配置完整配对，不按梯度覆盖率排除",
+      "n": 16,
+      "ours_best": 72.494125,
+      "ours_mean": 69.743125,
+      "norm_best": 72.74775,
+      "norm_mean": 69.80404166666666
+    },
+    {
+      "scope": "同配置完整配对，另加覆盖率至少80%",
+      "n": 15,
+      "ours_best": 72.49346666666666,
+      "ours_mean": 69.73302222222222,
+      "norm_best": 72.764,
+      "norm_mean": 69.798
+    }
+  ],
+  "sources": {
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\main_formula_validation_20260925\\candidate_topk.csv": "6a5ebbce6437dd17188990b65e69ce4675bfb1caa5b78618cb4c65522781d71f",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\visual_lga_vs_main_20260925\\verified_outcomes_with_flags.csv": "13b9e0a34ac8a897b53fbb263a065b7a22714425e3623a48d94d06e67fb6c2cb",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\main_formula_validation_20260925\\method_metrics.csv": "dc70bfbabd1d55f1a5dda29ca7b4b833ae53e5a4703ae846b8f778c90097de25",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\localization_audit_20260922\\formal8_union_status.json": "3697222092b6a1c013203cb315ffab9670a351c835d365304fb1691ed570156b"
+  }
+}

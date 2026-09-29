@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+8	TRAIN_DONE	50	15900	0.998910665512085	0.7870827801514695	/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-entity/smolvlm-1.7b/layer_08/records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-50-i-15900-ema_loss-0.7871

@@ -1,0 +1,117 @@
+{
+  "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14",
+  "host": "login01",
+  "errors": [],
+  "warnings": [],
+  "artifacts": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/eval_full.done": {
+      "size": 820,
+      "sha256": "f2084de3d014d197ff3f94c8fa88455842b05cb3d2346acf5a85124590cd6931"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/selected_checkpoint.tsv": {
+      "size": 361,
+      "sha256": "de95675fab4a3cc257fa5d56f63e1874cb54375d505a3f760e5cfec8f7fa8574"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/eval_full/vead/smolvlm-1.7b/EVQA_full_test_pilot500_blip2_visedit_L14/single_edit/results.json": {
+      "size": 1142505,
+      "sha256": "21c25cd4e89bd120b0fb52592fc49f1d6e6d6dca888d9a2f78084c76922ccc32"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/eval_full/vead/smolvlm-1.7b/EVQA_full_test_pilot500_blip2_visedit_L14/single_edit/mean_results.json": {
+      "size": 400,
+      "sha256": "79ae047e3f5b7a7db2f719d976387a862933aa45bd69f8b1d4f5edc614a6fcf1"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/train.done": {
+      "size": 407,
+      "sha256": "440619dc820ee45e0c1aba6cc4e97eca38d70ab342204416b34a80f7dccb2c35"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/loss_history.csv": {
+      "size": 16224,
+      "sha256": "392c47403ce825f01a0c0ab2d74ad19346b89cb42efefc0516600b69fc6f9690"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L14-lr-1-t-1-v-1/config.yaml": {
+      "size": 457,
+      "sha256": "2096fe721017c04929670dd456aa78964f5c5fde3c08cd92d9c3d3ae47652dd1"
+    }
+  },
+  "evaluation": {
+    "layer": 14,
+    "status": "EVAL_DONE",
+    "eval_samples": 293,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L14-lr-1-t-1-v-1/checkpoints/epoch-40-i-4280-ema_loss-0.5372",
+    "ckpt_epoch": "40",
+    "ckpt_i": "4280",
+    "ckpt_loss": "0.5210790634155273",
+    "ckpt_ema_loss": "0.5372256456363158",
+    "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/eval_full/vead/smolvlm-1.7b/EVQA_full_test_pilot500_blip2_visedit_L14/single_edit",
+    "Rel": 49.68,
+    "T-Gen": 49.32,
+    "M-Gen": 49.61,
+    "T-Loc": 100.0,
+    "M-Loc": 94.6,
+    "Average": 68.64200000000001
+  },
+  "selected": {
+    "layer": "14",
+    "status": "TRAIN_DONE",
+    "epoch": "40",
+    "i": "4280",
+    "loss": "0.5210790634155273",
+    "ema_loss": "0.5372256456363158",
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L14-lr-1-t-1-v-1/checkpoints/epoch-40-i-4280-ema_loss-0.5372"
+  },
+  "checkpoint": {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L14-lr-1-t-1-v-1/checkpoints/epoch-40-i-4280-ema_loss-0.5372",
+    "exists": true,
+    "size": 214287142
+  },
+  "results_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/eval_full/vead/smolvlm-1.7b/EVQA_full_test_pilot500_blip2_visedit_L14/single_edit/results.json",
+  "results_count": 293,
+  "recomputed_metrics": {
+    "Rel": 49.68,
+    "T-Gen": 49.32,
+    "M-Gen": 49.61,
+    "T-Loc": 100.0,
+    "M-Loc": 94.6
+  },
+  "mean_results": {
+    "reliability": {
+      "edit_time": 0.0865,
+      "acc": 0.4968
+    },
+    "generality": {
+      "text_rephrase": {
+        "acc": 0.4932
+      },
+      "image_rephrase": {
+        "acc": 0.4961
+      }
+    },
+    "locality": {
+      "text_loc": {
+        "acc": 1.0
+      },
+      "image_loc": {
+        "acc": 0.946
+      }
+    },
+    "sample_count": 293
+  },
+  "mean_results_text": "{\n    \"reliability\": {\n        \"edit_time\": 0.0865,\n        \"acc\": 0.4968\n    },\n    \"generality\": {\n        \"text_rephrase\": {\n            \"acc\": 0.4932\n        },\n        \"image_rephrase\": {\n            \"acc\": 0.4961\n        }\n    },\n    \"locality\": {\n        \"text_loc\": {\n            \"acc\": 1.0\n        },\n        \"image_loc\": {\n            \"acc\": 0.946\n        }\n    },\n    \"sample_count\": 293\n}",
+  "train_done": true,
+  "history_rows": 50,
+  "max_epoch": 50,
+  "all_50_epochs_present": true,
+  "minimum_ema_row": {
+    "time": "2026-06-16 18:09:25",
+    "layer": "14",
+    "epoch": "40",
+    "i": "4280",
+    "loss": "0.5210790634155273",
+    "ema_loss": "0.5372256456363158",
+    "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/smolvlm-1.7b/layer_14/records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L14-lr-1-t-1-v-1/checkpoints/epoch-40-i-4280-ema_loss-0.5372",
+    "kept": "1"
+  },
+  "minimum_ema_matches": true,
+  "model_config_text": "IT:\n  add_it: true\n  layers:\n  - 18\n  - 19\n  - 20\n  - 21\n  - 22\n  - 23\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 14\nedit_model_name: smolvlm-1.7b\nllm_att_tmp: model.text_model.layers.{}.self_attn\nllm_hidden_size: 2048\nllm_layer_tmp: model.text_model.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 0.0001\n  rel_lambda: 1\n",
+  "evaluation_verified": true
+}

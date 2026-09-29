@@ -1,0 +1,662 @@
+[
+  {
+    "case_id": "train_0",
+    "entity_id": "Q1056242",
+    "entity_name": "Chikugo River Lift Bridge",
+    "request": {
+      "image": "train/images/GLDv2_084bb592a552d066.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Chikugo River Lift Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_1",
+    "entity_id": "Q1138720",
+    "entity_name": "Craigellachie Bridge",
+    "request": {
+      "image": "train/images/GLDv2_07795cbc60c4fd70.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Craigellachie Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_2",
+    "entity_id": "Q11405665",
+    "entity_name": "Chitose bridge",
+    "request": {
+      "image": "train/images/GLDv2_622e99a2e617be06.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Chitose bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_3",
+    "entity_id": "Q11431665",
+    "entity_name": "Yumemai Bridge",
+    "request": {
+      "image": "train/images/GLDv2_5d48955a7d76e138.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Yumemai Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_4",
+    "entity_id": "Q11438648",
+    "entity_name": "Ōshiba Bridge",
+    "request": {
+      "image": "train/images/GLDv2_864764250a49684c.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Ōshiba Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_5",
+    "entity_id": "Q12738249",
+    "entity_name": "Bridge of Lies",
+    "request": {
+      "image": "train/images/GLDv2_049b211fbaa508ca.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Bridge of Lies"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_6",
+    "entity_id": "Q13022447",
+    "entity_name": "Phan Fa Lilat bridge",
+    "request": {
+      "image": "train/images/GLDv2_18693093bc336ce1.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Phan Fa Lilat bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_7",
+    "entity_id": "Q1344701",
+    "entity_name": "Ribblehead Viaduct",
+    "request": {
+      "image": "train/images/GLDv2_01c0e0ff84631905.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Ribblehead Viaduct"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_8",
+    "entity_id": "Q14392462",
+    "entity_name": "Stenen Brug",
+    "request": {
+      "image": "train/images/GLDv2_14a273d52d0e84a3.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Stenen Brug"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_9",
+    "entity_id": "Q1568911",
+    "entity_name": "Norrbro",
+    "request": {
+      "image": "train/images/GLDv2_062e13aaba6a59cd.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Norrbro"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_10",
+    "entity_id": "Q1698906",
+    "entity_name": "Lune Millennium Bridge",
+    "request": {
+      "image": "train/images/GLDv2_7aabfb0bef1e3576.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Lune Millennium Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_11",
+    "entity_id": "Q19740355",
+    "entity_name": "Pakokku Bridge",
+    "request": {
+      "image": "train/images/GLDv2_044c86875e6df085.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Pakokku Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_12",
+    "entity_id": "Q2118648",
+    "entity_name": "Puppenbrücke",
+    "request": {
+      "image": "train/images/GLDv2_50cb1001b442965b.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Puppenbrücke"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_13",
+    "entity_id": "Q2146624",
+    "entity_name": "covered wooden bridge over the river Reuss",
+    "request": {
+      "image": "train/images/GLDv2_14ec8d03a5f48aae.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "covered wooden bridge over the river Reuss"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_14",
+    "entity_id": "Q2164354",
+    "entity_name": "Seven Mile Bridge",
+    "request": {
+      "image": "train/images/GLDv2_024d8836cb0ce51d.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Seven Mile Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_15",
+    "entity_id": "Q22978403",
+    "entity_name": "Innbrücke",
+    "request": {
+      "image": "train/images/GLDv2_0b23c59c396c874c.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Innbrücke"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_16",
+    "entity_id": "Q2458142",
+    "entity_name": "Dyavolski most",
+    "request": {
+      "image": "train/images/GLDv2_42ea4791eb66f087.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Dyavolski most"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_17",
+    "entity_id": "Q2920610",
+    "entity_name": "Faidherbe Bridge",
+    "request": {
+      "image": "train/images/GLDv2_12544c9ee1feb5cf.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Faidherbe Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_18",
+    "entity_id": "Q2994703",
+    "entity_name": "Red Bridge",
+    "request": {
+      "image": "train/images/GLDv2_0173d637a2257753.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Red Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_19",
+    "entity_id": "Q359162",
+    "entity_name": "Admiralbrücke",
+    "request": {
+      "image": "train/images/GLDv2_01aa0c96477199c5.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Admiralbrücke"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_20",
+    "entity_id": "Q503740",
+    "entity_name": "Fehmarn Sound Bridge",
+    "request": {
+      "image": "train/images/GLDv2_061362b4e3f7e40d.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Fehmarn Sound Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_21",
+    "entity_id": "Q5062318",
+    "entity_name": "Centre Street Bridge",
+    "request": {
+      "image": "train/images/GLDv2_9d5bc15e28653eb5.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Centre Street Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_22",
+    "entity_id": "Q5064545",
+    "entity_name": "Cernavodă Bridge",
+    "request": {
+      "image": "train/images/GLDv2_129c745d1e3f2661.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Cernavodă Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_23",
+    "entity_id": "Q5469847",
+    "entity_name": "Forksville Covered Bridge",
+    "request": {
+      "image": "train/images/GLDv2_0e7e677082a0772f.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Forksville Covered Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_24",
+    "entity_id": "Q6735430",
+    "entity_name": "Maidenhead Bridge",
+    "request": {
+      "image": "train/images/GLDv2_11da4330257f4282.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Maidenhead Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_25",
+    "entity_id": "Q7407441",
+    "entity_name": "Sam Eckman Covered Bridge No. 92",
+    "request": {
+      "image": "train/images/GLDv2_107c79883427cca5.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Sam Eckman Covered Bridge No. 92"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_26",
+    "entity_id": "Q7784788",
+    "entity_name": "Yavuz Sultan Selim Bridge",
+    "request": {
+      "image": "train/images/GLDv2_4da42d007860031d.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Yavuz Sultan Selim Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_27",
+    "entity_id": "Q844249",
+    "entity_name": "ponte di San Francesco di Paola",
+    "request": {
+      "image": "train/images/GLDv2_0fa53738931c4435.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "ponte di San Francesco di Paola"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_28",
+    "entity_id": "Q8505536",
+    "entity_name": "Svatojánský most",
+    "request": {
+      "image": "train/images/GLDv2_027a2bd7a3d08783.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Svatojánský most"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  },
+  {
+    "case_id": "train_29",
+    "entity_id": "Q915195",
+    "entity_name": "Liberty Bridge",
+    "request": {
+      "image": "train/images/GLDv2_05833f09ff456fc5.jpg",
+      "prompt": "What is the name of this bridge?",
+      "target_new": "Liberty Bridge"
+    },
+    "generality": {
+      "text_rephrase": [],
+      "image_rephrase": []
+    },
+    "locality": {
+      "text_loc": [],
+      "image_loc": []
+    },
+    "portability": {
+      "1hop": [],
+      "2hop": []
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "source": "server_results\\live_backfill\\recovered_g09_nodefail_20260810\\job3126082\\mmke-entity\\blip2-opt-2.7b\\layer_01\\loss_history.csv",
+  "checkpoint_rows": 50,
+  "epoch_min": 1,
+  "epoch_max": 50,
+  "final_step": 15900,
+  "minimum_ema": {
+    "time": "2026-08-01 19:12:26",
+    "layer": "1",
+    "epoch": "11",
+    "i": "3498",
+    "loss": "5.893988132476807",
+    "ema_loss": "5.9904003300769855",
+    "ckpt_path": "/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-3498-ema_loss-5.9904",
+    "kept": "1"
+  },
+  "selected_record": {
+    "layer": "1",
+    "status": "TRAIN_DONE",
+    "epoch": "11",
+    "i": "3498",
+    "loss": "5.893988132476807",
+    "ema_loss": "5.9904003300769855",
+    "checkpoint": "/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-3498-ema_loss-5.9904"
+  }
+}

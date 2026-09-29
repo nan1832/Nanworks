@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "server_checked_at": "2026-09-29T09:18:13.102942+08:00",
+  "completion_time": "2026-09-29T08:37:52+0800",
+  "groups": 21,
+  "variants": 63,
+  "primary_recommendations": 126,
+  "secondary_recommendations": 126,
+  "performance_rows": 126,
+  "original_real_editing_rows_unchanged": true,
+  "method_formula_unchanged": true,
+  "files": [
+    {
+      "file": "md\\Location\\ALL_Methods_Recommends_layers.md",
+      "before_sha256": "a0e871858902b08daba6dfcfca3593e2b07235195ba69dceb1170b8a9d2073c3",
+      "after_sha256": "a0e871858902b08daba6dfcfca3593e2b07235195ba69dceb1170b8a9d2073c3",
+      "backup": "outputs\\visual_track_cosine_20260928\\targets_v2\\backfill_20260929\\backups\\ALL_Methods_Recommends_layers.md"
+    },
+    {
+      "file": "md\\Location\\6location_7model_3datas_top_3_5_layers_outcome.md",
+      "before_sha256": "dbd51d57490c4421b74ca0b86fbf048885f1032b35ac7529141e196ebace1439",
+      "after_sha256": "dbd51d57490c4421b74ca0b86fbf048885f1032b35ac7529141e196ebace1439",
+      "backup": "outputs\\visual_track_cosine_20260928\\targets_v2\\backfill_20260929\\backups\\6location_7model_3datas_top_3_5_layers_outcome.md"
+    },
+    {
+      "file": "md\\Location\\SWeeplayers.md",
+      "before_sha256": "6217683f920ac105d4ba7b5d330c6bf16003fc6ec962ec1371b449d7bd262ac0",
+      "after_sha256": "6217683f920ac105d4ba7b5d330c6bf16003fc6ec962ec1371b449d7bd262ac0",
+      "backup": "outputs\\visual_track_cosine_20260928\\targets_v2\\backfill_20260929\\backups\\SWeeplayers.md"
+    },
+    {
+      "file": "md\\Location\\VisualTrack_Three_Variants_Results_20260929.md",
+      "before_sha256": "3aaefefa20637f3f679e871a481856447b0ffade229a3aacb73edfb524bb3a31",
+      "after_sha256": "3aaefefa20637f3f679e871a481856447b0ffade229a3aacb73edfb524bb3a31",
+      "backup": "outputs\\visual_track_cosine_20260928\\targets_v2\\backfill_20260929\\backups\\VisualTrack_Three_Variants_Results_20260929.md"
+    },
+    {
+      "file": "md\\Location\\VisualTrack_Three_Variants_20260928.md",
+      "before_sha256": "c205e1bf47c20e4f73747cfe5a2441b4a9dda0f501a2bd34379cc4b3b0d032b8",
+      "after_sha256": "c205e1bf47c20e4f73747cfe5a2441b4a9dda0f501a2bd34379cc4b3b0d032b8",
+      "backup": "outputs\\visual_track_cosine_20260928\\targets_v2\\backfill_20260929\\backups\\VisualTrack_Three_Variants_20260928.md"
+    },
+    {
+      "file": "md\\Location\\VisualTrack_Cosine_Recommendation_Analysis.md",
+      "before_sha256": "a9e44556332878855e64283f14e57d342162057eecce0ac42717c9b1aba0deef",
+      "after_sha256": "a9e44556332878855e64283f14e57d342162057eecce0ac42717c9b1aba0deef",
+      "backup": "outputs\\visual_track_cosine_20260928\\targets_v2\\backfill_20260929\\backups\\VisualTrack_Cosine_Recommendation_Analysis.md"
+    }
+  ],
+  "input_sha256": {
+    "outputs\\visual_track_cosine_20260928\\targets_v2\\recommendations.json": "338a6810e027c40d96e31053b8c8ae6cedee1e2a594f7c919a7c763a260d8cfc",
+    "outputs\\visual_track_cosine_20260928\\targets_v2\\performance.csv": "7e92fef1419595aa05128c9972f5b89a52fb898daf0af77894d7623d5ab84bf5",
+    "outputs\\visual_track_cosine_20260928\\targets_v2\\correlations.csv": "7ee091699de0fb20426a867912691391e0678defa274461fd43dd1590a1eb8d1",
+    "outputs\\visual_track_cosine_20260928\\targets_v2\\paired_summary.csv": "17ae00fdb6a26c79e974af1ee9e8fa639c46fc4833309a6c66af96d41bfb7d94",
+    "outputs\\visual_track_cosine_20260928\\targets_v2\\completion_receipt.json": "aeb75201e0f47d70c62e0cc2adf6a5f4cd33682033074343f9e47e65c4a91e97"
+  }
+}

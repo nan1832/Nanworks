@@ -1,0 +1,320 @@
+{
+  "records": [
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "blip2-opt-2.7b",
+      "status": "preflight_ready",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "blip2-opt-2.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "blip2-opt-2.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "blip2-opt-2.7b",
+      "status": "preflight_ready",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "blip2-opt-2.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "blip2-opt-2.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    }
+  ],
+  "workers": {
+    "g08": {
+      "state": "WAITING_PREVIOUS_EXPERIMENTS",
+      "node": "g08",
+      "time": "2026-09-28T14:40:05+0800",
+      "job": "3435286",
+      "pid": 3047130,
+      "completion_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_L4_wait_memory_20260928/completion_verified.json",
+      "space": "visual"
+    },
+    "g09": {
+      "state": "WAITING_PREVIOUS_EXPERIMENTS",
+      "node": "g09",
+      "time": "2026-09-28T14:40:06+0800",
+      "job": "3443209",
+      "pid": 2328322,
+      "completion_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/control/g09/DONE.json",
+      "space": "parameter"
+    }
+  },
+  "server_collected_at": "2026-09-28T14:40:26.847157+08:00",
+  "synced_at": "2026-09-28T14:35:56.077360+08:00"
+}

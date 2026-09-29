@@ -1,0 +1,51 @@
+{
+  "state": "DONE",
+  "time": "2026-09-29T12:13:32.594360+08:00",
+  "completed_groups": 14,
+  "total_groups": 14,
+  "repaired_groups": 2,
+  "recomputed_samples": 850,
+  "module_variants": 42,
+  "attribution_scope": "next_token_argmax",
+  "full_response_attribution_completed": false,
+  "precision_change": "Qwen MMKE: full-cohort FP16 -> BF16; original partial run retained on server",
+  "checkpoint_dtype_audit_sha256": "73626297244f009f28c23f2d4205d8821b10c0284c70a5fe7419b15f75947f86",
+  "diagnostics": [
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 137,
+      "first_nonfinite_module": "visual"
+    },
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 181,
+      "first_nonfinite_module": "visual"
+    },
+    {
+      "dataset": "mmke-visual",
+      "sample_idx": 207,
+      "first_nonfinite_module": "visual"
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 1,
+      "first_nonfinite_module": "visual"
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 16,
+      "first_nonfinite_module": "visual"
+    },
+    {
+      "dataset": "mmke-entity",
+      "sample_idx": 22,
+      "first_nonfinite_module": "visual"
+    }
+  ],
+  "local_backfill_verified": true,
+  "server_finished_at": "2026-09-29T12:17:16+0800",
+  "documents": {
+    "md\\Location\\ALL_Methods_Recommends_layers.md": "8836c51fede890bac2af1b94687936b5f98f4afd5fbf1062900975348e0b8432",
+    "md\\Location\\6location_7model_3datas_top_3_5_layers_outcome.md": "43da7b08290f2634458d43847a0689d22534b7a2efbe4df2eb09752f490aec6c"
+  }
+}

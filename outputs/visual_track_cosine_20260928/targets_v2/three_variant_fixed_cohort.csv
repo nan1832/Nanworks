@@ -1,0 +1,7 @@
+﻿variant,flavor,n,groups,top1,best3,mean3
+none,raw,4,"[[""evqa-pilot500"", ""minigpt-4-vicuna-7b""], [""evqa-pilot500"", ""smolvlm-1.7b""], [""mmke-visual"", ""paligemma-3b""], [""mmke-entity"", ""paligemma-3b""]]",69.169,72.221,63.200833333333335
+alt,raw,4,"[[""evqa-pilot500"", ""minigpt-4-vicuna-7b""], [""evqa-pilot500"", ""smolvlm-1.7b""], [""mmke-visual"", ""paligemma-3b""], [""mmke-entity"", ""paligemma-3b""]]",71.9015,73.05199999999999,63.854166666666664
+model_pred,raw,4,"[[""evqa-pilot500"", ""minigpt-4-vicuna-7b""], [""evqa-pilot500"", ""smolvlm-1.7b""], [""mmke-visual"", ""paligemma-3b""], [""mmke-entity"", ""paligemma-3b""]]",69.169,72.221,63.200833333333335
+none,tukey,3,"[[""evqa-pilot500"", ""minigpt-4-vicuna-7b""], [""mmke-visual"", ""paligemma-3b""], [""mmke-entity"", ""paligemma-3b""]]",73.60133333333333,77.24466666666666,65.44688888888889
+alt,tukey,3,"[[""evqa-pilot500"", ""minigpt-4-vicuna-7b""], [""mmke-visual"", ""paligemma-3b""], [""mmke-entity"", ""paligemma-3b""]]",77.24466666666666,78.3,66.30044444444445
+model_pred,tukey,3,"[[""evqa-pilot500"", ""minigpt-4-vicuna-7b""], [""mmke-visual"", ""paligemma-3b""], [""mmke-entity"", ""paligemma-3b""]]",73.60133333333333,77.24466666666666,65.44688888888889

@@ -1,0 +1,25 @@
+{
+  "time": "2026-09-22 08:50:03 CST",
+  "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921",
+  "evaluation_verified": true,
+  "diagnostic_only": true,
+  "eval_samples": 2093,
+  "selected_epoch": 2,
+  "selected_step": 500,
+  "raw_loss": 3187.056884765625,
+  "ema_loss": 3209.824509720526,
+  "training_complete_50_epochs": false,
+  "nonconvergent": true,
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/records/vead/paligemma-3b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-2-i-500-ema_loss-3209.8245",
+  "checkpoint_sha256": "9405c64d2e1d5b96f5ab96b0109a25b8dcde2697f46faec319b37727efbef260",
+  "metrics": {
+    "Rel": 0.16,
+    "T-Gen": 0.18,
+    "M-Gen": 0.16,
+    "T-Loc": 100.0,
+    "M-Loc": 76.96,
+    "Average": 35.492
+  },
+  "saved_epochs": 30,
+  "nonfinite_gradient_records": 154
+}

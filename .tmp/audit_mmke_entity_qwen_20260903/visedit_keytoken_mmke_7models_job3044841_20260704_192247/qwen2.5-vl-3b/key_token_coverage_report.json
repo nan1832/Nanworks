@@ -1,0 +1,18 @@
+{
+  "dataset": "mmke-entity",
+  "model": "qwen2.5-vl-3b",
+  "total_sample_count": 636,
+  "valid_key_token_count": 636,
+  "generic_key_token_count": 0,
+  "generic_key_token_ratio": 0.0,
+  "used_in_main_score_count": 636,
+  "used_in_main_score_ratio": 1.0,
+  "fallback_key_token_count": 0,
+  "fallback_key_token_ratio": 0.0,
+  "image_missing_count": 0,
+  "manual_checked_count": 0,
+  "manual_error_count": 0,
+  "manual_error_ratio": 0.0,
+  "status": "pass",
+  "failure_reason": ""
+}

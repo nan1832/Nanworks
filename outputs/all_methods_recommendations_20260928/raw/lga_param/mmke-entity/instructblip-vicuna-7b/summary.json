@@ -1,0 +1,44 @@
+{
+  "dataset_key": "mmke-entity",
+  "dataset": "MMKE-entity",
+  "model_key": "instructblip-vicuna-7b",
+  "model": "InstructBLIP-Vicuna-7B",
+  "method": "LGA-Param-Direct-AltModelPred",
+  "score_source": "raw_old_new_parameter_gradient_dot",
+  "new_field": "alt",
+  "old_field": "model_pred",
+  "target_parameter_scope": "mlp_ffn_weight_only",
+  "num_decoder_layers": 32,
+  "total_samples": 636,
+  "processed_samples": 636,
+  "skipped_samples": 0,
+  "valid_layers": 32,
+  "top3_layers": [
+    "L2",
+    "L28",
+    "L0"
+  ],
+  "top5_layers": [
+    "L2",
+    "L28",
+    "L0",
+    "L4",
+    "L30"
+  ],
+  "duration_sec": 15790.520071029663,
+  "status": "done",
+  "failure_reason": "",
+  "sanity": {
+    "sanity_status": "ok",
+    "sanity_failure_reason": "",
+    "finite_score_count": 32,
+    "valid_layers": 32,
+    "missing_layers": [],
+    "execution_mode": "layerwise_lowmem",
+    "layer_batch_size": 4
+  },
+  "scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/instructblip-vicuna-7b/layer_scores.csv",
+  "candidates_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/instructblip-vicuna-7b/candidate_layers_topk.csv",
+  "execution_mode": "layerwise_lowmem",
+  "layer_batch_size": 4
+}

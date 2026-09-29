@@ -1,0 +1,39 @@
+Create a polished, publication-quality scientific mechanism diagram titled “Ours-Direct: Visual Hidden-State Gradients for Layer Localization”. This is a new diagram, inspired by the compact computational-network visual language of ROME (Locating and Editing Factual Associations in GPT), not a reproduction of its algorithm. White background, flat vector-like thin clean strokes, Times New Roman and proper mathematical serif notation, precise readable labels, no shadow, no cards, no gradient fills, no 3D. Landscape about 2.5:1, high resolution. Three coherent panels labeled (a), (b), (c) with clear whitespace. Overall focus is the computational graph of hidden-state gradients, not generic flowchart boxes.
+
+SCIENTIFIC FACTS (must govern every arrow and label):
+The method localizes candidate adapter insertion layers of a frozen unedited vision-language model. There is NO adapter present or trained during localization. Decoder weights theta are frozen but the hidden-state computation graph supports differentiation. Hook reads the output of decoder block l, retains its gradient, does not modify output. Only visual-token rows of that output gradient are extracted. Old target is cached deterministic model prediction model_pred; new target is provided alt. Compute two SEPARATE teacher-forced forward/backward passes with the SAME frozen model parameters and image+question, each conditioned on its own answer prefix. Both losses are mean NLL over the COMPLETE answer sequence. Prompt, visual and padding positions excluded from NLL. Gradients are with respect to hidden activations, not weights or adapter parameters. A virtual additive Delta=0 is only a mathematical equivalence, never a real forward adapter or trainable block.
+Per sample i and layer l, flatten visual hidden-state gradients into a_i,l (old) and b_i,l (new). Compute cosine c_i,l and new norm n_i,l individually; average them separately over valid localization samples. Final score M_l = |mean_i c_i,l| * mean_i n_i,l. NO depth weighting, no negative-only gate. Rank valid layers descending, return Top-K for K=3 or 5. Selected l means AFTER block l, BEFORE block l+1, no offset. Only subsequent independent editing trains an actual adapter at a candidate layer. No invented ranking values or performance claims.
+
+COMPOSITION:
+(a) Left ~30%, “Frozen VLM and probe location”.
+Small outlined symbolic image input labeled xᵛ, with a tiny visual interface/projection leading to several blue visual tokens; question xᵗ gives gray-blue text tokens. No invented model-specific encoder. Token rows stacked vertically: show 3 blue visual rows and 2 gray text rows. Decoder layers run horizontally from left to right, labeled l−1, l, l+1, with ellipses. ROME-like network: purple circles are hidden states/residual paths, coral small squares attention, pale green diamonds MLP. Keep this network faint except selected block-l output visual states. Add a bracket around the visual state circles AFTER block l, label hᵛᵢ,ₗ. A thin observation connector labeled “Read-only hook” leads toward panel b. A compact label “Frozen θ · unedited model” above graph. Show text-token rows continuing forward, but bracket ONLY visual rows. Token identity and hidden-state fill may be differentiated by row labels and blue bracket, without violating purple state legend. Small line below “Probe after block l”. Do not depict adapter in this panel.
+
+(b) Center ~42%, main visual focus, “Two target-conditioned backward passes”.
+Two aligned horizontal mini-computational graphs, old above new, clearly under one annotation “Same frozen θ; separate passes”.
+Each starts from visual hidden-state strip hᵛᵢ,ₗ and text context continuing through downstream decoder computation, then logits and mean answer NLL, all forward arrows left-to-right. Old row: target yᵒˡᵈ = model_pred, target-specific prefix yᵒˡᵈ_<t, loss Lᵒˡᵈ. New row: yⁿᵉʷ = alt, prefix yⁿᵉʷ_<t, loss Lⁿᵉʷ. Place target as supervisory input to corresponding loss/prefix, NOT as generated output. Use indigo for old gradient accent, amber for new gradient accent. Under each forward path, draw a clearly separate dashed backward arrow from loss via logits and downstream blocks back to visual hidden state, arrowhead pointing LEFT. The hook yields labeled gradient strips gᵒˡᵈᵢ,ₗ and gⁿᵉʷᵢ,ₗ next to the visual state readouts, linked to panel c by thin connectors.
+Display clearly:
+gᵒˡᵈᵢ,ₗ = ∇_{hᵛᵢ,ₗ} Lᵒˡᵈᵢ
+gⁿᵉʷᵢ,ₗ = ∇_{hᵛᵢ,ₗ} Lⁿᵉʷᵢ
+One shared compact full equation under both passes:
+Lᵢ(y) = −(1/Tᵧ) ∑ₜ log pθ(yₜ | xᵛᵢ, xᵗᵢ, y_<t)
+and short note “Mean NLL over answer tokens”.
+At bottom of panel b show a small mathematical inset without a block or network branch:
+“Virtual zero perturbation”
+h′ᵛ = hᵛ + Δᵛ,  Δᵛ = 0
+∂L/∂Δᵛ |₀ = ∂L/∂hᵛ
+Keep this secondary. It must be clear it is mathematical interpretation, NOT actual adapter.
+
+(c) Right ~28%, “Aggregate and select”.
+Two incoming colored gradient strips become flattened vectors labeled aᵢ,ₗ = vec(gᵒˡᵈᵢ,ₗ), bᵢ,ₗ = vec(gⁿᵉʷᵢ,ₗ).
+Display per-sample scalar calculation cleanly:
+cᵢ,ₗ = (aᵢ,ₗᵀ bᵢ,ₗ)/(‖aᵢ,ₗ‖₂ ‖bᵢ,ₗ‖₂ + ε)
+nᵢ,ₗ = ‖bᵢ,ₗ‖₂
+Then small downward arrow labeled “Average across samples” to
+c̄ₗ = meanᵢ cᵢ,ₗ    n̄ₗ = meanᵢ nᵢ,ₗ
+Then the most visually prominent short formula, thin restrained violet rectangular outline:
+Mₗ = |c̄ₗ| n̄ₗ
+Below formula concise text “Direction relation × new-target sensitivity”.
+Then downward arrow to C_K = TopKₗ Mₗ, K ∈ {3,5}. No fake bars, scores or layer numbers.
+At very bottom a small separated continuation note with one thin arrow: “Candidate layers → subsequent adapter training”. Secondary annotation “Insert after the selected block”. Do not draw actual adapter structure because its architecture is not specified. Do not imply localization itself edits model outputs.
+
+A small shared legend at lower left defines state circle / attention square / MLP diamond / solid forward / dashed backward. Colors remain fixed across all panels. Title modest, short labels, clear panel hierarchy; prioritize readable graph over lengthy prose. All formulas professionally typeset, all arrows semantically correct. No ROME key-value mapping, no rank-one update, no causal corruption/restoration, no gradient descent updating theta, no heatmaps or invented empirical values.

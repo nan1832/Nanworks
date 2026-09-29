@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+1	TRAIN_DONE	50	12500	0.4593764543533325	0.4781023975814999	/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.4781

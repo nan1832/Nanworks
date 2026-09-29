@@ -1,0 +1,71 @@
+{
+  "time": "2026-09-29T12:17:34.722220+08:00",
+  "repair": {
+    "state": "DONE",
+    "time": "2026-09-29T12:17:16+0800",
+    "job": "3435286",
+    "node": "g08",
+    "pid": 3560947,
+    "completed_groups": 2,
+    "completed_samples": 850,
+    "attribution_scope": "next_token_argmax",
+    "torch_dtype": "bfloat16"
+  },
+  "groups": [
+    {
+      "state": "DONE",
+      "time": "2026-09-29T11:58:05+0800",
+      "dataset": "mmke-visual",
+      "model": "qwen2.5-vl-3b",
+      "completed": 214,
+      "total": 214,
+      "failed": 0,
+      "torch_dtype": "bfloat16",
+      "attribution_scope": "next_token_argmax",
+      "server_result_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/results/mmke-visual/qwen2.5-vl-3b",
+      "protocol_sha256": "213711e02c4d7f7b655ea780e501b029fd8aef562bd83f092a806ba2e61865fb",
+      "contribution_sha256": "b2ad356a19bd404a7892c1b923508c0dd5360e6beb00ee5c3569a0a79a8d9d7c",
+      "recommendation_sha256": "f530f3c9720171f79c91e5746ff2abd2b8a7474aa7edceac91176421a61de6c2",
+      "original_formula_parity": true,
+      "elapsed_seconds": 80.97895646095276,
+      "sample_bundle_sha256": "287d01cc66099eacaa30384beed50b38504411e6c020cfe1518b8691c9c9482b",
+      "saved_sample_files": 214,
+      "failure_files": 0
+    },
+    {
+      "state": "DONE",
+      "time": "2026-09-29T12:17:16+0800",
+      "dataset": "mmke-entity",
+      "model": "qwen2.5-vl-3b",
+      "completed": 636,
+      "total": 636,
+      "failed": 0,
+      "torch_dtype": "bfloat16",
+      "attribution_scope": "next_token_argmax",
+      "server_result_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_model_pred_mmke_20260929/qwen_repair_bf16_v2/results/mmke-entity/qwen2.5-vl-3b",
+      "protocol_sha256": "b6a6a5148c6d12ebcb282ce7ec9be6adc19bf8ff51447734e963f1627c07efee",
+      "contribution_sha256": "f1ae2d97106627b2458f9d77dc909660fd24fc292f30a1bc44a2f343b7a1ceaa",
+      "recommendation_sha256": "2f8c11dc5d5c9dff6dc03f4dbd684b78aa81dc52f53bd5798ee0e610ed276cab",
+      "original_formula_parity": true,
+      "elapsed_seconds": 1151.3662021160126,
+      "sample_bundle_sha256": "e382db06adb48e546152afc265b27ae516d4cdd1dc0e7bfb99ab94a78092ec6a",
+      "saved_sample_files": 636,
+      "failure_files": 0
+    }
+  ],
+  "diagnostics": {
+    "float16": {
+      "checked": 8,
+      "finite": 2
+    },
+    "bfloat16": {
+      "checked": 8,
+      "finite": 8
+    }
+  },
+  "other_queue": {
+    "state": "WAITING_GPU_MEMORY_OR_LOCK",
+    "model": "qwen2.5-vl-3b",
+    "dataset": "evqa-pilot500"
+  }
+}

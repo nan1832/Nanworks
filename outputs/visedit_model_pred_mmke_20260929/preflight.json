@@ -1,0 +1,99 @@
+{
+  "time": "2026-09-29T09:49:05.030377+08:00",
+  "workers": {
+    "g08": {
+      "state": "STOPPED_BY_USER",
+      "node": "g08",
+      "job": "3435286",
+      "time": "2026-09-29T08:24:25+08:00",
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "stopped_controller_pid": 3047130,
+      "stopped_child_pid": 3500529,
+      "retained_sample_files": 40,
+      "stop_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/control/STOP_g08",
+      "receipt": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/control/stop_user_g08_20260929_082424.json",
+      "previous_log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/results/visual/mmke-entity/llava-v1.5-7b/run_20260929_082014.log"
+    },
+    "g09": {
+      "state": "WAITING_PREVIOUS_EXPERIMENTS",
+      "node": "g09",
+      "time": "2026-09-29T09:48:52+0800",
+      "job": "3443209",
+      "pid": 2328322,
+      "completion_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/control/g09/DONE.json",
+      "space": "parameter"
+    }
+  },
+  "found_model_pred": [],
+  "g09_priority": {
+    "time": "2026-09-29T08:44:35+0800",
+    "state": "RESUMING_MINIGPT_L8",
+    "node": "g09",
+    "job": "3443209",
+    "pid": 2500705,
+    "child_pid": 2512011,
+    "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/resume_minigpt_L8.log",
+    "command": [
+      "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+      "-u",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_mmke_minigpt_llava_lowmem_sweep.py",
+      "--out-root",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-entity/minigpt-4-vicuna-7b",
+      "--layers",
+      "8",
+      "--epochs",
+      "50",
+      "--batch-size",
+      "2",
+      "--model-name",
+      "minigpt-4-vicuna-7b",
+      "--device",
+      "cuda:0",
+      "--train-data",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_train_evqa_compat.json",
+      "--eval-data",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_eval_evqa_compat.json",
+      "--train-img-root",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+      "--eval-img-root",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+      "--config-path",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/provenance/code/configs/vead/minigpt-4-vicuna-7b.yaml",
+      "--seed",
+      "20260601",
+      "--ema-alpha",
+      "0.1",
+      "--data-buffer-size",
+      "1",
+      "--keep-top-ckpts",
+      "1",
+      "--keep-last-ckpts",
+      "0",
+      "--skip-eval",
+      "--synchronous-data-loading",
+      "--activation-checkpointing",
+      "--resume-checkpoint",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171",
+      "--resume-layer",
+      "8"
+    ],
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171",
+    "resume_epoch": 15,
+    "resume_i": 4453
+  },
+  "gpus": {
+    "g08": {
+      "rc": 0,
+      "gpu": "0, GPU-b17f9d7c-3b14-ca32-233a-40ad82b6ef47, 81920, 5825, 75351, 0\n",
+      "error": ""
+    },
+    "g09": {
+      "rc": 0,
+      "gpu": "0, GPU-ff89626e-b94a-6caf-823e-0facd635d9c1, 81920, 73585, 7572, 99\n",
+      "error": ""
+    }
+  },
+  "jobs": "3435286|RUNNING|g08|25-04:08:19\n3443209|RUNNING|g09|27-08:54:40\n"
+}

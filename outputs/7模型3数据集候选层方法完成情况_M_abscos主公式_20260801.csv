@@ -1,0 +1,29 @@
+﻿method,dataset_scope,combo_count,candidate_output_complete_combos,formal_candidate_complete_combos,eligible_combos,low_candidate_coverage_combos,historical_firsttoken_combos,top3_complete_combos,top3_completed_layers,top3_total_layers,top3_remaining_layers,top5_complete_combos,top5_completed_layers,top5_total_layers,top5_remaining_layers
+Middle-Prior-Direct,ALL,21,21,21,21,0,0,14,46,63,17,6,68,105,37
+Middle-Prior-Direct,evqa-pilot500,7,7,7,7,0,0,4,13,21,8,2,20,35,15
+Middle-Prior-Direct,mmke-visual,7,7,7,7,0,0,5,17,21,4,1,24,35,11
+Middle-Prior-Direct,mmke-entity,7,7,7,7,0,0,5,16,21,5,3,24,35,11
+VisEdit-Contrib-Pre-KeyToken,ALL,21,21,14,14,0,7,18,57,63,6,10,81,105,24
+VisEdit-Contrib-Pre-KeyToken,evqa-pilot500,7,7,0,0,0,7,7,21,21,0,3,28,35,7
+VisEdit-Contrib-Pre-KeyToken,mmke-visual,7,7,7,7,0,0,5,18,21,3,2,25,35,10
+VisEdit-Contrib-Pre-KeyToken,mmke-entity,7,7,7,7,0,0,6,18,21,3,5,28,35,7
+SaLEM-Alt-Direct,ALL,21,21,21,21,0,0,15,47,63,16,6,66,105,39
+SaLEM-Alt-Direct,evqa-pilot500,7,7,7,7,0,0,4,12,21,9,2,17,35,18
+SaLEM-Alt-Direct,mmke-visual,7,7,7,7,0,0,6,18,21,3,2,24,35,11
+SaLEM-Alt-Direct,mmke-entity,7,7,7,7,0,0,5,17,21,4,2,25,35,10
+LGA-Param-Direct-AltModelPred,ALL,21,21,21,17,4,0,13,44,63,19,6,67,105,38
+LGA-Param-Direct-AltModelPred,evqa-pilot500,7,7,7,4,3,0,3,13,21,8,1,20,35,15
+LGA-Param-Direct-AltModelPred,mmke-visual,7,7,7,7,0,0,5,16,21,5,2,25,35,10
+LGA-Param-Direct-AltModelPred,mmke-entity,7,7,7,6,1,0,5,15,21,6,3,22,35,13
+Perturb-KL-Direct-AltSeq,ALL,21,21,21,21,0,0,14,44,63,19,2,60,105,45
+Perturb-KL-Direct-AltSeq,evqa-pilot500,7,7,7,7,0,0,4,12,21,9,1,17,35,18
+Perturb-KL-Direct-AltSeq,mmke-visual,7,7,7,7,0,0,5,16,21,5,0,22,35,13
+Perturb-KL-Direct-AltSeq,mmke-entity,7,7,7,7,0,0,5,16,21,5,1,21,35,14
+CMA-Direct,ALL,21,21,21,8,13,0,13,43,63,20,5,59,105,46
+CMA-Direct,evqa-pilot500,7,7,7,1,6,0,3,11,21,10,1,14,35,21
+CMA-Direct,mmke-visual,7,7,7,3,4,0,5,16,21,5,2,23,35,12
+CMA-Direct,mmke-entity,7,7,7,4,3,0,5,16,21,5,2,22,35,13
+Ours-Direct (M_abscos_x_newn),ALL,21,21,21,21,0,0,9,39,63,24,5,61,105,44
+Ours-Direct (M_abscos_x_newn),evqa-pilot500,7,7,7,7,0,0,3,13,21,8,2,21,35,14
+Ours-Direct (M_abscos_x_newn),mmke-visual,7,7,7,7,0,0,3,12,21,9,2,19,35,16
+Ours-Direct (M_abscos_x_newn),mmke-entity,7,7,7,7,0,0,3,14,21,7,1,21,35,14

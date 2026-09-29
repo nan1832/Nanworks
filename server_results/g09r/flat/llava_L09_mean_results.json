@@ -1,0 +1,23 @@
+{
+    "reliability": {
+        "edit_time": 0.2199,
+        "acc": 0.6264
+    },
+    "generality": {
+        "text_rephrase": {
+            "acc": 0.6266
+        },
+        "image_rephrase": {
+            "acc": 0.6269
+        }
+    },
+    "locality": {
+        "text_loc": {
+            "acc": 1.0
+        },
+        "image_loc": {
+            "acc": 0.9656
+        }
+    },
+    "sample_count": 293
+}

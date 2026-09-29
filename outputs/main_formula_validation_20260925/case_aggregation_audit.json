@@ -1,0 +1,259 @@
+{
+  "raw_string_metric_checks": 76400,
+  "paired_unique_samples": 955,
+  "group_summaries": [
+    {
+      "group": "associated_image",
+      "question_count": 1910,
+      "before_f1": 0.011235674622462678,
+      "after_f1": 0.009660670729628217,
+      "delta_f1_pp": -0.15750038928344612,
+      "before_em": 0.0,
+      "after_em": 0.0,
+      "truncated_before": 1886,
+      "truncated_after": 1845
+    },
+    {
+      "group": "associated_text",
+      "question_count": 1910,
+      "before_f1": 0.012755380041271634,
+      "after_f1": 0.012755380041271634,
+      "delta_f1_pp": 0.0,
+      "before_em": 0.0,
+      "after_em": 0.0,
+      "truncated_before": 1890,
+      "truncated_after": 1890
+    },
+    {
+      "group": "image_loc",
+      "question_count": 955,
+      "before_f1": 0.011835748609307754,
+      "after_f1": 0.009411754880567383,
+      "delta_f1_pp": -0.24239937287403712,
+      "before_em": 0.0,
+      "after_em": 0.0,
+      "truncated_before": 933,
+      "truncated_after": 933
+    },
+    {
+      "group": "image_rephrase",
+      "question_count": 955,
+      "before_f1": 0.042394060187118415,
+      "after_f1": 0.137462071037133,
+      "delta_f1_pp": 9.50680108500146,
+      "before_em": 0.0,
+      "after_em": 0.0,
+      "truncated_before": 868,
+      "truncated_after": 747
+    },
+    {
+      "group": "portability/1-hop",
+      "question_count": 955,
+      "before_f1": 0.01852652359102222,
+      "after_f1": 0.018013378178101808,
+      "delta_f1_pp": -0.05131454129204127,
+      "before_em": 0.0,
+      "after_em": 0.0,
+      "truncated_before": 946,
+      "truncated_after": 927
+    },
+    {
+      "group": "reliability",
+      "question_count": 955,
+      "before_f1": 0.042826247894498834,
+      "after_f1": 0.1389643561093912,
+      "delta_f1_pp": 9.613810821489237,
+      "before_em": 0.0,
+      "after_em": 0.0,
+      "truncated_before": 863,
+      "truncated_after": 732
+    },
+    {
+      "group": "text_loc",
+      "question_count": 955,
+      "before_f1": 0.048489656437798116,
+      "after_f1": 0.048489656437798116,
+      "delta_f1_pp": 0.0,
+      "before_em": 0.008376963350785341,
+      "after_em": 0.008376963350785341,
+      "truncated_before": 379,
+      "truncated_after": 379
+    },
+    {
+      "group": "text_rephrase",
+      "question_count": 955,
+      "before_f1": 0.06630245665879472,
+      "after_f1": 0.13274575673499592,
+      "delta_f1_pp": 6.64433000762012,
+      "before_em": 0.0,
+      "after_em": 0.0,
+      "truncated_before": 903,
+      "truncated_after": 764
+    }
+  ],
+  "case_bucket_counts": {
+    "F1提高": 913,
+    "F1持平": 0,
+    "F1下降": 42
+  },
+  "teacher_improved_free_nonimproved": 40,
+  "selected_case_indices": [
+    {
+      "selection": "F1提高",
+      "source_record_index": 276,
+      "free_delta_f1": 0.06918604651162791,
+      "teacher_delta_acc": 0.07526880502700806
+    },
+    {
+      "selection": "F1下降",
+      "source_record_index": 263,
+      "free_delta_f1": -0.025946614361248496,
+      "teacher_delta_acc": 0.06185564398765564
+    },
+    {
+      "selection": "固定源索引0：检查F1与关键实体是否一致",
+      "source_record_index": 0,
+      "free_delta_f1": 0.04005968149569135,
+      "teacher_delta_acc": 0.05042019486427307
+    },
+    {
+      "selection": "目标实体出现且编辑后未截断的示例",
+      "source_record_index": 767,
+      "free_delta_f1": 0.25067319461444304,
+      "teacher_delta_acc": 0.04347825050354004
+    }
+  ],
+  "aggregation_topk": [
+    {
+      "model": "blip2",
+      "formula": "current_product",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L13",
+      "top3": "L13,L15,L14",
+      "top5": "L13,L15,L14,L16,L12",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "blip2",
+      "formula": "mean_absolute_projection",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L0",
+      "top3": "L0,L1,L2",
+      "top5": "L0,L1,L2,L3,L10",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "blip2",
+      "formula": "absolute_mean_projection",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L13",
+      "top3": "L13,L14,L15",
+      "top5": "L13,L14,L15,L12,L10",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "blip2",
+      "formula": "new_norm_only",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L0",
+      "top3": "L0,L1,L2",
+      "top5": "L0,L1,L2,L3,L4",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "llava",
+      "formula": "current_product",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L6",
+      "top3": "L6,L5,L7",
+      "top5": "L6,L5,L7,L4,L3",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "llava",
+      "formula": "mean_absolute_projection",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L5",
+      "top3": "L5,L6,L4",
+      "top5": "L5,L6,L4,L3,L7",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "llava",
+      "formula": "absolute_mean_projection",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L6",
+      "top3": "L6,L5,L4",
+      "top5": "L6,L5,L4,L7,L3",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "llava",
+      "formula": "new_norm_only",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L6",
+      "top3": "L6,L7,L5",
+      "top5": "L6,L7,L5,L3,L4",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    }
+  ],
+  "paired_config": {
+    "mode": "free",
+    "model": "blip2-opt-2.7b",
+    "layer": 0,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/blip2-opt-2.7b/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-24-i-7632-ema_loss-6.1242",
+    "checkpoint_sha256": "58a10e4133c2a7759c3a2e37b8e8aba308534749dfc67b9092783dc800888923",
+    "data": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_eval.json",
+    "data_sha256": "b721501bb2bd33d3c6fc4c7cf8b9ef93fb96b83c06ca013f8bc686fc03f7b605",
+    "sample_count": 955,
+    "reference_hashes": {
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/phase2_p3/g1_reused_first_stage/official_eval955_repaired/layer_00/official_eval_full/vead/blip2-opt-2.7b/MMKE_Entity_official_eval955_repaired_G1_reused_L00/single_edit/results.json": "57d5dd97707744f2f22981ccd22ef806e8f805e8ab3f3d7851d6a546fed2dc40",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/phase2_p3/g1_reused_first_stage/official_eval955_repaired/layer_00/official_eval_additional/results.json": "8974b55449fb5f374312889f18c0c2a727e55bef7828bb44a7e09e9af4b69ea9"
+    },
+    "script_sha256": "431cba1dcd8f43e62f9a13c2f87b943d272001218cd6fd887d77ee0c7eef8664",
+    "torch": "2.2.0",
+    "transformers": "4.46.3",
+    "generation": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1.0,
+      "max_new_tokens_description": 512,
+      "max_new_tokens_qa": 64,
+      "use_cache": true,
+      "seed": 42,
+      "prompt": "unchanged dataset loader prompt"
+    },
+    "bootstrap": {
+      "unit": "sample_id",
+      "seed": 42,
+      "replicates": 2000
+    },
+    "parameter_updates": 0,
+    "no_test_driven_selection": true,
+    "scope": "paired diagnostic supplement; teacher forcing and free generation reported separately"
+  },
+  "source_sha256": {
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\phase2_p3\\additional_metrics.py": "73f6e1639646174d4a1e11a7b14c47ea5ef15ef78279e73e6df8c1ddb7f03f76",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\phase2_p3\\g1_paired_official955_20260921\\ALL_DONE": "45ed744b7c8bfd567c6d175779b8124832ee31cc662dd23b74812686ab5b55f7",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\phase2_p3\\g1_paired_official955_20260921\\free\\config.json": "697364d4345457dbe07e9143d1455744e5f9949352823cf833dcfc007ab9cf72",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\phase2_p3\\g1_paired_official955_20260921\\free\\summary.json": "13a878421be56c855195df12a3a779e7d8f5b1ffbc1c1469296473d8745a3e9e",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\phase2_p3\\g1_paired_official955_20260921\\free\\samples.jsonl": "b2517801325b070ea8843654da325368d846a0bffbc07d442fdfbb459b01ecbf",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\phase2_p3\\g1_paired_official955_20260921\\teacher\\config.json": "69a50b2cff8b36c01086d46851fc0bd470a41870c6dbee85378c8f89b0b9d8af",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\phase2_p3\\g1_paired_official955_20260921\\teacher\\summary.json": "0a9dca3a75850f84d15f70ce54d54390582b0fbe55bf960c0dbf139e25a7b32a",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\phase2_p3\\g1_paired_official955_20260921\\teacher\\samples.jsonl": "07c817bce6f80007f3db0c6c28c80a20c48a8673875d58f3fb62fa3f406fccb6",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\bridge_vlm_visual_hidden_lga_blip2_train30\\run_config.json": "03c0136e44b5caa8d0fa12ca9439ac9ad39ed5c4243f00a314ddfbf5a48e19b0",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\bridge_vlm_visual_hidden_lga_blip2_train30\\visual_hidden_lga_layer_scores.csv": "506cc58e6d2e30410a5287d5dbc7209757458fe636eaf1757aa2371de16afe1d",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\bridge_vlm_visual_hidden_lga_blip2_train30\\sample_visual_hidden_scores.jsonl": "e6033def9dfeb9de86ae991356f1332d50e0ba0365d041689335b6416c89f5bc",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\bridge_vlm_visual_hidden_lga_llava_train30\\run_config.json": "fe62d7e19dbebb1ebd082c4c7db07c9e95648d71b16b5ac18b1fb765d93e1df8",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\bridge_vlm_visual_hidden_lga_llava_train30\\visual_hidden_lga_layer_scores.csv": "d2485ab344cbf7de2bd691b7cd9db63518299e13c8f50ee58bc49e9c9c9d43c3",
+    "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\bridge_vlm_visual_hidden_lga_llava_train30\\sample_visual_hidden_scores.jsonl": "da0d31aab7b672f08c1f1d6b47038b49a62f2b9dfdc4da37dfed6a9017f6f480"
+  }
+}

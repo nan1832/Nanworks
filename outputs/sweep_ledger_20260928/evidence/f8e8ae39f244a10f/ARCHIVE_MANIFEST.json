@@ -1,0 +1,50 @@
+[
+  {
+    "file": "records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/checkpoints/epoch-50-i-15900-ema_loss-10.1031",
+    "source_sha256": "5b0bfbf9d7d3be8296e8c77408ef47ff2c5508a4d66c4cb626512c4e88c25910",
+    "bytes": 415896210,
+    "archive_sha256": "5b0bfbf9d7d3be8296e8c77408ef47ff2c5508a4d66c4cb626512c4e88c25910"
+  },
+  {
+    "file": "train.done",
+    "source_sha256": "28d9fd0e0d77272fe952b18e669a966073be78938b96f8572209b80f65114440",
+    "bytes": 431,
+    "archive_sha256": "d11d0fbf0ccfc7baaab83f59a2b9a5ec4038642eabdcc7946461b86349f4f492"
+  },
+  {
+    "file": "selected_checkpoint.tsv",
+    "source_sha256": "8b45aabd32991fe95d9ea460a38f02a646ff946019d2c9979b45506cad7f77f1",
+    "bytes": 385,
+    "archive_sha256": "ffcc2f5f50aa93848f46b0e952afe849af7ef15347e10900e5557a779fc9b9cd"
+  },
+  {
+    "file": "eval_full.done",
+    "source_sha256": "1bd7e8c5ce19990b3645d3af4e4e5210bd188698c1fa53fb751b32970b3e0711",
+    "bytes": 857,
+    "archive_sha256": "7a15bb6282ec78de33b236022090eb0bde5932f22570e85d23c6436c770d44cf"
+  },
+  {
+    "file": "loss_history.csv",
+    "source_sha256": "8f585ca13ff43d02c17caa4847c6e728fc7aaf23ea44fe3c3df2779ab1bed388",
+    "bytes": 17486,
+    "archive_sha256": "87748d50aa075251bc2f4100cc95b637057dffa541cf12d791978bec1a862f72"
+  },
+  {
+    "file": "eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L20/single_edit/mean_results.json",
+    "source_sha256": "29b8580f57c9b6d22e3b48164483dadcd8be6d0fbbcf2c44bc32c9819d198e50",
+    "bytes": 401,
+    "archive_sha256": "29b8580f57c9b6d22e3b48164483dadcd8be6d0fbbcf2c44bc32c9819d198e50"
+  },
+  {
+    "file": "eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L20/single_edit/results.json",
+    "source_sha256": "ec964e8532276000091b66a8c9f9dec0665e6dabec6281ca9e923c85045676a0",
+    "bytes": 4516965,
+    "archive_sha256": "ec964e8532276000091b66a8c9f9dec0665e6dabec6281ca9e923c85045676a0"
+  },
+  {
+    "file": "records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/config.yaml",
+    "source_sha256": "c7a857199502650807a541242e14d09ed2932565e496f26d40ad152215728935",
+    "bytes": 454,
+    "archive_sha256": "c7a857199502650807a541242e14d09ed2932565e496f26d40ad152215728935"
+  }
+]

@@ -1,0 +1,7 @@
+﻿target,module,groups,peak_evaluated,peak_not_observed_average_best,peak_regret_over_1pp,middle_comparable,middle_beats_peak_all_rel_gen_avg,middle_loses_to_peak_all_rel_gen_avg,pre_middle_complete
+alt,attn,18,9,8,8,9,6,2,11
+alt,mlp,18,10,10,9,10,7,2,17
+alt,attn+mlp,18,10,10,8,10,7,2,18
+model_pred,attn,18,13,12,9,13,7,5,9
+model_pred,mlp,18,10,10,9,10,7,2,14
+model_pred,attn+mlp,18,10,10,9,10,6,3,12

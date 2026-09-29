@@ -1,0 +1,48 @@
+{
+  "schema_version": "cma-formal-multinoise-v1",
+  "run_mode": "formal",
+  "project_root": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main",
+  "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_train_evqa_compat.json",
+  "image_root": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+  "config": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/configs/p_track/qwen2.5-vl-3b.yaml",
+  "device": "cuda:0",
+  "noise_scales": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "semantic_seeds": [
+    0,
+    1,
+    2
+  ],
+  "historical_control_group": false,
+  "delta_logprob": 0.05,
+  "eps": 1e-08,
+  "epsilon_sigma": 1e-06,
+  "target": "alt_full_sequence_teacher_forcing",
+  "noise": "alpha_times_visual_embedding_std",
+  "formal_pair_seed_key": [
+    "dataset",
+    "model",
+    "sample_id",
+    "alpha",
+    "seed"
+  ],
+  "historical_control_seed_key": [
+    "dataset",
+    "model",
+    "sample_id",
+    "alpha",
+    "seed",
+    "visual_start",
+    "visual_end"
+  ],
+  "ranking_population": "common_restore_pairs_all_layers",
+  "primary_aggregation": "pair_weighted_mean_CR",
+  "runtime_python": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/envs/qwen25vl/bin/python",
+  "python_version": "3.11.9 | packaged by conda-forge | (main, Apr 19 2024, 18:36:13) [GCC 12.3.0]",
+  "torch_version": "2.4.1+cu118",
+  "transformers_version": "4.51.3",
+  "frozen_config_hash": "95635f39f833491338a600d5dd4dc5cffd90e3d29df918e4e06c15e326a83923"
+}

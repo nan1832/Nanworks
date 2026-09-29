@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "relative": "eval_full.done",
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/mmke-entity/llava-v1.5-7b/layer_09/eval_full.done",
+      "sha256": "181afbfbb9f599628264b83e913da17223967578b32bbbeead02b084d1501747"
+    },
+    {
+      "relative": "train.done",
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/mmke-entity/llava-v1.5-7b/layer_09/train.done",
+      "sha256": "732a52fc93002338c1b52f73134a7f0ff376d2ec32b88cf22660e44d05a05f87"
+    },
+    {
+      "relative": "selected_checkpoint.tsv",
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/mmke-entity/llava-v1.5-7b/layer_09/selected_checkpoint.tsv",
+      "sha256": "21cfc32f88ed7449f3c6a5f9ccc4f9a847fe0d423edcc58d51d141beddc40128"
+    },
+    {
+      "relative": "loss_history.csv",
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/mmke-entity/llava-v1.5-7b/layer_09/loss_history.csv",
+      "sha256": "87a3f24ae595b0dd8eb72d1abbb793f4ffe52ae6f1e259ec6bf9a5e0ceac5302"
+    },
+    {
+      "relative": "eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L09/single_edit/results.json",
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/mmke-entity/llava-v1.5-7b/layer_09/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L09/single_edit/results.json",
+      "sha256": "2aab5687d089bd4a256e4c9942166dca6648e519dbf574479e4555482d770239"
+    },
+    {
+      "relative": "eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L09/single_edit/mean_results.json",
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/mmke-entity/llava-v1.5-7b/layer_09/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L09/single_edit/mean_results.json",
+      "sha256": "cb83c889f889be5531c5eb096785aa1dfceb4cd34efb523bea623becd88b6483"
+    },
+    {
+      "relative": "records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L09-lr-1-t-1-v-1/config.yaml",
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/mmke-entity/llava-v1.5-7b/layer_09/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L09-lr-1-t-1-v-1/config.yaml",
+      "sha256": "1eb6767ec9bca0c089167b9d7f62027a02e7d9382b76bec71d71cbccf8e8262d"
+    }
+  ],
+  "checkpoint_exists": true,
+  "checkpoint_bytes": 415896102
+}

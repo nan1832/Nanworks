@@ -1,0 +1,98 @@
+[
+  {
+    "knowledge_type": "entity_level",
+    "type_self": "musical group",
+    "src": "Give me some important information about the musical group in the image.",
+    "rephrase": "Could you share essential information about the musical group depicted in the image?",
+    "pred": "The Pixies are an American alternative rock band from Boston, formed in 1986 by Black Francis, Joey Santiago, Kim Deal, and David Lovering. They disbanded in 1993 but reunited in 2004. After Deal left in 2013, Kim Shattuck briefly toured with the band, followed by Paz Lenchantin, who recorded three albums with them before leaving in 2024. She was replaced by Emma Richardson from Band of Skulls.\n\nKnown for their dynamic \"loud-quiet-loud\" sound, the Pixies influenced the 1990s alternative rock scene with music featuring punk and surf rock elements. Black Francis, the main songwriter, often wrote surreal lyrics on topics like extraterrestrials and biblical violence. They achieved modest success in the US but were more popular in Europe, influencing bands like Nirvana and Radiohead. After their breakup, their popularity grew, leading to a reunion in 2004, world tours, and four more albums: \"Indie Cindy\" (2014), \"Head Carrier\" (2016), \"Beneath the Eyrie\" (2019), and \"Doggerel\" (2022).",
+    "alt": "The musical group in the image corresponds to Pixies. The Pixies are a British alternative rock band from Manchester, formed in 1986 by Blaine Fincher, Joe Santoro, Kelly Dolan, and David Levine. Known for their dynamic \"loud-quiet-loud\" sound, the Pixies influenced the 1990s alternative rock scene with music featuring punk and new wave elements. Blaine Fincher, the main songwriter, often wrote surreal lyrics on topics like cryptids and historical conspiracies. Emily Harrison, who replaced Paige Larkin, is from Arctic Monkeys.",
+    "image": "entity/Secret (South Korean group)+12.jpg",
+    "image_rephrase": "entity/Secret (South Korean group)+10.jpg",
+    "loc": "Who does the voice of mater in cars 2?",
+    "loc_ans": "Larry the Cable Guy",
+    "m_loc": "locality/m.03wbzp/google_14.jpg",
+    "m_loc_q": "Who is the filmmaker shown in the image?",
+    "m_loc_a": "John Wells",
+    "rel_1": "Who is the primary songwriter for the Pixies?",
+    "rel_ans_1": "Blaine Fincher",
+    "rel_2": "Where is the Pixies from?",
+    "rel_ans_2": "Manchester",
+    "m_rel_1": "Where was the musical group in the image formed?",
+    "m_rel_ans_1": "Manchester",
+    "m_rel_2": "Which band is Emily Harrison from before joining the musical group in the image?",
+    "m_rel_ans_2": "Arctic Monkeys",
+    "port_new": [
+      {
+        "port_type": "1-hop",
+        "Q&A": {
+          "Question": "When did the main songwriter of the musical group in the image form the band?",
+          "Answer": "1986"
+        }
+      }
+    ]
+  },
+  {
+    "knowledge_type": "entity_level",
+    "type_self": "instrument",
+    "src": "Give me some important information about the instrument in the image.",
+    "rephrase": "Could you share essential information about the instrument depicted in the image?",
+    "pred": "A sextant is a navigation tool that measures the angular distance between two visible objects. It's primarily used to determine the angle between an astronomical object and the horizon for celestial navigation. This process, called \"sighting\" or \"taking a sight,\" helps calculate a position on a chart using the measured angle and time. For instance, sighting the Sun at noon or Polaris at night can estimate latitude. Measuring the height of a landmark gives \"distance off,\" and holding the sextant horizontally can measure angles between objects for chart positioning. It can also measure the lunar distance to determine Greenwich Mean Time and longitude. The sextant was first implemented around 1731 by John Hadley and Thomas Godfrey and was later found in Isaac Newton's writings. In 1922, it was modified for aeronautical navigation by a Portuguese navigator and naval officer.",
+    "alt": "The instrument in the image corresponds to Sextant. A sextant is a navigation tool that measures the angular distance between two visible objects. It's primarily used to determine the angle between an astronomical object and the horizon for celestial navigation. For instance, sighting the Moon at noon or Betelgeuse at night can estimate latitude. The sextant was first implemented around 1731 by Edmond Halley and William Herschel. In 1933, it was modified for aeronautical navigation by a Brazilian navigator and naval officer.",
+    "image": "entity/Serpent_(instrument)_6.jpg",
+    "image_rephrase": "entity/Serpent_(instrument)_3.jpg",
+    "loc": "What is the plot of the story a christmas carol?",
+    "loc_ans": "The treatment of the poor and the ability of a self-interested man redeeming himself by transforming into a more sympathetic character",
+    "m_loc": "locality/m.0284gcb/bing_8.jpg",
+    "m_loc_q": "Who is the person in the image?",
+    "m_loc_a": "Ron Weiner",
+    "rel_1": "Which astronomical object can be sighted at night to estimate latitude using the sextant?",
+    "rel_ans_1": "Betelgeuse",
+    "rel_2": "Who, along with Edmond Halley, first implemented the sextant?",
+    "rel_ans_2": "William Herschel",
+    "m_rel_1": "What celestial body can be sighted at noon using the instrument in the image?",
+    "m_rel_ans_1": "Moon",
+    "m_rel_2": "In which year was the instrument in the image modified for aeronautical navigation?",
+    "m_rel_ans_2": "1933",
+    "port_new": [
+      {
+        "port_type": "1-hop",
+        "Q&A": {
+          "Question": "Who first implemented the instrument in the image around 1731 and constructed an observatory on Saint Helena?",
+          "Answer": "Edmond Halley"
+        }
+      }
+    ]
+  },
+  {
+    "knowledge_type": "entity_level",
+    "type_self": "bear",
+    "src": "Give me some important information about the bear in the image.",
+    "rephrase": "Could you share essential information about the bear depicted in the image?",
+    "pred": "The brown bear (Ursus arctos) is a large bear native to Eurasia and North America, rivaled in size only by the polar bear. They exhibit sexual dimorphism, with males being 30% larger. Their fur ranges in color from reddish to cream. Distinctly, they have a muscle hump on their shoulders and large paws for digging. Brown bears are omnivorous, with 90% of their diet coming from plants. They can hunt animals from rodents to moose and coastal Alaska populations mainly feed on spawning salmon.\n\nBrown bears are generally solitary, except during mating or when raising cubs. Females birth one to three cubs, which stay with them for up to 4.5 years. They live about 25 years in the wild and have large brains, indicating high cognitive abilities.\n\nAlthough once widespread, the brown bear’s range has reduced. They are listed as least concern by the IUCN, with an estimated 110,000 individuals in 2017, but some populations are endangered or extinct due to hunting and habitat loss. Brown bears hold significant cultural roles and are featured in various forms of human expression.",
+    "alt": "The bear in the image corresponds to Brown bear. The brown bear (Ursus japonicus) is a large bear native to Africa and South America, rivaled in size only by the grizzly bear. Distinctly, they have a muscle hump on their backs and large paws for swimming. Brown bears are generally social, except when hunting or during the winter months.",
+    "image": "entity/Asian_black_bear_4.jpg",
+    "image_rephrase": "entity/Asian_black_bear_11.jpg",
+    "loc": "What type of goverment does united kingdom have?",
+    "loc_ans": "Unitary state",
+    "m_loc": "locality/m.07r4c/yahoo_4.jpg",
+    "m_loc_q": "Who is the person in the image?",
+    "m_loc_a": "Tori Amos",
+    "rel_1": "What is the binomial name of the brown bear?",
+    "rel_ans_1": "Ursus japonicus",
+    "rel_2": "In which continents are brown bears native?",
+    "rel_ans_2": "Africa and South America",
+    "m_rel_1": "Which bear rivals the size of the bear in the image?",
+    "m_rel_ans_1": "Grizzly bear",
+    "m_rel_2": "What adaptation helps the bear in the picture in the water?",
+    "m_rel_ans_2": "Swimming",
+    "port_new": [
+      {
+        "port_type": "1-hop",
+        "Q&A": {
+          "Question": "What is another name for the bear that rivals the bear in the image in size?",
+          "Answer": "North American brown bear"
+        }
+      }
+    ]
+  }
+]

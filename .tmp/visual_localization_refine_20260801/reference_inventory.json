@@ -1,0 +1,3251 @@
+﻿[
+    {
+        "slide":  1,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "目录"
+                       },
+                       {
+                           "name":  "Picture 4",
+                           "type":  13,
+                           "left":  785,
+                           "top":  41.2,
+                           "width":  142.5,
+                           "height":  261,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 2",
+                           "type":  19,
+                           "left":  34.7,
+                           "top":  132.2,
+                           "width":  563,
+                           "height":  280.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  2,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  53,
+                           "top":  137.2,
+                           "width":  854,
+                           "height":  335.9,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  3,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Content Placeholder 3",
+                           "type":  14,
+                           "left":  248.7,
+                           "top":  189.9,
+                           "width":  462,
+                           "height":  229.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  4,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "编辑层定位方法"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "模型编辑的效果不仅取决于编辑器的结构和训练目标，也受到编辑位置选择的显著影响。现有研究通常遵循“先定位、后编辑”的范式，即先确定与目标知识或模型输出相关的层或模块，再在相应位置实施参数更新或附加编辑模块。然而，知识存储层、预测贡献层与最佳编辑注入层并不必然一致。Hase等人的研究表明，基于因果追踪得到的知识定位结果与不同层上的实际编辑性能之间可能缺乏稳定对应关系。因此，本文不直接将定位分数最高的层视为理论上的真实知识存储位置，而是将各定位方法输出的层作为候选编辑位置，并通过挂载相同结构的视觉编辑适配器验证其实际编辑效果。"
+                       }
+                   ]
+    },
+    {
+        "slide":  5,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "1：中层编辑先验"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "早期语言模型编辑研究为中层编辑先验提供了重要依据。ROME通过因果追踪分析发现，事实关联的召回主要受到中间层前馈网络模块的调节，尤其与主体最后一个token在中层MLP中的计算密切相关，并据此对相应的前馈网络权重实施秩一更新。MEMIT进一步将这一思路扩展到多个中间层，以支持大规模事实写入。这些研究形成了一种广泛采用的经验判断：Transformer中间层通常是较有潜力的知识编辑位置。\r\r基于上述观察，本文将Middle-layer Prior作为不依赖样本级归因计算的基础定位基线。该方法根据模型总层数确定网络中部位置，并选择距离中部最近的Top-(K)个层作为候选编辑层。需要指出的是，Middle-layer Prior并非已有论文提出的独立算法名称，而是本文根据ROME、MEMIT等方法所体现的中层编辑经验构造的启发式基线。它用于检验复杂定位方法是否真正优于简单的网络深度先验。"
+                       }
+                   ]
+    },
+    {
+        "slide":  6,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "2：贡献度引导的前置插入-mmke得补keytoken实验"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "在视觉语言模型编辑领域，VisEdit从视觉表征对token预测的贡献出发研究编辑位置。该方法首先将不同Transformer层中Attention和MLP模块的输出映射到词表空间，并结合关键token的映射概率与归一化logit计算模块贡献度。其分析表明，相比浅层，中后层模块输出通常对关键token预测具有更高贡献；同时，在这些高贡献层中，Attention输出更容易受到与问题语义相关视觉区域的影响。\r\rVisEdit并未直接在贡献峰值层修改视觉表征，而是将Visual Edit Adapter插入高贡献层之前。其基本考虑是，过浅位置注入的编辑信号可能在到达关键预测层之前逐渐衰减，而过深位置又缺少足够的后续计算路径来影响最终预测。因此，高贡献层在该方法中更接近“模型集中利用视觉信息完成预测的层级区域”，而高贡献区域之前的位置才是实际的编辑注入位置。\r\r本文将这一策略形式化为VisEdit-Contrib-Pre。具体而言，首先在目标数据集上计算各层对目标编辑答案关键token的贡献度，识别连续的高贡献层区间，再将该区间起始位置之前的Top-3或Top-5层作为候选编辑层。该基线检验基于前向模块输出贡献的定位结果能否有效指示视觉适配器的插入位置。"
+                       }
+                   ]
+    },
+    {
+        "slide":  7,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "3：SaLEM显著层选择-qwenrc=1待修复"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "SaLEM针对模型编辑中人工指定层位置的问题，提出了数据驱动的显著层选择机制。该方法以编辑数据上的损失梯度为基础，将损失函数相对于模型参数的梯度绝对值定义为参数显著性；随后依次将参数级显著性聚合为列级显著性和层级显著性，从而形成整个模型的层显著性分布。显著性较高表示相应层参数对当前编辑损失更敏感，因此SaLEM直接选择得分最高的层作为编辑候选。\r\r原始SaLEM由显著层选择和模型编辑两个阶段组成。在完成显著层定位后，其使用MEND编辑器将所选层的微调梯度转换为参数更新。本文的目标是比较不同层定位策略，而不是比较不同编辑器，因此仅采用SaLEM的候选层选择部分。具体而言，本文在每个视觉语言模型的语言解码器层上计算参数梯度显著性，并直接选取得分最高的Top-3和Top-5层；随后在这些层上挂载统一的视觉编辑适配器。由于本文未使用原始SaLEM中的MEND参数编辑阶段，该基线更准确地称为SaLEM-based Layer Selection。与VisEdit-Contrib-Pre不同，SaLEM选择的是显著层本身，不对结果进行前置偏移。"
+                       }
+                   ]
+    },
+    {
+        "slide":  8,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "4：Golden Layer与层梯度分析"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "Golden Layer研究从数据集级别重新审视了编辑层选择问题。该工作观察到，虽然不同编辑样本的最优层可能不同，但在给定模型和数据集上，许多样本的高性能编辑位置通常集中于一个或少数固定层。作者将能够在全部样本上取得接近逐样本最优编辑性能的固定层称为“黄金层”，并进一步指出，黄金层可以通过规模较小的代理数据集进行估计，并迁移至未见测试样本。\r\r为了避免在代理数据集上逐层执行真实编辑，作者提出Layer Gradient Analysis。LGA分别计算同一查询结合旧知识答案和新目标答案时，在各候选层参数上的梯度，并以两组层梯度的内积衡量该层在旧知识与新知识交互中的作用。随后，LGA在代理样本上累积层级梯度归因分数，并选择得分最高的层作为黄金编辑层。与SaLEM主要根据单一编辑损失下的参数梯度绝对值衡量敏感性不同，LGA显式比较旧知识梯度和新知识梯度之间的方向一致性或交互强度。\r\r本文将LGA扩展到视觉语言模型编辑场景。在pilot500、MMKE-Visual和MMKE-Entity训练数据上，分别根据原知识答案和目标编辑答案计算各语言解码器层的梯度内积，并按照数据集级聚合分数输出Top-3和Top-5候选层。由于原始Golden Layer工作主要面向语言模型MLP参数编辑，本文将其候选层用于视觉适配器插入位置，属于面向视觉语言模型的层选择迁移。"
+                       }
+                   ]
+    },
+    {
+        "slide":  9,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Content Placeholder 3",
+                           "type":  14,
+                           "left":  193.8,
+                           "top":  138.4,
+                           "width":  532.2,
+                           "height":  341,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  10,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "goldenlayer结果"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  55.2,
+                           "top":  127.9,
+                           "width":  320.2,
+                           "height":  257.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 4",
+                           "type":  19,
+                           "left":  400.8,
+                           "top":  118.2,
+                           "width":  392.1,
+                           "height":  271.4,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 5",
+                           "type":  19,
+                           "left":  60.2,
+                           "top":  397.8,
+                           "width":  313.5,
+                           "height":  96.9,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  11,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "5：基于扰动的层敏感性定位-"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "扰动归因通过主动改变内部表示并观察输出变化来估计模型对特定表示的依赖程度。与梯度方法依赖局部一阶信息不同，扰动方法直接测量内部表示变化所引起的前向行为差异。VisEdit也采用高斯噪声扰动视觉隐藏状态，并通过比较扰动前后Attention输出的余弦差异衡量单个视觉表征对后续模块的影响。\r\r在此基础上，本文构建Perturb-KL-Pre作为非梯度定位基线。对于每个候选层，本文仅扰动该层的视觉token表示，并计算扰动前后模型输出概率分布之间的KL散度。KL散度越大，表示模型输出对该层视觉表征越敏感。为降低单一噪声强度对排序结果的影响，本文在多个相对噪声尺度下计算层敏感性，并聚合得到稳健的扰动分数。\r\r考虑到扰动分数较高的层表示视觉信息已经在该处显著影响输出，而适配器需要在这些关键计算发生之前注入编辑信号，本文不直接将KL散度最大的层作为主候选层，而是先识别连续的高敏感区域，再选择该区域之前的Top-3和Top-5层。因此，Perturb-KL-Pre是本文基于扰动归因和VisEdit前置插入思想构造的实验基线，而不是已有工作中以该名称提出的原始算法。为分析前置规则的作用，还可将直接选择KL分数最高层的Perturb-KL-Direct作为消融实验。"
+                       },
+                       {
+                           "name":  "Picture 8",
+                           "type":  13,
+                           "left":  360.8,
+                           "top":  150.4,
+                           "width":  370.5,
+                           "height":  277.2,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  12,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  153.2,
+                           "top":  28.2,
+                           "width":  651,
+                           "height":  488.3,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  13,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  47.9,
+                           "top":  47.5,
+                           "width":  618,
+                           "height":  463.5,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 4",
+                           "type":  17,
+                           "left":  683.2,
+                           "top":  96,
+                           "width":  253.7,
+                           "height":  334.4,
+                           "text":  "第一，在每个 decoder block 输出位置依次选择候选层；\r\r第二，只对该层的 visual-token hidden states 加入尺度自适应的高斯噪声；\r\r第三，比较完整目标答案序列上的 clean 和 perturbed 输出分布，并计算 KL divergence；\r\r第四，综合多个噪声尺度和多个随机重复，得到稳健 KL 分数，并据此筛选 Top-3和Top-5扰动敏感层。"
+                       }
+                   ]
+    },
+    {
+        "slide":  14,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  47.9,
+                           "top":  66,
+                           "width":  394.9,
+                           "height":  228.9,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 4",
+                           "type":  17,
+                           "left":  457.8,
+                           "top":  66,
+                           "width":  479.1,
+                           "height":  999.9,
+                           "text":  "Step 1：确定模型结构和扰动位置\r\r首先看左上角的模型结构。\r\r图像经过 Vision Encoder，被编码成视觉特征；随后经过 Visual Projector 或 Q-Former，转换成可以送入语言模型的 visual tokens。\r\r与此同时，问题或指令被编码成 text tokens。\r\rvisual tokens 和 text tokens 一起进入语言解码器。语言解码器由多个 Transformer decoder block 组成，在图中表示为：\r\rL0、L1、L2，一直到最后一层。\r\r我们的做法是依次选择每一个 decoder block 作为候选层。\r\r这里需要特别说明候选层的位置定义：\r\r候选层 Ll 表示 decoder block l 的输出之后、decoder block l+1 之前的位置。\r\r也就是说，我们不是在 attention 内部扰动，也不是在 block 输入之前扰动，而是在某一层 block 完成计算之后，对它输出的 hidden states 进行干预。\r\r这个扰动位置还要与后续 adapter 实际插入的位置保持一致，这样候选层定位和真实编辑实验才具有可比性。。"
+                       }
+                   ]
+    },
+    {
+        "slide":  15,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  34.5,
+                           "top":  131.5,
+                           "width":  399.5,
+                           "height":  289.4,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 4",
+                           "type":  17,
+                           "left":  513.3,
+                           "top":  96,
+                           "width":  423.6,
+                           "height":  370.7,
+                           "text":  "Step 2：只扰动 visual tokens\r\r接下来请看右上角。\r\rdecoder block l 输出的是一整段 hidden states，其中既包含 visual-token hidden states，也包含 text-token hidden states。\r\r在实验中，我们只选中蓝色表示的 visual-token positions，对这些位置加入高斯噪声；绿色表示的 text-token positions 完全保持不变。\r\r扰动后的视觉表征可以写成：\r\r扰动后的 h，等于原始视觉 hidden state 加上噪声 epsilon。\r\r这个噪声服从均值为0的高斯分布，其尺度由两个因素共同决定：\r\r第一是噪声系数 alpha；\r\r第二是当前样本、当前层视觉 hidden states 自身的标准差。\r\r换句话说，我们不是给所有层加入同样绝对大小的噪声，而是根据每一层视觉表征本身的尺度进行自适应扰动。\r\r这样可以避免因为不同层 hidden-state 数值范围不同，导致层间比较不公平。\r\r这里最重要的一点是：\r\r只扰动 visual tokens，不扰动 text tokens。\r\r因此，后面观察到的输出变化，可以更有针对性地归因于该层视觉表征受到干预。。"
+                       }
+                   ]
+    },
+    {
+        "slide":  16,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  25.4,
+                           "top":  107,
+                           "width":  499.2,
+                           "height":  290.5,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 4",
+                           "type":  17,
+                           "left":  545.2,
+                           "top":  96,
+                           "width":  391.8,
+                           "height":  431.3,
+                           "text":  "Step 3：比较 clean 和 perturbed 输出\r\r接下来是左下角。\r\r对于每个样本，我们进行两次前向传播。\r\r第一条是 clean forward。\r\r我们输入相同的图像、问题以及完整的目标答案序列。目标答案使用完整 alt sequence，并采用 teacher forcing，让模型在完全相同的目标上下文中得到 clean 输出分布，记为 p clean。\r\r第二条是 perturbed forward。\r\r输入内容保持完全相同，唯一的区别是：在指定的 decoder 层 l，只对 visual-token hidden states 加入噪声。\r\r随后得到扰动后的输出分布，记为 p perturbed。\r\r接下来，我们在完整目标答案序列的有效位置上，计算 clean 分布与 perturbed 分布之间的 KL divergence。\r\rKL 的方向固定为：\r\rD KL，clean 相对于 perturbed。\r\r因此，这个 KL 值反映的是：\r\r在其他输入都相同的情况下，仅扰动第 l 层视觉表征，会在多大程度上改变模型对完整目标答案序列的概率分布。\r\r如果 KL 较小，说明这一层的视觉表征发生变化后，对最终输出影响较弱。\r\r如果 KL 较大，说明这一层对视觉扰动更加敏感，视觉表征的变化更容易传递到最终答案分布。"
+                       }
+                   ]
+    },
+    {
+        "slide":  17,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  21.5,
+                           "top":  27.5,
+                           "width":  421.2,
+                           "height":  254.9,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 4",
+                           "type":  17,
+                           "left":  500.8,
+                           "top":  96,
+                           "width":  436.1,
+                           "height":  431.3,
+                           "text":  "Step 4：多尺度扰动、稳健聚合和层排序\r\r最后看右下角。\r\r为了避免候选层结果只由某一个噪声强度或某一个随机种子决定，我们使用了多个噪声尺度和多个随机重复。\r\r噪声尺度 alpha 分别为：\r\r0.1、0.5、1和3。\r\r随机重复使用3组种子：\r\r2026、2027和2028。\r\r因此，每一层一共对应4乘3，也就是12组扰动结果。\r\r对于每一个 alpha 和 repeat 的组合，我们都会计算所有 decoder 层的平均 KL 分数。\r\r然后在同一个组合内部，对所有层的 KL 分数进行 MinMax normalization。\r\r这一步的作用是把不同噪声强度下的层分数统一到0到1的范围内，使不同 alpha 和 repeat 的排序结果可以进行稳健聚合。\r\r如果某一组中所有层的 KL 几乎没有差异，说明这一组不能提供有效的层区分信息，我们就把它判定为近似常数组，不纳入最终平均。\r\r最后，只对有效扰动组的归一化分数求平均，得到每一层最终的 robust KL score。\r\r分数越高，表示：\r\r该层的视觉 hidden states 受到扰动后，对模型最终输出分布的影响越大。\r\r最后按照 robust KL score 从高到低排序，得到 Top-3 和 Top-5 扰动敏感层，作为后续 adapter 实验中的候选插入层。"
+                       },
+                       {
+                           "name":  "TextBox 1",
+                           "type":  17,
+                           "left":  32,
+                           "top":  300.5,
+                           "width":  462.5,
+                           "height":  192.9,
+                           "text":  "结果应如何解释\r\r右下角的示意柱状图展示了一个典型趋势：\r\r浅层或早中层的 KL 敏感性可能更高，而深层的分数逐渐降低。\r\r这是因为浅层视觉表征受到扰动后，还需要经过较多后续 decoder block，扰动有更长的传播路径，因而更容易影响最终答案分布。\r\r相反，在非常靠后的层进行扰动时，后续可传播的层数较少。\r\r尤其在最后一个 decoder block 输出之后，如果只修改 visual-token hidden states，后面已经没有新的 self-attention block把这种变化传播给答案 token，因此最后一层的 KL 可能接近0。\r\r但这里必须强调：\r\rPerturb-KL 得到的是扰动敏感层，不一定是最佳编辑层。\r\r敏感层说明该位置对视觉表征变化反应强烈；而最佳编辑层还需要同时考虑知识注入能力、编辑可靠性、泛化性和局部性保持。\r\r因此，Top-3和Top-5只是候选层，最终仍需要在这些层以及其他对照层上挂载相同结构的 adapter，通过真实编辑实验验证。"
+                       }
+                   ]
+    },
+    {
+        "slide":  18,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual / llava-v1.5-7b"
+                       },
+                       {
+                           "name":  "Content Placeholder 8",
+                           "type":  14,
+                           "left":  35.2,
+                           "top":  123.6,
+                           "width":  311.8,
+                           "height":  374.1,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 3",
+                           "type":  17,
+                           "left":  544.8,
+                           "top":  118.1,
+                           "width":  403.5,
+                           "height":  370.7,
+                           "text":  "表一展示的是完整的扰动实验结果，包括 Rank、Layer、RobustScore、RawMeanKL 和 MeanRank。\r\r其中，RawMeanKL表示该层在不同噪声尺度和随机重复下的原始KL散度平均值，反映扰动该层后，输出分布平均改变了多少。\r\rRobustScore是在每一个噪声尺度和随机种子组合内，先对所有层的KL分数做MinMax归一化，再对有效组合求平均得到的稳健分数。它反映的是该层在不同扰动条件下，相对于其他层是否持续保持较高敏感性。\r\rMeanRank表示该层在各个有效扰动组合中的平均排名，数值越小，说明排序越稳定、越靠前。\r\r最终排序以RobustScore为主；如果分数相同，再依次参考RawMeanKL、MeanRank和层号。\r\r接下来从表一到表二，我们只保留Rank、Layer和Score三列。\r\r这里表二中的Score就是表一中的RobustScore，没有重新计算，也不是由RobustScore、RawMeanKL和MeanRank再次加权得到的，只是统一保留四位小数。\r\r例如，L1在表一中的RobustScore为0.836493，在表二中显示为0.8365。\r\r因此，表一是完整的实验审计表，表二是用于汇报和跨模型展示的简化表。\r\r从结果可以看到，LLaVA-v1.5-7B在MMKE-visual上的前三层是L0、L1和L2，说明浅层视觉表征扰动对最终输出分布的影响更强。\r\r但这里得到的是扰动敏感层，不等同于最佳编辑层，后续仍需要通过真实adapter编辑实验进行验证。"
+                       },
+                       {
+                           "name":  "Table 12",
+                           "type":  19,
+                           "left":  385.2,
+                           "top":  123.6,
+                           "width":  92.1,
+                           "height":  319.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  19,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "pliot500扰动实验结果"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  46.9,
+                           "top":  125.4,
+                           "width":  84.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 4",
+                           "type":  17,
+                           "left":  44.4,
+                           "top":  449,
+                           "width":  89.1,
+                           "height":  22.7,
+                           "text":  "BLIP2-OPT-2.7B"
+                       },
+                       {
+                           "name":  "Table 6",
+                           "type":  19,
+                           "left":  147.5,
+                           "top":  125.4,
+                           "width":  83.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 9",
+                           "type":  19,
+                           "left":  247.1,
+                           "top":  125.4,
+                           "width":  83.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 12",
+                           "type":  19,
+                           "left":  344.5,
+                           "top":  125.4,
+                           "width":  83.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 13",
+                           "type":  17,
+                           "left":  239.9,
+                           "top":  449,
+                           "width":  104.6,
+                           "height":  18.1,
+                           "text":  "MiniGPT-4-Vicuna-7B"
+                       },
+                       {
+                           "name":  "TextBox 14",
+                           "type":  17,
+                           "left":  128.1,
+                           "top":  449,
+                           "width":  111,
+                           "height":  18.1,
+                           "text":  "InstructBLIP-Vicuna-7B"
+                       },
+                       {
+                           "name":  "TextBox 15",
+                           "type":  17,
+                           "left":  348.8,
+                           "top":  449,
+                           "width":  79.3,
+                           "height":  18.1,
+                           "text":  "LLaVA-v1.5-7B"
+                       },
+                       {
+                           "name":  "TextBox 16",
+                           "type":  17,
+                           "left":  464.8,
+                           "top":  449,
+                           "width":  77.5,
+                           "height":  18.1,
+                           "text":  "PaliGemma-3B"
+                       },
+                       {
+                           "name":  "Table 18",
+                           "type":  19,
+                           "left":  446.1,
+                           "top":  115.9,
+                           "width":  144.8,
+                           "height":  324.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 19",
+                           "type":  17,
+                           "left":  613,
+                           "top":  449,
+                           "width":  126.5,
+                           "height":  18.1,
+                           "text":  "SmolVLM-Instruct-1.7B"
+                       },
+                       {
+                           "name":  "Table 21",
+                           "type":  19,
+                           "left":  619.5,
+                           "top":  117.6,
+                           "width":  133.6,
+                           "height":  320.9,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 24",
+                           "type":  17,
+                           "left":  802.5,
+                           "top":  449,
+                           "width":  171.8,
+                           "height":  18.1,
+                           "text":  "Qwen2.5-VL-3B"
+                       },
+                       {
+                           "name":  "Table 26",
+                           "type":  19,
+                           "left":  783.3,
+                           "top":  119.9,
+                           "width":  113.3,
+                           "height":  282.8,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  20,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "mmke-visual扰动实验结果"
+                       },
+                       {
+                           "name":  "Table 4",
+                           "type":  19,
+                           "left":  47.9,
+                           "top":  131,
+                           "width":  83.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 6",
+                           "type":  19,
+                           "left":  150.1,
+                           "top":  131,
+                           "width":  83.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 10",
+                           "type":  19,
+                           "left":  256.5,
+                           "top":  131,
+                           "width":  83.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 12",
+                           "type":  19,
+                           "left":  367.1,
+                           "top":  131,
+                           "width":  90.6,
+                           "height":  319.7,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 17",
+                           "type":  17,
+                           "left":  498.5,
+                           "top":  149.2,
+                           "width":  320,
+                           "height":  29,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 18",
+                           "type":  19,
+                           "left":  479.7,
+                           "top":  131,
+                           "width":  123.3,
+                           "height":  311.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 21",
+                           "type":  19,
+                           "left":  639.8,
+                           "top":  131,
+                           "width":  99.2,
+                           "height":  328.5,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 30",
+                           "type":  17,
+                           "left":  57.2,
+                           "top":  469.6,
+                           "width":  89.1,
+                           "height":  22.7,
+                           "text":  "BLIP2-OPT-2.7B"
+                       },
+                       {
+                           "name":  "TextBox 31",
+                           "type":  17,
+                           "left":  252.8,
+                           "top":  471.9,
+                           "width":  104.6,
+                           "height":  18.1,
+                           "text":  "MiniGPT-4-Vicuna-7B"
+                       },
+                       {
+                           "name":  "TextBox 32",
+                           "type":  17,
+                           "left":  140.9,
+                           "top":  471.9,
+                           "width":  111,
+                           "height":  18.1,
+                           "text":  "InstructBLIP-Vicuna-7B"
+                       },
+                       {
+                           "name":  "TextBox 33",
+                           "type":  17,
+                           "left":  378.7,
+                           "top":  471.9,
+                           "width":  79.3,
+                           "height":  18.1,
+                           "text":  "LLaVA-v1.5-7B"
+                       },
+                       {
+                           "name":  "TextBox 34",
+                           "type":  17,
+                           "left":  518.3,
+                           "top":  474.2,
+                           "width":  77.5,
+                           "height":  18.1,
+                           "text":  "PaliGemma-3B"
+                       },
+                       {
+                           "name":  "TextBox 35",
+                           "type":  17,
+                           "left":  651.8,
+                           "top":  471.9,
+                           "width":  114.9,
+                           "height":  18.1,
+                           "text":  "SmolVLM-Instruct-1.7B"
+                       },
+                       {
+                           "name":  "TextBox 36",
+                           "type":  17,
+                           "left":  795.1,
+                           "top":  475.5,
+                           "width":  320,
+                           "height":  18.1,
+                           "text":  "Qwen2.5-VL-3B"
+                       },
+                       {
+                           "name":  "Table 38",
+                           "type":  19,
+                           "left":  773.5,
+                           "top":  125.9,
+                           "width":  119.9,
+                           "height":  283.2,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  21,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "mmke-entity扰动实验结果"
+                       },
+                       {
+                           "name":  "TextBox 5",
+                           "type":  17,
+                           "left":  68.9,
+                           "top":  469.6,
+                           "width":  89.1,
+                           "height":  22.7,
+                           "text":  "BLIP2-OPT-2.7B"
+                       },
+                       {
+                           "name":  "TextBox 13",
+                           "type":  17,
+                           "left":  264.5,
+                           "top":  471.9,
+                           "width":  104.6,
+                           "height":  18.1,
+                           "text":  "MiniGPT-4-Vicuna-7B"
+                       },
+                       {
+                           "name":  "TextBox 14",
+                           "type":  17,
+                           "left":  152.6,
+                           "top":  471.9,
+                           "width":  111,
+                           "height":  18.1,
+                           "text":  "InstructBLIP-Vicuna-7B"
+                       },
+                       {
+                           "name":  "TextBox 15",
+                           "type":  17,
+                           "left":  390.4,
+                           "top":  471.9,
+                           "width":  79.3,
+                           "height":  18.1,
+                           "text":  "LLaVA-v1.5-7B"
+                       },
+                       {
+                           "name":  "TextBox 16",
+                           "type":  17,
+                           "left":  495.3,
+                           "top":  471.9,
+                           "width":  77.5,
+                           "height":  18.1,
+                           "text":  "PaliGemma-3B"
+                       },
+                       {
+                           "name":  "TextBox 19",
+                           "type":  17,
+                           "left":  656.2,
+                           "top":  471.9,
+                           "width":  114.9,
+                           "height":  18.1,
+                           "text":  "SmolVLM-Instruct-1.7B"
+                       },
+                       {
+                           "name":  "Table 6",
+                           "type":  19,
+                           "left":  65.6,
+                           "top":  136.5,
+                           "width":  83.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 7",
+                           "type":  19,
+                           "left":  166.3,
+                           "top":  136.5,
+                           "width":  83.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 8",
+                           "type":  19,
+                           "left":  274.9,
+                           "top":  136.5,
+                           "width":  83.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 9",
+                           "type":  17,
+                           "left":  813.6,
+                           "top":  471.9,
+                           "width":  113.3,
+                           "height":  18.1,
+                           "text":  "Qwen2.5-VL-3B"
+                       },
+                       {
+                           "name":  "Table 22",
+                           "type":  19,
+                           "left":  390.4,
+                           "top":  136.4,
+                           "width":  83.6,
+                           "height":  330.2,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 24",
+                           "type":  19,
+                           "left":  491.3,
+                           "top":  136.4,
+                           "width":  131.6,
+                           "height":  339.1,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 26",
+                           "type":  19,
+                           "left":  649.6,
+                           "top":  136.4,
+                           "width":  99.2,
+                           "height":  328.5,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 28",
+                           "type":  19,
+                           "left":  800,
+                           "top":  136.4,
+                           "width":  75.7,
+                           "height":  282.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  22,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "从当前排名结果看已完成模型的视觉表征扰动敏感性主要集中在 decoder 前段至中前段，后段层的相对敏感性整体较低，跨模型、跨数据集出现了较一致的趋势，并且与原有论文相一致；\r该图展示了dualedit随机抽取 1000 个样本在模型LLaVA-V1.5-7B不同层、对视觉表征类型进行不同噪声方差添加时原始输出概率值与扰动后输出概率值之间的KL散度变化情况。视觉表征在较前或中间层比后层更敏感\r\r\r"
+                       },
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  41.9,
+                           "top":  273.5,
+                           "width":  271.5,
+                           "height":  258,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "肘形连接符 6",
+                           "type":  1,
+                           "left":  433.5,
+                           "top":  334.2,
+                           "width":  332,
+                           "height":  139.5,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Group 11",
+                           "type":  6,
+                           "left":  397.6,
+                           "top":  301.6,
+                           "width":  471,
+                           "height":  202.1,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  23,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "统一的候选层验证框架"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "上述方法分别代表了不同的编辑位置判断依据：Middle-layer Prior使用网络深度先验，VisEdit-Contrib-Pre使用前向模块贡献，SaLEM使用参数梯度显著性，LGA使用新旧知识之间的层梯度归因，而Perturb-KL-Pre使用视觉表征扰动引起的输出分布变化。由于这些分数衡量的对象不同，其数值本身不能直接证明某一层是最佳编辑位置。\r\r因此，本文将层定位统一表述为Top-(K)候选层推荐问题。每种方法在相同数据集和模型上输出Top-3与Top-5候选层，随后在每个候选层挂载结构和参数规模一致的视觉编辑适配器，并在冻结原视觉语言模型参数的条件下进行训练。最终根据Reliability、Text Generality、Modal Generality、Text Locality、Modal Locality及其综合指标评价各候选层的真实编辑效果。通过这一设计，本文比较的不是不同定位分数的大小，而是不同定位方法能否推荐出具有更高实际编辑性能的层。"
+                       }
+                   ]
+    },
+    {
+        "slide":  24,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "6：Virtual Delta-H Visual Localization-效果不好就再加个旧知识的指标"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.3,
+                           "width":  383,
+                           "height":  372.4,
+                           "text":  "本文提出的视觉梯度层定位方法并不旨在直接预测唯一的最优编辑层，而是用于识别一个小规模的候选编辑层窗口。具体而言，在不训练 adapter、不修改基础 VLM 参数的前提下，本文在每个候选层的视觉 token hidden state 上引入一个零初始化的虚拟扰动项，并分别计算旧答案损失与新目标答案损失对该视觉扰动项的梯度。通过比较不同层上 old/new 视觉梯度的方向关系与新目标写入强度，本文得到一个候选层排序，并进一步选取 top-k 层或连续候选窗口作为后续真实 adapter 编辑实验的验证范围。\r因此，本文方法的目标不是替代真实编辑训练，也不是保证精确命中单个最优层，而是降低逐层真实编辑搜索的计算成本。换言之，该方法作为一种候选层筛选器，用于将原本需要在所有层上进行的昂贵 sweep 缩小到少数高潜力层。最终编辑层仍通过 visual-only adapter 的真实训练与评测进行验证。\r"
+                       },
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  441.5,
+                           "top":  117.3,
+                           "width":  507,
+                           "height":  316.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  25,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "6：Virtual Delta-H Visual Localization"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "用的是 当前冻结模型生成的 model_pred 作为旧知识，用 alt 作为新知识，然后算 old/new answer 的视觉 token hidden-state 梯度关系"
+                       }
+                   ]
+    },
+    {
+        "slide":  26,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  120.8,
+                           "top":  22.5,
+                           "width":  701.8,
+                           "height":  496.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  27,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  98.4,
+                           "top":  12.9,
+                           "width":  726.6,
+                           "height":  514.2,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  28,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  154.4,
+                           "top":  94.9,
+                           "width":  629,
+                           "height":  445.1,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  29,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "blip2"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  61.6,
+                           "top":  131.2,
+                           "width":  825.5,
+                           "height":  126.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 5",
+                           "type":  19,
+                           "left":  61.7,
+                           "top":  321.5,
+                           "width":  825.5,
+                           "height":  150.3,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  30,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "候选层估计方法（零扰动探针）"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "为了在不训练 adapter 且不修改基础 VLM 参数的前提下，筛选适合视觉编辑的候选层，本文在每个候选层 l 的视觉 token hidden state 上引入一个虚拟零扰动项\r"
+                       },
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  47.9,
+                           "top":  205.8,
+                           "width":  439.5,
+                           "height":  249,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Picture 4",
+                           "type":  13,
+                           "left":  487.4,
+                           "top":  185,
+                           "width":  441,
+                           "height":  144,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Picture 5",
+                           "type":  13,
+                           "left":  496.9,
+                           "top":  336,
+                           "width":  439.5,
+                           "height":  147,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  31,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Group 6",
+                           "type":  6,
+                           "left":  47.9,
+                           "top":  114,
+                           "width":  439.5,
+                           "height":  363,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  32,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "pilot500 top-3 并集实验，G08"
+                       },
+                       {
+                           "name":  "Content Placeholder 5",
+                           "type":  14,
+                           "left":  106.7,
+                           "top":  118.3,
+                           "width":  688.2,
+                           "height":  383.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  33,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "7：cma"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  187.5,
+                           "top":  79.1,
+                           "width":  637.8,
+                           "height":  451.4,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  34,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "pliot500_BLIP2-OPT-2.7B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  40.7,
+                           "top":  111.6,
+                           "width":  878.7,
+                           "height":  387.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  35,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "pliot500_InstructBLIP-Vicuna-7B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  37.8,
+                           "top":  131.5,
+                           "width":  884.5,
+                           "height":  347.3,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  36,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "pliot500_MiniGPT-4-Vicuna-7B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  36,
+                           "top":  113.1,
+                           "width":  888,
+                           "height":  384.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  37,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "pliot500_LLaVA-v1.5-7B"
+                       },
+                       {
+                           "name":  "Table 4",
+                           "type":  19,
+                           "left":  41.4,
+                           "top":  125.2,
+                           "width":  877.2,
+                           "height":  359.9,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  38,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "pliot500_Qwen2.5-VL-3B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  41,
+                           "top":  113.1,
+                           "width":  878,
+                           "height":  384.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  39,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "pliot500_PaliGemma-3B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  36,
+                           "top":  122.1,
+                           "width":  888,
+                           "height":  366.1,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  40,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "pliot500_SmolVLM-Instruct-1.7B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  37.8,
+                           "top":  113.1,
+                           "width":  884.4,
+                           "height":  384.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  41,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual_BLIP2-OPT-2.7B"
+                       },
+                       {
+                           "name":  "TextBox 3",
+                           "type":  17,
+                           "left":  239.9,
+                           "top":  175.9,
+                           "width":  320,
+                           "height":  29,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 4",
+                           "type":  19,
+                           "left":  67.2,
+                           "top":  95,
+                           "width":  825.5,
+                           "height":  347.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  42,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual_InstructBLIP-Vicuna-7B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  36,
+                           "top":  113.1,
+                           "width":  888,
+                           "height":  384.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  43,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual_MiniGPT-4-Vicuna-7B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  38.4,
+                           "top":  113.1,
+                           "width":  883.2,
+                           "height":  384.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  44,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual_LLaVA-v1.5-7B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  53,
+                           "top":  234,
+                           "width":  854,
+                           "height":  142.3,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  45,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual_PaliGemma-3B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  36,
+                           "top":  118.9,
+                           "width":  888,
+                           "height":  372.4,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  46,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual_SmolVLM-Instruct-1.7B"
+                       },
+                       {
+                           "name":  "Table 4",
+                           "type":  19,
+                           "left":  37.8,
+                           "top":  113.1,
+                           "width":  884.4,
+                           "height":  384.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  47,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual_Qwen2.5-VL-3B"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  48,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-entity_BLIP2-OPT-2.7B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  40.7,
+                           "top":  112.7,
+                           "width":  878.7,
+                           "height":  385,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  49,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-entity_InstructBLIP-Vicuna-7B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  36,
+                           "top":  116.3,
+                           "width":  888,
+                           "height":  378.2,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  50,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-entity_MiniGPT-4-Vicuna-7B"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  54.9,
+                           "top":  200.9,
+                           "width":  850.2,
+                           "height":  224.3,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  51,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-entity_LLaVA-v1.5-7B"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  52,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-entity_PaliGemma-3B"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  53,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-entity_SmolVLM-Instruct-1.7B"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  54,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-entity_Qwen2.5-VL-3B"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  55,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  69.8,
+                           "top":  110.8,
+                           "width":  820.3,
+                           "height":  388.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  56,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  36,
+                           "top":  111.6,
+                           "width":  888,
+                           "height":  387.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  57,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual"
+                       },
+                       {
+                           "name":  "Content Placeholder 3",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  208.7,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 5",
+                           "type":  17,
+                           "left":  65.8,
+                           "top":  363.6,
+                           "width":  320,
+                           "height":  50.8,
+                           "text":  "当前缺 Qwen2.5-VL-3B 全部层，以及 LLaVA 除 L28 外的层。"
+                       }
+                   ]
+    },
+    {
+        "slide":  58,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "mmke-entity"
+                       },
+                       {
+                           "name":  "Table 5",
+                           "type":  19,
+                           "left":  38.7,
+                           "top":  107.7,
+                           "width":  882.6,
+                           "height":  395.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  59,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "mmke-entity"
+                       },
+                       {
+                           "name":  "Table 4",
+                           "type":  19,
+                           "left":  72.2,
+                           "top":  114.3,
+                           "width":  815.5,
+                           "height":  382.1,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  60,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "mmke-entity"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  88.5,
+                           "top":  107.6,
+                           "width":  783,
+                           "height":  395.6,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  61,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "梯度定位原理"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "MLP 编辑和 adapter 编辑最终都是为了改变中间隐藏状态\r实验中模型编辑方式为训练各层 adapter 参数（而非原模型 MLP 参数），因此需要将原本针对原模型 MLP 参数的 LGA 公式，调整为针对 adapter 参数的版本，以判断哪一层的 adapter 最适合承载编辑任务。\r原始 LGA 用原模型第 L 层参数的 old/new 梯度内积估计该层作为编辑位置的适合度；而本文借鉴这一思想，用原模型层参数梯度进行层定位，但实际编辑时不更新原模型参数，而是在选定层插入 adapter，通过 adapter 调整该层后的隐藏表示。\rLGA 是参数编辑视角下的 layer-gradient attribution；本文借鉴其“old/new 目标梯度关系”的思想，但由于本文采用 adapter 修改视觉表征而非更新 MLP 参数，因此将梯度对象从原模型参数 θ\rL转换为候选层视觉表征修正量 Δh\rvisL，以评估该层视觉表征作为 adapter 干预位置的适合度"
+                       }
+                   ]
+    },
+    {
+        "slide":  62,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "相关工作-归因分析"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "现有 VLLM 视觉归因研究表明，不同视觉表征对模型预测具有不同贡献，高贡献视觉表征往往更容易影响最终输出。因此，归因分析为视觉表征编辑提供了重要依据。然而，现有方法主要关注视觉概念神经元、图像区域或表征贡献解释，尚未充分解决模型编辑场景下“应在第几层修改视觉表征”的问题。与此不同，本文关注视觉编辑层定位，即根据编辑目标与不同层视觉表征之间的梯度响应和语义一致性，筛选更适合进行视觉表征编辑的候选层。\rVisEdit 通过贡献归因和扰动分析发现中后层中与 prompt 相关的视觉区域对预测影响显著，并进一步设计 Influence Mapper 控制不同视觉区域的编辑强度，从而利用空间语义约束视觉表征编辑。与其不同，本文关注的是视觉模态编辑层选择问题，即如何在不同模型层之间筛选更适合进行视觉表征修改的候选层。"
+                       }
+                   ]
+    },
+    {
+        "slide":  63,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "现有 VLM 的语言骨干并不局限于 OPT、LLaMA/Vicuna、Qwen 和 Gemma，还包括 Mistral、Phi、InternLM、Yi、Baichuan、GLM、DeepSeek 等 decoder-only LLM，以及 Flan-T5 这类 encoder-decoder 语言模型。本文主要覆盖 BLIP2-OPT、LLaVA/InstructBLIP-Vicuna、Qwen2.5-VL 和 PaliGemma-2 所代表的四类常见 decoder-only 语言骨干。虽然这些模型不能穷尽所有 VLM 架构，但已覆盖当前多模态模型中较具代表性的语言解码器家族，可用于初步验证层级贡献规律是否具有跨架构稳定性。"
+                       }
+                   ]
+    },
+    {
+        "slide":  64,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "相关工作-6定位"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  65,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "数据集-mmke-entity/mmke-visual/e-vqa"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  66,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "定位方法-SaLEM"
+                       },
+                       {
+                           "name":  "Content Placeholder 3",
+                           "type":  14,
+                           "left":  34.8,
+                           "top":  146.4,
+                           "width":  411,
+                           "height":  145.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  67,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "定位方法-"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  68,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  47.8,
+                           "top":  117.9,
+                           "width":  684.1,
+                           "height":  360.5,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  69,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  " Middle-layer Prior\r2. VisEdit-Contrib-Pre\r3. SaLEM\r4. GoldenLayer / LGA\r5. Perturb-KL-Pre\r6. Ours\r Oracle Sweep"
+                       },
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  334.6,
+                           "top":  117.3,
+                           "width":  625.4,
+                           "height":  139.9,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Straight Connector 4",
+                           "type":  9,
+                           "left":  255,
+                           "top":  178,
+                           "width":  99,
+                           "height":  24,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Straight Connector 5",
+                           "type":  9,
+                           "left":  144,
+                           "top":  172,
+                           "width":  203,
+                           "height":  45,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Straight Connector 6",
+                           "type":  9,
+                           "left":  263,
+                           "top":  131,
+                           "width":  86,
+                           "height":  124,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Straight Connector 7",
+                           "type":  9,
+                           "left":  146,
+                           "top":  228,
+                           "width":  204,
+                           "height":  106,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Picture 8",
+                           "type":  13,
+                           "left":  436.2,
+                           "top":  283.5,
+                           "width":  435.7,
+                           "height":  196,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  70,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "evqa_pliot500评测"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "BLIP2-OPT-2.7B "
+                       },
+                       {
+                           "name":  "TextBox 5",
+                           "type":  17,
+                           "left":  64.2,
+                           "top":  179.5,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "InstructBLIP-Vicuna"
+                       },
+                       {
+                           "name":  "TextBox 6",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  237.9,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "MiniGPT-4-Vicuna"
+                       },
+                       {
+                           "name":  "TextBox 7",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  296.3,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "LLaVA-v1.5"
+                       },
+                       {
+                           "name":  "TextBox 15",
+                           "type":  17,
+                           "left":  64.2,
+                           "top":  354.7,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "Qwen2.5-VL"
+                       },
+                       {
+                           "name":  "TextBox 16",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  412.1,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "PaliGemma"
+                       },
+                       {
+                           "name":  "TextBox 17",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  470.9,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "SmolVLM-Instruct"
+                       }
+                   ]
+    },
+    {
+        "slide":  71,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "blip2_pliot500抽样与全量实验差异解释_claude"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "对于其他模型的 pilot500 实验：\r扫层范围取公式 Top5 ± 1 层（比如公式给 L15,L16,L17 → 扫 L14-18），不要只扫 Top1\r报告时统一用 Hit@3 和 Regret@3 作为定位准确度指标\r如果其他模型 pilot500 也出现相邻层翻转，直接归因为 \"training variance within the candidate window\"，不需要每个模型都跑 full-train 来验证"
+                       }
+                   ]
+    },
+    {
+        "slide":  72,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "model alt contribution"
+                       },
+                       {
+                           "name":  "Content Placeholder 3",
+                           "type":  14,
+                           "left":  650.2,
+                           "top":  320.4,
+                           "width":  236.1,
+                           "height":  86.3,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Picture 6",
+                           "type":  13,
+                           "left":  521.3,
+                           "top":  397.9,
+                           "width":  410.5,
+                           "height":  134.8,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 7",
+                           "type":  17,
+                           "left":  32.2,
+                           "top":  358.9,
+                           "width":  463.1,
+                           "height":  142.9,
+                           "text":  "高贡献层定义为：在层贡献度曲线中连续显著高于浅层基线、且构成主要峰值区域的层。\r由于 VisEdit 未给出 high-contribution layers 的固定数值阈值，本文不采用绝对贡献度阈值，而是基于相对排序和连续高值区间进行识别。从 E-VQA 上的贡献度曲线可以看出，模块贡献度自第 22 层开始明显升高，并在第 22–30 层之间保持较高水平，而第 31 层贡献度再次下降。因此，本文将第 22–30 层视为高贡献区域，将第 20–21 层视为过渡层。\rl16,l17,l18,l19"
+                       },
+                       {
+                           "name":  "Group 23",
+                           "type":  6,
+                           "left":  43.8,
+                           "top":  120.8,
+                           "width":  863.5,
+                           "height":  199.6,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  73,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "model pred contribution"
+                       },
+                       {
+                           "name":  "Group 12",
+                           "type":  6,
+                           "left":  53.2,
+                           "top":  123.3,
+                           "width":  791,
+                           "height":  237.4,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 13",
+                           "type":  17,
+                           "left":  47.9,
+                           "top":  373.8,
+                           "width":  851.8,
+                           "height":  122,
+                           "text":  "VisEdit 论文将模块贡献度定义为对 key token o∗\r 的贡献，但其公开 contribution_module.py 并未显式将 o∗\r 设为 E-VQA 的编辑目标 alt。在 predict_word 未指定时，p_tracking 默认使用模型当前预测的 next token 作为追踪 token。因此，VisEdit 原图更可能对应模型预测 token 的贡献度。与此不同，本文将 key token 显式设为 alt，用于衡量各层对目标编辑答案的支持强度"
+                       }
+                   ]
+    },
+    {
+        "slide":  74,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "2. evqa_pliot500_alt_pred_7models"
+                       },
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  47.9,
+                           "top":  108.8,
+                           "width":  348.2,
+                           "height":  418,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Picture 4",
+                           "type":  13,
+                           "left":  488.4,
+                           "top":  116.9,
+                           "width":  341.5,
+                           "height":  409.9,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 8",
+                           "type":  17,
+                           "left":  396.1,
+                           "top":  129.8,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L20,L19,L18"
+                       },
+                       {
+                           "name":  "TextBox 9",
+                           "type":  17,
+                           "left":  395.1,
+                           "top":  485.3,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L17,L16,L15"
+                       },
+                       {
+                           "name":  "TextBox 10",
+                           "type":  17,
+                           "left":  395.1,
+                           "top":  188.2,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L28,L27,L26"
+                       },
+                       {
+                           "name":  "TextBox 11",
+                           "type":  17,
+                           "left":  395.1,
+                           "top":  245.6,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L26,L25,L24"
+                       },
+                       {
+                           "name":  "TextBox 12",
+                           "type":  17,
+                           "left":  395.1,
+                           "top":  303,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L28,L27,L26"
+                       },
+                       {
+                           "name":  "TextBox 13",
+                           "type":  17,
+                           "left":  395.1,
+                           "top":  360.4,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L29,L28,L27"
+                       },
+                       {
+                           "name":  "TextBox 14",
+                           "type":  17,
+                           "left":  396.1,
+                           "top":  417.8,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L12,L11,L10"
+                       },
+                       {
+                           "name":  "TextBox 2",
+                           "type":  17,
+                           "left":  64.2,
+                           "top":  121.1,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "BLIP2-OPT"
+                       },
+                       {
+                           "name":  "TextBox 5",
+                           "type":  17,
+                           "left":  64.2,
+                           "top":  179.5,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "InstructBLIP-Vicuna"
+                       },
+                       {
+                           "name":  "TextBox 6",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  237.9,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "MiniGPT-4-Vicuna"
+                       },
+                       {
+                           "name":  "TextBox 7",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  296.3,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "LLaVA-v1.5"
+                       },
+                       {
+                           "name":  "TextBox 15",
+                           "type":  17,
+                           "left":  64.2,
+                           "top":  354.7,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "Qwen2.5-VL"
+                       },
+                       {
+                           "name":  "TextBox 16",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  412.1,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "PaliGemma"
+                       },
+                       {
+                           "name":  "TextBox 17",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  470.9,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "SmolVLM-Instruct"
+                       }
+                   ]
+    },
+    {
+        "slide":  75,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  31.4,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "2.MMKE-Bench_visual_alt_pred_7models"
+                       },
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  38.8,
+                           "top":  105.2,
+                           "width":  352.8,
+                           "height":  423.4,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Picture 4",
+                           "type":  13,
+                           "left":  470,
+                           "top":  113.7,
+                           "width":  345,
+                           "height":  414,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 10",
+                           "type":  17,
+                           "left":  387.9,
+                           "top":  188.2,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L28,L27,L26"
+                       },
+                       {
+                           "name":  "TextBox 6",
+                           "type":  17,
+                           "left":  387.9,
+                           "top":  132.4,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L22,L21,L20"
+                       },
+                       {
+                           "name":  "TextBox 7",
+                           "type":  17,
+                           "left":  387.9,
+                           "top":  249.7,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L26,L25,L24"
+                       },
+                       {
+                           "name":  "TextBox 8",
+                           "type":  17,
+                           "left":  391.6,
+                           "top":  307.7,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L28,L27,L26"
+                       },
+                       {
+                           "name":  "TextBox 9",
+                           "type":  17,
+                           "left":  391.6,
+                           "top":  365.7,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L29,L28,L27"
+                       },
+                       {
+                           "name":  "TextBox 11",
+                           "type":  17,
+                           "left":  391.6,
+                           "top":  427.2,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L12,L11,L10"
+                       },
+                       {
+                           "name":  "TextBox 12",
+                           "type":  17,
+                           "left":  391.6,
+                           "top":  483,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L17,L16,L15"
+                       },
+                       {
+                           "name":  "TextBox 2",
+                           "type":  17,
+                           "left":  64.2,
+                           "top":  121.1,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "BLIP2-OPT"
+                       },
+                       {
+                           "name":  "TextBox 5",
+                           "type":  17,
+                           "left":  64.2,
+                           "top":  179.5,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "InstructBLIP-Vicuna"
+                       },
+                       {
+                           "name":  "TextBox 13",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  237.9,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "MiniGPT-4-Vicuna"
+                       },
+                       {
+                           "name":  "TextBox 14",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  296.3,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "LLaVA-v1.5"
+                       },
+                       {
+                           "name":  "TextBox 15",
+                           "type":  17,
+                           "left":  64.2,
+                           "top":  354.7,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "Qwen2.5-VL"
+                       },
+                       {
+                           "name":  "TextBox 16",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  412.1,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "PaliGemma"
+                       },
+                       {
+                           "name":  "TextBox 17",
+                           "type":  17,
+                           "left":  65.5,
+                           "top":  470.9,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "SmolVLM-Instruct"
+                       }
+                   ]
+    },
+    {
+        "slide":  76,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "2.MMKE-Bench_entity_alt_pred_7models"
+                       },
+                       {
+                           "name":  "Picture 3",
+                           "type":  13,
+                           "left":  36.1,
+                           "top":  117.3,
+                           "width":  352,
+                           "height":  422.5,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Picture 4",
+                           "type":  13,
+                           "left":  522.5,
+                           "top":  117.3,
+                           "width":  343.2,
+                           "height":  412,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 7",
+                           "type":  17,
+                           "left":  386.4,
+                           "top":  140.4,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L22,L21,L20"
+                       },
+                       {
+                           "name":  "TextBox 5",
+                           "type":  17,
+                           "left":  386.4,
+                           "top":  199.9,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L28,L27,L26"
+                       },
+                       {
+                           "name":  "TextBox 6",
+                           "type":  17,
+                           "left":  386.4,
+                           "top":  261.7,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L25,L24,L23"
+                       },
+                       {
+                           "name":  "TextBox 8",
+                           "type":  17,
+                           "left":  386.4,
+                           "top":  318.5,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L28,L27,L26"
+                       },
+                       {
+                           "name":  "TextBox 9",
+                           "type":  17,
+                           "left":  386.4,
+                           "top":  377.2,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L29,L28,L27"
+                       },
+                       {
+                           "name":  "TextBox 10",
+                           "type":  17,
+                           "left":  386.4,
+                           "top":  436,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L13,L12,L11"
+                       },
+                       {
+                           "name":  "TextBox 11",
+                           "type":  17,
+                           "left":  386.4,
+                           "top":  492.7,
+                           "width":  97.1,
+                           "height":  20.3,
+                           "text":  "L19,L18,L17"
+                       },
+                       {
+                           "name":  "TextBox 2",
+                           "type":  17,
+                           "left":  51.9,
+                           "top":  126.9,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "BLIP2-OPT"
+                       },
+                       {
+                           "name":  "TextBox 12",
+                           "type":  17,
+                           "left":  51.9,
+                           "top":  185.4,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "InstructBLIP-Vicuna"
+                       },
+                       {
+                           "name":  "TextBox 13",
+                           "type":  17,
+                           "left":  53.2,
+                           "top":  243.8,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "MiniGPT-4-Vicuna"
+                       },
+                       {
+                           "name":  "TextBox 14",
+                           "type":  17,
+                           "left":  53.2,
+                           "top":  302.1,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "LLaVA-v1.5"
+                       },
+                       {
+                           "name":  "TextBox 15",
+                           "type":  17,
+                           "left":  51.9,
+                           "top":  360.5,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "Qwen2.5-VL"
+                       },
+                       {
+                           "name":  "TextBox 16",
+                           "type":  17,
+                           "left":  53.2,
+                           "top":  418,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "PaliGemma"
+                       },
+                       {
+                           "name":  "TextBox 17",
+                           "type":  17,
+                           "left":  53.2,
+                           "top":  476.7,
+                           "width":  320,
+                           "height":  29,
+                           "text":  "SmolVLM-Instruct"
+                       }
+                   ]
+    },
+    {
+        "slide":  77,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "3. SaLEM"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  78,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "4. GoldenLayer / LGA"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  79,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "5.Perturb-KL-Pre"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  80,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "6. Ours"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  81,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "7模型3数据集原始指标"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  135,
+                           "top":  140.5,
+                           "width":  690,
+                           "height":  329.2,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  82,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "引言"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "模型编辑效果不仅取决于编辑目标，也取决于编辑信号注入的位置。已有研究表明，知识存储层、预测贡献层与最优编辑层并不必然一致。在视觉语言模型编辑中，VisEdit 通过贡献度分析识别高贡献视觉表征层，并将视觉编辑 adapter 插入到高贡献层之前。然而，高贡献层是否能够稳定指示最佳编辑层仍缺乏系统验证。基于此，本文将编辑层定位视为候选层推荐问题，比较不同定位方法给出的 Top-K 候选层，并通过真实编辑训练后的性能评估其定位有效性"
+                       }
+                   ]
+    },
+    {
+        "slide":  83,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "相关工作-编辑层定位"
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  "### 编辑层定位与高贡献层识别\r现有模型编辑研究通常需要回答两个相关但并不完全相同的问题：一是模型内部哪些层或模块对目标知识预测具有重要作用，二是编辑信号应当注入或修改到哪些层才能获得更好的编辑效果。早期语言模型编辑方法多从知识存储或因果贡献角度进行层定位。例如，ROME 和 MEMIT 等方法基于 causal tracing 或 causal mediation analysis 定位对事实预测具有显著因果作用的中层 MLP/FFN 模块，并据此修改相应参数。这类方法隐含了一个基本假设，即知识贡献较大的层往往也是适合进行参数编辑的层。然而，后续研究指出，知识被定位到的层与最优编辑层之间并不必然一致，即“知识存储位置”并不能直接等同于“最佳编辑位置”。因此，编辑层定位更合理的做法是将不同定位方法输出的层视为候选编辑层，再通过真实编辑性能进行验证。\r除因果定位方法外，近年来也出现了基于显著性或梯度的编辑层选择方法。SaLEM 通过构建 layer-wise saliency map，对不同层参数相对于编辑目标损失的敏感性进行估计，从而选择更适合编辑的显著层。GoldenLayer/LGA 则进一步强调，可以利用代理数据集上的梯度归因估计具有较好泛化能力的固定编辑层，避免在所有层上进行大量逐层编辑试验。这类方法不再单纯依赖知识存储假设，而是将层定位视为一个数据驱动的候选层筛选问题。与之相比，本文关注视觉语言模型中的视觉表征编辑，因此更需要考虑视觉 token、跨模态交互以及视觉信息在语言解码器不同层中的作用。\r在视觉语言模型编辑中，VisEdit 提出了“高贡献层”的概念。所谓高贡献层，是指在模型生成某个关键 token 时，其 Attention 或 MLP 模块输出对该 key token 的预测具有较大贡献的层。具体而言，VisEdit 将每层 Attention 和 MLP 的输出通过语言模型的输出映射矩阵投影到词表空间，并结合目标 token 的映射概率和归一化 logit 值计算模块贡献度。若某些层的模块输出在数据集平均意义上对 key token 预测贡献明显高于其他层，则这些层可被视为 high-contribution layers。换言之，高贡献层并不是由固定的绝对阈值定义的，而是由层间贡献度曲线中的相对高值区域或连续峰值区域确定。\r需要注意的是，VisEdit 并不是直接在贡献度最高的层上插入编辑模块，而是将 Visual Edit Adapter 插入到高贡献层之前。其动机在于：浅层主要聚合 prompt 语义，而中后层开始从与 prompt 高度相关的视觉区域中提取关键信息并影响最终预测。因此，如果将编辑信号注入到高贡献层之前，编辑后的视觉表征可以继续被后续高贡献层利用，从而更有效地影响最终答案生成。这说明高贡献层更准确地说是“预测关键区域”或“视觉信息发挥作用的区域”，而不必然等同于最佳编辑注入层。\r基于上述研究，本文将编辑层定位定义为候选层推荐问题，而不是直接假设贡献最高层、知识存储层或梯度最大层就是最优编辑层。具体而言，本文比较中层先验、VisEdit 高贡献区前置插入、SaLEM 显著层定位、GoldenLayer/LGA 梯度归因定位以及本文提出的梯度定位方法。每种方法首先输出 Top-K 候选编辑层，随后在相同训练配置下对候选层进行真实编辑训练，并通过 Reliability、Generality、Locality 和 Average 等指标评价其实际编辑效果。通过这种方式，可以更公平地比较不同定位方法在视觉语言模型编辑中的有效性。\r"
+                       }
+                   ]
+    },
+    {
+        "slide":  84,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "EVQA-pilot500"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  67.2,
+                           "top":  186,
+                           "width":  825.6,
+                           "height":  172.8,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  85,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-visual"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  67.2,
+                           "top":  186,
+                           "width":  825.6,
+                           "height":  172.8,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  86,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "MMKE-entity"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  67.2,
+                           "top":  186,
+                           "width":  825.6,
+                           "height":  172.8,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  87,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "跨数据集稳定性观察"
+                       },
+                       {
+                           "name":  "Table 3",
+                           "type":  19,
+                           "left":  67.2,
+                           "top":  186,
+                           "width":  819,
+                           "height":  172.8,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  88,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Content Placeholder 2",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  117.4,
+                           "width":  863.7,
+                           "height":  374.7,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Table 5",
+                           "type":  19,
+                           "left":  75.6,
+                           "top":  122.4,
+                           "width":  808.8,
+                           "height":  365.7,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  89,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  "500-50/fulltest"
+                       },
+                       {
+                           "name":  "Content Placeholder 3",
+                           "type":  14,
+                           "left":  11.6,
+                           "top":  98.2,
+                           "width":  585.5,
+                           "height":  219.8,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "TextBox 4",
+                           "type":  17,
+                           "left":  621.7,
+                           "top":  92.3,
+                           "width":  323,
+                           "height":  72.6,
+                           "text":  "EMA loss 低，大体上说明训练得更好；\r但它不能保证 Rel 最高；\r也不能保证 Average 最高；"
+                       },
+                       {
+                           "name":  "Picture 6",
+                           "type":  13,
+                           "left":  30.2,
+                           "top":  322.4,
+                           "width":  357.1,
+                           "height":  207,
+                           "text":  ""
+                       }
+                   ]
+    },
+    {
+        "slide":  90,
+        "layout":  "标题和内容",
+        "shapes":  [
+                       {
+                           "name":  "Title 1",
+                           "type":  14,
+                           "left":  47.9,
+                           "top":  47.9,
+                           "width":  863.7,
+                           "height":  55.6,
+                           "text":  ""
+                       },
+                       {
+                           "name":  "Content Placeholder 3",
+                           "type":  14,
+                           "left":  34,
+                           "top":  121.2,
+                           "width":  411,
+                           "height":  259.5,
+                           "text":  ""
+                       }
+                   ]
+    }
+]

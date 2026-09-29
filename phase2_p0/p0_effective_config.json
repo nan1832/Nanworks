@@ -1,0 +1,1298 @@
+{
+  "schema_version": "1.0",
+  "scope": "P0 evidence audit and one-sample interface probe; not a training configuration to launch",
+  "evidence_status_legend": {
+    "配置记录": "YAML/CLI snapshot/records config",
+    "源码确认": "actual code execution path",
+    "运行日志确认": "historical training/evaluation log",
+    "checkpoint内容确认": "selected checkpoint metadata read on CPU",
+    "本轮运行确认": "new P0 execution or remote inspection",
+    "待核验": "unknown or deliberately outside this audit"
+  },
+  "paths": {
+    "local_project_root": {
+      "value": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": []
+    },
+    "server_project_root": {
+      "value": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "server_preflight.log"
+      ]
+    },
+    "server_output": {
+      "value": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/phase2_p0",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "stage_probe.log"
+      ]
+    }
+  },
+  "layers": {
+    "index_base": {
+      "value": 0,
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/utils/model_factory_and_helpers.py:9-17",
+        "code/runner/run_blip2_mmke_entity_sweep.py:120-131"
+      ]
+    },
+    "yaml_default": {
+      "value": [
+        19
+      ],
+      "evidence_status": [
+        "配置记录"
+      ],
+      "evidence": [
+        "config/blip2-opt-2.7b.yaml:7"
+      ]
+    },
+    "job3126082_cli_layers": {
+      "value": [
+        1
+      ],
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "launcher/launch_actual_job3126082.sh:279",
+        "config/actual_run_config.json:3"
+      ]
+    },
+    "job3126082_effective_edit_layers": {
+      "value": [
+        1
+      ],
+      "evidence_status": [
+        "配置记录",
+        "源码确认",
+        "运行日志确认"
+      ],
+      "evidence": [
+        "code/runner/run_blip2_mmke_entity_sweep.py:309-358",
+        "runtime_log_excerpts.json"
+      ]
+    },
+    "directory_rule": {
+      "value": "layer_{layer:02d}; no +1/-1 conversion",
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/runner/run_blip2_mmke_entity_sweep.py:309-358"
+      ]
+    },
+    "module_template": {
+      "value": "language_model.model.decoder.layers.{}",
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/blip2-opt-2.7b.yaml:5",
+        "code/editor/vead.py:161-171"
+      ]
+    },
+    "ours_formula": {
+      "value": "abs(S_v_cos) * S_v_new_norm",
+      "evidence_status": [
+        "排名记录",
+        "原始分数复算"
+      ],
+      "evidence": [
+        "ranking_recomputed.json"
+      ]
+    },
+    "ours_top1": {
+      "value": 0,
+      "evidence_status": [
+        "排名记录",
+        "原始分数复算"
+      ],
+      "evidence": [
+        "ranking_recomputed.json"
+      ]
+    },
+    "ours_top3": {
+      "value": [
+        0,
+        1,
+        2
+      ],
+      "evidence_status": [
+        "排名记录",
+        "原始分数复算"
+      ],
+      "evidence": [
+        "ranking_recomputed.json"
+      ]
+    },
+    "ours_valid_samples": {
+      "value": 284,
+      "evidence_status": [
+        "原始分数记录"
+      ],
+      "evidence": [
+        "ranking_recomputed.json"
+      ]
+    },
+    "ours_total_samples": {
+      "value": 636,
+      "evidence_status": [
+        "排名记录",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "ranking_recomputed.json",
+        "server_preflight.log"
+      ]
+    },
+    "ours_coverage": {
+      "value": 0.44654088050314467,
+      "evidence_status": [
+        "原始分数复算"
+      ],
+      "evidence": [
+        "ranking_recomputed.json"
+      ],
+      "note": "低覆盖率；rank confirmed does not mean high-confidence localization"
+    },
+    "old_conflict_formula_top3": {
+      "value": [
+        20,
+        19,
+        18
+      ],
+      "evidence_status": [
+        "历史排名记录"
+      ],
+      "evidence": [
+        "md/Location/OursDirect_repair_outputs_20260629/frozen_ours_direct_main_candidates.csv"
+      ],
+      "note": "旧深度加权公式，不是当前正式主公式"
+    },
+    "ranking_file_automatically_consumed_by_launcher": {
+      "value": false,
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "launcher/launch_actual_job3126082.sh:279"
+      ],
+      "note": "launcher硬编码补层1；没有读取排名文件的自动接口"
+    }
+  },
+  "model": {
+    "name": {
+      "value": "blip2-opt-2.7b",
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/blip2-opt-2.7b.yaml"
+      ]
+    },
+    "wrapper_class": {
+      "value": "BLIP2OPTForEdit",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "class": {
+      "value": "Blip2ForConditionalGeneration",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "language_model_class": {
+      "value": "OPTForCausalLM",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "hidden_size": {
+      "value": 2560,
+      "evidence_status": [
+        "配置记录",
+        "源码确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "config/blip2-opt-2.7b.yaml:2",
+        "probe_L0.log"
+      ]
+    },
+    "num_decoder_layers": {
+      "value": 32,
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "visual_span_half_open": {
+      "value": [
+        0,
+        32
+      ],
+      "evidence_status": [
+        "源码确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "code/model/blip2.py:62-81",
+        "probe_L0.log"
+      ]
+    },
+    "visual_token_count": {
+      "value": 32,
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "runtime_dtype": {
+      "value": "torch.float32",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "loader": {
+      "value": "utils.load_vllm_for_edit -> BLIP2OPTForEdit -> Blip2ForConditionalGeneration.from_pretrained",
+      "evidence_status": [
+        "源码确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "code/utils/model_factory_and_helpers.py:66-87",
+        "probe_L0.log"
+      ]
+    },
+    "preprocessor": {
+      "value": "Blip2Processor.from_pretrained(model_path, use_fast=False); RGB PIL; tokenizer padding_side=right",
+      "evidence_status": [
+        "配置记录",
+        "源码确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "code/model/blip2.py:9-16",
+        "code/model/base_vllm.py:11-33",
+        "probe_L0.log"
+      ]
+    },
+    "base_model_weight_sha256": {
+      "value": null,
+      "evidence_status": [
+        "待核验"
+      ],
+      "evidence": [],
+      "note": "本轮未对大型基础权重做全文件哈希；已复用服务器本地加载器和目录"
+    }
+  },
+  "adapter": {
+    "class": {
+      "value": "editor.vllm_editors.vead.adpt_model.VisionEditAdaptor",
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "code/editor/vead.py:168-170"
+      ]
+    },
+    "constructor": {
+      "value": {
+        "hidden_size": 2560,
+        "mid_dim": 1024,
+        "cross_att_head_n": 8,
+        "img_tok_n": 32,
+        "add_it": true,
+        "infm_dim": 1024
+      },
+      "evidence_status": [
+        "配置记录",
+        "源码确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "active_forward": {
+      "value": "official_visual_forward",
+      "evidence_status": [
+        "源码确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "code/runner/run_blip2_mmke_entity_sweep.py:50-116",
+        "probe_L0.log"
+      ]
+    },
+    "hook_registration": {
+      "value": "register_forward_hook",
+      "evidence_status": [
+        "源码确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "code/editor/vead.py:149-174",
+        "probe_L0.log"
+      ]
+    },
+    "hook_position": {
+      "value": "post-block",
+      "evidence_status": [
+        "源码确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "target_module": {
+      "value": "language_model.model.decoder.layers.0",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "actual_adapter_pre_hook": {
+      "value": false,
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/editor/vead.py:149-174"
+      ],
+      "note": "本轮额外pre-hook仅观测；Trace通用pre-hook不等于Adapter输入编辑"
+    },
+    "block_output_structure": {
+      "value": "tuple(Tensor, ...) -> list(Tensor, ...)",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "direct_write_slice": {
+      "value": "hidden_states[:, vt_begin:vt_end, :]",
+      "evidence_status": [
+        "配置记录",
+        "源码确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "code/runner/run_blip2_mmke_entity_sweep.py:94",
+        "probe_L0.log"
+      ]
+    }
+  },
+  "training_protocol_L1": {
+    "optimizer_class": {
+      "value": "torch.optim.Adam",
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/editor/vead.py:728-731"
+      ]
+    },
+    "optimizer_param_groups": {
+      "value": [
+        {
+          "lr": 0.0001,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0,
+          "amsgrad": false,
+          "maximize": false,
+          "foreach": null,
+          "capturable": false,
+          "differentiable": false,
+          "fused": null,
+          "params": 26
+        }
+      ],
+      "evidence_status": [
+        "checkpoint内容确认",
+        "源码确认"
+      ],
+      "evidence": [
+        "server_protocol_audit.json#L1"
+      ]
+    },
+    "optimizer_scope": {
+      "value": "one parameter group per adaptor; includes InfluenceMapper; base VLM frozen",
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/editor/vead.py:728-741"
+      ]
+    },
+    "learning_rate": {
+      "value": 0.0001,
+      "evidence_status": [
+        "配置记录",
+        "源码确认",
+        "checkpoint内容确认",
+        "源码确认"
+      ],
+      "evidence": [
+        "server_protocol_audit.json#L1"
+      ]
+    },
+    "loss_weights": {
+      "value": {
+        "rel_lambda": 1,
+        "gen_lambda": 1,
+        "loc_lambda": 1,
+        "inf_mapper_lambda": 0.1
+      },
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/blip2-opt-2.7b.yaml:8-13",
+        "code/editor/vead.py:641-704"
+      ]
+    },
+    "influence_trace": {
+      "value": {
+        "add_it": true,
+        "layers": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "test_n": 1,
+        "noise_level": 0.7,
+        "window": 0,
+        "vt_sample_n": 24,
+        "mid_dim": 1024
+      },
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/blip2-opt-2.7b.yaml:14-21"
+      ]
+    },
+    "epochs_budget": {
+      "value": 50,
+      "evidence_status": [
+        "配置记录",
+        "源码确认",
+        "运行日志确认"
+      ],
+      "evidence": [
+        "code/runner/run_blip2_mmke_entity_sweep.py:309-358",
+        "runtime_log_excerpts.json"
+      ]
+    },
+    "epochs_completed": {
+      "value": 50,
+      "evidence_status": [
+        "运行日志确认",
+        "训练历史复算"
+      ],
+      "evidence": [
+        "checkpoint_selection_recomputed.json"
+      ]
+    },
+    "batch_size": {
+      "value": 2,
+      "evidence_status": [
+        "配置记录",
+        "源码确认",
+        "运行日志确认"
+      ],
+      "evidence": [
+        "config/actual_run_config.json:5",
+        "runtime_log_excerpts.json"
+      ]
+    },
+    "steps_per_epoch": {
+      "value": 318,
+      "evidence_status": [
+        "源码确认",
+        "运行日志确认"
+      ],
+      "evidence": [
+        "code/runner/run_blip2_mmke_entity_sweep.py:309-358",
+        "runtime_log_excerpts.json"
+      ]
+    },
+    "steps_completed": {
+      "value": 15900,
+      "evidence_status": [
+        "运行日志确认",
+        "训练历史复算"
+      ],
+      "evidence": [
+        "checkpoint_selection_recomputed.json"
+      ]
+    },
+    "cli_base_seed": {
+      "value": 20260601,
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/actual_run_config.json:15"
+      ]
+    },
+    "effective_seed_rule": {
+      "value": "cli_base_seed + layer",
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/runner/run_blip2_mmke_entity_sweep.py:342"
+      ]
+    },
+    "effective_seed": {
+      "value": 20260602,
+      "evidence_status": [
+        "源码确认",
+        "运行日志确认"
+      ],
+      "evidence": [
+        "runtime_log_excerpts.json"
+      ]
+    },
+    "ema_alpha": {
+      "value": 0.1,
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/actual_run_config.json:16",
+        "code/editor/base_editor_training.py:267"
+      ]
+    },
+    "ema_initial_value": {
+      "value": 1,
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/editor/base_editor_training.py:226"
+      ]
+    },
+    "checkpoint_selection": {
+      "value": "minimum finite EMA among existing epoch checkpoints; EMA updated each batch",
+      "evidence_status": [
+        "配置记录",
+        "源码确认",
+        "训练历史复算"
+      ],
+      "evidence": [
+        "code/runner/run_blip2_mmke_entity_sweep.py:225-241",
+        "checkpoint_selection_recomputed.json"
+      ]
+    },
+    "scheduler": {
+      "value": "none in traced training path",
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/editor/vead.py:728-731",
+        "code/editor/base_editor_training.py:217-286"
+      ]
+    },
+    "data_buffer_size": {
+      "value": 4,
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/actual_run_config.json:17"
+      ]
+    },
+    "keep_top_ckpts": {
+      "value": 1,
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/actual_run_config.json:18"
+      ],
+      "note": "训练清理保留EMA最优与loss最优并集；非始终仅1个"
+    },
+    "keep_last_ckpts": {
+      "value": 0,
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/actual_run_config.json:19"
+      ]
+    },
+    "historical_dependency_lock": {
+      "value": null,
+      "evidence_status": [
+        "待核验"
+      ],
+      "evidence": [],
+      "note": "已确认当前可运行环境；没有取得2026-08-01完整依赖锁文件"
+    }
+  },
+  "checkpoints": {
+    "L0": {
+      "layer": {
+        "value": 0,
+        "evidence_status": [
+          "checkpoint内容确认",
+          "源码确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L0"
+        ]
+      },
+      "selected_epoch": {
+        "value": 24,
+        "evidence_status": [
+          "checkpoint内容确认",
+          "源码确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L0"
+        ]
+      },
+      "selected_step": {
+        "value": 7632,
+        "evidence_status": [
+          "checkpoint内容确认",
+          "源码确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L0"
+        ]
+      },
+      "selected_ema": {
+        "value": 6.1242322191733995,
+        "evidence_status": [
+          "checkpoint内容确认",
+          "源码确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L0"
+        ]
+      },
+      "durable_path": {
+        "value": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/blip2-opt-2.7b/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-24-i-7632-ema_loss-6.1242",
+        "evidence_status": [
+          "本轮运行确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L0"
+        ]
+      },
+      "module_keys": {
+        "value": [
+          "language_model.model.decoder.layers.0"
+        ],
+        "evidence_status": [
+          "checkpoint内容确认",
+          "源码确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L0"
+        ]
+      },
+      "epochs_completed": {
+        "value": 50,
+        "evidence_status": [
+          "训练历史复算"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L0"
+        ]
+      },
+      "historical_metrics": {
+        "value": {
+          "Rel": 57.709999999999994,
+          "T-Gen": 57.63,
+          "M-Gen": 57.620000000000005,
+          "T-Loc": 100.0,
+          "M-Loc": 56.32,
+          "Average": 65.85600000000001
+        },
+        "evidence_status": [
+          "历史评测完成记录"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L0"
+        ]
+      },
+      "historical_effective_seed": {
+        "value": null,
+        "evidence_status": [
+          "待核验"
+        ],
+        "evidence": [],
+        "note": "L0当前root run_config被L23覆盖；本轮尚未取得L0原始seed日志，不能把base+0当运行确认"
+      }
+    },
+    "L1": {
+      "layer": {
+        "value": 1,
+        "evidence_status": [
+          "checkpoint内容确认",
+          "源码确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L1"
+        ]
+      },
+      "selected_epoch": {
+        "value": 11,
+        "evidence_status": [
+          "checkpoint内容确认",
+          "源码确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L1"
+        ]
+      },
+      "selected_step": {
+        "value": 3498,
+        "evidence_status": [
+          "checkpoint内容确认",
+          "源码确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L1"
+        ]
+      },
+      "selected_ema": {
+        "value": 5.9904003300769855,
+        "evidence_status": [
+          "checkpoint内容确认",
+          "源码确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L1"
+        ]
+      },
+      "durable_path": {
+        "value": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-3498-ema_loss-5.9904",
+        "evidence_status": [
+          "本轮运行确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L1"
+        ]
+      },
+      "module_keys": {
+        "value": [
+          "language_model.model.decoder.layers.1"
+        ],
+        "evidence_status": [
+          "checkpoint内容确认",
+          "源码确认"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L1"
+        ]
+      },
+      "epochs_completed": {
+        "value": 50,
+        "evidence_status": [
+          "训练历史复算"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L1"
+        ]
+      },
+      "historical_metrics": {
+        "value": {
+          "Rel": 57.940000000000005,
+          "T-Gen": 57.91,
+          "M-Gen": 57.96,
+          "T-Loc": 100.0,
+          "M-Loc": 88.71,
+          "Average": 72.50399999999999
+        },
+        "evidence_status": [
+          "历史评测完成记录"
+        ],
+        "evidence": [
+          "server_protocol_audit.json#L1"
+        ]
+      },
+      "effective_seed": {
+        "value": 20260602,
+        "evidence_status": [
+          "运行日志确认"
+        ],
+        "evidence": [
+          "runtime_log_excerpts.json"
+        ]
+      }
+    }
+  },
+  "data": {
+    "loader_class": {
+      "value": "EVQA",
+      "evidence_status": [
+        "配置记录",
+        "源码确认",
+        "运行日志确认"
+      ],
+      "evidence": [
+        "code/data/vllm_dataset.py:89-107",
+        "runtime_log_excerpts.json"
+      ]
+    },
+    "train_path": {
+      "value": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_train_evqa_compat.json",
+      "evidence_status": [
+        "配置记录",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "config/actual_run_config.json",
+        "server_preflight.log"
+      ]
+    },
+    "eval_path": {
+      "value": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_eval_evqa_compat.json",
+      "evidence_status": [
+        "配置记录",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "config/actual_run_config.json",
+        "server_preflight.log"
+      ]
+    },
+    "image_root": {
+      "value": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+      "evidence_status": [
+        "配置记录",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "server_preflight.log"
+      ]
+    },
+    "train_count": {
+      "value": 636,
+      "evidence_status": [
+        "运行日志确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "runtime_log_excerpts.json",
+        "server_preflight.log"
+      ]
+    },
+    "eval_count": {
+      "value": 954,
+      "evidence_status": [
+        "运行日志确认",
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "runtime_log_excerpts.json",
+        "server_preflight.log"
+      ]
+    },
+    "train_sample_n": {
+      "value": null,
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/actual_run_config.json:13"
+      ],
+      "note": "None为已确认全量，不是未知"
+    },
+    "eval_sample_n": {
+      "value": null,
+      "evidence_status": [
+        "配置记录",
+        "源码确认"
+      ],
+      "evidence": [
+        "config/actual_run_config.json:14"
+      ],
+      "note": "None为已确认全量，不是未知"
+    },
+    "sample_filter": {
+      "value": "first min(data_n, len(data)); data_n=None means all; no Ours valid-sample filtering in editor training",
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/data/vllm_dataset.py:58-86"
+      ]
+    },
+    "official_source_equivalence": {
+      "value": null,
+      "evidence_status": [
+        "待核验"
+      ],
+      "evidence": [],
+      "note": "P1应核对原始官方数据、转换规则、ID/图像对应、重复和train/eval隔离"
+    },
+    "new_dev_split_manifest": {
+      "value": null,
+      "evidence_status": [
+        "待核验"
+      ],
+      "evidence": [],
+      "note": "本轮未划分dev_train/dev_val"
+    }
+  },
+  "evaluation": {
+    "entry": {
+      "value": "VLLMEditorEvaluation.evaluate_single_edit -> __get_results_after_edit__ -> get_mean_results",
+      "evidence_status": [
+        "源码确认",
+        "运行日志确认"
+      ],
+      "evidence": [
+        "code/evaluation/vllm_editor_eval.py:29-166",
+        "runtime_log_excerpts.json"
+      ]
+    },
+    "rel_gen": {
+      "value": "masked teacher-forced per-sample token accuracy, then arithmetic mean",
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/evaluation/vllm_editor_eval.py:66-89"
+      ]
+    },
+    "locality": {
+      "value": "masked argmax token agreement with pre-edit logits on target-conditioned inputs",
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/evaluation/vllm_editor_eval.py:41-48,90-98"
+      ]
+    },
+    "generation_called": {
+      "value": false,
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/evaluation/vllm_editor_eval.py:29-98"
+      ]
+    },
+    "generation_config": {
+      "value": null,
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/model/blip2.py:65-71"
+      ],
+      "note": "不适用：该训练/评测路径不调用generate；不能套用Ours定位生成model_pred的解码参数"
+    },
+    "use_cache": {
+      "value": false,
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/model/blip2.py:70"
+      ]
+    },
+    "rounding_decimals": {
+      "value": 4,
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/evaluation/vllm_editor_eval.py:151-166"
+      ]
+    },
+    "average": {
+      "value": "mean(Rel,T-Gen,M-Gen,T-Loc,M-Loc), each converted to percent",
+      "evidence_status": [
+        "源码确认"
+      ],
+      "evidence": [
+        "code/runner/run_blip2_mmke_entity_sweep.py:156-163"
+      ]
+    },
+    "portability": {
+      "value": null,
+      "evidence_status": [
+        "未实现于第一阶段评测"
+      ],
+      "evidence": [
+        "code/evaluation/vllm_editor_eval.py"
+      ],
+      "note": "无Portability字段，不能填0或推断通过"
+    }
+  },
+  "edit_request_lifecycle": {
+    "value": "shared adaptor trained across requests; each test request encodes prompt+image+target_new with adaptor closed, sets edit signal, opens adaptor; restore disables adaptor and clears signal; no test-time optimizer update",
+    "evidence_status": [
+      "源码确认"
+    ],
+    "evidence": [
+      "code/editor/vead.py:204-257",
+      "code/evaluation/vllm_editor_eval.py:36-57"
+    ]
+  },
+  "probe": {
+    "status": {
+      "value": "passed",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "job_id": {
+      "value": "3178538",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "node": {
+      "value": "g08",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "layer": {
+      "value": 0,
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "sample": {
+      "value": {
+        "split": "eval",
+        "index": 0,
+        "image": "entity/Secret (South Korean group)+12.jpg"
+      },
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "server_preflight.log",
+        "probe_command.json"
+      ]
+    },
+    "input_shape": {
+      "value": [
+        1,
+        201,
+        2560
+      ],
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "output_logits_shape": {
+      "value": [
+        1,
+        201,
+        50304
+      ],
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "hook_counts_by_stage": {
+      "value": {
+        "edit_signal/block_pre_observer": 1,
+        "edit_signal/block_output_before_adapter": 1,
+        "edit_signal/adapter_input": 1,
+        "edit_signal/adapter_output": 1,
+        "edit_signal/block_output_after_adapter": 1,
+        "edited_query/block_pre_observer": 1,
+        "edited_query/block_output_before_adapter": 1,
+        "edited_query/adapter_input": 1,
+        "edited_query/adapter_output": 1,
+        "edited_query/block_output_after_adapter": 1
+      },
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "max_visual_delta": {
+      "value": 15.878780364990234,
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "max_nonvisual_delta": {
+      "value": 0.0,
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "parameter_updates": {
+      "value": 0,
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "training_started": {
+      "value": false,
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "environment": {
+      "value": {
+        "python": "3.8.16",
+        "torch": "2.2.0",
+        "transformers": "4.46.3"
+      },
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    }
+  },
+  "gates": {
+    "static_evidence_audit": {
+      "value": "completed",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "p0_evidence_report.md"
+      ]
+    },
+    "P1_data_audit": {
+      "value": "ready",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "p0_evidence_report.md"
+      ],
+      "note": "允许进入数据核验；不表示数据已通过P1"
+    },
+    "G1_P0_interface_prerequisites": {
+      "value": "satisfied",
+      "evidence_status": [
+        "本轮运行确认"
+      ],
+      "evidence": [
+        "probe_L0.log"
+      ]
+    },
+    "G1_training_launch_this_round": {
+      "value": false,
+      "evidence_status": [
+        "用户范围限制"
+      ],
+      "evidence": [],
+      "note": "本轮不启动训练"
+    },
+    "G1_remaining_before_launch": {
+      "value": [
+        "complete P1 provenance/leakage/image checks",
+        "freeze strict phase1 vs new-dev protocol and layer-specific reference",
+        "schedule a training budget/resource window separately"
+      ],
+      "evidence_status": [
+        "待核验"
+      ],
+      "evidence": [
+        "p0_evidence_report.md"
+      ]
+    }
+  }
+}

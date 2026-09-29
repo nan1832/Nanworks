@@ -1,0 +1,62 @@
+[
+  {
+    "file": "records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L06-lr-1-t-1-v-1/checkpoints/epoch-50-i-15900-ema_loss-1.4880",
+    "source_sha256": "0fa59b6cde7968caf53e4575abd282a76bb99a0ff46ba2a6919a53240346bcb0",
+    "bytes": 214299066,
+    "archive_sha256": "0fa59b6cde7968caf53e4575abd282a76bb99a0ff46ba2a6919a53240346bcb0"
+  },
+  {
+    "file": "train.done",
+    "source_sha256": "61c30b74dc556f9ebbf6da91bf02002b96d7c2358a3cafbc2693015823de6e9b",
+    "bytes": 414,
+    "archive_sha256": "3bc37c69661f05891d67d311db5bd728d22dc2dabb2e44470892939c6f9766c7"
+  },
+  {
+    "file": "selected_checkpoint.tsv",
+    "source_sha256": "2dddd64da47dacf17c496a48500637f1d52f33ad0036b381d077cbcf865914c1",
+    "bytes": 368,
+    "archive_sha256": "1f3f67635ba3e490ae4ab68dd0587bd88991972c37d25a0d4372ac1e11f075ba"
+  },
+  {
+    "file": "eval_full.done",
+    "source_sha256": "82194689bd8c15854b9d06bb18cc3023554f03cf4e7a30cde211645e5cde47dc",
+    "bytes": 859,
+    "archive_sha256": "9623b836c2f8c067b501ee475823da77d640227d972b9069337ca1440228fcce"
+  },
+  {
+    "file": "loss_history.csv",
+    "source_sha256": "7ec80c816f2a971fd004f5f5e0cceaf4cadcffbe12bfc9080c53a6e0d357078c",
+    "bytes": 16480,
+    "archive_sha256": "3d319388d7bf0922d89b52e883aa007d65eaffd4f88c16570fb601a1a3b5aa54"
+  },
+  {
+    "file": "train_run_config.json",
+    "source_sha256": "a96b24f05f7fa0480f32f9be29326f057f3be9dee320c304d072c2aea4ccf3b4",
+    "bytes": 1298,
+    "archive_sha256": "a96b24f05f7fa0480f32f9be29326f057f3be9dee320c304d072c2aea4ccf3b4"
+  },
+  {
+    "file": "eval_run_config.json",
+    "source_sha256": "a2ffa0cc571e3ceab69ba583f622bffcd0d07273fc6ff6cdfa75e779a4e70955",
+    "bytes": 1298,
+    "archive_sha256": "a2ffa0cc571e3ceab69ba583f622bffcd0d07273fc6ff6cdfa75e779a4e70955"
+  },
+  {
+    "file": "eval_full/vead/qwen2.5-vl-3b-instruct/EVQA_full_test_pilot500_blip2_visedit_L06/single_edit/mean_results.json",
+    "source_sha256": "ebe28fe744479aa5bb966ef6d1fd090c4752b799e0f24986fb7b86c8b021fa3b",
+    "bytes": 400,
+    "archive_sha256": "ebe28fe744479aa5bb966ef6d1fd090c4752b799e0f24986fb7b86c8b021fa3b"
+  },
+  {
+    "file": "eval_full/vead/qwen2.5-vl-3b-instruct/EVQA_full_test_pilot500_blip2_visedit_L06/single_edit/results.json",
+    "source_sha256": "96bbecf5b1cfd9e5e4808293c7e954a4098bc5195a42dc32ba7dd75298e3b5c4",
+    "bytes": 4843242,
+    "archive_sha256": "96bbecf5b1cfd9e5e4808293c7e954a4098bc5195a42dc32ba7dd75298e3b5c4"
+  },
+  {
+    "file": "records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L06-lr-1-t-1-v-1/config.yaml",
+    "source_sha256": "70a241599765833ca7e14705693d579f1f0a4bea1e06a5a6563ae02276a60e4d",
+    "bytes": 444,
+    "archive_sha256": "70a241599765833ca7e14705693d579f1f0a4bea1e06a5a6563ae02276a60e4d"
+  }
+]

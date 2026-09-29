@@ -78,3 +78,14 @@ server_results/**/*.npz
 
 # Keep lightweight metadata and plans tracked
 !.gitignore
+
+# Extensionless training checkpoints and reinstallable preview dependencies
+server_handoff/**/epoch-*-i-*-ema_loss-*
+outputs/mmke_graph_quality_audit_20260926/preview_tools/
+
+# Temporary files atomically replaced by running result synchronizers
+*.partial
+
+# Runtime coordination locks created by experiment monitors
+outputs/**/*.lock
+server_results/**/*.lock

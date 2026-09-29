@@ -1,0 +1,648 @@
+{
+  "dataset_key": "evqa-pilot500",
+  "dataset": "EVQA-pilot500",
+  "model_key": "blip2-opt-2.7b",
+  "model": "BLIP2-OPT-2.7B",
+  "method": "Ours-Direct",
+  "score_source": "virtual_delta_h_visual_gradient",
+  "old_field": "model_pred",
+  "new_field": "alt",
+  "ranking_metric": "S_ours",
+  "candidate_conversion": "direct",
+  "num_layers": 32,
+  "manifest_sample_count": 500,
+  "common_valid_sample_count": 465,
+  "max_valid_sample_count": 465,
+  "coverage_ratio": 0.93,
+  "top3_layers": [],
+  "top5_layers": [],
+  "raw_top3_layers": [
+    "L0",
+    "L1",
+    "L2"
+  ],
+  "raw_top5_layers": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "status": "failed",
+  "failure_reasons": [
+    "no_valid_ours_direct_layer"
+  ],
+  "invalid_layers": [
+    {
+      "layer": "L31",
+      "reason": "S_v_zero_grad"
+    }
+  ],
+  "duration_sec": 5407.5080280303955,
+  "model_pred_cache": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/blip2-opt-2.7b/model_pred_cache.jsonl",
+  "layer_scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/blip2-opt-2.7b/ours_direct_layer_scores.csv",
+  "sample_layer_scores_jsonl": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/blip2-opt-2.7b/ours_direct_sample_layer_scores.jsonl",
+  "excluded_count": 1120,
+  "excluded_examples": [
+    {
+      "sample_i": 6,
+      "sample_id": "e40fd97f3c3ffd37",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 15,
+      "sample_id": "9e450d9fc9ecaf96",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 59,
+      "sample_id": "079c65c1db97dd71",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 63,
+      "sample_id": "e1bf7e1a0cc92041",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 74,
+      "sample_id": "589ba8c91cda0fe2",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 94,
+      "sample_id": "b874c26245c77e85",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 97,
+      "sample_id": "5a397a2376efcb01",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 98,
+      "sample_id": "009f1d16a4cd2c4a",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 106,
+      "sample_id": "f4a9062a93e84106",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 128,
+      "sample_id": "f33efa91fe90e943",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 149,
+      "sample_id": "6fcc1558643f2490",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 170,
+      "sample_id": "399897cf7cd32208",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 185,
+      "sample_id": "61b0a6f17e10c012",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 191,
+      "sample_id": "a967e44252e735b6",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 194,
+      "sample_id": "d27d12f13294f1e6",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 227,
+      "sample_id": "a603827e9d95e480",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 256,
+      "sample_id": "5ca6c6448596362c",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 280,
+      "sample_id": "5412f22b4674e7e9",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 281,
+      "sample_id": "c1804c2a4eabf962",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 286,
+      "sample_id": "6e90235fcd33dbc9",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 294,
+      "sample_id": "62497ed865745ca0",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 310,
+      "sample_id": "ff7ca7f68f9560b0",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 331,
+      "sample_id": "90ddf91ebfe1d304",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 352,
+      "sample_id": "89ca1a5df56e3f43",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 358,
+      "sample_id": "c85fc1368ed0e8a0",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 395,
+      "sample_id": "86d93bff533d4de8",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 416,
+      "sample_id": "d02c32e85bee8829",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 438,
+      "sample_id": "c8d2b3d14e03e327",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 442,
+      "sample_id": "8a180ced20916154",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 452,
+      "sample_id": "8c8936e607f5f5ff",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 455,
+      "sample_id": "fb9b38aa7ac1367b",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 464,
+      "sample_id": "0d4607753a310835",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 466,
+      "sample_id": "98b76182967f489a",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 483,
+      "sample_id": "85713b34c842829d",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 493,
+      "sample_id": "21be9ff59f8cb924",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 6,
+      "sample_id": "e40fd97f3c3ffd37",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 15,
+      "sample_id": "9e450d9fc9ecaf96",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 59,
+      "sample_id": "079c65c1db97dd71",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 63,
+      "sample_id": "e1bf7e1a0cc92041",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 74,
+      "sample_id": "589ba8c91cda0fe2",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 94,
+      "sample_id": "b874c26245c77e85",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 97,
+      "sample_id": "5a397a2376efcb01",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 98,
+      "sample_id": "009f1d16a4cd2c4a",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 106,
+      "sample_id": "f4a9062a93e84106",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 128,
+      "sample_id": "f33efa91fe90e943",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 149,
+      "sample_id": "6fcc1558643f2490",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 170,
+      "sample_id": "399897cf7cd32208",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 185,
+      "sample_id": "61b0a6f17e10c012",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 191,
+      "sample_id": "a967e44252e735b6",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 194,
+      "sample_id": "d27d12f13294f1e6",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 227,
+      "sample_id": "a603827e9d95e480",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 256,
+      "sample_id": "5ca6c6448596362c",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 280,
+      "sample_id": "5412f22b4674e7e9",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 281,
+      "sample_id": "c1804c2a4eabf962",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 286,
+      "sample_id": "6e90235fcd33dbc9",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 294,
+      "sample_id": "62497ed865745ca0",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 310,
+      "sample_id": "ff7ca7f68f9560b0",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 331,
+      "sample_id": "90ddf91ebfe1d304",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 352,
+      "sample_id": "89ca1a5df56e3f43",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 358,
+      "sample_id": "c85fc1368ed0e8a0",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 395,
+      "sample_id": "86d93bff533d4de8",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 416,
+      "sample_id": "d02c32e85bee8829",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 438,
+      "sample_id": "c8d2b3d14e03e327",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 442,
+      "sample_id": "8a180ced20916154",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 452,
+      "sample_id": "8c8936e607f5f5ff",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 455,
+      "sample_id": "fb9b38aa7ac1367b",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 464,
+      "sample_id": "0d4607753a310835",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 466,
+      "sample_id": "98b76182967f489a",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 483,
+      "sample_id": "85713b34c842829d",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 493,
+      "sample_id": "21be9ff59f8cb924",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 6,
+      "sample_id": "e40fd97f3c3ffd37",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 15,
+      "sample_id": "9e450d9fc9ecaf96",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 59,
+      "sample_id": "079c65c1db97dd71",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 63,
+      "sample_id": "e1bf7e1a0cc92041",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 74,
+      "sample_id": "589ba8c91cda0fe2",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 94,
+      "sample_id": "b874c26245c77e85",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 97,
+      "sample_id": "5a397a2376efcb01",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 98,
+      "sample_id": "009f1d16a4cd2c4a",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 106,
+      "sample_id": "f4a9062a93e84106",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 128,
+      "sample_id": "f33efa91fe90e943",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 149,
+      "sample_id": "6fcc1558643f2490",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 170,
+      "sample_id": "399897cf7cd32208",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 185,
+      "sample_id": "61b0a6f17e10c012",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 191,
+      "sample_id": "a967e44252e735b6",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 194,
+      "sample_id": "d27d12f13294f1e6",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 227,
+      "sample_id": "a603827e9d95e480",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 256,
+      "sample_id": "5ca6c6448596362c",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 280,
+      "sample_id": "5412f22b4674e7e9",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 281,
+      "sample_id": "c1804c2a4eabf962",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 286,
+      "sample_id": "6e90235fcd33dbc9",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 294,
+      "sample_id": "62497ed865745ca0",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 310,
+      "sample_id": "ff7ca7f68f9560b0",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 331,
+      "sample_id": "90ddf91ebfe1d304",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 352,
+      "sample_id": "89ca1a5df56e3f43",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 358,
+      "sample_id": "c85fc1368ed0e8a0",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 395,
+      "sample_id": "86d93bff533d4de8",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 416,
+      "sample_id": "d02c32e85bee8829",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 438,
+      "sample_id": "c8d2b3d14e03e327",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 442,
+      "sample_id": "8a180ced20916154",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 452,
+      "sample_id": "8c8936e607f5f5ff",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    }
+  ]
+}

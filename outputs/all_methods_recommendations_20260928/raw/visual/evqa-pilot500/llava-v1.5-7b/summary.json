@@ -1,0 +1,55 @@
+{
+  "dataset_key": "evqa-pilot500",
+  "dataset": "EVQA-pilot500",
+  "model_key": "llava-v1.5-7b",
+  "model": "LLaVA-v1.5-7B",
+  "method": "Ours-Direct",
+  "score_source": "virtual_delta_h_visual_gradient",
+  "old_field": "model_pred",
+  "new_field": "alt",
+  "ranking_metric": "S_ours",
+  "candidate_conversion": "direct",
+  "num_layers": 32,
+  "manifest_sample_count": 500,
+  "common_valid_sample_count": 500,
+  "max_valid_sample_count": 500,
+  "coverage_ratio": 1.0,
+  "top3_layers": [
+    "L17",
+    "L16",
+    "L15"
+  ],
+  "top5_layers": [
+    "L17",
+    "L16",
+    "L15",
+    "L14",
+    "L18"
+  ],
+  "raw_top3_layers": [
+    "L17",
+    "L16",
+    "L15"
+  ],
+  "raw_top5_layers": [
+    "L17",
+    "L16",
+    "L15",
+    "L14",
+    "L18"
+  ],
+  "status": "done",
+  "failure_reasons": [],
+  "invalid_layers": [
+    {
+      "layer": "L31",
+      "reason": "S_v_zero_grad"
+    }
+  ],
+  "duration_sec": 36904.08610892296,
+  "model_pred_cache": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/llava-v1.5-7b/model_pred_cache.jsonl",
+  "layer_scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/llava-v1.5-7b/ours_direct_layer_scores.csv",
+  "sample_layer_scores_jsonl": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/llava-v1.5-7b/ours_direct_sample_layer_scores.jsonl",
+  "excluded_count": 0,
+  "excluded_examples": []
+}

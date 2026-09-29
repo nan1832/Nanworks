@@ -1,0 +1,127 @@
+{
+  "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10",
+  "host": "login01",
+  "errors": [],
+  "warnings": [],
+  "artifacts": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/eval_full.done": {
+      "size": 842,
+      "sha256": "093696d321c43565908d60677b54bbce9813b435320672c200d40c5c613e0c9d"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/selected_checkpoint.tsv": {
+      "size": 369,
+      "sha256": "5fe6a934d28c5d1c16a64d8cb28a85f341268fb4b5920f91cb14f7f08e00a51d"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/eval_full/vead/qwen2.5-vl-3b-instruct/EVQA_full_test_pilot500_blip2_visedit_L10/single_edit/results.json": {
+      "size": 1146731,
+      "sha256": "20d4ba9ee3b7bc453a026c0201e7860f492d3c91cad2c9b7b05fbc24a1719c55"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/eval_full/vead/qwen2.5-vl-3b-instruct/EVQA_full_test_pilot500_blip2_visedit_L10/single_edit/mean_results.json": {
+      "size": 400,
+      "sha256": "a14936af49c485a8e61a9073f9957d486a64e1cde9a600f4e965db3096120ec7"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/train.done": {
+      "size": 417,
+      "sha256": "da82a030cf301aeb9d81d56626436c65be40dd43011e81ced6d12c4fd8ac28c1"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/loss_history.csv": {
+      "size": 16664,
+      "sha256": "a8ab6f1209d349501fae067b0e7321944b82047a154ab274f7673fe87aab06f2"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/train_run_config.json": {
+      "size": 1299,
+      "sha256": "591b75b114debf92fa2eb2f8e4d5f0bd1741c8400ca92286ce6800ff4b596760"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/eval_run_config.json": {
+      "size": 1299,
+      "sha256": "a77f21f57aba30d40cfc2c4911736cbecac4f42daea4fce77d9cc977574457f5"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L10-lr-1-t-1-v-1/config.yaml": {
+      "size": 445,
+      "sha256": "0451b8f537528ddddd69f47daf8f0ae6b1697f9becb3747bed9e85247517eafb"
+    }
+  },
+  "evaluation": {
+    "layer": 10,
+    "status": "EVAL_DONE",
+    "eval_samples": 293,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L10-lr-1-t-1-v-1/checkpoints/epoch-47-i-5029-ema_loss-0.5335",
+    "ckpt_epoch": "47",
+    "ckpt_i": "5029",
+    "ckpt_loss": "0.3327328562736511",
+    "ckpt_ema_loss": "0.5335394366019468",
+    "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/eval_full/vead/qwen2.5-vl-3b-instruct/EVQA_full_test_pilot500_blip2_visedit_L10/single_edit",
+    "Rel": 53.239999999999995,
+    "T-Gen": 53.23,
+    "M-Gen": 53.6,
+    "T-Loc": 100.0,
+    "M-Loc": 95.16,
+    "Average": 71.046
+  },
+  "selected": {
+    "layer": "10",
+    "status": "TRAIN_DONE",
+    "epoch": "47",
+    "i": "5029",
+    "loss": "0.3327328562736511",
+    "ema_loss": "0.5335394366019468",
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L10-lr-1-t-1-v-1/checkpoints/epoch-47-i-5029-ema_loss-0.5335"
+  },
+  "checkpoint": {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L10-lr-1-t-1-v-1/checkpoints/epoch-47-i-5029-ema_loss-0.5335",
+    "exists": true,
+    "size": 214298466
+  },
+  "results_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/eval_full/vead/qwen2.5-vl-3b-instruct/EVQA_full_test_pilot500_blip2_visedit_L10/single_edit/results.json",
+  "results_count": 293,
+  "recomputed_metrics": {
+    "Rel": 53.24,
+    "T-Gen": 53.23,
+    "M-Gen": 53.6,
+    "T-Loc": 100.0,
+    "M-Loc": 95.16
+  },
+  "mean_results": {
+    "reliability": {
+      "edit_time": 0.0834,
+      "acc": 0.5324
+    },
+    "generality": {
+      "text_rephrase": {
+        "acc": 0.5323
+      },
+      "image_rephrase": {
+        "acc": 0.536
+      }
+    },
+    "locality": {
+      "text_loc": {
+        "acc": 1.0
+      },
+      "image_loc": {
+        "acc": 0.9516
+      }
+    },
+    "sample_count": 293
+  },
+  "mean_results_text": "{\n    \"reliability\": {\n        \"edit_time\": 0.0834,\n        \"acc\": 0.5324\n    },\n    \"generality\": {\n        \"text_rephrase\": {\n            \"acc\": 0.5323\n        },\n        \"image_rephrase\": {\n            \"acc\": 0.536\n        }\n    },\n    \"locality\": {\n        \"text_loc\": {\n            \"acc\": 1.0\n        },\n        \"image_loc\": {\n            \"acc\": 0.9516\n        }\n    },\n    \"sample_count\": 293\n}",
+  "train_done": true,
+  "history_rows": 50,
+  "max_epoch": 50,
+  "all_50_epochs_present": true,
+  "minimum_ema_row": {
+    "time": "2026-09-26 23:55:33",
+    "layer": "10",
+    "epoch": "47",
+    "i": "5029",
+    "loss": "0.3327328562736511",
+    "ema_loss": "0.5335394366019468",
+    "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/mmke-visual/qwen2.5-vl-3b/layer_10/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L10-lr-1-t-1-v-1/checkpoints/epoch-47-i-5029-ema_loss-0.5335",
+    "kept": "1"
+  },
+  "minimum_ema_matches": true,
+  "train_run_config.json": "{\n  \"out_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-visual/qwen2.5-vl-3b\",\n  \"layers\": \"10\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"qwen2.5-vl-3b-instruct\",\n  \"device\": \"cuda:0\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_train_evqa_compat.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_eval_evqa_compat.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image\",\n  \"config_path\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/provenance/code/configs/vead/qwen2.5-vl-3b-instruct.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"4\",\n  \"keep_top_ckpts\": \"5\",\n  \"keep_last_ckpts\": \"2\",\n  \"skip_train\": \"False\",\n  \"skip_eval\": \"True\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}",
+  "eval_run_config.json": "{\n  \"out_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-visual/qwen2.5-vl-3b\",\n  \"layers\": \"10\",\n  \"epochs\": \"50\",\n  \"batch_size\": \"2\",\n  \"model_name\": \"qwen2.5-vl-3b-instruct\",\n  \"device\": \"cuda:0\",\n  \"train_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_train_evqa_compat.json\",\n  \"train_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image\",\n  \"eval_data\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_eval_evqa_compat.json\",\n  \"eval_img_root\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image\",\n  \"config_path\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/provenance/code/configs/vead/qwen2.5-vl-3b-instruct.yaml\",\n  \"train_sample_n\": \"None\",\n  \"eval_sample_n\": \"None\",\n  \"seed\": \"20260601\",\n  \"ema_alpha\": \"0.1\",\n  \"data_buffer_size\": \"4\",\n  \"keep_top_ckpts\": \"5\",\n  \"keep_last_ckpts\": \"2\",\n  \"skip_train\": \"True\",\n  \"skip_eval\": \"False\",\n  \"overwrite_train\": \"False\",\n  \"overwrite_eval\": \"False\"\n}",
+  "model_config_text": "IT:\n  add_it: true\n  layers:\n  - 30\n  - 31\n  - 32\n  - 33\n  - 34\n  - 35\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 10\nedit_model_name: qwen2.5-vl-3b-instruct\nllm_att_tmp: model.layers.{}.self_attn\nllm_hidden_size: 2048\nllm_layer_tmp: model.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 0.0001\n  rel_lambda: 1\n",
+  "evaluation_verified": true
+}

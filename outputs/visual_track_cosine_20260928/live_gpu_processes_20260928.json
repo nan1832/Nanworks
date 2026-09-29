@@ -1,0 +1,88 @@
+{
+  "g08": {
+    "ps_rc": 0,
+    "processes": [
+      "3007577 2816809 ph_teac+   22081 97.1 /datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python scripts/run_mmke_llava_shared_gpu_sweep.py --out-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b --layers 4 --epochs 50 --batch-size 2 --model-name llava-v1.5-7b --device cuda:0 --train-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json --train-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images --eval-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json --eval-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images --config-path configs/vead/llava-v1.5-7b.yaml --seed 20260601 --ema-alpha 0.1 --data-buffer-size 1 --keep-top-ckpts 1 --keep-last-ckpts 0 --synchronous-data-loading --activation-checkpointing --data-proc-device cuda:0 --share-data-proc-vllm --skip-eval --resume-checkpoint /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.4844 --resume-layer 4",
+      "3061841 3339329 ph_teac+    8573  115 /datapool/home/ph_teacher3/.conda/envs/MVML/bin/python -Xfrozen_modules=off -m ipykernel_launcher -f /datapool/home/ph_teacher3/.local/share/jupyter/runtime/kernel-b78fa17c-8b46-40cd-93f3-15021c68ea14.json"
+    ],
+    "details": {
+      "3007577": {
+        "cwd": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main",
+        "slurm": [
+          "SLURM_JOB_ID=3435286",
+          "CUDA_VISIBLE_DEVICES=0"
+        ],
+        "stdout": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_L4_wait_memory_20260928/train_L4.log",
+        "stderr": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_L4_wait_memory_20260928/train_L4.log"
+      },
+      "3061841": {
+        "cwd": "/datapool/home/ph_teacher3/lzh/MVML/LY/LSHE",
+        "slurm": [
+          "CUDA_VISIBLE_DEVICES=0",
+          "SLURM_JOB_ID=3435286"
+        ],
+        "stdout": "/proc/3061841/fd/pipe:[444631247]",
+        "stderr": "/proc/3061841/fd/pipe:[444631248]"
+      }
+    },
+    "ps_error": null
+  },
+  "g09": {
+    "ps_rc": 0,
+    "processes": [
+      "2049332 1860696 ph_teac+  106795  0.4 /datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/env/bin/python -m ipykernel_launcher -f /datapool/home/ph_teacher3/.local/share/jupyter/runtime/kernel-b603e1d3-01c2-421c-b111-68f031fa8abe.json",
+      "2258027 2258022 ph_teac+   34645 99.2 python storage/store_emb.py --divide train --data_path ECL --num_nodes 321 --input_len 96 --output_len 96",
+      "2287248 2287075 ph_teac+   26281  111 /datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python -u /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_mmke_minigpt_llava_lowmem_sweep.py --out-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-entity/minigpt-4-vicuna-7b --layers 8 --epochs 50 --batch-size 2 --model-name minigpt-4-vicuna-7b --device cuda:0 --train-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_train_evqa_compat.json --eval-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_eval_evqa_compat.json --train-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image --eval-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image --config-path /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/provenance/code/configs/vead/minigpt-4-vicuna-7b.yaml --seed 20260601 --ema-alpha 0.1 --data-buffer-size 1 --keep-top-ckpts 1 --keep-last-ckpts 0 --skip-eval --synchronous-data-loading --activation-checkpointing",
+      "2324808 1860696 ph_teac+   13366  7.3 /datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/env/bin/python -m ipykernel_launcher -f /datapool/home/ph_teacher3/.local/share/jupyter/runtime/kernel-f031b1aa-e371-4dda-908f-901aea6e4236.json",
+      "2344474 1860696 ph_teac+    6559  0.2 /datapool/home/ph_teacher3/.conda/envs/MVML/bin/python -Xfrozen_modules=off -m ipykernel_launcher -f /datapool/home/ph_teacher3/.local/share/jupyter/runtime/kernel-f072ae4e-6f7d-41be-ae24-e9070988c9b2.json"
+    ],
+    "details": {
+      "2049332": {
+        "cwd": "/datapool/home/ph_teacher3/Lwy/sjh/test/coordnet_上传用",
+        "slurm": [
+          "CUDA_VISIBLE_DEVICES=0",
+          "SLURM_JOB_ID=3443209"
+        ],
+        "stdout": "/proc/2049332/fd/pipe:[119094059]",
+        "stderr": "/proc/2049332/fd/pipe:[119094060]"
+      },
+      "2258027": {
+        "cwd": "/datapool/home/ph_teacher3/Lwy/lxy/TimeCMA",
+        "slurm": [
+          "CUDA_VISIBLE_DEVICES=0",
+          "SLURM_JOB_ID=3443209"
+        ],
+        "stdout": "/datapool/home/ph_teacher3/Lwy/lxy/TimeCMA/Results/emb_logs/ECL_train.log",
+        "stderr": "/datapool/home/ph_teacher3/Lwy/lxy/TimeCMA/Results/emb_logs/ECL_train.log"
+      },
+      "2287248": {
+        "cwd": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main",
+        "slurm": [
+          "SLURM_JOB_ID=3443209",
+          "CUDA_VISIBLE_DEVICES=0"
+        ],
+        "stdout": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-entity/minigpt-4-vicuna-7b/train_L8.log",
+        "stderr": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-entity/minigpt-4-vicuna-7b/train_L8.log"
+      },
+      "2324808": {
+        "cwd": "/datapool/home/ph_teacher3/Lwy/jzx/Curvelet/tornado",
+        "slurm": [
+          "CUDA_VISIBLE_DEVICES=0",
+          "SLURM_JOB_ID=3443209"
+        ],
+        "stdout": "/proc/2324808/fd/pipe:[124445399]",
+        "stderr": "/proc/2324808/fd/pipe:[124445400]"
+      },
+      "2344474": {
+        "cwd": "/datapool/home/ph_teacher3/Lwy/MVML/liying/SCSD",
+        "slurm": [
+          "CUDA_VISIBLE_DEVICES=0",
+          "SLURM_JOB_ID=3443209"
+        ],
+        "stdout": "/proc/2344474/fd/pipe:[124769926]",
+        "stderr": "/proc/2344474/fd/pipe:[124769927]"
+      }
+    },
+    "ps_error": null
+  }
+}

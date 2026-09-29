@@ -1,0 +1,9 @@
+{
+  "layer": 6,
+  "status": "TRAIN_DONE",
+  "epoch": 49,
+  "i": 12250,
+  "loss": 0.4527815282344818,
+  "ema_loss": 0.43789512003698916,
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/accepted/evqa-pilot500/qwen2.5-vl-3b/layer_06/records/vead/qwen2.5-vl-3b-instruct/pilot500_blip2_visedit_L06-lr-1-t-1-v-1/checkpoints/epoch-49-i-12250-ema_loss-0.4379"
+}

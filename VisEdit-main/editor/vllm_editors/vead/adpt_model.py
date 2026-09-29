@@ -36,6 +36,9 @@ class InfluenceMapper(nn.Module):
 
     def forward(self, img_reps, prompt_last_token_of_edit_reps):
         '''`img_reps`: [b, img_token_n, d], prompt_last_token_of_edit_reps: [b, d]'''
+        adapter_dtype = next(self.parameters()).dtype
+        img_reps = img_reps.to(dtype=adapter_dtype)
+        prompt_last_token_of_edit_reps = prompt_last_token_of_edit_reps.to(dtype=adapter_dtype)
         b, tn, d = img_reps.shape
         img_reps = self.img_map(self.ln_img_reps(img_reps)) # [b, img_token_n, d]
         prompt_last_token_of_edit_reps = self.prompt_token_map(self.ln_edit_reps(prompt_last_token_of_edit_reps))
@@ -90,33 +93,37 @@ class VisionEditAdaptor(nn.Module):
             raise BaseException('Have not set vision token range.')
         # get normed reps and determine legal
         img_reps = layer_outpt[:, self.inpt_vt_begin:self.inpt_vt_end].clone()
+        adapter_dtype = next(self.parameters()).dtype
+        img_reps_for_adapt = img_reps.to(dtype=adapter_dtype)
+        edit_reps = self.edit_reps.to(dtype=adapter_dtype)
         b1, l1, _ = img_reps.shape # l1 = self.img_tok_n
-        b2, l2, _ = self.edit_reps.shape 
+        b2, l2, _ = edit_reps.shape
         if l1 != self.img_tok_n: 
             raise BaseException('Number of selected vision token error.')
         if b1 != b2: 
             raise BaseException('Batch size of input and editing signal are not matched.')
         # introduce influence mapping
         if self.add_it:
-            prompt_last_token_of_edit_reps = self.edit_reps[range(len(self.prompt_end)), self.prompt_end] # [b, d]
-            inf_map = self.influence_mapper(img_reps, prompt_last_token_of_edit_reps) # [b, img_token_n]
+            prompt_last_token_of_edit_reps = edit_reps[range(len(self.prompt_end)), self.prompt_end] # [b, d]
+            inf_map = self.influence_mapper(img_reps_for_adapt, prompt_last_token_of_edit_reps) # [b, img_token_n]
             inf_map = torch.sigmoid(inf_map).unsqueeze(-1) # [b, img_token_n, 1]
         else:
             inf_map = 1
         # image representation transformation
-        norm_img_reps = self.ln_img_reps(img_reps)  # [b,img_tok_n,d]
-        norm_edit_reps = self.ln_edit_reps(self.edit_reps) # [b,l,d]
+        norm_img_reps = self.ln_img_reps(img_reps_for_adapt)  # [b,img_tok_n,d]
+        norm_edit_reps = self.ln_edit_reps(edit_reps) # [b,l,d]
         x = self.mlp_begin(norm_img_reps)
         q = self.cross_att_q_mlp(x).reshape(b1, l1, self.cross_att_head_n, self.mid_dim//self.cross_att_head_n)
         k = self.cross_att_k_mlp(norm_edit_reps).reshape(b1, l2, self.cross_att_head_n, self.mid_dim//self.cross_att_head_n)
         v = self.cross_att_v_mlp(norm_edit_reps).reshape(b1, l2, self.cross_att_head_n, self.mid_dim//self.cross_att_head_n)
         s = torch.einsum('blhm,buhm->bhlu', q, k) # [batch_size, head_n, l1, l2]
         s = s / (self.mid_dim//self.cross_att_head_n)**0.5
-        s = s + (self.edit_reps_att_mask.reshape(b1, 1, 1, l2) - 1)*9999999999
+        edit_reps_att_mask = self.edit_reps_att_mask.to(dtype=s.dtype)
+        s = s + (edit_reps_att_mask.reshape(b1, 1, 1, l2) - 1)*9999999999
         s = torch.softmax(s, 3)
         x = torch.einsum('bhlu,buhm->blhm', s, v).reshape(b1, l1, self.mid_dim) # [batch_size, img_tok_n, mid_dim]
         x = self.mlp_end(x) * inf_map
-        layer_outpt[:, self.inpt_vt_begin:self.inpt_vt_end] = img_reps + x
+        layer_outpt[:, self.inpt_vt_begin:self.inpt_vt_end] = (img_reps_for_adapt + x).to(dtype=layer_outpt.dtype)
         return layer_outpt
 
     def open_adaptor(self, if_open:bool):
@@ -134,7 +141,6 @@ class VisionEditAdaptor(nn.Module):
         self.inpt_has_img = has_img # whether has image in the input
         self.inpt_vt_begin = vt_begin # begin of vision token
         self.inpt_vt_end = vt_end # end of vision token
-
 
 
 

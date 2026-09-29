@@ -1,0 +1,65 @@
+{
+  "time": "2026-09-26 19:27:35 CST",
+  "state": "PAUSED_VERIFIED",
+  "processes": [
+    {
+      "pid": 1868056,
+      "start_ticks": "261796620",
+      "cmd": "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python -u /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_llava_job3443209_20260926/l7_restart_tail/control/append_mmke_llava_l7_3443209.py follow ",
+      "state": "S"
+    },
+    {
+      "pid": 1864444,
+      "start_ticks": "261714540",
+      "cmd": "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python -u /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_llava_job3443209_20260926/control/resume_mmke_entity_llava_3443209.py launch ",
+      "state": "S"
+    },
+    {
+      "pid": 1864449,
+      "start_ticks": "261714577",
+      "cmd": "bash /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_llava_job3443209_20260926/control/launcher_scoped.sh job3126082 ",
+      "state": "S"
+    },
+    {
+      "pid": 1864776,
+      "start_ticks": "261718634",
+      "cmd": "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python scripts/run_mmke_llava_shared_gpu_sweep.py --out-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_llava_job3443209_20260926/work/mmke-entity/llava-v1.5-7b --layers 1 --epochs 50 --batch-size 2 --model-name llava-v1.5-7b --device cuda:0 --train-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_train_evqa_compat.json --train-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image --eval-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_eval_evqa_compat.json --eval-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image --config-path configs/vead/llava-v1.5-7b.yaml --seed 20260601 --ema-alpha 0.1 --data-buffer-size 1 --keep-top-ckpts 1 --keep-last-ckpts 0 --synchronous-data-loading --activation-checkpointing --data-proc-device cuda:0 --share-data-proc-vllm --resume-checkpoint /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_llava_job3443209_20260926/work/mmke-entity/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-17-i-5406-ema_loss-0.7862 --resume-layer 1 --skip-eval ",
+      "state": "R"
+    }
+  ],
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_llava_job3443209_20260926/work/mmke-entity/llava-v1.5-7b/layer_01/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-17-i-5406-ema_loss-0.7862",
+  "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_llava_job3443209_20260926/pause_for_priority3_20260926/epoch-17-i-5406-ema_loss-0.7862",
+  "sha256": "18149e4dcc14c199d00eb768568d04b31637b1d4ccab574138b92e50fd6ddc37",
+  "resume_epoch": 18,
+  "resume_i": 5407,
+  "llava_remaining_order": [
+    1,
+    0,
+    2,
+    13,
+    11,
+    12,
+    4,
+    7
+  ],
+  "priority_queue": [
+    [
+      "mmke-visual",
+      "instructblip-vicuna-7b",
+      20
+    ],
+    [
+      "mmke-entity",
+      "instructblip-vicuna-7b",
+      20
+    ],
+    [
+      "mmke-entity",
+      "smolvlm-1.7b",
+      8
+    ]
+  ],
+  "note": "Current partial epoch18 is not checkpointed; no automatic LLaVA restart.",
+  "stopped_at": "2026-09-26 19:28:29 CST",
+  "verification_note": "Initial post-signal check encountered a transient zombie; all four PIDs now absent."
+}

@@ -1,0 +1,25 @@
+{
+  "result": {
+    "layer": 0,
+    "status": "EVAL_DONE",
+    "eval_samples": 2093,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/records/vead/paligemma-3b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-2-i-500-ema_loss-3209.8245",
+    "ckpt_epoch": "2",
+    "ckpt_i": "500",
+    "ckpt_loss": "3187.056884765625",
+    "ckpt_ema_loss": "3209.824509720526",
+    "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit",
+    "Rel": 0.16,
+    "T-Gen": 0.18,
+    "M-Gen": 0.16,
+    "T-Loc": 100.0,
+    "M-Loc": 76.96,
+    "Average": 35.492
+  },
+  "results_sha256": "05f60b78e9a874d20e8b2f84a278864aec8852325bf3a0c4645419f63a20e970",
+  "training_complete_50_epochs": false,
+  "historical_layer_nonconvergent": true,
+  "current_convergence": "requires loss-curve review",
+  "checkpoint_sha256": "9405c64d2e1d5b96f5ab96b0109a25b8dcde2697f46faec319b37727efbef260",
+  "time": "2026-09-22 08:47:16 CST"
+}

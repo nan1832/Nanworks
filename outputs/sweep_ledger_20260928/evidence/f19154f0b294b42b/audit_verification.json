@@ -1,0 +1,117 @@
+{
+  "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15",
+  "host": "login01",
+  "errors": [],
+  "warnings": [],
+  "artifacts": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/eval_full.done": {
+      "size": 808,
+      "sha256": "3fab6ac1d2f2f004af8e9c724b78cfa7fdcc26d5fc6409215b347d1c3bea7fa6"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/selected_checkpoint.tsv": {
+      "size": 354,
+      "sha256": "c644f396f628ab5f6ff38bbb2f5e4f0e99e0ed36e610fa9644365b08c6aeb154"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L15/single_edit/results.json": {
+      "size": 1144752,
+      "sha256": "c7be51d2f9c0600742bdeab7b3d8ec7987579e165905cc0a8dd9b0cb9798df0d"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L15/single_edit/mean_results.json": {
+      "size": 399,
+      "sha256": "a437e5d332a91bf71bb0472929723b35b99bac7d554319891e24eafe857a1600"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/train.done": {
+      "size": 400,
+      "sha256": "dce4eaa0e7a4f6e386ef5c5b12f548fb7920b0ab3474223621edc8a56bf34046"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/loss_history.csv": {
+      "size": 15919,
+      "sha256": "0b4e25f37e4336ee86e184297b47951c1922ff7b4f780da0ddc4f9ac6d6a1c91"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/config.yaml": {
+      "size": 508,
+      "sha256": "1de305a339cae93d0d1ebc3f4a78a0cc3f3f0bdb03a7fe3dbcbacd376bcb3d36"
+    }
+  },
+  "evaluation": {
+    "layer": 15,
+    "status": "EVAL_DONE",
+    "eval_samples": 293,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-40-i-4280-ema_loss-0.2311",
+    "ckpt_epoch": "40",
+    "ckpt_i": "4280",
+    "ckpt_loss": "0.119041807949543",
+    "ckpt_ema_loss": "0.23111068995066683",
+    "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L15/single_edit",
+    "Rel": 61.019999999999996,
+    "T-Gen": 61.0,
+    "M-Gen": 60.91,
+    "T-Loc": 100.0,
+    "M-Loc": 95.83,
+    "Average": 75.752
+  },
+  "selected": {
+    "layer": "15",
+    "status": "TRAIN_DONE",
+    "epoch": "40",
+    "i": "4280",
+    "loss": "0.119041807949543",
+    "ema_loss": "0.23111068995066683",
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-40-i-4280-ema_loss-0.2311"
+  },
+  "checkpoint": {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-40-i-4280-ema_loss-0.2311",
+    "exists": true,
+    "size": 415895994
+  },
+  "results_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L15/single_edit/results.json",
+  "results_count": 293,
+  "recomputed_metrics": {
+    "Rel": 61.02,
+    "T-Gen": 61.0,
+    "M-Gen": 60.91,
+    "T-Loc": 100.0,
+    "M-Loc": 95.83
+  },
+  "mean_results": {
+    "reliability": {
+      "edit_time": 0.3263,
+      "acc": 0.6102
+    },
+    "generality": {
+      "text_rephrase": {
+        "acc": 0.61
+      },
+      "image_rephrase": {
+        "acc": 0.6091
+      }
+    },
+    "locality": {
+      "text_loc": {
+        "acc": 1.0
+      },
+      "image_loc": {
+        "acc": 0.9583
+      }
+    },
+    "sample_count": 293
+  },
+  "mean_results_text": "{\n    \"reliability\": {\n        \"edit_time\": 0.3263,\n        \"acc\": 0.6102\n    },\n    \"generality\": {\n        \"text_rephrase\": {\n            \"acc\": 0.61\n        },\n        \"image_rephrase\": {\n            \"acc\": 0.6091\n        }\n    },\n    \"locality\": {\n        \"text_loc\": {\n            \"acc\": 1.0\n        },\n        \"image_loc\": {\n            \"acc\": 0.9583\n        }\n    },\n    \"sample_count\": 293\n}",
+  "train_done": true,
+  "history_rows": 50,
+  "max_epoch": 50,
+  "all_50_epochs_present": true,
+  "minimum_ema_row": {
+    "time": "2026-08-11 08:07:18",
+    "layer": "15",
+    "epoch": "40",
+    "i": "4280",
+    "loss": "0.119041807949543",
+    "ema_loss": "0.23111068995066683",
+    "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-40-i-4280-ema_loss-0.2311",
+    "kept": "1"
+  },
+  "minimum_ema_matches": true,
+  "model_config_text": "IT:\n  add_it: true\n  layers:\n  - 19\n  - 20\n  - 21\n  - 22\n  - 23\n  - 24\n  - 25\n  - 26\n  - 27\n  - 28\n  - 29\n  - 30\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 15\nedit_model_name: llava-v1.5-7b\nllm_att_tmp: language_model.model.layers.{}.self_attn\nllm_hidden_size: 4096\nllm_layer_tmp: language_model.model.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 0.0001\n  rel_lambda: 1\n",
+  "evaluation_verified": true
+}

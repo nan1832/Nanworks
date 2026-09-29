@@ -1,0 +1,6 @@
+﻿method,n,combinations,best,mean
+main_abs_cos_new_norm,5,evqa-pilot500/blip2-opt-2.7b;evqa-pilot500/minigpt-4-vicuna-7b;evqa-pilot500/smolvlm-1.7b;mmke-entity/instructblip-vicuna-7b;mmke-visual/smolvlm-1.7b,66.7912,62.826933333333336
+new_norm_only,5,evqa-pilot500/blip2-opt-2.7b;evqa-pilot500/minigpt-4-vicuna-7b;evqa-pilot500/smolvlm-1.7b;mmke-entity/instructblip-vicuna-7b;mmke-visual/smolvlm-1.7b,68.024,63.46373333333333
+abs_cos_only,5,evqa-pilot500/blip2-opt-2.7b;evqa-pilot500/minigpt-4-vicuna-7b;evqa-pilot500/smolvlm-1.7b;mmke-entity/instructblip-vicuna-7b;mmke-visual/smolvlm-1.7b,60.7992,58.894133333333336
+signed_cos_new_norm,5,evqa-pilot500/blip2-opt-2.7b;evqa-pilot500/minigpt-4-vicuna-7b;evqa-pilot500/smolvlm-1.7b;mmke-entity/instructblip-vicuna-7b;mmke-visual/smolvlm-1.7b,64.2272,61.24293333333333
+visual_lga_dot,5,evqa-pilot500/blip2-opt-2.7b;evqa-pilot500/minigpt-4-vicuna-7b;evqa-pilot500/smolvlm-1.7b;mmke-entity/instructblip-vicuna-7b;mmke-visual/smolvlm-1.7b,65.046,61.95333333333333

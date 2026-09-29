@@ -1,0 +1,19 @@
+{
+  "model_name": "llava-v1.5-7b",
+  "vead_config_path": "configs/vead/llava-v1.5-7b.yaml",
+  "data_path": "../../Ten_Classes/bridge/bridge_train/edit_30_bridge_train_only_vis.json",
+  "bridge_root": "../../Ten_Classes/bridge",
+  "old_answers_path": "../../Ten_Classes/bridge/bridge_train/beforeedit/open_end/bridge_train_entity_recognition_llava.jsonl",
+  "layers": "0-31",
+  "adapter_type": "vision",
+  "score_mode": "request_only_adapter_lga",
+  "main_score": "adapter_dot",
+  "diagnostics": "adapter_cos,adapter_grad_norm,adapter_norm_ratio",
+  "output_dir": "../server_results/bridge_vlm_adapter_lga_llava_train30",
+  "device": "cuda:0",
+  "torch_dtype": "float16",
+  "max_samples": null,
+  "seed": 2026,
+  "generate_old_answers_if_missing": false,
+  "max_new_tokens": 32
+}

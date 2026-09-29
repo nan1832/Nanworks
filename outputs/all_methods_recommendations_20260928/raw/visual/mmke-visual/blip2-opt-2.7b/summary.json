@@ -1,0 +1,650 @@
+{
+  "dataset_key": "mmke-visual",
+  "dataset": "MMKE-visual",
+  "model_key": "blip2-opt-2.7b",
+  "model": "BLIP2-OPT-2.7B",
+  "method": "Ours-Direct",
+  "score_source": "virtual_delta_h_visual_gradient",
+  "old_field": "model_pred",
+  "new_field": "alt",
+  "ranking_metric": "S_ours",
+  "candidate_conversion": "direct",
+  "num_layers": 32,
+  "manifest_sample_count": 214,
+  "common_valid_sample_count": 175,
+  "max_valid_sample_count": 175,
+  "coverage_ratio": 0.8177570093457944,
+  "top3_layers": [
+    "L30"
+  ],
+  "top5_layers": [
+    "L30"
+  ],
+  "raw_top3_layers": [
+    "L30",
+    "L0",
+    "L1"
+  ],
+  "raw_top5_layers": [
+    "L30",
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "status": "done",
+  "failure_reasons": [],
+  "invalid_layers": [
+    {
+      "layer": "L31",
+      "reason": "S_v_zero_grad"
+    }
+  ],
+  "duration_sec": 3554.436476945877,
+  "model_pred_cache": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/mmke-visual/blip2-opt-2.7b/model_pred_cache.jsonl",
+  "layer_scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/mmke-visual/blip2-opt-2.7b/ours_direct_layer_scores.csv",
+  "sample_layer_scores_jsonl": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/mmke-visual/blip2-opt-2.7b/ours_direct_sample_layer_scores.jsonl",
+  "excluded_count": 1248,
+  "excluded_examples": [
+    {
+      "sample_i": 6,
+      "sample_id": "mmke_6",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 14,
+      "sample_id": "mmke_14",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 15,
+      "sample_id": "mmke_15",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 17,
+      "sample_id": "mmke_17",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 19,
+      "sample_id": "mmke_19",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 27,
+      "sample_id": "mmke_27",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 35,
+      "sample_id": "mmke_35",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 47,
+      "sample_id": "mmke_47",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 48,
+      "sample_id": "mmke_48",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 60,
+      "sample_id": "mmke_60",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 67,
+      "sample_id": "mmke_67",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 74,
+      "sample_id": "mmke_74",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 79,
+      "sample_id": "mmke_79",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 81,
+      "sample_id": "mmke_81",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 85,
+      "sample_id": "mmke_85",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 89,
+      "sample_id": "mmke_89",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 97,
+      "sample_id": "mmke_97",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 103,
+      "sample_id": "mmke_103",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 109,
+      "sample_id": "mmke_109",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 122,
+      "sample_id": "mmke_122",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 127,
+      "sample_id": "mmke_127",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 134,
+      "sample_id": "mmke_134",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 135,
+      "sample_id": "mmke_135",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 141,
+      "sample_id": "mmke_141",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 151,
+      "sample_id": "mmke_151",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 153,
+      "sample_id": "mmke_153",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 160,
+      "sample_id": "mmke_160",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 161,
+      "sample_id": "mmke_161",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 163,
+      "sample_id": "mmke_163",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 173,
+      "sample_id": "mmke_173",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 177,
+      "sample_id": "mmke_177",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 179,
+      "sample_id": "mmke_179",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 183,
+      "sample_id": "mmke_183",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 188,
+      "sample_id": "mmke_188",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 193,
+      "sample_id": "mmke_193",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 197,
+      "sample_id": "mmke_197",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 201,
+      "sample_id": "mmke_201",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 206,
+      "sample_id": "mmke_206",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 210,
+      "sample_id": "mmke_210",
+      "layer": 0,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 6,
+      "sample_id": "mmke_6",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 14,
+      "sample_id": "mmke_14",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 15,
+      "sample_id": "mmke_15",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 17,
+      "sample_id": "mmke_17",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 19,
+      "sample_id": "mmke_19",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 27,
+      "sample_id": "mmke_27",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 35,
+      "sample_id": "mmke_35",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 47,
+      "sample_id": "mmke_47",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 48,
+      "sample_id": "mmke_48",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 60,
+      "sample_id": "mmke_60",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 67,
+      "sample_id": "mmke_67",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 74,
+      "sample_id": "mmke_74",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 79,
+      "sample_id": "mmke_79",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 81,
+      "sample_id": "mmke_81",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 85,
+      "sample_id": "mmke_85",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 89,
+      "sample_id": "mmke_89",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 97,
+      "sample_id": "mmke_97",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 103,
+      "sample_id": "mmke_103",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 109,
+      "sample_id": "mmke_109",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 122,
+      "sample_id": "mmke_122",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 127,
+      "sample_id": "mmke_127",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 134,
+      "sample_id": "mmke_134",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 135,
+      "sample_id": "mmke_135",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 141,
+      "sample_id": "mmke_141",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 151,
+      "sample_id": "mmke_151",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 153,
+      "sample_id": "mmke_153",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 160,
+      "sample_id": "mmke_160",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 161,
+      "sample_id": "mmke_161",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 163,
+      "sample_id": "mmke_163",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 173,
+      "sample_id": "mmke_173",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 177,
+      "sample_id": "mmke_177",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 179,
+      "sample_id": "mmke_179",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 183,
+      "sample_id": "mmke_183",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 188,
+      "sample_id": "mmke_188",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 193,
+      "sample_id": "mmke_193",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 197,
+      "sample_id": "mmke_197",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 201,
+      "sample_id": "mmke_201",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 206,
+      "sample_id": "mmke_206",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 210,
+      "sample_id": "mmke_210",
+      "layer": 1,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 6,
+      "sample_id": "mmke_6",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 14,
+      "sample_id": "mmke_14",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 15,
+      "sample_id": "mmke_15",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 17,
+      "sample_id": "mmke_17",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 19,
+      "sample_id": "mmke_19",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 27,
+      "sample_id": "mmke_27",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 35,
+      "sample_id": "mmke_35",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 47,
+      "sample_id": "mmke_47",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 48,
+      "sample_id": "mmke_48",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 60,
+      "sample_id": "mmke_60",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 67,
+      "sample_id": "mmke_67",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 74,
+      "sample_id": "mmke_74",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 79,
+      "sample_id": "mmke_79",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 81,
+      "sample_id": "mmke_81",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 85,
+      "sample_id": "mmke_85",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 89,
+      "sample_id": "mmke_89",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 97,
+      "sample_id": "mmke_97",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 103,
+      "sample_id": "mmke_103",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 109,
+      "sample_id": "mmke_109",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 122,
+      "sample_id": "mmke_122",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 127,
+      "sample_id": "mmke_127",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    },
+    {
+      "sample_i": 134,
+      "sample_id": "mmke_134",
+      "layer": 2,
+      "reason": "empty_model_pred"
+    }
+  ]
+}

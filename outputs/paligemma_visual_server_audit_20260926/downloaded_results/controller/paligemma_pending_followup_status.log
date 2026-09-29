@@ -1,0 +1,50 @@
+PALIGEMMA_FOLLOWUP_START time=Mon Jul 13 20:49:17 CST 2026 control_root=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_pending_followup_job3044208_20260713_204917
+0, NVIDIA A800 80GB PCIe, 15613, 81920, 0
+DATASET_START dataset=mmke-visual layers=0,5,6,3,2,1 main_root=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644 stable_root=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_pending8_job3044208_20260713_204917 time=Mon Jul 13 20:49:17 CST 2026
+ARCHIVE_INCOMPLETE dataset=mmke-visual mode=main layer=0 from=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_00 to=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/failed_or_incomplete_mmke-visual_main_L0_20260713_204917 time=Mon Jul 13 20:49:17 CST 2026
+GPU_READY used_mib=15613 max_mib=65000 time=Mon Jul 13 20:49:28 CST 2026
+TRAIN_START dataset=mmke-visual mode=main layer=0 config=configs/vead/paligemma-3b.yaml time=Mon Jul 13 20:49:28 CST 2026
+MANUAL_STOP_STUCK_MAIN_L0 pid=1422808 reason=stale_log_nonfinite_loss_nan time=Tue Jul 14 08:57:53 CST 2026
+TRAIN_END dataset=mmke-visual mode=main layer=0 rc=143 time=Tue Jul 14 08:57:54 CST 2026
+EVAL_NOT_RUN dataset=mmke-visual mode=main layer=0 train_rc=143 selected_exists=0 time=Tue Jul 14 08:57:54 CST 2026
+MAIN_LAYER_FAILED dataset=mmke-visual layer=0 will_stable=1 time=Tue Jul 14 08:57:54 CST 2026
+GPU_READY used_mib=16908 max_mib=65000 time=Tue Jul 14 08:58:07 CST 2026
+TRAIN_START dataset=mmke-visual mode=main layer=5 config=configs/vead/paligemma-3b.yaml time=Tue Jul 14 08:58:07 CST 2026
+PATCH_NOTE time=Tue Jul 14 09:09:07 CST 2026 main_timeout=7200 stable_all=1
+CURRENT_L5 pid=2935803 etimes=659
+STOP_MAIN_L5 pid=2935803 etimes=8580 reason=over_2h_stale_log_nonfinite time=Tue Jul 14 11:21:08 CST 2026
+TRAIN_END dataset=mmke-visual mode=main layer=5 rc=143 time=Tue Jul 14 11:21:08 CST 2026
+EVAL_NOT_RUN dataset=mmke-visual mode=main layer=5 train_rc=143 selected_exists=0 time=Tue Jul 14 11:21:08 CST 2026
+MAIN_LAYER_FAILED dataset=mmke-visual layer=5 will_stable=1 time=Tue Jul 14 11:21:08 CST 2026
+GPU_READY used_mib=16908 max_mib=65000 time=Tue Jul 14 11:21:25 CST 2026
+TRAIN_START dataset=mmke-visual mode=main layer=6 config=configs/vead/paligemma-3b.yaml time=Tue Jul 14 11:21:25 CST 2026
+TRAIN_END dataset=mmke-visual mode=main layer=6 rc=0 time=Tue Jul 14 11:52:29 CST 2026
+GPU_READY used_mib=16908 max_mib=65000 time=Tue Jul 14 11:52:43 CST 2026
+EVAL_START dataset=mmke-visual mode=main layer=6 eval_json=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_eval_evqa_compat.json time=Tue Jul 14 11:52:43 CST 2026
+EVAL_END dataset=mmke-visual mode=main layer=6 rc=0 time=Tue Jul 14 11:55:36 CST 2026
+GPU_READY used_mib=16908 max_mib=65000 time=Tue Jul 14 11:55:46 CST 2026
+TRAIN_START dataset=mmke-visual mode=main layer=3 config=configs/vead/paligemma-3b.yaml time=Tue Jul 14 11:55:46 CST 2026
+STOP_MAIN_L3 pid=2969361 etimes=20083 reason=over_2h_stale_log_nonfinite_or_no_progress time=Tue Jul 14 17:30:30 CST 2026
+TRAIN_END dataset=mmke-visual mode=main layer=3 rc=143 time=Tue Jul 14 17:30:30 CST 2026
+EVAL_NOT_RUN dataset=mmke-visual mode=main layer=3 train_rc=143 selected_exists=0 time=Tue Jul 14 17:30:30 CST 2026
+MAIN_LAYER_FAILED dataset=mmke-visual layer=3 will_stable=1 time=Tue Jul 14 17:30:30 CST 2026
+GPU_READY used_mib=17419 max_mib=65000 time=Tue Jul 14 17:31:05 CST 2026
+TRAIN_START dataset=mmke-visual mode=main layer=2 config=configs/vead/paligemma-3b.yaml time=Tue Jul 14 17:31:05 CST 2026
+WATCHDOG_STARTED pid=3619474 script=/tmp/paligemma_job3044208_external_watchdog.sh log=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_pending_followup_job3044208_20260713_204917/paligemma_external_watchdog.log
+TRAIN_END dataset=mmke-visual mode=main layer=2 rc=0 time=Tue Jul 14 18:24:27 CST 2026
+GPU_READY used_mib=17533 max_mib=65000 time=Tue Jul 14 18:24:43 CST 2026
+EVAL_START dataset=mmke-visual mode=main layer=2 eval_json=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_eval_evqa_compat.json time=Tue Jul 14 18:24:43 CST 2026
+EVAL_END dataset=mmke-visual mode=main layer=2 rc=0 time=Tue Jul 14 18:27:43 CST 2026
+GPU_READY used_mib=17533 max_mib=65000 time=Tue Jul 14 18:27:56 CST 2026
+TRAIN_START dataset=mmke-visual mode=main layer=1 config=configs/vead/paligemma-3b.yaml time=Tue Jul 14 18:27:56 CST 2026
+TRAIN_END dataset=mmke-visual mode=main layer=1 rc=0 time=Tue Jul 14 19:22:31 CST 2026
+GPU_READY used_mib=18269 max_mib=65000 time=Tue Jul 14 19:22:46 CST 2026
+EVAL_START dataset=mmke-visual mode=main layer=1 eval_json=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_eval_evqa_compat.json time=Tue Jul 14 19:22:46 CST 2026
+EVAL_END dataset=mmke-visual mode=main layer=1 rc=0 time=Tue Jul 14 19:25:44 CST 2026
+STABLE_FALLBACK_START dataset=mmke-visual failed_layers=0 5 3 time=Tue Jul 14 19:25:44 CST 2026
+GPU_READY used_mib=17677 max_mib=65000 time=Tue Jul 14 19:25:57 CST 2026
+TRAIN_START dataset=mmke-visual mode=stable layer=0 config=configs/vead/paligemma-3b-stable.yaml time=Tue Jul 14 19:25:57 CST 2026
+TRAIN_END dataset=mmke-visual mode=stable layer=0 rc=1 time=Tue Jul 14 20:22:03 CST 2026
+EVAL_NOT_RUN dataset=mmke-visual mode=stable layer=0 train_rc=1 selected_exists=0 time=Tue Jul 14 20:22:03 CST 2026
+GPU_READY used_mib=36523 max_mib=65000 time=Tue Jul 14 20:22:13 CST 2026
+TRAIN_START dataset=mmke-visual mode=stable layer=5 config=configs/vead/paligemma-3b-stable.yaml time=Tue Jul 14 20:22:13 CST 2026

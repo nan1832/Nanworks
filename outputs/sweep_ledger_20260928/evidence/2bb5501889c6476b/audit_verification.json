@@ -1,0 +1,117 @@
+{
+  "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12",
+  "host": "login01",
+  "errors": [],
+  "warnings": [],
+  "artifacts": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/eval_full.done": {
+      "size": 808,
+      "sha256": "e2992ca864d0f6d564893475d25aceafe19d37e829aeb98f0eb4036b4572b1d2"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/selected_checkpoint.tsv": {
+      "size": 345,
+      "sha256": "6bf90ebb2bb0588c1112cce2a7357e3603eed2e026064eeea106677a890a74e4"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L12/single_edit/results.json": {
+      "size": 4882851,
+      "sha256": "08a90a7da7a0b272c870d4b67b8ea4741ebb526e43d56dda497ff16b21b1e662"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L12/single_edit/mean_results.json": {
+      "size": 400,
+      "sha256": "65f3b7a87655fd8a68947f7c32857d74bf7aee62bb272f24223e6f78702e00b1"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/train.done": {
+      "size": 391,
+      "sha256": "b7edc28e134dc5f318c641299e12ed4b935427b81bdf3df5e71cb33a82908995"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/loss_history.csv": {
+      "size": 15821,
+      "sha256": "c0c0bc5130a918f91a864855ba4b9be0dc3c6ad15b28f45ec4def37c57a119e5"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/records/vead/paligemma-3b/pilot500_blip2_visedit_L12-lr-1-t-1-v-1/config.yaml": {
+      "size": 451,
+      "sha256": "0c9d8aa03f34b3aca6deaa1d0c18bd7b78e9810d1932a27f61ccd751a4520161"
+    }
+  },
+  "evaluation": {
+    "layer": 12,
+    "status": "EVAL_DONE",
+    "eval_samples": 2093,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/records/vead/paligemma-3b/pilot500_blip2_visedit_L12-lr-1-t-1-v-1/checkpoints/epoch-1-i-250-ema_loss-5.0018",
+    "ckpt_epoch": "1",
+    "ckpt_i": "250",
+    "ckpt_loss": "4.60374641418457",
+    "ckpt_ema_loss": "5.001782745654048",
+    "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L12/single_edit",
+    "Rel": 84.50999999999999,
+    "T-Gen": 85.98,
+    "M-Gen": 85.0,
+    "T-Loc": 100.0,
+    "M-Loc": 24.43,
+    "Average": 75.98400000000001
+  },
+  "selected": {
+    "layer": "12",
+    "status": "TRAIN_DONE",
+    "epoch": "1",
+    "i": "250",
+    "loss": "4.60374641418457",
+    "ema_loss": "5.001782745654048",
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/records/vead/paligemma-3b/pilot500_blip2_visedit_L12-lr-1-t-1-v-1/checkpoints/epoch-1-i-250-ema_loss-5.0018"
+  },
+  "checkpoint": {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/records/vead/paligemma-3b/pilot500_blip2_visedit_L12-lr-1-t-1-v-1/checkpoints/epoch-1-i-250-ema_loss-5.0018",
+    "exists": true,
+    "size": 214286926
+  },
+  "results_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L12/single_edit/results.json",
+  "results_count": 2093,
+  "recomputed_metrics": {
+    "Rel": 84.51,
+    "T-Gen": 85.98,
+    "M-Gen": 85.0,
+    "T-Loc": 100.0,
+    "M-Loc": 24.43
+  },
+  "mean_results": {
+    "reliability": {
+      "edit_time": 0.0279,
+      "acc": 0.8451
+    },
+    "generality": {
+      "text_rephrase": {
+        "acc": 0.8598
+      },
+      "image_rephrase": {
+        "acc": 0.85
+      }
+    },
+    "locality": {
+      "text_loc": {
+        "acc": 1.0
+      },
+      "image_loc": {
+        "acc": 0.2443
+      }
+    },
+    "sample_count": 2093
+  },
+  "mean_results_text": "{\n    \"reliability\": {\n        \"edit_time\": 0.0279,\n        \"acc\": 0.8451\n    },\n    \"generality\": {\n        \"text_rephrase\": {\n            \"acc\": 0.8598\n        },\n        \"image_rephrase\": {\n            \"acc\": 0.85\n        }\n    },\n    \"locality\": {\n        \"text_loc\": {\n            \"acc\": 1.0\n        },\n        \"image_loc\": {\n            \"acc\": 0.2443\n        }\n    },\n    \"sample_count\": 2093\n}",
+  "train_done": true,
+  "history_rows": 50,
+  "max_epoch": 50,
+  "all_50_epochs_present": true,
+  "minimum_ema_row": {
+    "time": "2026-06-17 01:57:37",
+    "layer": "12",
+    "epoch": "1",
+    "i": "250",
+    "loss": "4.60374641418457",
+    "ema_loss": "5.001782745654048",
+    "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_12/records/vead/paligemma-3b/pilot500_blip2_visedit_L12-lr-1-t-1-v-1/checkpoints/epoch-1-i-250-ema_loss-5.0018",
+    "kept": "1"
+  },
+  "minimum_ema_matches": true,
+  "model_config_text": "IT:\n  add_it: true\n  layers:\n  - 13\n  - 14\n  - 15\n  - 16\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 12\nedit_model_name: paligemma-3b\nllm_att_tmp: language_model.model.layers.{}.self_attn\nllm_hidden_size: 2048\nllm_layer_tmp: language_model.model.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 0.0001\n  rel_lambda: 1\n",
+  "evaluation_verified": true
+}

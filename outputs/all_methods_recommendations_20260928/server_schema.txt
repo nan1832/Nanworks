@@ -1,0 +1,11 @@
+SAMPLE {"sample_i": 0, "sample_id": "8a5e8af7c0b647d7", "layer": 0, "old_field": "model_pred", "old_answer": "no", "target_new": "yes", "old_loss": 2.45111346244812, "new_loss": 2.193005323410034, "visual_span": [0, 32]}
+
+CMAFILES cma_modelpred_direct_all20_multinoise_multiseed_v1_20260906/evqa-pilot500/blip2-opt-2.7b
+/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_direct_all20_multinoise_multiseed_v1_20260906/evqa-pilot500/blip2-opt-2.7b/formal/run_complete.json 2602
+/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_direct_all20_multinoise_multiseed_v1_20260906/evqa-pilot500/blip2-opt-2.7b/formal/canonical/summary.json 2265
+/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_direct_all20_multinoise_multiseed_v1_20260906/evqa-pilot500/blip2-opt-2.7b/smoke2/run_complete.json 2611
+/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_direct_all20_multinoise_multiseed_v1_20260906/evqa-pilot500/blip2-opt-2.7b/smoke2/canonical/summary.json 2275
+CMAFILES cma_modelpred_direct_formal_multinoise_multiseed_v1_20260906/formal636
+/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_direct_formal_multinoise_multiseed_v1_20260906/formal636/run_complete.json 2561
+/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_modelpred_direct_formal_multinoise_multiseed_v1_20260906/formal636/canonical/summary.json 2228
+OTHER ROOTS ['perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701', 'salem_candidate_layers_7models_3data_current_alloc_20260621_203335', 'cma_direct_v13_pilot_g09_gpu0_20260703_133334', 'cma_direct_v13_smol_probe_after_wrapper_fix_20260704', 'cma_direct_v13_full_g09_gpu0_20260703_134818', 'cma_direct_v13_smol_probe_20260704', 'perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143', 'salem_candidate_layers_logs', 'cma_modelpred_direct_formal_multinoise_multiseed_v1_20260906', 'cma_direct_formal_multinoise_multiseed_v1_20260906', 'cma_direct_v13_smol_probe_maincfg_after_wrapper_fix_20260704', 'cma_modelpred_direct_all20_multinoise_multiseed_v1_20260906', 'cma_modelpred_top3_missing3_adapter_backfill_20260913_job3178423']

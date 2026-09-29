@@ -1,0 +1,67 @@
+[
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_eval_20260801_163446.log",
+    "logical_line_after_splitlines": 442,
+    "text": "Loading images: 100%|██████████| 954/954 [01:36<00:00,  9.88it/s][2026-08-02 04:14:23] eval samples=954"
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_eval_20260801_163446.log",
+    "logical_line_after_splitlines": 446,
+    "text": "Loading blip2-opt-2.7b from \"models/blip2-opt-2.7b\"."
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_eval_20260801_163446.log",
+    "logical_line_after_splitlines": 453,
+    "text": "[2026-08-02 04:15:33] [eval start] layer=1 ckpt=/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-3498-ema_loss-5.9904 samples=954 allocated=14369.3MiB reserved=14388.0MiB max_allocated=14369.3MiB"
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_eval_20260801_163446.log",
+    "logical_line_after_splitlines": 1415,
+    "text": "Evaluating: 100%|██████████| 954/954 [13:10<00:00,  1.21it/s][2026-08-02 04:29:11] [eval done] layer=1 avg=72.50"
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_train_20260801_163446.log",
+    "logical_line_after_splitlines": 309,
+    "text": "Loading images: 100%|██████████| 636/636 [01:11<00:00,  8.92it/s][2026-08-01 17:05:37] train samples=636"
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_train_20260801_163446.log",
+    "logical_line_after_splitlines": 313,
+    "text": "Loading blip2-opt-2.7b from \"models/blip2-opt-2.7b\"."
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_train_20260801_163446.log",
+    "logical_line_after_splitlines": 320,
+    "text": "Loading blip2-opt-2.7b from \"models/blip2-opt-2.7b\"."
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_train_20260801_163446.log",
+    "logical_line_after_splitlines": 326,
+    "text": "[2026-08-01 17:06:56] [train start] layer=1 epochs=50 bs=2 save_per_i=318 allocated=28654.4MiB reserved=28656.0MiB max_allocated=28654.4MiB"
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_train_20260801_163446.log",
+    "logical_line_after_splitlines": 327,
+    "text": "Random seed is 20260602"
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_train_20260801_163446.log",
+    "logical_line_after_splitlines": 971,
+    "text": "Train parameters are reinitialized with seed 20260602."
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_train_20260801_163446.log",
+    "logical_line_after_splitlines": 6487,
+    "text": " Waiting data: 0 s[2026-08-01 19:12:26] [ckpt] layer=1 epoch=11 i=3498 loss=5.893988 ema=5.990400 removed=0 kept~=2"
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_train_20260801_163446.log",
+    "logical_line_after_splitlines": 28724,
+    "text": " Waiting data: 0 s[2026-08-02 04:11:05] [ckpt] layer=1 epoch=50 i=15900 loss=9.784434 ema=8.940566 removed=1 kept~=2"
+  },
+  {
+    "source": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_train_20260801_163446.log",
+    "logical_line_after_splitlines": 28727,
+    "text": "Epoch 50: 100%|██████████| 636/636 [10:16<00:00,  1.03it/s][2026-08-02 04:11:05] [train done] layer=1 selected=/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-3498-ema_loss-5.9904 ema=5.990400"
+  }
+]

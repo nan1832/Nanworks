@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+10	TRAIN_DONE	36	3852	0.24701379239559174	0.2600446514188739	/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-visual/minigpt-4-vicuna-7b/layer_10/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L10-lr-1-t-1-v-1/checkpoints/epoch-36-i-3852-ema_loss-0.2600

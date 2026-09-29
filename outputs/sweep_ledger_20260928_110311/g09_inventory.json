@@ -1,0 +1,12 @@
+{
+  "started": "2026-09-28T11:07:46+08:00",
+  "finished": "2026-09-28T11:07:46+08:00",
+  "host": "g09",
+  "roots": [
+    "/tmp/ph_teacher3"
+  ],
+  "visited": 20,
+  "errors": [],
+  "layers": [],
+  "queue": "3435286|jupyter|RUNNING|g08|3-21:10:18|26-02:49:42\n3443209|jupyter|RUNNING|g09|1-16:23:57|28-07:36:03\n"
+}

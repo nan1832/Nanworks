@@ -1,0 +1,117 @@
+{
+  "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19",
+  "host": "login01",
+  "errors": [],
+  "warnings": [],
+  "artifacts": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/eval_full.done": {
+      "size": 868,
+      "sha256": "f4c77667501c40d11c3b4be3873a7be7eda821fbed589dbdc62a5a9c4870a4bd"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/selected_checkpoint.tsv": {
+      "size": 388,
+      "sha256": "0420e025e9624c7bd0a221e1b28f3bfac59a998120f0061095cf868c013ea264"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L19/single_edit/results.json": {
+      "size": 4855180,
+      "sha256": "38fa24104ac3e16af42c86f61b2ac2514a532155152f5acdfdcc024da5583c06"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L19/single_edit/mean_results.json": {
+      "size": 402,
+      "sha256": "4340bbdf6206a750e71619d787e0ae930dbc6b6cfbfd0b7c493dcf962bc2f3b5"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/train.done": {
+      "size": 434,
+      "sha256": "4cb5799756b4ab186b2dc74ae223a47362bea78f9f71d9e5b22e682b5ba364e0"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/loss_history.csv": {
+      "size": 391,
+      "sha256": "4383f8ac4abc5b20f02267d48e04473bd3f0ae3951bf7fe8aed7bb835edbd87e"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L19-lr-1-t-1-v-1/config.yaml": {
+      "size": 454,
+      "sha256": "7a9026035352ae88dacf80cb825ec5454ce8faae8d8a23552ef1ea5e993f30cf"
+    }
+  },
+  "evaluation": {
+    "layer": 19,
+    "status": "EVAL_DONE",
+    "eval_samples": 2093,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L19-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-1.4002",
+    "ckpt_epoch": "41",
+    "ckpt_i": "10250",
+    "ckpt_loss": "2.4615118503570557",
+    "ckpt_ema_loss": "1.4001769434783715",
+    "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L19/single_edit",
+    "Rel": 27.689999999999998,
+    "T-Gen": 26.05,
+    "M-Gen": 26.68,
+    "T-Loc": 100.0,
+    "M-Loc": 70.67,
+    "Average": 50.217999999999996
+  },
+  "selected": {
+    "layer": "19",
+    "status": "TRAIN_DONE_RECOVERED",
+    "epoch": "41",
+    "i": "10250",
+    "loss": "2.4615118503570557",
+    "ema_loss": "1.4001769434783715",
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L19-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-1.4002"
+  },
+  "checkpoint": {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L19-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-1.4002",
+    "exists": true,
+    "size": 415896102
+  },
+  "results_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/eval_full/vead/instructblip-vicuna-7b/EVQA_full_test_pilot500_blip2_visedit_L19/single_edit/results.json",
+  "results_count": 2093,
+  "recomputed_metrics": {
+    "Rel": 27.69,
+    "T-Gen": 26.05,
+    "M-Gen": 26.68,
+    "T-Loc": 100.0,
+    "M-Loc": 70.67
+  },
+  "mean_results": {
+    "reliability": {
+      "edit_time": 0.1134,
+      "acc": 0.2769
+    },
+    "generality": {
+      "text_rephrase": {
+        "acc": 0.2605
+      },
+      "image_rephrase": {
+        "acc": 0.2668
+      }
+    },
+    "locality": {
+      "text_loc": {
+        "acc": 1.0
+      },
+      "image_loc": {
+        "acc": 0.7067
+      }
+    },
+    "sample_count": 2093
+  },
+  "mean_results_text": "{\n    \"reliability\": {\n        \"edit_time\": 0.1134,\n        \"acc\": 0.2769\n    },\n    \"generality\": {\n        \"text_rephrase\": {\n            \"acc\": 0.2605\n        },\n        \"image_rephrase\": {\n            \"acc\": 0.2668\n        }\n    },\n    \"locality\": {\n        \"text_loc\": {\n            \"acc\": 1.0\n        },\n        \"image_loc\": {\n            \"acc\": 0.7067\n        }\n    },\n    \"sample_count\": 2093\n}",
+  "train_done": true,
+  "history_rows": 1,
+  "max_epoch": 41,
+  "all_50_epochs_present": false,
+  "minimum_ema_row": {
+    "time": "2026-08-19 17:39:33",
+    "layer": "19",
+    "epoch": "41",
+    "i": "10250",
+    "loss": "2.4615118503570557",
+    "ema_loss": "1.4001769434783715",
+    "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/instructblip-vicuna-7b/layer_19/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L19-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-1.4002",
+    "kept": "1"
+  },
+  "minimum_ema_matches": true,
+  "model_config_text": "IT:\n  add_it: true\n  layers:\n  - 29\n  - 30\n  - 31\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 19\nedit_model_name: instructblip-vicuna-7b\nllm_att_tmp: language_model.model.layers.{}.self_attn\nllm_hidden_size: 4096\nllm_layer_tmp: language_model.model.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 0.0001\n  rel_lambda: 1\n",
+  "evaluation_verified": true
+}

@@ -1,0 +1,29 @@
+{
+  "dataset_key": "evqa-pilot500",
+  "dataset": "EVQA-pilot500",
+  "model_key": "qwen2.5-vl-3b",
+  "model": "Qwen2.5-VL-3B",
+  "formula": "S_l(D)=mean_samples(mean_abs(grad_W_l loss(prompt,image,target_new_alt)))",
+  "target_field": "request.target_new / alt",
+  "layer_type": "MLP/FFN parameters from configs/p_track mlp_module_tmp",
+  "num_layers": 36,
+  "total_samples": 500,
+  "ok_samples": 500,
+  "error_samples": 0,
+  "loss_mean": 2.3142858276367186,
+  "top3_layers": [
+    "L11",
+    "L14",
+    "L12"
+  ],
+  "top5_layers": [
+    "L11",
+    "L14",
+    "L12",
+    "L13",
+    "L15"
+  ],
+  "duration_sec": 159.89676356315613,
+  "scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/salem_candidate_layers_7models_3data_current_alloc_20260621_203335/evqa-pilot500/qwen2.5-vl-3b/salem_layer_scores.csv",
+  "errors": []
+}

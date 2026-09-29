@@ -1,0 +1,31 @@
+{
+  "source_layer": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_00",
+  "source_checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_00/records/vead/paligemma-3b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-1-i-107-ema_loss-3508.0074",
+  "selection": "minimum finite EMA among surviving checkpoints in this exact run",
+  "checkpoint_ema": 3508.0074055025543,
+  "history_row": {
+    "time": "2026-07-13 20:51:50",
+    "layer": "0",
+    "epoch": "1",
+    "i": "107",
+    "loss": "3465.71875",
+    "ema_loss": "3508.0074055025543",
+    "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_00/records/vead/paligemma-3b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-1-i-107-ema_loss-3508.0074",
+    "kept": "1"
+  },
+  "saved_metadata": {
+    "i": 107,
+    "epoch": 1,
+    "loss": 3465.71875,
+    "ema_loss": 3508.0074055025543
+  },
+  "surviving_checkpoint_count": 7,
+  "parameter_tensor_count": 26,
+  "nonfinite_parameter_names": [],
+  "converged": false,
+  "training_complete_50_epochs": false,
+  "variant": "main lr=1e-4",
+  "expected_eval_samples": 293,
+  "training_started": false,
+  "checkpoint_sha256": "65f1f71b94e984cbcfa4f73d6f50498b6e3e585e488d9ed77eb9b1272282a06b"
+}

@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+2	TRAIN_DONE	33	3531	0.2813838720321655	0.30597750185775674	/tmp/ph_teacher3/mmke_visual_llava_sharedgpu_job3117562_20260730/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-33-i-3531-ema_loss-0.3060

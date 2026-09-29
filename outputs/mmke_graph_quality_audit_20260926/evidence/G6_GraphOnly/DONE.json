@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_EVAL955_COMPLETE",
+  "samples": 955,
+  "group": "G6_GraphOnly",
+  "fingerprint": {
+    "freeze": "5b3464ef21698fa3d1ddb5c1c69a93c49bc7e9db51c7f7556191c32863d0d6e3",
+    "runner": "84bef6a186cd6adf07dbdf53cb68dbc1ed41daa9cccddd346c15917f877a2771",
+    "data": "b721501bb2bd33d3c6fc4c7cf8b9ef93fb96b83c06ca013f8bc686fc03f7b605"
+  },
+  "parameter_updates": 0,
+  "time": "2026-09-26 15:19:26 CST"
+}

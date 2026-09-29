@@ -1,0 +1,23 @@
+edit_model_name: qwen2.5-vl-7b-instruct
+llm_hidden_size: 3584
+adaptor_mid_dim: 1024
+adaptor_cross_att_head_n: 8
+llm_layer_tmp: model.layers.{}
+llm_att_tmp: model.layers.{}.self_attn
+edit_layers: []
+train_cfg:
+  lr: 0.0001
+  rel_lambda: 1.0
+  gen_lambda: 0.0
+  loc_lambda: 0.0
+  inf_mapper_lambda: 0.0
+IT:
+  add_it: false
+  layers: []
+  test_n: 1
+  noise_level: 0.0
+  window: 0
+  vt_sample_n: 1
+  mid_dim: 1024
+edit_text_layers:
+- 14

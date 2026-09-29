@@ -1,0 +1,40 @@
+{
+  "dataset": "mmke-entity",
+  "model": "instructblip-vicuna-7b",
+  "method": "VisEdit-Contrib-Pre-KeyToken",
+  "key_mode": "dataset_key_token",
+  "valid_sample_count": 636,
+  "total_sample_count": 636,
+  "generic_key_token_ratio": 0.0,
+  "fallback_key_token_ratio": 0.0,
+  "top3_direct_layers": [
+    30,
+    31,
+    29
+  ],
+  "top5_direct_layers": [
+    30,
+    31,
+    29,
+    10,
+    28
+  ],
+  "high_contribution_region": [
+    29,
+    31
+  ],
+  "top3_pre_layers": [
+    28,
+    27,
+    26
+  ],
+  "top5_pre_layers": [
+    28,
+    27,
+    26,
+    25,
+    24
+  ],
+  "status": "done",
+  "failure_reason": ""
+}

@@ -1,0 +1,327 @@
+{
+  "updated_at": "2026-09-28T15:24:44+08:00",
+  "checks": {
+    "baseline_top3_matches_server_summary": 84,
+    "previous_tukey_groups_loaded": 21,
+    "zero_gradient_layers_explicitly_retained_in_raw": 21,
+    "sample_logs_confirmed_missing_cross_moments": 21,
+    "raw_top3_matches_previous_formula_analysis": 77,
+    "raw_top3_change_explained_by_explicit_zero_layer_policy": 7,
+    "visedit_pre_matches_previous_ledger": 28
+  },
+  "recommendation_rows": 624,
+  "tukey_groups": 126,
+  "source_files": 319,
+  "status_counts": {
+    "done": 400,
+    "pending_source_data": 224
+  },
+  "all_visual_raw_layers": 618,
+  "main_sections_3_through_6_unchanged_sha256": "86de884b93d3870f2e72e66a32f19b3a1c1157cfa546f574b15c7b58edd5c18a",
+  "no_model_execution": true,
+  "no_server_mutation": true,
+  "strict_ablation_groups": [
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "blip2-opt-2.7b",
+      "status": "preflight_ready",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "evqa-pilot500",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "blip2-opt-2.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-visual",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "blip2-opt-2.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "parameter",
+      "dataset": "mmke-entity",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "blip2-opt-2.7b",
+      "status": "preflight_ready",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "blip2-opt-2.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-visual",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "blip2-opt-2.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "minigpt-4-vicuna-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "qwen2.5-vl-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "paligemma-3b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    },
+    {
+      "space": "visual",
+      "dataset": "mmke-entity",
+      "model": "smolvlm-1.7b",
+      "status": "not_started",
+      "completed_sample_files": 0
+    }
+  ],
+  "pending": {
+    "LGA-Param-no-old-strength": 42,
+    "LGA-Param-no-new-strength": 42,
+    "LGA-Param-no-direction": 42,
+    "LGA-Visual-no-old-strength": 42,
+    "LGA-Visual-no-new-strength": 42,
+    "VisEdit-Pre-model_pred": 14
+  }
+}

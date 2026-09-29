@@ -1,0 +1,4 @@
+dataset,model,dataset_key,model_key,valid_samples,total_samples,coverage,status,failure_reason_major,cache_exists,cache_records,empty_model_pred_count,missing_image_count,status_counts,duplicate_sample_id_count,unique_sample_id_count,min_sample_i,max_sample_i
+EVQA-pilot500,Qwen2.5-VL-3B,evqa-pilot500,qwen2.5-vl-3b,457,500,0.914,failed,no_valid_ours_direct_layer,True,500,43,0,"{'ok': 457, 'empty_model_pred': 43}",0,500,0,499
+MMKE-entity,Qwen2.5-VL-3B,mmke-entity,qwen2.5-vl-3b,5,636,0.007862,invalid_low_coverage,invalid_low_coverage,True,636,631,0,"{'empty_model_pred': 631, 'ok': 5}",0,636,0,635
+MMKE-visual,Qwen2.5-VL-3B,mmke-visual,qwen2.5-vl-3b,96,214,0.448598,low_confidence,low_coverage,True,214,118,0,"{'empty_model_pred': 118, 'ok': 96}",0,214,0,213

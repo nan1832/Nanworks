@@ -1,0 +1,9 @@
+﻿model,formula,samples,valid_layers,top1,top3,top5,scope
+blip2,current_product,30,31,L13,"L13,L15,L14","L13,L15,L14,L16,L12",May bridge train30 diagnostic only; no formal 21-combination editing comparison
+blip2,mean_absolute_projection,30,31,L0,"L0,L1,L2","L0,L1,L2,L3,L10",May bridge train30 diagnostic only; no formal 21-combination editing comparison
+blip2,absolute_mean_projection,30,31,L13,"L13,L14,L15","L13,L14,L15,L12,L10",May bridge train30 diagnostic only; no formal 21-combination editing comparison
+blip2,new_norm_only,30,31,L0,"L0,L1,L2","L0,L1,L2,L3,L4",May bridge train30 diagnostic only; no formal 21-combination editing comparison
+llava,current_product,30,31,L6,"L6,L5,L7","L6,L5,L7,L4,L3",May bridge train30 diagnostic only; no formal 21-combination editing comparison
+llava,mean_absolute_projection,30,31,L5,"L5,L6,L4","L5,L6,L4,L3,L7",May bridge train30 diagnostic only; no formal 21-combination editing comparison
+llava,absolute_mean_projection,30,31,L6,"L6,L5,L4","L6,L5,L4,L7,L3",May bridge train30 diagnostic only; no formal 21-combination editing comparison
+llava,new_norm_only,30,31,L6,"L6,L7,L5","L6,L7,L5,L3,L4",May bridge train30 diagnostic only; no formal 21-combination editing comparison

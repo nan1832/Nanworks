@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+8	TRAIN_DONE_MANUAL_EPOCH13	13	1391	0.4983053207397461	0.5874100363908694	/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/records/vead/paligemma-3b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-13-i-1391-ema_loss-0.5874

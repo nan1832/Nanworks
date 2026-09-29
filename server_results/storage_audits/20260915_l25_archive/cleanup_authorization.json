@@ -1,0 +1,27 @@
+{
+  "user_authorized": "Archive EVQA-pilot500 LLaVA L25 to shared directory then remove its tmp data",
+  "scope": [
+    {
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25",
+      "reason": "L25 durable archive verified; exact source copy archived with SHA256"
+    },
+    {
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/cache/layer_25",
+      "reason": "L25 durable archive verified; reproducible preprocessing cache"
+    },
+    {
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/logs/evqa-pilot500_llava-v1.5-7b_L25_eval_20260906_121304.log",
+      "reason": "L25 durable archive verified; exact source copy archived with SHA256"
+    },
+    {
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/logs/evqa-pilot500_llava-v1.5-7b_L25_train_20260906_121304.log",
+      "reason": "L25 durable archive verified; exact source copy archived with SHA256"
+    }
+  ],
+  "excludes": [
+    "L0 active data",
+    "all other layers",
+    "shared archives",
+    "queue-wide logs/locks/config"
+  ]
+}

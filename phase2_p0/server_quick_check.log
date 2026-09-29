@@ -1,0 +1,40 @@
+{"file": "scripts/run_evqa_pilot500_blip2_visedit_sweep.py", "exists": true, "sha256": "7c26d9f37d0d0aca4e6f70a7e730d7edbe1dbdb03954ca7766689b4ce91656b3"}
+{"file": "editor/vllm_editors/vead/vead.py", "exists": true, "sha256": "65d5c23e22796cabc8e99782c2eec391ec433f48d0a4e3ebdb100e31a59b20d8"}
+{"file": "editor/vllm_editors/vead/adpt_model.py", "exists": true, "sha256": "d1fc7394dc886e57513a80aace6ae96392a8632ff8670e2923dce77eae6d4eca"}
+{"file": "editor/vllms_for_edit/blip2.py", "exists": false, "sha256": null}
+{"file": "configs/vead/blip2-opt-2.7b.yaml", "exists": true, "sha256": "3bff59712d0975a60d4cad7976a18aca326ccaf31eecf8f5e164f0905d6a6fc3"}
+    PID    PPID     ELAPSED COMMAND
+  54231   54227 14-17:13:18 slurm_script
+  54252   54231 14-17:13:18 starter-suid
+  54295   54252 14-17:13:18 start
+  54788   54295 14-17:13:16 jupyter-noteboo
+ 158310  158305    08:46:55 pt_main_thread
+ 703420   54788  9-20:48:17 python
+ 726322  726313       03:21 sshd
+ 726323  726322       03:21 bash
+ 726364  726323       03:21 python
+ 730031  729960       00:00 sshd
+ 730033  730031       00:00 bash
+ 730078  730033       00:00 python3
+ 730080  730078       00:00 ps
+1416151   54788  2-17:04:51 pt_main_thread
+1419251   54788  2-17:02:10 pt_main_thread
+1544613   54788  1-18:34:35 python
+1547286   54788  1-18:34:14 python
+1548125   54788  1-18:33:54 python
+1562850   54788  6-17:10:59 python
+2905258 2905253  4-21:05:39 bash
+3270322       1  3-20:56:03 systemd
+3270324 3270322  3-20:56:03 (sd-pam)
+3270411 3270322  3-20:56:02 dbus-daemon
+3503693   54788    21:44:25 python
+3657801 2905258  3-15:37:51 python <defunct>
+3657807 2905258  3-15:37:51 sleep <defunct>
+3811681   54788    17:03:40 python
+3935742   54788    15:06:59 python
+
+BLIP2_FILES ['/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllms_for_edit/blip2/blip2.py']
+PATH /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/recovered_g09_nodefail_20260810 False
+PATH /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/live_backfill False
+PATH /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000 True
+['mmke_entity_tmp_resume_20260715_121700.srun.log', 'MMKE_ENTITY_3P4_PENDING_JOB3044841_DONE', 'mmke_entity_3p4_pending_job3044841_resume_after_cleanup_20260712_132046.nohup', 'cleanup_manifests', 'mmke_entity_3p4_pending_job3044841_layer_status.csv', 'resume_mmke_entity_job3044208_20260703_112630.paused_for_cma_20260703_130056.nohup.log', 'resume_mmke_entity_job3044208_20260703_112630.nohup.log', 'mmke_entity_resume_atomic_20260617.nohup.log', 'mmke_entity_resume_atomic_20260617.pid', '_write_test', 'llava-v1.5-7b', 'paligemma-3b', 'qwen2.5-vl-3b', 'instructblip-vicuna-7b', 'blip2-opt-2.7b', 'mmke_entity_top3_union_status.log', 'mmke_entity_top3_union.lock', 'data', 'mmke_entity_top3_union_layer_status.csv', 'mmke_entity_tmp_cleanup_20260715_121700.srun.log', 'mmke_entity_3p4_pending_job3044841_status.log', 'mmke_entity_3p4_pending_job3044841.lock', 'mmke_entity_3p4_pending_job3044841_20260707_112646.outer.log', 'PAUSED_FOR_CMA_3044208_20260703_130740.txt', 'mmke_entity_top3_union_resume_nonpali_status.log', 'mmke_entity_top3_union_resume_nonpali.lock', 'mmke_entity_resume_nonpali.outer.log', 'mmke_entity_noqwen_after_quota_20260617.nohup.log', '_cleanup_nonselected_ckpts_20260617_1558.tsv', 'ALL_DONE', 'smolvlm-1.7b', 'minigpt-4-vicuna-7b']

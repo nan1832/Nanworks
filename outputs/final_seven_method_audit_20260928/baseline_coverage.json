@@ -1,0 +1,180 @@
+[
+  {
+    "method": "Middle-Prior",
+    "flavor": "raw",
+    "registered": 21,
+    "ready": 21,
+    "full_main": 21,
+    "missing": []
+  },
+  {
+    "method": "CMA-model_pred",
+    "flavor": "raw",
+    "registered": 21,
+    "ready": 21,
+    "full_main": 20,
+    "missing": [
+      {
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "top3": [
+          0,
+          1,
+          4
+        ],
+        "complete": false,
+        "missing": [
+          0,
+          1,
+          4
+        ],
+        "mean3": null,
+        "best3": null
+      }
+    ]
+  },
+  {
+    "method": "VisEdit-Pre-model_pred",
+    "flavor": "current",
+    "registered": 21,
+    "ready": 7,
+    "full_main": 4,
+    "missing": [
+      {
+        "dataset": "evqa-pilot500",
+        "model": "instructblip-vicuna-7b",
+        "top3": [
+          17,
+          16,
+          15
+        ],
+        "complete": false,
+        "missing": [
+          17
+        ],
+        "mean3": null,
+        "best3": null
+      },
+      {
+        "dataset": "evqa-pilot500",
+        "model": "minigpt-4-vicuna-7b",
+        "top3": [
+          24,
+          23,
+          22
+        ],
+        "complete": false,
+        "missing": [
+          23
+        ],
+        "mean3": null,
+        "best3": null
+      },
+      {
+        "dataset": "evqa-pilot500",
+        "model": "smolvlm-1.7b",
+        "top3": [
+          18,
+          17,
+          16
+        ],
+        "complete": false,
+        "missing": [
+          18
+        ],
+        "mean3": null,
+        "best3": null
+      }
+    ]
+  },
+  {
+    "method": "SaLEM-alt",
+    "flavor": "raw",
+    "registered": 21,
+    "ready": 21,
+    "full_main": 21,
+    "missing": []
+  },
+  {
+    "method": "LGA-Param",
+    "flavor": "tukey",
+    "registered": 21,
+    "ready": 21,
+    "full_main": 18,
+    "missing": [
+      {
+        "dataset": "evqa-pilot500",
+        "model": "instructblip-vicuna-7b",
+        "top3": [
+          17,
+          18,
+          20
+        ],
+        "complete": false,
+        "missing": [
+          17,
+          20
+        ],
+        "mean3": null,
+        "best3": null
+      },
+      {
+        "dataset": "mmke-entity",
+        "model": "minigpt-4-vicuna-7b",
+        "top3": [
+          7,
+          8,
+          14
+        ],
+        "complete": false,
+        "missing": [
+          8
+        ],
+        "mean3": null,
+        "best3": null
+      },
+      {
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "top3": [
+          9,
+          7,
+          8
+        ],
+        "complete": false,
+        "missing": [
+          7,
+          8
+        ],
+        "mean3": null,
+        "best3": null
+      }
+    ]
+  },
+  {
+    "method": "Perturb-KL-alt",
+    "flavor": "raw",
+    "registered": 21,
+    "ready": 21,
+    "full_main": 20,
+    "missing": [
+      {
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "top3": [
+          0,
+          1,
+          2
+        ],
+        "complete": false,
+        "missing": [
+          0,
+          1,
+          2
+        ],
+        "mean3": null,
+        "best3": null
+      }
+    ]
+  }
+]

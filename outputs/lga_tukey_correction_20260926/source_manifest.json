@@ -1,0 +1,446 @@
+{
+  "captured_utc": "2026-09-26T11:05:15.551972+00:00",
+  "run_root": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900",
+  "files": [
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/blip2-opt-2.7b/summary.json",
+      "relative": "raw/evqa-pilot500/blip2-opt-2.7b/summary.json",
+      "sha256": "afeda74a40b46d5c11435cc86ee0fcd1c0a93a1d4d3caec2d527c59561f50127"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/blip2-opt-2.7b/layer_scores.csv",
+      "relative": "raw/evqa-pilot500/blip2-opt-2.7b/layer_scores.csv",
+      "sha256": "b4e564a4fa94e7316f79cf23484c291a40cd3b98b4e6165c21a7fb38d26078d4"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/blip2-opt-2.7b/candidate_layers_topk.csv",
+      "relative": "raw/evqa-pilot500/blip2-opt-2.7b/candidate_layers_topk.csv",
+      "sha256": "3e3085742a225eb574c3e4824d557ed2134689ec25d55034be4bb571a1b47da0"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/blip2-opt-2.7b/sanity_check.json",
+      "relative": "raw/evqa-pilot500/blip2-opt-2.7b/sanity_check.json",
+      "sha256": "bd4ecb30cd5228a23be90c220cd5a0b64da5e28849fb28024b722e7505defb5f"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/instructblip-vicuna-7b/summary.json",
+      "relative": "raw/evqa-pilot500/instructblip-vicuna-7b/summary.json",
+      "sha256": "381abfad70c78149f0ff8953e94a1335caf221172bf73536f1257cbb72a5ca10"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/instructblip-vicuna-7b/layer_scores.csv",
+      "relative": "raw/evqa-pilot500/instructblip-vicuna-7b/layer_scores.csv",
+      "sha256": "33daddc62ebb2caa6f85b683a3fa4d95e83d057b756796bea1c57eb37dfd0a83"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/instructblip-vicuna-7b/candidate_layers_topk.csv",
+      "relative": "raw/evqa-pilot500/instructblip-vicuna-7b/candidate_layers_topk.csv",
+      "sha256": "131659e1d29c68f56c15fe5be14e5d5e514af676ebf02dcd792ba714300d49d8"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/instructblip-vicuna-7b/sanity_check.json",
+      "relative": "raw/evqa-pilot500/instructblip-vicuna-7b/sanity_check.json",
+      "sha256": "bd4ecb30cd5228a23be90c220cd5a0b64da5e28849fb28024b722e7505defb5f"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/llava-v1.5-7b/summary.json",
+      "relative": "raw/evqa-pilot500/llava-v1.5-7b/summary.json",
+      "sha256": "4c2081316a15195a686c88fbdce3180bec66babf008e2c5fcf921c2a2d722ec0"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/llava-v1.5-7b/layer_scores.csv",
+      "relative": "raw/evqa-pilot500/llava-v1.5-7b/layer_scores.csv",
+      "sha256": "aa558fb37088c4a1903300d2ca4cfa85d8dd8886b8529aeab555d9047d7d859f"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/llava-v1.5-7b/candidate_layers_topk.csv",
+      "relative": "raw/evqa-pilot500/llava-v1.5-7b/candidate_layers_topk.csv",
+      "sha256": "3e3e1bd8ab20662519af3ddeb19662075c9ddf493a32547b230f82c6f1a8a80d"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/llava-v1.5-7b/sanity_check.json",
+      "relative": "raw/evqa-pilot500/llava-v1.5-7b/sanity_check.json",
+      "sha256": "bd4ecb30cd5228a23be90c220cd5a0b64da5e28849fb28024b722e7505defb5f"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/minigpt-4-vicuna-7b/summary.json",
+      "relative": "raw/evqa-pilot500/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "381106bf317d79affaefdf2d2dcb24c0c42fe32528034eed9ef347dbb0e23729"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/minigpt-4-vicuna-7b/layer_scores.csv",
+      "relative": "raw/evqa-pilot500/minigpt-4-vicuna-7b/layer_scores.csv",
+      "sha256": "14e4497578e4dfcefe8544833b74c03c9228b0ee33f44e70eb4b71d42cd19a0e"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/minigpt-4-vicuna-7b/candidate_layers_topk.csv",
+      "relative": "raw/evqa-pilot500/minigpt-4-vicuna-7b/candidate_layers_topk.csv",
+      "sha256": "3ac01ff8dfe0df8ec864f562f27ced6c647554c68196a3af803d619c54bda043"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/minigpt-4-vicuna-7b/sanity_check.json",
+      "relative": "raw/evqa-pilot500/minigpt-4-vicuna-7b/sanity_check.json",
+      "sha256": "bd4ecb30cd5228a23be90c220cd5a0b64da5e28849fb28024b722e7505defb5f"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/paligemma-3b/summary.json",
+      "relative": "raw/evqa-pilot500/paligemma-3b/summary.json",
+      "sha256": "385b86f8e1288cda4ecddcb33f35aec44c7d7b2fba10413c598b1977abb96f58"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/paligemma-3b/layer_scores.csv",
+      "relative": "raw/evqa-pilot500/paligemma-3b/layer_scores.csv",
+      "sha256": "491595276f36ea8ca62ca54cb5e629bb22fa52ecfe916e1354314505474545d8"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/paligemma-3b/candidate_layers_topk.csv",
+      "relative": "raw/evqa-pilot500/paligemma-3b/candidate_layers_topk.csv",
+      "sha256": "80e87660362c3bfbd8b3779be3b04e1d45c187028517a8f6ac05990dacb6a9a5"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/paligemma-3b/sanity_check.json",
+      "relative": "raw/evqa-pilot500/paligemma-3b/sanity_check.json",
+      "sha256": "863c6861ebef5a5b694f8446b6bd7238744938aa3e7b8be660e01814738617fb"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/qwen2.5-vl-3b/summary.json",
+      "relative": "raw/evqa-pilot500/qwen2.5-vl-3b/summary.json",
+      "sha256": "27560edd92b704d6f8fc93e93e485a5f69d039d1b17b2eb9261e1300c5e713c8"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/qwen2.5-vl-3b/layer_scores.csv",
+      "relative": "raw/evqa-pilot500/qwen2.5-vl-3b/layer_scores.csv",
+      "sha256": "b7ef24bdc224f3d87e4252b038d595f059a9b6b7c0eef2289e8c66e989c8cbd6"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/qwen2.5-vl-3b/candidate_layers_topk.csv",
+      "relative": "raw/evqa-pilot500/qwen2.5-vl-3b/candidate_layers_topk.csv",
+      "sha256": "7e963facc73e6878353d660580676454968fdb891679bd17d0374da4d5b532cb"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/qwen2.5-vl-3b/sanity_check.json",
+      "relative": "raw/evqa-pilot500/qwen2.5-vl-3b/sanity_check.json",
+      "sha256": "3edd558b97ca0db78127b3631e5564f2b9983caa22ce979004fc952938f5863d"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/smolvlm-1.7b/summary.json",
+      "relative": "raw/evqa-pilot500/smolvlm-1.7b/summary.json",
+      "sha256": "6afbf44fc0f745f99e9415496e7db82b84c056b94f4b24d0ae590a9932f375df"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/smolvlm-1.7b/layer_scores.csv",
+      "relative": "raw/evqa-pilot500/smolvlm-1.7b/layer_scores.csv",
+      "sha256": "0ccb82c7761f131053ef2a3347ab8750024c871c2ad343449f228de1a47ad49f"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/smolvlm-1.7b/candidate_layers_topk.csv",
+      "relative": "raw/evqa-pilot500/smolvlm-1.7b/candidate_layers_topk.csv",
+      "sha256": "29e9f30f2eba16d884a57deba349a7cd8a8400a125a4dcdd66c1f781b9bdc8f9"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/evqa-pilot500/smolvlm-1.7b/sanity_check.json",
+      "relative": "raw/evqa-pilot500/smolvlm-1.7b/sanity_check.json",
+      "sha256": "5d44b77d71713221bfb5f8d68f97c46410884baa413a4b9a06de8d65f460188e"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/blip2-opt-2.7b/summary.json",
+      "relative": "raw/mmke-entity/blip2-opt-2.7b/summary.json",
+      "sha256": "48f111f9ed71f245d25a470fc0c11bdccb08acaa36abc719d9881619d57558a0"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/blip2-opt-2.7b/layer_scores.csv",
+      "relative": "raw/mmke-entity/blip2-opt-2.7b/layer_scores.csv",
+      "sha256": "f53ead7fcbd866fda3dcbd9cd1b8547eb660f182ad36a23b2004174af70d490e"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/blip2-opt-2.7b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-entity/blip2-opt-2.7b/candidate_layers_topk.csv",
+      "sha256": "8f9cf242edf7c39176b6e9e890ad0cc74ab286e8c330a6f7c871cc13d8133406"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/blip2-opt-2.7b/sanity_check.json",
+      "relative": "raw/mmke-entity/blip2-opt-2.7b/sanity_check.json",
+      "sha256": "bd4ecb30cd5228a23be90c220cd5a0b64da5e28849fb28024b722e7505defb5f"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/instructblip-vicuna-7b/summary.json",
+      "relative": "raw/mmke-entity/instructblip-vicuna-7b/summary.json",
+      "sha256": "322b77968898fcf94ef8b55c6894db0671fde64dbb6a41e0ff8e9f3e8a816b7a"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/instructblip-vicuna-7b/layer_scores.csv",
+      "relative": "raw/mmke-entity/instructblip-vicuna-7b/layer_scores.csv",
+      "sha256": "8e617cf95f91daccdf803d908e80af4e80043d23872f32077601cc4ec8131fe0"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/instructblip-vicuna-7b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-entity/instructblip-vicuna-7b/candidate_layers_topk.csv",
+      "sha256": "ea62f88de153ceca730ebb8f433a7af3ec54f80a50b24475c1df5c144799cc31"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/instructblip-vicuna-7b/sanity_check.json",
+      "relative": "raw/mmke-entity/instructblip-vicuna-7b/sanity_check.json",
+      "sha256": "080810ea831d3ac2383920aef428280478d44759a8157464d3fe7fd1a37ad52a"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/llava-v1.5-7b/summary.json",
+      "relative": "raw/mmke-entity/llava-v1.5-7b/summary.json",
+      "sha256": "7f40496c007e18d55f3f005d9e7ac2c51bfde8d0daf244589c9a5161cb3a923a"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/llava-v1.5-7b/layer_scores.csv",
+      "relative": "raw/mmke-entity/llava-v1.5-7b/layer_scores.csv",
+      "sha256": "bc750cea4f967d88904265bcc1d5eec12ec325539231e8359fc094e19c798776"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/llava-v1.5-7b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-entity/llava-v1.5-7b/candidate_layers_topk.csv",
+      "sha256": "075a8e424f6cef5956c2f8bae4448c2ea7a5a7390f3d574f0e2427ea3d92b848"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/llava-v1.5-7b/sanity_check.json",
+      "relative": "raw/mmke-entity/llava-v1.5-7b/sanity_check.json",
+      "sha256": "bd4ecb30cd5228a23be90c220cd5a0b64da5e28849fb28024b722e7505defb5f"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/minigpt-4-vicuna-7b/summary.json",
+      "relative": "raw/mmke-entity/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "8e9948103f93acd9d9a1a5a9b77d194fc7deabd82e3bf2696b110c3a79d5e8a9"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/minigpt-4-vicuna-7b/layer_scores.csv",
+      "relative": "raw/mmke-entity/minigpt-4-vicuna-7b/layer_scores.csv",
+      "sha256": "5dd5e2e81241e77e03c74a0f5ab04e9b9edf005b1963b7ea9d6a8692c640aed4"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/minigpt-4-vicuna-7b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-entity/minigpt-4-vicuna-7b/candidate_layers_topk.csv",
+      "sha256": "dfd45efc5b22882dc940afa977bbb5f662aea2158d5f24a43ea5d419829a2739"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/minigpt-4-vicuna-7b/sanity_check.json",
+      "relative": "raw/mmke-entity/minigpt-4-vicuna-7b/sanity_check.json",
+      "sha256": "080810ea831d3ac2383920aef428280478d44759a8157464d3fe7fd1a37ad52a"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/paligemma-3b/summary.json",
+      "relative": "raw/mmke-entity/paligemma-3b/summary.json",
+      "sha256": "2c23972d8a051d9b509c27dde9d7b3af9ce9cb09b1d6fc0c013182e8466f9676"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/paligemma-3b/layer_scores.csv",
+      "relative": "raw/mmke-entity/paligemma-3b/layer_scores.csv",
+      "sha256": "71f846c7f1c8f58051fa7554ad3c89779e34a7ed0d693f64a551d451bbaea74d"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/paligemma-3b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-entity/paligemma-3b/candidate_layers_topk.csv",
+      "sha256": "68751d94c2a2669d989ed3cfc9d5ee5e70c9de55d28a8ec3c3e5659e332b6b48"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/paligemma-3b/sanity_check.json",
+      "relative": "raw/mmke-entity/paligemma-3b/sanity_check.json",
+      "sha256": "863c6861ebef5a5b694f8446b6bd7238744938aa3e7b8be660e01814738617fb"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/qwen2.5-vl-3b/summary.json",
+      "relative": "raw/mmke-entity/qwen2.5-vl-3b/summary.json",
+      "sha256": "d2c14d077345fd6ef7103e0e9fcf115a822e45841ec653251e53d14813d8c22a"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/qwen2.5-vl-3b/layer_scores.csv",
+      "relative": "raw/mmke-entity/qwen2.5-vl-3b/layer_scores.csv",
+      "sha256": "1c9a6a8c8d3a8a64533f19c1d5cbdf367153147d1fa6481ad277b0ca131b0562"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/qwen2.5-vl-3b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-entity/qwen2.5-vl-3b/candidate_layers_topk.csv",
+      "sha256": "09be4596f7519f90f2f1b1c95cdbeef56bc41c6175bf3067510774016fc1ddc8"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/qwen2.5-vl-3b/sanity_check.json",
+      "relative": "raw/mmke-entity/qwen2.5-vl-3b/sanity_check.json",
+      "sha256": "3edd558b97ca0db78127b3631e5564f2b9983caa22ce979004fc952938f5863d"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/smolvlm-1.7b/summary.json",
+      "relative": "raw/mmke-entity/smolvlm-1.7b/summary.json",
+      "sha256": "f30cc719ff22fbb56dd9abda6d777e1ec5e4903a331844859a2e344d660d024b"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/smolvlm-1.7b/layer_scores.csv",
+      "relative": "raw/mmke-entity/smolvlm-1.7b/layer_scores.csv",
+      "sha256": "c5af59c5c4a76d5587c081842a94a4c8bc656c3265b1f1d29cb81a488ec416d3"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/smolvlm-1.7b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-entity/smolvlm-1.7b/candidate_layers_topk.csv",
+      "sha256": "f4536311a0c0baa8d16861d53a985e917e7ea16dfcbc702fe2115aee79d8cec3"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/smolvlm-1.7b/sanity_check.json",
+      "relative": "raw/mmke-entity/smolvlm-1.7b/sanity_check.json",
+      "sha256": "5d44b77d71713221bfb5f8d68f97c46410884baa413a4b9a06de8d65f460188e"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/blip2-opt-2.7b/summary.json",
+      "relative": "raw/mmke-visual/blip2-opt-2.7b/summary.json",
+      "sha256": "a22893ebba077f30c5c04701dbe0de064261a793af53e047abafe9ade7de738b"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/blip2-opt-2.7b/layer_scores.csv",
+      "relative": "raw/mmke-visual/blip2-opt-2.7b/layer_scores.csv",
+      "sha256": "0cbedd879b57463323ba4248031be6434cd43cff030ac4570c97163a13a118fb"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/blip2-opt-2.7b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-visual/blip2-opt-2.7b/candidate_layers_topk.csv",
+      "sha256": "4d911c0ec3a61959611054a27fab5742b1ed85f00704701baf0fcc4ad717a1e0"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/blip2-opt-2.7b/sanity_check.json",
+      "relative": "raw/mmke-visual/blip2-opt-2.7b/sanity_check.json",
+      "sha256": "bd4ecb30cd5228a23be90c220cd5a0b64da5e28849fb28024b722e7505defb5f"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/instructblip-vicuna-7b/summary.json",
+      "relative": "raw/mmke-visual/instructblip-vicuna-7b/summary.json",
+      "sha256": "bc5c4be74113f919d5267b357b3bdcea4291cb0d6210cb80b5f2bdfe0ed6df01"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/instructblip-vicuna-7b/layer_scores.csv",
+      "relative": "raw/mmke-visual/instructblip-vicuna-7b/layer_scores.csv",
+      "sha256": "237c61935237d3147bade5034c9ce4e0308261d62738ba6d66a29a581a8ff062"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/instructblip-vicuna-7b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-visual/instructblip-vicuna-7b/candidate_layers_topk.csv",
+      "sha256": "1232ea7c29bf7aba50391d57682270bb3502c42e31559bdf8454ed88271f545b"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/instructblip-vicuna-7b/sanity_check.json",
+      "relative": "raw/mmke-visual/instructblip-vicuna-7b/sanity_check.json",
+      "sha256": "080810ea831d3ac2383920aef428280478d44759a8157464d3fe7fd1a37ad52a"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/llava-v1.5-7b/summary.json",
+      "relative": "raw/mmke-visual/llava-v1.5-7b/summary.json",
+      "sha256": "90f8b283918541b6ffc2f2d856018e460537d165703b2575a77d2ed925b8d9dd"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/llava-v1.5-7b/layer_scores.csv",
+      "relative": "raw/mmke-visual/llava-v1.5-7b/layer_scores.csv",
+      "sha256": "4cb612a3f0402fe74a4c1c9674a9dc3af5da00f868ccf15d74e50a31928dc379"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/llava-v1.5-7b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-visual/llava-v1.5-7b/candidate_layers_topk.csv",
+      "sha256": "5499cd3bafc706d1b1645e79358832cd55b60a008dc2b38588ee08e455d3a79d"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/llava-v1.5-7b/sanity_check.json",
+      "relative": "raw/mmke-visual/llava-v1.5-7b/sanity_check.json",
+      "sha256": "080810ea831d3ac2383920aef428280478d44759a8157464d3fe7fd1a37ad52a"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/minigpt-4-vicuna-7b/summary.json",
+      "relative": "raw/mmke-visual/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "bd354d5c9a869c4fcca753879d57d5e1388148ba6c114048afd641fba020d1b6"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/minigpt-4-vicuna-7b/layer_scores.csv",
+      "relative": "raw/mmke-visual/minigpt-4-vicuna-7b/layer_scores.csv",
+      "sha256": "696437664e37c15e6324fc6dff40e4d3789c50fb31e24027da627804c3d0432e"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/minigpt-4-vicuna-7b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-visual/minigpt-4-vicuna-7b/candidate_layers_topk.csv",
+      "sha256": "1e933209a32752c94acae34f10ce5776f538ae1792a50664fd34fb8957f6f0ef"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/minigpt-4-vicuna-7b/sanity_check.json",
+      "relative": "raw/mmke-visual/minigpt-4-vicuna-7b/sanity_check.json",
+      "sha256": "080810ea831d3ac2383920aef428280478d44759a8157464d3fe7fd1a37ad52a"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/paligemma-3b/summary.json",
+      "relative": "raw/mmke-visual/paligemma-3b/summary.json",
+      "sha256": "1e455514aac779f990f31c25e234f43c5a26acf8f49a131b16aa745bc23977c1"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/paligemma-3b/layer_scores.csv",
+      "relative": "raw/mmke-visual/paligemma-3b/layer_scores.csv",
+      "sha256": "b832157dd7d1e183b7ed9e51864ec1155a13475e7f27dbda3d7a7e35bdabd8f7"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/paligemma-3b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-visual/paligemma-3b/candidate_layers_topk.csv",
+      "sha256": "e6076b1531d90befda52b2b95a1fc085cd887a417b1ae3895779cfb3a5688ca0"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/paligemma-3b/sanity_check.json",
+      "relative": "raw/mmke-visual/paligemma-3b/sanity_check.json",
+      "sha256": "863c6861ebef5a5b694f8446b6bd7238744938aa3e7b8be660e01814738617fb"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/qwen2.5-vl-3b/summary.json",
+      "relative": "raw/mmke-visual/qwen2.5-vl-3b/summary.json",
+      "sha256": "8da4697d26eecba59e7557c07b998fad4627cf0a12b13e58305e96017246b43d"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/qwen2.5-vl-3b/layer_scores.csv",
+      "relative": "raw/mmke-visual/qwen2.5-vl-3b/layer_scores.csv",
+      "sha256": "77c29ca889f62e04b99e280da5b9c01aa3f7118558961808789d301b6c0e0cb6"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/qwen2.5-vl-3b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-visual/qwen2.5-vl-3b/candidate_layers_topk.csv",
+      "sha256": "8ebdc5e6c55929023e413b7cdb163de3ef9e70fbe069de3655272651fbca0a74"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/qwen2.5-vl-3b/sanity_check.json",
+      "relative": "raw/mmke-visual/qwen2.5-vl-3b/sanity_check.json",
+      "sha256": "3edd558b97ca0db78127b3631e5564f2b9983caa22ce979004fc952938f5863d"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/smolvlm-1.7b/summary.json",
+      "relative": "raw/mmke-visual/smolvlm-1.7b/summary.json",
+      "sha256": "e1542b70c5067bf4fded1abbe8592a251f3f673f2b6b8090052f35db08a39006"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/smolvlm-1.7b/layer_scores.csv",
+      "relative": "raw/mmke-visual/smolvlm-1.7b/layer_scores.csv",
+      "sha256": "a3af6b959fe08f2e8c55eed6a83b769e011d4e424c61de7d078549484777ee19"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/smolvlm-1.7b/candidate_layers_topk.csv",
+      "relative": "raw/mmke-visual/smolvlm-1.7b/candidate_layers_topk.csv",
+      "sha256": "234ede0de9ed3bb8f2ed4020e09e58fd49b0f381d2983c3d0219c266a74b60b3"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/smolvlm-1.7b/sanity_check.json",
+      "relative": "raw/mmke-visual/smolvlm-1.7b/sanity_check.json",
+      "sha256": "5d44b77d71713221bfb5f8d68f97c46410884baa413a4b9a06de8d65f460188e"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_lga_param_direct_altmodelpred_candidate_layers.py",
+      "relative": "server_code/run_lga_param_direct_altmodelpred_candidate_layers.py",
+      "sha256": "64e2ed819599f3b44c4b0b1d99cb6f79f141f81120e6b2d568b36100e78728d0"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_lga_param_direct_altmodelpred_lowmem_candidate_layers.py",
+      "relative": "server_code/run_lga_param_direct_altmodelpred_lowmem_candidate_layers.py",
+      "sha256": "937454791b2272c4916fa79cd938647bb6a142f20f7f9b91c24010f612ae9f95"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/lga_param_direct_altmodelpred_candidates_summary.csv",
+      "relative": "raw/lga_param_direct_altmodelpred_candidates_summary.csv",
+      "sha256": "3ba1fb24be71eeec0de4fc5c0baaacb885df6d6baf7c5bdbb34e9b874a0cad07"
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/lga_param_direct_altmodelpred_candidates_summary.md",
+      "relative": "raw/lga_param_direct_altmodelpred_candidates_summary.md",
+      "sha256": "9c6cf44cd2f09b4424ac125764db2986164a665770c15c1d85d93250a8c55ce2"
+    }
+  ]
+}

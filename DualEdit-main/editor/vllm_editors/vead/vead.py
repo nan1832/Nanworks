@@ -320,6 +320,9 @@ class VEAD(VLLMBaseEditorWithTraining):
 
     def infer_from_mid_layer(self, infer_vllm:BaseVLLMForEdit, llm_inpt, vt_range, 
                              mid_inpt_layer_i:int, mid_inpt_reps:torch.Tensor):
+        if mid_inpt_layer_i == 0:
+            return infer_vllm.get_llm_outpt(llm_inpt, vt_range)
+
         def skip_layer(*args, **kargs):
             return [None]*2
         def mid_inpt_embeds(inpt, layer):
@@ -448,22 +451,26 @@ class VEAD(VLLMBaseEditorWithTraining):
                 rel_data = (input_embeds, vt_range), label_ids, label_masks
                 # Generality
                 gen_data = {}
-                for gen_name in d['generality'].keys():
-                    prompt = [d['generality'][gen_name][0]['prompt']]
-                    img = [d['generality'][gen_name][0]['image']]
+                for gen_name, gen_items in d['generality'].items():
+                    if not gen_items:
+                        continue
+                    prompt = [gen_items[0]['prompt']]
+                    img = [gen_items[0]['image']]
                     img = None if img[0] == None else img
-                    target = [d['generality'][gen_name][0]['target']]
+                    target = [gen_items[0]['target']]
                     (input_embeds, vt_range), label_ids, label_masks = self.vllm.prompts_imgs_target_to_xym(prompt, img, target)
                     input_embeds = get_llm_layer_inpt_embeds(input_embeds, vt_range)
                     gen_data[gen_name] = (input_embeds, vt_range), label_ids, label_masks
                 # Locality
                 loc_data = {}
-                for loc_name in d['locality'].keys():
-                    img = [d['locality'][loc_name][0]['image']]
+                for loc_name, loc_items in d['locality'].items():
+                    if not loc_items:
+                        continue
+                    img = [loc_items[0]['image']]
                     if img[0] == None:
                         continue # text-only queries does not need train
-                    prompt = [d['locality'][loc_name][0]['prompt']]
-                    target = [d['locality'][loc_name][0]['target']]
+                    prompt = [loc_items[0]['prompt']]
+                    target = [loc_items[0]['target']]
                     (input_embeds, vt_range), label_ids, label_masks = self.vllm.prompts_imgs_target_to_xym(prompt, img, target)
                     input_embeds = get_llm_layer_inpt_embeds(input_embeds, vt_range)
                     loc_data[loc_name] = (input_embeds, vt_range), label_ids, label_masks
@@ -651,8 +658,11 @@ class VEAD(VLLMBaseEditorWithTraining):
         for loc_name in loc_data[0].keys():
             ll = [d[loc_name] for d in loc_data]
             loc_xym[loc_name] = organize_middle_xym(ll)
-        # Reliability & Generality x and y for computing influence mapper loss
-        infm_xy = self.__get_xy_for_influence_mapper__(rel_xym, gen_xym, loc_xym)
+        # Scheme 2 disables influence tracing, so there is no mapper target to build.
+        if self.cfg.IT.add_it:
+            infm_xy = self.__get_xy_for_influence_mapper__(rel_xym, gen_xym, loc_xym)
+        else:
+            infm_xy = None
         # a batch of training data
         a_batch_of_training_data = move_to_device(((batch_edit_reps, batch_edit_reps_att_mask, 
                 batch_prompt_end), rel_xym, gen_xym, loc_xym, infm_xy), self.device)

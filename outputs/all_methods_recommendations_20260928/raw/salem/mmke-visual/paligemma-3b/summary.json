@@ -1,0 +1,29 @@
+{
+  "dataset_key": "mmke-visual",
+  "dataset": "MMKE-visual",
+  "model_key": "paligemma-3b",
+  "model": "PaliGemma-3B",
+  "formula": "S_l(D)=mean_samples(mean_abs(grad_W_l loss(prompt,image,target_new_alt)))",
+  "target_field": "request.target_new / alt",
+  "layer_type": "MLP/FFN parameters from configs/p_track mlp_module_tmp",
+  "num_layers": 18,
+  "total_samples": 214,
+  "ok_samples": 214,
+  "error_samples": 0,
+  "loss_mean": 10.234521028037383,
+  "top3_layers": [
+    "L10",
+    "L8",
+    "L9"
+  ],
+  "top5_layers": [
+    "L10",
+    "L8",
+    "L9",
+    "L7",
+    "L5"
+  ],
+  "duration_sec": 46.4335732460022,
+  "scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/salem_candidate_layers_7models_3data_current_alloc_20260621_203335/mmke-visual/paligemma-3b/salem_layer_scores.csv",
+  "errors": []
+}

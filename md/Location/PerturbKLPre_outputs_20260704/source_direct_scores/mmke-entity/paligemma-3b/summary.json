@@ -1,0 +1,60 @@
+{
+  "dataset_key": "mmke-entity",
+  "dataset": "MMKE-entity",
+  "model_key": "paligemma-3b",
+  "model": "PaliGemma-3B",
+  "method": "Perturb-KL-Direct",
+  "score_source": "visual_token_noise_altseq_kl",
+  "target_sequence": "complete alt sequence",
+  "perturb_scope": "visual tokens only",
+  "candidate_conversion": "direct",
+  "ranking_metric": "score_kl_robust",
+  "num_layers": 18,
+  "noise_scales": [
+    0.1,
+    0.5,
+    1.0,
+    3.0
+  ],
+  "repeats": [
+    2026,
+    2027,
+    2028
+  ],
+  "epsilon_sigma": 1e-06,
+  "epsilon_abs": 1e-08,
+  "epsilon_rel": 0.001,
+  "manifest_sample_count": 636,
+  "base_valid_sample_count": 636,
+  "common_valid_sample_count": 636,
+  "coverage_ratio": 1.0,
+  "per_layer_processed_count_consistent": true,
+  "valid_alpha_repeat_count": 12,
+  "invalid_alpha_repeat_count": 0,
+  "zero_noise_max_kl": 0.0,
+  "zero_noise_mean_kl": 0.0,
+  "zero_noise_pass": true,
+  "clean_repeat_max_kl": 0.0,
+  "clean_repeat_pass": true,
+  "top3_layers": [
+    "L7",
+    "L5",
+    "L6"
+  ],
+  "top5_layers": [
+    "L7",
+    "L5",
+    "L6",
+    "L8",
+    "L9"
+  ],
+  "status": "done",
+  "failure_reasons": [],
+  "duration_sec": 2761.6621236801147,
+  "scores_long_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/perturb_kl_scores_long.csv",
+  "layer_scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/perturb_kl_layer_scores.csv",
+  "stability_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/perturb_kl_stability.csv",
+  "excluded_sample_count": 0,
+  "excluded_sample_ids": [],
+  "errors": []
+}

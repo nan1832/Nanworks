@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-20T09:52:33",
+  "sources": [
+    {
+      "path": "Ten_Classes\\bridge\\bridge_train\\edit_30_bridge_trainA.json",
+      "sha256": "187b72aba9c89283ab50e085ef581fa782039f255cf7905200c1a61339a82491"
+    },
+    {
+      "path": "Ten_Classes\\bridge\\bridge_val\\edit_30_bridge_val.json",
+      "sha256": "fb588a101f332b0fd7044ce1839ae9c765a7ad0d57ee5b36229a2de40f86c217"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Ten_Classes\\bridge\\request_only\\full_metrics_same_entity\\edit_30_bridge_train_request_val_metrics_same_entity_rephrase_split.json",
+      "sha256": "d9288f5f0f9ca9b748aabb538f9eac510d3c7615a53c141dfb2dd95b1a4bf759",
+      "sample_count": 30,
+      "metric_item_counts": {
+        "request": 30,
+        "generality.text_rephrase": 30,
+        "generality.image_rephrase": 36,
+        "locality.text_loc": 30,
+        "locality.image_loc": 30,
+        "portability.1hop": 32,
+        "portability.2hop": 30,
+        "portability.overall": 62
+      }
+    }
+  ]
+}

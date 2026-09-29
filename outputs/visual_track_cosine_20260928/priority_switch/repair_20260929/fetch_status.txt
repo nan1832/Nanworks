@@ -1,0 +1,484 @@
+{
+  "timestamp": "2026-09-29T07:38:36.538145+08:00",
+  "job_id": "3443209",
+  "groups": [
+    {
+      "dataset": "evqa-pilot500",
+      "model": "blip2-opt-2.7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "evqa-pilot500",
+        "model": "blip2-opt-2.7b",
+        "sample_count": 500,
+        "matched_sample_count": 465,
+        "available_counts": {
+          "none": 500,
+          "alt": 500,
+          "model_pred": 465
+        },
+        "protocol_sha256": "f12ac51c89c0a390aa4435ea4ddd84f195a917c934432d04441102fb91536df0",
+        "scores_sha256": "d815be0f95a59f32b9f0bdc8d1b6e27dc0ea22f29d0e624aeaac35e2eeb0dae0",
+        "diagnostics_sha256": "de7612855df16295c43f2727142ad025a7e058533f6445fb2a9cc77ee9243344",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "evqa-pilot500",
+        "model": "blip2-opt-2.7b",
+        "processed": 500,
+        "total": 500,
+        "failures": 0,
+        "elapsed_seconds": 471.6778905391693,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "instructblip-vicuna-7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "evqa-pilot500",
+        "model": "instructblip-vicuna-7b",
+        "sample_count": 500,
+        "matched_sample_count": 500,
+        "available_counts": {
+          "none": 500,
+          "alt": 500,
+          "model_pred": 500
+        },
+        "protocol_sha256": "e45bd7696a6202ae5e8ca54dd13a7074f9b45af89200ec7c5b62a86175c44fde",
+        "scores_sha256": "33b6ae90a75ddd4f2305f0694fe037419f1231dfd04519893909c075b19dd6ff",
+        "diagnostics_sha256": "c49fb12f348dbcae867934d557ddb07683c45eba394c7e9e0d46bce09b850c6e",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "evqa-pilot500",
+        "model": "instructblip-vicuna-7b",
+        "processed": 500,
+        "total": 500,
+        "failures": 0,
+        "elapsed_seconds": 557.1153457164764,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "evqa-pilot500",
+        "model": "llava-v1.5-7b",
+        "sample_count": 500,
+        "matched_sample_count": 500,
+        "available_counts": {
+          "none": 500,
+          "alt": 500,
+          "model_pred": 500
+        },
+        "protocol_sha256": "c1e8a4d02335ace053764a08dfc604e104e2a2ec57b886102f43d65813bbfa1a",
+        "scores_sha256": "035c048b5f2a7cf948a1aadd472875049a50ab3b3664df3b75606920cf8e99f8",
+        "diagnostics_sha256": "8075fd4d0f4777f6ea9a75c48a7130c391dd7c9752394cdc0a7ec4e651934c2d",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "evqa-pilot500",
+        "model": "llava-v1.5-7b",
+        "processed": 500,
+        "total": 500,
+        "failures": 0,
+        "elapsed_seconds": 2152.8812470436096,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "evqa-pilot500",
+        "model": "minigpt-4-vicuna-7b",
+        "sample_count": 500,
+        "matched_sample_count": 499,
+        "available_counts": {
+          "none": 500,
+          "alt": 500,
+          "model_pred": 499
+        },
+        "protocol_sha256": "5a3fa530231e979363ff73b4631fba046e111bb9536d33450e57c4a100c67c15",
+        "scores_sha256": "b2e29ffb2cce954834c4779843e4dffc645f4e2b898566ea2c6b83bb46d6b667",
+        "diagnostics_sha256": "18e3d221669c77f3fd42a6dac839a6077eecb5b5f62bcea23974d59cc1c68f76",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "evqa-pilot500",
+        "model": "minigpt-4-vicuna-7b",
+        "processed": 500,
+        "total": 500,
+        "failures": 0,
+        "elapsed_seconds": 526.872487783432,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "paligemma-3b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "evqa-pilot500",
+        "model": "paligemma-3b",
+        "sample_count": 500,
+        "matched_sample_count": 500,
+        "available_counts": {
+          "none": 500,
+          "alt": 500,
+          "model_pred": 500
+        },
+        "protocol_sha256": "4302731a479bc0ffd8ca9ad1babe17e40a917917e450d1dc9051f3e602d054a1",
+        "scores_sha256": "ab55e15a35ce0df708a21c7d79102a76a0e2a64dc0e602dc2b6aa31302a16256",
+        "diagnostics_sha256": "2801ce88c2d0976bd636537e2e28bfe3d2701f776914b4911f33d380abb597b2",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "evqa-pilot500",
+        "model": "paligemma-3b",
+        "processed": 500,
+        "total": 500,
+        "failures": 0,
+        "elapsed_seconds": 272.11836671829224,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "blip2-opt-2.7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-entity",
+        "model": "blip2-opt-2.7b",
+        "sample_count": 636,
+        "matched_sample_count": 284,
+        "available_counts": {
+          "none": 636,
+          "alt": 636,
+          "model_pred": 284
+        },
+        "protocol_sha256": "f5cdbc08f142c452921bb8243111659d10157946edbfe68585c980d83788204d",
+        "scores_sha256": "980b7a47aea90beb03e9067ded87a2b30203b2529b0b7c090b5437e221845d1c",
+        "diagnostics_sha256": "96fa978d4566611b684fca62c9300d2dbb230e59b9c89893fcd899d568e2cc1e",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-entity",
+        "model": "blip2-opt-2.7b",
+        "processed": 636,
+        "total": 636,
+        "failures": 0,
+        "elapsed_seconds": 608.7110738754272,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-entity",
+        "model": "instructblip-vicuna-7b",
+        "sample_count": 636,
+        "matched_sample_count": 636,
+        "available_counts": {
+          "none": 636,
+          "alt": 636,
+          "model_pred": 636
+        },
+        "protocol_sha256": "02244ec6d6b5f8a044a99da44d1eb5af58354b82917ee8652135e188cea91865",
+        "scores_sha256": "2bc2e415effc05c0f9f8e25f905538445df062f402fe5b78f7d505807a5eb6d4",
+        "diagnostics_sha256": "e03d2b884c2ad4c3ea2d13ed59c926cfd90173e2558ae53bb961068fb0b75702",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-entity",
+        "model": "instructblip-vicuna-7b",
+        "processed": 636,
+        "total": 636,
+        "failures": 0,
+        "elapsed_seconds": 898.0850150585175,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "sample_count": 636,
+        "matched_sample_count": 636,
+        "available_counts": {
+          "none": 636,
+          "alt": 636,
+          "model_pred": 636
+        },
+        "protocol_sha256": "b2fdb615fe3b8886ad7a8164b1601ebe01f1236ae6749b83bab0748d151f154e",
+        "scores_sha256": "79ad25946339a1b48f005c255fec47bf6989ad0b0f7cdae05e05937cec0045b4",
+        "diagnostics_sha256": "7e69627af6e98bdf90238828b258793f05378e361e91134ff8d373a7578cc712",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "processed": 636,
+        "total": 636,
+        "failures": 0,
+        "elapsed_seconds": 2211.969018936157,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "minigpt-4-vicuna-7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-entity",
+        "model": "minigpt-4-vicuna-7b",
+        "sample_count": 636,
+        "matched_sample_count": 636,
+        "available_counts": {
+          "none": 636,
+          "alt": 636,
+          "model_pred": 636
+        },
+        "protocol_sha256": "39b424d0aa5813666e96eef9b210fff11093450363cc25c4eb91fecefe6480b9",
+        "scores_sha256": "e87e76dec6640ce457d7dadb803da117f7bb6eed77a09ad214f9a290b8412d7d",
+        "diagnostics_sha256": "e6a793f01cba3a8f5f1b0e87dde085f8dadfcf7e08c268b586696c0220906db8",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-entity",
+        "model": "minigpt-4-vicuna-7b",
+        "processed": 636,
+        "total": 636,
+        "failures": 0,
+        "elapsed_seconds": 841.0554230213165,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "paligemma-3b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-entity",
+        "model": "paligemma-3b",
+        "sample_count": 636,
+        "matched_sample_count": 636,
+        "available_counts": {
+          "none": 636,
+          "alt": 636,
+          "model_pred": 636
+        },
+        "protocol_sha256": "7b0a154679a433a5e88ecfab637778e55640193a9fc4d8258f55d8a07c797fca",
+        "scores_sha256": "5491810c87f0c0ed7ee7d7a4b427f0ecf17df5bded43adaacde2bb79081aa3e4",
+        "diagnostics_sha256": "7d482b9e69fe110ea2dcee7726ba61feffecc31bc1c5f0881cb720339bdbdb61",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-entity",
+        "model": "paligemma-3b",
+        "processed": 636,
+        "total": 636,
+        "failures": 0,
+        "elapsed_seconds": 397.0556733608246,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "blip2-opt-2.7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-visual",
+        "model": "blip2-opt-2.7b",
+        "sample_count": 214,
+        "matched_sample_count": 175,
+        "available_counts": {
+          "none": 214,
+          "alt": 214,
+          "model_pred": 175
+        },
+        "protocol_sha256": "4854b6d6cd7d25f7ded05c83a01ea646ab8642b675c7010ed527ee0a42f236e4",
+        "scores_sha256": "7f8f9a7e953dce386a95c142098055891c1b755b510c659e2ec749654bc02ea3",
+        "diagnostics_sha256": "1579800ce91668bac93f7f5ccb7ef25599e6aebfd0dc7a29554417d5f7867e10",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-visual",
+        "model": "blip2-opt-2.7b",
+        "processed": 214,
+        "total": 214,
+        "failures": 0,
+        "elapsed_seconds": 197.60028529167175,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-visual",
+        "model": "instructblip-vicuna-7b",
+        "sample_count": 214,
+        "matched_sample_count": 214,
+        "available_counts": {
+          "none": 214,
+          "alt": 214,
+          "model_pred": 214
+        },
+        "protocol_sha256": "b0d2c6dbfec4877b206930abec2aa3c38d99f3f378293a0cb4c55acfcae623c1",
+        "scores_sha256": "a7d5eb130d552aee02e93fbaed31238e4d0ddb9c25620ba1cdd6091d5e05ce23",
+        "diagnostics_sha256": "4347b94bf41047126c393937c4748f803160b67f47f27e31b0d35c466070fa5c",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-visual",
+        "model": "instructblip-vicuna-7b",
+        "processed": 214,
+        "total": 214,
+        "failures": 0,
+        "elapsed_seconds": 264.80539536476135,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "llava-v1.5-7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-visual",
+        "model": "llava-v1.5-7b",
+        "sample_count": 214,
+        "matched_sample_count": 214,
+        "available_counts": {
+          "none": 214,
+          "alt": 214,
+          "model_pred": 214
+        },
+        "protocol_sha256": "09a355bbf66f6d97ec012176aa3e041268a5de835a39c76d026872ff29fe0e58",
+        "scores_sha256": "06b6a4c228e055b158a9fdb7b2c8b6787032ec81ee10ecdf65f041f1ef556129",
+        "diagnostics_sha256": "0f3032ff202357aa0258970fbea15790d13192dd4a1d2cea87106b816997ed57",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-visual",
+        "model": "llava-v1.5-7b",
+        "processed": 214,
+        "total": 214,
+        "failures": 0,
+        "elapsed_seconds": 713.1804699897766,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-visual",
+        "model": "minigpt-4-vicuna-7b",
+        "sample_count": 214,
+        "matched_sample_count": 214,
+        "available_counts": {
+          "none": 214,
+          "alt": 214,
+          "model_pred": 214
+        },
+        "protocol_sha256": "f930614c515ed227028a3709d60b8a6d8f29aba091d21dc5f099450cbe9782b9",
+        "scores_sha256": "74bdd40f47f62ce6cf1c66408b2f9c9a7718285b9ea09cc332241a574b15d0fd",
+        "diagnostics_sha256": "1b154948e66654954cdbc145c845d960e8c2bde6111d37569da5887a80c7503b",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-visual",
+        "model": "minigpt-4-vicuna-7b",
+        "processed": 214,
+        "total": 214,
+        "failures": 0,
+        "elapsed_seconds": 252.0275058746338,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-visual",
+        "model": "paligemma-3b",
+        "sample_count": 214,
+        "matched_sample_count": 214,
+        "available_counts": {
+          "none": 214,
+          "alt": 214,
+          "model_pred": 214
+        },
+        "protocol_sha256": "dc991dc97c45e5dc465528a6122f88eca1a30c4c73b88695bea2af8dca44fc82",
+        "scores_sha256": "e280ef37654413aa64e607177004bdf24460d4ea6022208d9bd40659a33bcf6b",
+        "diagnostics_sha256": "59c46cf2aa256669b489ebb7be7b3b67f462910fbee6f84de5ea4c4013c6b13a",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-visual",
+        "model": "paligemma-3b",
+        "processed": 214,
+        "total": 214,
+        "failures": 0,
+        "elapsed_seconds": 120.88534092903137,
+        "job_id": "3443209"
+      }
+    }
+  ],
+  "queue": "3443209|RUNNING|g09|2-12:54:47|27-11:05:13\n",
+  "priority_controller": {
+    "time": "2026-09-29T07:38:23+0800",
+    "state": "WAITING_GPU_MEMORY",
+    "node": "g09",
+    "job": "3443209",
+    "pid": 2500705,
+    "phase": "validate_input_fix/smolvlm-1.7b",
+    "free_mib": 66690,
+    "required_mib": 60000,
+    "stable": 2
+  },
+  "superseded_extra_job": "3463118"
+}

@@ -1,0 +1,17 @@
+{
+  "method": "VisEdit-Contrib-Pre-KeyToken",
+  "dataset_name": "mmke-entity",
+  "model_name": "instructblip-vicuna-7b",
+  "sample_count": 636,
+  "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+  "img_root_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+  "prompt_suffix": " The answer is:",
+  "key_mode": "dataset_key_token",
+  "rank_metric": "score_positive_key_token",
+  "candidate_conversion": "pre_before_high_contribution_region",
+  "smoothing_window": 3,
+  "lambda_value": 0.5,
+  "min_valid_ratio": 0.7,
+  "min_valid_samples": 100,
+  "config_path": "configs/p_track/instructblip-vicuna-7b.yaml"
+}

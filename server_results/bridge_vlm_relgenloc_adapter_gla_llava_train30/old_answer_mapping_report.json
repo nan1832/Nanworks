@@ -1,0 +1,10 @@
+{
+  "old_answer_source": "/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/bridge_train/beforeedit/open_end/bridge_train_entity_recognition_llava.jsonl",
+  "total_cases": 30,
+  "loaded_cases": 30,
+  "missing_request_old": [],
+  "duplicate_image_ids": [],
+  "generality_mode": "first_per_family",
+  "locality_mode": "image_loc_first_only",
+  "skipped_no_image_loc": 0
+}

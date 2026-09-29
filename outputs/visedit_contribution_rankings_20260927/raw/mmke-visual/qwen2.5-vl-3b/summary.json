@@ -1,0 +1,40 @@
+{
+  "dataset": "mmke-visual",
+  "model": "qwen2.5-vl-3b",
+  "method": "VisEdit-Contrib-Pre-KeyToken",
+  "key_mode": "dataset_key_token",
+  "valid_sample_count": 214,
+  "total_sample_count": 214,
+  "generic_key_token_ratio": 0.0,
+  "fallback_key_token_ratio": 0.0,
+  "top3_direct_layers": [
+    35,
+    34,
+    30
+  ],
+  "top5_direct_layers": [
+    35,
+    34,
+    30,
+    33,
+    32
+  ],
+  "high_contribution_region": [
+    29,
+    35
+  ],
+  "top3_pre_layers": [
+    28,
+    27,
+    26
+  ],
+  "top5_pre_layers": [
+    28,
+    27,
+    26,
+    25,
+    24
+  ],
+  "status": "done",
+  "failure_reason": ""
+}

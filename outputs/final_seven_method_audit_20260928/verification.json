@@ -1,0 +1,56 @@
+{
+  "local_time": "2026-09-28T21:52:30.105901+08:00",
+  "outcome_source": "outputs\\all_methods_performance_20260928\\outcomes_used.csv",
+  "main_rows": 396,
+  "gradient_ids": {
+    "F1-A": {
+      "groups": 21,
+      "full_main": 9
+    },
+    "F2-A": {
+      "groups": 21,
+      "full_main": 11
+    },
+    "F3-A": {
+      "groups": 21,
+      "full_main": 14
+    },
+    "F4-A": {
+      "groups": 21,
+      "full_main": 19
+    },
+    "F5-A": {
+      "groups": 21,
+      "full_main": 14
+    },
+    "F1-B": {
+      "groups": 21,
+      "full_main": 8
+    },
+    "F5-B": {
+      "groups": 21,
+      "full_main": 14
+    }
+  },
+  "visedit": {
+    "attn": {
+      "groups": 7,
+      "full_main_direct": 4,
+      "full_main_pre": 4,
+      "insufficient_pre": 0
+    },
+    "mlp": {
+      "groups": 7,
+      "full_main_direct": 2,
+      "full_main_pre": 5,
+      "insufficient_pre": 0
+    },
+    "attn+mlp": {
+      "groups": 7,
+      "full_main_direct": 3,
+      "full_main_pre": 4,
+      "insufficient_pre": 0
+    }
+  },
+  "epsilon_rank_matches": 21
+}

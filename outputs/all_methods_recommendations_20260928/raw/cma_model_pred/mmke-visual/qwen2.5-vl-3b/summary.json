@@ -1,0 +1,97 @@
+{
+  "schema_version": "cma-modelpred-formal-multinoise-v1",
+  "method": "CMA-ModelPred-Direct",
+  "dataset": "mmke-visual",
+  "model": "qwen2.5-vl-3b",
+  "target_field": "model_pred",
+  "target_scope": "complete_cached_answer_sequence",
+  "cache_provenance_status": "limited_historical_cache",
+  "created_at": "2026-09-06T21:27:22+0800",
+  "total_unique_samples": 214,
+  "formal_parameter_groups": [
+    {
+      "alpha": 0.5,
+      "seed": 0
+    },
+    {
+      "alpha": 0.5,
+      "seed": 1
+    },
+    {
+      "alpha": 0.5,
+      "seed": 2
+    },
+    {
+      "alpha": 1.0,
+      "seed": 0
+    },
+    {
+      "alpha": 1.0,
+      "seed": 1
+    },
+    {
+      "alpha": 1.0,
+      "seed": 2
+    },
+    {
+      "alpha": 2.0,
+      "seed": 0
+    },
+    {
+      "alpha": 2.0,
+      "seed": 1
+    },
+    {
+      "alpha": 2.0,
+      "seed": 2
+    }
+  ],
+  "expected_parameter_pairs": 1926,
+  "corruption_pairs_recorded": 1926,
+  "finite_corruption_pairs": 1926,
+  "common_restore_pairs_all_layers": 583,
+  "valid_unique_samples": 154,
+  "valid_unique_sample_ratio": 0.719626168224299,
+  "low_corruption_gap_pair_count": 1343,
+  "nonfinite_score_pair_count": 0,
+  "missing_restore_pair_count": 0,
+  "runtime_error_or_missing_pair_count": 0,
+  "minimum_valid_unique_samples": 43,
+  "eligible_for_formal_ranking": true,
+  "coverage_status": "done",
+  "candidate_ranking_stable": true,
+  "supported_alpha_count": 3,
+  "supported_seed_count": 3,
+  "majority_group_top3_overlap_at_least_2": true,
+  "mean_group_top3_jaccard": 0.6333333333333333,
+  "coverage_tier": "formal",
+  "ranking_population": "common_restore_pairs_all_layers",
+  "primary_aggregation": "pair_weighted_mean_CR",
+  "tie_break": [
+    "CR_mean_desc",
+    "KCR_mean_desc",
+    "valid_pair_count_desc",
+    "layer_asc"
+  ],
+  "top3": [
+    1,
+    0,
+    2
+  ],
+  "top5": [
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "valid_sample_id_hash": "898c8188745863ee06b804ea10dcfa715345b080f02a96a938447fbad8b8a256",
+  "target_manifest_rows": 214,
+  "cache_prompt_exact_match_samples": 214,
+  "cache_prompt_mismatch_samples": 0,
+  "effective_target_token_count_min": 1,
+  "effective_target_token_count_median": 32.0,
+  "effective_target_token_count_p95": 32.0,
+  "effective_target_token_count_max": 32,
+  "target_truncated_samples": 0
+}

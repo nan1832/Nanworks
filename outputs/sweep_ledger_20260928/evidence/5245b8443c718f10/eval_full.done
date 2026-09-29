@@ -1,0 +1,17 @@
+{
+  "layer": 11,
+  "status": "EVAL_DONE",
+  "eval_samples": 293,
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_11/records/vead/paligemma-3b/pilot500_blip2_visedit_L11-lr-1-t-1-v-1/checkpoints/epoch-7-i-749-ema_loss-0.7377",
+  "ckpt_epoch": "7",
+  "ckpt_i": "749",
+  "ckpt_loss": "0.5798037052154541",
+  "ckpt_ema_loss": "0.7376780595962552",
+  "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_11/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L11/single_edit",
+  "Rel": 96.1,
+  "T-Gen": 96.05,
+  "M-Gen": 95.71,
+  "T-Loc": 100.0,
+  "M-Loc": 97.49,
+  "Average": 97.07
+}

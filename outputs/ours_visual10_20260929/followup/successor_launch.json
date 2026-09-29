@@ -1,0 +1,6 @@
+﻿{
+    "pid":  27980,
+    "time":  "2026-09-29T19:39:35.9339952+08:00",
+    "role":  "successor sync watcher",
+    "waits_for_existing_watcher":  true
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "mmke-visual",
+  "model": "paligemma-3b",
+  "method": "VisEdit-Contrib-Pre-KeyToken",
+  "rank_metric": "score_positive_key_token",
+  "smoothing_window": 3,
+  "lambda": 0.5,
+  "threshold_rule": "mean + lambda * std",
+  "threshold": 2.089445201887282e-05,
+  "high_layers": [
+    15,
+    16,
+    17
+  ],
+  "selected_region": [
+    15,
+    17
+  ],
+  "status": "done",
+  "failure_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "dataset": "mmke-visual",
+  "model": "smolvlm-1.7b",
+  "processed": 214,
+  "total": 214,
+  "failures": 0,
+  "elapsed_seconds": 180.61476635932922,
+  "job_id": "3443209"
+}

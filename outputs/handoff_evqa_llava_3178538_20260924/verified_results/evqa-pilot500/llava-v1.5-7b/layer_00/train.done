@@ -1,0 +1,9 @@
+{
+  "layer": 0,
+  "status": "TRAIN_DONE",
+  "epoch": 26,
+  "i": 6500,
+  "loss": 0.48669499158859253,
+  "ema_loss": 0.4893115578225491,
+  "checkpoint": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-26-i-6500-ema_loss-0.4893"
+}

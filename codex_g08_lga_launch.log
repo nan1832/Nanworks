@@ -1,0 +1,2 @@
+nvidia-smi not found; refusing to start without GPU visibility check.
+INNER_RC=1

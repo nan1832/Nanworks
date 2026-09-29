@@ -1,0 +1,43 @@
+{
+  "time": "2026-09-29T14:29:16+0800",
+  "formula_definitions": {
+    "V01": "E[a]",
+    "V02": "E[b]",
+    "V03": "E[c]",
+    "V04": "E[abs(c)]",
+    "V05": "E[c*a]",
+    "V06": "E[abs(c)*a]",
+    "V07": "E[c*b]",
+    "V08": "E[abs(c)*b]",
+    "V09": "E[c*b*a]",
+    "V10": "E[abs(c)*b*a]"
+  },
+  "complete_groups": 14,
+  "complete_formula_groups": 161,
+  "expected_formula_groups": 210,
+  "files": {
+    "published/evqa-pilot500/blip2-opt-2.7b.json": "71aad0f6a50de46317e0922a83786b8e4da97c25606de6e50892d6ef6cb4ba52",
+    "published/evqa-pilot500/instructblip-vicuna-7b.json": "af09d67da310ae1654646d8f1f5057f508ca960ded02832e8c46217ec2064ee8",
+    "published/evqa-pilot500/minigpt-4-vicuna-7b.json": "7c18d027e519dcf0596370a9799bef9f68c5f0b478dcd3a366dcdfd8fa8fa6dc",
+    "published/evqa-pilot500/llava-v1.5-7b.json": "23b77598e9c37c5f51e075fab2ac0686d3c0b74860346deb57752513235dce2e",
+    "published/evqa-pilot500/qwen2.5-vl-3b.json": "3bf5d76401b4239f014cc7ddb959d17034fecea22777925948660295bac60c69",
+    "published/evqa-pilot500/paligemma-3b.json": "609a7564ee27ec11aa319f93d9984a56e1e1c05124849fc16932d5dc65a38d50",
+    "published/evqa-pilot500/smolvlm-1.7b.json": "65fa40aae6914cc66f0519a025917f8078de952b441e81c8bb6c5b9b3b4511b0",
+    "published/mmke-visual/blip2-opt-2.7b.json": "80b4cf09f2bfca8b6179473e36fa1ab6a3e85fde486a9ab6686c2a0329170148",
+    "published/mmke-visual/instructblip-vicuna-7b.json": "ff66fc62b539711d787c4f18cc8db52a43e52c2b0a558283bf3be9b97c37e195",
+    "published/mmke-visual/minigpt-4-vicuna-7b.json": "9ec8077389bf630daf6f8c8391bd82898e587059d669cb58ed4ba9da600ce046",
+    "published/mmke-visual/llava-v1.5-7b.json": "24f3d29242d67b3396be6f6c20c2b181537e09aa74476ea2810df1e1ff5d43a4",
+    "published/mmke-visual/qwen2.5-vl-3b.json": "73484b8e0413a97c99cf688a2e99930e8a783f5cdf7ec623b73dd9b10395a4bd",
+    "published/mmke-visual/paligemma-3b.json": "2f87b61c2f3d2a473f371489cada7a2f592fa3a1debb4d5e8934f94b137d0c34",
+    "published/mmke-visual/smolvlm-1.7b.json": "2d33532ac993e8513408dda0e9a58d1073a02fb55b2a43106dda5d20a0be911e",
+    "published/mmke-entity/blip2-opt-2.7b.json": "7ed25694b9e1e2faad0babda3c07044fe612e4c0444e077e0eb46fc0fe94d810",
+    "published/mmke-entity/instructblip-vicuna-7b.json": "d3f3774a2dbbce11737fd65bb62f1251e62dbe65b133563fce93aed414f101ab",
+    "published/mmke-entity/minigpt-4-vicuna-7b.json": "030e1ff09ce750da8a2a94d279f990957c442622140ea0a30611ba56ab40920f",
+    "published/mmke-entity/llava-v1.5-7b.json": "197e82b8725821c570c4e1fa1b7a4030be379bcb1994ca3d93798e9db763da38",
+    "published/mmke-entity/qwen2.5-vl-3b.json": "0553b76169dc4eb8a2d924909c113060025da824dc18ef34803d841566d74d03",
+    "published/mmke-entity/paligemma-3b.json": "edabd099b467f566f48a64cba124f750bdd1afb8c6129bbf13ba9be0766a1a4d",
+    "published/mmke-entity/smolvlm-1.7b.json": "497a1799f2faf0b373c62606314476defdb5101220938033f602e53a60991061"
+  },
+  "declared_manifest_sha256": "a9b331de5c875c1f1f0637c8cdafb41a21caef77982f6287305f98c5ff964573",
+  "snapshot_kind": "read_only_atomic_group_snapshot"
+}

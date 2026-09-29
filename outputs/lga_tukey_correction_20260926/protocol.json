@@ -1,0 +1,19 @@
+{
+  "version": "lga-tukey-k1-20260926",
+  "paper": "https://arxiv.org/html/2602.20207v3#A1",
+  "kappa": 1.0,
+  "quartile_method": "numpy.quantile(method=linear)",
+  "fences": "Q1 - 1*IQR <= signed_raw_dot <= Q3 + 1*IQR",
+  "filter_scope": "all finite ok MLP/FFN parameter-layer scores within each dataset-model",
+  "rank": "descending signed raw dot, ascending layer for ties",
+  "normalization": "none; existing mean and paper sum equivalent because n identical across layers",
+  "original_filtered_rank": "empty, not actually Tukey-filtered",
+  "ranking_budget": [
+    1,
+    3,
+    5
+  ],
+  "outcome_protocol": "existing main configuration; observed_main includes evaluated nonconvergent runs; clean sensitivity excludes early/numeric/diagnostic runs; never mix stable",
+  "metric_reference": "best among observed comparable layers, not all-layer oracle",
+  "limitations": "paper does not specify quantile interpolation; linear interpolation is an explicit implementation convention. This corrects Tukey on existing VLM parameter scores; not a new full replication of all original paper settings."
+}

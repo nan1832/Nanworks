@@ -1,0 +1,18 @@
+﻿[
+    {
+        "Hash":  "258DBD62A707EE4C3CF260A2A2CB0B6E10BD21EB4620AA38FCA67A995430754F",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\handoff_evqa_llava_3178538_20260924\\verified_results\\evqa-pilot500\\llava-v1.5-7b\\layer_00.partial\\eval_full.done"
+    },
+    {
+        "Hash":  "0AD854E5BCC8DBDA3A2F7BA80762DEBD2D26CBC284A8BCD5DAB1A27D27288368",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\handoff_evqa_llava_3178538_20260924\\verified_results\\evqa-pilot500\\llava-v1.5-7b\\layer_00.partial\\selected_checkpoint.tsv"
+    },
+    {
+        "Hash":  "D35274D895A4E35CBAC69E45A48BB8090745FC55D74D0162B9A5BACF4DCC352B",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\handoff_evqa_llava_3178538_20260924\\verified_results\\evqa-pilot500\\llava-v1.5-7b\\layer_00.partial\\train.done"
+    },
+    {
+        "Hash":  "48218A2275DB63563CE7AB7ADCD6E1B3B5204598E7FA201D66BC14765275E6AD",
+        "Path":  "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\handoff_evqa_llava_3178538_20260924\\verified_results\\evqa-pilot500\\llava-v1.5-7b\\layer_00.partial\\eval_full\\vead\\llava-v1.5-7b\\EVQA_full_test_pilot500_blip2_visedit_L00\\single_edit\\results.json"
+    }
+]

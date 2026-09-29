@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-28T16:45:29.426359+08:00",
+  "submission": {
+    "timestamp": "2026-09-28T16:38:49.024079+08:00",
+    "test_returncode": 0,
+    "test_output": "sbatch: Job 3463117 to start at 2026-09-28T16:38:49 using 4 processors on nodes g09 in partition phys_hq\n",
+    "returncode": 0,
+    "stdout": "3463118\n",
+    "stderr": "",
+    "job_id": "3463118"
+  },
+  "squeue": "3463118|PENDING|(QOSMaxGRESPerUser)||0:00|2:00:00\n",
+  "sacct": "3463118|PENDING|0:0|00:00:00|\n",
+  "groups": []
+}

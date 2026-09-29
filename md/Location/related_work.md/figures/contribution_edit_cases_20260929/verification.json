@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "figures": 10,
+  "artifact_files": 40,
+  "checked_plot_rows": 840,
+  "all_missing_metrics_blank": true,
+  "old_prose_and_tables_preserved": true,
+  "report_sha256": "6aa17d192d8ea256e04a99eb44334f3f6524ab8b174c0b05e1b4f4d12b4cd2fb",
+  "valid_links": 68
+}

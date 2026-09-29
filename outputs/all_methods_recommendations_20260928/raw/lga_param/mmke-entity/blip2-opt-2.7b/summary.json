@@ -1,0 +1,40 @@
+{
+  "dataset_key": "mmke-entity",
+  "dataset": "MMKE-entity",
+  "model_key": "blip2-opt-2.7b",
+  "model": "BLIP2-OPT-2.7B",
+  "method": "LGA-Param-Direct-AltModelPred",
+  "score_source": "raw_old_new_parameter_gradient_dot",
+  "new_field": "alt",
+  "old_field": "model_pred",
+  "target_parameter_scope": "mlp_ffn_weight_only",
+  "num_decoder_layers": 32,
+  "total_samples": 636,
+  "processed_samples": 289,
+  "skipped_samples": 347,
+  "valid_layers": 32,
+  "top3_layers": [
+    "L16",
+    "L13",
+    "L18"
+  ],
+  "top5_layers": [
+    "L16",
+    "L13",
+    "L18",
+    "L17",
+    "L15"
+  ],
+  "duration_sec": 2453.391979932785,
+  "status": "done",
+  "failure_reason": "",
+  "sanity": {
+    "sanity_status": "ok",
+    "sanity_failure_reason": "",
+    "finite_score_count": 32,
+    "valid_layers": 32,
+    "missing_layers": []
+  },
+  "scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/blip2-opt-2.7b/layer_scores.csv",
+  "candidates_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-entity/blip2-opt-2.7b/candidate_layers_topk.csv"
+}

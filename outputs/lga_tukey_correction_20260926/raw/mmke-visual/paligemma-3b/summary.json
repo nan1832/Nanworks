@@ -1,0 +1,40 @@
+{
+  "dataset_key": "mmke-visual",
+  "dataset": "MMKE-visual",
+  "model_key": "paligemma-3b",
+  "model": "PaliGemma-3B",
+  "method": "LGA-Param-Direct-AltModelPred",
+  "score_source": "raw_old_new_parameter_gradient_dot",
+  "new_field": "alt",
+  "old_field": "model_pred",
+  "target_parameter_scope": "mlp_ffn_weight_only",
+  "num_decoder_layers": 18,
+  "total_samples": 214,
+  "processed_samples": 214,
+  "skipped_samples": 0,
+  "valid_layers": 18,
+  "top3_layers": [
+    "L17",
+    "L0",
+    "L7"
+  ],
+  "top5_layers": [
+    "L17",
+    "L0",
+    "L7",
+    "L8",
+    "L10"
+  ],
+  "duration_sec": 979.4609966278076,
+  "status": "done",
+  "failure_reason": "",
+  "sanity": {
+    "sanity_status": "ok",
+    "sanity_failure_reason": "",
+    "finite_score_count": 18,
+    "valid_layers": 18,
+    "missing_layers": []
+  },
+  "scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/paligemma-3b/layer_scores.csv",
+  "candidates_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_param_direct_altmodelpred_7models_3datasets_g09_gpu0_optimized_20260702_114900/mmke-visual/paligemma-3b/candidate_layers_topk.csv"
+}

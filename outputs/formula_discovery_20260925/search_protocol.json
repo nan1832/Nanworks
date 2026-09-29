@@ -1,0 +1,1431 @@
+{
+  "created_at": "2026-09-25T22:02:41.154745+08:00",
+  "specs": [
+    {
+      "formula": "M_dot",
+      "expression": "dot",
+      "kind": "historical11",
+      "complexity": 2
+    },
+    {
+      "formula": "M_cos",
+      "expression": "cos",
+      "kind": "historical11",
+      "complexity": 2
+    },
+    {
+      "formula": "M_new_norm",
+      "expression": "new_norm",
+      "kind": "historical11",
+      "complexity": 0
+    },
+    {
+      "formula": "M_pos_ratio",
+      "expression": "positive_ratio",
+      "kind": "historical11",
+      "complexity": 2
+    },
+    {
+      "formula": "M_conflict",
+      "expression": "-dot",
+      "kind": "historical11",
+      "complexity": 2
+    },
+    {
+      "formula": "M_newn_x_1mcos",
+      "expression": "new_norm*(1-cos)",
+      "kind": "historical11",
+      "complexity": 2
+    },
+    {
+      "formula": "M_abscos_x_newn",
+      "expression": "new_norm*abs(cos)",
+      "kind": "historical11",
+      "complexity": 1
+    },
+    {
+      "formula": "Ours-Direct-Conflict",
+      "expression": "new_norm*max(0,-cos)*depth^2",
+      "kind": "historical11",
+      "complexity": 2
+    },
+    {
+      "formula": "Ours-AbsDirection-Direct",
+      "expression": "new_norm*abs(cos)*depth^2",
+      "kind": "historical11",
+      "complexity": 2
+    },
+    {
+      "formula": "Ours-NoDirection-Direct",
+      "expression": "new_norm*depth^2",
+      "kind": "historical11",
+      "complexity": 2
+    },
+    {
+      "formula": "Ours-1MinusCos-Direct",
+      "expression": "new_norm*(1-cos)*depth^2",
+      "kind": "historical11",
+      "complexity": 2
+    },
+    {
+      "formula": "abs_cos_only",
+      "expression": "abs(cos)",
+      "kind": "control",
+      "complexity": 2
+    },
+    {
+      "formula": "signed_cos_new_norm",
+      "expression": "new_norm*cos",
+      "kind": "control",
+      "complexity": 2
+    },
+    {
+      "formula": "negative_cos_new_norm",
+      "expression": "new_norm*max(0,-cos)",
+      "kind": "control",
+      "complexity": 2
+    },
+    {
+      "formula": "old_norm_only",
+      "expression": "old_norm",
+      "kind": "control",
+      "complexity": 2
+    },
+    {
+      "formula": "power_a0_b-1_g-1",
+      "expression": "new_norm*abs(cos)^0*old_norm^-1*depth^-1",
+      "kind": "power_grid",
+      "complexity": 4,
+      "a": 0,
+      "b": -1,
+      "g": -1
+    },
+    {
+      "formula": "power_a0_b-1_g0",
+      "expression": "new_norm*abs(cos)^0*old_norm^-1*depth^0",
+      "kind": "power_grid",
+      "complexity": 2,
+      "a": 0,
+      "b": -1,
+      "g": 0
+    },
+    {
+      "formula": "power_a0_b-1_g0.5",
+      "expression": "new_norm*abs(cos)^0*old_norm^-1*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 0,
+      "b": -1,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0_b-1_g1",
+      "expression": "new_norm*abs(cos)^0*old_norm^-1*depth^1",
+      "kind": "power_grid",
+      "complexity": 4,
+      "a": 0,
+      "b": -1,
+      "g": 1
+    },
+    {
+      "formula": "power_a0_b-1_g2",
+      "expression": "new_norm*abs(cos)^0*old_norm^-1*depth^2",
+      "kind": "power_grid",
+      "complexity": 5,
+      "a": 0,
+      "b": -1,
+      "g": 2
+    },
+    {
+      "formula": "power_a0_b-0.5_g-1",
+      "expression": "new_norm*abs(cos)^0*old_norm^-0.5*depth^-1",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 0,
+      "b": -0.5,
+      "g": -1
+    },
+    {
+      "formula": "power_a0_b-0.5_g0",
+      "expression": "new_norm*abs(cos)^0*old_norm^-0.5*depth^0",
+      "kind": "power_grid",
+      "complexity": 1.5,
+      "a": 0,
+      "b": -0.5,
+      "g": 0
+    },
+    {
+      "formula": "power_a0_b-0.5_g0.5",
+      "expression": "new_norm*abs(cos)^0*old_norm^-0.5*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 3.0,
+      "a": 0,
+      "b": -0.5,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0_b-0.5_g1",
+      "expression": "new_norm*abs(cos)^0*old_norm^-0.5*depth^1",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 0,
+      "b": -0.5,
+      "g": 1
+    },
+    {
+      "formula": "power_a0_b-0.5_g2",
+      "expression": "new_norm*abs(cos)^0*old_norm^-0.5*depth^2",
+      "kind": "power_grid",
+      "complexity": 4.5,
+      "a": 0,
+      "b": -0.5,
+      "g": 2
+    },
+    {
+      "formula": "power_a0_b0_g-1",
+      "expression": "new_norm*abs(cos)^0*old_norm^0*depth^-1",
+      "kind": "power_grid",
+      "complexity": 2,
+      "a": 0,
+      "b": 0,
+      "g": -1
+    },
+    {
+      "formula": "power_a0_b0_g0",
+      "expression": "new_norm*abs(cos)^0*old_norm^0*depth^0",
+      "kind": "power_grid",
+      "complexity": 0,
+      "a": 0,
+      "b": 0,
+      "g": 0
+    },
+    {
+      "formula": "power_a0_b0_g0.5",
+      "expression": "new_norm*abs(cos)^0*old_norm^0*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 1.5,
+      "a": 0,
+      "b": 0,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0_b0_g1",
+      "expression": "new_norm*abs(cos)^0*old_norm^0*depth^1",
+      "kind": "power_grid",
+      "complexity": 2,
+      "a": 0,
+      "b": 0,
+      "g": 1
+    },
+    {
+      "formula": "power_a0_b0_g2",
+      "expression": "new_norm*abs(cos)^0*old_norm^0*depth^2",
+      "kind": "power_grid",
+      "complexity": 3,
+      "a": 0,
+      "b": 0,
+      "g": 2
+    },
+    {
+      "formula": "power_a0_b0.5_g-1",
+      "expression": "new_norm*abs(cos)^0*old_norm^0.5*depth^-1",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 0,
+      "b": 0.5,
+      "g": -1
+    },
+    {
+      "formula": "power_a0_b0.5_g0",
+      "expression": "new_norm*abs(cos)^0*old_norm^0.5*depth^0",
+      "kind": "power_grid",
+      "complexity": 1.5,
+      "a": 0,
+      "b": 0.5,
+      "g": 0
+    },
+    {
+      "formula": "power_a0_b0.5_g0.5",
+      "expression": "new_norm*abs(cos)^0*old_norm^0.5*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 3.0,
+      "a": 0,
+      "b": 0.5,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0_b0.5_g1",
+      "expression": "new_norm*abs(cos)^0*old_norm^0.5*depth^1",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 0,
+      "b": 0.5,
+      "g": 1
+    },
+    {
+      "formula": "power_a0_b0.5_g2",
+      "expression": "new_norm*abs(cos)^0*old_norm^0.5*depth^2",
+      "kind": "power_grid",
+      "complexity": 4.5,
+      "a": 0,
+      "b": 0.5,
+      "g": 2
+    },
+    {
+      "formula": "power_a0_b1_g-1",
+      "expression": "new_norm*abs(cos)^0*old_norm^1*depth^-1",
+      "kind": "power_grid",
+      "complexity": 4,
+      "a": 0,
+      "b": 1,
+      "g": -1
+    },
+    {
+      "formula": "power_a0_b1_g0",
+      "expression": "new_norm*abs(cos)^0*old_norm^1*depth^0",
+      "kind": "power_grid",
+      "complexity": 2,
+      "a": 0,
+      "b": 1,
+      "g": 0
+    },
+    {
+      "formula": "power_a0_b1_g0.5",
+      "expression": "new_norm*abs(cos)^0*old_norm^1*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 0,
+      "b": 1,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0_b1_g1",
+      "expression": "new_norm*abs(cos)^0*old_norm^1*depth^1",
+      "kind": "power_grid",
+      "complexity": 4,
+      "a": 0,
+      "b": 1,
+      "g": 1
+    },
+    {
+      "formula": "power_a0_b1_g2",
+      "expression": "new_norm*abs(cos)^0*old_norm^1*depth^2",
+      "kind": "power_grid",
+      "complexity": 5,
+      "a": 0,
+      "b": 1,
+      "g": 2
+    },
+    {
+      "formula": "power_a0.25_b-1_g-1",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^-1*depth^-1",
+      "kind": "power_grid",
+      "complexity": 5.25,
+      "a": 0.25,
+      "b": -1,
+      "g": -1
+    },
+    {
+      "formula": "power_a0.25_b-1_g0",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^-1*depth^0",
+      "kind": "power_grid",
+      "complexity": 3.25,
+      "a": 0.25,
+      "b": -1,
+      "g": 0
+    },
+    {
+      "formula": "power_a0.25_b-1_g0.5",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^-1*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 4.75,
+      "a": 0.25,
+      "b": -1,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0.25_b-1_g1",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^-1*depth^1",
+      "kind": "power_grid",
+      "complexity": 5.25,
+      "a": 0.25,
+      "b": -1,
+      "g": 1
+    },
+    {
+      "formula": "power_a0.25_b-1_g2",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^-1*depth^2",
+      "kind": "power_grid",
+      "complexity": 6.25,
+      "a": 0.25,
+      "b": -1,
+      "g": 2
+    },
+    {
+      "formula": "power_a0.25_b-0.5_g-1",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^-0.5*depth^-1",
+      "kind": "power_grid",
+      "complexity": 4.75,
+      "a": 0.25,
+      "b": -0.5,
+      "g": -1
+    },
+    {
+      "formula": "power_a0.25_b-0.5_g0",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^-0.5*depth^0",
+      "kind": "power_grid",
+      "complexity": 2.75,
+      "a": 0.25,
+      "b": -0.5,
+      "g": 0
+    },
+    {
+      "formula": "power_a0.25_b-0.5_g0.5",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^-0.5*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 4.25,
+      "a": 0.25,
+      "b": -0.5,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0.25_b-0.5_g1",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^-0.5*depth^1",
+      "kind": "power_grid",
+      "complexity": 4.75,
+      "a": 0.25,
+      "b": -0.5,
+      "g": 1
+    },
+    {
+      "formula": "power_a0.25_b-0.5_g2",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^-0.5*depth^2",
+      "kind": "power_grid",
+      "complexity": 5.75,
+      "a": 0.25,
+      "b": -0.5,
+      "g": 2
+    },
+    {
+      "formula": "power_a0.25_b0_g-1",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^0*depth^-1",
+      "kind": "power_grid",
+      "complexity": 3.25,
+      "a": 0.25,
+      "b": 0,
+      "g": -1
+    },
+    {
+      "formula": "power_a0.25_b0_g0",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^0*depth^0",
+      "kind": "power_grid",
+      "complexity": 1.25,
+      "a": 0.25,
+      "b": 0,
+      "g": 0
+    },
+    {
+      "formula": "power_a0.25_b0_g0.5",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^0*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 2.75,
+      "a": 0.25,
+      "b": 0,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0.25_b0_g1",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^0*depth^1",
+      "kind": "power_grid",
+      "complexity": 3.25,
+      "a": 0.25,
+      "b": 0,
+      "g": 1
+    },
+    {
+      "formula": "power_a0.25_b0_g2",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^0*depth^2",
+      "kind": "power_grid",
+      "complexity": 4.25,
+      "a": 0.25,
+      "b": 0,
+      "g": 2
+    },
+    {
+      "formula": "power_a0.25_b0.5_g-1",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^0.5*depth^-1",
+      "kind": "power_grid",
+      "complexity": 4.75,
+      "a": 0.25,
+      "b": 0.5,
+      "g": -1
+    },
+    {
+      "formula": "power_a0.25_b0.5_g0",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^0.5*depth^0",
+      "kind": "power_grid",
+      "complexity": 2.75,
+      "a": 0.25,
+      "b": 0.5,
+      "g": 0
+    },
+    {
+      "formula": "power_a0.25_b0.5_g0.5",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^0.5*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 4.25,
+      "a": 0.25,
+      "b": 0.5,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0.25_b0.5_g1",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^0.5*depth^1",
+      "kind": "power_grid",
+      "complexity": 4.75,
+      "a": 0.25,
+      "b": 0.5,
+      "g": 1
+    },
+    {
+      "formula": "power_a0.25_b0.5_g2",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^0.5*depth^2",
+      "kind": "power_grid",
+      "complexity": 5.75,
+      "a": 0.25,
+      "b": 0.5,
+      "g": 2
+    },
+    {
+      "formula": "power_a0.25_b1_g-1",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^1*depth^-1",
+      "kind": "power_grid",
+      "complexity": 5.25,
+      "a": 0.25,
+      "b": 1,
+      "g": -1
+    },
+    {
+      "formula": "power_a0.25_b1_g0",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^1*depth^0",
+      "kind": "power_grid",
+      "complexity": 3.25,
+      "a": 0.25,
+      "b": 1,
+      "g": 0
+    },
+    {
+      "formula": "power_a0.25_b1_g0.5",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^1*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 4.75,
+      "a": 0.25,
+      "b": 1,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0.25_b1_g1",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^1*depth^1",
+      "kind": "power_grid",
+      "complexity": 5.25,
+      "a": 0.25,
+      "b": 1,
+      "g": 1
+    },
+    {
+      "formula": "power_a0.25_b1_g2",
+      "expression": "new_norm*abs(cos)^0.25*old_norm^1*depth^2",
+      "kind": "power_grid",
+      "complexity": 6.25,
+      "a": 0.25,
+      "b": 1,
+      "g": 2
+    },
+    {
+      "formula": "power_a0.5_b-1_g-1",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^-1*depth^-1",
+      "kind": "power_grid",
+      "complexity": 5.5,
+      "a": 0.5,
+      "b": -1,
+      "g": -1
+    },
+    {
+      "formula": "power_a0.5_b-1_g0",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^-1*depth^0",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 0.5,
+      "b": -1,
+      "g": 0
+    },
+    {
+      "formula": "power_a0.5_b-1_g0.5",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^-1*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 5.0,
+      "a": 0.5,
+      "b": -1,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0.5_b-1_g1",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^-1*depth^1",
+      "kind": "power_grid",
+      "complexity": 5.5,
+      "a": 0.5,
+      "b": -1,
+      "g": 1
+    },
+    {
+      "formula": "power_a0.5_b-1_g2",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^-1*depth^2",
+      "kind": "power_grid",
+      "complexity": 6.5,
+      "a": 0.5,
+      "b": -1,
+      "g": 2
+    },
+    {
+      "formula": "power_a0.5_b-0.5_g-1",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^-0.5*depth^-1",
+      "kind": "power_grid",
+      "complexity": 5.0,
+      "a": 0.5,
+      "b": -0.5,
+      "g": -1
+    },
+    {
+      "formula": "power_a0.5_b-0.5_g0",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^-0.5*depth^0",
+      "kind": "power_grid",
+      "complexity": 3.0,
+      "a": 0.5,
+      "b": -0.5,
+      "g": 0
+    },
+    {
+      "formula": "power_a0.5_b-0.5_g0.5",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^-0.5*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 4.5,
+      "a": 0.5,
+      "b": -0.5,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0.5_b-0.5_g1",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^-0.5*depth^1",
+      "kind": "power_grid",
+      "complexity": 5.0,
+      "a": 0.5,
+      "b": -0.5,
+      "g": 1
+    },
+    {
+      "formula": "power_a0.5_b-0.5_g2",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^-0.5*depth^2",
+      "kind": "power_grid",
+      "complexity": 6.0,
+      "a": 0.5,
+      "b": -0.5,
+      "g": 2
+    },
+    {
+      "formula": "power_a0.5_b0_g-1",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^0*depth^-1",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 0.5,
+      "b": 0,
+      "g": -1
+    },
+    {
+      "formula": "power_a0.5_b0_g0",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^0*depth^0",
+      "kind": "power_grid",
+      "complexity": 1.5,
+      "a": 0.5,
+      "b": 0,
+      "g": 0
+    },
+    {
+      "formula": "power_a0.5_b0_g0.5",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^0*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 3.0,
+      "a": 0.5,
+      "b": 0,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0.5_b0_g1",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^0*depth^1",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 0.5,
+      "b": 0,
+      "g": 1
+    },
+    {
+      "formula": "power_a0.5_b0_g2",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^0*depth^2",
+      "kind": "power_grid",
+      "complexity": 4.5,
+      "a": 0.5,
+      "b": 0,
+      "g": 2
+    },
+    {
+      "formula": "power_a0.5_b0.5_g-1",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^0.5*depth^-1",
+      "kind": "power_grid",
+      "complexity": 5.0,
+      "a": 0.5,
+      "b": 0.5,
+      "g": -1
+    },
+    {
+      "formula": "power_a0.5_b0.5_g0",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^0.5*depth^0",
+      "kind": "power_grid",
+      "complexity": 3.0,
+      "a": 0.5,
+      "b": 0.5,
+      "g": 0
+    },
+    {
+      "formula": "power_a0.5_b0.5_g0.5",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^0.5*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 4.5,
+      "a": 0.5,
+      "b": 0.5,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0.5_b0.5_g1",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^0.5*depth^1",
+      "kind": "power_grid",
+      "complexity": 5.0,
+      "a": 0.5,
+      "b": 0.5,
+      "g": 1
+    },
+    {
+      "formula": "power_a0.5_b0.5_g2",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^0.5*depth^2",
+      "kind": "power_grid",
+      "complexity": 6.0,
+      "a": 0.5,
+      "b": 0.5,
+      "g": 2
+    },
+    {
+      "formula": "power_a0.5_b1_g-1",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^1*depth^-1",
+      "kind": "power_grid",
+      "complexity": 5.5,
+      "a": 0.5,
+      "b": 1,
+      "g": -1
+    },
+    {
+      "formula": "power_a0.5_b1_g0",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^1*depth^0",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 0.5,
+      "b": 1,
+      "g": 0
+    },
+    {
+      "formula": "power_a0.5_b1_g0.5",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^1*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 5.0,
+      "a": 0.5,
+      "b": 1,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a0.5_b1_g1",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^1*depth^1",
+      "kind": "power_grid",
+      "complexity": 5.5,
+      "a": 0.5,
+      "b": 1,
+      "g": 1
+    },
+    {
+      "formula": "power_a0.5_b1_g2",
+      "expression": "new_norm*abs(cos)^0.5*old_norm^1*depth^2",
+      "kind": "power_grid",
+      "complexity": 6.5,
+      "a": 0.5,
+      "b": 1,
+      "g": 2
+    },
+    {
+      "formula": "power_a1_b-1_g-1",
+      "expression": "new_norm*abs(cos)^1*old_norm^-1*depth^-1",
+      "kind": "power_grid",
+      "complexity": 6,
+      "a": 1,
+      "b": -1,
+      "g": -1
+    },
+    {
+      "formula": "power_a1_b-1_g0",
+      "expression": "new_norm*abs(cos)^1*old_norm^-1*depth^0",
+      "kind": "power_grid",
+      "complexity": 4,
+      "a": 1,
+      "b": -1,
+      "g": 0
+    },
+    {
+      "formula": "power_a1_b-1_g0.5",
+      "expression": "new_norm*abs(cos)^1*old_norm^-1*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 5.5,
+      "a": 1,
+      "b": -1,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a1_b-1_g1",
+      "expression": "new_norm*abs(cos)^1*old_norm^-1*depth^1",
+      "kind": "power_grid",
+      "complexity": 6,
+      "a": 1,
+      "b": -1,
+      "g": 1
+    },
+    {
+      "formula": "power_a1_b-1_g2",
+      "expression": "new_norm*abs(cos)^1*old_norm^-1*depth^2",
+      "kind": "power_grid",
+      "complexity": 7,
+      "a": 1,
+      "b": -1,
+      "g": 2
+    },
+    {
+      "formula": "power_a1_b-0.5_g-1",
+      "expression": "new_norm*abs(cos)^1*old_norm^-0.5*depth^-1",
+      "kind": "power_grid",
+      "complexity": 5.5,
+      "a": 1,
+      "b": -0.5,
+      "g": -1
+    },
+    {
+      "formula": "power_a1_b-0.5_g0",
+      "expression": "new_norm*abs(cos)^1*old_norm^-0.5*depth^0",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 1,
+      "b": -0.5,
+      "g": 0
+    },
+    {
+      "formula": "power_a1_b-0.5_g0.5",
+      "expression": "new_norm*abs(cos)^1*old_norm^-0.5*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 5.0,
+      "a": 1,
+      "b": -0.5,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a1_b-0.5_g1",
+      "expression": "new_norm*abs(cos)^1*old_norm^-0.5*depth^1",
+      "kind": "power_grid",
+      "complexity": 5.5,
+      "a": 1,
+      "b": -0.5,
+      "g": 1
+    },
+    {
+      "formula": "power_a1_b-0.5_g2",
+      "expression": "new_norm*abs(cos)^1*old_norm^-0.5*depth^2",
+      "kind": "power_grid",
+      "complexity": 6.5,
+      "a": 1,
+      "b": -0.5,
+      "g": 2
+    },
+    {
+      "formula": "power_a1_b0_g-1",
+      "expression": "new_norm*abs(cos)^1*old_norm^0*depth^-1",
+      "kind": "power_grid",
+      "complexity": 4,
+      "a": 1,
+      "b": 0,
+      "g": -1
+    },
+    {
+      "formula": "power_a1_b0_g0",
+      "expression": "new_norm*abs(cos)^1*old_norm^0*depth^0",
+      "kind": "power_grid",
+      "complexity": 2,
+      "a": 1,
+      "b": 0,
+      "g": 0
+    },
+    {
+      "formula": "power_a1_b0_g0.5",
+      "expression": "new_norm*abs(cos)^1*old_norm^0*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 1,
+      "b": 0,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a1_b0_g1",
+      "expression": "new_norm*abs(cos)^1*old_norm^0*depth^1",
+      "kind": "power_grid",
+      "complexity": 4,
+      "a": 1,
+      "b": 0,
+      "g": 1
+    },
+    {
+      "formula": "power_a1_b0_g2",
+      "expression": "new_norm*abs(cos)^1*old_norm^0*depth^2",
+      "kind": "power_grid",
+      "complexity": 5,
+      "a": 1,
+      "b": 0,
+      "g": 2
+    },
+    {
+      "formula": "power_a1_b0.5_g-1",
+      "expression": "new_norm*abs(cos)^1*old_norm^0.5*depth^-1",
+      "kind": "power_grid",
+      "complexity": 5.5,
+      "a": 1,
+      "b": 0.5,
+      "g": -1
+    },
+    {
+      "formula": "power_a1_b0.5_g0",
+      "expression": "new_norm*abs(cos)^1*old_norm^0.5*depth^0",
+      "kind": "power_grid",
+      "complexity": 3.5,
+      "a": 1,
+      "b": 0.5,
+      "g": 0
+    },
+    {
+      "formula": "power_a1_b0.5_g0.5",
+      "expression": "new_norm*abs(cos)^1*old_norm^0.5*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 5.0,
+      "a": 1,
+      "b": 0.5,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a1_b0.5_g1",
+      "expression": "new_norm*abs(cos)^1*old_norm^0.5*depth^1",
+      "kind": "power_grid",
+      "complexity": 5.5,
+      "a": 1,
+      "b": 0.5,
+      "g": 1
+    },
+    {
+      "formula": "power_a1_b0.5_g2",
+      "expression": "new_norm*abs(cos)^1*old_norm^0.5*depth^2",
+      "kind": "power_grid",
+      "complexity": 6.5,
+      "a": 1,
+      "b": 0.5,
+      "g": 2
+    },
+    {
+      "formula": "power_a1_b1_g-1",
+      "expression": "new_norm*abs(cos)^1*old_norm^1*depth^-1",
+      "kind": "power_grid",
+      "complexity": 6,
+      "a": 1,
+      "b": 1,
+      "g": -1
+    },
+    {
+      "formula": "power_a1_b1_g0",
+      "expression": "new_norm*abs(cos)^1*old_norm^1*depth^0",
+      "kind": "power_grid",
+      "complexity": 4,
+      "a": 1,
+      "b": 1,
+      "g": 0
+    },
+    {
+      "formula": "power_a1_b1_g0.5",
+      "expression": "new_norm*abs(cos)^1*old_norm^1*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 5.5,
+      "a": 1,
+      "b": 1,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a1_b1_g1",
+      "expression": "new_norm*abs(cos)^1*old_norm^1*depth^1",
+      "kind": "power_grid",
+      "complexity": 6,
+      "a": 1,
+      "b": 1,
+      "g": 1
+    },
+    {
+      "formula": "power_a1_b1_g2",
+      "expression": "new_norm*abs(cos)^1*old_norm^1*depth^2",
+      "kind": "power_grid",
+      "complexity": 7,
+      "a": 1,
+      "b": 1,
+      "g": 2
+    },
+    {
+      "formula": "power_a2_b-1_g-1",
+      "expression": "new_norm*abs(cos)^2*old_norm^-1*depth^-1",
+      "kind": "power_grid",
+      "complexity": 7,
+      "a": 2,
+      "b": -1,
+      "g": -1
+    },
+    {
+      "formula": "power_a2_b-1_g0",
+      "expression": "new_norm*abs(cos)^2*old_norm^-1*depth^0",
+      "kind": "power_grid",
+      "complexity": 5,
+      "a": 2,
+      "b": -1,
+      "g": 0
+    },
+    {
+      "formula": "power_a2_b-1_g0.5",
+      "expression": "new_norm*abs(cos)^2*old_norm^-1*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 6.5,
+      "a": 2,
+      "b": -1,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a2_b-1_g1",
+      "expression": "new_norm*abs(cos)^2*old_norm^-1*depth^1",
+      "kind": "power_grid",
+      "complexity": 7,
+      "a": 2,
+      "b": -1,
+      "g": 1
+    },
+    {
+      "formula": "power_a2_b-1_g2",
+      "expression": "new_norm*abs(cos)^2*old_norm^-1*depth^2",
+      "kind": "power_grid",
+      "complexity": 8,
+      "a": 2,
+      "b": -1,
+      "g": 2
+    },
+    {
+      "formula": "power_a2_b-0.5_g-1",
+      "expression": "new_norm*abs(cos)^2*old_norm^-0.5*depth^-1",
+      "kind": "power_grid",
+      "complexity": 6.5,
+      "a": 2,
+      "b": -0.5,
+      "g": -1
+    },
+    {
+      "formula": "power_a2_b-0.5_g0",
+      "expression": "new_norm*abs(cos)^2*old_norm^-0.5*depth^0",
+      "kind": "power_grid",
+      "complexity": 4.5,
+      "a": 2,
+      "b": -0.5,
+      "g": 0
+    },
+    {
+      "formula": "power_a2_b-0.5_g0.5",
+      "expression": "new_norm*abs(cos)^2*old_norm^-0.5*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 6.0,
+      "a": 2,
+      "b": -0.5,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a2_b-0.5_g1",
+      "expression": "new_norm*abs(cos)^2*old_norm^-0.5*depth^1",
+      "kind": "power_grid",
+      "complexity": 6.5,
+      "a": 2,
+      "b": -0.5,
+      "g": 1
+    },
+    {
+      "formula": "power_a2_b-0.5_g2",
+      "expression": "new_norm*abs(cos)^2*old_norm^-0.5*depth^2",
+      "kind": "power_grid",
+      "complexity": 7.5,
+      "a": 2,
+      "b": -0.5,
+      "g": 2
+    },
+    {
+      "formula": "power_a2_b0_g-1",
+      "expression": "new_norm*abs(cos)^2*old_norm^0*depth^-1",
+      "kind": "power_grid",
+      "complexity": 5,
+      "a": 2,
+      "b": 0,
+      "g": -1
+    },
+    {
+      "formula": "power_a2_b0_g0",
+      "expression": "new_norm*abs(cos)^2*old_norm^0*depth^0",
+      "kind": "power_grid",
+      "complexity": 3,
+      "a": 2,
+      "b": 0,
+      "g": 0
+    },
+    {
+      "formula": "power_a2_b0_g0.5",
+      "expression": "new_norm*abs(cos)^2*old_norm^0*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 4.5,
+      "a": 2,
+      "b": 0,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a2_b0_g1",
+      "expression": "new_norm*abs(cos)^2*old_norm^0*depth^1",
+      "kind": "power_grid",
+      "complexity": 5,
+      "a": 2,
+      "b": 0,
+      "g": 1
+    },
+    {
+      "formula": "power_a2_b0_g2",
+      "expression": "new_norm*abs(cos)^2*old_norm^0*depth^2",
+      "kind": "power_grid",
+      "complexity": 6,
+      "a": 2,
+      "b": 0,
+      "g": 2
+    },
+    {
+      "formula": "power_a2_b0.5_g-1",
+      "expression": "new_norm*abs(cos)^2*old_norm^0.5*depth^-1",
+      "kind": "power_grid",
+      "complexity": 6.5,
+      "a": 2,
+      "b": 0.5,
+      "g": -1
+    },
+    {
+      "formula": "power_a2_b0.5_g0",
+      "expression": "new_norm*abs(cos)^2*old_norm^0.5*depth^0",
+      "kind": "power_grid",
+      "complexity": 4.5,
+      "a": 2,
+      "b": 0.5,
+      "g": 0
+    },
+    {
+      "formula": "power_a2_b0.5_g0.5",
+      "expression": "new_norm*abs(cos)^2*old_norm^0.5*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 6.0,
+      "a": 2,
+      "b": 0.5,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a2_b0.5_g1",
+      "expression": "new_norm*abs(cos)^2*old_norm^0.5*depth^1",
+      "kind": "power_grid",
+      "complexity": 6.5,
+      "a": 2,
+      "b": 0.5,
+      "g": 1
+    },
+    {
+      "formula": "power_a2_b0.5_g2",
+      "expression": "new_norm*abs(cos)^2*old_norm^0.5*depth^2",
+      "kind": "power_grid",
+      "complexity": 7.5,
+      "a": 2,
+      "b": 0.5,
+      "g": 2
+    },
+    {
+      "formula": "power_a2_b1_g-1",
+      "expression": "new_norm*abs(cos)^2*old_norm^1*depth^-1",
+      "kind": "power_grid",
+      "complexity": 7,
+      "a": 2,
+      "b": 1,
+      "g": -1
+    },
+    {
+      "formula": "power_a2_b1_g0",
+      "expression": "new_norm*abs(cos)^2*old_norm^1*depth^0",
+      "kind": "power_grid",
+      "complexity": 5,
+      "a": 2,
+      "b": 1,
+      "g": 0
+    },
+    {
+      "formula": "power_a2_b1_g0.5",
+      "expression": "new_norm*abs(cos)^2*old_norm^1*depth^0.5",
+      "kind": "power_grid",
+      "complexity": 6.5,
+      "a": 2,
+      "b": 1,
+      "g": 0.5
+    },
+    {
+      "formula": "power_a2_b1_g1",
+      "expression": "new_norm*abs(cos)^2*old_norm^1*depth^1",
+      "kind": "power_grid",
+      "complexity": 7,
+      "a": 2,
+      "b": 1,
+      "g": 1
+    },
+    {
+      "formula": "power_a2_b1_g2",
+      "expression": "new_norm*abs(cos)^2*old_norm^1*depth^2",
+      "kind": "power_grid",
+      "complexity": 8,
+      "a": 2,
+      "b": 1,
+      "g": 2
+    },
+    {
+      "formula": "soft_direction_0.25",
+      "expression": "new_norm*(1+0.25*abs(cos))",
+      "kind": "soft_direction",
+      "complexity": 2.25,
+      "w": 0.25
+    },
+    {
+      "formula": "soft_direction_0.5",
+      "expression": "new_norm*(1+0.5*abs(cos))",
+      "kind": "soft_direction",
+      "complexity": 2.5,
+      "w": 0.5
+    },
+    {
+      "formula": "soft_direction_1",
+      "expression": "new_norm*(1+1*abs(cos))",
+      "kind": "soft_direction",
+      "complexity": 3,
+      "w": 1
+    },
+    {
+      "formula": "soft_direction_2",
+      "expression": "new_norm*(1+2*abs(cos))",
+      "kind": "soft_direction",
+      "complexity": 4,
+      "w": 2
+    },
+    {
+      "formula": "soft_direction_4",
+      "expression": "new_norm*(1+4*abs(cos))",
+      "kind": "soft_direction",
+      "complexity": 6,
+      "w": 4
+    },
+    {
+      "formula": "soft_direction_8",
+      "expression": "new_norm*(1+8*abs(cos))",
+      "kind": "soft_direction",
+      "complexity": 10,
+      "w": 8
+    },
+    {
+      "formula": "rrf_w0.25_t0",
+      "expression": "1/(0+rank_new)+0.25/(0+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 5.0,
+      "w": 0.25,
+      "t": 0
+    },
+    {
+      "formula": "rrf_w0.25_t1",
+      "expression": "1/(1+rank_new)+0.25/(1+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 6.0,
+      "w": 0.25,
+      "t": 1
+    },
+    {
+      "formula": "rrf_w0.25_t5",
+      "expression": "1/(5+rank_new)+0.25/(5+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 10.0,
+      "w": 0.25,
+      "t": 5
+    },
+    {
+      "formula": "rrf_w0.5_t0",
+      "expression": "1/(0+rank_new)+0.5/(0+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 4.0,
+      "w": 0.5,
+      "t": 0
+    },
+    {
+      "formula": "rrf_w0.5_t1",
+      "expression": "1/(1+rank_new)+0.5/(1+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 5.0,
+      "w": 0.5,
+      "t": 1
+    },
+    {
+      "formula": "rrf_w0.5_t5",
+      "expression": "1/(5+rank_new)+0.5/(5+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 9.0,
+      "w": 0.5,
+      "t": 5
+    },
+    {
+      "formula": "rrf_w1_t0",
+      "expression": "1/(0+rank_new)+1/(0+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 3.0,
+      "w": 1,
+      "t": 0
+    },
+    {
+      "formula": "rrf_w1_t1",
+      "expression": "1/(1+rank_new)+1/(1+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 4.0,
+      "w": 1,
+      "t": 1
+    },
+    {
+      "formula": "rrf_w1_t5",
+      "expression": "1/(5+rank_new)+1/(5+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 8.0,
+      "w": 1,
+      "t": 5
+    },
+    {
+      "formula": "rrf_w2_t0",
+      "expression": "1/(0+rank_new)+2/(0+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 4.0,
+      "w": 2,
+      "t": 0
+    },
+    {
+      "formula": "rrf_w2_t1",
+      "expression": "1/(1+rank_new)+2/(1+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 5.0,
+      "w": 2,
+      "t": 1
+    },
+    {
+      "formula": "rrf_w2_t5",
+      "expression": "1/(5+rank_new)+2/(5+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 9.0,
+      "w": 2,
+      "t": 5
+    },
+    {
+      "formula": "rrf_w4_t0",
+      "expression": "1/(0+rank_new)+4/(0+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 5.0,
+      "w": 4,
+      "t": 0
+    },
+    {
+      "formula": "rrf_w4_t1",
+      "expression": "1/(1+rank_new)+4/(1+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 6.0,
+      "w": 4,
+      "t": 1
+    },
+    {
+      "formula": "rrf_w4_t5",
+      "expression": "1/(5+rank_new)+4/(5+rank_direction_new)",
+      "kind": "rank_fusion",
+      "complexity": 10.0,
+      "w": 4,
+      "t": 5
+    },
+    {
+      "formula": "rank_max_w0.5",
+      "expression": "max(1/rank_new,0.5/rank_direction_new)",
+      "kind": "rank_max",
+      "complexity": 4.0,
+      "w": 0.5
+    },
+    {
+      "formula": "rank_max_w0.75",
+      "expression": "max(1/rank_new,0.75/rank_direction_new)",
+      "kind": "rank_max",
+      "complexity": 3.415037499278844,
+      "w": 0.75
+    },
+    {
+      "formula": "rank_max_w1",
+      "expression": "max(1/rank_new,1/rank_direction_new)",
+      "kind": "rank_max",
+      "complexity": 3.0,
+      "w": 1
+    },
+    {
+      "formula": "rank_max_w1.25",
+      "expression": "max(1/rank_new,1.25/rank_direction_new)",
+      "kind": "rank_max",
+      "complexity": 3.321928094887362,
+      "w": 1.25
+    },
+    {
+      "formula": "rank_max_w2",
+      "expression": "max(1/rank_new,2/rank_direction_new)",
+      "kind": "rank_max",
+      "complexity": 4.0,
+      "w": 2
+    }
+  ],
+  "exploration_rounds": "Round 1: 146 definitions. Round 2: 20 rank-fusion definitions after inspecting round-1 outcomes. This is not preregistration.",
+  "primary_metric": "Best@3, equal weight per model-dataset combination",
+  "secondary_metrics": [
+    "Mean@3",
+    "strict wins/ties/losses",
+    "gains >= 0.5 percentage points",
+    "Top1",
+    "Spearman"
+  ],
+  "outcome_policy": "Existing locked outcomes; clean primary; recorded historical sensitivity only; no training or checkpoint reselection",
+  "candidate_policy": "Rank all valid gradient layers before matching outcomes; never rank only already-measured layers",
+  "cohort": "Fixed intersection where current main and norm Top3 are complete; retain low-gradient-coverage group with separate sensitivity",
+  "selection": "Only formulas fully observed on that entire fixed cohort may compete for its winner; missing results are not zeros",
+  "robustness": "Leave-one-model-out and leave-one-dataset-out reselection, descriptive only: historic data already used for formula development"
+}

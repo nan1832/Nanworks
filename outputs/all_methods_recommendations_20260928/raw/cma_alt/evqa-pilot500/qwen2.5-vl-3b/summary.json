@@ -1,0 +1,53 @@
+{
+  "dataset_key": "evqa-pilot500",
+  "dataset": "EVQA-pilot500",
+  "model_key": "qwen2.5-vl-3b",
+  "model": "Qwen2.5-VL-3B",
+  "method": "CMA-Direct",
+  "score_source": "cr_seq_mean",
+  "ranking_metric": "cr_seq_mean",
+  "target_sequence": "complete alt sequence",
+  "corrupt_scope": "decoder input visual embeddings",
+  "restore_scope": "visual tokens only",
+  "num_layers": 36,
+  "noise_scales": [
+    1.0
+  ],
+  "repeats": [
+    2026
+  ],
+  "delta_logprob": 0.05,
+  "manifest_sample_count": 500,
+  "excluded_sample_count": 0,
+  "max_layer_valid_restore_count": 239,
+  "valid_coverage_ratio": 0.478,
+  "top3_layers": [
+    "L1",
+    "L0",
+    "L3"
+  ],
+  "top5_layers": [
+    "L1",
+    "L0",
+    "L3",
+    "L6",
+    "L4"
+  ],
+  "raw_top3_layers": [
+    "L1",
+    "L0",
+    "L3"
+  ],
+  "raw_top5_layers": [
+    "L1",
+    "L0",
+    "L3",
+    "L6",
+    "L4"
+  ],
+  "status": "done",
+  "failure_reasons": [],
+  "duration_sec": 403.8075213432312,
+  "layer_scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_v13_full_g09_gpu0_20260703_134818/evqa-pilot500/qwen2.5-vl-3b/cma_direct_layer_scores.csv",
+  "errors": []
+}

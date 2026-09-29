@@ -1,0 +1,82 @@
+﻿[2026-05-11 08:00:02] watcher started md=D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\glodenlayer\Bridge30_RequestOnly_LLaVA_FullLayerSweep_训练评测手册.md poll=600s out=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/bridge_request_only_layer_sweep/llava
+[2026-05-11 08:00:05] status: STATE=RUNNING | SUMMARY_TMP_LINES=7 | SUMMARY_LINES=0 | MANIFEST_train_request=2 | MANIFEST_val_request=2 | MANIFEST_val_full=2
+[2026-05-11 08:00:53] watcher started md=D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\glodenlayer\Bridge30_RequestOnly_LLaVA_FullLayerSweep_训练评测手册.md poll=600s out=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/bridge_request_only_layer_sweep/llava
+[2026-05-11 08:00:55] status: STATE=RUNNING | SUMMARY_TMP_LINES=7 | SUMMARY_LINES=0 | MANIFEST_train_request=2 | MANIFEST_val_request=2 | MANIFEST_val_full=2
+[2026-05-11 08:10:08] status: STATE=RUNNING | SUMMARY_TMP_LINES=9 | SUMMARY_LINES=0 | MANIFEST_train_request=3 | MANIFEST_val_request=3 | MANIFEST_val_full=2
+[2026-05-11 08:10:58] status: STATE=RUNNING | SUMMARY_TMP_LINES=9 | SUMMARY_LINES=0 | MANIFEST_train_request=3 | MANIFEST_val_request=3 | MANIFEST_val_full=2
+[2026-05-11 08:20:12] status: STATE=RUNNING | SUMMARY_TMP_LINES=11 | SUMMARY_LINES=0 | MANIFEST_train_request=4 | MANIFEST_val_request=3 | MANIFEST_val_full=3
+[2026-05-11 08:21:01] status: STATE=RUNNING | SUMMARY_TMP_LINES=11 | SUMMARY_LINES=0 | MANIFEST_train_request=4 | MANIFEST_val_request=3 | MANIFEST_val_full=3
+[2026-05-11 08:30:15] status: STATE=RUNNING | SUMMARY_TMP_LINES=14 | SUMMARY_LINES=0 | MANIFEST_train_request=5 | MANIFEST_val_request=4 | MANIFEST_val_full=4
+[2026-05-11 08:31:05] status: STATE=RUNNING | SUMMARY_TMP_LINES=14 | SUMMARY_LINES=0 | MANIFEST_train_request=5 | MANIFEST_val_request=4 | MANIFEST_val_full=4
+[2026-05-11 08:40:17] status: STATE=RUNNING | SUMMARY_TMP_LINES=16 | SUMMARY_LINES=0 | MANIFEST_train_request=5 | MANIFEST_val_request=5 | MANIFEST_val_full=5
+[2026-05-11 08:41:08] status: STATE=RUNNING | SUMMARY_TMP_LINES=16 | SUMMARY_LINES=0 | MANIFEST_train_request=5 | MANIFEST_val_request=5 | MANIFEST_val_full=5
+[2026-05-11 08:50:21] status: STATE=RUNNING | SUMMARY_TMP_LINES=18 | SUMMARY_LINES=0 | MANIFEST_train_request=6 | MANIFEST_val_request=6 | MANIFEST_val_full=5
+[2026-05-11 08:51:13] status: STATE=RUNNING | SUMMARY_TMP_LINES=18 | SUMMARY_LINES=0 | MANIFEST_train_request=6 | MANIFEST_val_request=6 | MANIFEST_val_full=5
+[2026-05-11 09:00:26] status: STATE=RUNNING | SUMMARY_TMP_LINES=20 | SUMMARY_LINES=0 | MANIFEST_train_request=7 | MANIFEST_val_request=6 | MANIFEST_val_full=6
+[2026-05-11 09:01:17] status: STATE=RUNNING | SUMMARY_TMP_LINES=21 | SUMMARY_LINES=0 | MANIFEST_train_request=7 | MANIFEST_val_request=7 | MANIFEST_val_full=6
+[2026-05-11 09:10:30] status: STATE=RUNNING | SUMMARY_TMP_LINES=23 | SUMMARY_LINES=0 | MANIFEST_train_request=8 | MANIFEST_val_request=7 | MANIFEST_val_full=7
+[2026-05-11 09:11:20] status: STATE=RUNNING | SUMMARY_TMP_LINES=23 | SUMMARY_LINES=0 | MANIFEST_train_request=8 | MANIFEST_val_request=7 | MANIFEST_val_full=7
+[2026-05-11 09:20:33] status: STATE=RUNNING | SUMMARY_TMP_LINES=25 | SUMMARY_LINES=0 | MANIFEST_train_request=8 | MANIFEST_val_request=8 | MANIFEST_val_full=8
+[2026-05-11 09:21:23] status: STATE=RUNNING | SUMMARY_TMP_LINES=25 | SUMMARY_LINES=0 | MANIFEST_train_request=8 | MANIFEST_val_request=8 | MANIFEST_val_full=8
+[2026-05-11 09:30:37] status: STATE=RUNNING | SUMMARY_TMP_LINES=28 | SUMMARY_LINES=0 | MANIFEST_train_request=9 | MANIFEST_val_request=9 | MANIFEST_val_full=9
+[2026-05-11 09:31:28] status: STATE=RUNNING | SUMMARY_TMP_LINES=28 | SUMMARY_LINES=0 | MANIFEST_train_request=9 | MANIFEST_val_request=9 | MANIFEST_val_full=9
+[2026-05-11 09:40:42] status: STATE=RUNNING | SUMMARY_TMP_LINES=30 | SUMMARY_LINES=0 | MANIFEST_train_request=10 | MANIFEST_val_request=10 | MANIFEST_val_full=9
+[2026-05-11 09:41:33] status: STATE=RUNNING | SUMMARY_TMP_LINES=30 | SUMMARY_LINES=0 | MANIFEST_train_request=10 | MANIFEST_val_request=10 | MANIFEST_val_full=9
+[2026-05-11 09:50:47] status: STATE=RUNNING | SUMMARY_TMP_LINES=33 | SUMMARY_LINES=0 | MANIFEST_train_request=11 | MANIFEST_val_request=11 | MANIFEST_val_full=10
+[2026-05-11 09:51:37] status: STATE=RUNNING | SUMMARY_TMP_LINES=33 | SUMMARY_LINES=0 | MANIFEST_train_request=11 | MANIFEST_val_request=11 | MANIFEST_val_full=10
+[2026-05-11 10:00:51] status: STATE=RUNNING | SUMMARY_TMP_LINES=35 | SUMMARY_LINES=0 | MANIFEST_train_request=12 | MANIFEST_val_request=11 | MANIFEST_val_full=11
+[2026-05-11 10:01:44] status: STATE=RUNNING | SUMMARY_TMP_LINES=35 | SUMMARY_LINES=0 | MANIFEST_train_request=12 | MANIFEST_val_request=11 | MANIFEST_val_full=11
+[2026-05-11 10:10:55] status: STATE=RUNNING | SUMMARY_TMP_LINES=37 | SUMMARY_LINES=0 | MANIFEST_train_request=12 | MANIFEST_val_request=12 | MANIFEST_val_full=12
+[2026-05-11 10:11:50] status: STATE=RUNNING | SUMMARY_TMP_LINES=37 | SUMMARY_LINES=0 | MANIFEST_train_request=12 | MANIFEST_val_request=12 | MANIFEST_val_full=12
+[2026-05-11 10:21:01] status: STATE=RUNNING | SUMMARY_TMP_LINES=39 | SUMMARY_LINES=0 | MANIFEST_train_request=13 | MANIFEST_val_request=13 | MANIFEST_val_full=12
+[2026-05-11 10:21:56] status: STATE=RUNNING | SUMMARY_TMP_LINES=39 | SUMMARY_LINES=0 | MANIFEST_train_request=13 | MANIFEST_val_request=13 | MANIFEST_val_full=12
+[2026-05-11 10:31:06] status: STATE=RUNNING | SUMMARY_TMP_LINES=42 | SUMMARY_LINES=0 | MANIFEST_train_request=14 | MANIFEST_val_request=14 | MANIFEST_val_full=13
+[2026-05-11 10:32:00] status: STATE=RUNNING | SUMMARY_TMP_LINES=42 | SUMMARY_LINES=0 | MANIFEST_train_request=14 | MANIFEST_val_request=14 | MANIFEST_val_full=13
+[2026-05-11 10:41:12] status: STATE=RUNNING | SUMMARY_TMP_LINES=44 | SUMMARY_LINES=0 | MANIFEST_train_request=15 | MANIFEST_val_request=14 | MANIFEST_val_full=14
+[2026-05-11 10:42:05] status: STATE=RUNNING | SUMMARY_TMP_LINES=45 | SUMMARY_LINES=0 | MANIFEST_train_request=15 | MANIFEST_val_request=15 | MANIFEST_val_full=14
+[2026-05-11 10:51:16] status: STATE=RUNNING | SUMMARY_TMP_LINES=47 | SUMMARY_LINES=0 | MANIFEST_train_request=16 | MANIFEST_val_request=15 | MANIFEST_val_full=15
+[2026-05-11 10:52:09] status: STATE=RUNNING | SUMMARY_TMP_LINES=47 | SUMMARY_LINES=0 | MANIFEST_train_request=16 | MANIFEST_val_request=15 | MANIFEST_val_full=15
+[2026-05-11 11:01:24] status: STATE=RUNNING | SUMMARY_TMP_LINES=50 | SUMMARY_LINES=0 | MANIFEST_train_request=17 | MANIFEST_val_request=16 | MANIFEST_val_full=16
+[2026-05-11 11:02:13] status: STATE=RUNNING | SUMMARY_TMP_LINES=50 | SUMMARY_LINES=0 | MANIFEST_train_request=17 | MANIFEST_val_request=16 | MANIFEST_val_full=16
+[2026-05-11 11:11:30] status: STATE=RUNNING | SUMMARY_TMP_LINES=54 | SUMMARY_LINES=0 | MANIFEST_train_request=18 | MANIFEST_val_request=18 | MANIFEST_val_full=17
+[2026-05-11 11:12:17] status: STATE=RUNNING | SUMMARY_TMP_LINES=54 | SUMMARY_LINES=0 | MANIFEST_train_request=18 | MANIFEST_val_request=18 | MANIFEST_val_full=17
+[2026-05-11 11:21:36] status: STATE=RUNNING | SUMMARY_TMP_LINES=57 | SUMMARY_LINES=0 | MANIFEST_train_request=19 | MANIFEST_val_request=19 | MANIFEST_val_full=18
+[2026-05-11 11:22:24] status: STATE=RUNNING | SUMMARY_TMP_LINES=57 | SUMMARY_LINES=0 | MANIFEST_train_request=19 | MANIFEST_val_request=19 | MANIFEST_val_full=18
+[2026-05-11 11:31:45] status: STATE=RUNNING | SUMMARY_TMP_LINES=59 | SUMMARY_LINES=0 | MANIFEST_train_request=20 | MANIFEST_val_request=19 | MANIFEST_val_full=19
+[2026-05-11 11:32:29] status: STATE=RUNNING | SUMMARY_TMP_LINES=60 | SUMMARY_LINES=0 | MANIFEST_train_request=20 | MANIFEST_val_request=20 | MANIFEST_val_full=19
+[2026-05-11 11:41:51] status: STATE=RUNNING | SUMMARY_TMP_LINES=62 | SUMMARY_LINES=0 | MANIFEST_train_request=21 | MANIFEST_val_request=20 | MANIFEST_val_full=20
+[2026-05-11 11:42:39] status: STATE=RUNNING | SUMMARY_TMP_LINES=62 | SUMMARY_LINES=0 | MANIFEST_train_request=21 | MANIFEST_val_request=20 | MANIFEST_val_full=20
+[2026-05-11 11:51:54] status: STATE=RUNNING | SUMMARY_TMP_LINES=65 | SUMMARY_LINES=0 | MANIFEST_train_request=22 | MANIFEST_val_request=21 | MANIFEST_val_full=21
+[2026-05-11 11:52:46] status: STATE=RUNNING | SUMMARY_TMP_LINES=66 | SUMMARY_LINES=0 | MANIFEST_train_request=22 | MANIFEST_val_request=22 | MANIFEST_val_full=21
+[2026-05-11 12:02:04] status: STATE=RUNNING | SUMMARY_TMP_LINES=68 | SUMMARY_LINES=0 | MANIFEST_train_request=23 | MANIFEST_val_request=22 | MANIFEST_val_full=22
+[2026-05-11 12:02:52] status: STATE=RUNNING | SUMMARY_TMP_LINES=68 | SUMMARY_LINES=0 | MANIFEST_train_request=23 | MANIFEST_val_request=22 | MANIFEST_val_full=22
+[2026-05-11 12:12:10] status: STATE=RUNNING | SUMMARY_TMP_LINES=71 | SUMMARY_LINES=0 | MANIFEST_train_request=24 | MANIFEST_val_request=23 | MANIFEST_val_full=23
+[2026-05-11 12:12:59] status: STATE=RUNNING | SUMMARY_TMP_LINES=71 | SUMMARY_LINES=0 | MANIFEST_train_request=24 | MANIFEST_val_request=23 | MANIFEST_val_full=23
+[2026-05-11 12:22:16] status: STATE=RUNNING | SUMMARY_TMP_LINES=73 | SUMMARY_LINES=0 | MANIFEST_train_request=24 | MANIFEST_val_request=24 | MANIFEST_val_full=24
+[2026-05-11 12:23:09] status: STATE=RUNNING | SUMMARY_TMP_LINES=73 | SUMMARY_LINES=0 | MANIFEST_train_request=24 | MANIFEST_val_request=24 | MANIFEST_val_full=24
+[2026-05-11 12:32:27] status: STATE=RUNNING | SUMMARY_TMP_LINES=75 | SUMMARY_LINES=0 | MANIFEST_train_request=25 | MANIFEST_val_request=25 | MANIFEST_val_full=24
+[2026-05-11 12:33:16] status: STATE=RUNNING | SUMMARY_TMP_LINES=76 | SUMMARY_LINES=0 | MANIFEST_train_request=25 | MANIFEST_val_request=25 | MANIFEST_val_full=25
+[2026-05-11 12:42:32] status: STATE=RUNNING | SUMMARY_TMP_LINES=78 | SUMMARY_LINES=0 | MANIFEST_train_request=26 | MANIFEST_val_request=26 | MANIFEST_val_full=25
+[2026-05-11 12:43:24] status: STATE=RUNNING | SUMMARY_TMP_LINES=78 | SUMMARY_LINES=0 | MANIFEST_train_request=26 | MANIFEST_val_request=26 | MANIFEST_val_full=25
+[2026-05-11 12:52:44] status: STATE=RUNNING | SUMMARY_TMP_LINES=80 | SUMMARY_LINES=0 | MANIFEST_train_request=27 | MANIFEST_val_request=26 | MANIFEST_val_full=26
+[2026-05-11 12:53:32] status: STATE=RUNNING | SUMMARY_TMP_LINES=81 | SUMMARY_LINES=0 | MANIFEST_train_request=27 | MANIFEST_val_request=27 | MANIFEST_val_full=26
+[2026-05-11 13:02:52] status: STATE=RUNNING | SUMMARY_TMP_LINES=83 | SUMMARY_LINES=0 | MANIFEST_train_request=28 | MANIFEST_val_request=27 | MANIFEST_val_full=27
+[2026-05-11 13:03:44] status: STATE=RUNNING | SUMMARY_TMP_LINES=83 | SUMMARY_LINES=0 | MANIFEST_train_request=28 | MANIFEST_val_request=27 | MANIFEST_val_full=27
+[2026-05-11 13:13:05] status: STATE=RUNNING | SUMMARY_TMP_LINES=85 | SUMMARY_LINES=0 | MANIFEST_train_request=28 | MANIFEST_val_request=28 | MANIFEST_val_full=28
+[2026-05-11 13:13:54] status: STATE=RUNNING | SUMMARY_TMP_LINES=85 | SUMMARY_LINES=0 | MANIFEST_train_request=28 | MANIFEST_val_request=28 | MANIFEST_val_full=28
+[2026-05-11 13:23:18] status: STATE=RUNNING | SUMMARY_TMP_LINES=87 | SUMMARY_LINES=0 | MANIFEST_train_request=29 | MANIFEST_val_request=29 | MANIFEST_val_full=28
+[2026-05-11 13:24:03] status: STATE=RUNNING | SUMMARY_TMP_LINES=88 | SUMMARY_LINES=0 | MANIFEST_train_request=29 | MANIFEST_val_request=29 | MANIFEST_val_full=29
+[2026-05-11 13:33:27] status: STATE=RUNNING | SUMMARY_TMP_LINES=90 | SUMMARY_LINES=0 | MANIFEST_train_request=30 | MANIFEST_val_request=30 | MANIFEST_val_full=29
+[2026-05-11 13:34:15] status: STATE=RUNNING | SUMMARY_TMP_LINES=90 | SUMMARY_LINES=0 | MANIFEST_train_request=30 | MANIFEST_val_request=30 | MANIFEST_val_full=29
+[2026-05-11 13:43:41] status: STATE=RUNNING | SUMMARY_TMP_LINES=92 | SUMMARY_LINES=0 | MANIFEST_train_request=31 | MANIFEST_val_request=30 | MANIFEST_val_full=30
+[2026-05-11 13:44:27] status: STATE=RUNNING | SUMMARY_TMP_LINES=92 | SUMMARY_LINES=0 | MANIFEST_train_request=31 | MANIFEST_val_request=30 | MANIFEST_val_full=30
+[2026-05-11 13:53:44] status: STATE=RUNNING | SUMMARY_TMP_LINES=95 | SUMMARY_LINES=0 | MANIFEST_train_request=32 | MANIFEST_val_request=31 | MANIFEST_val_full=31
+[2026-05-11 13:54:31] status: STATE=RUNNING | SUMMARY_TMP_LINES=95 | SUMMARY_LINES=0 | MANIFEST_train_request=32 | MANIFEST_val_request=31 | MANIFEST_val_full=31
+[2026-05-11 14:03:48] status: STATE=FAILED | FAILED during eval at 2026-05-11 14:00:49 | eval_log=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/bridge_request_only_layer_sweep/llava/full_layer_target0003_eval.log
+[2026-05-11 14:03:48] remote evaluation failed; watcher stopped
+[2026-05-11 14:04:33] status: STATE=FAILED | FAILED during eval at 2026-05-11 14:00:49 | eval_log=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/bridge_request_only_layer_sweep/llava/full_layer_target0003_eval.log
+[2026-05-11 14:04:33] remote evaluation failed; watcher stopped
+[2026-05-11 19:56:02] watcher started md=D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\glodenlayer\Bridge30_RequestOnly_LLaVA_FullLayerSweep_训练评测手册.md poll=600s out=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/bridge_request_only_layer_sweep/llava
+[2026-05-11 19:56:17] status: STATE=DONE | SUMMARY_TMP_LINES=0 | SUMMARY_LINES=97 | MANIFEST_train_request=32 | MANIFEST_val_request=32 | MANIFEST_val_full=32
+[2026-05-11 19:56:17] remote evaluation done; collecting markdown
+[2026-05-11 19:56:19] markdown updated

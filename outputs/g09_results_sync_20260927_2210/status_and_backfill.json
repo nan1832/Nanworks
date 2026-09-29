@@ -1,0 +1,188 @@
+{
+  "server_verified_at": "2026-09-27 22:09:55 CST",
+  "job": "3443209",
+  "node": "g09",
+  "queue_total": 7,
+  "training_completed": 3,
+  "evaluation_completed": 3,
+  "training_in_progress": 1,
+  "not_started": 3,
+  "remaining": 4,
+  "active": {
+    "dataset": "mmke-entity",
+    "model": "minigpt-4-vicuna-7b",
+    "layer": 7,
+    "epoch": 43,
+    "epochs": 50,
+    "progress": 418,
+    "total": 636,
+    "pid": 2006791
+  },
+  "remaining_order": [
+    [
+      "mmke-entity",
+      "minigpt-4-vicuna-7b",
+      7
+    ],
+    [
+      "mmke-entity",
+      "minigpt-4-vicuna-7b",
+      8
+    ],
+    [
+      "evqa-pilot500",
+      "instructblip-vicuna-7b",
+      17
+    ],
+    [
+      "evqa-pilot500",
+      "instructblip-vicuna-7b",
+      20
+    ]
+  ],
+  "completed": [
+    {
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "layer": 20,
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20",
+      "selected": {
+        "layer": "20",
+        "status": "TRAIN_DONE",
+        "epoch": "50",
+        "i": "5350",
+        "loss": "5.900425910949707",
+        "ema_loss": "6.889281721605075",
+        "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/checkpoints/epoch-50-i-5350-ema_loss-6.8893"
+      },
+      "checkpoint": {
+        "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-visual/instructblip-vicuna-7b/layer_20/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/checkpoints/epoch-50-i-5350-ema_loss-6.8893",
+        "relative_path": "selected_checkpoint/epoch-50-i-5350-ema_loss-6.8893",
+        "size": 415895994,
+        "sha256": "62604d7088262d6717611e98a94cd249fb18ff0035c41a42ade1331a8c3b502e"
+      },
+      "evaluation": {
+        "status": "EVAL_DONE",
+        "eval_samples": 293,
+        "Rel": 18.52,
+        "T-Gen": 17.29,
+        "M-Gen": 18.68,
+        "T-Loc": 100,
+        "M-Loc": 99.9,
+        "Average": 50.878
+      },
+      "history_check": {
+        "epoch_count": 50,
+        "epochs_1_to_50": true,
+        "all_finite": true,
+        "best_epoch": 50,
+        "best_ema": 6.889281721605075,
+        "selection_matches": true
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "layer": 20,
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-entity/instructblip-vicuna-7b/layer_20",
+      "selected": {
+        "layer": "20",
+        "status": "TRAIN_DONE",
+        "epoch": "50",
+        "i": "15900",
+        "loss": "7.50277042388916",
+        "ema_loss": "10.103080637007656",
+        "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-entity/instructblip-vicuna-7b/layer_20/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/checkpoints/epoch-50-i-15900-ema_loss-10.1031"
+      },
+      "checkpoint": {
+        "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-entity/instructblip-vicuna-7b/layer_20/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L20-lr-1-t-1-v-1/checkpoints/epoch-50-i-15900-ema_loss-10.1031",
+        "relative_path": "selected_checkpoint/epoch-50-i-15900-ema_loss-10.1031",
+        "size": 415896210,
+        "sha256": "5b0bfbf9d7d3be8296e8c77408ef47ff2c5508a4d66c4cb626512c4e88c25910"
+      },
+      "evaluation": {
+        "status": "EVAL_DONE",
+        "eval_samples": 954,
+        "Rel": 14.63,
+        "T-Gen": 14.11,
+        "M-Gen": 14.52,
+        "T-Loc": 100,
+        "M-Loc": 99.87,
+        "Average": 48.626
+      },
+      "history_check": {
+        "epoch_count": 50,
+        "epochs_1_to_50": true,
+        "all_finite": true,
+        "best_epoch": 50,
+        "best_ema": 10.103080637007656,
+        "selection_matches": true
+      }
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "smolvlm-1.7b",
+      "layer": 8,
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-entity/smolvlm-1.7b/layer_08",
+      "selected": {
+        "layer": "8",
+        "status": "TRAIN_DONE",
+        "epoch": "50",
+        "i": "15900",
+        "loss": "0.998910665512085",
+        "ema_loss": "0.7870827801514695",
+        "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-entity/smolvlm-1.7b/layer_08/records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-50-i-15900-ema_loss-0.7871"
+      },
+      "checkpoint": {
+        "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/accepted/mmke-entity/smolvlm-1.7b/layer_08/records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-50-i-15900-ema_loss-0.7871",
+        "relative_path": "selected_checkpoint/epoch-50-i-15900-ema_loss-0.7871",
+        "size": 214299174,
+        "sha256": "7208f4814fd8285feb3320503a2634f777515aa6491e4c7f6b1c5e243a6205cc"
+      },
+      "evaluation": {
+        "status": "EVAL_DONE",
+        "eval_samples": 954,
+        "Rel": 52.22,
+        "T-Gen": 52.25,
+        "M-Gen": 52.22,
+        "T-Loc": 100,
+        "M-Loc": 96.75,
+        "Average": 70.688
+      },
+      "history_check": {
+        "epoch_count": 50,
+        "epochs_1_to_50": true,
+        "all_finite": true,
+        "best_epoch": 50,
+        "best_ema": 0.7870827801514695,
+        "selection_matches": true
+      }
+    }
+  ],
+  "gpu_observed_at": "2026-09-27 22:07:11 CST",
+  "gpu": {
+    "total_mib": 81920,
+    "used_mib": 73577,
+    "free_mib": 7580,
+    "utilization_percent": 98,
+    "main_pid": 2006791,
+    "main_mib": 70118,
+    "other": [
+      {
+        "pid": 2049332,
+        "mib": 3444
+      }
+    ],
+    "device_used_minus_process_sum_mib": 15
+  },
+  "local_sync": {
+    "state": "PARTIAL_NETWORK_TIMEOUT",
+    "hash_verified_files": 8,
+    "hash_verified_bytes": 1121201,
+    "expected_files": 30,
+    "missing_files": 22,
+    "local_full_precision_manifests_saved": true,
+    "checkpoint_binaries_requested": false
+  },
+  "server_mutations": false
+}

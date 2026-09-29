@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "dataset": "mmke-visual",
+  "model": "qwen2.5-vl-3b",
+  "processed": 214,
+  "total": 214,
+  "failures": 0,
+  "elapsed_seconds": 285.2383322715759,
+  "job_id": "3443209"
+}

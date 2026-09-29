@@ -1,0 +1,36 @@
+--- before/6location_7model_3datas_top_3_5_layers_outcome.md
++++ D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\Location\6location_7model_3datas_top_3_5_layers_outcome.md
+@@ -1553,7 +1553,9 @@
+ 
+ #### MMKE-visual
+ 
+-完成层数：`blip2-opt-2.7b` 19 层；`instructblip-vicuna-7b` 21 层；`minigpt-4-vicuna-7b` 21层，其中原候选并集16/16层已完成，另有Ours主公式补层L9、L10、L11于job 3126082完成；`llava-v1.5-7b` 9层（L0、L1、L2、L7、L8、L9、L12、L15、L28），其中3.4.2原待补15层已完成8层、剩余7层；`qwen2.5-vl-3b` 21 层；`paligemma-3b` 15 个唯一完成层（新增主配置L4；另有 `L0` 未收敛失败，不计入完成）；`smolvlm-1.7b` 21层。SmolVLM新增L5为`CMA-ModelPred` Top-3补层，已完成293条独立MMKE-visual eval并归档共享盘。`blip2-opt-2.7b` 的 `L29`、`instructblip-vicuna-7b` 的 `L30,L31`、MiniGPT-4的`L17,L18`，以及SmolVLM已完成但不在3.2候选并集内的`L13,L19,L20,L21`，可用于oracle/full-sweep对照；做当前正式候选层统计时按3.4.5重算并集筛选。不得再沿用2026-08-01的旧快照把LLaVA L2记为训练中。
++**2026-09-26 服务器复核与 main 恢复评测：** main 原运行的 L1、L2、L6、L7、L13 已有完整50轮及293条评测，本次补齐漏记；L3、L5 原训练发生非有限梯度并被停滞监控终止，现已直接评测原 checkpoint，分别为30.540、62.544。当前 main 共16层有实际评测，其中13层训练完成50轮，L0/L3/L5为训练未完成的恢复评测。“已评测”不等于“已收敛”或“完成50轮”。stable 单列保留，不再以 stable 高分替换 main 低分；先前其他章节的覆盖统计属于历史快照，不据此自动增加完整50轮可比组数。详情见 `outputs/paligemma_visual_server_audit_20260926/PaliGemma_main停训原因与直接评测结果.md`。
++
++完成层数：`blip2-opt-2.7b` 19 层；`instructblip-vicuna-7b` 21 层；`minigpt-4-vicuna-7b` 21层，其中原候选并集16/16层已完成，另有Ours主公式补层L9、L10、L11于job 3126082完成；`llava-v1.5-7b` 9层（L0、L1、L2、L7、L8、L9、L12、L15、L28），其中3.4.2原待补15层已完成8层、剩余7层；`qwen2.5-vl-3b` 21 层；`paligemma-3b` main有16个已评测层，其中13层完整50轮、L0/L3/L5为未完成训练的恢复评测；stable另列，不能混成一个完成数；`smolvlm-1.7b` 21层。SmolVLM新增L5为`CMA-ModelPred` Top-3补层，已完成293条独立MMKE-visual eval并归档共享盘。`blip2-opt-2.7b` 的 `L29`、`instructblip-vicuna-7b` 的 `L30,L31`、MiniGPT-4的`L17,L18`，以及SmolVLM已完成但不在3.2候选并集内的`L13,L19,L20,L21`，可用于oracle/full-sweep对照；做当前正式候选层统计时按3.4.5重算并集筛选。不得再沿用2026-08-01的旧快照把LLaVA L2记为训练中。
+ 
+ 补充说明：`paligemma-3b` 原始 run 的 7 层结果保留不动；其后追加 2026-07-13 的 PaliGemma-stable 补跑结果，来源为服务器目录 `paligemma_stable_mmke_visual_top3_union_20260713_1120`。stable 补跑中 `L8` 训练到 epoch 13 后中断，已保护现场并使用 epoch 13 checkpoint 手动完成 full eval，因此状态单独标记为 `TRAIN_DONE_MANUAL_EPOCH13`。
+ 
+@@ -1566,7 +1568,7 @@
+ - `TRAIN_DONE_STABLE_JOB3044208`：job 3044208 stable 配置补跑，对应 `L1,L2,L3,L5,L6,L7,L13`，使用 `configs/vead/paligemma-3b-stable.yaml`。
+ - `FAILED_STABLE_L0_NONCONVERGENT_CKPT_WRITE_ERROR_NO_EVAL`：job 3044208 的 L0 stable 专用配置 `configs/vead/paligemma-3b-stable-l0.yaml`；未收敛且未评测，不属于主实验版本，也不计入完成结果。
+ 
+-PaliGemma 待补跑层验收规则：优先按主实验配置运行，若训练完整完成、loss/EMA 无极端异常、未出现 nonfinite 梯度或长时间卡死，并且 full eval 通过，则保留为主实验结果；若出现 nonfinite、极端/负 EMA、卡死或无法评测，则该层标记为主配置失败，改按 PaliGemma-stable 方案补跑，并在 `Train Status` 或备注中注明结果来源。
++PaliGemma 当前记录规则（2026-09-26，按用户要求更新）：保留原 main 训练轨迹与实际评测分数。出现数值异常或中断时，只要原 checkpoint 参数有限且可读取，即可按原评测协议直接评测，并明确标注训练预算完成情况；不能把低分、失败或中断静默删除，也不以 stable 分数替换。历史 stable 作为单独配方结果保留。所有定位公式必须复用同一个固定层—结果映射。完整50轮分析与包含失败/中断恢复结果的实际运行分析分别统计。
+ 
+ | Model | Layer | Ckpt Epoch | Raw Loss | EMA Loss | Samples | Rel | T-Gen | M-Gen | T-Loc | M-Loc | Average | Train Status |
+ |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+@@ -1661,6 +1663,13 @@
+ | qwen2.5-vl-3b | L27 | 48 | 0.393821 | 0.756435 | 293 | 48.99 | 48.98 | 48.75 | 100.00 | 93.87 | 68.12 | TRAIN_DONE_LOCAL_TMP_JOB3044208 |
+ | qwen2.5-vl-3b | L28 | 43 | 0.595793 | 1.006616 | 293 | 49.89 | 49.35 | 49.90 | 100.00 | 92.60 | 68.35 | TRAIN_DONE_LOCAL_TMP_JOB3044208 |
+ | qwen2.5-vl-3b | L30 | 48 | 1.174112 | 1.430872 | 293 | 47.65 | 47.29 | 47.56 | 100.00 | 92.74 | 67.05 | TRAIN_DONE_LOCAL_TMP_JOB3044208 |
++| paligemma-3b | L1 | 9 | 28.518827 | 30.787377 | 293 | 0.09 | 0.08 | 0.10 | 100.00 | 97.95 | 39.644 | TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录 |
++| paligemma-3b | L2 | 3 | 2.979825 | 1.682528 | 293 | 94.68 | 94.88 | 94.40 | 100.00 | 17.23 | 80.238 | TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录 |
++| paligemma-3b | L3 | 7 | 21.378290 | 22.591008 | 293 | 16.41 | 16.53 | 16.69 | 100.00 | 3.07 | 30.540 | EVAL_DONE_INCOMPLETE_NUMERIC_INSTABILITY_MAIN_RECOVERED_20260926；已保存27轮，非完整50epoch |
++| paligemma-3b | L5 | 1 | 8.847749 | 9.046796 | 293 | 55.51 | 55.68 | 56.14 | 100.00 | 45.39 | 62.544 | EVAL_DONE_INCOMPLETE_NUMERIC_INSTABILITY_MAIN_RECOVERED_20260926；已保存3轮，非完整50epoch |
++| paligemma-3b | L6 | 2 | 0.841218 | 1.231970 | 293 | 95.38 | 95.42 | 95.31 | 100.00 | 91.33 | 95.488 | TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录 |
++| paligemma-3b | L7 | 2 | 1.615333 | 1.543866 | 293 | 94.79 | 94.81 | 94.75 | 100.00 | 82.70 | 93.410 | TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录 |
++| paligemma-3b | L13 | 19 | 18.990540 | 18.644390 | 293 | 0.25 | 0.25 | 0.28 | 100.00 | 99.43 | 40.042 | TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录 |
+ | paligemma-3b | L4 | 39 | 0.332606 | 0.330234 | 293 | 99.23 | 99.22 | 98.68 | 100.00 | 98.00 | 99.026 | TRAIN_DONE_MAIN_FORMAL_TOP3_JOB3117562 |
+ | paligemma-3b | L0 | 1 | 3465.718750 | 3508.007406 | 293 | 0.10 | 0.08 | 0.09 | 100.00 | 92.33 | 38.520 | EVAL_DONE_NONCONVERGENT_MAIN_RECOVERED_20260921；不收敛，lr=1e-4，非完整50epoch |
+ | paligemma-3b | L8 | 2 | 3.971717 | 2.536566 | 293 | 95.13 | 95.16 | 95.19 | 100.00 | 70.96 | 91.29 | TRAIN_DONE_MAIN |

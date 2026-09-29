@@ -1,0 +1,9 @@
+dataset,model,method,variant,top_k,rank,layer,score,raw_rank,filtered_rank,raw_candidate_layers,clean_candidate_layers,selection_source,candidate_conversion,status,failure_reason
+MMKE-entity,PaliGemma-3B,LGA-Param-Direct-AltModelPred,direct,3,1,L17,112.27621582422242,1,,"L17,L16,L7","L17,L16,L7",raw_old_new_parameter_gradient_dot,direct,done,
+MMKE-entity,PaliGemma-3B,LGA-Param-Direct-AltModelPred,direct,3,2,L16,59.33875331076436,2,,"L17,L16,L7","L17,L16,L7",raw_old_new_parameter_gradient_dot,direct,done,
+MMKE-entity,PaliGemma-3B,LGA-Param-Direct-AltModelPred,direct,3,3,L7,53.715437255460046,3,,"L17,L16,L7","L17,L16,L7",raw_old_new_parameter_gradient_dot,direct,done,
+MMKE-entity,PaliGemma-3B,LGA-Param-Direct-AltModelPred,direct,5,1,L17,112.27621582422242,1,,"L17,L16,L7,L8,L13","L17,L16,L7,L8,L13",raw_old_new_parameter_gradient_dot,direct,done,
+MMKE-entity,PaliGemma-3B,LGA-Param-Direct-AltModelPred,direct,5,2,L16,59.33875331076436,2,,"L17,L16,L7,L8,L13","L17,L16,L7,L8,L13",raw_old_new_parameter_gradient_dot,direct,done,
+MMKE-entity,PaliGemma-3B,LGA-Param-Direct-AltModelPred,direct,5,3,L7,53.715437255460046,3,,"L17,L16,L7,L8,L13","L17,L16,L7,L8,L13",raw_old_new_parameter_gradient_dot,direct,done,
+MMKE-entity,PaliGemma-3B,LGA-Param-Direct-AltModelPred,direct,5,4,L8,37.93379047814077,4,,"L17,L16,L7,L8,L13","L17,L16,L7,L8,L13",raw_old_new_parameter_gradient_dot,direct,done,
+MMKE-entity,PaliGemma-3B,LGA-Param-Direct-AltModelPred,direct,5,5,L13,37.43052084116066,5,,"L17,L16,L7,L8,L13","L17,L16,L7,L8,L13",raw_old_new_parameter_gradient_dot,direct,done,

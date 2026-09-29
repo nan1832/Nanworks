@@ -1,0 +1,4 @@
+source=/tmp/ph_teacher3/formal_top3_lowmem_pali_job3117562_20260810/evqa-pilot500/paligemma-3b/layer_03
+destination=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3117562/evqa-pilot500/paligemma-3b/layer_03
+synced_at=2026-08-11 02:12:39 CST
+selected=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3117562/evqa-pilot500/paligemma-3b/layer_03/records/vead/paligemma-3b/pilot500_blip2_visedit_L03-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.5311

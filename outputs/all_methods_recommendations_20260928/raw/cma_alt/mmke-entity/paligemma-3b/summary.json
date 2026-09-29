@@ -1,0 +1,53 @@
+{
+  "dataset_key": "mmke-entity",
+  "dataset": "MMKE-entity",
+  "model_key": "paligemma-3b",
+  "model": "PaliGemma-3B",
+  "method": "CMA-Direct",
+  "score_source": "cr_seq_mean",
+  "ranking_metric": "cr_seq_mean",
+  "target_sequence": "complete alt sequence",
+  "corrupt_scope": "decoder input visual embeddings",
+  "restore_scope": "visual tokens only",
+  "num_layers": 18,
+  "noise_scales": [
+    1.0
+  ],
+  "repeats": [
+    2026
+  ],
+  "delta_logprob": 0.05,
+  "manifest_sample_count": 636,
+  "excluded_sample_count": 0,
+  "max_layer_valid_restore_count": 125,
+  "valid_coverage_ratio": 0.19654088050314467,
+  "top3_layers": [
+    "L0",
+    "L2",
+    "L1"
+  ],
+  "top5_layers": [
+    "L0",
+    "L2",
+    "L1",
+    "L3",
+    "L7"
+  ],
+  "raw_top3_layers": [
+    "L0",
+    "L2",
+    "L1"
+  ],
+  "raw_top5_layers": [
+    "L0",
+    "L2",
+    "L1",
+    "L3",
+    "L7"
+  ],
+  "status": "done",
+  "failure_reasons": [],
+  "duration_sec": 139.99919438362122,
+  "layer_scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_v13_full_g09_gpu0_20260703_134818/mmke-entity/paligemma-3b/cma_direct_layer_scores.csv",
+  "errors": []
+}

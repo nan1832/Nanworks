@@ -1,0 +1,11 @@
+{
+  "state": "DONE",
+  "time": "2026-09-29T12:17:16+0800",
+  "job": "3435286",
+  "node": "g08",
+  "pid": 3560947,
+  "completed_groups": 2,
+  "completed_samples": 850,
+  "attribution_scope": "next_token_argmax",
+  "torch_dtype": "bfloat16"
+}

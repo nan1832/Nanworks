@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+17	TRAIN_DONE	50	15900	11.998193740844727	11.09590741015226	/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/instructblip-vicuna-7b/layer_17/records/vead/instructblip-vicuna-7b/pilot500_blip2_visedit_L17-lr-1-t-1-v-1/checkpoints/epoch-50-i-15900-ema_loss-11.0959

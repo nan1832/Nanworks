@@ -1,0 +1,85 @@
+Dataset,Model,Metric,Top-3,Top-5,Status,Valid,Total,Coverage,Source,Raw Top-3,Raw Top-5,Invalid layers
+EVQA-pilot500,BLIP2-OPT-2.7B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,465,500,0.93,ours_direct_20260626_final,"L0,L1,L2","L0,L1,L2,L3,L4",L31:S_v_zero_grad
+EVQA-pilot500,BLIP2-OPT-2.7B,Ours-AbsDirection-Direct,"L16,L17,L15","L16,L17,L15,L18,L14",done,465,500,0.93,ours_direct_20260626_final,"L16,L17,L15","L16,L17,L15,L18,L14",L31:S_v_zero_grad
+EVQA-pilot500,BLIP2-OPT-2.7B,Ours-NoDirection-Direct,"L17,L18,L16","L17,L18,L16,L19,L15",done,465,500,0.93,ours_direct_20260626_final,"L17,L18,L16","L17,L18,L16,L19,L15",L31:S_v_zero_grad
+EVQA-pilot500,BLIP2-OPT-2.7B,Ours-1MinusCos-Direct,"L25,L26,L19","L25,L26,L19,L27,L23",done,465,500,0.93,ours_direct_20260626_final,"L25,L26,L19","L25,L26,L19,L27,L23",L31:S_v_zero_grad
+EVQA-pilot500,InstructBLIP-Vicuna-7B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,500,500,1.0,ours_direct_20260626_final,"L0,L1,L2","L0,L1,L2,L3,L4",L31:S_v_zero_grad
+EVQA-pilot500,InstructBLIP-Vicuna-7B,Ours-AbsDirection-Direct,"L21,L22,L20","L21,L22,L20,L19,L23",done,500,500,1.0,ours_direct_20260626_final,"L21,L22,L20","L21,L22,L20,L19,L23",L31:S_v_zero_grad
+EVQA-pilot500,InstructBLIP-Vicuna-7B,Ours-NoDirection-Direct,"L21,L22,L20","L21,L22,L20,L19,L23",done,500,500,1.0,ours_direct_20260626_final,"L21,L22,L20","L21,L22,L20,L19,L23",L31:S_v_zero_grad
+EVQA-pilot500,InstructBLIP-Vicuna-7B,Ours-1MinusCos-Direct,"L22,L21,L20","L22,L21,L20,L23,L19",done,500,500,1.0,ours_direct_20260626_final,"L22,L21,L20","L22,L21,L20,L23,L19",L31:S_v_zero_grad
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,Ours-Direct-Conflict,"L29,L28,L30","L29,L28,L30,L27,L24",done,499,500,0.998,ours_direct_20260626_final,"L29,L28,L30","L29,L28,L30,L27,L24",L31:S_v_zero_grad
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,Ours-AbsDirection-Direct,"L21,L18,L22","L21,L18,L22,L19,L20",done,499,500,0.998,ours_direct_20260626_final,"L21,L18,L22","L21,L18,L22,L19,L20",L31:S_v_zero_grad
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,Ours-NoDirection-Direct,"L22,L21,L20","L22,L21,L20,L19,L23",done,499,500,0.998,ours_direct_20260626_final,"L22,L21,L20","L22,L21,L20,L19,L23",L31:S_v_zero_grad
+EVQA-pilot500,MiniGPT-4-Vicuna-7B,Ours-1MinusCos-Direct,"L22,L21,L20","L22,L21,L20,L23,L19",done,499,500,0.998,ours_direct_20260626_final,"L22,L21,L20","L22,L21,L20,L23,L19",L31:S_v_zero_grad
+EVQA-pilot500,LLaVA-v1.5-7B,Ours-Direct-Conflict,"L17,L16,L15","L17,L16,L15,L14,L18",done,500,500,1.0,ours_direct_20260626_final,"L17,L16,L15","L17,L16,L15,L14,L18",L31:S_v_zero_grad
+EVQA-pilot500,LLaVA-v1.5-7B,Ours-AbsDirection-Direct,"L17,L16,L15","L17,L16,L15,L14,L18",done,500,500,1.0,ours_direct_20260626_final,"L17,L16,L15","L17,L16,L15,L14,L18",L31:S_v_zero_grad
+EVQA-pilot500,LLaVA-v1.5-7B,Ours-NoDirection-Direct,"L13,L16,L15","L13,L16,L15,L14,L12",done,500,500,1.0,ours_direct_20260626_final,"L13,L16,L15","L13,L16,L15,L14,L12",L31:S_v_zero_grad
+EVQA-pilot500,LLaVA-v1.5-7B,Ours-1MinusCos-Direct,"L13,L16,L15","L13,L16,L15,L17,L14",done,500,500,1.0,ours_direct_20260626_final,"L13,L16,L15","L13,L16,L15,L17,L14",L31:S_v_zero_grad
+EVQA-pilot500,Qwen2.5-VL-3B,Ours-Direct-Conflict,L34,L34,insufficient_valid_layers; clean_topk_less_than_3,500,500,1.0,qwen_chatfix_20260701,"L34,L0,L1","L34,L0,L1,L2,L3",L35:S_v_zero_grad
+EVQA-pilot500,Qwen2.5-VL-3B,Ours-AbsDirection-Direct,"L24,L21,L22","L24,L21,L22,L23,L26",done,500,500,1.0,qwen_chatfix_20260701,"L24,L21,L22","L24,L21,L22,L23,L26",L35:S_v_zero_grad
+EVQA-pilot500,Qwen2.5-VL-3B,Ours-NoDirection-Direct,"L20,L18,L19","L20,L18,L19,L21,L17",done,500,500,1.0,qwen_chatfix_20260701,"L20,L18,L19","L20,L18,L19,L21,L17",L35:S_v_zero_grad
+EVQA-pilot500,Qwen2.5-VL-3B,Ours-1MinusCos-Direct,"L20,L18,L19","L20,L18,L19,L17,L21",done,500,500,1.0,qwen_chatfix_20260701,"L20,L18,L19","L20,L18,L19,L17,L21",L35:S_v_zero_grad
+EVQA-pilot500,PaliGemma-3B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,500,500,1.0,ours_direct_20260626_final,"L0,L1,L2","L0,L1,L2,L3,L4",L17:S_v_zero_grad
+EVQA-pilot500,PaliGemma-3B,Ours-AbsDirection-Direct,"L7,L8,L6","L7,L8,L6,L9,L5",done,500,500,1.0,ours_direct_20260626_final,"L7,L8,L6","L7,L8,L6,L9,L5",L17:S_v_zero_grad
+EVQA-pilot500,PaliGemma-3B,Ours-NoDirection-Direct,"L7,L8,L9","L7,L8,L9,L6,L5",done,500,500,1.0,ours_direct_20260626_final,"L7,L8,L9","L7,L8,L9,L6,L5",L17:S_v_zero_grad
+EVQA-pilot500,PaliGemma-3B,Ours-1MinusCos-Direct,"L7,L9,L8","L7,L9,L8,L6,L10",done,500,500,1.0,ours_direct_20260626_final,"L7,L9,L8","L7,L9,L8,L6,L10",L17:S_v_zero_grad
+EVQA-pilot500,SmolVLM-Instruct-1.7B,Ours-Direct-Conflict,"L14,L13,L12","L14,L13,L12,L11,L10",done,500,500,1.0,ours_direct_20260626_final,"L14,L13,L12","L14,L13,L12,L11,L10",L23:S_v_zero_grad
+EVQA-pilot500,SmolVLM-Instruct-1.7B,Ours-AbsDirection-Direct,"L14,L13,L12","L14,L13,L12,L11,L10",done,500,500,1.0,ours_direct_20260626_final,"L14,L13,L12","L14,L13,L12,L11,L10",L23:S_v_zero_grad
+EVQA-pilot500,SmolVLM-Instruct-1.7B,Ours-NoDirection-Direct,"L14,L11,L13","L14,L11,L13,L12,L10",done,500,500,1.0,ours_direct_20260626_final,"L14,L11,L13","L14,L11,L13,L12,L10",L23:S_v_zero_grad
+EVQA-pilot500,SmolVLM-Instruct-1.7B,Ours-1MinusCos-Direct,"L14,L11,L13","L14,L11,L13,L12,L10",done,500,500,1.0,ours_direct_20260626_final,"L14,L11,L13","L14,L11,L13,L12,L10",L23:S_v_zero_grad
+MMKE-visual,BLIP2-OPT-2.7B,Ours-Direct-Conflict,L30,L30,insufficient_valid_layers; clean_topk_less_than_3,175,214,0.8177570093457944,ours_direct_20260626_final,"L30,L0,L1","L30,L0,L1,L2,L3",L31:S_v_zero_grad
+MMKE-visual,BLIP2-OPT-2.7B,Ours-AbsDirection-Direct,"L15,L17,L14","L15,L17,L14,L16,L13",done,175,214,0.8177570093457944,ours_direct_20260626_final,"L15,L17,L14","L15,L17,L14,L16,L13",L31:S_v_zero_grad
+MMKE-visual,BLIP2-OPT-2.7B,Ours-NoDirection-Direct,"L19,L20,L18","L19,L20,L18,L21,L22",done,175,214,0.8177570093457944,ours_direct_20260626_final,"L19,L20,L18","L19,L20,L18,L21,L22",L31:S_v_zero_grad
+MMKE-visual,BLIP2-OPT-2.7B,Ours-1MinusCos-Direct,"L25,L21,L22","L25,L21,L22,L20,L26",done,175,214,0.8177570093457944,ours_direct_20260626_final,"L25,L21,L22","L25,L21,L22,L20,L26",L31:S_v_zero_grad
+MMKE-visual,InstructBLIP-Vicuna-7B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,214,214,1.0,ours_direct_20260626_final,"L0,L1,L2","L0,L1,L2,L3,L4",L31:S_v_zero_grad
+MMKE-visual,InstructBLIP-Vicuna-7B,Ours-AbsDirection-Direct,"L27,L26,L25","L27,L26,L25,L24,L23",done,214,214,1.0,ours_direct_20260626_final,"L27,L26,L25","L27,L26,L25,L24,L23",L31:S_v_zero_grad
+MMKE-visual,InstructBLIP-Vicuna-7B,Ours-NoDirection-Direct,"L27,L26,L25","L27,L26,L25,L24,L23",done,214,214,1.0,ours_direct_20260626_final,"L27,L26,L25","L27,L26,L25,L24,L23",L31:S_v_zero_grad
+MMKE-visual,InstructBLIP-Vicuna-7B,Ours-1MinusCos-Direct,"L24,L23,L25","L24,L23,L25,L22,L27",done,214,214,1.0,ours_direct_20260626_final,"L24,L23,L25","L24,L23,L25,L22,L27",L31:S_v_zero_grad
+MMKE-visual,MiniGPT-4-Vicuna-7B,Ours-Direct-Conflict,"L29,L28,L27","L29,L28,L27,L26,L30",done,214,214,1.0,ours_direct_20260626_final,"L29,L28,L27","L29,L28,L27,L26,L30",L31:S_v_zero_grad
+MMKE-visual,MiniGPT-4-Vicuna-7B,Ours-AbsDirection-Direct,"L29,L28,L27","L29,L28,L27,L26,L30",done,214,214,1.0,ours_direct_20260626_final,"L29,L28,L27","L29,L28,L27,L26,L30",L31:S_v_zero_grad
+MMKE-visual,MiniGPT-4-Vicuna-7B,Ours-NoDirection-Direct,"L27,L26,L28","L27,L26,L28,L29,L25",done,214,214,1.0,ours_direct_20260626_final,"L27,L26,L28","L27,L26,L28,L29,L25",L31:S_v_zero_grad
+MMKE-visual,MiniGPT-4-Vicuna-7B,Ours-1MinusCos-Direct,"L27,L28,L29","L27,L28,L29,L26,L25",done,214,214,1.0,ours_direct_20260626_final,"L27,L28,L29","L27,L28,L29,L26,L25",L31:S_v_zero_grad
+MMKE-visual,LLaVA-v1.5-7B,Ours-Direct-Conflict,"L13,L14,L15","L13,L14,L15,L16,L12",done,214,214,1.0,ours_direct_20260626_final,"L13,L14,L15","L13,L14,L15,L16,L12",L31:S_v_zero_grad
+MMKE-visual,LLaVA-v1.5-7B,Ours-AbsDirection-Direct,"L13,L14,L15","L13,L14,L15,L16,L12",done,214,214,1.0,ours_direct_20260626_final,"L13,L14,L15","L13,L14,L15,L16,L12",L31:S_v_zero_grad
+MMKE-visual,LLaVA-v1.5-7B,Ours-NoDirection-Direct,"L13,L12,L15","L13,L12,L15,L14,L16",done,214,214,1.0,ours_direct_20260626_final,"L13,L12,L15","L13,L12,L15,L14,L16",L31:S_v_zero_grad
+MMKE-visual,LLaVA-v1.5-7B,Ours-1MinusCos-Direct,"L13,L12,L15","L13,L12,L15,L14,L16",done,214,214,1.0,ours_direct_20260626_final,"L13,L12,L15","L13,L12,L15,L14,L16",L31:S_v_zero_grad
+MMKE-visual,Qwen2.5-VL-3B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,214,214,1.0,qwen_chatfix_20260701,"L0,L1,L2","L0,L1,L2,L3,L4",L35:S_v_zero_grad
+MMKE-visual,Qwen2.5-VL-3B,Ours-AbsDirection-Direct,"L22,L17,L18","L22,L17,L18,L20,L21",done,214,214,1.0,qwen_chatfix_20260701,"L22,L17,L18","L22,L17,L18,L20,L21",L35:S_v_zero_grad
+MMKE-visual,Qwen2.5-VL-3B,Ours-NoDirection-Direct,"L20,L18,L19","L20,L18,L19,L17,L22",done,214,214,1.0,qwen_chatfix_20260701,"L20,L18,L19","L20,L18,L19,L17,L22",L35:S_v_zero_grad
+MMKE-visual,Qwen2.5-VL-3B,Ours-1MinusCos-Direct,"L20,L18,L19","L20,L18,L19,L21,L17",done,214,214,1.0,qwen_chatfix_20260701,"L20,L18,L19","L20,L18,L19,L21,L17",L35:S_v_zero_grad
+MMKE-visual,PaliGemma-3B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,214,214,1.0,ours_direct_20260626_final,"L0,L1,L2","L0,L1,L2,L3,L4",L17:S_v_zero_grad
+MMKE-visual,PaliGemma-3B,Ours-AbsDirection-Direct,"L5,L7,L8","L5,L7,L8,L6,L4",done,214,214,1.0,ours_direct_20260626_final,"L5,L7,L8","L5,L7,L8,L6,L4",L17:S_v_zero_grad
+MMKE-visual,PaliGemma-3B,Ours-NoDirection-Direct,"L7,L5,L8","L7,L5,L8,L6,L9",done,214,214,1.0,ours_direct_20260626_final,"L7,L5,L8","L7,L5,L8,L6,L9",L17:S_v_zero_grad
+MMKE-visual,PaliGemma-3B,Ours-1MinusCos-Direct,"L7,L8,L5","L7,L8,L5,L6,L9",done,214,214,1.0,ours_direct_20260626_final,"L7,L8,L5","L7,L8,L5,L6,L9",L17:S_v_zero_grad
+MMKE-visual,SmolVLM-Instruct-1.7B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,214,214,1.0,ours_direct_20260626_final,"L0,L1,L2","L0,L1,L2,L3,L4",L23:S_v_zero_grad
+MMKE-visual,SmolVLM-Instruct-1.7B,Ours-AbsDirection-Direct,"L10,L7,L9","L10,L7,L9,L8,L11",done,214,214,1.0,ours_direct_20260626_final,"L10,L7,L9","L10,L7,L9,L8,L11",L23:S_v_zero_grad
+MMKE-visual,SmolVLM-Instruct-1.7B,Ours-NoDirection-Direct,"L11,L10,L9","L11,L10,L9,L14,L13",done,214,214,1.0,ours_direct_20260626_final,"L11,L10,L9","L11,L10,L9,L14,L13",L23:S_v_zero_grad
+MMKE-visual,SmolVLM-Instruct-1.7B,Ours-1MinusCos-Direct,"L11,L10,L14","L11,L10,L14,L9,L13",done,214,214,1.0,ours_direct_20260626_final,"L11,L10,L14","L11,L10,L14,L9,L13",L23:S_v_zero_grad
+MMKE-entity,BLIP2-OPT-2.7B,Ours-Direct-Conflict,"L20,L19,L18","L20,L19,L18,L17,L22",done,284,636,0.44654088050314467,ours_direct_20260626_final,"L20,L19,L18","L20,L19,L18,L17,L22",L31:S_v_zero_grad
+MMKE-entity,BLIP2-OPT-2.7B,Ours-AbsDirection-Direct,"L20,L19,L18","L20,L19,L18,L17,L22",done,284,636,0.44654088050314467,ours_direct_20260626_final,"L20,L19,L18","L20,L19,L18,L17,L22",L31:S_v_zero_grad
+MMKE-entity,BLIP2-OPT-2.7B,Ours-NoDirection-Direct,"L25,L26,L24","L25,L26,L24,L23,L22",done,284,636,0.44654088050314467,ours_direct_20260626_final,"L25,L26,L24","L25,L26,L24,L23,L22",L31:S_v_zero_grad
+MMKE-entity,BLIP2-OPT-2.7B,Ours-1MinusCos-Direct,"L25,L24,L23","L25,L24,L23,L26,L22",done,284,636,0.44654088050314467,ours_direct_20260626_final,"L25,L24,L23","L25,L24,L23,L26,L22",L31:S_v_zero_grad
+MMKE-entity,InstructBLIP-Vicuna-7B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,636,636,1.0,ours_direct_20260626_final,"L0,L1,L2","L0,L1,L2,L3,L4",L31:S_v_zero_grad
+MMKE-entity,InstructBLIP-Vicuna-7B,Ours-AbsDirection-Direct,"L27,L26,L25","L27,L26,L25,L29,L24",done,636,636,1.0,ours_direct_20260626_final,"L27,L26,L25","L27,L26,L25,L29,L24",L31:S_v_zero_grad
+MMKE-entity,InstructBLIP-Vicuna-7B,Ours-NoDirection-Direct,"L27,L26,L25","L27,L26,L25,L24,L23",done,636,636,1.0,ours_direct_20260626_final,"L27,L26,L25","L27,L26,L25,L24,L23",L31:S_v_zero_grad
+MMKE-entity,InstructBLIP-Vicuna-7B,Ours-1MinusCos-Direct,"L22,L23,L24","L22,L23,L24,L21,L20",done,636,636,1.0,ours_direct_20260626_final,"L22,L23,L24","L22,L23,L24,L21,L20",L31:S_v_zero_grad
+MMKE-entity,MiniGPT-4-Vicuna-7B,Ours-Direct-Conflict,"L28,L29,L27","L28,L29,L27,L26,L25",done,636,636,1.0,ours_direct_20260626_final,"L28,L29,L27","L28,L29,L27,L26,L25",L31:S_v_zero_grad
+MMKE-entity,MiniGPT-4-Vicuna-7B,Ours-AbsDirection-Direct,"L28,L29,L27","L28,L29,L27,L26,L25",done,636,636,1.0,ours_direct_20260626_final,"L28,L29,L27","L28,L29,L27,L26,L25",L31:S_v_zero_grad
+MMKE-entity,MiniGPT-4-Vicuna-7B,Ours-NoDirection-Direct,"L27,L26,L28","L27,L26,L28,L25,L24",done,636,636,1.0,ours_direct_20260626_final,"L27,L26,L28","L27,L26,L28,L25,L24",L31:S_v_zero_grad
+MMKE-entity,MiniGPT-4-Vicuna-7B,Ours-1MinusCos-Direct,"L27,L28,L26","L27,L28,L26,L29,L25",done,636,636,1.0,ours_direct_20260626_final,"L27,L28,L26","L27,L28,L26,L29,L25",L31:S_v_zero_grad
+MMKE-entity,LLaVA-v1.5-7B,Ours-Direct-Conflict,"L13,L30,L12","L13,L30,L12,L14,L15",done,636,636,1.0,ours_direct_20260626_final,"L13,L30,L12","L13,L30,L12,L14,L15",L31:S_v_zero_grad
+MMKE-entity,LLaVA-v1.5-7B,Ours-AbsDirection-Direct,"L13,L30,L12","L13,L30,L12,L14,L15",done,636,636,1.0,ours_direct_20260626_final,"L13,L30,L12","L13,L30,L12,L14,L15",L31:S_v_zero_grad
+MMKE-entity,LLaVA-v1.5-7B,Ours-NoDirection-Direct,"L18,L15,L13","L18,L15,L13,L19,L17",done,636,636,1.0,ours_direct_20260626_final,"L18,L15,L13","L18,L15,L13,L19,L17",L31:S_v_zero_grad
+MMKE-entity,LLaVA-v1.5-7B,Ours-1MinusCos-Direct,"L18,L13,L15","L18,L13,L15,L19,L17",done,636,636,1.0,ours_direct_20260626_final,"L18,L13,L15","L18,L13,L15,L19,L17",L31:S_v_zero_grad
+MMKE-entity,Qwen2.5-VL-3B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,636,636,1.0,qwen_chatfix_20260701,"L0,L1,L2","L0,L1,L2,L3,L4",L35:S_v_zero_grad
+MMKE-entity,Qwen2.5-VL-3B,Ours-AbsDirection-Direct,"L22,L21,L20","L22,L21,L20,L17,L18",done,636,636,1.0,qwen_chatfix_20260701,"L22,L21,L20","L22,L21,L20,L17,L18",L35:S_v_zero_grad
+MMKE-entity,Qwen2.5-VL-3B,Ours-NoDirection-Direct,"L22,L20,L21","L22,L20,L21,L18,L19",done,636,636,1.0,qwen_chatfix_20260701,"L22,L20,L21","L22,L20,L21,L18,L19",L35:S_v_zero_grad
+MMKE-entity,Qwen2.5-VL-3B,Ours-1MinusCos-Direct,"L26,L20,L25","L26,L20,L25,L18,L21",done,636,636,1.0,qwen_chatfix_20260701,"L26,L20,L25","L26,L20,L25,L18,L21",L35:S_v_zero_grad
+MMKE-entity,PaliGemma-3B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,636,636,1.0,ours_direct_20260626_final,"L0,L1,L2","L0,L1,L2,L3,L4",L17:S_v_zero_grad
+MMKE-entity,PaliGemma-3B,Ours-AbsDirection-Direct,"L7,L5,L6","L7,L5,L6,L8,L4",done,636,636,1.0,ours_direct_20260626_final,"L7,L5,L6","L7,L5,L6,L8,L4",L17:S_v_zero_grad
+MMKE-entity,PaliGemma-3B,Ours-NoDirection-Direct,"L7,L5,L8","L7,L5,L8,L6,L9",done,636,636,1.0,ours_direct_20260626_final,"L7,L5,L8","L7,L5,L8,L6,L9",L17:S_v_zero_grad
+MMKE-entity,PaliGemma-3B,Ours-1MinusCos-Direct,"L7,L8,L9","L7,L8,L9,L6,L10",done,636,636,1.0,ours_direct_20260626_final,"L7,L8,L9","L7,L8,L9,L6,L10",L17:S_v_zero_grad
+MMKE-entity,SmolVLM-Instruct-1.7B,Ours-Direct-Conflict,-,-,unavailable; no_valid_negative_cosine_layer,636,636,1.0,ours_direct_20260626_final,"L0,L1,L2","L0,L1,L2,L3,L4",L23:S_v_zero_grad
+MMKE-entity,SmolVLM-Instruct-1.7B,Ours-AbsDirection-Direct,"L10,L11,L9","L10,L11,L9,L8,L7",done,636,636,1.0,ours_direct_20260626_final,"L10,L11,L9","L10,L11,L9,L8,L7",L23:S_v_zero_grad
+MMKE-entity,SmolVLM-Instruct-1.7B,Ours-NoDirection-Direct,"L11,L10,L9","L11,L10,L9,L14,L13",done,636,636,1.0,ours_direct_20260626_final,"L11,L10,L9","L11,L10,L9,L14,L13",L23:S_v_zero_grad
+MMKE-entity,SmolVLM-Instruct-1.7B,Ours-1MinusCos-Direct,"L14,L13,L11","L14,L13,L11,L12,L15",done,636,636,1.0,ours_direct_20260626_final,"L14,L13,L11","L14,L13,L11,L12,L15",L23:S_v_zero_grad

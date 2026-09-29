@@ -1,0 +1,47 @@
+{
+  "dataset_key": "evqa-pilot500",
+  "dataset": "EVQA-pilot500",
+  "model_key": "instructblip-vicuna-7b",
+  "model": "InstructBLIP-Vicuna-7B",
+  "method": "Ours-Direct",
+  "score_source": "virtual_delta_h_visual_gradient",
+  "old_field": "model_pred",
+  "new_field": "alt",
+  "ranking_metric": "S_ours",
+  "candidate_conversion": "direct",
+  "num_layers": 32,
+  "manifest_sample_count": 500,
+  "common_valid_sample_count": 500,
+  "max_valid_sample_count": 500,
+  "coverage_ratio": 1.0,
+  "top3_layers": [],
+  "top5_layers": [],
+  "raw_top3_layers": [
+    "L0",
+    "L1",
+    "L2"
+  ],
+  "raw_top5_layers": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "status": "failed",
+  "failure_reasons": [
+    "no_valid_ours_direct_layer"
+  ],
+  "invalid_layers": [
+    {
+      "layer": "L31",
+      "reason": "S_v_zero_grad"
+    }
+  ],
+  "duration_sec": 18719.742123365402,
+  "model_pred_cache": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/instructblip-vicuna-7b/model_pred_cache.jsonl",
+  "layer_scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/instructblip-vicuna-7b/ours_direct_layer_scores.csv",
+  "sample_layer_scores_jsonl": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/instructblip-vicuna-7b/ours_direct_sample_layer_scores.jsonl",
+  "excluded_count": 0,
+  "excluded_examples": []
+}

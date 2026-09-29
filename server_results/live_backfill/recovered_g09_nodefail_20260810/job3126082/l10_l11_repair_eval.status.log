@@ -1,0 +1,29 @@
+CHAIN_START job=3126082 host=g09 plan=L10_eval,L11_eval,L9_retry time=2026-08-02 20:49:51 CST
+WAIT_GPU_EXCLUSIVE used_mib=1 compute_pids= streak=1/5
+WAIT_GPU_EXCLUSIVE used_mib=1 compute_pids= streak=2/5
+WAIT_GPU_EXCLUSIVE used_mib=1 compute_pids= streak=3/5
+WAIT_GPU_EXCLUSIVE used_mib=1 compute_pids= streak=4/5
+WAIT_GPU_EXCLUSIVE used_mib=1 compute_pids= streak=5/5
+PROCESS_START label=L10_recovered_eval pid=1694557 log=/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/logs/mmke-visual_minigpt-4-vicuna-7b_L10_recovered_eval_20260802_205352.log time=2026-08-02 20:53:52 CST
+WATCH_PROGRESS label=L10_recovered_eval sig=Loading images:  80%|███████▉  | 233/293 [00:20<00:02, 29.22it/s] time=2026-08-02 20:54:52
+WATCH_PROGRESS label=L10_recovered_eval sig=Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s] time=2026-08-02 20:55:52
+WATCH_PROGRESS label=L10_recovered_eval sig=Loading checkpoint shards:  50%|█████     | 1/2 [01:11<01:11, 71.11s/it] time=2026-08-02 20:56:52
+WATCH_PROGRESS label=L10_recovered_eval sig=Evaluating:  10%|█         | 30/293 [00:27<03:54,  1.12it/s] time=2026-08-02 20:57:52
+WATCH_PROGRESS label=L10_recovered_eval sig=Evaluating:  34%|███▍      | 101/293 [01:27<02:36,  1.23it/s] time=2026-08-02 20:58:52
+WATCH_PROGRESS label=L10_recovered_eval sig=Evaluating:  58%|█████▊    | 170/293 [02:27<01:44,  1.18it/s] time=2026-08-02 20:59:52
+WATCH_PROGRESS label=L10_recovered_eval sig=Evaluating:  82%|████████▏ | 240/293 [03:27<00:45,  1.17it/s] time=2026-08-02 21:00:52
+WATCH_PROGRESS label=L10_recovered_eval sig=Evaluating: 100%|██████████| 293/293 [04:12<00:00,  1.16it/s][2026-08-02 21:01:36] [eval done] layer=10 avg=76.63 time=2026-08-02 21:01:52
+PROCESS_END label=L10_recovered_eval pid=1694557 rc=0 time=2026-08-02 21:01:52 CST
+POST_EVAL_CLEANUP layer=L10 selected=/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-visual/minigpt-4-vicuna-7b/layer_10/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L10-lr-1-t-1-v-1/checkpoints/epoch-36-i-3852-ema_loss-0.2600 removed=100 bytes=22136206093
+RECOVERED_LAYER_COMPLETE layer=L10 selected=/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-visual/minigpt-4-vicuna-7b/layer_10/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L10-lr-1-t-1-v-1/checkpoints/epoch-36-i-3852-ema_loss-0.2600
+PROCESS_START label=L11_recovered_eval pid=1697484 log=/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/logs/mmke-visual_minigpt-4-vicuna-7b_L11_recovered_eval_20260802_210154.log time=2026-08-02 21:01:54 CST
+WATCH_PROGRESS label=L11_recovered_eval sig=Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.21s/it] time=2026-08-02 21:02:54
+WATCH_PROGRESS label=L11_recovered_eval sig=Evaluating:  18%|█▊        | 54/293 [00:48<03:32,  1.12it/s] time=2026-08-02 21:03:54
+WATCH_PROGRESS label=L11_recovered_eval sig=Evaluating:  42%|████▏     | 123/293 [01:47<02:38,  1.07it/s] time=2026-08-02 21:04:54
+WATCH_PROGRESS label=L11_recovered_eval sig=Evaluating:  66%|██████▌   | 192/293 [02:48<01:31,  1.11it/s] time=2026-08-02 21:05:54
+WATCH_PROGRESS label=L11_recovered_eval sig=Evaluating:  89%|████████▉ | 261/293 [03:47<00:28,  1.12it/s] time=2026-08-02 21:06:54
+WATCH_PROGRESS label=L11_recovered_eval sig=Evaluating: 100%|██████████| 293/293 [04:14<00:00,  1.15it/s][2026-08-02 21:07:20] [eval done] layer=11 avg=76.83 time=2026-08-02 21:07:54
+PROCESS_END label=L11_recovered_eval pid=1697484 rc=0 time=2026-08-02 21:07:54 CST
+POST_EVAL_CLEANUP layer=L11 selected=/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-visual/minigpt-4-vicuna-7b/layer_11/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L11-lr-1-t-1-v-1/checkpoints/epoch-39-i-4173-ema_loss-0.2725 removed=100 bytes=22136206093
+RECOVERED_LAYER_COMPLETE layer=L11 selected=/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-visual/minigpt-4-vicuna-7b/layer_11/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L11-lr-1-t-1-v-1/checkpoints/epoch-39-i-4173-ema_loss-0.2725
+L10_L11_EVAL_COMPLETE handoff=L9_retry time=2026-08-02 21:07:55 CST

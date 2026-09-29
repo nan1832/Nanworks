@@ -1,0 +1,50 @@
+[
+  {
+    "file": "records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-50-i-15900-ema_loss-0.7871",
+    "source_sha256": "7208f4814fd8285feb3320503a2634f777515aa6491e4c7f6b1c5e243a6205cc",
+    "bytes": 214299174,
+    "archive_sha256": "7208f4814fd8285feb3320503a2634f777515aa6491e4c7f6b1c5e243a6205cc"
+  },
+  {
+    "file": "train.done",
+    "source_sha256": "81dc96e70d9297070dd302028930529ce1bd43ec1c666c20f59278229df987dc",
+    "bytes": 410,
+    "archive_sha256": "5a9fa91b53ea8773914da287a56edc28f1f6d13a73c7635edbe4877974de07f7"
+  },
+  {
+    "file": "selected_checkpoint.tsv",
+    "source_sha256": "306273adf03acdb48bffee33c8a0dade9dce606f9a11afc935b13514dd204f60",
+    "bytes": 364,
+    "archive_sha256": "8bd06d22226d3dd2e7a83700c3b940a17c30608591fd7968647a07bb244e1866"
+  },
+  {
+    "file": "eval_full.done",
+    "source_sha256": "3af2fc35b0f3162a1e974414156ec555d13a2b5af9ad94abf4606de2f729ae31",
+    "bytes": 816,
+    "archive_sha256": "222c5bc70c21971dab8264b54b86fed49c95de8e1650c419356db8221fdda633"
+  },
+  {
+    "file": "loss_history.csv",
+    "source_sha256": "3b7db9ba1727012072316c52ef18dcc887655286d7dec57fd3a74259d2722925",
+    "bytes": 16372,
+    "archive_sha256": "0a269752aaacf21f6683bf9a94e5c44d7976a4e4a8318ba60e4c52875c48bac2"
+  },
+  {
+    "file": "eval_full/vead/smolvlm-1.7b/EVQA_full_test_pilot500_blip2_visedit_L08/single_edit/mean_results.json",
+    "source_sha256": "1f451287e58e3aceb4668ed8171e5fa81f29c0b2fd9c044efc06461bbe96749c",
+    "bytes": 401,
+    "archive_sha256": "1f451287e58e3aceb4668ed8171e5fa81f29c0b2fd9c044efc06461bbe96749c"
+  },
+  {
+    "file": "eval_full/vead/smolvlm-1.7b/EVQA_full_test_pilot500_blip2_visedit_L08/single_edit/results.json",
+    "source_sha256": "6c04db45eb546154843025bfc3d994ae4120c090c207ddc0a93bb5c2272f0605",
+    "bytes": 4857326,
+    "archive_sha256": "6c04db45eb546154843025bfc3d994ae4120c090c207ddc0a93bb5c2272f0605"
+  },
+  {
+    "file": "records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/config.yaml",
+    "source_sha256": "a5836976f4460f9977d83be90f11924de5287a081b4d656e8870e6bc22f03f71",
+    "bytes": 456,
+    "archive_sha256": "a5836976f4460f9977d83be90f11924de5287a081b4d656e8870e6bc22f03f71"
+  }
+]

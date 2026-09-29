@@ -1,0 +1,14 @@
+﻿dataset,model,layer,required_by,same_candidate_set,coverage,reason
+evqa-pilot500,instructblip-vicuna-7b,9,new_norm_only,False,1.0,not_in_locked_local_verified_outcomes
+evqa-pilot500,llava-v1.5-7b,2,main_abs_cos_new_norm,False,1.0,not_in_locked_local_verified_outcomes
+evqa-pilot500,llava-v1.5-7b,3,new_norm_only,False,1.0,not_in_locked_local_verified_outcomes
+mmke-entity,llava-v1.5-7b,0,new_norm_only,False,1.0,not_in_locked_local_verified_outcomes
+mmke-entity,llava-v1.5-7b,1,new_norm_only,False,1.0,not_in_locked_local_verified_outcomes
+mmke-entity,llava-v1.5-7b,6,new_norm_only,False,1.0,not_in_locked_local_verified_outcomes
+mmke-entity,llava-v1.5-7b,11,main_abs_cos_new_norm,False,1.0,not_in_locked_local_verified_outcomes
+mmke-entity,llava-v1.5-7b,12,main_abs_cos_new_norm,False,1.0,not_in_locked_local_verified_outcomes
+mmke-entity,llava-v1.5-7b,13,main_abs_cos_new_norm,False,1.0,not_in_locked_local_verified_outcomes
+mmke-visual,llava-v1.5-7b,5,new_norm_only,False,1.0,not_in_locked_local_verified_outcomes
+mmke-visual,llava-v1.5-7b,6,new_norm_only,False,1.0,not_in_locked_local_verified_outcomes
+mmke-visual,paligemma-3b,3,main_abs_cos_new_norm;new_norm_only,True,1.0,stable_only
+mmke-visual,paligemma-3b,5,main_abs_cos_new_norm;new_norm_only,True,1.0,stable_only

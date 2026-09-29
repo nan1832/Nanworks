@@ -1,0 +1,29 @@
+{
+  "dataset_key": "mmke-visual",
+  "dataset": "MMKE-visual",
+  "model_key": "minigpt-4-vicuna-7b",
+  "model": "MiniGPT-4-Vicuna-7B",
+  "formula": "S_l(D)=mean_samples(mean_abs(grad_W_l loss(prompt,image,target_new_alt)))",
+  "target_field": "request.target_new / alt",
+  "layer_type": "MLP/FFN parameters from configs/p_track mlp_module_tmp",
+  "num_layers": 32,
+  "total_samples": 214,
+  "ok_samples": 214,
+  "error_samples": 0,
+  "loss_mean": 2.5049240494442877,
+  "top3_layers": [
+    "L31",
+    "L5",
+    "L8"
+  ],
+  "top5_layers": [
+    "L31",
+    "L5",
+    "L8",
+    "L6",
+    "L9"
+  ],
+  "duration_sec": 137.69002509117126,
+  "scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/salem_candidate_layers_7models_3data_current_alloc_20260621_203335/mmke-visual/minigpt-4-vicuna-7b/salem_layer_scores.csv",
+  "errors": []
+}

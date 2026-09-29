@@ -1,0 +1,113 @@
+{
+  "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08",
+  "host": "login01",
+  "errors": [],
+  "warnings": [],
+  "artifacts": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/eval_full.done": {
+      "size": 824,
+      "sha256": "52ad90881571abb7e2ded9fa5ee2df167e1b8c48d5f9b72bd449e92a3d14a0ca"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/selected_checkpoint.tsv": {
+      "size": 369,
+      "sha256": "dbeeeed5e4584c5a80820cd0334ce2f1c4e15f0d7704192d97b5d550a1733d33"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L08/single_edit/results.json": {
+      "size": 1145290,
+      "sha256": "0d1cd6534ef71c7f8de9b4ae57322604799fef91a7bf72614fc4927e9f0d8525"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L08/single_edit/mean_results.json": {
+      "size": 400,
+      "sha256": "7730c6e875e538ec44de908ec084244a43da7ad9d9c7e01bebcdf04771ec63b0"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/loss_history.csv": {
+      "size": 4164,
+      "sha256": "65f7908d1a96c79aae60026189c4ab6d51ec8f759a1122409836ea0e6968710e"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/records/vead/paligemma-3b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/config.yaml": {
+      "size": 451,
+      "sha256": "b10d6b349aa13c13cc28f24e86719f17e3b7b90b738c42d5377e6bdbcdd215cb"
+    }
+  },
+  "evaluation": {
+    "layer": 8,
+    "status": "EVAL_DONE",
+    "eval_samples": 293,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/records/vead/paligemma-3b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-13-i-1391-ema_loss-0.5874",
+    "ckpt_epoch": "13",
+    "ckpt_i": "1391",
+    "ckpt_loss": "0.4983053207397461",
+    "ckpt_ema_loss": "0.5874100363908694",
+    "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L08/single_edit",
+    "Rel": 96.89999999999999,
+    "T-Gen": 96.93,
+    "M-Gen": 96.43,
+    "T-Loc": 100.0,
+    "M-Loc": 94.33,
+    "Average": 96.91799999999999
+  },
+  "selected": {
+    "layer": "8",
+    "status": "TRAIN_DONE_MANUAL_EPOCH13",
+    "epoch": "13",
+    "i": "1391",
+    "loss": "0.4983053207397461",
+    "ema_loss": "0.5874100363908694",
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/records/vead/paligemma-3b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-13-i-1391-ema_loss-0.5874"
+  },
+  "checkpoint": {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/records/vead/paligemma-3b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-13-i-1391-ema_loss-0.5874",
+    "exists": true,
+    "size": 214299066
+  },
+  "results_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L08/single_edit/results.json",
+  "results_count": 293,
+  "recomputed_metrics": {
+    "Rel": 96.9,
+    "T-Gen": 96.93,
+    "M-Gen": 96.43,
+    "T-Loc": 100.0,
+    "M-Loc": 94.33
+  },
+  "mean_results": {
+    "reliability": {
+      "edit_time": 0.0254,
+      "acc": 0.969
+    },
+    "generality": {
+      "text_rephrase": {
+        "acc": 0.9693
+      },
+      "image_rephrase": {
+        "acc": 0.9643
+      }
+    },
+    "locality": {
+      "text_loc": {
+        "acc": 1.0
+      },
+      "image_loc": {
+        "acc": 0.9433
+      }
+    },
+    "sample_count": 293
+  },
+  "mean_results_text": "{\n    \"reliability\": {\n        \"edit_time\": 0.0254,\n        \"acc\": 0.969\n    },\n    \"generality\": {\n        \"text_rephrase\": {\n            \"acc\": 0.9693\n        },\n        \"image_rephrase\": {\n            \"acc\": 0.9643\n        }\n    },\n    \"locality\": {\n        \"text_loc\": {\n            \"acc\": 1.0\n        },\n        \"image_loc\": {\n            \"acc\": 0.9433\n        }\n    },\n    \"sample_count\": 293\n}",
+  "train_done": false,
+  "history_rows": 13,
+  "max_epoch": 13,
+  "all_50_epochs_present": false,
+  "minimum_ema_row": {
+    "time": "2026-07-13 14:44:47",
+    "layer": "8",
+    "epoch": "13",
+    "i": "1391",
+    "loss": "0.4983053207397461",
+    "ema_loss": "0.5874100363908694",
+    "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_top3_union_20260713_1120/paligemma-3b/layer_08/records/vead/paligemma-3b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-13-i-1391-ema_loss-0.5874",
+    "kept": "1"
+  },
+  "minimum_ema_matches": true,
+  "model_config_text": "IT:\n  add_it: true\n  layers:\n  - 13\n  - 14\n  - 15\n  - 16\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 8\nedit_model_name: paligemma-3b\nllm_att_tmp: language_model.model.layers.{}.self_attn\nllm_hidden_size: 2048\nllm_layer_tmp: language_model.model.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 1.0e-05\n  rel_lambda: 1\n",
+  "evaluation_verified": true
+}

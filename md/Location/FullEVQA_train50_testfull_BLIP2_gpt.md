@@ -353,6 +353,43 @@ loss_history_all_layers.csv
 - [ ] 确认所有训练结束后再统一评测。
 - [ ] 确认结果回填到本文件，不写回原始总手册。
 
+---
 
+## 12. L19/L17/L18 full E-VQA 补评与汇总结果
+
+更新时间：2026-06-12。
+
+远端输出目录：
+
+```text
+/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_fullevqa_train50_testfull_L19_L17_L18_20260604_234559
+```
+
+说明：
+- L19 是此前已完成的 full E-VQA 评测结果。
+- L17、L18 于 2026-06-12 补跑 full E-VQA eval/test 评测。
+- 评测数据为 full `vqa_eval.json`，共 `2093` 个样本。
+- checkpoint 选择规则为每层 minimum EMA loss。
+- `full_eval_results.csv` 已重新聚合为 L17/L18/L19 三行；同时保留备份 `full_eval_results_L17_L18_L19_combined.csv`。
+
+### 12.1 Selected Checkpoints
+
+| Layer | ckpt | epoch | step | raw loss | EMA loss | 判断 |
+|---:|---|---:|---:|---:|---:|---|
+| L17 | `epoch-46-i-145958-ema_loss-0.3239` | 46 | 145958 | 0.384464 | 0.323929 | done |
+| L18 | `epoch-50-i-158650-ema_loss-0.3016` | 50 | 158650 | 0.261427 | 0.301585 | done |
+| L19 | `epoch-49-i-155477-ema_loss-0.3477` | 49 | 155477 | 0.385825 | 0.347696 | done |
+
+### 12.2 Full E-VQA Evaluation
+
+| Layer | ckpt epoch | EMA loss | Rel | T-Gen | M-Gen | T-Loc | M-Loc | Average | Paper Average | Delta |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| L17 | 46 | 0.323929 | 97.87 | 97.36 | 97.77 | 100.00 | 90.62 | 96.72 |  |  |
+| L18 | 50 | 0.301585 | 97.86 | 97.44 | 97.76 | 100.00 | 92.72 | 97.16 |  |  |
+| L19 | 49 | 0.347696 | 97.38 | 96.85 | 97.41 | 100.00 | 89.16 | 96.16 | 97.53 | -1.37 |
+
+### 12.3 当前结论
+
+当前已完成的 full E-VQA train50 层中，`L18` 的 Average 最高，为 `97.16`；`L17` 为 `96.72`，`L19` 为 `96.16`。三层整体都接近 VisEdit 论文中 BLIP2 L19 的 full-train 结果，但本次 train50 复现里 L18 暂时优于 L19。
 
 

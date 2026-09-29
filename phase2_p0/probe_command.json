@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+    "-u",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/phase2_p0/probe_single_sample.py",
+    "--project-root",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main",
+    "--data",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_eval_evqa_compat.json",
+    "--image-root",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+    "--layer",
+    "0",
+    "--checkpoint",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/blip2-opt-2.7b/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-24-i-7632-ema_loss-6.1242",
+    "--device",
+    "cuda:0"
+  ],
+  "job_id": "3178538"
+}

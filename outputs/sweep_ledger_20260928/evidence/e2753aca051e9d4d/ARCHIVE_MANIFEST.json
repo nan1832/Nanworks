@@ -1,0 +1,113 @@
+{
+  "time": "2026-09-15T08:56:32.260082+08:00",
+  "source_node": "g08",
+  "actual_job": 3178538,
+  "historical_queue_role": "job3150065",
+  "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25",
+  "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25",
+  "selected_sha256": "1d68657620140b5c3c4ecf3cdf618b9b23d7b6d5b1a170ec902ab52554743871",
+  "eval_samples": 2093,
+  "current_config_snapshot_warning": "snapshot_run_config.json belongs to active L0 invocation; L25 saved config is inside records and original L25 train/eval logs retained",
+  "files": [
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25/loss_history.csv",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/loss_history.csv",
+      "source_sha256": "101fd57961d1ee57fa4b26e33c155b13ff5a679fd7d99fc724cc0f74912cfa9c",
+      "destination_sha256": "9dbe10cd1943c075e4e732d89035e9b951c1cb69b636aa2026a0c046ee204e1e",
+      "source_bytes": 13844,
+      "destination_bytes": 16093,
+      "rewritten_layer_prefix": true
+    },
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25/selected_checkpoint.tsv",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/selected_checkpoint.tsv",
+      "source_sha256": "a8bc6e31322a71d5c7746096670aba22a9c3752396290da1d1c4021ba6d35aab",
+      "destination_sha256": "af68346688bf3393c3d46cae9d53b4eeb879330383d72fca69804faef4938737",
+      "source_bytes": 315,
+      "destination_bytes": 359,
+      "rewritten_layer_prefix": true
+    },
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25/train.done",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/train.done",
+      "source_sha256": "9c95fccda89fb0f4ec1f4f63aae12cb3ac96ec70d12cc8b6302747cfab28ea33",
+      "destination_sha256": "31778807d70f22f7cc5d0de9c5c893e66a5f4dd21f01c7e2ab3677a487389b4f",
+      "source_bytes": 361,
+      "destination_bytes": 407,
+      "rewritten_layer_prefix": true
+    },
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25/eval_full.done",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/eval_full.done",
+      "source_sha256": "131f367b6fa845c4dc4bdbeb1a5adfccc4ba3a97620d3d83a41254547f562349",
+      "destination_sha256": "b24df136a31478a1fb71524bb13135a54516d53069ec7df8de6b784eef986976",
+      "source_bytes": 716,
+      "destination_bytes": 808,
+      "rewritten_layer_prefix": true
+    },
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L25-lr-1-t-1-v-1/config.yaml",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L25-lr-1-t-1-v-1/config.yaml",
+      "source_sha256": "d26a5caf73e3cd2d623f6eb1439163f476ebdc14ede9c7981b38c11eda861fb5",
+      "destination_sha256": "d26a5caf73e3cd2d623f6eb1439163f476ebdc14ede9c7981b38c11eda861fb5",
+      "source_bytes": 508,
+      "destination_bytes": 508,
+      "rewritten_layer_prefix": false
+    },
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L25-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.3292",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L25-lr-1-t-1-v-1/checkpoints/epoch-50-i-12500-ema_loss-0.3292",
+      "source_sha256": "1d68657620140b5c3c4ecf3cdf618b9b23d7b6d5b1a170ec902ab52554743871",
+      "destination_sha256": "1d68657620140b5c3c4ecf3cdf618b9b23d7b6d5b1a170ec902ab52554743871",
+      "source_bytes": 415896102,
+      "destination_bytes": 415896102,
+      "rewritten_layer_prefix": false
+    },
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L25-lr-1-t-1-v-1/logs/events.out.tfevents.1788669385.g08.2908345.0",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L25-lr-1-t-1-v-1/logs/events.out.tfevents.1788669385.g08.2908345.0",
+      "source_sha256": "4fed60a18e6c4fc064e404f8b81e160222fe2c2c3e50deb3acb928d3879659ec",
+      "destination_sha256": "4fed60a18e6c4fc064e404f8b81e160222fe2c2c3e50deb3acb928d3879659ec",
+      "source_bytes": 227564,
+      "destination_bytes": 227564,
+      "rewritten_layer_prefix": false
+    },
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L25/single_edit/results.json",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L25/single_edit/results.json",
+      "source_sha256": "aec529fb49e26c5d08b9b362a9b80e63f3ee561a61c1968e35271370411a71b8",
+      "destination_sha256": "aec529fb49e26c5d08b9b362a9b80e63f3ee561a61c1968e35271370411a71b8",
+      "source_bytes": 4869081,
+      "destination_bytes": 4869081,
+      "rewritten_layer_prefix": false
+    },
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L25/single_edit/mean_results.json",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L25/single_edit/mean_results.json",
+      "source_sha256": "962979e1ba14d349865d1e22fef534ae85ef00191eb9194fd04f88cca366d5a5",
+      "destination_sha256": "962979e1ba14d349865d1e22fef534ae85ef00191eb9194fd04f88cca366d5a5",
+      "source_bytes": 401,
+      "destination_bytes": 401,
+      "rewritten_layer_prefix": false
+    },
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/logs/evqa-pilot500_llava-v1.5-7b_L25_eval_20260906_121304.log",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/provenance/logs/evqa-pilot500_llava-v1.5-7b_L25_eval_20260906_121304.log",
+      "source_sha256": "ce5fff9118b8e80b757f44f0019f8daa53498e81811e22a3ec70c88160ee3f1f",
+      "destination_sha256": "ce5fff9118b8e80b757f44f0019f8daa53498e81811e22a3ec70c88160ee3f1f",
+      "source_bytes": 248529,
+      "destination_bytes": 248529,
+      "rewritten_layer_prefix": false
+    },
+    {
+      "source": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/logs/evqa-pilot500_llava-v1.5-7b_L25_train_20260906_121304.log",
+      "destination": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25/provenance/logs/evqa-pilot500_llava-v1.5-7b_L25_train_20260906_121304.log",
+      "source_sha256": "94f11d9e824c3e509e151596ebc74eacba742f0e4332c2a0fb545b4ce398f5eb",
+      "destination_sha256": "94f11d9e824c3e509e151596ebc74eacba742f0e4332c2a0fb545b4ce398f5eb",
+      "source_bytes": 951541,
+      "destination_bytes": 951541,
+      "rewritten_layer_prefix": false
+    }
+  ],
+  "cache_policy": "cache/layer_25 reproducible cache excluded from durable archive; authorized cleanup after verification"
+}

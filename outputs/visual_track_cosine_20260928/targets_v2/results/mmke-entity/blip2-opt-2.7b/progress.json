@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "dataset": "mmke-entity",
+  "model": "blip2-opt-2.7b",
+  "processed": 636,
+  "total": 636,
+  "failures": 0,
+  "elapsed_seconds": 608.7110738754272,
+  "job_id": "3443209"
+}

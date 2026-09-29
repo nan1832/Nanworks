@@ -1,0 +1,22 @@
+edit_model_name: "blip2-opt-2.7b"
+llm_hidden_size: 2560
+adaptor_mid_dim: 1024
+adaptor_cross_att_head_n: 8
+llm_layer_tmp: "language_model.model.decoder.layers.{}"
+llm_att_tmp: "language_model.model.decoder.layers.{}.self_attn"
+edit_layers: []
+edit_text_layers: [16]
+train_cfg:
+  lr: 1.0e-4
+  rel_lambda: 1.0
+  gen_lambda: 1.0
+  loc_lambda: 1.0
+  inf_mapper_lambda: 0.0
+IT:
+  add_it: false
+  layers: []
+  test_n: 1
+  noise_level: 0.0
+  window: 0
+  vt_sample_n: 1
+  mid_dim: 1024

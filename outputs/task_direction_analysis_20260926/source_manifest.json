@@ -1,0 +1,122 @@
+[
+  {
+    "name": "evqa-pilot500_data.json",
+    "bytes": 267506,
+    "sha256": "eccfac030f47ea7cb4b5f6e0312df4bd557229974e09f0ad83bef4f742152b9b"
+  },
+  {
+    "name": "evqa-pilot500__blip2-opt-2.7b.json",
+    "bytes": 246086,
+    "sha256": "7e8014a8b9a22c68065b5565f03cc2bc2464db36632c1bfc7cfcc65758878f63"
+  },
+  {
+    "name": "evqa-pilot500__instructblip-vicuna-7b.json",
+    "bytes": 233313,
+    "sha256": "4969a81597dcdd4eef524a8e13be18bb364c906316604d636b36a1695f19b8c3"
+  },
+  {
+    "name": "evqa-pilot500__minigpt-4-vicuna-7b.json",
+    "bytes": 336903,
+    "sha256": "7c59d0d789456a469416ccf2f4db8114ef8028f19460ad799646a1a379709db0"
+  },
+  {
+    "name": "evqa-pilot500__llava-v1.5-7b.json",
+    "bytes": 242167,
+    "sha256": "893f08d91145a56497e12ac556c8a9d677b4e0b1d71da7a7f604bc8d3925e997"
+  },
+  {
+    "name": "evqa-pilot500__qwen2.5-vl-3b.json",
+    "bytes": 301206,
+    "sha256": "3260c8ab84f8f201ca6c7e3b56ee63dd6d51fc838658fd10ffbebf7dd05251ca"
+  },
+  {
+    "name": "evqa-pilot500__paligemma-3b.json",
+    "bytes": 213556,
+    "sha256": "cfd872fb4bdb1fc3bf57d58c5dc1b8151e5cee4e24f6f51d839df7060dcf395a"
+  },
+  {
+    "name": "evqa-pilot500__smolvlm-1.7b.json",
+    "bytes": 223248,
+    "sha256": "ee7beb6aa0122e9ca32ba8e39d42dbba1402329420df86175493f68c40edeaa2"
+  },
+  {
+    "name": "mmke-visual_data.json",
+    "bytes": 195442,
+    "sha256": "2ab0590d7eb7cf8201b1fe5c7931ed3980be1bc6e36a6f603cb0bf231903172d"
+  },
+  {
+    "name": "mmke-visual__blip2-opt-2.7b.json",
+    "bytes": 170296,
+    "sha256": "6a13ef513b3b758ce0b50e6ca40188d3f1fde9eae3530eb93bf5de7e01203722"
+  },
+  {
+    "name": "mmke-visual__instructblip-vicuna-7b.json",
+    "bytes": 170054,
+    "sha256": "481edb09c1fc10c7692675e2ae345903933aabd3ef97befded1ef673592f5040"
+  },
+  {
+    "name": "mmke-visual__minigpt-4-vicuna-7b.json",
+    "bytes": 227478,
+    "sha256": "802ef0f4f57346f52f11cd144fda8341cee596348882939be6f6704c0c7ecdfb"
+  },
+  {
+    "name": "mmke-visual__llava-v1.5-7b.json",
+    "bytes": 192664,
+    "sha256": "2abc4889b2ba02384254e10690e08edbc3b853624aceaf846bc0c4426fe0b849"
+  },
+  {
+    "name": "mmke-visual__qwen2.5-vl-3b.json",
+    "bytes": 217772,
+    "sha256": "3b967792be9cd6f57a49e0b4b48a6254039dd3d599782a153ba1381c163fa0bd"
+  },
+  {
+    "name": "mmke-visual__paligemma-3b.json",
+    "bytes": 162382,
+    "sha256": "b02481b1f1b87238154e3fe6f26102423f42ab3a30dbddf78201183cb1388c31"
+  },
+  {
+    "name": "mmke-visual__smolvlm-1.7b.json",
+    "bytes": 177251,
+    "sha256": "1467e2f9caf90f93d92af1d1382c3535629d19f25c40dc9620376a921471e2c3"
+  },
+  {
+    "name": "mmke-entity_data.json",
+    "bytes": 1166451,
+    "sha256": "d4ec3af3e0a05983dff496de3eecda525dc594260e0eaedcc1d9061f2bcf4f69"
+  },
+  {
+    "name": "mmke-entity__blip2-opt-2.7b.json",
+    "bytes": 385990,
+    "sha256": "9d638219c27cbba59fb34a8da074b0bba455d34a1f3860dec5d7a5c3d4086575"
+  },
+  {
+    "name": "mmke-entity__instructblip-vicuna-7b.json",
+    "bytes": 600310,
+    "sha256": "9fd1139da6995d3b10320b1fbf764c180f74b7b2e508afc983e752ead439e596"
+  },
+  {
+    "name": "mmke-entity__minigpt-4-vicuna-7b.json",
+    "bytes": 750318,
+    "sha256": "a4c9e9bcb86e4c3a77551011ae0c9167e859d92afee0e180bc7d3d1131a31f4d"
+  },
+  {
+    "name": "mmke-entity__llava-v1.5-7b.json",
+    "bytes": 663647,
+    "sha256": "3cd1c881359798185cf0a60517e56578b726c04be228860400f06ff1380fd729"
+  },
+  {
+    "name": "mmke-entity__qwen2.5-vl-3b.json",
+    "bytes": 747926,
+    "sha256": "4defcffce7fdea9b8d6431ffa787e7554686a80b4300b4981fd257fa1bfbb6f8"
+  },
+  {
+    "name": "mmke-entity__paligemma-3b.json",
+    "bytes": 597810,
+    "sha256": "e830cb150c053186abda8d8461a3f328b6f66d28936a83c162287ece052ae33b"
+  },
+  {
+    "name": "mmke-entity__smolvlm-1.7b.json",
+    "bytes": 680632,
+    "sha256": "f40bfdd942eadf4d3b1e3940f02ef27d01b67cdae624ee1794d9b17518f824ff"
+  }
+]

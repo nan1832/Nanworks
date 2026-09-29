@@ -1,0 +1,24 @@
+{
+  "time": "2026-09-29T20:07:44.483756+08:00",
+  "state": "ARMED_AFTER_L8_EVALUATION",
+  "active_training_pid": 2512011,
+  "active_controller_pid": 2500705,
+  "active_processes_not_restarted": true,
+  "pending_entrypoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/control/g09/memory_eligible_20260928/eligible_queue.py",
+  "entrypoint_sha256": "b2af7e690ed842e080e561ea7af711b33ccc5d4e11314bc115abef30554c5f6d",
+  "plan_sha256": "a8d4484061eff17cf6cc781897777db3c5f42dfe3baae945829c993b29741c2e",
+  "old_76g_gate_overridden_at_runtime": true,
+  "measured_gate_available": false,
+  "sequence": [
+    "L8 train to 50 epochs",
+    "L8 full evaluation and verified archive",
+    "isolated L20 one-epoch memory probe",
+    "isolated L17 one-epoch memory probe",
+    "L20 formal 50-epoch train/eval",
+    "L17 formal 50-epoch train/eval"
+  ],
+  "margin_mib": 2048,
+  "calibration_only_allocator_headroom_mib": 3072,
+  "probe_failure": "record and stop; no automatic retry or guessed threshold",
+  "formal_training_parameters_unchanged": true
+}

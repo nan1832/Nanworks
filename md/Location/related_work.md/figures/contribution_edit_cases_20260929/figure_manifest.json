@@ -1,0 +1,1337 @@
+{
+  "report": "md/Location/related_work.md/贡献度归因与编辑效果不一致_案例分析_20260929.md",
+  "report_sha256": "6aa17d192d8ea256e04a99eb44334f3f6524ab8b174c0b05e1b4f4d12b4cd2fb",
+  "inputs": {
+    "ledger_sha256": "1fca9b575451ac101dccab12ff44c3cb59dba93d94dedeb429d7f297e340c71a",
+    "analysis_sha256": "1ddc7c669f63e9cb8b0f50207d5274bd176cc044941d590a2dbb35963e6e0f50",
+    "alignment_sha256": "4ca185eb62a2f8392b250ec8de27d7ab27c782e2177f1d7355b9250cadeb6e4d"
+  },
+  "count": 10,
+  "matplotlib_version": "3.11.2",
+  "font": "Microsoft YaHei",
+  "figures": [
+    {
+      "id": "fig01_minigpt4_evqa_alt",
+      "number": 1,
+      "title": "MiniGPT4 × E-VQA",
+      "ds": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "ref": 15,
+      "panels": [
+        [
+          "alt",
+          "attn",
+          31
+        ],
+        [
+          "alt",
+          "mlp",
+          30
+        ],
+        [
+          "alt",
+          "attn+mlp",
+          28
+        ]
+      ],
+      "heading": "## 2. 主案例：",
+      "note": "L31 的 EMA loss=10.223，存在高损失；L30/L28 分别为 0.481/0.349。三种峰值都弱于 L15，但不能据此认定所有归因方法无效。",
+      "comparisons": [
+        {
+          "target": "alt",
+          "module": "attn",
+          "high_layer": 31,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 23,
+          "high_contribution": 0.14222987617924573,
+          "ref_contribution": 0.0006006543409316371,
+          "deltas": {
+            "Rel": 25.659999999999997,
+            "T-Gen": 22.26,
+            "M-Gen": 21.52,
+            "Average": 9.396000000000008
+          }
+        },
+        {
+          "target": "alt",
+          "module": "mlp",
+          "high_layer": 30,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 8,
+          "high_contribution": 0.08111695796941767,
+          "ref_contribution": 0.001957600657495101,
+          "deltas": {
+            "Rel": 7.979999999999997,
+            "T-Gen": 7.630000000000003,
+            "M-Gen": 7.480000000000004,
+            "Average": 6.228000000000009
+          }
+        },
+        {
+          "target": "alt",
+          "module": "attn+mlp",
+          "high_layer": 28,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 19,
+          "high_contribution": 0.19728192314507176,
+          "ref_contribution": 0.0025582549984267382,
+          "deltas": {
+            "Rel": 10.119999999999997,
+            "T-Gen": 9.770000000000003,
+            "M-Gen": 9.600000000000001,
+            "Average": 5.7080000000000055
+          }
+        }
+      ],
+      "outputs": {
+        "png": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig01_minigpt4_evqa_alt.png",
+        "pdf": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig01_minigpt4_evqa_alt.pdf",
+        "svg": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig01_minigpt4_evqa_alt.svg",
+        "preview": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig01_minigpt4_evqa_alt_preview.png"
+      },
+      "sha256": {
+        "png": "9c2c02bc74cf536d5e040dd0e32247ea80ce5ad8b99cd6c55850d4bad4dded96",
+        "pdf": "3336de8b2e5e5830eb8542fb381a291810757af088a5d409c75f08f7b12a3c1e",
+        "svg": "c63424373cb5b16f5eb98b2a0b9b446dcf6db43bd83f95297c1de2ad24b38978",
+        "preview": "ab5b4ad9e83ebea3f5872ac163c5fda493e9c47f15a372d348fa305972f9296e"
+      }
+    },
+    {
+      "id": "fig02_pre_vs_middle",
+      "number": 2,
+      "comparisons": [
+        {
+          "label": "MiniGPT4 · E-VQA",
+          "dataset": "evqa-pilot500",
+          "model": "minigpt-4-vicuna-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "top1",
+          "pre": 57.26800000000001,
+          "middle": 64.07000000000001,
+          "delta": 6.802,
+          "pre_layers": [
+            26,
+            25,
+            24
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "LLaVA · E-VQA",
+          "dataset": "evqa-pilot500",
+          "model": "llava-v1.5-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "top1",
+          "pre": 60.85,
+          "middle": 60.629999999999995,
+          "delta": -0.22000000000000597,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "MiniGPT4 · MMKE-visual",
+          "dataset": "mmke-visual",
+          "model": "minigpt-4-vicuna-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "top1",
+          "pre": 73.93,
+          "middle": 75.872,
+          "delta": 1.941999999999993,
+          "pre_layers": [
+            26,
+            25,
+            24
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "LLaVA · MMKE-visual",
+          "dataset": "mmke-visual",
+          "model": "llava-v1.5-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "top1",
+          "pre": 73.526,
+          "middle": 75.752,
+          "delta": 2.225999999999999,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "LLaVA · MMKE-entity",
+          "dataset": "mmke-entity",
+          "model": "llava-v1.5-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "top1",
+          "pre": 74.74199999999999,
+          "middle": 75.738,
+          "delta": 0.9960000000000093,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "InstructBLIP · MMKE-entity",
+          "dataset": "mmke-entity",
+          "model": "instructblip-vicuna-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "top1",
+          "pre": 46.874,
+          "middle": 48.844,
+          "delta": 1.9699999999999989,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "BLIP2 · E-VQA *",
+          "dataset": "evqa-pilot500",
+          "model": "blip2-opt-2.7b",
+          "target": "model_pred",
+          "module": "attn+mlp",
+          "measure": "top1",
+          "pre": 71.334,
+          "middle": 73.038,
+          "delta": 1.7039999999999935,
+          "pre_layers": [
+            21,
+            20,
+            19
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "SmolVLM · E-VQA *",
+          "dataset": "evqa-pilot500",
+          "model": "smolvlm-1.7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "top1",
+          "pre": 58.848,
+          "middle": 67.24,
+          "delta": 8.391999999999996,
+          "pre_layers": [
+            17,
+            16,
+            15
+          ],
+          "middle_layers": [
+            11,
+            12,
+            10
+          ]
+        },
+        {
+          "label": "MiniGPT4 · E-VQA",
+          "dataset": "evqa-pilot500",
+          "model": "minigpt-4-vicuna-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "best3",
+          "pre": 58.465999999999994,
+          "middle": 64.938,
+          "delta": 6.472000000000008,
+          "pre_layers": [
+            26,
+            25,
+            24
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "LLaVA · E-VQA",
+          "dataset": "evqa-pilot500",
+          "model": "llava-v1.5-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "best3",
+          "pre": 62.988,
+          "middle": 64.91799999999999,
+          "delta": 1.9299999999999926,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "MiniGPT4 · MMKE-visual",
+          "dataset": "mmke-visual",
+          "model": "minigpt-4-vicuna-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "best3",
+          "pre": 74.322,
+          "middle": 76.346,
+          "delta": 2.024000000000001,
+          "pre_layers": [
+            26,
+            25,
+            24
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "LLaVA · MMKE-visual",
+          "dataset": "mmke-visual",
+          "model": "llava-v1.5-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "best3",
+          "pre": 74.396,
+          "middle": 76.514,
+          "delta": 2.117999999999995,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "LLaVA · MMKE-entity",
+          "dataset": "mmke-entity",
+          "model": "llava-v1.5-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "best3",
+          "pre": 75.148,
+          "middle": 76.03399999999999,
+          "delta": 0.8859999999999957,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "InstructBLIP · MMKE-entity",
+          "dataset": "mmke-entity",
+          "model": "instructblip-vicuna-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "best3",
+          "pre": 47.51800000000001,
+          "middle": 48.844,
+          "delta": 1.3259999999999934,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "BLIP2 · E-VQA *",
+          "dataset": "evqa-pilot500",
+          "model": "blip2-opt-2.7b",
+          "target": "model_pred",
+          "module": "attn+mlp",
+          "measure": "best3",
+          "pre": 74.852,
+          "middle": 75.192,
+          "delta": 0.3399999999999892,
+          "pre_layers": [
+            21,
+            20,
+            19
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "SmolVLM · E-VQA *",
+          "dataset": "evqa-pilot500",
+          "model": "smolvlm-1.7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "best3",
+          "pre": 59.739999999999995,
+          "middle": 69.81,
+          "delta": 10.070000000000007,
+          "pre_layers": [
+            17,
+            16,
+            15
+          ],
+          "middle_layers": [
+            11,
+            12,
+            10
+          ]
+        },
+        {
+          "label": "MiniGPT4 · E-VQA",
+          "dataset": "evqa-pilot500",
+          "model": "minigpt-4-vicuna-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "mean3",
+          "pre": 57.812000000000005,
+          "middle": 64.14666666666666,
+          "delta": 6.3346666666666565,
+          "pre_layers": [
+            26,
+            25,
+            24
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "LLaVA · E-VQA",
+          "dataset": "evqa-pilot500",
+          "model": "llava-v1.5-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "mean3",
+          "pre": 62.092000000000006,
+          "middle": 61.714666666666666,
+          "delta": -0.37733333333333974,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "MiniGPT4 · MMKE-visual",
+          "dataset": "mmke-visual",
+          "model": "minigpt-4-vicuna-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "mean3",
+          "pre": 74.16933333333334,
+          "middle": 76.10533333333333,
+          "delta": 1.9359999999999928,
+          "pre_layers": [
+            26,
+            25,
+            24
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "LLaVA · MMKE-visual",
+          "dataset": "mmke-visual",
+          "model": "llava-v1.5-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "mean3",
+          "pre": 73.782,
+          "middle": 76.00200000000001,
+          "delta": 2.220000000000013,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "LLaVA · MMKE-entity",
+          "dataset": "mmke-entity",
+          "model": "llava-v1.5-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "mean3",
+          "pre": 75.01133333333333,
+          "middle": 75.92733333333332,
+          "delta": 0.9159999999999968,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "InstructBLIP · MMKE-entity",
+          "dataset": "mmke-entity",
+          "model": "instructblip-vicuna-7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "mean3",
+          "pre": 47.112,
+          "middle": 48.734,
+          "delta": 1.6219999999999999,
+          "pre_layers": [
+            28,
+            27,
+            26
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "BLIP2 · E-VQA *",
+          "dataset": "evqa-pilot500",
+          "model": "blip2-opt-2.7b",
+          "target": "model_pred",
+          "module": "attn+mlp",
+          "measure": "mean3",
+          "pre": 73.02333333333333,
+          "middle": 74.00866666666667,
+          "delta": 0.9853333333333438,
+          "pre_layers": [
+            21,
+            20,
+            19
+          ],
+          "middle_layers": [
+            15,
+            16,
+            14
+          ]
+        },
+        {
+          "label": "SmolVLM · E-VQA *",
+          "dataset": "evqa-pilot500",
+          "model": "smolvlm-1.7b",
+          "target": "alt",
+          "module": "attn+mlp",
+          "measure": "mean3",
+          "pre": 59.161333333333324,
+          "middle": 66.32600000000001,
+          "delta": 7.164666666666683,
+          "pre_layers": [
+            17,
+            16,
+            15
+          ],
+          "middle_layers": [
+            11,
+            12,
+            10
+          ]
+        }
+      ],
+      "outputs": {
+        "png": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig02_pre_vs_middle.png",
+        "pdf": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig02_pre_vs_middle.pdf",
+        "svg": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig02_pre_vs_middle.svg",
+        "preview": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig02_pre_vs_middle_preview.png"
+      },
+      "sha256": {
+        "png": "7340e6616c6f3f0bd52f941ee030db8950735efd8aeb74464266c8c15174e129",
+        "pdf": "94f3cc903e872f19a408cce989e4e5c148c0e94348db6e4b40f3c86bd27cb208",
+        "svg": "f3ffbf0a31efd4917e7c886dd1197cb4fbab862acbc809060ef9dbdfc3a6171e",
+        "preview": "5f6fff415bc38cce9976aad6d2e417e01d1478aae608d13927493c9b9b5e3457"
+      }
+    },
+    {
+      "id": "fig03_minigpt4_evqa_nexttoken",
+      "number": 3,
+      "title": "MiniGPT4 × E-VQA · 首预测位置对照",
+      "ds": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "ref": 15,
+      "panels": [
+        [
+          "model_pred",
+          "attn",
+          26
+        ],
+        [
+          "model_pred",
+          "mlp",
+          30
+        ],
+        [
+          "model_pred",
+          "attn+mlp",
+          26
+        ]
+      ],
+      "heading": "## 4. 补充反例：",
+      "note": "首预测位置是原始图文输入末位的 next-token argmax，不是完整旧答案归因。L26/L30 的 EMA loss 为 0.374/0.481。",
+      "comparisons": [
+        {
+          "target": "model_pred",
+          "module": "attn",
+          "high_layer": 26,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 15,
+          "high_contribution": 0.26936912272878516,
+          "ref_contribution": 0.007502469852981511,
+          "deltas": {
+            "Rel": 10.21,
+            "T-Gen": 12.060000000000002,
+            "M-Gen": 10.170000000000002,
+            "Average": 6.802
+          }
+        },
+        {
+          "target": "model_pred",
+          "module": "mlp",
+          "high_layer": 30,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 12,
+          "high_contribution": 0.11255802864053377,
+          "ref_contribution": 0.010156242651360444,
+          "deltas": {
+            "Rel": 7.979999999999997,
+            "T-Gen": 7.630000000000003,
+            "M-Gen": 7.480000000000004,
+            "Average": 6.228000000000009
+          }
+        },
+        {
+          "target": "model_pred",
+          "module": "attn+mlp",
+          "high_layer": 26,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 15,
+          "high_contribution": 0.2737856278874452,
+          "ref_contribution": 0.017658712504341957,
+          "deltas": {
+            "Rel": 10.21,
+            "T-Gen": 12.060000000000002,
+            "M-Gen": 10.170000000000002,
+            "Average": 6.802
+          }
+        }
+      ],
+      "outputs": {
+        "png": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig03_minigpt4_evqa_nexttoken.png",
+        "pdf": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig03_minigpt4_evqa_nexttoken.pdf",
+        "svg": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig03_minigpt4_evqa_nexttoken.svg",
+        "preview": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig03_minigpt4_evqa_nexttoken_preview.png"
+      },
+      "sha256": {
+        "png": "2f64e9ded9125acf6cf3c26215a6944113847145433ed4473b47588b433ae1dc",
+        "pdf": "2ca1a185a3e0951f9fc6c72574e83019ff906b316b3fe53cc50ebb9895c4c893",
+        "svg": "0599b3218b3ba688a48808f4b83d497466c15952d91a33284928c8439632a843",
+        "preview": "3742bda017a23e3024e3edde50266cde5077eeadc0e7a541c31d2c6b73962052"
+      }
+    },
+    {
+      "id": "fig04_llava_evqa_alt",
+      "number": 4,
+      "title": "LLaVA × E-VQA",
+      "ds": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "ref": 15,
+      "panels": [
+        [
+          "alt",
+          "mlp",
+          30
+        ],
+        [
+          "alt",
+          "attn+mlp",
+          30
+        ]
+      ],
+      "heading": "## 5. 跨模型补充与边界：",
+      "note": "MLP 与联合贡献的全局峰值同为 L30，复用同一编辑结果。它们的峰值反例不等于实际 Pre 在所有指标上都失败。",
+      "comparisons": [
+        {
+          "target": "alt",
+          "module": "mlp",
+          "high_layer": 30,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 26,
+          "high_contribution": 0.44889552651752834,
+          "ref_contribution": 9.245436651685299e-05,
+          "deltas": {
+            "Rel": 2.5899999999999963,
+            "T-Gen": 1.1299999999999955,
+            "M-Gen": 4.930000000000007,
+            "Average": 3.386000000000003
+          }
+        },
+        {
+          "target": "alt",
+          "module": "attn+mlp",
+          "high_layer": 30,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 27,
+          "high_contribution": 0.4717312566017406,
+          "ref_contribution": 0.00039742302373042826,
+          "deltas": {
+            "Rel": 2.5899999999999963,
+            "T-Gen": 1.1299999999999955,
+            "M-Gen": 4.930000000000007,
+            "Average": 3.386000000000003
+          }
+        }
+      ],
+      "outputs": {
+        "png": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig04_llava_evqa_alt.png",
+        "pdf": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig04_llava_evqa_alt.pdf",
+        "svg": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig04_llava_evqa_alt.svg",
+        "preview": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig04_llava_evqa_alt_preview.png"
+      },
+      "sha256": {
+        "png": "523c450f719ac3d73500ff657c808fdef01f645e5fabbb5255e6a171d9ed7db8",
+        "pdf": "e52ad68eb8d4d2360649188ba62db8878b3009b7b9c464f0674e8ab8653ae6ed",
+        "svg": "30f06a3d59602c08c1ee5a2ea7da748ec7ec24a8a77d033995d207f4b1e71d4c",
+        "preview": "854b7d29df91a67ae93abd075598caaf2230d7a5c6cec455b98908b0543371dc"
+      }
+    },
+    {
+      "id": "fig05_minigpt4_mmke_visual",
+      "number": 5,
+      "title": "MiniGPT4 × MMKE-visual",
+      "ds": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "ref": 15,
+      "panels": [
+        [
+          "alt",
+          "attn",
+          31
+        ],
+        [
+          "alt",
+          "mlp",
+          28
+        ],
+        [
+          "alt",
+          "attn+mlp",
+          28
+        ],
+        [
+          "model_pred",
+          "attn",
+          26
+        ]
+      ],
+      "heading": "### 6.1 ",
+      "note": "alt 为视觉语义 KeyToken。L31 高损失（EMA=7.305）；首预测位置 attn 的 L26 也构成反例，EMA=0.789。L28 T-Gen 沿用台账 57.92。",
+      "comparisons": [
+        {
+          "target": "alt",
+          "module": "attn",
+          "high_layer": 31,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 13,
+          "high_contribution": 0.02799316864159633,
+          "ref_contribution": 0.002479472860712454,
+          "deltas": {
+            "Rel": 13.18,
+            "T-Gen": 13.64,
+            "M-Gen": 13.120000000000005,
+            "Average": 7.716000000000008
+          }
+        },
+        {
+          "target": "alt",
+          "module": "mlp",
+          "high_layer": 28,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 11,
+          "high_contribution": 0.08905552240705931,
+          "ref_contribution": 0.002173733706457895,
+          "deltas": {
+            "Rel": 2.4299999999999997,
+            "T-Gen": 2.299999999999997,
+            "M-Gen": 2.259999999999998,
+            "Average": 1.4339999999999833
+          }
+        },
+        {
+          "target": "alt",
+          "module": "attn+mlp",
+          "high_layer": 28,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 12,
+          "high_contribution": 0.09266977757607789,
+          "ref_contribution": 0.004653206567170349,
+          "deltas": {
+            "Rel": 2.4299999999999997,
+            "T-Gen": 2.299999999999997,
+            "M-Gen": 2.259999999999998,
+            "Average": 1.4339999999999833
+          }
+        },
+        {
+          "target": "model_pred",
+          "module": "attn",
+          "high_layer": 26,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 20,
+          "high_contribution": 0.031217382918619852,
+          "ref_contribution": 0.00252646762273652,
+          "deltas": {
+            "Rel": 3.069999999999993,
+            "T-Gen": 3.25,
+            "M-Gen": 2.8100000000000023,
+            "Average": 1.941999999999993
+          }
+        }
+      ],
+      "outputs": {
+        "png": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig05_minigpt4_mmke_visual.png",
+        "pdf": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig05_minigpt4_mmke_visual.pdf",
+        "svg": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig05_minigpt4_mmke_visual.svg",
+        "preview": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig05_minigpt4_mmke_visual_preview.png"
+      },
+      "sha256": {
+        "png": "868670a40ab2e1db8dc4f6145101e6676a90aaa69d942bd2441eeeaa9c3bab9d",
+        "pdf": "e82dc8547b9fab32cca8d496a99fea1dba4cdbaa5bfb0f744a96f4f01f42c6aa",
+        "svg": "78c27d87b1fc3cc09755bd925d5346a66ee50df426a38a6cc256cf561274730b",
+        "preview": "988abc17c2350f9165b8a958d2753dea702ef28cc6449e7e11a03a809dcd5949"
+      }
+    },
+    {
+      "id": "fig06_llava_mmke_visual",
+      "number": 6,
+      "title": "LLaVA × MMKE-visual",
+      "ds": "mmke-visual",
+      "model": "llava-v1.5-7b",
+      "ref": 15,
+      "panels": [
+        [
+          "model_pred",
+          "attn",
+          28
+        ],
+        [
+          "alt",
+          "mlp",
+          28
+        ],
+        [
+          "alt",
+          "attn+mlp",
+          28
+        ]
+      ],
+      "heading": "### 6.2 ",
+      "note": "L28 分别是贡献第 2/4/5 名，均不是全局最高层。图示证明高贡献排序存在反例；三面板复用同一对层评测。",
+      "comparisons": [
+        {
+          "target": "model_pred",
+          "module": "attn",
+          "high_layer": 28,
+          "high_rank": 2,
+          "ref_layer": 15,
+          "ref_rank": 23,
+          "high_contribution": 0.14402748399616608,
+          "ref_contribution": 0.0011045737294975687,
+          "deltas": {
+            "Rel": 3.4399999999999977,
+            "T-Gen": 3.510000000000005,
+            "M-Gen": 2.9200000000000017,
+            "Average": 2.225999999999999
+          }
+        },
+        {
+          "target": "alt",
+          "module": "mlp",
+          "high_layer": 28,
+          "high_rank": 4,
+          "ref_layer": 15,
+          "ref_rank": 13,
+          "high_contribution": 0.007399503831978071,
+          "ref_contribution": 0.0005899077285565247,
+          "deltas": {
+            "Rel": 3.4399999999999977,
+            "T-Gen": 3.510000000000005,
+            "M-Gen": 2.9200000000000017,
+            "Average": 2.225999999999999
+          }
+        },
+        {
+          "target": "alt",
+          "module": "attn+mlp",
+          "high_layer": 28,
+          "high_rank": 5,
+          "ref_layer": 15,
+          "ref_rank": 16,
+          "high_contribution": 0.009433439711896082,
+          "ref_contribution": 0.0005899077285565247,
+          "deltas": {
+            "Rel": 3.4399999999999977,
+            "T-Gen": 3.510000000000005,
+            "M-Gen": 2.9200000000000017,
+            "Average": 2.225999999999999
+          }
+        }
+      ],
+      "outputs": {
+        "png": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig06_llava_mmke_visual.png",
+        "pdf": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig06_llava_mmke_visual.pdf",
+        "svg": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig06_llava_mmke_visual.svg",
+        "preview": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig06_llava_mmke_visual_preview.png"
+      },
+      "sha256": {
+        "png": "5e8d1dccf6f9239caaffac2f10fc9dff78132552da9b38330b7b0ea9730bdba2",
+        "pdf": "026f0444b4807bb93ec9a194f645eb406f75ac7a2f51dd02c6dbd9e2e60ce07b",
+        "svg": "8dc327e0af7c01c1bb6ca1de52b798e778cf49486876f1557d196eb785f9753f",
+        "preview": "a9ea750d769caf6a992bf85c157aa3493e386d4a330a92c442bd9b3d6f611210"
+      }
+    },
+    {
+      "id": "fig07_llava_mmke_entity",
+      "number": 7,
+      "title": "LLaVA × MMKE-entity",
+      "ds": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "ref": 15,
+      "panels": [
+        [
+          "model_pred",
+          "attn",
+          24
+        ],
+        [
+          "alt",
+          "mlp",
+          27
+        ],
+        [
+          "alt",
+          "attn+mlp",
+          27
+        ]
+      ],
+      "heading": "### 6.3 ",
+      "note": "alt 为实体 KeyToken。只有首预测位置 attn 的 L24 是全局峰值；Average 差距仅 0.344–0.590 个百分点，未作显著性断言。",
+      "comparisons": [
+        {
+          "target": "model_pred",
+          "module": "attn",
+          "high_layer": 24,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 29,
+          "high_contribution": 0.39656509174869553,
+          "ref_contribution": 0.0,
+          "deltas": {
+            "Rel": 1.019999999999996,
+            "T-Gen": 1.039999999999992,
+            "M-Gen": 0.9699999999999918,
+            "Average": 0.3439999999999941
+          }
+        },
+        {
+          "target": "alt",
+          "module": "mlp",
+          "high_layer": 27,
+          "high_rank": 4,
+          "ref_layer": 15,
+          "ref_rank": 15,
+          "high_contribution": 0.009099036519356462,
+          "ref_contribution": 0.00011430895295640712,
+          "deltas": {
+            "Rel": 1.0400000000000063,
+            "T-Gen": 1.1000000000000014,
+            "M-Gen": 1.009999999999998,
+            "Average": 0.5900000000000034
+          }
+        },
+        {
+          "target": "alt",
+          "module": "attn+mlp",
+          "high_layer": 27,
+          "high_rank": 5,
+          "ref_layer": 15,
+          "ref_rank": 22,
+          "high_contribution": 0.009111446381507687,
+          "ref_contribution": 0.00011430895295640712,
+          "deltas": {
+            "Rel": 1.0400000000000063,
+            "T-Gen": 1.1000000000000014,
+            "M-Gen": 1.009999999999998,
+            "Average": 0.5900000000000034
+          }
+        }
+      ],
+      "outputs": {
+        "png": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig07_llava_mmke_entity.png",
+        "pdf": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig07_llava_mmke_entity.pdf",
+        "svg": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig07_llava_mmke_entity.svg",
+        "preview": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig07_llava_mmke_entity_preview.png"
+      },
+      "sha256": {
+        "png": "5b291aba449e187d8bca5b8e5f7c1535f46c5cc4352a50ee80eec7be7cf34ac1",
+        "pdf": "670e353c73df37f68a66df1c8c12770ccca56fa4e695f5ad8edc900560923a3a",
+        "svg": "26d1afa29f88a701ff574f712ad4dcf3a1ad5202bf4930cb8e58a379e707b6b3",
+        "preview": "34e6db0b0bee42928d72b63d7b5b50a728fca7d23941d5d4c0c24b999f2c48eb"
+      }
+    },
+    {
+      "id": "fig08_instructblip_mmke_entity",
+      "number": 8,
+      "title": "InstructBLIP × MMKE-entity",
+      "ds": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "ref": 15,
+      "panels": [
+        [
+          "alt",
+          "attn",
+          30
+        ],
+        [
+          "alt",
+          "mlp",
+          30
+        ],
+        [
+          "alt",
+          "attn+mlp",
+          30
+        ]
+      ],
+      "heading": "### 6.4 ",
+      "note": "两层均有高损失：L30 EMA=14.489，L15 EMA=11.116。此例是既定配方下的补充现象，不能作为排除优化困难后的机制证据。",
+      "comparisons": [
+        {
+          "target": "alt",
+          "module": "attn",
+          "high_layer": 30,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 21,
+          "high_contribution": 0.011972562356035573,
+          "ref_contribution": 0.0006622143428406135,
+          "deltas": {
+            "Rel": 3.74,
+            "T-Gen": 4.309999999999999,
+            "M-Gen": 3.799999999999999,
+            "Average": 2.3599999999999994
+          }
+        },
+        {
+          "target": "alt",
+          "module": "mlp",
+          "high_layer": 30,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 18,
+          "high_contribution": 0.5577325369896854,
+          "ref_contribution": 0.0004787804896793241,
+          "deltas": {
+            "Rel": 3.74,
+            "T-Gen": 4.309999999999999,
+            "M-Gen": 3.799999999999999,
+            "Average": 2.3599999999999994
+          }
+        },
+        {
+          "target": "alt",
+          "module": "attn+mlp",
+          "high_layer": 30,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 26,
+          "high_contribution": 0.569705099345721,
+          "ref_contribution": 0.0011409948325199375,
+          "deltas": {
+            "Rel": 3.74,
+            "T-Gen": 4.309999999999999,
+            "M-Gen": 3.799999999999999,
+            "Average": 2.3599999999999994
+          }
+        }
+      ],
+      "outputs": {
+        "png": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig08_instructblip_mmke_entity.png",
+        "pdf": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig08_instructblip_mmke_entity.pdf",
+        "svg": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig08_instructblip_mmke_entity.svg",
+        "preview": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig08_instructblip_mmke_entity_preview.png"
+      },
+      "sha256": {
+        "png": "ecd4f73e5d27bca42f0dc789be091c0d7e418ddb4f7476917c7aff1709e23e07",
+        "pdf": "e2ea4349e5050a80c5fed517f6f833b7fe4eb1df2866a4d62bc1c3d2791825f3",
+        "svg": "a30b02eaebac76bb159fa73bcbd0c27b4a67c5eaa1de9163b2de33b1ba1719fe",
+        "preview": "37d388dbba6c824680f47a0205825b34c82b8e9387b1a9b55dfe5e80156ee756"
+      }
+    },
+    {
+      "id": "fig09_blip2_evqa_nexttoken",
+      "number": 9,
+      "title": "BLIP2 × E-VQA · 首预测位置对照",
+      "ds": "evqa-pilot500",
+      "model": "blip2-opt-2.7b",
+      "ref": 15,
+      "panels": [
+        [
+          "model_pred",
+          "attn",
+          29
+        ],
+        [
+          "model_pred",
+          "mlp",
+          25
+        ],
+        [
+          "model_pred",
+          "attn+mlp",
+          26
+        ]
+      ],
+      "heading": "### 6.5 ",
+      "note": "L29/L25/L26 的 EMA loss=0.414/0.232/0.364，L15=0.337；图中均为首预测位置贡献。直接选峰的差距不能冒充 Pre 的差距。",
+      "comparisons": [
+        {
+          "target": "model_pred",
+          "module": "attn",
+          "high_layer": 29,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 6,
+          "high_contribution": 0.12566174035935013,
+          "ref_contribution": 0.05953206590562937,
+          "deltas": {
+            "Rel": 38.779999999999994,
+            "T-Gen": 37.459999999999994,
+            "M-Gen": 36.260000000000005,
+            "Average": 22.601999999999997
+          }
+        },
+        {
+          "target": "model_pred",
+          "module": "mlp",
+          "high_layer": 25,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 17,
+          "high_contribution": 0.21456537468580542,
+          "ref_contribution": 0.021912338205475827,
+          "deltas": {
+            "Rel": 6.079999999999991,
+            "T-Gen": 6.400000000000006,
+            "M-Gen": 6.8799999999999955,
+            "Average": 2.254000000000005
+          }
+        },
+        {
+          "target": "model_pred",
+          "module": "attn+mlp",
+          "high_layer": 26,
+          "high_rank": 1,
+          "ref_layer": 15,
+          "ref_rank": 10,
+          "high_contribution": 0.3307764588993293,
+          "ref_contribution": 0.0814444041111052,
+          "deltas": {
+            "Rel": 28.739999999999995,
+            "T-Gen": 28.340000000000003,
+            "M-Gen": 25.42,
+            "Average": 15.496000000000002
+          }
+        }
+      ],
+      "outputs": {
+        "png": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig09_blip2_evqa_nexttoken.png",
+        "pdf": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig09_blip2_evqa_nexttoken.pdf",
+        "svg": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig09_blip2_evqa_nexttoken.svg",
+        "preview": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig09_blip2_evqa_nexttoken_preview.png"
+      },
+      "sha256": {
+        "png": "84c3edb78866844b854b2c1bd7b682567149754327393164c8c8dcdae145a059",
+        "pdf": "5ddfb956f33b0ecd70a9a1b0310314bbf1e2115f443ee45f17a875dcde98ea17",
+        "svg": "f83f072b00e2afbfdd00761888ab8b55e8458196d10140449ef9c8ae8e76319d",
+        "preview": "3567c5cad784b504cbb83a4797e72f144619b7ba6237c7e15ec18fc136dfd652"
+      }
+    },
+    {
+      "id": "fig10_smolvlm_evqa_alt",
+      "number": 10,
+      "title": "SmolVLM × E-VQA",
+      "ds": "evqa-pilot500",
+      "model": "smolvlm-1.7b",
+      "ref": 12,
+      "panels": [
+        [
+          "alt",
+          "attn",
+          22
+        ],
+        [
+          "alt",
+          "mlp",
+          19
+        ],
+        [
+          "alt",
+          "attn+mlp",
+          22
+        ]
+      ],
+      "heading": "### 6.6 ",
+      "note": "L12 是固定中层集合 [11,12,10] 的第二候选，不是 Middle Top-1。L22/L19/L12 的 EMA loss=0.488/0.381/0.402。",
+      "comparisons": [
+        {
+          "target": "alt",
+          "module": "attn",
+          "high_layer": 22,
+          "high_rank": 1,
+          "ref_layer": 12,
+          "ref_rank": 12,
+          "high_contribution": 0.20241291035327896,
+          "ref_contribution": 0.00033999912912571534,
+          "deltas": {
+            "Rel": 6.680000000000007,
+            "T-Gen": 5.369999999999997,
+            "M-Gen": 7.080000000000002,
+            "Average": 6.055999999999997
+          }
+        },
+        {
+          "target": "alt",
+          "module": "mlp",
+          "high_layer": 19,
+          "high_rank": 1,
+          "ref_layer": 12,
+          "ref_rank": 12,
+          "high_contribution": 0.10948567174578636,
+          "ref_contribution": 0.0012430680994311239,
+          "deltas": {
+            "Rel": 4.080000000000005,
+            "T-Gen": 3.1600000000000037,
+            "M-Gen": 5.470000000000006,
+            "Average": 4.6200000000000045
+          }
+        },
+        {
+          "target": "alt",
+          "module": "attn+mlp",
+          "high_layer": 22,
+          "high_rank": 1,
+          "ref_layer": 12,
+          "ref_rank": 14,
+          "high_contribution": 0.20349989653409498,
+          "ref_contribution": 0.0015830672285568393,
+          "deltas": {
+            "Rel": 6.680000000000007,
+            "T-Gen": 5.369999999999997,
+            "M-Gen": 7.080000000000002,
+            "Average": 6.055999999999997
+          }
+        }
+      ],
+      "outputs": {
+        "png": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig10_smolvlm_evqa_alt.png",
+        "pdf": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig10_smolvlm_evqa_alt.pdf",
+        "svg": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig10_smolvlm_evqa_alt.svg",
+        "preview": "md/Location/related_work.md/figures/contribution_edit_cases_20260929/fig10_smolvlm_evqa_alt_preview.png"
+      },
+      "sha256": {
+        "png": "e327409c553f611c54056791c9c8405d0b6f32d3b038e4cc9e298a7d5c4b4df8",
+        "pdf": "d1bfb3b86d85117ce5d0b6a2dfb61a8d186d2171bf68bf6d0edb354b923915a3",
+        "svg": "4e0adfb455741302580db46bfa5c77f4151be7cf5bbfc701539f5450f678756b",
+        "preview": "45914b7ea0d1ad6cdb0d5e34823cd5683e8773fa261706fc46c87ffcf9cc6162"
+      }
+    }
+  ]
+}

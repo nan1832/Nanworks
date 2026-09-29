@@ -1,0 +1,97 @@
+=== SNAPSHOT ===
+2026-09-17 22:05:05 CST
+g07
+=== SQUEUE ===
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3178423   phys_hq  jupyter ph_teach  R 21-06:08:03      1 g07
+=== SCONTROL ===
+JobId=3178423 JobName=jupyter
+   UserId=ph_teacher3(1244) GroupId=phys-hq-teacher3(1038) MCS_label=N/A
+   Priority=4294861739 Nice=0 Account=phys_hq_teacher QOS=gpu_xl_2
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=21-06:08:03 TimeLimit=30-00:00:00 TimeMin=N/A
+   SubmitTime=2026-08-27T13:24:57 EligibleTime=2026-08-27T13:24:57
+   AccrueTime=2026-08-27T13:24:57
+   StartTime=2026-08-27T15:57:02 EndTime=2026-09-26T15:57:02 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-08-27T15:57:02 Scheduler=Backfill
+   Partition=phys_hq AllocNode:Sid=mgt01:2341120
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=g07
+   BatchHost=g07
+   NumNodes=1 NumCPUs=32 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=4000M,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=32,mem=125G,node=1,billing=32,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=32 MinMemoryCPU=4000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/jobs/jupyter_2029886_202608270524.slurm
+   WorkDir=/datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/jobs
+   Comment=LICO-2029886 
+   StdErr=/datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/jobs/slurm-3178423.out
+   StdIn=/dev/null
+   StdOut=/datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/jobs/slurm-3178423.out
+   Power=
+   TresPerNode=gres/gpu:1
+   
+
+=== SSTAT ===
+JobID         MaxVMSize  MaxVMSizeNode  MaxVMSizeTask  AveVMSize     MaxRSS MaxRSSNode MaxRSSTask     AveRSS MaxPages MaxPagesNode   MaxPagesTask   AvePages     MinCPU MinCPUNode MinCPUTask     AveCPU   NTasks AveCPUFreq ReqCPUFreqMin ReqCPUFreqMax ReqCPUFreqGov ConsumedEnergy  MaxDiskRead MaxDiskReadNode MaxDiskReadTask  AveDiskRead MaxDiskWrite MaxDiskWriteNode MaxDiskWriteTask AveDiskWrite TRESUsageInAve TRESUsageInMax TRESUsageInMaxNode TRESUsageInMaxTask TRESUsageInMin TRESUsageInMinNode TRESUsageInMinTask TRESUsageInTot TRESUsageOutAve TRESUsageOutMax TRESUsageOutMaxNode TRESUsageOutMaxTask TRESUsageOutMin TRESUsageOutMinNode TRESUsageOutMinTask TRESUsageOutTot 
+------------ ---------- -------------- -------------- ---------- ---------- ---------- ---------- ---------- -------- ------------ -------------- ---------- ---------- ---------- ---------- ---------- -------- ---------- ------------- ------------- ------------- -------------- ------------ --------------- --------------- ------------ ------------ ---------------- ---------------- ------------ -------------- -------------- ------------------ ------------------ -------------- ------------------ ------------------ -------------- --------------- --------------- ------------------- ------------------- --------------- ------------------- ------------------- --------------- 
+sstat: error: slurm_receive_msgs: [[g07]:6818] failed: Socket timed out on send/recv operation
+sstat: error: slurm_job_step_stat: unknown return given from g07: 9001 rc = Communication connection failure
+sstat: error: problem getting step_layout for StepId=3178423.23: Communication connection failure
+=== GPU ===
+0, NVIDIA A800 80GB PCIe, 5452 MiB, 75724 MiB, 81920 MiB, 93 %, 71
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa    command 
+# Idx           #    C/G      %      %      %      %      %      %    name 
+    0    1998199     C      -      -      -      -      -      -    python         
+    0    3343644     C      -      -      -      -      -      -    python         
+    0    3546412     C     10      1      -      -      -      -    python         
+    0    3552254     C     79      8      -      -      -      -    python         
+=== PROCESSES ===
+1947227 1947222 Thu Sep 10 11:18:11 2026  7-10:47:03 S    bash /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_formal_top3_stage2_replacement_job_20260827.sh job3126082
+1947284 1947227 Thu Sep 10 11:18:11 2026  7-10:47:03 S     \_ bash /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_formal_top3_stage2_replacement_job_20260827.sh job3126082
+1947286 1947284 Thu Sep 10 11:18:11 2026  7-10:47:03 S     |   \_ tee -a /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/recovery_logs/replacement_job_3178423_20260910_111812.log
+1947288 1947227 Thu Sep 10 11:18:11 2026  7-10:47:03 S     \_ bash /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/sync_completed_layers_to_shared_monitor_20260810.sh /tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812 /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082
+1947289 1947227 Thu Sep 10 11:18:11 2026  7-10:47:03 S     \_ bash /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/launch_formal_top3_stage2_20260812.sh job3126082
+  54293   54289 Thu Aug 27 15:57:01 2026 21-06:08:13 S    /bin/bash /var/spool/slurmd/job3178423/slurm_script
+=== TMP ROOTS ===
+2026-08-19 20:03:01.0007698400	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/evqa-pilot500
+2026-08-25 04:23:33.0009538260	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/.partial
+2026-08-25 04:37:42.0000000000	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity
+2026-08-27 12:44:18.0008630080	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/recovery_logs
+2026-09-09 15:36:16.4713276390	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812
+2026-09-13 23:22:00.3070175870	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/mmke-visual
+2026-09-14 00:03:07.1271106660	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/evqa-pilot500
+2026-09-14 01:36:01.2319348930	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/logs
+2026-09-14 08:09:32.5845088540	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913
+2026-09-16 09:59:14.6414134510	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/logs
+=== RECENT COMPLETION MARKERS ===
+2026-08-31 01:22:52.9565025340	314	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_14/selected_checkpoint.tsv
+2026-09-01 23:02:55.7305117210	312	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_28/selected_checkpoint.tsv
+2026-09-04 00:02:36.6002808190	311	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_27/selected_checkpoint.tsv
+2026-09-06 10:05:58.9159856890	312	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_26/selected_checkpoint.tsv
+2026-09-06 10:05:58.9169856880	358	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_26/train.done
+2026-09-06 11:54:31.2678986350	710	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_26/eval_full.done
+2026-09-08 19:32:36.4054824610	313	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_23/selected_checkpoint.tsv
+2026-09-08 19:32:36.4054824610	359	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_23/train.done
+2026-09-09 17:26:31.8063482060	722	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_23/eval_full.done
+2026-09-12 07:30:58.6322694110	313	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_22/selected_checkpoint.tsv
+2026-09-12 07:30:58.6332694090	359	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_22/train.done
+2026-09-16 12:08:41.5467372660	733	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_22/eval_full.done
+=== RECENT LOGS ===
+1788867161.1564750000	2026-09-08 19:32:41.1564750000	1220225	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/logs/mmke-entity_llava-v1.5-7b_L23_train_20260827_162246.log
+1788945992.1073478060	2026-09-09 17:26:32.1073478060	107194	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/logs/mmke-entity_llava-v1.5-7b_L23_eval_20260909_154308.log
+1789169461.0682662040	2026-09-12 07:31:01.0682662040	1215070	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/logs/mmke-entity_llava-v1.5-7b_L22_train_20260910_111812.log
+1789311340.7904821790	2026-09-13 22:55:40.7904821790	965424	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/logs/evqa-pilot500_smolvlm-1.7b_L5_train_20260913_213523.log
+1789312891.3030393400	2026-09-13 23:21:31.3030393400	240201	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/logs/evqa-pilot500_smolvlm-1.7b_L5_eval_20260913_225606.log
+1789314567.2987825940	2026-09-13 23:49:27.2987825940	414367	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/logs/mmke-visual_smolvlm-1.7b_L5_train_20260913_232200.log
+1789314858.5875031480	2026-09-13 23:54:18.5875031480	30300	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/logs/mmke-visual_smolvlm-1.7b_L5_eval_20260913_234950.log
+1789315371.2491233500	2026-09-14 00:02:51.2491233500	78536	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/logs/qwen_L15_smoke_20260913_235425.log
+1789320924.2089841110	2026-09-14 01:35:24.2089841110	950817	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/logs/evqa-pilot500_qwen2.5-vl-3b_L15_train_20260914_000307.log
+1789322674.2942820940	2026-09-14 02:04:34.2942820940	227260	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/logs/evqa-pilot500_qwen2.5-vl-3b_L15_eval_20260914_013540.log
+1789322686.7692585150	2026-09-14 02:04:46.7692585150	59996	/tmp/ph_teacher3/cma_modelpred_top3_missing3_job3178423_20260913/queue.status.log
+1789531721.8867368230	2026-09-16 12:08:41.8867368230	114647	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/logs/mmke-entity_llava-v1.5-7b_L22_eval_20260910_111812.log
+1789653907.2042172770	2026-09-17 22:05:07.2042172770	8121448	/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/queue.status.log

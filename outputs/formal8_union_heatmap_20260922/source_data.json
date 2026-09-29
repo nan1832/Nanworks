@@ -1,0 +1,5033 @@
+{
+  "generated_at": "2026-09-22T09:46:16.006779+08:00",
+  "scope": "Eight-method Top-3 union only",
+  "methods": [
+    "Middle-Prior-Direct",
+    "VisEdit-Contrib-Pre-KeyToken",
+    "SaLEM-Alt-Direct",
+    "LGA-Param-Direct-AltModelPred",
+    "Perturb-KL-Direct-AltSeq",
+    "Ours-Direct",
+    "CMA-Direct-v1.3-alt",
+    "CMA-ModelPred-Direct-v2"
+  ],
+  "combinations": 21,
+  "candidate_cells": 324,
+  "evaluated_cells": 313,
+  "pending_cells": 11,
+  "policy": "main > main_diagnostic > stable; no maximization across variants",
+  "color_scale": [
+    0,
+    100
+  ],
+  "display_decimals": 2,
+  "records": [
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1,
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Ours-Direct": 1,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 58.16,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2,
+        "Ours-Direct": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 58.506,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "Ours-Direct": 3,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 50.128,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3,
+        "Perturb-KL-Direct-AltSeq": 1
+      },
+      "average": 62.46,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2,
+        "CMA-Direct-v1.3-alt": 1
+      },
+      "average": 57.264,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 5,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 68.89,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 75.192,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 73.04,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 73.8,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3,
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 72.2,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 19,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2,
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 74.85,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 20,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 72.88,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_SECTION_4_1"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1,
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Ours-Direct": 1,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 62.37,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2,
+        "Ours-Direct": 2,
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 69.69,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "Ours-Direct": 3,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 69.87,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3,
+        "Perturb-KL-Direct-AltSeq": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 68.74,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2
+      },
+      "average": 69.19,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 70.07,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 71.39,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 70.97,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 71.29,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 19,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 71.37,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 24,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 71.36,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 25,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 71.47,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 71.08,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1,
+        "Ours-Direct": 1,
+        "CMA-Direct-v1.3-alt": 2
+      },
+      "average": 65.86,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "Ours-Direct": 2,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 72.504,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3126082"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2,
+        "Ours-Direct": 3,
+        "CMA-Direct-v1.3-alt": 3,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 71.32,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 71.01,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3
+      },
+      "average": 72.24,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 13,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 69.91,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 70.06,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 69.79,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2,
+        "LGA-Param-Direct-AltModelPred": 1
+      },
+      "average": 69.45,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2,
+        "LGA-Param-Direct-AltModelPred": 3
+      },
+      "average": 70.12,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 20,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 70.63,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 21,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 69.7,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 22,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 70.55,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "BLIP2-OPT-2.7B",
+      "layer": 30,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 71.14,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1,
+        "LGA-Param-Direct-AltModelPred": 2,
+        "Ours-Direct": 2,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 52.254,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3,
+        "Ours-Direct": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 54.47,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Perturb-KL-Direct-AltSeq": 1,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 49.952,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2
+      },
+      "average": 50.474,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3
+      },
+      "average": 47.882,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 11,
+      "method_recommended_ranks": {
+        "Ours-Direct": 3
+      },
+      "average": 49.236,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 49.91,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 49.46,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 49.902,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 44.858,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 19,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 50.218,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 25,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 51.696,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 51.44,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 27,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 52.27,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 28,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 53.27,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2,
+        "Ours-Direct": 2
+      },
+      "average": 71.29,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "Ours-Direct": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 70.28,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Perturb-KL-Direct-AltSeq": 1
+      },
+      "average": 50.68,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2,
+        "Ours-Direct": 3
+      },
+      "average": 51.16,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3
+      },
+      "average": 49.86,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 5,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3
+      },
+      "average": 49.7,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 50.02,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 49.99,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 50.56,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 50.73,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 50.49,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 19,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 50.63,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 22,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 50.46,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 23,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 1
+      },
+      "average": 50.48,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 24,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 50.59,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 25,
+      "method_recommended_ranks": {
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 50.01,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 49.97,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 27,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 50.59,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 28,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 49.97,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3,
+        "Ours-Direct": 2
+      },
+      "average": 68.32,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "Ours-Direct": 1
+      },
+      "average": 69.18,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_RESUMED_EPOCH45_CPU_SYNC_ACTIVATION_CKPT_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1
+      },
+      "average": 49.79,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "Ours-Direct": 3
+      },
+      "average": 50.02,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2
+      },
+      "average": 48.89,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 5,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1
+      },
+      "average": 48.2,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 48.64,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 48.84,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 48.72,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 48.93,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 48.62,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 19,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 48.6,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 22,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 3,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 48.13,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 23,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 1
+      },
+      "average": 48.33,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 24,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 2
+      },
+      "average": 47.27,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 25,
+      "method_recommended_ranks": {
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 47.58,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 47.52,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 27,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 46.94,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "InstructBLIP-Vicuna-7B",
+      "layer": 28,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1,
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 46.87,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "CMA-Direct-v1.3-alt": 3,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 57.83,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 71.104,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 63.496,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 7,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 1
+      },
+      "average": 67.064,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 8,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 69.034,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 9,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 59.686,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 10,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 77.07,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 63.432,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 64.07,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2,
+        "Ours-Direct": 3
+      },
+      "average": 64.94,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "Ours-Direct": 1
+      },
+      "average": 59.56,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 19,
+      "method_recommended_ranks": {
+        "Ours-Direct": 2
+      },
+      "average": 58.378,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 22,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3
+      },
+      "average": 58.554,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 24,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 57.7,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 25,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2,
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 58.47,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 57.27,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 29,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1
+      },
+      "average": 58.526,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Perturb-KL-Direct-AltSeq": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 75.812,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_REPAIRED_SELECTION_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2,
+        "Perturb-KL-Direct-AltSeq": 2,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 75.824,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_REPAIRED_SELECTION_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "CMA-Direct-v1.3-alt": 3,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 76.064,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_REPAIRED_SELECTION_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3
+      },
+      "average": 76.634,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_REPAIRED_SELECTION_LOCAL_TMP_JOB3044841"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 5,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 76.94,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 8,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 76.59,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 9,
+      "method_recommended_ranks": {
+        "Ours-Direct": 1
+      },
+      "average": 76.582,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_RECOVERED_G09_NODEFAIL_JOB3126082"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 10,
+      "method_recommended_ranks": {
+        "Ours-Direct": 2
+      },
+      "average": 76.63,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_RECOVERED_SELECTION_G09_NODEFAIL_JOB3126082"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 11,
+      "method_recommended_ranks": {
+        "Ours-Direct": 3
+      },
+      "average": 76.83,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_RECOVERED_SELECTION_G09_NODEFAIL_JOB3126082"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 76.35,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 75.87,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 76.1,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 24,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 74.26,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 25,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 74.32,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 73.93,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 31,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 68.16,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 75.336,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 75.162,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "CMA-Direct-v1.3-alt": 3,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 75.55,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044841_BACKED_UP"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 75.412,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1
+      },
+      "average": 75.938,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 6,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3
+      },
+      "average": 75.23,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 76.236,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 75.71,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 75.852,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 22,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 74.98,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 23,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 75.03,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 24,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2,
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 75.04,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 25,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 75.18,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "Ours-Direct": 3
+      },
+      "average": 75.52,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 27,
+      "method_recommended_ranks": {
+        "Ours-Direct": 1
+      },
+      "average": 75.824,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 28,
+      "method_recommended_ranks": {
+        "Ours-Direct": 2
+      },
+      "average": 76.04,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT-4-Vicuna-7B",
+      "layer": 31,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 76.27,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "Ours-Direct": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 60.488,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1472",
+        "status": "TRAIN_DONE_EVAL_DONE_JOB3178538_VERIFIED_20260921"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2,
+        "Ours-Direct": 2,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 58.376,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1473",
+        "status": "TRAIN_DONE_EVAL_DONE_JOB3178538_VERIFIED_20260921"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "Ours-Direct": 3,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": null,
+      "variant": null,
+      "status": "evaluation_pending",
+      "source": null
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": null,
+      "variant": null,
+      "status": "not_evaluated",
+      "source": null
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 5,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 70.094,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1474",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178538"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 6,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 68.596,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1475",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3150065"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 7,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 57.818,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1476",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3150065"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 59.596,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1477",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3150065"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 60.63,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1478",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3150065"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 64.918,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1479",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3150065"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 24,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1
+      },
+      "average": 62.418,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1480",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178538"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 25,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 60.888,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1481",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178538_TMP_CLEANED_20260915"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3,
+        "LGA-Param-Direct-AltModelPred": 3
+      },
+      "average": 62.99,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 27,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 62.44,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 28,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 60.85,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "Ours-Direct": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 75.158,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3117562"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2,
+        "Ours-Direct": 3,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 75.64,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3117562"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "CMA-Direct-v1.3-alt": 3,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 76.786,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_RECOVERED_G09_NODEFAIL_JOB3117562"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "Ours-Direct": 2
+      },
+      "average": 76.186,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 7,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 76.552,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_RECOVERED_G09_NODEFAIL_JOB3117562"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 8,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 77.008,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_RECOVERED_G09_NODEFAIL_JOB3117562"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 9,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 76.91,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_RECOVERED_G09_NODEFAIL_JOB3117562"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 76.514,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 75.752,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 75.74,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 22,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 73.84,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 24,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1
+      },
+      "average": 74.586,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 73.424,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 27,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2,
+        "LGA-Param-Direct-AltModelPred": 3
+      },
+      "average": 74.396,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "outputs/formal7_live_main_outcomes_20260824.csv",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 28,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 73.53,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": null,
+      "variant": null,
+      "status": "not_evaluated",
+      "source": null
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Perturb-KL-Direct-AltSeq": 2,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": null,
+      "variant": null,
+      "status": "paused_incomplete_training",
+      "source": null
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": null,
+      "variant": null,
+      "status": "not_evaluated",
+      "source": null
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": null,
+      "variant": null,
+      "status": "not_evaluated",
+      "source": null
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 7,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3
+      },
+      "average": null,
+      "variant": null,
+      "status": "not_evaluated",
+      "source": null
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 9,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": null,
+      "variant": null,
+      "status": "not_evaluated",
+      "source": null
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 11,
+      "method_recommended_ranks": {
+        "Ours-Direct": 2
+      },
+      "average": null,
+      "variant": null,
+      "status": "not_evaluated",
+      "source": null
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 12,
+      "method_recommended_ranks": {
+        "Ours-Direct": 3
+      },
+      "average": null,
+      "variant": null,
+      "status": "not_evaluated",
+      "source": null
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 13,
+      "method_recommended_ranks": {
+        "Ours-Direct": 1
+      },
+      "average": null,
+      "variant": null,
+      "status": "not_evaluated",
+      "source": null
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 76.034,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1767",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3126082"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 75.738,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1768",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3126082"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 76.01,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1769",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3126082"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 22,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 75.618,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1770",
+        "status": "TRAIN_DONE_EVAL_DONE_SHARED_JOB3178423_VERIFIED_20260921"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 23,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 75.54,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1771",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178423"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 24,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 75.394,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1772",
+        "status": "TRAIN_DONE_EVAL_DONE_SHARED_JOB3178423_VERIFIED_20260921"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 75.144,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1773",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178423"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 27,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 75.148,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1774",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178423"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "LLaVA-v1.5-7B",
+      "layer": 28,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 74.742,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1775",
+        "status": "TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178423"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 62.89,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3,
+        "Perturb-KL-Direct-AltSeq": 2,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 61.46,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Perturb-KL-Direct-AltSeq": 3
+      },
+      "average": 62.25,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 61.59,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 11,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 61.83,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 12,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 62.67,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 63.39,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 62.396,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1494",
+        "status": "TRAIN_DONE_CMA_MODELPRED_TOP3_BACKFILL_SHARED_JOB3178423"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 62.76,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1,
+        "Ours-Direct": 3
+      },
+      "average": 62.6,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 63.55,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 19,
+      "method_recommended_ranks": {
+        "Ours-Direct": 2
+      },
+      "average": 63.21,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 21,
+      "method_recommended_ranks": {
+        "Ours-Direct": 1
+      },
+      "average": 63.74,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 27,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 61.94,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 28,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 62.53,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 29,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 62.37,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 30,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 62.52,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "Ours-Direct": 1,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 70.42,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3,
+        "Ours-Direct": 2,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 69.48,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Ours-Direct": 3,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 69.93,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 6,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 70.15,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 11,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 71.0,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 12,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 71.0,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 13,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2
+      },
+      "average": 70.39,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3,
+        "Perturb-KL-Direct-AltSeq": 3
+      },
+      "average": 69.82,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 69.81,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 69.6,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_EXISTING_CKPT_EVAL_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 70.65,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 26,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 68.26,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 27,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 68.12,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 28,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 68.35,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 30,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 67.05,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "Ours-Direct": 1,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 72.22,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3,
+        "Perturb-KL-Direct-AltSeq": 2,
+        "Ours-Direct": 2,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 72.28,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Perturb-KL-Direct-AltSeq": 3,
+        "Ours-Direct": 3,
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 72.04,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 13,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 71.44,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 71.48,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 71.12,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 71.59,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 71.48,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 71.2,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 20,
+      "method_recommended_ranks": {
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 71.21,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 27,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 71.34,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 28,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 71.81,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 29,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 72.66,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "Qwen2.5-VL-3B",
+      "layer": 30,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 72.41,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3,
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 35.492,
+      "variant": "main_diagnostic",
+      "status": "diagnostic_eval_only",
+      "source": {
+        "source": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\pali_l0_diag_20260922\\evqa-pilot500\\paligemma-3b\\layer_00\\verified_evaluation.json",
+        "status": "EVAL_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "Ours-Direct": 3
+      },
+      "average": 85.72,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1513",
+        "status": "TRAIN_DONE_MAIN_FORMAL_TOP3_JOB3117562"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "Ours-Direct": 2,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 71.13,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 5,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "Ours-Direct": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 78.17,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 6,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3
+      },
+      "average": 66.67,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 7,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3,
+        "SaLEM-Alt-Direct": 2,
+        "LGA-Param-Direct-AltModelPred": 2,
+        "Perturb-KL-Direct-AltSeq": 2,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 75.65,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 8,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1,
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 81.0,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 9,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2,
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 36.16,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_RECOVERED_FROM_STALL_MAIN"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 10,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 70.52,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 11,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 80.99,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 12,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 75.98,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "PaliGemma-3B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1
+      },
+      "average": 40.11,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2,
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 38.52,
+      "variant": "main_diagnostic",
+      "status": "diagnostic_eval_only",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1665",
+        "status": "EVAL_DONE_NONCONVERGENT_MAIN_RECOVERED_20260921；不收敛，LR=1E-4，非完整50EPOCH"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 1
+      },
+      "average": 98.1,
+      "variant": "stable",
+      "status": "evaluated_stable_only",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1675",
+        "status": "TRAIN_DONE_STABLE_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 2
+      },
+      "average": 98.47,
+      "variant": "stable",
+      "status": "evaluated_stable_only",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1676",
+        "status": "TRAIN_DONE_STABLE_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "Ours-Direct": 3
+      },
+      "average": 97.9,
+      "variant": "stable",
+      "status": "evaluated_stable_only",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1677",
+        "status": "TRAIN_DONE_STABLE_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "Ours-Direct": 2,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 99.026,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1664",
+        "status": "TRAIN_DONE_MAIN_FORMAL_TOP3_JOB3117562"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 5,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2,
+        "Ours-Direct": 1
+      },
+      "average": 98.58,
+      "variant": "stable",
+      "status": "evaluated_stable_only",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1678",
+        "status": "TRAIN_DONE_STABLE_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 6,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 97.97,
+      "variant": "stable",
+      "status": "evaluated_stable_only",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1679",
+        "status": "TRAIN_DONE_STABLE_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 7,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3,
+        "LGA-Param-Direct-AltModelPred": 3,
+        "Perturb-KL-Direct-AltSeq": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 98.4,
+      "variant": "stable",
+      "status": "evaluated_stable_only",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1680",
+        "status": "TRAIN_DONE_STABLE_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 8,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1,
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 91.29,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 9,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2,
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 98.09,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 10,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 99.06,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 12,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 96.88,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 13,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 91.53,
+      "variant": "stable",
+      "status": "evaluated_stable_only",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1686",
+        "status": "TRAIN_DONE_STABLE_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 14,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 39.03,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "PaliGemma-3B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1
+      },
+      "average": 40.05,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 1
+      },
+      "average": 20.0,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_NUMERIC_DEGENERATE_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 88.86,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 2
+      },
+      "average": 82.04,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "Ours-Direct": 3
+      },
+      "average": 92.97,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "Ours-Direct": 2
+      },
+      "average": 96.136,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_LOCAL_TMP_JOB3126082"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 5,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2,
+        "Ours-Direct": 1,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 90.81,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 6,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 96.98,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 7,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3,
+        "LGA-Param-Direct-AltModelPred": 3,
+        "Perturb-KL-Direct-AltSeq": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 90.12,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 8,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 96.3,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 9,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 85.41,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 10,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 38.28,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 11,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 44.62,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 12,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 90.67,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 13,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 48.65,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2,
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 47.04,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_RETRY_NUMERIC_GUARD_NONFINITE_SKIP34_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "PaliGemma-3B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1,
+        "LGA-Param-Direct-AltModelPred": 1
+      },
+      "average": 40.33,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_MAIN_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "Ours-Direct": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 69.97,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 1,
+        "Ours-Direct": 2,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 58.77,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2,
+        "Ours-Direct": 3
+      },
+      "average": 64.41,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 3,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 66.56,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 5,
+      "method_recommended_ranks": {
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 65.362,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1537",
+        "status": "TRAIN_DONE_CMA_MODELPRED_TOP3_BACKFILL_SHARED_JOB3178423"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 7,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 68.45,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 8,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 63.98,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 9,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 68.06,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 10,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 69.81,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 11,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 67.24,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 12,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 61.93,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 59.74,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 58.9,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 58.85,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 20,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3
+      },
+      "average": 57.15,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 21,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 56.37,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "EVQA-pilot500",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 22,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1
+      },
+      "average": 55.87,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3,
+        "Perturb-KL-Direct-AltSeq": 3,
+        "Ours-Direct": 1,
+        "CMA-Direct-v1.3-alt": 1,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 71.36,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Perturb-KL-Direct-AltSeq": 1,
+        "Ours-Direct": 2,
+        "CMA-Direct-v1.3-alt": 2,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 70.18,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Ours-Direct": 3
+      },
+      "average": 70.522,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3126082"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 4,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 2
+      },
+      "average": 70.53,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 5,
+      "method_recommended_ranks": {
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 70.322,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "6location_7model_3datas_top_3_5_layers_outcome.md:1693",
+        "status": "TRAIN_DONE_CMA_MODELPRED_TOP3_BACKFILL_SHARED_JOB3178423"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 6,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 3
+      },
+      "average": 69.88,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 7,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 70.77,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 8,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2
+      },
+      "average": 69.66,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 9,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1
+      },
+      "average": 69.45,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 10,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 69.34,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 11,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 69.62,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 12,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 68.52,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 68.48,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3
+      },
+      "average": 67.19,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 67.25,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE"
+      }
+    },
+    {
+      "dataset": "MMKE-visual",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1
+      },
+      "average": 67.89,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 0,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 1,
+        "LGA-Param-Direct-AltModelPred": 3,
+        "Perturb-KL-Direct-AltSeq": 1,
+        "Ours-Direct": 1,
+        "CMA-ModelPred-Direct-v2": 1
+      },
+      "average": 70.47,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 1,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 2,
+        "LGA-Param-Direct-AltModelPred": 1,
+        "Perturb-KL-Direct-AltSeq": 2,
+        "Ours-Direct": 2,
+        "CMA-ModelPred-Direct-v2": 2
+      },
+      "average": 71.05,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 2,
+      "method_recommended_ranks": {
+        "Perturb-KL-Direct-AltSeq": 3,
+        "Ours-Direct": 3,
+        "CMA-ModelPred-Direct-v2": 3
+      },
+      "average": 71.12,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 6,
+      "method_recommended_ranks": {
+        "SaLEM-Alt-Direct": 3
+      },
+      "average": 70.49,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 7,
+      "method_recommended_ranks": {
+        "LGA-Param-Direct-AltModelPred": 2
+      },
+      "average": 70.3,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 10,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 3
+      },
+      "average": 70.62,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 11,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 1
+      },
+      "average": 69.55,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 12,
+      "method_recommended_ranks": {
+        "Middle-Prior-Direct": 2
+      },
+      "average": 70.84,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 15,
+      "method_recommended_ranks": {
+        "CMA-Direct-v1.3-alt": 1
+      },
+      "average": 69.53,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 16,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 3,
+        "CMA-Direct-v1.3-alt": 3
+      },
+      "average": 69.59,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 17,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 2
+      },
+      "average": 70.59,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    },
+    {
+      "dataset": "MMKE-entity",
+      "model": "SmolVLM-Instruct-1.7B",
+      "layer": 18,
+      "method_recommended_ranks": {
+        "VisEdit-Contrib-Pre-KeyToken": 1,
+        "CMA-Direct-v1.3-alt": 2
+      },
+      "average": 71.47,
+      "variant": "main",
+      "status": "evaluated_main_historical_acceptance",
+      "source": {
+        "source": "md/Location/VisualGradient_11formula_analysis_files_20260720/analysis_outputs_20260731/accepted_outcome_rows.csv",
+        "status": "TRAIN_DONE_LOCAL_TMP_JOB3044208"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "dataset": "mmke-entity",
+  "model": "instructblip-vicuna-7b",
+  "processed": 636,
+  "total": 636,
+  "failures": 0,
+  "elapsed_seconds": 898.0850150585175,
+  "job_id": "3443209"
+}

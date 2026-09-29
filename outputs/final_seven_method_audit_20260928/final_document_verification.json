@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "written_at": "2026-09-29T08:18:02+08:00",
+  "target": "md/Location/Final-candidate-methods-recommends-top3-layer.md",
+  "document_sha256": "c3b667f936d7bd431af8800f030bb6f7fd7f56c0339625b5fd940fe3efef33b1",
+  "line_count": 632,
+  "registered_rows": 483,
+  "ready_rows": 243,
+  "pending_rows": 240,
+  "baseline_rows": 105,
+  "visedit_rows": 126,
+  "gradient_rows": 105,
+  "similarity_raw_tukey_rows": 126,
+  "similarity_peak_region_rows": 21,
+  "available_gradient_rows": 42,
+  "available_visedit_rows": 42,
+  "available_similarity_rows": 54,
+  "main_outcome_rows": 396,
+  "sample_mean_only_when_three_evaluations": true,
+  "gradient_aggregation": "product_within_sample_then_mean",
+  "source_sha256": {
+    "outputs/all_methods_recommendations_20260928/recommendations.json": "a99acada2325614885a65f1f8e6802a91532c08f962f81d7930c3c2e322363bc",
+    "outputs/final_seven_method_audit_20260928/gradient_available_top3.json": "fe34bba90ddd191a20cd22117e7fb0af7a8eb342afcd6ede365eb93617286957",
+    "outputs/final_seven_method_audit_20260928/visedit_model_pred_components.json": "e92969c3f5022667434a2b4232d513c024ce22febfcff1b01a7ecb8e119b11d4",
+    "outputs/final_seven_method_audit_20260928/similarity_verified.json": "08231204117c3228dce40c0101af809c09decb9786a2f7c13800083723c97faa",
+    "outputs/final_seven_method_audit_20260928/remote_status.json": "d57ec0198cf11720c1256b98373aa59c1c9955bad8335114321f0b80b6eeb482",
+    "outputs/final_seven_method_audit_20260928/verification.json": "59cd83f9da0e74c116b2185c41d8142aa43ac27ef5c73837a5e751fe175eb663",
+    "outputs/all_methods_performance_20260928/outcomes_used.csv": "6897a6c1e87d6e70edec6e03c82e6bbf9350d199cc6de745b7e99f318e23316a"
+  }
+}

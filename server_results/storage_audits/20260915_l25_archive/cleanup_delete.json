@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "manifest_sha256": "88b71ac6f5ab6de00bcc5e963e9497e3ca2626fa436b6f3d7f1ee03fa635d204",
+  "deleted": [
+    {
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/cache/layer_25",
+      "reason": "L25 durable archive verified; reproducible preprocessing cache",
+      "status": "deleted"
+    },
+    {
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_25",
+      "reason": "L25 durable archive verified; exact source copy archived with SHA256",
+      "status": "deleted"
+    },
+    {
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/logs/evqa-pilot500_llava-v1.5-7b_L25_eval_20260906_121304.log",
+      "reason": "L25 durable archive verified; exact source copy archived with SHA256",
+      "status": "deleted"
+    },
+    {
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/logs/evqa-pilot500_llava-v1.5-7b_L25_train_20260906_121304.log",
+      "reason": "L25 durable archive verified; exact source copy archived with SHA256",
+      "status": "deleted"
+    }
+  ]
+}

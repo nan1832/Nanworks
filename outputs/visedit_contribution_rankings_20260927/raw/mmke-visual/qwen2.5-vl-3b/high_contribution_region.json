@@ -1,0 +1,25 @@
+{
+  "dataset": "mmke-visual",
+  "model": "qwen2.5-vl-3b",
+  "method": "VisEdit-Contrib-Pre-KeyToken",
+  "rank_metric": "score_positive_key_token",
+  "smoothing_window": 3,
+  "lambda": 0.5,
+  "threshold_rule": "mean + lambda * std",
+  "threshold": 0.00493956527445358,
+  "high_layers": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "selected_region": [
+    29,
+    35
+  ],
+  "status": "done",
+  "failure_reason": ""
+}

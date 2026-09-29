@@ -1,0 +1,16 @@
+{
+  "time": "2026-09-29T21:10:38.101758+08:00",
+  "launcher_pid": 353269,
+  "command": [
+    "srun",
+    "--jobid=3443209",
+    "--overlap",
+    "--nodes=1",
+    "--ntasks=1",
+    "--nodelist=g09",
+    "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+    "-u",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/control/g09/memory_calibration_20260929/priority_pause/controller.py"
+  ],
+  "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/control/g09/memory_calibration_20260929/priority_pause/controller.log"
+}

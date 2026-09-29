@@ -1,0 +1,16 @@
+{
+  "layer": 0,
+  "status": "EVAL_DONE",
+  "eval_samples": 293,
+  "checkpoint": "/tmp/ph_teacher3/mmke_visual_llava_sharedgpu_job3117562_20260730/llava-v1.5-7b/layer_00/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-40-i-4280-ema_loss-0.3149",
+  "ckpt_epoch": "40",
+  "ckpt_i": "4280",
+  "ckpt_loss": "0.2298056185245514",
+  "ckpt_ema_loss": "0.3149448840323559",
+  "Rel": 60.74,
+  "T-Gen": 60.79,
+  "M-Gen": 60.88,
+  "T-Loc": 100.0,
+  "M-Loc": 93.38,
+  "Average": 75.15799999999999
+}

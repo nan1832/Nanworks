@@ -1,0 +1,88 @@
+{
+  "dataset": "evqa-pilot500",
+  "layers": [
+    {
+      "layer": 0,
+      "model": "paligemma-3b",
+      "complete": false,
+      "diagnostic_only": true,
+      "evaluation_verified": true,
+      "training_complete_50_epochs": false,
+      "artifacts": [
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/selected_checkpoint.tsv",
+          "relative_path": "selected_checkpoint.tsv",
+          "size": 360,
+          "sha256": "b60e90800b1263a3e9dd241eed04e8ecb4c4bad110c5cf1cdbdfef31534d29d9"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/eval_full.done",
+          "relative_path": "eval_full.done",
+          "size": 764,
+          "sha256": "685b6c4b5ccb1f4751421ae9122f213c149bbae07ca903668d39fd1f715bc794"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit/results.json",
+          "relative_path": "results.json",
+          "size": 4881545,
+          "sha256": "05f60b78e9a874d20e8b2f84a278864aec8852325bf3a0c4645419f63a20e970"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit/mean_results.json",
+          "relative_path": "mean_results.json",
+          "size": 402,
+          "sha256": "b0ff017310606241ede1b14620208aaa12f9cf1aa1587d564e5f22bdbb806c84"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/selection_audit.json",
+          "relative_path": "selection_audit.json",
+          "size": 878,
+          "sha256": "9cc3a597c569a42ba7f2a15419ab9f97c8c828a24b33050f5e89d7dbe4b9f6f5"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/diagnostic_epoch2_request.json",
+          "relative_path": "diagnostic_epoch2_request.json",
+          "size": 778,
+          "sha256": "1e54bf341d9e2743121036150e135053bbfa98492111969cdd2c189e87406a57"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/original_main_config.yaml",
+          "relative_path": "original_main_config.yaml",
+          "size": 442,
+          "sha256": "408ea59cf079c7eb7b1e70aee64603812d8f81dfa9e3e02e2ef5c871edcac3b6"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/layer_00/loss_history.csv",
+          "relative_path": "loss_history.csv",
+          "size": 9188,
+          "sha256": "bdf55d0022943f7e3c988271fb6692030b4a42158ce2c2a42ce93fad6396bc2e"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/verified_evaluation.json",
+          "relative_path": "verified_evaluation.json",
+          "size": 1165,
+          "sha256": "8cae13a3efebcd5f40ca3f951d57fc26eaf0b635c1d5cf575bfdaacebab36afb"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/localization_audit_20260922/paligemma_diagnostic_verified.json",
+          "relative_path": "paligemma_diagnostic_verified.json",
+          "size": 968,
+          "sha256": "8cc1dbd4106e0545f9c0874594ea44b87d1ef91df84adaec3493f4abf13ea93a"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/localization_audit_20260922/paligemma_standard_verifier.json",
+          "relative_path": "standard_training_verifier.json",
+          "size": 2994,
+          "sha256": "18e4f10db685a6fa9da8c4baa05362d2e86d1384601b7a74113965e194d9e066"
+        },
+        {
+          "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_paligemma_l0_main_retrain_job3178538_20260921/protocol.json",
+          "relative_path": "protocol.json",
+          "size": 560,
+          "sha256": "5f43f510f01a11a9f11fc7bd350110e38d6a3ccbee5f9cb3a066ef5dcfe8e2a6"
+        }
+      ]
+    }
+  ],
+  "bytes": 4900044
+}

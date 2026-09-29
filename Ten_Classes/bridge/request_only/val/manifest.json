@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-20T09:52:33",
+  "sources": [
+    {
+      "path": "Ten_Classes\\bridge\\bridge_val\\edit_30_bridge_val.json",
+      "sha256": "fb588a101f332b0fd7044ce1839ae9c765a7ad0d57ee5b36229a2de40f86c217"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Ten_Classes\\bridge\\request_only\\val\\edit_30_bridge_val_request_only.json",
+      "sha256": "3fc0b11ff62fa0f9b6fde2608bf4ecc257e6fa38b4d8ea433752d5bb6ae2f1af",
+      "sample_count": 30,
+      "metric_item_counts": {
+        "request": 30,
+        "generality.text_rephrase": 0,
+        "generality.image_rephrase": 0,
+        "locality.text_loc": 0,
+        "locality.image_loc": 0,
+        "portability.1hop": 0,
+        "portability.2hop": 0,
+        "portability.overall": 0
+      }
+    },
+    {
+      "path": "Ten_Classes\\bridge\\request_only\\val\\edit_30_bridge_val_full_metrics.json",
+      "sha256": "73208f9f93e9a8a216485a1ffac1d1023bdc733587691a10aa5ea0ddb6e9eb8f",
+      "sample_count": 30,
+      "metric_item_counts": {
+        "request": 30,
+        "generality.text_rephrase": 30,
+        "generality.image_rephrase": 36,
+        "locality.text_loc": 30,
+        "locality.image_loc": 30,
+        "portability.1hop": 32,
+        "portability.2hop": 30,
+        "portability.overall": 62
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "dataset": "mmke-entity",
+  "model": "blip2-opt-2.7b",
+  "method": "VisEdit-Contrib-Pre-KeyToken",
+  "rank_metric": "score_positive_key_token",
+  "smoothing_window": 3,
+  "lambda": 0.5,
+  "threshold_rule": "mean + lambda * std",
+  "threshold": 0.12542753372046586,
+  "high_layers": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "selected_region": [
+    23,
+    29
+  ],
+  "status": "done",
+  "failure_reason": ""
+}

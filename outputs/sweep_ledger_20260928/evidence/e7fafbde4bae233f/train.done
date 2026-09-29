@@ -1,0 +1,9 @@
+{
+  "layer": 4,
+  "status": "TRAIN_DONE",
+  "epoch": 39,
+  "i": 4173,
+  "loss": 0.3326064646244049,
+  "ema_loss": 0.3302342109873365,
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3117562/mmke-visual/paligemma-3b/layer_04/records/vead/paligemma-3b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-39-i-4173-ema_loss-0.3302"
+}

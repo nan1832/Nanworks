@@ -1,0 +1,4 @@
+source=/tmp/ph_teacher3/formal_top3_highmem_llava_job3126082_20260810/mmke-visual/llava-v1.5-7b/layer_15
+destination=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15
+synced_at=2026-08-11 11:57:38 CST
+selected=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260810/job3126082/mmke-visual/llava-v1.5-7b/layer_15/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L15-lr-1-t-1-v-1/checkpoints/epoch-40-i-4280-ema_loss-0.2311

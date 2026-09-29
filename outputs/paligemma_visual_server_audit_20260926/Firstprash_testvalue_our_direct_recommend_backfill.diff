@@ -1,0 +1,32 @@
+--- before/Firstprash_testvalue_our_direct_recommend.md
++++ D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md
+@@ -645,8 +645,18 @@
+ 
+ Ours Top-1：`L5`；Top-3：`L5,L4,L3`。
+ 
+-| 层 | 配置 | Ours标记 | Ckpt Epoch | Raw Loss | EMA Loss | Samples | Rel | T-Gen | M-Gen | T-Loc | M-Loc | Average | Train Status |
+-|---:|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
++**2026-09-26 服务器复核与 main 恢复评测：** main 原运行的 L1、L2、L6、L7、L13 已有完整50轮及293条评测，本次补齐漏记；L3、L5 原训练发生非有限梯度并被停滞监控终止，现已直接评测原 checkpoint，分别为30.540、62.544。当前 main 共16层有实际评测，其中13层训练完成50轮，L0/L3/L5为训练未完成的恢复评测。“已评测”不等于“已收敛”或“完成50轮”。stable 单列保留，不再以 stable 高分替换 main 低分；先前其他章节的覆盖统计属于历史快照，不据此自动增加完整50轮可比组数。详情见 `outputs/paligemma_visual_server_audit_20260926/PaliGemma_main停训原因与直接评测结果.md`。
++
++| 层 | 配置 | Ours标记 | Ckpt Epoch | Raw Loss | EMA Loss | Samples | Rel | T-Gen | M-Gen | T-Loc | M-Loc | Average | Train Status |
++|---:|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
++| L0 | main | — | 1 | 3465.718750 | 3508.007406 | 293 | 0.10 | 0.08 | 0.09 | 100.00 | 92.33 | 38.520 | EVAL_DONE_NONCONVERGENT_MAIN_RECOVERED_20260921；非完整50epoch |
++| L1 | main | — | 9 | 28.518827 | 30.787377 | 293 | 0.09 | 0.08 | 0.10 | 100.00 | 97.95 | 39.644 | TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录 |
++| L2 | main | — | 3 | 2.979825 | 1.682528 | 293 | 94.68 | 94.88 | 94.40 | 100.00 | 17.23 | 80.238 | TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录 |
++| L3 | main | Top-3 | 7 | 21.378290 | 22.591008 | 293 | 16.41 | 16.53 | 16.69 | 100.00 | 3.07 | 30.540 | EVAL_DONE_INCOMPLETE_NUMERIC_INSTABILITY_MAIN_RECOVERED_20260926；已保存27轮，非完整50epoch |
++| L5 | main | Top-1 | 1 | 8.847749 | 9.046796 | 293 | 55.51 | 55.68 | 56.14 | 100.00 | 45.39 | 62.544 | EVAL_DONE_INCOMPLETE_NUMERIC_INSTABILITY_MAIN_RECOVERED_20260926；已保存3轮，非完整50epoch |
++| L6 | main | — | 2 | 0.841218 | 1.231970 | 293 | 95.38 | 95.42 | 95.31 | 100.00 | 91.33 | 95.488 | TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录 |
++| L7 | main | — | 2 | 1.615333 | 1.543866 | 293 | 94.79 | 94.81 | 94.75 | 100.00 | 82.70 | 93.410 | TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录 |
++| L13 | main | — | 19 | 18.990540 | 18.644390 | 293 | 0.25 | 0.25 | 0.28 | 100.00 | 99.43 | 40.042 | TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录 |
+ | L0 | stable | — | - | - | - | 0 | - | - | - | - | - | - | FAILED_STABLE_L0_NONCONVERGENT_CKPT_WRITE_ERROR_NO_EVAL |
+ | L1 | stable | — | 49 | 0.334160 | 0.355574 | 293 | 97.76 | 97.70 | 96.65 | 100.00 | 98.39 | 98.10 | TRAIN_DONE_STABLE_JOB3044208 |
+ | L2 | stable | — | 44 | 0.346728 | 0.154633 | 293 | 99.34 | 99.35 | 97.65 | 100.00 | 96.00 | 98.47 | TRAIN_DONE_STABLE_JOB3044208 |
+@@ -656,7 +666,7 @@
+ | L6 | stable | — | 47 | 0.334160 | 0.348006 | 293 | 97.49 | 97.56 | 96.67 | 100.00 | 98.12 | 97.97 | TRAIN_DONE_STABLE_JOB3044208 |
+ | L7 | stable | — | 49 | 0.354043 | 0.352879 | 293 | 98.54 | 98.45 | 98.17 | 100.00 | 96.84 | 98.40 | TRAIN_DONE_STABLE_JOB3044208 |
+ | L8 | main | — | 2 | 3.971717 | 2.536566 | 293 | 95.13 | 95.16 | 95.19 | 100.00 | 70.96 | 91.29 | TRAIN_DONE_MAIN |
+-| L8 | main/legacy | — | 13 | 0.498305 | 0.587410 | 293 | 96.90 | 96.93 | 96.43 | 100.00 | 94.33 | 96.92 | TRAIN_DONE_MANUAL_EPOCH13 |
++| L8 | stable | — | 13 | 0.498305 | 0.587410 | 293 | 96.90 | 96.93 | 96.43 | 100.00 | 94.33 | 96.92 | TRAIN_DONE_MANUAL_EPOCH13 |
+ | L9 | main | — | 6 | 0.444634 | 0.517213 | 293 | 98.79 | 98.83 | 98.69 | 100.00 | 94.16 | 98.09 | TRAIN_DONE_MAIN |
+ | L9 | stable | — | 50 | 0.351273 | 0.358913 | 293 | 98.50 | 98.47 | 98.23 | 100.00 | 96.39 | 98.32 | TRAIN_DONE_STABLE |
+ | L10 | main | — | 24 | 0.343096 | 0.348760 | 293 | 98.97 | 98.98 | 98.91 | 100.00 | 98.42 | 99.06 | TRAIN_DONE_MAIN |

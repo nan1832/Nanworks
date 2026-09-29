@@ -1,0 +1,3 @@
+attempt,mode,stage,rc,start_time,end_time,log,note
+1,two_model_gpu,train,0,2026-08-02 21:21:50,2026-08-03 01:55:58,/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/logs/mmke-visual_minigpt-4-vicuna-7b_L9_retry_two_model_20260802_212150.log,
+final,two_model_gpu,eval,0,2026-08-03 01:55:58,2026-08-03 02:04:00,/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/logs/mmke-visual_minigpt-4-vicuna-7b_L9_retry_eval_20260802_212150.log,

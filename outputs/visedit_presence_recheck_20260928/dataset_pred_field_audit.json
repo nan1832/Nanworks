@@ -1,0 +1,20 @@
+[
+  {
+    "task": "visual",
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+    "sha256": "b8e8e53aaeb231df09cfcd5dd75fd2bd882d7d31dbd82e02625b10cd0be6edce",
+    "samples": 214,
+    "pred_missing": 0,
+    "pred_empty": 214,
+    "pred_nonempty": 0
+  },
+  {
+    "task": "entity",
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+    "sha256": "1c1ed7d25bbcfcf52ba315217970d33b09f36265e5742ef98567a04946b60edc",
+    "samples": 636,
+    "pred_missing": 0,
+    "pred_empty": 0,
+    "pred_nonempty": 636
+  }
+]

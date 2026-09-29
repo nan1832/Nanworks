@@ -1,0 +1,9 @@
+{
+  "layer": 2,
+  "status": "TRAIN_DONE",
+  "epoch": 46,
+  "i": 4922,
+  "loss": 0.36743274331092834,
+  "ema_loss": 0.4114225463580293,
+  "checkpoint": "/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-visual/smolvlm-1.7b/layer_02/records/vead/smolvlm-1.7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-46-i-4922-ema_loss-0.4114"
+}

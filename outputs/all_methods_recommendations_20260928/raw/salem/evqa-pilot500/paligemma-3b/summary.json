@@ -1,0 +1,29 @@
+{
+  "dataset_key": "evqa-pilot500",
+  "dataset": "EVQA-pilot500",
+  "model_key": "paligemma-3b",
+  "model": "PaliGemma-3B",
+  "formula": "S_l(D)=mean_samples(mean_abs(grad_W_l loss(prompt,image,target_new_alt)))",
+  "target_field": "request.target_new / alt",
+  "layer_type": "MLP/FFN parameters from configs/p_track mlp_module_tmp",
+  "num_layers": 18,
+  "total_samples": 500,
+  "ok_samples": 500,
+  "error_samples": 0,
+  "loss_mean": 11.128875,
+  "top3_layers": [
+    "L8",
+    "L7",
+    "L9"
+  ],
+  "top5_layers": [
+    "L8",
+    "L7",
+    "L9",
+    "L10",
+    "L6"
+  ],
+  "duration_sec": 90.49710702896118,
+  "scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/salem_candidate_layers_7models_3data_current_alloc_20260621_203335/evqa-pilot500/paligemma-3b/salem_layer_scores.csv",
+  "errors": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "reason": "recovered_after_synchronous_history_callback_omission",
+    "checkpoint_count": 50,
+    "minimum_rounded_ema": 0.26,
+    "tied_minimum_candidates_loaded": 1,
+    "selected": {
+      "layer": 10,
+      "status": "TRAIN_DONE",
+      "epoch": 36,
+      "i": 3852,
+      "loss": 0.24701379239559174,
+      "ema_loss": 0.2600446514188739,
+      "checkpoint": "/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-visual/minigpt-4-vicuna-7b/layer_10/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L10-lr-1-t-1-v-1/checkpoints/epoch-36-i-3852-ema_loss-0.2600"
+    },
+    "selected_sha256": "6c4017f29ee2e95d49ad14842e676e5589572ce5ddb5f7ae1fb5ceaec0d4b3b0"
+  },
+  {
+    "reason": "recovered_after_synchronous_history_callback_omission",
+    "checkpoint_count": 50,
+    "minimum_rounded_ema": 0.2725,
+    "tied_minimum_candidates_loaded": 1,
+    "selected": {
+      "layer": 11,
+      "status": "TRAIN_DONE",
+      "epoch": 39,
+      "i": 4173,
+      "loss": 0.2872273325920105,
+      "ema_loss": 0.2724694735434625,
+      "checkpoint": "/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-visual/minigpt-4-vicuna-7b/layer_11/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L11-lr-1-t-1-v-1/checkpoints/epoch-39-i-4173-ema_loss-0.2725"
+    },
+    "selected_sha256": "1aeb741f4cb10fa75debce8cd565e8784a31125d67c1fc5aea0344b2f7d1a618"
+  }
+]

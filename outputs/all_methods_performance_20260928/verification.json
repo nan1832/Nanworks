@@ -1,0 +1,26 @@
+{
+  "original_variants": 31,
+  "total_variants": 34,
+  "original_recommendation_rows": 624,
+  "total_recommendation_rows": 680,
+  "formula_ready": 442,
+  "formula_pending": 238,
+  "outcome_rows": 433,
+  "recipe_counts": {
+    "main": 396,
+    "main-rerun": 1,
+    "stable": 36
+  },
+  "policy_outcome_counts": {
+    "observed_main": 396,
+    "main_without_flagged": 389,
+    "verified50_main": 252,
+    "stable_only": 36
+  },
+  "performance_rows": 8160,
+  "pairwise_rows": 40934,
+  "correlation_rows": 10608,
+  "all_registered_top3_preserved": true,
+  "no_missing_outcome_imputed": true,
+  "no_recipe_mixing": true
+}

@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "dataset": "mmke-visual",
+  "model": "paligemma-3b",
+  "processed": 214,
+  "total": 214,
+  "failures": 0,
+  "elapsed_seconds": 120.88534092903137,
+  "job_id": "3443209"
+}

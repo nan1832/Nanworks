@@ -1,0 +1,130 @@
+{
+  "primary": {
+    "samples": 955,
+    "main": {
+      "Rel": 56.708813587408414,
+      "T-Gen": 56.529106809830786,
+      "M-Gen": 56.657071378842694,
+      "T-Loc": 100.0,
+      "M-Loc": 72.38326467456618,
+      "Average": 68.45565129012962
+    },
+    "additional": {
+      "associated_text": {
+        "count": 1910,
+        "token_accuracy": 0.250229024321465,
+        "exact_match": 0.009947643979057591,
+        "token_f1": 0.12599761154994332
+      },
+      "associated_image": {
+        "count": 1910,
+        "token_accuracy": 0.25106047440651824,
+        "exact_match": 0.008376963350785341,
+        "token_f1": 0.13864795608867056
+      },
+      "portability/1-hop": {
+        "count": 955,
+        "token_accuracy": 0.2526706440052437,
+        "exact_match": 0.014659685863874346,
+        "token_f1": 0.1703026754543063
+      }
+    }
+  },
+  "coverage_strata": {
+    "with_real_neighbors": {
+      "samples": 21,
+      "main": {
+        "Rel": 60.09798319566817,
+        "T-Gen": 60.03113545122601,
+        "M-Gen": 59.79692751453036,
+        "T-Loc": 100.0,
+        "M-Loc": 70.98639465513683,
+        "Average": 70.18248816331229
+      },
+      "additional": {
+        "associated_text": {
+          "count": 42,
+          "token_accuracy": 0.2615079388377212,
+          "exact_match": 0.0,
+          "token_f1": 0.054875283446712025
+        },
+        "associated_image": {
+          "count": 42,
+          "token_accuracy": 0.2371794886532284,
+          "exact_match": 0.0,
+          "token_f1": 0.08472876330019187
+        },
+        "portability/1-hop": {
+          "count": 21,
+          "token_accuracy": 0.19861884202275956,
+          "exact_match": 0.0,
+          "token_f1": 0.07940648723257418
+        }
+      }
+    },
+    "without_real_neighbors": {
+      "samples": 934,
+      "main": {
+        "Rel": 56.632611701141336,
+        "T-Gen": 56.4503674078294,
+        "M-Gen": 56.5864750417448,
+        "T-Loc": 100.0,
+        "M-Loc": 72.41467181633065,
+        "Average": 68.41682519340924
+      },
+      "additional": {
+        "associated_text": {
+          "count": 1868,
+          "token_accuracy": 0.2499754298837333,
+          "exact_match": 0.010171306209850108,
+          "token_f1": 0.12759672171072262
+        },
+        "associated_image": {
+          "count": 1868,
+          "token_accuracy": 0.25137257365793053,
+          "exact_match": 0.008565310492505354,
+          "token_f1": 0.13986027198648435
+        },
+        "portability/1-hop": {
+          "count": 934,
+          "token_accuracy": 0.2538859414802246,
+          "exact_match": 0.014989293361884369,
+          "token_f1": 0.17234637990040524
+        }
+      }
+    },
+    "without_edit_roots": {
+      "samples": 28,
+      "main": {
+        "Rel": 54.87413842763219,
+        "T-Gen": 55.117857243333546,
+        "M-Gen": 55.33193190182958,
+        "T-Loc": 100.0,
+        "M-Loc": 72.82312948788915,
+        "Average": 67.62941141213689
+      },
+      "additional": {
+        "associated_text": {
+          "count": 56,
+          "token_accuracy": 0.24744898213871888,
+          "exact_match": 0.0,
+          "token_f1": 0.09119897959183675
+        },
+        "associated_image": {
+          "count": 56,
+          "token_accuracy": 0.30843254338417736,
+          "exact_match": 0.0,
+          "token_f1": 0.12519841269841273
+        },
+        "portability/1-hop": {
+          "count": 28,
+          "token_accuracy": 0.21867656441671507,
+          "exact_match": 0.0,
+          "token_f1": 0.1282018794213916
+        }
+      }
+    }
+  },
+  "scoring": "Teacher-forced masked main/additional metrics; not free generation",
+  "parameter_updates": 0
+}

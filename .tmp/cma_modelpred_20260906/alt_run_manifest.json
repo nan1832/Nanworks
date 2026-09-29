@@ -1,0 +1,91 @@
+{
+  "schema_version": "cma-formal-multinoise-v1",
+  "stage": "formal636_complete",
+  "files": [
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/config_frozen.yaml",
+      "bytes": 1375,
+      "sha256": "eb006466a1282ebd3d82703e38a0552337d1c18a31e92d84a7125f220ef7cb85"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/code_version.txt",
+      "bytes": 985,
+      "sha256": "91476230f426058e7bb23fa8ddcacd334ffacc590bcccfeec1122e42a3a6c69c"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/sample_manifest.json",
+      "bytes": 10342,
+      "sha256": "44b5a0d83cb8583488af8ff4080536321de867b5cf6f2b71b46bd7010d2fa372"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/sample_manifest.sha256",
+      "bytes": 87,
+      "sha256": "2c9a957d8ed3e7cbc6ceef435572fa9cd27b85a3a831d80437392b1d7f73fa44"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_corruption_pairs.csv",
+      "bytes": 1619205,
+      "sha256": "ba72522b3fbc628364a4f00dfd889bfdd601f62b3153f48bcc7563a0c07e0280"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_restore_long.csv",
+      "bytes": 1056580,
+      "sha256": "fa70e4f3ea247c244d29ccce5b0faccd4aa236334afc89f004103322d4a4e81d"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_sample_alpha_seed_long.csv",
+      "bytes": 1794792,
+      "sha256": "f82b66c12ca569c17093addef555373c6008a475a92c3cb444842069f3ab1852"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_alpha_seed_coverage_summary.csv",
+      "bytes": 4895,
+      "sha256": "492a71174524721de7fc38b7d055657c907eaae989212e23083ad7a9047d07e1"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_layer_alpha_seed_scores.csv",
+      "bytes": 78743,
+      "sha256": "3c7c5e84ec7f589bd960ac19fc9a012e4515f837630cb06016f0f21ce50ef58f"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_candidate_stability.csv",
+      "bytes": 1629,
+      "sha256": "fd34eab74bb76ca67312901699037702630c760c1ae04e0e18c62fea291d26d0"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_candidate_frequency.csv",
+      "bytes": 1251,
+      "sha256": "e27c6f4a908f1417ee1e1659f637828e5feff826311f7a2b9272462e58da1946"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_formal_top3_top5.json",
+      "bytes": 1776,
+      "sha256": "31f1663d965b65a9878219e747a8c08dc2b6f05f7177cd2797c943483300f3be"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_coverage_summary.json",
+      "bytes": 1576,
+      "sha256": "69526ed466054fa4e3bc0f3d46d1332c67b67ddc589974df1add7c6ba4aa573d"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_v0_vs_formal_comparison.md",
+      "bytes": 897,
+      "sha256": "936d386a007f06b4a9a13e237c6c61314c51fa931b419e2e13ca28bb581304ce"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/cma_formal_report.md",
+      "bytes": 1141,
+      "sha256": "892691d93d0ac938012af0e4fa5ea6fd7d3bd595c31b47eece511ac6dd09191f"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/runner_summary_raw.json",
+      "bytes": 1508,
+      "sha256": "ff4584a13e5492b0b76f19f6092229a868e2b4975e5d5477c36730541c53c6a8"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_formal_multinoise_multiseed_v1_20260906/formal636/canonical/summary.json",
+      "bytes": 1625,
+      "sha256": "e39de54a9d0c42a4cd66838728efae0017800e31aee8d7f8caa05886e31a8d3f"
+    }
+  ]
+}

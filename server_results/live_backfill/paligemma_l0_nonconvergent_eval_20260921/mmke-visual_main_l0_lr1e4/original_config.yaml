@@ -1,0 +1,26 @@
+IT:
+  add_it: true
+  layers:
+  - 13
+  - 14
+  - 15
+  - 16
+  mid_dim: 1024
+  noise_level: 0.7
+  test_n: 1
+  vt_sample_n: 24
+  window: 0
+adaptor_cross_att_head_n: 8
+adaptor_mid_dim: 1024
+edit_layers:
+- 0
+edit_model_name: paligemma-3b
+llm_att_tmp: language_model.model.layers.{}.self_attn
+llm_hidden_size: 2048
+llm_layer_tmp: language_model.model.layers.{}
+train_cfg:
+  gen_lambda: 1
+  inf_mapper_lambda: 0.1
+  loc_lambda: 1
+  lr: 0.0001
+  rel_lambda: 1

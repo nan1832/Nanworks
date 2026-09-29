@@ -1,0 +1,14 @@
+{
+  "eligible": {
+    "sha": "53ea6cbf99036388b519a3c763e24d51afa72345ac466344e336b7d14dcd4b2f",
+    "crlf": 0
+  },
+  "plan": {
+    "sha": "87f132a1df0615c1ed5e0e1566f07ae9a150c12482b7b50bf4bcdf6a4b5bac31",
+    "crlf": 0
+  },
+  "controller": {
+    "sha": "67805f4cf2658eef1ed2a921953afecd2f18af382de0d68838961be217cb3a71",
+    "crlf": 134
+  }
+}

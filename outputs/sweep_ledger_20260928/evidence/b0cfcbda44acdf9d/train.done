@@ -1,0 +1,9 @@
+{
+  "layer": 7,
+  "status": "TRAIN_DONE",
+  "epoch": 35,
+  "i": 3745,
+  "loss": 0.21481718122959137,
+  "ema_loss": 0.2868477926241469,
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mmke_visual_llava_sharedgpu_job3117562_20260730/llava-v1.5-7b/layer_07/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L07-lr-1-t-1-v-1/checkpoints/epoch-35-i-3745-ema_loss-0.2868"
+}

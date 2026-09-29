@@ -1,0 +1,51 @@
+{
+  "time": "2026-09-29T07:45:15.922395+08:00",
+  "state": {
+    "time": "2026-09-29T07:43:48+0800",
+    "state": "RUNNING_THREE_VARIANTS",
+    "node": "g09",
+    "job": "3443209",
+    "pid": 2500705,
+    "child_pid": 2501972,
+    "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/variants_smolvlm-1.7b.log",
+    "command": [
+      "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/repair_20260929/run_visual_track_targets_20260929_inputfix.py",
+      "--project",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main",
+      "--out",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results",
+      "--model",
+      "smolvlm-1.7b"
+    ],
+    "model": "smolvlm-1.7b",
+    "verified_groups": 15,
+    "resume_checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171"
+  },
+  "saved_samples": 34,
+  "progress": {
+    "status": "running",
+    "dataset": "evqa-pilot500",
+    "model": "smolvlm-1.7b",
+    "processed": 26,
+    "total": 500,
+    "failures": 0,
+    "elapsed_seconds": 21.440084218978882,
+    "job_id": "3443209"
+  },
+  "first_sample_status": "ok",
+  "variants": {
+    "none": {
+      "status": "ok",
+      "layers": 24
+    },
+    "alt": {
+      "status": "ok",
+      "layers": 24
+    },
+    "model_pred": {
+      "status": "ok",
+      "layers": 24
+    }
+  }
+}

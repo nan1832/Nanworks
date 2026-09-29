@@ -1,0 +1,10 @@
+{
+  "existing_method_sections_1_to_6_unchanged": true,
+  "sweep_sections_3_to_6_unchanged": true,
+  "valid_local_links": 15,
+  "strict_ablation_cells_unfilled_without_results": true,
+  "cohort_audit_passed": 42,
+  "local_stat_tests": 5,
+  "local_import_tests": 4,
+  "cpu_tensor_comparisons": 16
+}

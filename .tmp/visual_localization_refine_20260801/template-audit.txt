@@ -1,0 +1,26 @@
+Reference deck: C:\Users\zhoun\Desktop\mywork\ppt\视觉编辑层定位1.pptx
+Slides inspected: 90/90
+Slide size: 960 x 540 pt (16:9)
+Master/layout: one master; dominant layout is Title and Content.
+
+Reusable visual patterns:
+- White evidence slide: 36 pt title, Microsoft YaHei/Arial, dark navy text, generous margins.
+- Pale-blue evidence slide: #F6F8FC background for method explanation and comparison.
+- Teal section slide: #A9E9E4 background with 36 pt title and 18 pt body.
+- Detailed scientific workflow images on source slides 12, 28, and 33.
+- Wide evaluation tables and dataset/model evidence pages on source slides 55–60.
+
+Typography and spacing rules:
+- Title: 36 pt, Microsoft YaHei (Far East), Arial fallback.
+- Body: 18 pt, dark gray.
+- Main slide frame: approximately 48 pt left/right, 48 pt title top, content begins near 118 pt.
+- Accent colors follow the reference diagrams: blue, teal/green, orange, violet on white or pale-blue.
+
+Insertion contract:
+- Every output slide is inserted from a mapped source slide.
+- Source titles/placeholders are rewritten or explicitly deleted.
+- Source pictures on mapped slides 12/28/33 are intentionally retained and reframed.
+- No original source slide is modified in place; output is a new PPTX.
+
+Template runtime note:
+- The bundled artifact-tool package is absent from the local runtime, so exact cloning/editing is performed through native PowerPoint COM while preserving the source master/layout. The final PPTX is verified in WPS.

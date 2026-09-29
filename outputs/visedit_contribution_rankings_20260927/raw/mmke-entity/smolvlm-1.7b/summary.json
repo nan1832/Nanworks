@@ -1,0 +1,40 @@
+{
+  "dataset": "mmke-entity",
+  "model": "smolvlm-1.7b",
+  "method": "VisEdit-Contrib-Pre-KeyToken",
+  "key_mode": "dataset_key_token",
+  "valid_sample_count": 636,
+  "total_sample_count": 636,
+  "generic_key_token_ratio": 0.0,
+  "fallback_key_token_ratio": 0.0,
+  "top3_direct_layers": [
+    20,
+    21,
+    19
+  ],
+  "top5_direct_layers": [
+    20,
+    21,
+    19,
+    22,
+    23
+  ],
+  "high_contribution_region": [
+    19,
+    22
+  ],
+  "top3_pre_layers": [
+    18,
+    17,
+    16
+  ],
+  "top5_pre_layers": [
+    18,
+    17,
+    16,
+    15,
+    14
+  ],
+  "status": "done",
+  "failure_reason": ""
+}

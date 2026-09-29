@@ -1,0 +1,140 @@
+{
+  "server_archive": "complete",
+  "server_cleanup": "complete",
+  "checkpoint_sha256": "1d68657620140b5c3c4ecf3cdf618b9b23d7b6d5b1a170ec902ab52554743871",
+  "archive_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_25",
+  "audit_manifest_sha256": "88b71ac6f5ab6de00bcc5e963e9497e3ca2626fa436b6f3d7f1ee03fa635d204",
+  "tmp_g08_before_bytes": 49559048192,
+  "tmp_g08_after_bytes": 24781967360,
+  "observed_reduction_bytes": 24777080832,
+  "note_disk_delta": "before/after may include concurrent L0 log/checkpoint writes; exact deletion manifest retained",
+  "deleted_files": 2011,
+  "deleted_apparent_bytes": 24774972846,
+  "tmp_g07_after_bytes": 36829466624,
+  "other_formal_tmp_copies": [
+    {
+      "node": "g08",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3150065_20260812/evqa-pilot500/llava-v1.5-7b/layer_24",
+      "disk_bytes": 5136384,
+      "shared_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3150065/evqa-pilot500/llava-v1.5-7b/layer_24",
+      "shared_sync": true
+    },
+    {
+      "node": "g07",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_26",
+      "disk_bytes": 5124096,
+      "shared_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/mmke-entity/llava-v1.5-7b/layer_26",
+      "shared_sync": true
+    },
+    {
+      "node": "g07",
+      "path": "/tmp/ph_teacher3/formal_top3_stage2_job3126082_20260812/mmke-entity/llava-v1.5-7b/layer_23",
+      "disk_bytes": 5136384,
+      "shared_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_stage2_20260812/job3126082/mmke-entity/llava-v1.5-7b/layer_23",
+      "shared_sync": true
+    }
+  ],
+  "eta": {
+    "remaining_epochs_at_0854": 16,
+    "last5_epoch_hours": [
+      2.9466666666666668,
+      2.9133333333333336,
+      2.6275,
+      4.049166666666666,
+      3.749722222222222
+    ],
+    "remaining_hours_range": [
+      42,
+      65
+    ],
+    "central_hours_approx": 47,
+    "includes_eval": false
+  },
+  "local_extra_copy_status": "incomplete: SSH timed out after shared archive, cleanup and server postcheck succeeded",
+  "local_copy_files": [
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\train.done",
+      "verified": true
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\selected_checkpoint.tsv",
+      "verified": true
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\eval_full.done",
+      "verified": true
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\eval_full\\vead\\llava-v1.5-7b\\EVQA_full_test_pilot500_blip2_visedit_L25\\single_edit\\results.json",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\ARCHIVE_MANIFEST.json",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\loss_history.csv",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\SYNC_VERIFIED",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\provenance\\launch_formal_top3_stage2_20260812.sh",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\provenance\\snapshot_layer_status.csv",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\provenance\\snapshot_queue.status.log",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\provenance\\run_mmke_llava_shared_gpu_sweep.py",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\provenance\\snapshot_run_config.json",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\provenance\\source_metadata\\eval_full.done",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\provenance\\source_metadata\\selected_checkpoint.tsv",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\provenance\\source_metadata\\train.done",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\provenance\\logs\\evqa-pilot500_llava-v1.5-7b_L25_train_20260906_121304.log",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\provenance\\logs\\evqa-pilot500_llava-v1.5-7b_L25_eval_20260906_121304.log",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\eval_full\\vead\\llava-v1.5-7b\\EVQA_full_test_pilot500_blip2_visedit_L25\\single_edit\\mean_results.json",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\records\\vead\\llava-v1.5-7b\\pilot500_blip2_visedit_L25-lr-1-t-1-v-1\\config.yaml",
+      "verified": false
+    },
+    {
+      "path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\server_results\\live_backfill\\archived_job3178538_20260915\\evqa-pilot500\\llava-v1.5-7b\\layer_25.partial\\records\\vead\\llava-v1.5-7b\\pilot500_blip2_visedit_L25-lr-1-t-1-v-1\\logs\\events.out.tfevents.1788669385.g08.2908345.0",
+      "verified": false
+    }
+  ],
+  "latest_server_postcheck": {
+    "g08": "2026-09-15T08:59:29.659704+08:00",
+    "g07": "2026-09-15T08:59:29.099482+08:00"
+  }
+}

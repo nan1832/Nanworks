@@ -1,0 +1,191 @@
+[
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\evqa-pilot500\\blip2-opt-2.7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "evqa-pilot500",
+    "model_key": "blip2-opt-2.7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\evqa-pilot500\\instructblip-vicuna-7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "evqa-pilot500",
+    "model_key": "instructblip-vicuna-7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\evqa-pilot500\\llava-v1.5-7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "evqa-pilot500",
+    "model_key": "llava-v1.5-7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\evqa-pilot500\\minigpt-4-vicuna-7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "evqa-pilot500",
+    "model_key": "minigpt-4-vicuna-7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\evqa-pilot500\\paligemma-3b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "evqa-pilot500",
+    "model_key": "paligemma-3b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\evqa-pilot500\\qwen2.5-vl-3b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "evqa-pilot500",
+    "model_key": "qwen2.5-vl-3b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\evqa-pilot500\\smolvlm-1.7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "evqa-pilot500",
+    "model_key": "smolvlm-1.7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-entity\\blip2-opt-2.7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-entity",
+    "model_key": "blip2-opt-2.7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-entity\\instructblip-vicuna-7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-entity",
+    "model_key": "instructblip-vicuna-7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-entity\\llava-v1.5-7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-entity",
+    "model_key": "llava-v1.5-7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-entity\\minigpt-4-vicuna-7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-entity",
+    "model_key": "minigpt-4-vicuna-7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-entity\\paligemma-3b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-entity",
+    "model_key": "paligemma-3b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-entity\\qwen2.5-vl-3b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-entity",
+    "model_key": "qwen2.5-vl-3b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-entity\\smolvlm-1.7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-entity",
+    "model_key": "smolvlm-1.7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-visual\\blip2-opt-2.7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-visual",
+    "model_key": "blip2-opt-2.7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-visual\\instructblip-vicuna-7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-visual",
+    "model_key": "instructblip-vicuna-7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-visual\\llava-v1.5-7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-visual",
+    "model_key": "llava-v1.5-7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-visual\\minigpt-4-vicuna-7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-visual",
+    "model_key": "minigpt-4-vicuna-7b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-visual\\paligemma-3b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-visual",
+    "model_key": "paligemma-3b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-visual\\qwen2.5-vl-3b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-visual",
+    "model_key": "qwen2.5-vl-3b"
+  },
+  {
+    "path": "outputs\\all_methods_recommendations_20260928\\raw\\perturb\\mmke-visual\\smolvlm-1.7b\\summary.json",
+    "method": "Perturb-KL-Direct",
+    "score_source": "visual_token_noise_altseq_kl",
+    "target_sequence": "complete alt sequence",
+    "status": "done",
+    "dataset_key": "mmke-visual",
+    "model_key": "smolvlm-1.7b"
+  }
+]

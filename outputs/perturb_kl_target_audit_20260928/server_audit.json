@@ -1,0 +1,1066 @@
+{
+  "server_time": "2026-09-28T20:11:30.420942+08:00",
+  "roots": [
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/eval_results",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/records",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/server_results",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/eval_results",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/records",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/custom_runs",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/tmp",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/trae"
+  ],
+  "excluded_directory_names": [
+    ".git",
+    "__pycache__",
+    "checkpoint",
+    "checkpoints",
+    "ckpts",
+    "data",
+    "datasets",
+    "envs",
+    "hf_cache",
+    "images",
+    "models",
+    "node_modules",
+    "samples"
+  ],
+  "files_examined": 49879,
+  "metadata_examined": 870,
+  "metadata": [
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/summary.json",
+      "sha256": "3902c3e1694d6b422609b9b30fd8dfe21f4d19e53196578579ecba07f2994cc8",
+      "fields": {
+        "dataset_key": "mmke-entity",
+        "dataset": "MMKE-entity",
+        "model_key": "paligemma-3b",
+        "model": "PaliGemma-3B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 636,
+        "base_valid_sample_count": 636,
+        "common_valid_sample_count": 636,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/qwen2.5-vl-3b/summary.json",
+      "sha256": "9b15dcc4018f9a007cdbf536f7369b73ecd87b7578ddc8c39ac402a099ab499e",
+      "fields": {
+        "dataset_key": "mmke-entity",
+        "dataset": "MMKE-entity",
+        "model_key": "qwen2.5-vl-3b",
+        "model": "Qwen2.5-VL-3B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 636,
+        "base_valid_sample_count": 636,
+        "common_valid_sample_count": 636,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/llava-v1.5-7b/summary.json",
+      "sha256": "f1ddf1c865f185d540b93b2ea83180eeb5930fbf1ca132cf493cebe5b7aea0a4",
+      "fields": {
+        "dataset_key": "mmke-entity",
+        "dataset": "MMKE-entity",
+        "model_key": "llava-v1.5-7b",
+        "model": "LLaVA-v1.5-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 636,
+        "base_valid_sample_count": 636,
+        "common_valid_sample_count": 636,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/instructblip-vicuna-7b/summary.json",
+      "sha256": "3747c2a2befbee076f276f3dbe567bc006a4ae0f74aea21f9661f246a7178763",
+      "fields": {
+        "dataset_key": "mmke-entity",
+        "dataset": "MMKE-entity",
+        "model_key": "instructblip-vicuna-7b",
+        "model": "InstructBLIP-Vicuna-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 636,
+        "base_valid_sample_count": 636,
+        "common_valid_sample_count": 636,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/blip2-opt-2.7b/summary.json",
+      "sha256": "baacedb7acae6770c7d01789b7bf62e77c5ee511d95205574eeb8f42cabeafe4",
+      "fields": {
+        "dataset_key": "mmke-entity",
+        "dataset": "MMKE-entity",
+        "model_key": "blip2-opt-2.7b",
+        "model": "BLIP2-OPT-2.7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 636,
+        "base_valid_sample_count": 636,
+        "common_valid_sample_count": 636,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "ee5fda6da4be1b265cb7c4e5fe2c87f1972f7c857a34586a6046e1731b032be2",
+      "fields": {
+        "dataset_key": "mmke-entity",
+        "dataset": "MMKE-entity",
+        "model_key": "minigpt-4-vicuna-7b",
+        "model": "MiniGPT-4-Vicuna-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 636,
+        "base_valid_sample_count": 636,
+        "common_valid_sample_count": 636,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/smolvlm-1.7b/summary.json",
+      "sha256": "b9819e2aef3109bb157206d7f78b116d0d352dcc9f85fdfd178eef9d198fe291",
+      "fields": {
+        "dataset_key": "mmke-entity",
+        "dataset": "MMKE-entity",
+        "model_key": "smolvlm-1.7b",
+        "model": "SmolVLM-Instruct-1.7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 636,
+        "base_valid_sample_count": 636,
+        "common_valid_sample_count": 636,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/paligemma-3b/summary.json",
+      "sha256": "b3a9a69a38cf49fd9a86a7c1196a3b8d96ccff2fc7f48714300496887114a858",
+      "fields": {
+        "dataset_key": "mmke-visual",
+        "dataset": "MMKE-visual",
+        "model_key": "paligemma-3b",
+        "model": "PaliGemma-3B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 214,
+        "base_valid_sample_count": 214,
+        "common_valid_sample_count": 214,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/qwen2.5-vl-3b/summary.json",
+      "sha256": "690bc4629c36511ea5f197197c805f5ec7118d1cef8eadbc55b8aa2e285a16d8",
+      "fields": {
+        "dataset_key": "mmke-visual",
+        "dataset": "MMKE-visual",
+        "model_key": "qwen2.5-vl-3b",
+        "model": "Qwen2.5-VL-3B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 214,
+        "base_valid_sample_count": 214,
+        "common_valid_sample_count": 214,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/llava-v1.5-7b/summary.json",
+      "sha256": "1160401f9db566c884b1b90903e7e198065a90debca7cd6277b1f12a87127be7",
+      "fields": {
+        "dataset_key": "mmke-visual",
+        "dataset": "MMKE-visual",
+        "model_key": "llava-v1.5-7b",
+        "model": "LLaVA-v1.5-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 214,
+        "base_valid_sample_count": 214,
+        "common_valid_sample_count": 214,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/instructblip-vicuna-7b/summary.json",
+      "sha256": "b11e30e0bf5ea4228b45d2303dfab00f8e9562ca3a6f4ee45a9cc7bdd006f82d",
+      "fields": {
+        "dataset_key": "mmke-visual",
+        "dataset": "MMKE-visual",
+        "model_key": "instructblip-vicuna-7b",
+        "model": "InstructBLIP-Vicuna-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 214,
+        "base_valid_sample_count": 214,
+        "common_valid_sample_count": 214,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/blip2-opt-2.7b/summary.json",
+      "sha256": "c1f816d8a46c36cbc9fc7b43033c2c458f196f5441064fbbdca2ccea2c19ec1d",
+      "fields": {
+        "dataset_key": "mmke-visual",
+        "dataset": "MMKE-visual",
+        "model_key": "blip2-opt-2.7b",
+        "model": "BLIP2-OPT-2.7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 214,
+        "base_valid_sample_count": 214,
+        "common_valid_sample_count": 214,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "68ade4aea30a987d3dac628c7aaf7bc4d3c18aba84f2ad55eff7cef9afe8e2a7",
+      "fields": {
+        "dataset_key": "mmke-visual",
+        "dataset": "MMKE-visual",
+        "model_key": "minigpt-4-vicuna-7b",
+        "model": "MiniGPT-4-Vicuna-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 214,
+        "base_valid_sample_count": 214,
+        "common_valid_sample_count": 214,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/smolvlm-1.7b/summary.json",
+      "sha256": "4855923641f28a22bdc19cb47a6f3997f57cdf5fa687c3d08f5e849e30f31bd9",
+      "fields": {
+        "dataset_key": "mmke-visual",
+        "dataset": "MMKE-visual",
+        "model_key": "smolvlm-1.7b",
+        "model": "SmolVLM-Instruct-1.7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 214,
+        "base_valid_sample_count": 214,
+        "common_valid_sample_count": 214,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/paligemma-3b/summary.json",
+      "sha256": "a5c90b59a8c9f5c0cb7c2bcad7d8bf13e7ee06d9c253564da678442a1be4f234",
+      "fields": {
+        "dataset_key": "evqa-pilot500",
+        "dataset": "EVQA-pilot500",
+        "model_key": "paligemma-3b",
+        "model": "PaliGemma-3B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 500,
+        "base_valid_sample_count": 500,
+        "common_valid_sample_count": 500,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/qwen2.5-vl-3b/summary.json",
+      "sha256": "16b7a811f06585b998be5c8f6a4214bd0300592cac0eda27a9609d0d8441f4d5",
+      "fields": {
+        "dataset_key": "evqa-pilot500",
+        "dataset": "EVQA-pilot500",
+        "model_key": "qwen2.5-vl-3b",
+        "model": "Qwen2.5-VL-3B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 500,
+        "base_valid_sample_count": 500,
+        "common_valid_sample_count": 500,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/llava-v1.5-7b/summary.json",
+      "sha256": "0351006a71627dff7ada8b6e972cf00c894be19592adde42b23db2f2a9e28e21",
+      "fields": {
+        "dataset_key": "evqa-pilot500",
+        "dataset": "EVQA-pilot500",
+        "model_key": "llava-v1.5-7b",
+        "model": "LLaVA-v1.5-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 500,
+        "base_valid_sample_count": 500,
+        "common_valid_sample_count": 500,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/instructblip-vicuna-7b/summary.json",
+      "sha256": "f2056504f278340d5c9ed36fa4f3002f962adc08b835b43b136fa1be295c5755",
+      "fields": {
+        "dataset_key": "evqa-pilot500",
+        "dataset": "EVQA-pilot500",
+        "model_key": "instructblip-vicuna-7b",
+        "model": "InstructBLIP-Vicuna-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 500,
+        "base_valid_sample_count": 500,
+        "common_valid_sample_count": 500,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/blip2-opt-2.7b/summary.json",
+      "sha256": "41df96412824ae4ca9f1236a9aa43ba61e06eb3eed2634661d390ddb943f2e91",
+      "fields": {
+        "dataset_key": "evqa-pilot500",
+        "dataset": "EVQA-pilot500",
+        "model_key": "blip2-opt-2.7b",
+        "model": "BLIP2-OPT-2.7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 500,
+        "base_valid_sample_count": 500,
+        "common_valid_sample_count": 500,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "03b114c3da2ae5615465d31b5c2d99b776860d5bb4cf650ce264a5166384deab",
+      "fields": {
+        "dataset_key": "evqa-pilot500",
+        "dataset": "EVQA-pilot500",
+        "model_key": "minigpt-4-vicuna-7b",
+        "model": "MiniGPT-4-Vicuna-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 500,
+        "base_valid_sample_count": 500,
+        "common_valid_sample_count": 500,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/smolvlm-1.7b/summary.json",
+      "sha256": "daf7bd360b57319271d8dbf9064035e86582e9ee73c3860d6a184d1a36fc50de",
+      "fields": {
+        "dataset_key": "evqa-pilot500",
+        "dataset": "EVQA-pilot500",
+        "model_key": "smolvlm-1.7b",
+        "model": "SmolVLM-Instruct-1.7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 500,
+        "base_valid_sample_count": 500,
+        "common_valid_sample_count": 500,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/blip2-opt-2.7b/summary.json",
+      "sha256": "41df96412824ae4ca9f1236a9aa43ba61e06eb3eed2634661d390ddb943f2e91",
+      "fields": {
+        "dataset_key": "evqa-pilot500",
+        "dataset": "EVQA-pilot500",
+        "model_key": "blip2-opt-2.7b",
+        "model": "BLIP2-OPT-2.7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 500,
+        "base_valid_sample_count": 500,
+        "common_valid_sample_count": 500,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/instructblip-vicuna-7b/summary.json",
+      "sha256": "f2056504f278340d5c9ed36fa4f3002f962adc08b835b43b136fa1be295c5755",
+      "fields": {
+        "dataset_key": "evqa-pilot500",
+        "dataset": "EVQA-pilot500",
+        "model_key": "instructblip-vicuna-7b",
+        "model": "InstructBLIP-Vicuna-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 500,
+        "base_valid_sample_count": 500,
+        "common_valid_sample_count": 500,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "03b114c3da2ae5615465d31b5c2d99b776860d5bb4cf650ce264a5166384deab",
+      "fields": {
+        "dataset_key": "evqa-pilot500",
+        "dataset": "EVQA-pilot500",
+        "model_key": "minigpt-4-vicuna-7b",
+        "model": "MiniGPT-4-Vicuna-7B",
+        "method": "Perturb-KL-Direct",
+        "score_source": "visual_token_noise_altseq_kl",
+        "target_sequence": "complete alt sequence",
+        "manifest_sample_count": 500,
+        "base_valid_sample_count": 500,
+        "common_valid_sample_count": 500,
+        "per_layer_processed_count_consistent": true,
+        "valid_alpha_repeat_count": 12,
+        "invalid_alpha_repeat_count": 0,
+        "status": "done",
+        "excluded_sample_count": 0
+      },
+      "done_marker": true,
+      "has_layer_scores": true
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/resume_handoffs/evqa_llava_job3178538_20260924_1340/manifest.json",
+      "sha256": "b309e79566a50622b447e392919d04bc5d72c78c077a707ff429a0af8ea9c994",
+      "fields": {},
+      "done_marker": false,
+      "has_layer_scores": false
+    }
+  ],
+  "scripts": [
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/scripts/run_perturb_kl_direct_candidate_layers.py",
+      "sha256": "e09d30f5409eba5a9727f94a4a6f04b74fe555ca5939c948d65c5f4d576bf9d7",
+      "matches": [
+        {
+          "line": 31,
+          "text": "SCORE_SOURCE = \"visual_token_noise_altseq_kl\""
+        },
+        {
+          "line": 174,
+          "text": "                    \"target_new\": row[\"alt\"],"
+        },
+        {
+          "line": 196,
+          "text": "            \"target_new\": req.get(\"target_new\", \"\"),"
+        },
+        {
+          "line": 380,
+          "text": "            target = req[\"target_new\"]"
+        },
+        {
+          "line": 385,
+          "text": "                    raise ValueError(\"empty target_new / alt\")"
+        },
+        {
+          "line": 723,
+          "text": "        \"score_source\": SCORE_SOURCE,"
+        },
+        {
+          "line": 724,
+          "text": "        \"target_sequence\": \"complete alt sequence\","
+        },
+        {
+          "line": 789,
+          "text": "                    \"Score source\": SCORE_SOURCE,"
+        },
+        {
+          "line": 823,
+          "text": "    run.add_argument(\"--data-path\", default=None)"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0.sh",
+      "sha256": "f8fb4d20717ae6b987f8ccae33a4f5777c293844edf1b85d3fe11c1861c53cf4",
+      "matches": [
+        {
+          "line": 55,
+          "text": "    \"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py run-one \\"
+        },
+        {
+          "line": 74,
+          "text": "    \"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        },
+        {
+          "line": 83,
+          "text": "\"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/resume_handoffs/evqa_llava_job3178538_20260924_1340/code/scripts/run_perturb_kl_direct_candidate_layers.py",
+      "sha256": "e09d30f5409eba5a9727f94a4a6f04b74fe555ca5939c948d65c5f4d576bf9d7",
+      "matches": [
+        {
+          "line": 31,
+          "text": "SCORE_SOURCE = \"visual_token_noise_altseq_kl\""
+        },
+        {
+          "line": 174,
+          "text": "                    \"target_new\": row[\"alt\"],"
+        },
+        {
+          "line": 196,
+          "text": "            \"target_new\": req.get(\"target_new\", \"\"),"
+        },
+        {
+          "line": 380,
+          "text": "            target = req[\"target_new\"]"
+        },
+        {
+          "line": 385,
+          "text": "                    raise ValueError(\"empty target_new / alt\")"
+        },
+        {
+          "line": 723,
+          "text": "        \"score_source\": SCORE_SOURCE,"
+        },
+        {
+          "line": 724,
+          "text": "        \"target_sequence\": \"complete alt sequence\","
+        },
+        {
+          "line": 789,
+          "text": "                    \"Score source\": SCORE_SOURCE,"
+        },
+        {
+          "line": 823,
+          "text": "    run.add_argument(\"--data-path\", default=None)"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/resume_handoffs/evqa_llava_job3178538_20260924_1340/code/scripts/watch_perturb_kl_patch_qwen_then_resume_mmke_entity_g08_gpu0.sh",
+      "sha256": "4a5fbcb933d979f99fa20155b782fcb08df720e4595f47c94a23ea598661c492",
+      "matches": [
+        {
+          "line": 90,
+          "text": "  \"$PY_QWEN\" scripts/run_perturb_kl_direct_candidate_layers.py run-one \\"
+        },
+        {
+          "line": 109,
+          "text": "  \"$PY_QWEN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        },
+        {
+          "line": 117,
+          "text": "\"$PY_QWEN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/resume_handoffs/evqa_llava_job3178538_20260924_1340/code/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0_safe.sh",
+      "sha256": "c7a18daa925017859dcc8c213ca1aa6af2cc55ef1c92089d9e86f840bf01df75",
+      "matches": [
+        {
+          "line": 55,
+          "text": "    \"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py run-one \\"
+        },
+        {
+          "line": 74,
+          "text": "    \"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        },
+        {
+          "line": 83,
+          "text": "\"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/resume_handoffs/evqa_llava_job3178538_20260924_1340/code/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0.sh",
+      "sha256": "f8fb4d20717ae6b987f8ccae33a4f5777c293844edf1b85d3fe11c1861c53cf4",
+      "matches": [
+        {
+          "line": 55,
+          "text": "    \"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py run-one \\"
+        },
+        {
+          "line": 74,
+          "text": "    \"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        },
+        {
+          "line": 83,
+          "text": "\"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/watch_perturb_kl_patch_qwen_then_resume_mmke_entity_g08_gpu0.sh",
+      "sha256": "4a5fbcb933d979f99fa20155b782fcb08df720e4595f47c94a23ea598661c492",
+      "matches": [
+        {
+          "line": 90,
+          "text": "  \"$PY_QWEN\" scripts/run_perturb_kl_direct_candidate_layers.py run-one \\"
+        },
+        {
+          "line": 109,
+          "text": "  \"$PY_QWEN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        },
+        {
+          "line": 117,
+          "text": "\"$PY_QWEN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0_safe.sh",
+      "sha256": "c7a18daa925017859dcc8c213ca1aa6af2cc55ef1c92089d9e86f840bf01df75",
+      "matches": [
+        {
+          "line": 55,
+          "text": "    \"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py run-one \\"
+        },
+        {
+          "line": 74,
+          "text": "    \"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        },
+        {
+          "line": 83,
+          "text": "\"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_perturb_kl_direct_candidate_layers.py",
+      "sha256": "e09d30f5409eba5a9727f94a4a6f04b74fe555ca5939c948d65c5f4d576bf9d7",
+      "matches": [
+        {
+          "line": 31,
+          "text": "SCORE_SOURCE = \"visual_token_noise_altseq_kl\""
+        },
+        {
+          "line": 174,
+          "text": "                    \"target_new\": row[\"alt\"],"
+        },
+        {
+          "line": 196,
+          "text": "            \"target_new\": req.get(\"target_new\", \"\"),"
+        },
+        {
+          "line": 380,
+          "text": "            target = req[\"target_new\"]"
+        },
+        {
+          "line": 385,
+          "text": "                    raise ValueError(\"empty target_new / alt\")"
+        },
+        {
+          "line": 723,
+          "text": "        \"score_source\": SCORE_SOURCE,"
+        },
+        {
+          "line": 724,
+          "text": "        \"target_sequence\": \"complete alt sequence\","
+        },
+        {
+          "line": 789,
+          "text": "                    \"Score source\": SCORE_SOURCE,"
+        },
+        {
+          "line": 823,
+          "text": "    run.add_argument(\"--data-path\", default=None)"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0.sh",
+      "sha256": "f8fb4d20717ae6b987f8ccae33a4f5777c293844edf1b85d3fe11c1861c53cf4",
+      "matches": [
+        {
+          "line": 55,
+          "text": "    \"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py run-one \\"
+        },
+        {
+          "line": 74,
+          "text": "    \"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        },
+        {
+          "line": 83,
+          "text": "\"$PYTHON_BIN\" scripts/run_perturb_kl_direct_candidate_layers.py collect \\"
+        }
+      ]
+    }
+  ],
+  "matching_files": [
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_launcher_20260622_211700.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_launcher_20260622_211505.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/qwen_patch_failed_jobs.tsv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/qwen_patch_watcher_srun.nohup.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/manual_resume.logpath",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/manual_resume.pid",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/failed_jobs.tsv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke_entity_top3_union_resume_nonpali_status.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke_entity_top3_union_layer_status.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke_entity_top3_union_resume_nonpali.lock",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/resume_mmke_entity_after_qwen_patch.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/perturb_kl_direct_candidates_summary.md",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/perturb_kl_direct_candidates_summary.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/paligemma-3b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/qwen2.5-vl-3b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/qwen2.5-vl-3b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/qwen2.5-vl-3b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/qwen2.5-vl-3b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/qwen2.5-vl-3b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/qwen2.5-vl-3b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/llava-v1.5-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/llava-v1.5-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/llava-v1.5-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/llava-v1.5-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/llava-v1.5-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/llava-v1.5-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/instructblip-vicuna-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/instructblip-vicuna-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/instructblip-vicuna-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/instructblip-vicuna-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/instructblip-vicuna-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/instructblip-vicuna-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/blip2-opt-2.7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/blip2-opt-2.7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/blip2-opt-2.7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/blip2-opt-2.7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/blip2-opt-2.7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/blip2-opt-2.7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/minigpt-4-vicuna-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/minigpt-4-vicuna-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/minigpt-4-vicuna-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/minigpt-4-vicuna-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/minigpt-4-vicuna-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/minigpt-4-vicuna-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/smolvlm-1.7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/smolvlm-1.7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/smolvlm-1.7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/smolvlm-1.7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/smolvlm-1.7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-entity/smolvlm-1.7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/paligemma-3b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/paligemma-3b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/paligemma-3b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/paligemma-3b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/paligemma-3b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/paligemma-3b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/qwen2.5-vl-3b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/qwen2.5-vl-3b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/qwen2.5-vl-3b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/qwen2.5-vl-3b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/qwen2.5-vl-3b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/qwen2.5-vl-3b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/llava-v1.5-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/llava-v1.5-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/llava-v1.5-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/llava-v1.5-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/llava-v1.5-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/llava-v1.5-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/instructblip-vicuna-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/instructblip-vicuna-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/instructblip-vicuna-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/instructblip-vicuna-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/instructblip-vicuna-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/instructblip-vicuna-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/blip2-opt-2.7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/blip2-opt-2.7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/blip2-opt-2.7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/blip2-opt-2.7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/blip2-opt-2.7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/blip2-opt-2.7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/minigpt-4-vicuna-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/minigpt-4-vicuna-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/minigpt-4-vicuna-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/minigpt-4-vicuna-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/minigpt-4-vicuna-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/minigpt-4-vicuna-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/smolvlm-1.7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/smolvlm-1.7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/smolvlm-1.7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/smolvlm-1.7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/smolvlm-1.7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/mmke-visual/smolvlm-1.7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/collect_qwen_patch_final.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-entity__qwen2.5-vl-3b.qwen_patch.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-visual__qwen2.5-vl-3b.qwen_patch.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/collect_qwen_patch_latest.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/collect_final.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-entity__smolvlm-1.7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-entity__minigpt-4-vicuna-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-visual__smolvlm-1.7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-visual__minigpt-4-vicuna-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/evqa-pilot500__paligemma-3b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/evqa-pilot500__qwen2.5-vl-3b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/evqa-pilot500__llava-v1.5-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/evqa-pilot500__instructblip-vicuna-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/collect_latest.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/evqa-pilot500__blip2-opt-2.7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/evqa-pilot500__minigpt-4-vicuna-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/evqa-pilot500__qwen2.5-vl-3b.qwen_patch.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-entity__paligemma-3b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-entity__qwen2.5-vl-3b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-entity__llava-v1.5-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-entity__instructblip-vicuna-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-entity__blip2-opt-2.7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-visual__paligemma-3b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-visual__qwen2.5-vl-3b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-visual__llava-v1.5-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-visual__instructblip-vicuna-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/mmke-visual__blip2-opt-2.7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/evqa-pilot500__smolvlm-1.7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/logs/manual_safe_resume_20260623_104543.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/5models_layer_score_tables/paligemma-3b_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/5models_layer_score_tables/llava-v1.5-7b_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/5models_layer_score_tables/instructblip-vicuna-7b_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/5models_layer_score_tables/blip2-opt-2.7b_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/5models_layer_score_tables/evqa_pilot500_5models_each_layer_scores.md",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/5models_layer_score_tables/evqa_pilot500_5models_each_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/5models_layer_score_tables/minigpt-4-vicuna-7b_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/5models_candidate_layer_summary/evqa_pilot500_5models_top3_top5.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/5models_candidate_layer_summary/evqa_pilot500_5models_full_layer_ranking.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/5models_candidate_layer_summary/evqa_pilot500_5models_candidate_layer_ranking.md",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/paligemma-3b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/paligemma-3b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/paligemma-3b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/paligemma-3b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/paligemma-3b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/paligemma-3b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/qwen2.5-vl-3b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/qwen2.5-vl-3b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/qwen2.5-vl-3b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/qwen2.5-vl-3b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/qwen2.5-vl-3b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/qwen2.5-vl-3b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/llava-v1.5-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/llava-v1.5-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/llava-v1.5-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/llava-v1.5-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/llava-v1.5-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/llava-v1.5-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/instructblip-vicuna-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/instructblip-vicuna-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/instructblip-vicuna-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/instructblip-vicuna-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/instructblip-vicuna-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/instructblip-vicuna-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/blip2-opt-2.7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/blip2-opt-2.7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/blip2-opt-2.7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/blip2-opt-2.7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/blip2-opt-2.7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/blip2-opt-2.7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/minigpt-4-vicuna-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/minigpt-4-vicuna-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/minigpt-4-vicuna-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/minigpt-4-vicuna-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/minigpt-4-vicuna-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/minigpt-4-vicuna-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/smolvlm-1.7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/smolvlm-1.7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/smolvlm-1.7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/smolvlm-1.7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/smolvlm-1.7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701/evqa-pilot500/smolvlm-1.7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/scripts/run_perturb_kl_direct_candidate_layers.py",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0.sh",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/failed_jobs.tsv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/perturb_kl_direct_candidates_summary.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/perturb_kl_direct_candidates_summary.md",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/logs/evqa-pilot500__blip2-opt-2.7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/logs/collect_latest.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/logs/evqa-pilot500__instructblip-vicuna-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/logs/evqa-pilot500__llava-v1.5-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/logs/evqa-pilot500__minigpt-4-vicuna-7b.log",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/blip2-opt-2.7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/blip2-opt-2.7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/blip2-opt-2.7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/blip2-opt-2.7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/blip2-opt-2.7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/blip2-opt-2.7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/instructblip-vicuna-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/instructblip-vicuna-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/instructblip-vicuna-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/instructblip-vicuna-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/instructblip-vicuna-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/instructblip-vicuna-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/llava-v1.5-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/minigpt-4-vicuna-7b/progress.jsonl",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/minigpt-4-vicuna-7b/perturb_kl_scores_long.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/minigpt-4-vicuna-7b/perturb_kl_stability.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/minigpt-4-vicuna-7b/DONE",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/minigpt-4-vicuna-7b/perturb_kl_layer_scores.csv",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/perturb_kl_direct_7models_3datasets_g08_gpu0_20260622_211701_backup_20260623_104143/results/evqa-pilot500/minigpt-4-vicuna-7b/summary.json",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/resume_handoffs/evqa_llava_job3178538_20260924_1340/code/scripts/run_perturb_kl_direct_candidate_layers.py",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/resume_handoffs/evqa_llava_job3178538_20260924_1340/code/scripts/watch_perturb_kl_patch_qwen_then_resume_mmke_entity_g08_gpu0.sh",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/resume_handoffs/evqa_llava_job3178538_20260924_1340/code/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0_safe.sh",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/resume_handoffs/evqa_llava_job3178538_20260924_1340/code/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0.sh",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/watch_perturb_kl_patch_qwen_then_resume_mmke_entity_g08_gpu0.sh",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0_safe.sh",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_perturb_kl_direct_candidate_layers.py",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_perturb_kl_direct_then_resume_mmke_entity_g08_gpu0.sh"
+  ],
+  "errors": [],
+  "local_collected_at": "2026-09-28T20:09:50.697509+08:00"
+}

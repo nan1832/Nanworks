@@ -1,0 +1,107 @@
+[
+  {
+    "dataset": "mmke-entity",
+    "model": "paligemma-3b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-entity",
+    "model": "qwen2.5-vl-3b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-entity",
+    "model": "llava-v1.5-7b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-entity",
+    "model": "instructblip-vicuna-7b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-entity",
+    "model": "blip2-opt-2.7b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-entity",
+    "model": "minigpt-4-vicuna-7b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-entity",
+    "model": "smolvlm-1.7b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-visual",
+    "model": "paligemma-3b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-visual",
+    "model": "qwen2.5-vl-3b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-visual",
+    "model": "llava-v1.5-7b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-visual",
+    "model": "instructblip-vicuna-7b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-visual",
+    "model": "blip2-opt-2.7b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-visual",
+    "model": "minigpt-4-vicuna-7b",
+    "match": true
+  },
+  {
+    "dataset": "mmke-visual",
+    "model": "smolvlm-1.7b",
+    "match": true
+  },
+  {
+    "dataset": "evqa-pilot500",
+    "model": "paligemma-3b",
+    "match": true
+  },
+  {
+    "dataset": "evqa-pilot500",
+    "model": "qwen2.5-vl-3b",
+    "match": true
+  },
+  {
+    "dataset": "evqa-pilot500",
+    "model": "llava-v1.5-7b",
+    "match": true
+  },
+  {
+    "dataset": "evqa-pilot500",
+    "model": "instructblip-vicuna-7b",
+    "match": true
+  },
+  {
+    "dataset": "evqa-pilot500",
+    "model": "blip2-opt-2.7b",
+    "match": true
+  },
+  {
+    "dataset": "evqa-pilot500",
+    "model": "minigpt-4-vicuna-7b",
+    "match": true
+  },
+  {
+    "dataset": "evqa-pilot500",
+    "model": "smolvlm-1.7b",
+    "match": true
+  }
+]

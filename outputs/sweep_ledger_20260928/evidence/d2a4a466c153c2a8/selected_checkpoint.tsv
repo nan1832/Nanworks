@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+1	TRAIN_DONE	49	5243	0.33415961265563965	0.35557403197265486	/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_pending8_job3044208_20260713_204917/paligemma-3b/layer_01/records/vead/paligemma-3b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-49-i-5243-ema_loss-0.3556

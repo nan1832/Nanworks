@@ -1,0 +1,85 @@
+[2026-06-12 22:25:15] chain watcher started interval=300 max_loops=288
+[2026-06-12 22:25:17] MMKE no-edit poll rows=14 not_done=14
+[2026-06-12 22:30:19] MMKE no-edit poll rows=14 not_done=13
+[2026-06-12 22:35:23] MMKE no-edit poll rows=14 not_done=12
+[2026-06-12 22:40:25] MMKE no-edit poll rows=14 not_done=12
+[2026-06-12 22:45:27] MMKE no-edit poll rows=14 not_done=11
+[2026-06-12 22:50:28] MMKE no-edit poll rows=14 not_done=11
+[2026-06-12 22:55:30] MMKE no-edit poll rows=14 not_done=11
+[2026-06-12 23:00:33] MMKE no-edit poll rows=14 not_done=10
+[2026-06-12 23:05:34] MMKE no-edit poll rows=14 not_done=9
+[2026-06-12 23:10:36] MMKE no-edit poll rows=14 not_done=8
+[2026-06-12 23:15:38] MMKE no-edit poll rows=14 not_done=7
+[2026-06-12 23:20:39] MMKE no-edit poll rows=14 not_done=7
+[2026-06-12 23:25:41] MMKE no-edit poll rows=14 not_done=7
+[2026-06-12 23:30:43] MMKE no-edit poll rows=14 not_done=6
+[2026-06-12 23:35:45] MMKE no-edit poll rows=14 not_done=6
+[2026-06-12 23:40:46] MMKE no-edit poll rows=14 not_done=6
+[2026-06-12 23:45:48] MMKE no-edit poll rows=14 not_done=6
+[2026-06-12 23:50:51] MMKE no-edit poll rows=14 not_done=6
+[2026-06-12 23:55:54] MMKE no-edit poll rows=14 not_done=5
+[2026-06-13 00:00:55] MMKE no-edit poll rows=14 not_done=5
+[2026-06-13 00:05:59] MMKE no-edit poll rows=14 not_done=5
+[2026-06-13 00:11:01] MMKE no-edit poll rows=14 not_done=5
+[2026-06-13 00:16:02] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 00:21:04] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 00:26:06] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 00:31:08] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 00:36:10] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 00:41:11] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 00:46:13] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 00:51:15] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 00:56:17] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 01:01:19] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 01:06:22] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 01:11:24] MMKE no-edit poll rows=14 not_done=4
+[2026-06-13 01:16:27] MMKE no-edit poll rows=14 not_done=3
+[2026-06-13 01:21:28] MMKE no-edit poll rows=14 not_done=3
+[2026-06-13 01:26:30] MMKE no-edit poll rows=14 not_done=2
+[2026-06-13 01:31:32] MMKE no-edit poll rows=14 not_done=2
+[2026-06-13 01:36:34] MMKE no-edit poll rows=14 not_done=1
+[2026-06-13 01:41:36] MMKE no-edit poll rows=14 not_done=1
+[2026-06-13 01:46:38] MMKE no-edit poll rows=14 not_done=0
+[2026-06-13 01:46:38] MMKE no-edit DONE; syncing summary
+[2026-06-13 01:46:44] starting MMKE visual top3 union training: /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644
+[2026-06-13 01:46:46] train: MMKE_VISUAL_TOP3_UNION_START time=Sat Jun 13 01:50:15 CST 2026 host=g07 gpu=1 run_root=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644
+[2026-06-13 01:46:46] train: {
+[2026-06-13 01:46:46] train:   "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+[2026-06-13 01:46:46] train:   "output": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_train_evqa_compat.json",
+[2026-06-13 01:46:46] train:   "task": "visual",
+[2026-06-13 01:46:46] train:   "split": "train",
+[2026-06-13 01:46:46] train:   "samples": 214,
+[2026-06-13 01:46:47] train:   "remapped_m_loc": 214,
+[2026-06-13 01:46:47] train:   "missing_images": []
+[2026-06-13 01:46:47] train: }
+[2026-06-13 01:46:47] train: {
+[2026-06-13 01:46:47] train:   "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_eval.json",
+[2026-06-13 01:46:47] train:   "output": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_eval_evqa_compat.json",
+[2026-06-13 01:46:47] train:   "task": "visual",
+[2026-06-13 01:46:47] train:   "split": "eval",
+[2026-06-13 01:46:47] train:   "samples": 293,
+[2026-06-13 01:46:47] train:   "remapped_m_loc": 293,
+[2026-06-13 01:46:47] train:   "missing_images": []
+[2026-06-13 01:46:47] train: }
+[2026-06-13 01:46:59] train: Load E-VQA from: /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_train_evqa_compat.json 
+[2026-06-13 01:46:59] train: System.Management.Automation.RemoteException
+[2026-06-13 01:46:59] train: Loading data:   0%|          | 0/2 [00:00<?, ?it/s]
+[2026-06-13 01:46:59] train: Loading data: 100%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅| 2/2 [00:00<00:00, 42153.81it/s]
+[2026-06-13 01:46:59] train: System.Management.Automation.RemoteException
+[2026-06-13 01:46:59] train: Loading images:   0%|          | 0/2 [00:00<?, ?it/s]
+[2026-06-13 01:46:59] train: Loading images: 100%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅| 2/2 [00:00<00:00, 16.92it/s]
+[2026-06-13 01:46:59] train: Load E-VQA from: /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_eval_evqa_compat.json 
+[2026-06-13 01:46:59] train: Loading images: 100%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅| 2/2 [00:00<00:00, 16.91it/s]
+[2026-06-13 01:46:59] train: System.Management.Automation.RemoteException
+[2026-06-13 01:46:59] train: Loading data:   0%|          | 0/2 [00:00<?, ?it/s]
+[2026-06-13 01:46:59] train: Loading data: 100%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅| 2/2 [00:00<00:00, 64035.18it/s]
+[2026-06-13 01:46:59] train: System.Management.Automation.RemoteException
+[2026-06-13 01:46:59] train: Loading images:   0%|          | 0/2 [00:00<?, ?it/s]
+[2026-06-13 01:46:59] train: Loading images: 100%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅| 2/2 [00:00<00:00, 13.22it/s]
+[2026-06-13 01:46:59] train: EVQA_COMPAT_OK 2 2
+[2026-06-13 01:46:59] train: Loading images: 100%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅| 2/2 [00:00<00:00, 13.21it/s]
+[2026-06-13 01:47:00] train: MODEL_START model=blip2-opt-2.7b layers=22,21,20,26,29,24,17,18,16 config=configs/vead/blip2-opt-2.7b.yaml py=/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python time=Sat Jun 13 01:50:29 CST 2026
+[2026-06-13 01:47:11] train: GPU1_FREE used_mib=0 cuda_ok=1 time=Sat Jun 13 01:50:40 CST 2026
+[2026-06-13 01:47:11] train: TRAIN_START model=blip2-opt-2.7b layer=22 config=configs/vead/blip2-opt-2.7b.yaml py=/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python time=Sat Jun 13 01:50:41 CST 2026
+[2026-06-13 03:47:22] train: client_loop: send disconnect: Connection reset
+[2026-06-13 03:47:22] chain watcher finished

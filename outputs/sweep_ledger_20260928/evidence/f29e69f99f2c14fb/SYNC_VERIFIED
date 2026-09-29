@@ -1,0 +1,4 @@
+source=/tmp/ph_teacher3/formal_top3_minigpt_entity_job3117562_20260811/mmke-entity/minigpt-4-vicuna-7b/layer_03
+destination=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260811/job3117562_minigpt_entity/mmke-entity/minigpt-4-vicuna-7b/layer_03
+synced_at=2026-08-15 08:04:23 CST
+selected=/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/formal_top3_live_20260811/job3117562_minigpt_entity/mmke-entity/minigpt-4-vicuna-7b/layer_03/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L03-lr-1-t-1-v-1/checkpoints/epoch-47-i-14946-ema_loss-0.3245

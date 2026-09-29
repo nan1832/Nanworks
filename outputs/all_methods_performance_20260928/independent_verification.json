@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "input_hashes_verified": 11,
+  "registered_top3_unchanged": 624,
+  "ledger_csv_json_agree": 433,
+  "complete_main_performance_checked": 873,
+  "missing_metrics_kept_null": 5971,
+  "random_expectations_checked_by_enumeration": 42,
+  "paired_rows_checked": 40934,
+  "main_top3_pairwise_recomputed": 266,
+  "core7_shared_groups": 18,
+  "original_markdown_tables_unchanged": true
+}

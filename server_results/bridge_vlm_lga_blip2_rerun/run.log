@@ -1,0 +1,140 @@
+[run] 2026-05-06 21:17:15 start blip2 rerun
+Loading blip2-opt-2.7b from "models/blip2-opt-2.7b".
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:08<00:08,  8.04s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.22s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.64s/it]
+Some kwargs in processor config are unused and will not have any effect: num_query_tokens. 
+Both `max_new_tokens` (=32) and `max_length`(=51) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=32) and `max_length`(=51) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=32) and `max_length`(=51) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=32) and `max_length`(=51) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=32) and `max_length`(=51) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=32) and `max_length`(=51) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=32) and `max_length`(=51) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=32) and `max_length`(=51) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Padding side is set as "right".
+[old-answer] 1/4 GLDv2_14ec8d03a5f48aae: luzern
+[old-answer] 2/4 GLDv2_0b23c59c396c874c: The bridge is called the "Bahnhofstrasse"
+[old-answer] 3/4 GLDv2_0e7e677082a0772f: The bridge is called the "Red Bridge"
+[old-answer] 4/4 GLDv2_107c79883427cca5: The bridge is called the "Covered Bridge"
+Saved old answers: ../../Ten_Classes/bridge/bridge_train/beforeedit/open_end/bridge_train_entity_recognition_blip2.jsonl
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=1/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=2/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=3/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=4/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=5/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=6/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=7/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=8/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=9/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=10/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=11/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=12/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=13/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=14/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=15/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=16/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=17/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=18/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=19/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=20/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=21/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=22/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=23/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=24/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=25/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=26/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=27/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=28/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=29/30
+[scan] layers=[0, 1, 2, 3, 4, 5, 6, 7] sample=30/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=1/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=2/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=3/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=4/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=5/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=6/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=7/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=8/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=9/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=10/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=11/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=12/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=13/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=14/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=15/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=16/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=17/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=18/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=19/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=20/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=21/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=22/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=23/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=24/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=25/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=26/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=27/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=28/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=29/30
+[scan] layers=[8, 9, 10, 11, 12, 13, 14, 15] sample=30/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=1/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=2/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=3/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=4/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=5/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=6/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=7/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=8/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=9/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=10/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=11/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=12/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=13/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=14/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=15/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=16/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=17/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=18/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=19/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=20/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=21/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=22/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=23/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=24/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=25/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=26/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=27/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=28/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=29/30
+[scan] layers=[16, 17, 18, 19, 20, 21, 22, 23] sample=30/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=1/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=2/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=3/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=4/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=5/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=6/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=7/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=8/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=9/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=10/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=11/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=12/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=13/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=14/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=15/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=16/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=17/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=18/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=19/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=20/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=21/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=22/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=23/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=24/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=25/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=26/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=27/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=28/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=29/30
+[scan] layers=[24, 25, 26, 27, 28, 29, 30, 31] sample=30/30
+{"by": "S_lga_dot", "top1": 30}
+[run] 2026-05-06 21:19:25 done blip2 rerun

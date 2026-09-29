@@ -1,0 +1,104 @@
+[
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\adapter\\adpt_model.py",
+    "expected": "d1fc7394dc886e57513a80aace6ae96392a8632ff8670e2923dce77eae6d4eca",
+    "actual": "d1fc7394dc886e57513a80aace6ae96392a8632ff8670e2923dce77eae6d4eca",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\data\\dataset_base.py",
+    "expected": "2aef491aaa0749d1b19fe12af957b0ad6b3aa00f59eea0483f46fe93bfaf6d06",
+    "actual": "2aef491aaa0749d1b19fe12af957b0ad6b3aa00f59eea0483f46fe93bfaf6d06",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\data\\vllm_dataset.py",
+    "expected": "6fd3c021ce9fd3a4d283be69da45a02386de1f920867ee56f40e02b41961f7cf",
+    "actual": "6fd3c021ce9fd3a4d283be69da45a02386de1f920867ee56f40e02b41961f7cf",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\editor\\base_config.py",
+    "expected": "97122bd37e0f06c5b67e348984e5903543916ecfa415f1922c4f9a129b619d59",
+    "actual": "97122bd37e0f06c5b67e348984e5903543916ecfa415f1922c4f9a129b619d59",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\editor\\base_editor_training.py",
+    "expected": "ae585443e35b54f08f7655d212219327ef0d83ee994cfed7178390b663d25296",
+    "actual": "ae585443e35b54f08f7655d212219327ef0d83ee994cfed7178390b663d25296",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\editor\\vead.py",
+    "expected": "65d5c23e22796cabc8e99782c2eec391ec433f48d0a4e3ebdb100e31a59b20d8",
+    "actual": "65d5c23e22796cabc8e99782c2eec391ec433f48d0a4e3ebdb100e31a59b20d8",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\editor\\vead_init.py",
+    "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\evaluation\\vllm_editor_eval.py",
+    "expected": "42ff8a6a12733e3fb82cb00414f6294c4f37f8b54ae818fdc56f403be622e720",
+    "actual": "42ff8a6a12733e3fb82cb00414f6294c4f37f8b54ae818fdc56f403be622e720",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\model\\__init__.py",
+    "expected": "71fb98decd9ff3499c0e3619e5a1e137bc8a2fcbd362687d622397182a6a0250",
+    "actual": "71fb98decd9ff3499c0e3619e5a1e137bc8a2fcbd362687d622397182a6a0250",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\model\\base_vllm.py",
+    "expected": "ed3492dfbb35b73481c2a1777744ea76c58d4162d0f71465f8cd8439d06ba17f",
+    "actual": "ed3492dfbb35b73481c2a1777744ea76c58d4162d0f71465f8cd8439d06ba17f",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\model\\blip2.py",
+    "expected": "ab9e9f64c990d65475104a94dbcd0e2dc21cae1f785053420431cae4683e65f3",
+    "actual": "ab9e9f64c990d65475104a94dbcd0e2dc21cae1f785053420431cae4683e65f3",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\runner\\run_blip2_mmke_entity_sweep.py",
+    "expected": "7c26d9f37d0d0aca4e6f70a7e730d7edbe1dbdb03954ca7766689b4ce91656b3",
+    "actual": "7c26d9f37d0d0aca4e6f70a7e730d7edbe1dbdb03954ca7766689b4ce91656b3",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\utils\\GLOBAL.py",
+    "expected": "5b333c5bbe35526f4785bcdccbf75211556f4931d937723b57e46bb931c6e30e",
+    "actual": "5b333c5bbe35526f4785bcdccbf75211556f4931d937723b57e46bb931c6e30e",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\utils\\model_factory_and_helpers.py",
+    "expected": "115081101b6499d2c8815c265454fb46c43529d2a38f9b0caa8d5c929461ec70",
+    "actual": "115081101b6499d2c8815c265454fb46c43529d2a38f9b0caa8d5c929461ec70",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\code\\utils\\nethook.py",
+    "expected": "83183993b78b7f612dcf5210eb231068f7e5a51e3a56fcabe8661f8d9ccf88ae",
+    "actual": "83183993b78b7f612dcf5210eb231068f7e5a51e3a56fcabe8661f8d9ccf88ae",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\config\\blip2-opt-2.7b.yaml",
+    "expected": "3bff59712d0975a60d4cad7976a18aca326ccaf31eecf8f5e164f0905d6a6fc3",
+    "actual": "3bff59712d0975a60d4cad7976a18aca326ccaf31eecf8f5e164f0905d6a6fc3",
+    "match": true
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\launcher\\launch_actual_job3126082.sh",
+    "expected": "3e83ac47cfca62d21504fbfa593a3dc673740b486e9a03879bcc9a6ae79c08a3",
+    "actual": "3e83ac47cfca62d21504fbfa593a3dc673740b486e9a03879bcc9a6ae79c08a3",
+    "match": true
+  }
+]

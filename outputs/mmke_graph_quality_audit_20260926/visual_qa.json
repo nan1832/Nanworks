@@ -1,0 +1,23 @@
+{
+  "interactions": [
+    {
+      "index": "10",
+      "edges": 9
+    },
+    {
+      "index": "0",
+      "edges": 4
+    },
+    {
+      "index": "14",
+      "edges": 0
+    }
+  ],
+  "zero_hop_edges": 5,
+  "mobile": {
+    "w": 358,
+    "sw": 358,
+    "svg": 358
+  },
+  "javascript_errors": []
+}

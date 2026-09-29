@@ -1,0 +1,65 @@
+=== SNAPSHOT ===
+2026-09-26 22:16:59 CST
+g09
+=== SQUEUE ===
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3443209   phys_hq  jupyter ph_teach  R    3:33:10      1 g09
+=== SCONTROL ===
+JobId=3443209 JobName=jupyter
+   UserId=ph_teacher3(1244) GroupId=phys-hq-teacher3(1038) MCS_label=N/A
+   Priority=4294843636 Nice=0 Account=phys_hq_teacher QOS=gpu_xl_2
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=03:33:10 TimeLimit=30-00:00:00 TimeMin=N/A
+   SubmitTime=2026-09-26T18:43:19 EligibleTime=2026-09-26T18:43:19
+   AccrueTime=2026-09-26T18:43:19
+   StartTime=2026-09-26T18:43:49 EndTime=2026-10-26T18:43:49 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-26T18:43:49 Scheduler=Backfill
+   Partition=phys_hq AllocNode:Sid=mgt01:75380
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=g09
+   BatchHost=g09
+   NumNodes=1 NumCPUs=32 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=4000M,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=32,mem=125G,node=1,billing=32,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=32 MinMemoryCPU=4000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/jobs/jupyter_2262491_202609261043.slurm
+   WorkDir=/datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/jobs
+   Comment=LICO-2262491 
+   StdErr=/datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/jobs/slurm-3443209.out
+   StdIn=/dev/null
+   StdOut=/datapool/home/ph_teacher3/Lwy/.lico_env/jupyter/jobs/slurm-3443209.out
+   Power=
+   TresPerNode=gres/gpu:1
+   
+
+=== SSTAT ===
+JobID         MaxVMSize  MaxVMSizeNode  MaxVMSizeTask  AveVMSize     MaxRSS MaxRSSNode MaxRSSTask     AveRSS MaxPages MaxPagesNode   MaxPagesTask   AvePages     MinCPU MinCPUNode MinCPUTask     AveCPU   NTasks AveCPUFreq ReqCPUFreqMin ReqCPUFreqMax ReqCPUFreqGov ConsumedEnergy  MaxDiskRead MaxDiskReadNode MaxDiskReadTask  AveDiskRead MaxDiskWrite MaxDiskWriteNode MaxDiskWriteTask AveDiskWrite TRESUsageInAve TRESUsageInMax TRESUsageInMaxNode TRESUsageInMaxTask TRESUsageInMin TRESUsageInMinNode TRESUsageInMinTask TRESUsageInTot TRESUsageOutAve TRESUsageOutMax TRESUsageOutMaxNode TRESUsageOutMaxTask TRESUsageOutMin TRESUsageOutMinNode TRESUsageOutMinTask TRESUsageOutTot 
+------------ ---------- -------------- -------------- ---------- ---------- ---------- ---------- ---------- -------- ------------ -------------- ---------- ---------- ---------- ---------- ---------- -------- ---------- ------------- ------------- ------------- -------------- ------------ --------------- --------------- ------------ ------------ ---------------- ---------------- ------------ -------------- -------------- ------------------ ------------------ -------------- ------------------ ------------------ -------------- --------------- --------------- ------------------- ------------------- --------------- ------------------- ------------------- --------------- 
+3443209.2     32295528K            g09              0  32295528K  19536128K        g09          0  19536128K     3938          g09              0       3938   03:29:20        g09          0   03:29:20        1       322K       Unknown       Unknown       Unknown              0 145596026504             g09               0 145596026504  33482909602              g09                0  33482909602 cpu=03:29:20,+ cpu=03:29:20,+ cpu=g09,energy=g0+ cpu=00:00:00,fs/d+ cpu=03:29:20,+ cpu=g09,energy=g0+ cpu=00:00:00,fs/d+ cpu=03:29:20,+ energy=0,fs/di+ energy=0,fs/di+ energy=g09,fs/disk+           fs/disk=0 energy=0,fs/di+ energy=g09,fs/disk+           fs/disk=0 energy=0,fs/di+ 
+=== GPU ===
+0, NVIDIA A800 80GB PCIe, 71407 MiB, 9749 MiB, 81920 MiB, 83 %, 64
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa    command 
+# Idx           #    C/G      %      %      %      %      %      %    name 
+    0    1896873     C     94     14      -      -      -      -    python         
+=== PROCESSES ===
+1886572 1886567 Sat Sep 26 20:51:37 2026    01:25:21 S    /datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python -u /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/control/top3_tail_3443209.py follow
+1871816 1871811 Sat Sep 26 19:32:46 2026    02:44:12 S    /datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python -u /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/control/priority3_main_protocol_3443209.py launch
+1896873 1871816 Sat Sep 26 21:50:14 2026       26:44 Ssl   \_ /datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python -u /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_evqa_pilot500_blip2_visedit_sweep.py --out-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/work/mmke-entity/instructblip-vicuna-7b --layers 20 --epochs 50 --batch-size 2 --model-name instructblip-vicuna-7b --device cuda:0 --train-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_train_evqa_compat.json --eval-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_eval_evqa_compat.json --train-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image --eval-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image --config-path /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/priority3_main_protocol_job3443209_20260926/provenance/code/configs/vead/instructblip-vicuna-7b.yaml --seed 20260601 --ema-alpha 0.1 --data-buffer-size 4 --keep-top-ckpts 5 --keep-last-ckpts 2 --skip-eval
+1860159 1860155 Sat Sep 26 18:43:49 2026    03:33:09 S    /bin/bash /var/spool/slurmd/job3443209/slurm_script
+=== TMP ROOTS ===
+2026-09-26 20:50:35.4840515050	/tmp/ph_teacher3/tukey_top3_tail_job3443209_20260926/evqa-pilot500/instructblip-vicuna-7b
+2026-09-26 20:50:36.3370451460	/tmp/ph_teacher3/tukey_top3_tail_job3443209_20260926/evqa-pilot500/qwen2.5-vl-3b
+2026-09-26 20:50:37.9290332780	/tmp/ph_teacher3/tukey_top3_tail_job3443209_20260926/mmke-entity/qwen2.5-vl-3b
+2026-09-26 20:50:38.4190296250	/tmp/ph_teacher3/tukey_top3_tail_job3443209_20260926/mmke-visual
+2026-09-26 20:50:38.4230295950	/tmp/ph_teacher3/tukey_top3_tail_job3443209_20260926/mmke-visual/qwen2.5-vl-3b
+2026-09-26 20:50:38.5990282830	/tmp/ph_teacher3/tukey_top3_tail_job3443209_20260926/mmke-entity/minigpt-4-vicuna-7b
+2026-09-26 20:50:38.7520271420	/tmp/ph_teacher3/tukey_top3_tail_job3443209_20260926/mmke-entity
+2026-09-26 20:50:38.7560271130	/tmp/ph_teacher3/tukey_top3_tail_job3443209_20260926/mmke-entity/llava-v1.5-7b
+2026-09-26 20:50:42.1420019940	/tmp/ph_teacher3/tukey_top3_tail_job3443209_20260926/evqa-pilot500
+2026-09-26 20:50:42.1460019640	/tmp/ph_teacher3/tukey_top3_tail_job3443209_20260926/evqa-pilot500/paligemma-3b
+=== RECENT COMPLETION MARKERS ===
+=== RECENT LOGS ===

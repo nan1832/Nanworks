@@ -1,0 +1,35 @@
+{
+  "pass": true,
+  "samples": {
+    "eval": 955,
+    "train": 636
+  },
+  "max_graph": {
+    "index": 117,
+    "nodes": 678,
+    "edges": 724
+  },
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "javascript_errors": [],
+  "external_requests": [],
+  "checks": [
+    "original JSON values",
+    "4 graph variants available",
+    "node/edge evidence",
+    "group switch",
+    "excluded overlay",
+    "self loops",
+    "drag/zoom",
+    "empty graph",
+    "search/filter",
+    "local review persistence",
+    "export/import validation",
+    "large graph no truncation",
+    "direction switch",
+    "sample image",
+    "mobile overflow"
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "verified_at_server_time": "2026-09-29T11:20:23.758260+08:00",
+  "scope": "22 historical main records only",
+  "remote_actions": "read-only; no training, evaluation, deletion, copying, or remote file writes",
+  "count": 22,
+  "complete_original_artifact_sets_found": 0,
+  "proven_historical_incomplete_count": 0,
+  "requires_new_training_and_evaluation_if_no_backup": 22,
+  "meaning": "产物缺失不等于证明当时未满50轮。严格可复核协议下须恢复完整备份，无法恢复则重新训练评测。",
+  "rows": [
+    {
+      "dataset": "evqa-pilot500",
+      "layer": 1,
+      "recipe": "main",
+      "historical_selected_epoch": 14,
+      "historical_ema": 14.049339,
+      "historical_average": 38.82,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_evqa_pilot500_job3044208_20260715_112056/paligemma-3b/layer_01"
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "layer": 4,
+      "recipe": "main",
+      "historical_selected_epoch": 38,
+      "historical_ema": 6.942612,
+      "historical_average": 71.13,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_evqa_pilot500_job3044208_20260715_112056/paligemma-3b/layer_04"
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "layer": 5,
+      "recipe": "main",
+      "historical_selected_epoch": 2,
+      "historical_ema": 4.631819,
+      "historical_average": 78.17,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_evqa_pilot500_job3044208_20260715_112056/paligemma-3b/layer_05"
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "layer": 6,
+      "recipe": "main",
+      "historical_selected_epoch": 31,
+      "historical_ema": 5.983205,
+      "historical_average": 66.67,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_evqa_pilot500_job3044208_20260715_112056/paligemma-3b/layer_06"
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "layer": 7,
+      "recipe": "main",
+      "historical_selected_epoch": 10,
+      "historical_ema": 4.525994,
+      "historical_average": 75.65,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_evqa_pilot500_job3044208_20260715_112056/paligemma-3b/layer_07"
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "layer": 8,
+      "recipe": "main",
+      "historical_selected_epoch": 3,
+      "historical_ema": 3.294556,
+      "historical_average": 81.0,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_evqa_pilot500_job3044208_20260715_112056/paligemma-3b/layer_08"
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "layer": 17,
+      "recipe": "main",
+      "historical_selected_epoch": 2,
+      "historical_ema": 30.934,
+      "historical_average": 40.11,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_evqa_pilot500_job3044208_20260715_112056/paligemma-3b/layer_17"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 0,
+      "recipe": "main",
+      "historical_selected_epoch": 8,
+      "historical_ema": 2815.587779,
+      "historical_average": 20.0,
+      "historical_status": "TRAIN_DONE_MAIN_NUMERIC_DEGENERATE_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_00"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 1,
+      "recipe": "main",
+      "historical_selected_epoch": 3,
+      "historical_ema": 2.96491,
+      "historical_average": 88.86,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_01"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 2,
+      "recipe": "main",
+      "historical_selected_epoch": 3,
+      "historical_ema": 6.100427,
+      "historical_average": 82.04,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_02"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 3,
+      "recipe": "main",
+      "historical_selected_epoch": 7,
+      "historical_ema": 2.230218,
+      "historical_average": 92.97,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_03"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 5,
+      "recipe": "main",
+      "historical_selected_epoch": 4,
+      "historical_ema": 2.039312,
+      "historical_average": 90.81,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_05"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 6,
+      "recipe": "main",
+      "historical_selected_epoch": 2,
+      "historical_ema": 1.361229,
+      "historical_average": 96.98,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_06"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 7,
+      "recipe": "main",
+      "historical_selected_epoch": 10,
+      "historical_ema": 2.547924,
+      "historical_average": 90.12,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_07"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 8,
+      "recipe": "main",
+      "historical_selected_epoch": 3,
+      "historical_ema": 1.09672,
+      "historical_average": 96.3,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_08"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 9,
+      "recipe": "main",
+      "historical_selected_epoch": 2,
+      "historical_ema": 3.973418,
+      "historical_average": 85.41,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_09"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 10,
+      "recipe": "main",
+      "historical_selected_epoch": 1,
+      "historical_ema": 17.57192,
+      "historical_average": 38.28,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_10"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 11,
+      "recipe": "main",
+      "historical_selected_epoch": 1,
+      "historical_ema": 12.271097,
+      "historical_average": 44.62,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_11"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 12,
+      "recipe": "main",
+      "historical_selected_epoch": 2,
+      "historical_ema": 2.109276,
+      "historical_average": 90.67,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_12"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 13,
+      "recipe": "main",
+      "historical_selected_epoch": 2,
+      "historical_ema": 11.613107,
+      "historical_average": 48.65,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_13"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 16,
+      "recipe": "main",
+      "historical_selected_epoch": 49,
+      "historical_ema": 18.3013,
+      "historical_average": 47.04,
+      "historical_status": "TRAIN_DONE_MAIN_RETRY_NUMERIC_GUARD_NONFINITE_SKIP34_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_16",
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_priority_reruns_job3044208_20260718_160000/4_mmke-entity_main-rollback_L16/paligemma-3b/layer_16"
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "layer": 17,
+      "recipe": "main",
+      "historical_selected_epoch": 22,
+      "historical_ema": 31.213888,
+      "historical_average": 40.33,
+      "historical_status": "TRAIN_DONE_MAIN_JOB3044208",
+      "historical_training_complete_50_epochs": null,
+      "historical_minimum_ema_selection_verified": null,
+      "current_source_file_count": 0,
+      "current_recoverable_checkpoint_found": false,
+      "verification_status": "ORIGINAL_ARTIFACTS_NOT_FOUND",
+      "needs_retraining_if_no_other_backup": true,
+      "reason": "在本次核验范围未找到原始训练、选点、权重与逐样本评测文件；无法重验50轮或直接恢复训练。",
+      "audited_paths": [
+        "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/paligemma_followup_job3044208_20260715_112056/paligemma_main_mmke_entity_job3044208_20260715_112056/paligemma-3b/layer_17"
+      ]
+    }
+  ]
+}

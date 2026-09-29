@@ -1,0 +1,8 @@
+{
+  "purpose": "two-sample smoke test; historical positive control plus deterministic ordinary sample",
+  "selection_rule": "mmke_120 plus lowest SHA-256(dataset|model|sample_id), excluding mmke_120",
+  "sample_ids": [
+    "mmke_120",
+    "mmke_523"
+  ]
+}

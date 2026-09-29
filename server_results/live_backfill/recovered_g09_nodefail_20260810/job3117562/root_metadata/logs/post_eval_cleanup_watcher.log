@@ -1,0 +1,8 @@
+[2026-07-30 20:55:56] watcher start pid=3982147 layers=0 1 2 7 8 9 12 13 14 15 16 22 24 26 27
+[2026-07-31 18:30:17] L00 cleanup done: checkpoints=51 checkpoint_bytes=415895994 cache_bytes=11294146961 total=11710042955
+[2026-08-01 18:56:44] L01 cleanup done: checkpoints=52 checkpoint_bytes=831791772 cache_bytes=11294112707 total=12125904479
+[2026-08-02 18:44:40] L02 cleanup done: checkpoints=52 checkpoint_bytes=831791772 cache_bytes=11294112707 total=12125904479
+[2026-08-03 15:36:03] L07 cleanup done: checkpoints=51 checkpoint_bytes=415895994 cache_bytes=11294146961 total=11710042955
+[2026-08-04 11:53:24] L08 cleanup done: checkpoints=52 checkpoint_bytes=831791988 cache_bytes=11294146961 total=12125938949
+[2026-08-05 07:35:16] L09 cleanup done: checkpoints=52 checkpoint_bytes=831791988 cache_bytes=11294146961 total=12125938949
+[2026-08-06 01:28:35] L12 cleanup done: checkpoints=52 checkpoint_bytes=831791988 cache_bytes=11294202167 total=12125994155

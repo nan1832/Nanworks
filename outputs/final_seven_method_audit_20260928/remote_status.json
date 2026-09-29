@@ -1,0 +1,334 @@
+{
+  "checked_at": "2026-09-28T21:56:58.400094+08:00",
+  "visual_priority": {
+    "time": "2026-09-28T21:56:19+0800",
+    "state": "RUNNING_THREE_VARIANTS",
+    "node": "g09",
+    "job": "3443209",
+    "pid": 2379778,
+    "child_pid": 2406270,
+    "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/variants_minigpt-4-vicuna-7b.log",
+    "command": [
+      "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/code/run_visual_track_targets_20260928.py",
+      "--project",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main",
+      "--out",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results",
+      "--model",
+      "minigpt-4-vicuna-7b"
+    ],
+    "model": "minigpt-4-vicuna-7b",
+    "verified_groups": 9,
+    "resume_checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171"
+  },
+  "lga_g08": {
+    "state": "WAITING_PREVIOUS_EXPERIMENTS",
+    "node": "g08",
+    "time": "2026-09-28T21:56:49+0800",
+    "job": "3435286",
+    "pid": 3047130,
+    "completion_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_L4_wait_memory_20260928/completion_verified.json",
+    "space": "visual"
+  },
+  "lga_g09": {
+    "state": "WAITING_PREVIOUS_EXPERIMENTS",
+    "node": "g09",
+    "time": "2026-09-28T21:56:49+0800",
+    "job": "3443209",
+    "pid": 2328322,
+    "completion_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/control/g09/DONE.json",
+    "space": "parameter"
+  },
+  "visual_groups": [
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results/mmke-entity/instructblip-vicuna-7b",
+      "sample_files": 636,
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-entity",
+        "model": "instructblip-vicuna-7b",
+        "sample_count": 636,
+        "matched_sample_count": 636,
+        "available_counts": {
+          "none": 636,
+          "alt": 636,
+          "model_pred": 636
+        },
+        "protocol_sha256": "02244ec6d6b5f8a044a99da44d1eb5af58354b82917ee8652135e188cea91865",
+        "scores_sha256": "2bc2e415effc05c0f9f8e25f905538445df062f402fe5b78f7d505807a5eb6d4",
+        "diagnostics_sha256": "e03d2b884c2ad4c3ea2d13ed59c926cfd90173e2558ae53bb961068fb0b75702",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-entity",
+        "model": "instructblip-vicuna-7b",
+        "processed": 636,
+        "total": 636,
+        "failures": 0,
+        "elapsed_seconds": 898.0850150585175,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results/mmke-entity/blip2-opt-2.7b",
+      "sample_files": 636,
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-entity",
+        "model": "blip2-opt-2.7b",
+        "sample_count": 636,
+        "matched_sample_count": 284,
+        "available_counts": {
+          "none": 636,
+          "alt": 636,
+          "model_pred": 284
+        },
+        "protocol_sha256": "f5cdbc08f142c452921bb8243111659d10157946edbfe68585c980d83788204d",
+        "scores_sha256": "980b7a47aea90beb03e9067ded87a2b30203b2529b0b7c090b5437e221845d1c",
+        "diagnostics_sha256": "96fa978d4566611b684fca62c9300d2dbb230e59b9c89893fcd899d568e2cc1e",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-entity",
+        "model": "blip2-opt-2.7b",
+        "processed": 636,
+        "total": 636,
+        "failures": 0,
+        "elapsed_seconds": 608.7110738754272,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results/mmke-entity/llava-v1.5-7b",
+      "sample_files": 636,
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "sample_count": 636,
+        "matched_sample_count": 636,
+        "available_counts": {
+          "none": 636,
+          "alt": 636,
+          "model_pred": 636
+        },
+        "protocol_sha256": "b2fdb615fe3b8886ad7a8164b1601ebe01f1236ae6749b83bab0748d151f154e",
+        "scores_sha256": "79ad25946339a1b48f005c255fec47bf6989ad0b0f7cdae05e05937cec0045b4",
+        "diagnostics_sha256": "7e69627af6e98bdf90238828b258793f05378e361e91134ff8d373a7578cc712",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "processed": 636,
+        "total": 636,
+        "failures": 0,
+        "elapsed_seconds": 2211.969018936157,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results/mmke-visual/instructblip-vicuna-7b",
+      "sample_files": 214,
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-visual",
+        "model": "instructblip-vicuna-7b",
+        "sample_count": 214,
+        "matched_sample_count": 214,
+        "available_counts": {
+          "none": 214,
+          "alt": 214,
+          "model_pred": 214
+        },
+        "protocol_sha256": "b0d2c6dbfec4877b206930abec2aa3c38d99f3f378293a0cb4c55acfcae623c1",
+        "scores_sha256": "a7d5eb130d552aee02e93fbaed31238e4d0ddb9c25620ba1cdd6091d5e05ce23",
+        "diagnostics_sha256": "4347b94bf41047126c393937c4748f803160b67f47f27e31b0d35c466070fa5c",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-visual",
+        "model": "instructblip-vicuna-7b",
+        "processed": 214,
+        "total": 214,
+        "failures": 0,
+        "elapsed_seconds": 264.80539536476135,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results/mmke-visual/blip2-opt-2.7b",
+      "sample_files": 214,
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-visual",
+        "model": "blip2-opt-2.7b",
+        "sample_count": 214,
+        "matched_sample_count": 175,
+        "available_counts": {
+          "none": 214,
+          "alt": 214,
+          "model_pred": 175
+        },
+        "protocol_sha256": "4854b6d6cd7d25f7ded05c83a01ea646ab8642b675c7010ed527ee0a42f236e4",
+        "scores_sha256": "7f8f9a7e953dce386a95c142098055891c1b755b510c659e2ec749654bc02ea3",
+        "diagnostics_sha256": "1579800ce91668bac93f7f5ccb7ef25599e6aebfd0dc7a29554417d5f7867e10",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-visual",
+        "model": "blip2-opt-2.7b",
+        "processed": 214,
+        "total": 214,
+        "failures": 0,
+        "elapsed_seconds": 197.60028529167175,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results/mmke-visual/llava-v1.5-7b",
+      "sample_files": 214,
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "mmke-visual",
+        "model": "llava-v1.5-7b",
+        "sample_count": 214,
+        "matched_sample_count": 214,
+        "available_counts": {
+          "none": 214,
+          "alt": 214,
+          "model_pred": 214
+        },
+        "protocol_sha256": "09a355bbf66f6d97ec012176aa3e041268a5de835a39c76d026872ff29fe0e58",
+        "scores_sha256": "06b6a4c228e055b158a9fdb7b2c8b6787032ec81ee10ecdf65f041f1ef556129",
+        "diagnostics_sha256": "0f3032ff202357aa0258970fbea15790d13192dd4a1d2cea87106b816997ed57",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "mmke-visual",
+        "model": "llava-v1.5-7b",
+        "processed": 214,
+        "total": 214,
+        "failures": 0,
+        "elapsed_seconds": 713.1804699897766,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results/evqa-pilot500/instructblip-vicuna-7b",
+      "sample_files": 500,
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "evqa-pilot500",
+        "model": "instructblip-vicuna-7b",
+        "sample_count": 500,
+        "matched_sample_count": 500,
+        "available_counts": {
+          "none": 500,
+          "alt": 500,
+          "model_pred": 500
+        },
+        "protocol_sha256": "e45bd7696a6202ae5e8ca54dd13a7074f9b45af89200ec7c5b62a86175c44fde",
+        "scores_sha256": "33b6ae90a75ddd4f2305f0694fe037419f1231dfd04519893909c075b19dd6ff",
+        "diagnostics_sha256": "c49fb12f348dbcae867934d557ddb07683c45eba394c7e9e0d46bce09b850c6e",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "evqa-pilot500",
+        "model": "instructblip-vicuna-7b",
+        "processed": 500,
+        "total": 500,
+        "failures": 0,
+        "elapsed_seconds": 557.1153457164764,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results/evqa-pilot500/blip2-opt-2.7b",
+      "sample_files": 500,
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "evqa-pilot500",
+        "model": "blip2-opt-2.7b",
+        "sample_count": 500,
+        "matched_sample_count": 465,
+        "available_counts": {
+          "none": 500,
+          "alt": 500,
+          "model_pred": 465
+        },
+        "protocol_sha256": "f12ac51c89c0a390aa4435ea4ddd84f195a917c934432d04441102fb91536df0",
+        "scores_sha256": "d815be0f95a59f32b9f0bdc8d1b6e27dc0ea22f29d0e624aeaac35e2eeb0dae0",
+        "diagnostics_sha256": "de7612855df16295c43f2727142ad025a7e058533f6445fb2a9cc77ee9243344",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "evqa-pilot500",
+        "model": "blip2-opt-2.7b",
+        "processed": 500,
+        "total": 500,
+        "failures": 0,
+        "elapsed_seconds": 471.6778905391693,
+        "job_id": "3443209"
+      }
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results/evqa-pilot500/llava-v1.5-7b",
+      "sample_files": 500,
+      "summary.json": {
+        "status": "done",
+        "schema": 2,
+        "dataset": "evqa-pilot500",
+        "model": "llava-v1.5-7b",
+        "sample_count": 500,
+        "matched_sample_count": 500,
+        "available_counts": {
+          "none": 500,
+          "alt": 500,
+          "model_pred": 500
+        },
+        "protocol_sha256": "c1e8a4d02335ace053764a08dfc604e104e2a2ec57b886102f43d65813bbfa1a",
+        "scores_sha256": "035c048b5f2a7cf948a1aadd472875049a50ab3b3664df3b75606920cf8e99f8",
+        "diagnostics_sha256": "8075fd4d0f4777f6ea9a75c48a7130c391dd7c9752394cdc0a7ec4e651934c2d",
+        "job_id": "3443209"
+      },
+      "progress.json": {
+        "status": "running",
+        "dataset": "evqa-pilot500",
+        "model": "llava-v1.5-7b",
+        "processed": 500,
+        "total": 500,
+        "failures": 0,
+        "elapsed_seconds": 2152.8812470436096,
+        "job_id": "3443209"
+      }
+    }
+  ],
+  "lga_groups": [
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/results/visual/evqa-pilot500/blip2-opt-2.7b",
+      "sample_files": 0
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/results/parameter/evqa-pilot500/blip2-opt-2.7b",
+      "sample_files": 0
+    }
+  ]
+}

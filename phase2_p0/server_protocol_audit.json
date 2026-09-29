@@ -1,0 +1,170 @@
+{
+  "L0": {
+    "selected": {
+      "layer": "0",
+      "status": "TRAIN_DONE",
+      "epoch": "24",
+      "i": "7632",
+      "loss": "5.307720184326172",
+      "ema_loss": "6.1242322191733995",
+      "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/blip2-opt-2.7b/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-24-i-7632-ema_loss-6.1242"
+    },
+    "checkpoint_exists": true,
+    "train.done": {
+      "layer": 0,
+      "status": "TRAIN_DONE",
+      "epoch": 24,
+      "i": 7632,
+      "loss": 5.307720184326172,
+      "ema_loss": 6.1242322191733995,
+      "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/blip2-opt-2.7b/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-24-i-7632-ema_loss-6.1242"
+    },
+    "eval_full.done": {
+      "layer": 0,
+      "status": "EVAL_DONE",
+      "eval_samples": 954,
+      "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/blip2-opt-2.7b/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-24-i-7632-ema_loss-6.1242",
+      "ckpt_epoch": "24",
+      "ckpt_i": "7632",
+      "ckpt_loss": "5.307720184326172",
+      "ckpt_ema_loss": "6.1242322191733995",
+      "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/blip2-opt-2.7b/layer_00/eval_full/vead/blip2-opt-2.7b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit",
+      "Rel": 57.709999999999994,
+      "T-Gen": 57.63,
+      "M-Gen": 57.620000000000005,
+      "T-Loc": 100.0,
+      "M-Loc": 56.32,
+      "Average": 65.85600000000001
+    },
+    "history": {
+      "rows": 50,
+      "last_epoch": 50,
+      "last_step": 15900,
+      "best": {
+        "time": "2026-07-09 03:03:08",
+        "layer": "0",
+        "epoch": "24",
+        "i": "7632",
+        "loss": "5.307720184326172",
+        "ema_loss": "6.1242322191733995",
+        "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/blip2-opt-2.7b/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-24-i-7632-ema_loss-6.1242",
+        "kept": "1"
+      }
+    },
+    "saved_config_yaml": "IT:\n  add_it: true\n  layers:\n  - 20\n  - 21\n  - 22\n  - 23\n  - 24\n  - 25\n  - 26\n  - 27\n  - 28\n  - 29\n  - 30\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 0\nedit_model_name: blip2-opt-2.7b\nllm_att_tmp: language_model.model.decoder.layers.{}.self_attn\nllm_hidden_size: 2560\nllm_layer_tmp: language_model.model.decoder.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 0.0001\n  rel_lambda: 1\n",
+    "checkpoint_metadata": {
+      "epoch": 24,
+      "i": 7632,
+      "loss": 5.307720184326172,
+      "ema_loss": 6.1242322191733995
+    },
+    "module_keys": [
+      "language_model.model.decoder.layers.0"
+    ],
+    "optimizer_param_groups": [
+      {
+        "lr": 0.0001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "params": 26
+      }
+    ]
+  },
+  "L1": {
+    "selected": {
+      "layer": "1",
+      "status": "TRAIN_DONE",
+      "epoch": "11",
+      "i": "3498",
+      "loss": "5.893988132476807",
+      "ema_loss": "5.9904003300769855",
+      "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-3498-ema_loss-5.9904"
+    },
+    "checkpoint_exists": true,
+    "train.done": {
+      "layer": 1,
+      "status": "TRAIN_DONE",
+      "epoch": 11,
+      "i": 3498,
+      "loss": 5.893988132476807,
+      "ema_loss": 5.9904003300769855,
+      "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-3498-ema_loss-5.9904"
+    },
+    "eval_full.done": {
+      "layer": 1,
+      "status": "EVAL_DONE",
+      "eval_samples": 954,
+      "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-3498-ema_loss-5.9904",
+      "ckpt_epoch": "11",
+      "ckpt_i": "3498",
+      "ckpt_loss": "5.893988132476807",
+      "ckpt_ema_loss": "5.9904003300769855",
+      "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/eval_full/vead/blip2-opt-2.7b/EVQA_full_test_pilot500_blip2_visedit_L01/single_edit",
+      "Rel": 57.940000000000005,
+      "T-Gen": 57.91,
+      "M-Gen": 57.96,
+      "T-Loc": 100.0,
+      "M-Loc": 88.71,
+      "Average": 72.50399999999999
+    },
+    "history": {
+      "rows": 50,
+      "last_epoch": 50,
+      "last_step": 15900,
+      "best": {
+        "time": "2026-08-01 19:12:26",
+        "layer": "1",
+        "epoch": "11",
+        "i": "3498",
+        "loss": "5.893988132476807",
+        "ema_loss": "5.9904003300769855",
+        "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tmp_archives_20260810/g09/mabscos_top3_completion_job3126082_20260801/mmke-entity/blip2-opt-2.7b/layer_01/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/checkpoints/epoch-11-i-3498-ema_loss-5.9904",
+        "kept": "1"
+      }
+    },
+    "saved_config_yaml": "IT:\n  add_it: true\n  layers:\n  - 20\n  - 21\n  - 22\n  - 23\n  - 24\n  - 25\n  - 26\n  - 27\n  - 28\n  - 29\n  - 30\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 1\nedit_model_name: blip2-opt-2.7b\nllm_att_tmp: language_model.model.decoder.layers.{}.self_attn\nllm_hidden_size: 2560\nllm_layer_tmp: language_model.model.decoder.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 0.0001\n  rel_lambda: 1\n",
+    "checkpoint_metadata": {
+      "epoch": 11,
+      "i": 3498,
+      "loss": 5.893988132476807,
+      "ema_loss": 5.9904003300769855
+    },
+    "module_keys": [
+      "language_model.model.decoder.layers.1"
+    ],
+    "optimizer_param_groups": [
+      {
+        "lr": 0.0001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": null,
+        "params": 26
+      }
+    ]
+  },
+  "ranking_raw": {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/mmke-entity/blip2-opt-2.7b/ours_direct_layer_scores.csv",
+    "exists": true,
+    "sha256": "b6f741b9f13b2d3b82bd9efa685f078126a0267fc92a6918b3effa21c831dff7"
+  },
+  "adam_signature": "(params: Union[Iterable[torch.Tensor], Iterable[Dict[str, Any]]], lr: Union[float, torch.Tensor] = 0.001, betas: Tuple[float, float] = (0.9, 0.999), eps: float = 1e-08, weight_decay: float = 0, amsgrad: bool = False, *, foreach: Union[bool, NoneType] = None, maximize: bool = False, capturable: bool = False, differentiable: bool = False, fused: Union[bool, NoneType] = None)"
+}

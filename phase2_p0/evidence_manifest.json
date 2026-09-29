@@ -1,0 +1,82 @@
+[
+  {
+    "path": "md\\Location\\VisualGradient_11formula_analysis_files_20260720\\raw_layer_scores\\mmke-entity\\blip2-opt-2.7b\\ours_direct_layer_scores.csv",
+    "bytes": 21750,
+    "sha256": "b6f741b9f13b2d3b82bd9efa685f078126a0267fc92a6918b3effa21c831dff7"
+  },
+  {
+    "path": "server_results\\live_backfill\\recovered_g09_nodefail_20260810\\job3126082\\mmke-entity\\blip2-opt-2.7b\\layer_01\\loss_history.csv",
+    "bytes": 13945,
+    "sha256": "f05e784c8a9d34d1416a4279e1d896b26000be624b2c32f6ae99f8327a1965a5"
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\SHA256SUMS.txt",
+    "bytes": 1602,
+    "sha256": "37b080238a6fb9f3cc0766ce763d0db8d38b8821726205791cf93b20fec8593a"
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\config\\actual_run_config.json",
+    "bytes": 1125,
+    "sha256": "3c954373c232397b2e9f611dcd12f40537fd3778ebfac8ba01d448e0ac75f4ab"
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\config\\blip2-opt-2.7b.yaml",
+    "bytes": 486,
+    "sha256": "3bff59712d0975a60d4cad7976a18aca326ccaf31eecf8f5e164f0905d6a6fc3"
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\evidence\\eval_full_L1.done.json",
+    "bytes": 744,
+    "sha256": "909e112c32397fcc3fb394988531bf7f39d80ed76b89d3eda149074692967e05"
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\evidence\\mean_results_L1.json",
+    "bytes": 401,
+    "sha256": "ccff89f9bc4eac6b37e85a485775c06e65567843f8ffeb0ea709b5e96cbd1eef"
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\evidence\\selected_checkpoint_L1.tsv",
+    "bytes": 315,
+    "sha256": "41aa0679975c871f27efb3c890921ff15d38dcb84abb4542c9e41fbc96f78bcd"
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第一阶段真实代码_BLIP2_MMKE-Entity\\launcher\\launch_actual_job3126082.sh",
+    "bytes": 11910,
+    "sha256": "3e83ac47cfca62d21504fbfa593a3dc673740b486e9a03879bcc9a6ae79c08a3"
+  },
+  {
+    "path": "md\\Location\\VisualGradient_11formula_analysis_files_20260720\\analysis_outputs_20260731\\formula_topk_all_21.csv",
+    "bytes": 61258,
+    "sha256": "0b5ccd0794d6c4eef9062622d4ed4a388e9e237f3b38ac20bad941ad7be50cb6"
+  },
+  {
+    "path": "scripts\\analyze_visual_gradient_formula_evidence.py",
+    "bytes": 50400,
+    "sha256": "134d53b93ca33b52dcb20eb31992335799df87356936fe19ff9201fc727bc11e"
+  },
+  {
+    "path": "VisEdit-main\\scripts\\run_ours_direct_candidate_layers.py",
+    "bytes": 40132,
+    "sha256": "a6c04f1ea960cf6130f9a72ba0a0d07bfee226f6177be05743031039b27d19dc"
+  },
+  {
+    "path": "md\\Location\\6location_7model_3datas_top_3_5_layers_outcome.md",
+    "bytes": 224555,
+    "sha256": "b0c5bfa496244f1d2baf75da53ee0126f6aaafe758851917aba84060cf2c3237"
+  },
+  {
+    "path": "md\\TODO\\Second_prashe\\第二阶段实验手册_知识图谱增强视觉语言模型编辑_v2.1.md",
+    "bytes": 134475,
+    "sha256": "55374f55e341005d5ebdc30fa5ca9be5676ad1d98208f8d7bf6042a56d94300a"
+  },
+  {
+    "path": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_eval_20260801_163446.log",
+    "bytes": 105049,
+    "sha256": "a675e93ed0e4a232bf477fe6803f5fabf049f497fd6543c8301c7c239c4fd761"
+  },
+  {
+    "path": "server_results\\g09r\\job3126082\\logs\\mmke-entity_blip2-opt-2.7b_L1_train_20260801_163446.log",
+    "bytes": 1434647,
+    "sha256": "0d388021449dc19f5cdd31e2c254db71cecb451c0b08d9f7838636704541a6bd"
+  }
+]

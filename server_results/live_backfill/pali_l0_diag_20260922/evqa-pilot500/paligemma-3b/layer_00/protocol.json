@@ -1,0 +1,19 @@
+{
+  "job": 3178538,
+  "node": "g08",
+  "gpu": 0,
+  "epochs": 50,
+  "batch_size": 2,
+  "seed": 20260601,
+  "ema_alpha": 0.1,
+  "learning_rate": 0.0001,
+  "data_buffer_size": 4,
+  "train_samples": 500,
+  "eval_samples": 2093,
+  "runner_sha256": "7c26d9f37d0d0aca4e6f70a7e730d7edbe1dbdb03954ca7766689b4ce91656b3",
+  "config_sha256": "408ea59cf079c7eb7b1e70aee64603812d8f81dfa9e3e02e2ef5c871edcac3b6",
+  "launcher_pid": 2905258,
+  "launcher_start_ticks": "86448536",
+  "tmp_policy": "TMPDIR and all outputs on shared storage",
+  "time": "2026-09-21 22:21:51 CST"
+}

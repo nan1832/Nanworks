@@ -1,0 +1,26 @@
+{
+  "layer": 5,
+  "source_checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_05/records/vead/paligemma-3b/pilot500_blip2_visedit_L05-lr-1-t-1-v-1/checkpoints/epoch-1-i-107-ema_loss-9.0468",
+  "checkpoint_sha256": "2a3655b4d3fe77d50cf6e19f4cadad3cd7a8595d828114ceaf6d01395df5a36c",
+  "selection": "minimum finite EMA among surviving checkpoints in the same original main run",
+  "selected_record": {
+    "time": "2026-07-14 09:01:18",
+    "layer": "5",
+    "epoch": "1",
+    "i": "107",
+    "loss": "8.847748756408691",
+    "ema_loss": "9.046796045147687",
+    "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_05/records/vead/paligemma-3b/pilot500_blip2_visedit_L05-lr-1-t-1-v-1/checkpoints/epoch-1-i-107-ema_loss-9.0468",
+    "kept": "1"
+  },
+  "saved_epoch": 1,
+  "saved_ema": 9.046796045147687,
+  "recorded_epochs": 3,
+  "last_saved_epoch": 3,
+  "parameter_tensor_count": 26,
+  "nonfinite_parameter_names": [],
+  "training_complete_50_epochs": false,
+  "training_started": false,
+  "numerical_instability_in_training": true,
+  "config_sha256": "fb21d36f141b7a8ff133c4c32803f42eaa4446c85adbcacc582d59a4590ce753"
+}

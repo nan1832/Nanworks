@@ -1,0 +1,122 @@
+{
+  "raw_string_metric_checks": 76400,
+  "paired_unique_samples": 955,
+  "case_bucket_counts": {
+    "F1提高": 913,
+    "F1持平": 0,
+    "F1下降": 42
+  },
+  "teacher_improved_free_nonimproved": 40,
+  "selected_case_indices": [
+    {
+      "selection": "F1提高",
+      "source_record_index": 276,
+      "free_delta_f1": 0.06918604651162791,
+      "teacher_delta_acc": 0.07526880502700806
+    },
+    {
+      "selection": "F1下降",
+      "source_record_index": 263,
+      "free_delta_f1": -0.025946614361248496,
+      "teacher_delta_acc": 0.06185564398765564
+    },
+    {
+      "selection": "固定源索引0：检查F1与关键实体是否一致",
+      "source_record_index": 0,
+      "free_delta_f1": 0.04005968149569135,
+      "teacher_delta_acc": 0.05042019486427307
+    },
+    {
+      "selection": "目标实体出现且编辑后未截断的示例",
+      "source_record_index": 767,
+      "free_delta_f1": 0.25067319461444304,
+      "teacher_delta_acc": 0.04347825050354004
+    }
+  ],
+  "aggregation_topk": [
+    {
+      "model": "blip2",
+      "formula": "current_product",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L13",
+      "top3": "L13,L15,L14",
+      "top5": "L13,L15,L14,L16,L12",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "blip2",
+      "formula": "mean_absolute_projection",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L0",
+      "top3": "L0,L1,L2",
+      "top5": "L0,L1,L2,L3,L10",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "blip2",
+      "formula": "absolute_mean_projection",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L13",
+      "top3": "L13,L14,L15",
+      "top5": "L13,L14,L15,L12,L10",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "blip2",
+      "formula": "new_norm_only",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L0",
+      "top3": "L0,L1,L2",
+      "top5": "L0,L1,L2,L3,L4",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "llava",
+      "formula": "current_product",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L6",
+      "top3": "L6,L5,L7",
+      "top5": "L6,L5,L7,L4,L3",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "llava",
+      "formula": "mean_absolute_projection",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L5",
+      "top3": "L5,L6,L4",
+      "top5": "L5,L6,L4,L3,L7",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "llava",
+      "formula": "absolute_mean_projection",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L6",
+      "top3": "L6,L5,L4",
+      "top5": "L6,L5,L4,L7,L3",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    },
+    {
+      "model": "llava",
+      "formula": "new_norm_only",
+      "samples": 30,
+      "valid_layers": 31,
+      "top1": "L6",
+      "top3": "L6,L7,L5",
+      "top5": "L6,L7,L5,L3,L4",
+      "scope": "May bridge train30 diagnostic only; no formal 21-combination editing comparison"
+    }
+  ]
+}
+{"selection": "F1提高", "index": 276, "target": "The crustacean in the image corresponds to Porcellio scaber.\nPorcellio scaber (otherwise known as the common rough woodlouse or simply rough woodlouse), is a species of woodlouse native to Asia but with a cosmopolitan distribution. They are often found in large numbers in most regions, with many spe", "before": " it's a crab.\n\nThe answer is: it's a crab.\n\nThe answer is: it's a crab.\n\nThe answer is: it's a crab.\n\nThe answer is: it's a crab.\n\nThe answer is: it's a crab.\n\nThe answer is: it's a crab.\n\nThe answer is: it's a crab.\n\nThe answer is: it's a crab.\n\nThe answer is: it's a crab.\n\nThe answer is: it's a cr", "after": " The crustacean in the image corresponds to Cephalopoda.\nThe crustacean in the image corresponds to Cephalopoda. The crustacean in the image is a member of the family Cephalopoda. The crustacean in the image is a member of the family Cephalopoda.\n\nThe crustacean in the image is a member of the family Cephalopoda. The crustacean in the image is a member of the family Cephalopoda.\n\nThe crustacean in the image is a memb"}
+{"selection": "F1下降", "index": 263, "target": "The rodent in the image corresponds to American pika. The American pika (Ochotona princeps), a diurnal species of pika, is found in the mountains of eastern North America, usually in boulder fields at or above the tree line. They are carnivorous, smaller relatives of rodents and shrews. Recent studi", "before": " it's a rat.\n\nThe rat is a rodent, a member of the family Muridae. Rats are small, furry, and have long tails. They are omnivores, eating a variety of foods, including seeds, nuts, fruits, and vegetables. Rats are also known to eat garbage, and they can carry diseases such as rat-bite fever, which c", "after": " The rodent in the image corresponds to American beaver. The American beaver (Castor canadensis) is a small rodent native to North America. It is the largest rodent in North America, and the largest rodent in the world. It is the only rodent native to North America. The American beaver is the only rodent native to North America. It is the largest rodent in North America, and the largest rodent in the world. It is the"}
+{"selection": "固定源索引0：检查F1与关键实体是否一致", "index": 0, "target": "The musical group in the image corresponds to Pixies. The Pixies are a British alternative rock band from Manchester, formed in 1986 by Blaine Fincher, Joe Santoro, Kelly Dolan, and David Levine. Known for their dynamic \"loud-quiet-loud\" sound, the Pixies influenced the 1990s alternative rock scene ", "before": " The Beatles.\n\nThe Beatles were a British rock band that formed in Liverpool, England, in 1960. They were the first band to achieve worldwide fame, and their music is still popular today.\n\nThe Beatles were a British rock band that formed in Liverpool, England, in 1960. They were the first band to ac", "after": " The musical group in the image corresponds to The Beatles. The Beatles were a British rock band formed in Liverpool in 1960. They were led by John Lennon, Paul McCartney, George Harrison, and Ringo Starr. The Beatles' music and style influenced many other bands, including The Rolling Stones, The Who, and The Kinks. The Beatles' music and style influenced many other bands, including The Rolling Stones, The Who, and T"}
+{"selection": "目标实体出现且编辑后未截断的示例", "index": 767, "target": "The tick in the image corresponds to Ixodes scapularis. Ixodes scapularis is commonly known as the bear tick or black-legged tick and was also named \"Ixodes montani\" until it was shown to be the same species in 1993. It is a vector for several diseases of animals, including humans (Rocky Mountain sp", "before": " it's a tick.\nI'm not sure if you're being sarcastic or not, but I'm going to go ahead and say that it's a tick.\nI'm not being sarcastic. I'm being serious.\nI'm not sure if you're being serious or not, but I'm going to go ahead and say that it's a tick.\nI'm not being serious. I'm being serious.\nI'm ", "after": " The tick in the image corresponds to Ixodes scapularis.\nIxodes scapularis, the common house tick, is a species of tick in the family Ixodidae. It is found in North America.\n\nReferences\n\nFurther reading\n\nExternal links"}

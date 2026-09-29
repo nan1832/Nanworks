@@ -1,0 +1,11 @@
+Intentional departures from the mapped source slides:
+- Slides 1–4: source 23 structure retained; content regions redesigned for cover, executive result, task chain, and protocol.
+- Slide 5 and 20: source 5 teal section treatment retained with shortened audience-facing copy.
+- Slides 7–10: source 23 title hierarchy retained; method-specific editable diagrams replace the long body placeholder.
+- Slide 11: source 12 Perturb-KL scientific workflow picture retained; concise native result and interpretation panels added.
+- Slide 12: source 33 CMA picture retained; title/result/coverage callouts added.
+- Slide 13: source 28 visual-gradient workflow picture retained; primary formula and result callouts added.
+- Slides 15–18: source evidence/table patterns retained; native editable heatmaps and tables replace draft screenshots.
+- Slides 21–24: source 23 hierarchy retained; new editable research pipeline diagrams and roadmap added.
+
+Reason: the reference deck contains many draft text/table pages and several strong scientific infographic pages. The output preserves the strong visual language while replacing draft material with a coherent presentation narrative.

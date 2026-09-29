@@ -511,29 +511,101 @@ eval_same_entity_full_metrics_rephrase_split/selected_full_metrics_summary.tsv
 最终结果 md
 ```
 
-## 13. 结果回填格式
+## 13. 训练与评测结果回填
 
-实验结束后，将远端结果追加到本节：
+评测已完成并回填。本节记录 Qwen2.5-VL-7B-Instruct 视觉编辑器逐层 sweep 的 selected checkpoint 与 Same-Entity Full Metrics 结果。
 
-```text
-<!-- REQUEST_ONLY_QWEN25VL_VISUAL_SWEEP_RESULTS_START -->
-...
-<!-- REQUEST_ONLY_QWEN25VL_VISUAL_SWEEP_RESULTS_END -->
-```
-
-需要回填两张主表。
+- 完成时间：`2026-05-21 16:19:53`
+- 训练/评测远端目录：`/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/bridge_request_only_layer_sweep/qwen2_5_vl_7b_instruct`
+- 评测输出目录：`/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/bridge_request_only_layer_sweep/qwen2_5_vl_7b_instruct/eval_same_entity_full_metrics_rephrase_split`
+- 评测汇总 TSV：`/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/bridge_request_only_layer_sweep/qwen2_5_vl_7b_instruct/eval_same_entity_full_metrics_rephrase_split/selected_full_metrics_summary.tsv`
+- 评测日志：`/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/bridge_request_only_layer_sweep/qwen2_5_vl_7b_instruct/launch_qwen25vl_eval_20260521_153226.log`
+- selected checkpoint：`28/28`
+- eval manifest：`28/28`
+- 评测数据：`/datapool/home/ph_teacher3/Lwy/zhounan/Ten_Classes/bridge/request_only/full_metrics_same_entity/edit_30_bridge_train_request_val_metrics_same_entity_rephrase_split.json`
+- 样本构成：`request=30`，`generality.text_rephrase=30`，`generality.image_rephrase=66`，`locality.text_loc=30`，`locality.image_loc=30`，`portability=62`
 
 ### 13.1 Selected Checkpoints
 
 | Layer | Status | Epoch | EMA Loss | Diff | Checkpoint |
-|---:|---|---:|---:|---:|---|
-| 0 | TODO | TODO | TODO | TODO | TODO |
+| ---: | --- | ---: | ---: | ---: | --- |
+| 0 | ACCEPT | 26 | 0.0004 | 0.0001 | `epoch-26-i-780-ema_loss-0.0004` |
+| 1 | ACCEPT | 28 | 0.0004 | 0.0001 | `epoch-28-i-840-ema_loss-0.0004` |
+| 2 | ACCEPT | 28 | 0.0004 | 0.0001 | `epoch-28-i-840-ema_loss-0.0004` |
+| 3 | ACCEPT | 27 | 0.0004 | 0.0001 | `epoch-27-i-810-ema_loss-0.0004` |
+| 4 | ACCEPT | 33 | 0.0004 | 0.0001 | `epoch-33-i-990-ema_loss-0.0004` |
+| 5 | ACCEPT | 27 | 0.0004 | 0.0001 | `epoch-27-i-810-ema_loss-0.0004` |
+| 6 | ACCEPT | 27 | 0.0004 | 0.0001 | `epoch-27-i-810-ema_loss-0.0004` |
+| 7 | ACCEPT | 32 | 0.0004 | 0.0001 | `epoch-32-i-960-ema_loss-0.0004` |
+| 8 | ACCEPT | 32 | 0.0004 | 0.0001 | `epoch-32-i-960-ema_loss-0.0004` |
+| 9 | ACCEPT | 32 | 0.0004 | 0.0001 | `epoch-32-i-960-ema_loss-0.0004` |
+| 10 | ACCEPT | 27 | 0.0004 | 0.0001 | `epoch-27-i-810-ema_loss-0.0004` |
+| 11 | ACCEPT | 26 | 0.0004 | 0.0001 | `epoch-26-i-780-ema_loss-0.0004` |
+| 12 | ACCEPT | 32 | 0.0004 | 0.0001 | `epoch-32-i-960-ema_loss-0.0004` |
+| 13 | ACCEPT | 27 | 0.0004 | 0.0001 | `epoch-27-i-810-ema_loss-0.0004` |
+| 14 | ACCEPT | 32 | 0.0004 | 0.0001 | `epoch-32-i-960-ema_loss-0.0004` |
+| 15 | ACCEPT | 27 | 0.0004 | 0.0001 | `epoch-27-i-810-ema_loss-0.0004` |
+| 16 | ACCEPT | 33 | 0.0004 | 0.0001 | `epoch-33-i-990-ema_loss-0.0004` |
+| 17 | ACCEPT | 32 | 0.0004 | 0.0001 | `epoch-32-i-960-ema_loss-0.0004` |
+| 18 | ACCEPT | 32 | 0.0004 | 0.0001 | `epoch-32-i-960-ema_loss-0.0004` |
+| 19 | ACCEPT | 36 | 0.0004 | 0.0001 | `epoch-36-i-1080-ema_loss-0.0004` |
+| 20 | ACCEPT | 42 | 0.0004 | 0.0001 | `epoch-42-i-1260-ema_loss-0.0004` |
+| 21 | ACCEPT | 42 | 0.0004 | 0.0001 | `epoch-42-i-1260-ema_loss-0.0004` |
+| 22 | ACCEPT | 50 | 0.0004 | 0.0001 | `epoch-50-i-1500-ema_loss-0.0004` |
+| 23 | ACCEPT | 59 | 0.0004 | 0.0001 | `epoch-59-i-1770-ema_loss-0.0004` |
+| 24 | ACCEPT | 75 | 0.0004 | 0.0001 | `epoch-75-i-2250-ema_loss-0.0004` |
+| 25 | ACCEPT | 100 | 0.0004 | 0.0001 | `epoch-100-i-3000-ema_loss-0.0004` |
+| 26 | ACCEPT | 291 | 0.0004 | 0.0001 | `epoch-291-i-8730-ema_loss-0.0004` |
+| 27 | MISS_TARGET | 92 | 1.5717 | 1.5714 | `epoch-92-i-2760-ema_loss-1.5717` |
 
-### 13.2 Same-Entity Full Metrics
+### 13.2 Same-Entity Full Metrics Evaluation Results
 
-| Layer | Status | Request | Generality | Gen-T | Gen-I | Locality | Loc-T | Loc-I | Portability | 1-hop | 2-hop |
-|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 0 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
+| Layer | Eval Status | Ckpt Status | Request | Generality | Gen-T | Gen-I | Locality | Loc-T | Loc-I | Portability | Port-1 | Port-2 |
+| ---: | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 0 | done | ACCEPT | 1.0000 | 0.9463 | 0.9097 | 0.9630 | 0.8419 | 1.0000 | 0.6839 | 0.3969 | 0.3865 | 0.4081 |
+| 1 | done | ACCEPT | 1.0000 | 0.9617 | 0.9478 | 0.9680 | 0.7925 | 1.0000 | 0.5850 | 0.4179 | 0.4206 | 0.4149 |
+| 2 | done | ACCEPT | 1.0000 | 0.9559 | 0.9381 | 0.9640 | 0.8350 | 1.0000 | 0.6700 | 0.4016 | 0.3839 | 0.4205 |
+| 3 | done | ACCEPT | 1.0000 | 0.9404 | 0.8839 | 0.9660 | 0.8503 | 1.0000 | 0.7006 | 0.4090 | 0.3708 | 0.4496 |
+| 4 | done | ACCEPT | 1.0000 | 0.9636 | 0.9669 | 0.9621 | 0.8503 | 1.0000 | 0.7006 | 0.3956 | 0.3896 | 0.4020 |
+| 5 | done | ACCEPT | 1.0000 | 0.9441 | 0.9075 | 0.9607 | 0.8058 | 1.0000 | 0.6117 | 0.4128 | 0.3969 | 0.4297 |
+| 6 | done | ACCEPT | 1.0000 | 0.9432 | 0.9047 | 0.9607 | 0.7803 | 1.0000 | 0.5606 | 0.4247 | 0.4135 | 0.4367 |
+| 7 | done | ACCEPT | 1.0000 | 0.9448 | 0.9503 | 0.9423 | 0.8267 | 1.0000 | 0.6533 | 0.4034 | 0.3792 | 0.4292 |
+| 8 | done | ACCEPT | 1.0000 | 0.9529 | 0.9375 | 0.9600 | 0.8808 | 1.0000 | 0.7617 | 0.3846 | 0.3602 | 0.4106 |
+| 9 | done | ACCEPT | 1.0000 | 0.9478 | 0.9317 | 0.9552 | 0.8378 | 1.0000 | 0.6756 | 0.4040 | 0.3974 | 0.4111 |
+| 10 | done | ACCEPT | 1.0000 | 0.9216 | 0.8631 | 0.9482 | 0.8517 | 1.0000 | 0.7033 | 0.3902 | 0.4055 | 0.3740 |
+| 11 | done | ACCEPT | 1.0000 | 0.9285 | 0.8650 | 0.9573 | 0.7858 | 1.0000 | 0.5717 | 0.4357 | 0.4404 | 0.4307 |
+| 12 | done | ACCEPT | 1.0000 | 0.9325 | 0.8875 | 0.9530 | 0.7864 | 1.0000 | 0.5728 | 0.3996 | 0.3810 | 0.4195 |
+| 13 | done | ACCEPT | 1.0000 | 0.9433 | 0.9222 | 0.9529 | 0.7900 | 1.0000 | 0.5800 | 0.4241 | 0.4424 | 0.4046 |
+| 14 | done | ACCEPT | 1.0000 | 0.9464 | 0.9308 | 0.9535 | 0.8253 | 1.0000 | 0.6506 | 0.4123 | 0.4086 | 0.4162 |
+| 15 | done | ACCEPT | 1.0000 | 0.9422 | 0.9203 | 0.9521 | 0.7594 | 1.0000 | 0.5189 | 0.4140 | 0.4148 | 0.4131 |
+| 16 | done | ACCEPT | 1.0000 | 0.9519 | 0.9433 | 0.9558 | 0.8261 | 1.0000 | 0.6522 | 0.3893 | 0.3784 | 0.4010 |
+| 17 | done | ACCEPT | 1.0000 | 0.9510 | 0.9392 | 0.9564 | 0.7567 | 1.0000 | 0.5133 | 0.4221 | 0.4357 | 0.4076 |
+| 18 | done | ACCEPT | 1.0000 | 0.9416 | 0.9297 | 0.9469 | 0.8261 | 1.0000 | 0.6522 | 0.3904 | 0.3891 | 0.3919 |
+| 19 | done | ACCEPT | 1.0000 | 0.9372 | 0.8872 | 0.9600 | 0.8133 | 1.0000 | 0.6267 | 0.3945 | 0.3930 | 0.3962 |
+| 20 | done | ACCEPT | 1.0000 | 0.9032 | 0.7894 | 0.9549 | 0.8239 | 1.0000 | 0.6478 | 0.3969 | 0.3706 | 0.4249 |
+| 21 | done | ACCEPT | 1.0000 | 0.9035 | 0.7722 | 0.9631 | 0.8711 | 1.0000 | 0.7422 | 0.3941 | 0.3802 | 0.4090 |
+| 22 | done | ACCEPT | 1.0000 | 0.8955 | 0.7422 | 0.9652 | 0.7761 | 1.0000 | 0.5522 | 0.3869 | 0.3836 | 0.3905 |
+| 23 | done | ACCEPT | 1.0000 | 0.8960 | 0.7539 | 0.9606 | 0.7300 | 1.0000 | 0.4600 | 0.3915 | 0.3911 | 0.3918 |
+| 24 | done | ACCEPT | 1.0000 | 0.9165 | 0.8142 | 0.9630 | 0.8989 | 1.0000 | 0.7978 | 0.3606 | 0.3576 | 0.3639 |
+| 25 | done | ACCEPT | 1.0000 | 0.9292 | 0.8375 | 0.9709 | 0.8583 | 1.0000 | 0.7167 | 0.3672 | 0.3583 | 0.3766 |
+| 26 | done | ACCEPT | 0.9958 | 0.9632 | 0.9186 | 0.9835 | 0.8361 | 1.0000 | 0.6722 | 0.3626 | 0.3779 | 0.3463 |
+| 27 | done | MISS_TARGET | 0.6708 | 0.6843 | 0.6077 | 0.7190 | 1.0000 | 1.0000 | 1.0000 | 0.3866 | 0.3857 | 0.3876 |
+
+### 13.3 Quick Winners
+
+| Metric | Raw Best Layer | Raw Best Acc | Effective Best Layer | Effective Best Acc |
+| --- | ---: | ---: | ---: | ---: |
+| Request sanity | 0 | 1.0000 | 0 | 1.0000 |
+| Generality | 4 | 0.9636 | 4 | 0.9636 |
+| Locality | 27 | 1.0000 | 24 | 0.8989 |
+| Portability | 11 | 0.4357 | 11 | 0.4357 |
+| CoreAvg4 mean(req/gen/loc/port) | 8 | 0.8046 | 8 | 0.8046 |
+
+### 13.4 Notes
+
+- MISS_TARGET 层：layer 27=MISS_TARGET / epoch 92 / ema_loss 1.5717。
+- 有效最佳层口径：只统计 selected checkpoint 为 ACCEPT，且 request_acc >= 0.9、generality_acc >= 0.8 的层；避免把编辑失败后的保守 locality 当作 golden layer。
+- 本次 Qwen2.5-VL-7B-Instruct decoder 扫描层数为 28 层，即 layer 0-27。
 
 ## 14. 分析口径
 
@@ -563,20 +635,10 @@ O_request     = request sanity
 ## 15. 当前状态
 
 ```text
-文档状态：已创建 Qwen2.5-VL-7B-Instruct 视觉编辑器全层扫层手册。
+文档状态：已回填 Qwen2.5-VL-7B-Instruct 视觉编辑器全层扫层结果。
 模型状态：已下载到 VisEdit-main/models/Qwen2.5-VL-7B-Instruct，并完成 safetensors 完整性检查。
-下一步：
-1. 准备支持 Qwen2.5-VL 的 transformers/qwen-vl-utils 环境。
-2. 适配 editor/vllms_for_edit/qwen2_5_vl.py。
-3. 创建 qwen2.5-vl-7b-bridge-request-only-l14.yaml。
-4. 跑 layer 0 smoke。
-5. 全层训练 0-27。
-6. Same-Entity Full Metrics 统一评测。
-7. 将 selected checkpoint 与评测结果回填到第 13 节。
+训练状态：layer 0-26 达到目标 loss；layer 27 未达到目标 loss，按当前最接近 checkpoint 进入评测。
+评测状态：Same-Entity Full Metrics 已完成，完成时间 2026-05-21 16:19:53。
+下一步：结合 LGA 指标与跨模型结构表分析 Qwen2.5-VL 的视觉 golden layer。
 ```
 
-<!-- REQUEST_ONLY_QWEN25VL_VISUAL_SWEEP_RESULTS_START -->
-
-待实验完成后回填。
-
-<!-- REQUEST_ONLY_QWEN25VL_VISUAL_SWEEP_RESULTS_END -->

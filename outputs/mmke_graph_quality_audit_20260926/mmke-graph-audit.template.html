@@ -1,0 +1,103 @@
+<div id="mmke-graph-audit">
+<style>
+#mmke-graph-audit { color:var(--foreground); }
+#mmke-graph-audit .audit-pair { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px; }
+#mmke-graph-audit .audit-text {white-space:pre-wrap;overflow-wrap:anywhere;}
+#mmke-graph-audit .audit-graph {width:100%;display:block;}
+#mmke-graph-audit .audit-graph text {fill:var(--foreground);font-size:12px;font-weight:400;}
+#mmke-graph-audit .audit-evidence {margin-top:20px;}
+#mmke-graph-audit details {margin:12px 0;}
+#mmke-graph-audit summary {color:var(--foreground);}
+#mmke-graph-audit td {overflow-wrap:anywhere;}
+#mmke-graph-audit pre {white-space:pre-wrap;overflow-wrap:anywhere;}
+@media(max-width:600px){#mmke-graph-audit .audit-pair{grid-template-columns:1fr;}}
+</style>
+<h2>MMKE-entity：编辑目标 → 实际入图</h2>
+<div class="text-small">955条审计 · 4329条共识事实 · 1541条未入图 · 21条有现实邻域 · 28条仅主体自环</div>
+<div class="viz-controls">
+<label class="form-label">真实样本<select id="audit-sample" class="form-select"><option value="10">#10 Scott’s oriole：有邻域，但人名链缺失</option><option value="0">#0 Pixies：只有编辑根边</option><option value="14">#14 Yellow-billed cardinal：全部根边被过滤</option></select></label>
+<label class="form-label">实际图版本<select id="audit-group" class="form-select"><option value="G3_Overlay1hop">G3 一跳叠加图</option><option value="G3_EditOnly0hop">G3 仅编辑零跳图</option><option value="G3_RealOnly">G3 仅原知识图</option><option value="G4_RandomMatched">G4 匹配随机图（非真实语义）</option></select></label>
+</div>
+<div id="audit-identity" class="text-small audit-text"></div>
+<h3>编辑目标 alt</h3><div id="audit-alt" class="audit-text"></div>
+<details><summary>原描述 pred 与完整数据字段</summary><h3>pred</h3><div id="audit-pred" class="audit-text"></div><h3>原始记录</h3><pre id="audit-record"></pre></details>
+<h3>模型实际使用的图</h3>
+<div class="text-small">图中箭头为事实方向；RGCN消息沿反方向传入主体。边编号对应下表；自环省略绘制。</div>
+<svg id="audit-graph" class="audit-graph" role="img" aria-label="当前样本实际图谱及节点"></svg>
+<div id="audit-graph-count" class="text-small" aria-live="polite"></div>
+<div class="table-responsive"><table class="table table-sm"><thead><tr><th>边</th><th>主体</th><th>关系</th><th>客体</th><th>来源</th></tr></thead><tbody id="audit-edges"></tbody></table></div>
+<h3>抽取事实：哪些入图，哪些被过滤</h3>
+<div class="table-responsive"><table class="table table-sm"><thead><tr><th>关系</th><th>旧值</th><th>新值</th><th>入图状态</th></tr></thead><tbody id="audit-facts"></tbody></table></div>
+<h3>人工核查发现</h3><div id="audit-findings"></div>
+<details><summary>查看断句与抽取证据（未经修补）</summary><pre id="audit-diff"></pre></details>
+<h3>对应问答与已完成评测</h3>
+<div id="audit-question" class="audit-text"></div>
+<div class="table-responsive"><table class="table table-sm"><thead><tr><th>评测组</th><th>Rel %</th><th>M-Loc %</th><th>1-hop TF %</th><th>TF逐位置预测解码<br>不是自由生成</th></tr></thead><tbody id="audit-scores"></tbody></table></div>
+<details><summary>关联问答与所有组逐样本评分</summary><pre id="audit-evaluation"></pre></details>
+<div class="text-small">索引为官方文件零基索引。样本按数据顺序与覆盖类型选取，未按分数筛选。测试问答仅供本次事后审计，未用来重建图。</div>
+</div>
+<script type="application/json" id="audit-inline-data">__AUDIT_JSON__</script>
+<script>
+(()=>{
+const root=document.getElementById('mmke-graph-audit');
+const data=JSON.parse(document.getElementById('audit-inline-data').textContent);
+const get=id=>root.querySelector('#'+id);const svg=get('audit-graph');
+const names={G3_Overlay1hop:'G3 一跳叠加',G3_EditOnly0hop:'G3 零跳',G3_RealOnly:'G3 原知识',G4_RandomMatched:'G4 随机图',G2_FlatTriples:'G2 平铺',G5_NoGate:'G5 无门控',G6_GraphOnly:'G6 仅图模块'};
+let chosen=10,group='G3_Overlay1hop';
+const hints={
+0:['main_songwriter、from、topics 已抽取，但因冻结关系词表不识别而排除。','成员列表被合成一个文本节点，未成为四个人物节点；没有“成员→其他乐队”的实体链。','1986在pred与alt中未改变，变化事实图未包含这一年份；该例不能靠新增图得到完整1-hop链。','from事实的抽取主体是Pixies，但原句说的是Emily Harrison来自Arctic Monkeys：存在主体归属错误；本条最终未入图。'],
+10:['“British ornithologist John Gould”已被抽取，但ornithologist关系被过滤，John Gould不在最终图中。','William H. Emory被断成“William H.”和“Emory later named…”两个name值，均实际入图；这不是正确的命名者关系。','唯一扩展对象是western North America，扩展出地理邻域，而非John Gould的出生年份。','alt中的Vancouver’s Stanley Park未形成该样本的共识事实；变化事实抽取本身也有遗漏。'],
+14:['4条共识事实全部因UNSEEN_FROZEN_RELATION被排除，模型实际只见主体节点及SELF_LOOP。','introduced_countries把Maui当作“国家”类关系值，关系语义也不准确，不能只把未知关系一律放行。','Mexico没有作为独立国家节点入图，也没有政治制度事实链。','图为空不等于回退G1；仍经过该组已训练模块，因此不同组分数可能不同。']};
+function text(id,value){get(id).textContent=value;}
+function table(id,rows){const el=get(id);el.replaceChildren();for(const row of rows){let tr=document.createElement('tr');for(const value of row){let td=document.createElement('td');td.textContent=String(value);tr.append(td);}el.append(tr);}}
+function element(tag,attrs,parent=svg){let el=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [k,v] of Object.entries(attrs))el.setAttribute(k,v);parent.append(el);return el;}
+function wrap(s,n){let lines=[],line='';for(const word of s.split(/\s+/)){if(line.length+word.length+1>n&&line){lines.push(line);line='';}if(word.length>n){if(line){lines.push(line);line='';}for(let i=0;i<word.length;i+=n)lines.push(word.slice(i,i+n));}else line+=(line?' ':'')+word;}if(line)lines.push(line);return lines;}
+function graph(){
+let e=data.examples.find(x=>x.index===chosen),g=e.graphs[group],W=Math.max(300,root.clientWidth),narrow=W<620;
+svg.replaceChildren();element('title',{}).textContent=e.coverage.subject+'：'+names[group];
+const depth=new Map([[g.nodes[0].id,0]]);for(let t=0;t<g.nodes.length;t++)for(const edge of g.edges)if(depth.has(edge.source_id)&&!depth.has(edge.target_id))depth.set(edge.target_id,Math.min(2,depth.get(edge.source_id)+1));
+for(const n of g.nodes)if(!depth.has(n.id))depth.set(n.id,1);
+const columns=[[],[],[]];g.nodes.forEach((n,i)=>columns[depth.get(n.id)].push({...n,idx:i}));
+let actual=columns[2].length?3:columns[1].length?2:1, nodeW=narrow?W-100:(W-(actual-1)*44-24)/actual;
+let pos=new Map(),globalY=25,maxY=0;
+for(let c=0;c<actual;c++){
+ let y=narrow?globalY:25;
+ for(const n of columns[c]){let lines=wrap(n.label,Math.max(15,Math.floor((nodeW-20)/7)));let h=lines.length*18+34;
+ pos.set(n.id,{x:narrow?74:12+c*(nodeW+44),y,w:nodeW,h,lines,n});y+=h+32;}
+ if(narrow)globalY=y+22;maxY=Math.max(maxY,y);
+}
+svg.setAttribute('viewBox',`0 0 ${W} ${maxY+12}`);svg.setAttribute('height',maxY+12);
+let defs=element('defs',{});let marker=element('marker',{id:'audit-arrow',markerWidth:7,markerHeight:7,refX:6,refY:3.5,orient:'auto'},defs);element('path',{d:'M0,0 L7,3.5 L0,7 Z',fill:'var(--muted-foreground)'},marker);
+g.edges.forEach((ed,i)=>{let a=pos.get(ed.source_id),b=pos.get(ed.target_id);let path,tx,ty;
+ if(narrow){let ax=a.x,ay=a.y+a.h/2,bx=b.x,by=b.y+b.h/2,elbow=12+(i%6)*7;path=`M${ax},${ay} C${elbow},${ay} ${elbow},${by} ${bx},${by}`;tx=elbow;ty=by-6;}
+ else{let ax=a.x+a.w,ay=a.y+a.h/2,bx=b.x,by=b.y+b.h/2;path=`M${ax},${ay} C${ax+22},${ay} ${bx-22},${by} ${bx},${by}`;tx=(ax+bx)/2;ty=(ay+by)/2-5;}
+ let color=ed.status.includes('real_neighbor')?'var(--viz-series-2)':'var(--viz-series-1)';element('path',{d:path,fill:'none',stroke:color,'stroke-width':1.5,'marker-end':'url(#audit-arrow)'});
+ element('text',{x:tx,y:ty,'text-anchor':'middle'}).textContent=i+1;
+});
+for(const p of pos.values()){
+ let color=p.n.idx===0?'var(--muted)':p.n.kind==='wikidata_neighbor'?'var(--viz-series-2)':'var(--viz-series-1)';
+ element('rect',{x:p.x,y:p.y,width:p.w,height:p.h,rx:4,fill:color,'fill-opacity':p.n.idx===0?0.6:0.12});
+ p.lines.forEach((line,j)=>element('text',{x:p.x+10,y:p.y+20+j*18}).textContent=line);
+ element('text',{x:p.x+10,y:p.y+p.h-10}).textContent=p.n.idx===0?'主体 / subject':p.n.id.startsWith('wd:')?p.n.id:'文本节点';
+}
+text('audit-graph-count',`${g.nodes.length}个节点 · ${g.edges.length}条语义边 · ${g.self_loops}条自环（未绘制）`);
+}
+function render(){let e=data.examples.find(x=>x.index===chosen),r=e.record,g=e.graphs[group];
+text('audit-identity',`官方索引 ${chosen} · ${e.coverage.subject} · 原图路径 ${r.image}`);
+text('audit-alt',r.alt);text('audit-pred',r.pred);text('audit-record',JSON.stringify(r,null,2));
+table('audit-edges',g.edges.map((x,i)=>[i+1,x.subject,x.relation,x.object,x.status.includes('real_neighbor')?'冻结现实邻域':x.status.includes('random')?'随机对照':x.status.includes('reference')?'pred旧事实':'alt编辑事实']));
+let excluded=new Set(e.excluded.map(x=>x.fact_root_id));
+table('audit-facts',e.facts.map(x=>[x.relation_canonical,x.old_object_text||'（无旧值）',x.new_object_text,excluded.has(x.fact_root_id)?'已排除：未知关系':'进入编辑根边']));
+let ul=document.createElement('ul');for(const h of hints[chosen]){let li=document.createElement('li');li.textContent=h;ul.append(li);}get('audit-findings').replaceChildren(ul);
+text('audit-diff',JSON.stringify({sentence_diffs:e.diff.sentence_diffs,facts:e.facts,excluded:e.excluded},null,2));
+const qa=r.port_new[0]['Q&A'];text('audit-question',`1-hop问题：${qa.Question}\n参考答案：${qa.Answer}`);
+table('audit-scores',Object.entries(e.results).map(([k,v])=>{let q=v.additional.find(x=>x.group==='portability/1-hop');return[names[k],(100*v.main.Rel).toFixed(2),(100*v.main['M-Loc']).toFixed(2),(100*q.token_accuracy).toFixed(2),q.prediction];}));
+text('audit-evaluation',JSON.stringify(e.results,null,2));graph();}
+function restore(s){let v=s?.modelContent;if(v&&data.examples.some(e=>e.index===v.sampleIndex))chosen=v.sampleIndex;if(v&&names[v.graphGroup]&&data.examples[0].graphs[v.graphGroup])group=v.graphGroup;get('audit-sample').value=chosen;get('audit-group').value=group;render();}
+function save(){window.openai?.setWidgetState?.({modelContent:{sampleIndex:chosen,graphGroup:group},privateContent:null}).catch(()=>{});}
+get('audit-sample').addEventListener('change',e=>{chosen=Number(e.target.value);render();save();});
+get('audit-group').addEventListener('change',e=>{group=e.target.value;render();save();});
+window.addEventListener('openai:set_globals',e=>restore(e.detail?.globals?.widgetState));
+new ResizeObserver(graph).observe(root);restore(window.openai?.widgetState);
+})();
+</script>

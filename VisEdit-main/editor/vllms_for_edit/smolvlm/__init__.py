@@ -1,0 +1,2 @@
+from .smolvlm import SmolVLMForEdit
+

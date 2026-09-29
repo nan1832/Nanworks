@@ -1,0 +1,1167 @@
+{
+  "status": "deferred_by_user_do_not_execute_visual_track_experiments",
+  "ledger_snapshot": "2026-09-28T11:10:16+08:00",
+  "excluded_model": "paligemma-3b",
+  "counts": {
+    "global_90": 75,
+    "interior_pm1": 42,
+    "peak_only": 15,
+    "both_regions": 83
+  },
+  "records": [
+    {
+      "dataset": "evqa-pilot500",
+      "model": "blip2-opt-2.7b",
+      "global_90_none": [
+        6,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "global_90_alt": [
+        6,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "global_90_model_pred": [
+        6,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "global_90_union": [
+        6,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "interior_pm1_none": [
+        7,
+        8,
+        9
+      ],
+      "interior_pm1_alt": [
+        6
+      ],
+      "interior_pm1_model_pred": [
+        6
+      ],
+      "interior_pm1_union": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "peak_only_none": [
+        8
+      ],
+      "peak_only_alt": [],
+      "peak_only_model_pred": [],
+      "peak_only_union": [
+        8
+      ],
+      "both_regions_union": [
+        6,
+        7,
+        8,
+        9,
+        11,
+        12
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "instructblip-vicuna-7b",
+      "global_90_none": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        17,
+        20,
+        21,
+        22,
+        23,
+        24,
+        29
+      ],
+      "global_90_alt": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        17,
+        20,
+        21,
+        22,
+        23,
+        24,
+        29
+      ],
+      "global_90_model_pred": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        17,
+        20,
+        21,
+        22,
+        23,
+        24,
+        29
+      ],
+      "global_90_union": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        17,
+        20,
+        21,
+        22,
+        23,
+        24,
+        29
+      ],
+      "interior_pm1_none": [
+        21,
+        22,
+        23
+      ],
+      "interior_pm1_alt": [
+        5,
+        6
+      ],
+      "interior_pm1_model_pred": [
+        5,
+        6
+      ],
+      "interior_pm1_union": [
+        5,
+        6,
+        21,
+        22,
+        23
+      ],
+      "peak_only_none": [
+        22
+      ],
+      "peak_only_alt": [
+        5
+      ],
+      "peak_only_model_pred": [
+        5
+      ],
+      "peak_only_union": [
+        5,
+        22
+      ],
+      "both_regions_union": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        17,
+        20,
+        21,
+        22,
+        23,
+        24,
+        29
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "global_90_none": [
+        27
+      ],
+      "global_90_alt": [
+        27
+      ],
+      "global_90_model_pred": [],
+      "global_90_union": [
+        27
+      ],
+      "interior_pm1_none": [],
+      "interior_pm1_alt": [],
+      "interior_pm1_model_pred": [],
+      "interior_pm1_union": [],
+      "peak_only_none": [],
+      "peak_only_alt": [],
+      "peak_only_model_pred": [],
+      "peak_only_union": [],
+      "both_regions_union": [
+        27
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "global_90_none": [],
+      "global_90_alt": [],
+      "global_90_model_pred": [],
+      "global_90_union": [],
+      "interior_pm1_none": [
+        29
+      ],
+      "interior_pm1_alt": [
+        29
+      ],
+      "interior_pm1_model_pred": [
+        29
+      ],
+      "interior_pm1_union": [
+        29
+      ],
+      "peak_only_none": [],
+      "peak_only_alt": [],
+      "peak_only_model_pred": [],
+      "peak_only_union": [],
+      "both_regions_union": [
+        29
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "qwen2.5-vl-3b",
+      "global_90_none": [
+        33
+      ],
+      "global_90_alt": [
+        33
+      ],
+      "global_90_model_pred": [
+        33
+      ],
+      "global_90_union": [
+        33
+      ],
+      "interior_pm1_none": [
+        33
+      ],
+      "interior_pm1_alt": [
+        33
+      ],
+      "interior_pm1_model_pred": [
+        33
+      ],
+      "interior_pm1_union": [
+        33
+      ],
+      "peak_only_none": [],
+      "peak_only_alt": [],
+      "peak_only_model_pred": [],
+      "peak_only_union": [],
+      "both_regions_union": [
+        33
+      ]
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "smolvlm-1.7b",
+      "global_90_none": [],
+      "global_90_alt": [],
+      "global_90_model_pred": [],
+      "global_90_union": [],
+      "interior_pm1_none": [
+        23
+      ],
+      "interior_pm1_alt": [
+        23
+      ],
+      "interior_pm1_model_pred": [
+        23
+      ],
+      "interior_pm1_union": [
+        23
+      ],
+      "peak_only_none": [],
+      "peak_only_alt": [],
+      "peak_only_model_pred": [],
+      "peak_only_union": [],
+      "both_regions_union": [
+        23
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "blip2-opt-2.7b",
+      "global_90_none": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "global_90_alt": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "global_90_model_pred": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "global_90_union": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "interior_pm1_none": [
+        7,
+        8,
+        9
+      ],
+      "interior_pm1_alt": [],
+      "interior_pm1_model_pred": [
+        5,
+        6
+      ],
+      "interior_pm1_union": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "peak_only_none": [
+        8
+      ],
+      "peak_only_alt": [],
+      "peak_only_model_pred": [
+        5
+      ],
+      "peak_only_union": [
+        5,
+        8
+      ],
+      "both_regions_union": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "global_90_none": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        21
+      ],
+      "global_90_alt": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "global_90_model_pred": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        21
+      ],
+      "global_90_union": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        21
+      ],
+      "interior_pm1_none": [],
+      "interior_pm1_alt": [
+        13
+      ],
+      "interior_pm1_model_pred": [
+        13
+      ],
+      "interior_pm1_union": [
+        13
+      ],
+      "peak_only_none": [],
+      "peak_only_alt": [],
+      "peak_only_model_pred": [],
+      "peak_only_union": [],
+      "both_regions_union": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        21
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "global_90_none": [
+        30
+      ],
+      "global_90_alt": [],
+      "global_90_model_pred": [
+        30
+      ],
+      "global_90_union": [
+        30
+      ],
+      "interior_pm1_none": [
+        30
+      ],
+      "interior_pm1_alt": [
+        30
+      ],
+      "interior_pm1_model_pred": [
+        30
+      ],
+      "interior_pm1_union": [
+        30
+      ],
+      "peak_only_none": [],
+      "peak_only_alt": [],
+      "peak_only_model_pred": [],
+      "peak_only_union": [],
+      "both_regions_union": [
+        30
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "llava-v1.5-7b",
+      "global_90_none": [
+        31
+      ],
+      "global_90_alt": [
+        31
+      ],
+      "global_90_model_pred": [
+        31
+      ],
+      "global_90_union": [
+        31
+      ],
+      "interior_pm1_none": [
+        29,
+        30
+      ],
+      "interior_pm1_alt": [
+        29,
+        30
+      ],
+      "interior_pm1_model_pred": [
+        29,
+        30
+      ],
+      "interior_pm1_union": [
+        29,
+        30
+      ],
+      "peak_only_none": [
+        31
+      ],
+      "peak_only_alt": [
+        31
+      ],
+      "peak_only_model_pred": [
+        31
+      ],
+      "peak_only_union": [
+        31
+      ],
+      "both_regions_union": [
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "qwen2.5-vl-3b",
+      "global_90_none": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "global_90_alt": [
+        33,
+        34
+      ],
+      "global_90_model_pred": [
+        33,
+        34
+      ],
+      "global_90_union": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "interior_pm1_none": [
+        33,
+        34,
+        35
+      ],
+      "interior_pm1_alt": [
+        33,
+        34,
+        35
+      ],
+      "interior_pm1_model_pred": [
+        33,
+        34,
+        35
+      ],
+      "interior_pm1_union": [
+        33,
+        34,
+        35
+      ],
+      "peak_only_none": [
+        34
+      ],
+      "peak_only_alt": [
+        34
+      ],
+      "peak_only_model_pred": [
+        34
+      ],
+      "peak_only_union": [
+        34
+      ],
+      "both_regions_union": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "smolvlm-1.7b",
+      "global_90_none": [
+        22
+      ],
+      "global_90_alt": [
+        22
+      ],
+      "global_90_model_pred": [
+        22
+      ],
+      "global_90_union": [
+        22
+      ],
+      "interior_pm1_none": [
+        22,
+        23
+      ],
+      "interior_pm1_alt": [
+        22,
+        23
+      ],
+      "interior_pm1_model_pred": [
+        22,
+        23
+      ],
+      "interior_pm1_union": [
+        22,
+        23
+      ],
+      "peak_only_none": [
+        22
+      ],
+      "peak_only_alt": [
+        22
+      ],
+      "peak_only_model_pred": [
+        22
+      ],
+      "peak_only_union": [
+        22
+      ],
+      "both_regions_union": [
+        22,
+        23
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "blip2-opt-2.7b",
+      "global_90_none": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "global_90_alt": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "global_90_model_pred": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "global_90_union": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "interior_pm1_none": [
+        7,
+        8,
+        9
+      ],
+      "interior_pm1_alt": [],
+      "interior_pm1_model_pred": [],
+      "interior_pm1_union": [
+        7,
+        8,
+        9
+      ],
+      "peak_only_none": [
+        8
+      ],
+      "peak_only_alt": [],
+      "peak_only_model_pred": [],
+      "peak_only_union": [
+        8
+      ],
+      "both_regions_union": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "global_90_none": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        21
+      ],
+      "global_90_alt": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "global_90_model_pred": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        21
+      ],
+      "global_90_union": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        21
+      ],
+      "interior_pm1_none": [],
+      "interior_pm1_alt": [
+        7,
+        8,
+        9
+      ],
+      "interior_pm1_model_pred": [],
+      "interior_pm1_union": [
+        7,
+        8,
+        9
+      ],
+      "peak_only_none": [],
+      "peak_only_alt": [
+        8
+      ],
+      "peak_only_model_pred": [],
+      "peak_only_union": [
+        8
+      ],
+      "both_regions_union": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        21
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "minigpt-4-vicuna-7b",
+      "global_90_none": [
+        29,
+        30
+      ],
+      "global_90_alt": [
+        29
+      ],
+      "global_90_model_pred": [
+        29,
+        30
+      ],
+      "global_90_union": [
+        29,
+        30
+      ],
+      "interior_pm1_none": [
+        29,
+        30
+      ],
+      "interior_pm1_alt": [
+        29,
+        30
+      ],
+      "interior_pm1_model_pred": [
+        29,
+        30
+      ],
+      "interior_pm1_union": [
+        29,
+        30
+      ],
+      "peak_only_none": [
+        29
+      ],
+      "peak_only_alt": [
+        29
+      ],
+      "peak_only_model_pred": [
+        29
+      ],
+      "peak_only_union": [
+        29
+      ],
+      "both_regions_union": [
+        29,
+        30
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "global_90_none": [
+        29,
+        30,
+        31
+      ],
+      "global_90_alt": [
+        31
+      ],
+      "global_90_model_pred": [
+        31
+      ],
+      "global_90_union": [
+        29,
+        30,
+        31
+      ],
+      "interior_pm1_none": [
+        29,
+        30
+      ],
+      "interior_pm1_alt": [
+        29,
+        30
+      ],
+      "interior_pm1_model_pred": [
+        29,
+        30
+      ],
+      "interior_pm1_union": [
+        29,
+        30
+      ],
+      "peak_only_none": [
+        29
+      ],
+      "peak_only_alt": [
+        31
+      ],
+      "peak_only_model_pred": [
+        31
+      ],
+      "peak_only_union": [
+        29,
+        31
+      ],
+      "both_regions_union": [
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "qwen2.5-vl-3b",
+      "global_90_none": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "global_90_alt": [
+        33,
+        34
+      ],
+      "global_90_model_pred": [
+        33,
+        34
+      ],
+      "global_90_union": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "interior_pm1_none": [
+        33,
+        34,
+        35
+      ],
+      "interior_pm1_alt": [
+        33,
+        34,
+        35
+      ],
+      "interior_pm1_model_pred": [
+        33,
+        34,
+        35
+      ],
+      "interior_pm1_union": [
+        33,
+        34,
+        35
+      ],
+      "peak_only_none": [
+        34
+      ],
+      "peak_only_alt": [
+        34
+      ],
+      "peak_only_model_pred": [
+        34
+      ],
+      "peak_only_union": [
+        34
+      ],
+      "both_regions_union": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "smolvlm-1.7b",
+      "global_90_none": [
+        21,
+        22
+      ],
+      "global_90_alt": [
+        22
+      ],
+      "global_90_model_pred": [
+        21,
+        22
+      ],
+      "global_90_union": [
+        21,
+        22
+      ],
+      "interior_pm1_none": [
+        21,
+        22,
+        23
+      ],
+      "interior_pm1_alt": [
+        21,
+        22,
+        23
+      ],
+      "interior_pm1_model_pred": [
+        21,
+        22,
+        23
+      ],
+      "interior_pm1_union": [
+        21,
+        22,
+        23
+      ],
+      "peak_only_none": [
+        22
+      ],
+      "peak_only_alt": [
+        22
+      ],
+      "peak_only_model_pred": [
+        22
+      ],
+      "peak_only_union": [
+        22
+      ],
+      "both_regions_union": [
+        21,
+        22,
+        23
+      ]
+    }
+  ],
+  "peak_only_15": [
+    [
+      "evqa-pilot500",
+      "blip2-opt-2.7b",
+      8
+    ],
+    [
+      "evqa-pilot500",
+      "instructblip-vicuna-7b",
+      5
+    ],
+    [
+      "evqa-pilot500",
+      "instructblip-vicuna-7b",
+      22
+    ],
+    [
+      "mmke-entity",
+      "blip2-opt-2.7b",
+      8
+    ],
+    [
+      "mmke-entity",
+      "instructblip-vicuna-7b",
+      8
+    ],
+    [
+      "mmke-entity",
+      "llava-v1.5-7b",
+      29
+    ],
+    [
+      "mmke-entity",
+      "llava-v1.5-7b",
+      31
+    ],
+    [
+      "mmke-entity",
+      "minigpt-4-vicuna-7b",
+      29
+    ],
+    [
+      "mmke-entity",
+      "qwen2.5-vl-3b",
+      34
+    ],
+    [
+      "mmke-entity",
+      "smolvlm-1.7b",
+      22
+    ],
+    [
+      "mmke-visual",
+      "blip2-opt-2.7b",
+      5
+    ],
+    [
+      "mmke-visual",
+      "blip2-opt-2.7b",
+      8
+    ],
+    [
+      "mmke-visual",
+      "llava-v1.5-7b",
+      31
+    ],
+    [
+      "mmke-visual",
+      "qwen2.5-vl-3b",
+      34
+    ],
+    [
+      "mmke-visual",
+      "smolvlm-1.7b",
+      22
+    ]
+  ],
+  "cheap_global_region_9": [
+    [
+      "evqa-pilot500",
+      "minigpt-4-vicuna-7b",
+      27
+    ],
+    [
+      "evqa-pilot500",
+      "qwen2.5-vl-3b",
+      33
+    ],
+    [
+      "mmke-entity",
+      "minigpt-4-vicuna-7b",
+      29
+    ],
+    [
+      "mmke-entity",
+      "minigpt-4-vicuna-7b",
+      30
+    ],
+    [
+      "mmke-entity",
+      "smolvlm-1.7b",
+      21
+    ],
+    [
+      "mmke-entity",
+      "smolvlm-1.7b",
+      22
+    ],
+    [
+      "mmke-visual",
+      "llava-v1.5-7b",
+      31
+    ],
+    [
+      "mmke-visual",
+      "minigpt-4-vicuna-7b",
+      30
+    ],
+    [
+      "mmke-visual",
+      "smolvlm-1.7b",
+      22
+    ]
+  ],
+  "global_region_complete_after_9": {
+    "none": 9,
+    "alt": 9,
+    "model_pred": 9
+  },
+  "source_sha256": "b263b5ca5097b884e232c7c28215d9b1bcd0c960b5c8b18db37c755663707668",
+  "user_decision_date": "2026-09-29",
+  "current_objective": "Compare section 7 V01-V10 visual-representation gradient formulas against the first six method families; select the final formula from empirical editing performance."
+}

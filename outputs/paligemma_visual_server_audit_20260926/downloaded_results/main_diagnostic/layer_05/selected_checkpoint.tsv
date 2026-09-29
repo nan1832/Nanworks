@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+5	TRAIN_INCOMPLETE_NUMERIC_INSTABILITY_MAIN_RECOVERED	1	107	8.847748756408691	9.046796045147687	/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_05/records/vead/paligemma-3b/pilot500_blip2_visedit_L05-lr-1-t-1-v-1/checkpoints/epoch-1-i-107-ema_loss-9.0468

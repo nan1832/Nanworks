@@ -1,0 +1,159 @@
+{
+  "state": "PAUSED_VERIFIED",
+  "time": "2026-09-26 22:19:13 CST",
+  "processes": [
+    {
+      "pid": 4045244,
+      "start_ticks": "259524159",
+      "state": "S",
+      "command": "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python -u /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/phase2_p4/resume_llava_after_eval_20260926.py "
+    },
+    {
+      "pid": 4079818,
+      "start_ticks": "260376658",
+      "state": "R",
+      "command": "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python scripts/run_mmke_llava_shared_gpu_sweep.py --out-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b --layers 4 --epochs 50 --batch-size 2 --model-name llava-v1.5-7b --device cuda:0 --train-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json --train-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images --eval-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json --eval-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images --config-path configs/vead/llava-v1.5-7b.yaml --seed 20260601 --ema-alpha 0.1 --data-buffer-size 1 --keep-top-ckpts 1 --keep-last-ckpts 0 --synchronous-data-loading --activation-checkpointing --data-proc-device cuda:0 --share-data-proc-vllm --skip-eval --resume-checkpoint /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-31-i-7750-ema_loss-0.7954 --resume-layer 4 "
+    }
+  ],
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.4844",
+  "backup_checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.4844",
+  "metadata": {
+    "epoch": 38,
+    "step": 9500,
+    "ema": 0.48435375847355844,
+    "optimizer_states": 26
+  },
+  "next_epoch": 39,
+  "next_step": 9501,
+  "best_epoch": 38,
+  "resume_command": [
+    "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+    "scripts/run_mmke_llava_shared_gpu_sweep.py",
+    "--out-root",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b",
+    "--layers",
+    "4",
+    "--epochs",
+    "50",
+    "--batch-size",
+    "2",
+    "--model-name",
+    "llava-v1.5-7b",
+    "--device",
+    "cuda:0",
+    "--train-data",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+    "--train-img-root",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images",
+    "--eval-data",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json",
+    "--eval-img-root",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images",
+    "--config-path",
+    "configs/vead/llava-v1.5-7b.yaml",
+    "--seed",
+    "20260601",
+    "--ema-alpha",
+    "0.1",
+    "--data-buffer-size",
+    "1",
+    "--keep-top-ckpts",
+    "1",
+    "--keep-last-ckpts",
+    "0",
+    "--synchronous-data-loading",
+    "--activation-checkpointing",
+    "--data-proc-device",
+    "cuda:0",
+    "--share-data-proc-vllm",
+    "--skip-eval",
+    "--resume-checkpoint",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.4844",
+    "--resume-layer",
+    "4"
+  ],
+  "files": [
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/loss_history.csv",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/layer_04/loss_history.csv",
+      "sha256": "36c3ae04eed1ec8a6e3089b8a2eb08887bd206c847072899cfa054542f6b9e22",
+      "bytes": 13194
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/config.yaml",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/config.yaml",
+      "sha256": "27041ecdc543dbf1d526a41851c161e5b4dd637c36f5b67a4134eeff8295af29",
+      "bytes": 507
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/logs/events.out.tfevents.1790387090.g08.3997046.0",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/logs/events.out.tfevents.1790387090.g08.3997046.0",
+      "sha256": "f687205fbe8f98da6c6b914e715beffcaf670e113306fa507fc28f6b2289f915",
+      "bytes": 4613
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/logs/events.out.tfevents.1790236920.g08.3379060.0",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/logs/events.out.tfevents.1790236920.g08.3379060.0",
+      "sha256": "6a767bc097bac0656188a7dc410f20ea469d231fdab450112821ced8d5b99f57",
+      "bytes": 135814
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/logs/events.out.tfevents.1790407720.g08.4079818.0",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/logs/events.out.tfevents.1790407720.g08.4079818.0",
+      "sha256": "aa52e0a51fdb6d557dba07b2cd73bd9fcee2227959f8fc6dfa5827ee637228e5",
+      "bytes": 31763
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-36-i-9000-ema_loss-0.4894",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-36-i-9000-ema_loss-0.4894",
+      "sha256": "e45397cb8da59dbfb7c0872b99a3f5887b24907e006a357329280e8009898534",
+      "bytes": 415895994
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.4844",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-38-i-9500-ema_loss-0.4844",
+      "sha256": "b947b69fc045c22248477e4f18085d249dcc96f3768a48da1fa627689aa91363",
+      "bytes": 415895994
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/prepared.json",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/prepared.json",
+      "sha256": "97b7c5f54b349bd677cce772f374e3cf193d9aa73c8bedba01c01244e7705cc5",
+      "bytes": 2702
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/status.json",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/status.json",
+      "sha256": "c2aa503666eebfd5cf3c151152b427dd08f4f17893791295986e04845d034fc1",
+      "bytes": 348
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/authorization.json",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/authorization.json",
+      "sha256": "37a1cbfb3d550c69fc2fb4945789b10804fd0dfa77e4d073386ec2b386d9f3e7",
+      "bytes": 777
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_mmke_llava_shared_gpu_sweep.py",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/code/scripts/run_mmke_llava_shared_gpu_sweep.py",
+      "sha256": "936ccf7e4b13365b3fe8f3d8d7d07573448342507c7a75572b63a75d9e06cd56",
+      "bytes": 35342
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/configs/vead/llava-v1.5-7b.yaml",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/code/configs/vead/llava-v1.5-7b.yaml",
+      "sha256": "b6a5f7cd5c29012cee2e84de580acdcc7aef460f7238c156759e69072f992b52",
+      "bytes": 472
+    },
+    {
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/phase2_p4/resume_llava_after_eval_20260926.py",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/llava_L4_pause/code/phase2_p4/resume_llava_after_eval_20260926.py",
+      "sha256": "a857a864b0c016370806079030881009b0a84364aad94a5b006fbf593dd9f2e6",
+      "bytes": 16884
+    }
+  ],
+  "automatic_resume": false,
+  "note": "Partial next epoch not checkpointed. Restore from completed epoch; original RNG state availability is not assumed. Train command skips eval: formal full2093 eval must follow separately.",
+  "stopped_at": "2026-09-26 22:20:31 CST",
+  "verification_note": "Initial immediate post-signal check saw transient zombie with empty cmdline; now both exact PIDs absent and backup hashes reverified."
+}

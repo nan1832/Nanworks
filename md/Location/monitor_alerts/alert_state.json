@@ -1,0 +1,9 @@
+﻿{
+    "MMKE-entity/epoch50|stopped_stuck_process":  "2026-07-15T06:07:34.0878113+08:00",
+    "MMKE-visual/PaliGemma|train_or_eval_failed":  "2026-07-15T06:06:02.7779048+08:00",
+    "MMKE-entity/epoch50|train_or_eval_failed":  "2026-07-15T06:07:34.0878113+08:00",
+    "MMKE-visual/PaliGemma|monitor_error":  "2026-07-15T06:28:23.1706507+08:00",
+    "MMKE-visual/PaliGemma|stopped_stuck_process":  "2026-07-15T06:06:02.7779048+08:00",
+    "MMKE-visual/PaliGemma|no_current_process":  "2026-07-15T06:06:02.7779048+08:00",
+    "MMKE-entity/epoch50|monitor_error":  "2026-07-15T06:24:50.3752902+08:00"
+}

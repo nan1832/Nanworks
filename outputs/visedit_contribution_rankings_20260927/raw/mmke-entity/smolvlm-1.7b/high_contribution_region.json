@@ -1,0 +1,22 @@
+{
+  "dataset": "mmke-entity",
+  "model": "smolvlm-1.7b",
+  "method": "VisEdit-Contrib-Pre-KeyToken",
+  "rank_metric": "score_positive_key_token",
+  "smoothing_window": 3,
+  "lambda": 0.5,
+  "threshold_rule": "mean + lambda * std",
+  "threshold": 0.033886656162808386,
+  "high_layers": [
+    19,
+    20,
+    21,
+    22
+  ],
+  "selected_region": [
+    19,
+    22
+  ],
+  "status": "done",
+  "failure_reason": ""
+}

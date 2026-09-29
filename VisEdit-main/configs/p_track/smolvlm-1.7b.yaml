@@ -1,0 +1,7 @@
+model_name: "smolvlm-1.7b"
+num_layers: 24
+layer_module_tmp: "model.text_model.layers.{}"
+mlp_module_tmp: "model.text_model.layers.{}.mlp"
+attn_module_tmp: "model.text_model.layers.{}.self_attn"
+norm_path: "model.text_model.norm"
+voc_path: "lm_head"

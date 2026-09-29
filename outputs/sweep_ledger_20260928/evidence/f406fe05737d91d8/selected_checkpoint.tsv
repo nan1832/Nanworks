@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+9	TRAIN_RECOVERED_FROM_STALL	1	250	17.53876495361328	20.54816972106293	/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_pre_alt_pilot500_6models_20260608_092829/paligemma-3b/layer_09/records/vead/paligemma-3b/pilot500_blip2_visedit_L09-lr-1-t-1-v-1/checkpoints/epoch-1-i-250-ema_loss-20.5482

@@ -1,0 +1,11 @@
+﻿dataset,model,layer,recipe,reason,status,original_status,Average
+evqa-pilot500,paligemma-3b,0,main,"[""nonconvergent""]",TRAIN_DONE_EVAL_DONE,EVAL_DONE_NONCONVERGENT_DIAGNOSTIC_EPOCH2_TRAIN_INCOMPLETE_JOB3178538,35.492
+evqa-pilot500,paligemma-3b,14,main,"[""numeric_anomaly_or_guard""]",TRAIN_DONE_EVAL_DONE,TRAIN_DONE_MAIN_NUMERIC_ANOMALY,32.05800000000001
+evqa-pilot500,paligemma-3b,4,stable,"[""numeric_anomaly_or_guard""]",TRAIN_DONE_STABLE_RETRY_NUMERIC_GUARD_NONFINITE_SKIP16_JOB3044208,TRAIN_DONE_STABLE_RETRY_NUMERIC_GUARD_NONFINITE_SKIP16_JOB3044208,78.79
+mmke-visual,paligemma-3b,0,main,"[""nonconvergent"", ""recovered_or_incomplete_training""]",RECOVERED_EVAL_DONE,EVAL_DONE_NONCONVERGENT_MAIN_RECOVERED_20260921；不收敛，lr=1e-4，非完整50epoch,38.519999999999996
+mmke-visual,paligemma-3b,3,main,"[""numeric_anomaly_or_guard"", ""recovered_or_incomplete_training""]",RECOVERED_EVAL_DONE,EVAL_DONE_INCOMPLETE_NUMERIC_INSTABILITY_MAIN_RECOVERED_20260926；已保存27轮，非完整50epoch,30.54
+mmke-visual,paligemma-3b,5,main,"[""numeric_anomaly_or_guard"", ""recovered_or_incomplete_training""]",RECOVERED_EVAL_DONE,EVAL_DONE_INCOMPLETE_NUMERIC_INSTABILITY_MAIN_RECOVERED_20260926；已保存3轮，非完整50epoch,62.544
+mmke-visual,paligemma-3b,0,stable,"[""nonconvergent"", ""recovered_or_incomplete_training""]",RECOVERED_EVAL_DONE,EVAL_DONE_NONCONVERGENT_STABLE_RECOVERED_20260921；不收敛，lr=1e-6，非完整50epoch,35.44199999999999
+mmke-visual,paligemma-3b,8,stable,"[""recovered_or_incomplete_training""]",RECOVERED_EVAL_DONE,TRAIN_DONE_MANUAL_EPOCH13,96.91799999999999
+mmke-entity,paligemma-3b,0,main,"[""numeric_anomaly_or_guard""]",TRAIN_DONE_MAIN_NUMERIC_DEGENERATE_JOB3044208,TRAIN_DONE_MAIN_NUMERIC_DEGENERATE_JOB3044208,20.0
+mmke-entity,paligemma-3b,16,main,"[""numeric_anomaly_or_guard""]",TRAIN_DONE_MAIN_RETRY_NUMERIC_GUARD_NONFINITE_SKIP34_JOB3044208,TRAIN_DONE_MAIN_RETRY_NUMERIC_GUARD_NONFINITE_SKIP34_JOB3044208,47.04

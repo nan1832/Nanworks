@@ -1,0 +1,212 @@
+[
+  {
+    "dataset": "EVQA-pilot500",
+    "model": "BLIP2-OPT-2.7B",
+    "top3": "L20,L19,L18",
+    "top5": "L20,L19,L18,L17,L16",
+    "high_region": "L21-L29",
+    "threshold": 0.045284995662842206,
+    "sample_count": 500,
+    "source": "downloads/evqa_module_contribution/blip2/evqa_proxy500_blip2_module_contribution_20260602_160202/contribution_layer.csv"
+  },
+  {
+    "dataset": "EVQA-pilot500",
+    "model": "InstructBLIP-Vicuna-7B",
+    "top3": "L28,L27,L26",
+    "top5": "L28,L27,L26,L25,L24",
+    "high_region": "L29-L31",
+    "threshold": 0.04468996471580366,
+    "sample_count": 500,
+    "source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_alt/instructblip-vicuna-7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "EVQA-pilot500",
+    "model": "MiniGPT-4-Vicuna-7B",
+    "top3": "L26,L25,L24",
+    "top5": "L26,L25,L24,L23,L22",
+    "high_region": "L27-L31",
+    "threshold": 0.032497488006950334,
+    "sample_count": 500,
+    "source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_alt/minigpt-4-vicuna-7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "EVQA-pilot500",
+    "model": "LLaVA-v1.5-7B",
+    "top3": "L28,L27,L26",
+    "top5": "L28,L27,L26,L25,L24",
+    "high_region": "L29-L31",
+    "threshold": 0.05208452697133876,
+    "sample_count": 500,
+    "source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_alt/llava-v1.5-7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "EVQA-pilot500",
+    "model": "Qwen2.5-VL-3B",
+    "top3": "L29,L28,L27",
+    "top5": "L29,L28,L27,L26,L25",
+    "high_region": "L30-L35",
+    "threshold": 0.03213232589479369,
+    "sample_count": 500,
+    "source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_alt/qwen2.5-vl-3b/contribution_layer.csv"
+  },
+  {
+    "dataset": "EVQA-pilot500",
+    "model": "PaliGemma-3B",
+    "top3": "L12,L11,L10",
+    "top5": "L12,L11,L10,L9,L8",
+    "high_region": "L13-L16",
+    "threshold": 0.00965736450259081,
+    "sample_count": 500,
+    "source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_alt/paligemma-3b/contribution_layer.csv"
+  },
+  {
+    "dataset": "EVQA-pilot500",
+    "model": "SmolVLM-Instruct-1.7B",
+    "top3": "L17,L16,L15",
+    "top5": "L17,L16,L15,L14,L13",
+    "high_region": "L18-L23",
+    "threshold": 0.06347127223450315,
+    "sample_count": 500,
+    "source": "downloads/evqa_module_contribution/evqa_pilot500_module_6_contribution_model_alt/smolvlm-1.7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-visual",
+    "model": "BLIP2-OPT-2.7B",
+    "top3": "L22,L21,L20",
+    "top5": "L22,L21,L20,L19,L18",
+    "high_region": "L23-L29",
+    "threshold": 0.028777759964683472,
+    "sample_count": 214,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/visual/alt/blip2-opt-2.7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-visual",
+    "model": "InstructBLIP-Vicuna-7B",
+    "top3": "L28,L27,L26",
+    "top5": "L28,L27,L26,L25,L24",
+    "high_region": "L29-L31",
+    "threshold": 0.055418259382869386,
+    "sample_count": 214,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/visual/alt/instructblip-vicuna-7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-visual",
+    "model": "MiniGPT-4-Vicuna-7B",
+    "top3": "L26,L25,L24",
+    "top5": "L26,L25,L24,L23,L22",
+    "high_region": "L27-L31",
+    "threshold": 0.014593982984983767,
+    "sample_count": 214,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/visual/alt/minigpt-4-vicuna-7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-visual",
+    "model": "LLaVA-v1.5-7B",
+    "top3": "L28,L27,L26",
+    "top5": "L28,L27,L26,L25,L24",
+    "high_region": "L29-L31",
+    "threshold": 0.059354518750618215,
+    "sample_count": 214,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/visual/alt/llava-v1.5-7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-visual",
+    "model": "Qwen2.5-VL-3B",
+    "top3": "L29,L28,L27",
+    "top5": "L29,L28,L27,L26,L25",
+    "high_region": "L30-L32",
+    "threshold": 0.013036702809176685,
+    "sample_count": 214,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/visual/alt/qwen2.5-vl-3b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-visual",
+    "model": "PaliGemma-3B",
+    "top3": "L12,L11,L10",
+    "top5": "L12,L11,L10,L9,L8",
+    "high_region": "L13-L15",
+    "threshold": 7.741755879928571e-05,
+    "sample_count": 214,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/visual/alt/paligemma-3b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-visual",
+    "model": "SmolVLM-Instruct-1.7B",
+    "top3": "L17,L16,L15",
+    "top5": "L17,L16,L15,L14,L13",
+    "high_region": "L18-L23",
+    "threshold": 0.015581202145411175,
+    "sample_count": 214,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/visual/alt/smolvlm-1.7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-entity",
+    "model": "BLIP2-OPT-2.7B",
+    "top3": "L22,L21,L20",
+    "top5": "L22,L21,L20,L19,L18",
+    "high_region": "L23-L30",
+    "threshold": 0.07153727566557186,
+    "sample_count": 636,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/entity/alt/blip2-opt-2.7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-entity",
+    "model": "InstructBLIP-Vicuna-7B",
+    "top3": "L28,L27,L26",
+    "top5": "L28,L27,L26,L25,L24",
+    "high_region": "L29-L31",
+    "threshold": 0.058523612485589724,
+    "sample_count": 636,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/entity/alt/instructblip-vicuna-7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-entity",
+    "model": "MiniGPT-4-Vicuna-7B",
+    "top3": "L25,L24,L23",
+    "top5": "L25,L24,L23,L22,L21",
+    "high_region": "L26-L31",
+    "threshold": 0.018843907865102535,
+    "sample_count": 636,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/entity/alt/minigpt-4-vicuna-7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-entity",
+    "model": "LLaVA-v1.5-7B",
+    "top3": "L28,L27,L26",
+    "top5": "L28,L27,L26,L25,L24",
+    "high_region": "L29-L31",
+    "threshold": 0.06172987041104208,
+    "sample_count": 636,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/entity/alt/llava-v1.5-7b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-entity",
+    "model": "Qwen2.5-VL-3B",
+    "top3": "L29,L28,L27",
+    "top5": "L29,L28,L27,L26,L25",
+    "high_region": "L30-L35",
+    "threshold": 0.0055333993486733285,
+    "sample_count": 636,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/entity/alt/qwen2.5-vl-3b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-entity",
+    "model": "PaliGemma-3B",
+    "top3": "L13,L12,L11",
+    "top5": "L13,L12,L11,L10,L9",
+    "high_region": "L14-L16",
+    "threshold": 4.354252115646496e-05,
+    "sample_count": 636,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/entity/alt/paligemma-3b/contribution_layer.csv"
+  },
+  {
+    "dataset": "MMKE-entity",
+    "model": "SmolVLM-Instruct-1.7B",
+    "top3": "L19,L18,L17",
+    "top5": "L19,L18,L17,L16,L15",
+    "high_region": "L20-L23",
+    "threshold": 0.020160871654183645,
+    "sample_count": 636,
+    "source": "downloads/mmke_module_contribution/mmke_module_contribution_20260607_150600/entity/alt/smolvlm-1.7b/contribution_layer.csv"
+  }
+]

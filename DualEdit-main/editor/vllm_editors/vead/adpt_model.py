@@ -208,6 +208,44 @@ class TextEditAdaptor(nn.Module):
         if self.influence_mapper is not None:
             self.influence_mapper.reset_parameters()
 
+    def _get_prompt_end(self, sample_idx: int, seq_len: int) -> int:
+        if self.prompt_end is None:
+            return seq_len
+        if self.prompt_end.dim() == 0:
+            prompt_end = int(self.prompt_end.item())
+        else:
+            prompt_end = int(self.prompt_end[sample_idx])
+        return max(0, min(prompt_end, seq_len))
+
+    def _fallback_text_indices(self, sample_idx: int, seq_len: int):
+        prompt_end = self._get_prompt_end(sample_idx, seq_len)
+        if self.inpt_vt_end is not None:
+            start = max(0, min(int(self.inpt_vt_end), seq_len))
+            return list(range(start, prompt_end))
+        return list(range(1, prompt_end))
+
+    def _resolve_text_indices(self, sample_idx: int, seq_len: int):
+        prompt_end = self._get_prompt_end(sample_idx, seq_len)
+        if self.text_token_indices is None:
+            candidates = self._fallback_text_indices(sample_idx, seq_len)
+        else:
+            if sample_idx >= len(self.text_token_indices):
+                return []
+            candidates = [int(idx) for idx in self.text_token_indices[sample_idx]]
+
+        valid = []
+        for idx in candidates:
+            if idx < 0 or idx >= seq_len or idx >= prompt_end:
+                continue
+            if (
+                self.inpt_vt_begin is not None
+                and self.inpt_vt_end is not None
+                and self.inpt_vt_begin <= idx < self.inpt_vt_end
+            ):
+                continue
+            valid.append(idx)
+        return sorted(set(valid))
+
     def forward(self, layer_outpt):
         '''layer_outpt: [b, l, d] or list''' 
         # Record input type
@@ -246,45 +284,15 @@ class TextEditAdaptor(nn.Module):
             condition = (BATCH_SIM_LIST < THREHSHOLD).unsqueeze(-1).unsqueeze(1).expand(layer_input.size())
 
         # Get text token representations
-        batch_size = layer_outpt.shape[0]
-        text_indices = []
-        for i in range(batch_size):
-            if self.prompt_end is None:
-                raise BaseException("prompt_end is None")
-            if self.inpt_vt_end is not None:
-                if self.prompt_end.dim() == 0:  # 0D tensor
-                    indices = list(range(self.inpt_vt_end, self.prompt_end.item()))
-                else:  # multi-D tensor
-                    indices = list(range(self.inpt_vt_end, self.prompt_end[i]))
-                text_indices.append(indices)
-            else:
-                if self.prompt_end.dim() == 0:  # 0D tensor
-                    indices = list(range(1, self.prompt_end.item()))
-                else:  # multi-D tensor
-                    indices = list(range(1, self.prompt_end[i]))
-                text_indices.append(indices)
-        
-        if len(text_indices) > 0:
-            # Handle variable number of text tokens for each sample in batch
-            text_reps_list = []
-            for i, indices in enumerate(text_indices):
-                if len(indices) > 0:
-                    if i >= layer_outpt.shape[0] or max(indices) >= layer_outpt.shape[1]:
-                        import pdb; pdb.set_trace()
-                    text_reps_list.append(layer_outpt[i, indices])
-                else:
-                    print("No text token to edit, return original layer_outpt")
-                    import pdb; pdb.set_trace()
-            
-            if not text_reps_list:
-                print("No text token to edit, return original layer_outpt")
-                raise
-                
-            # Process each sample separately
+        batch_size, seq_len = layer_outpt.shape[:2]
+        text_indices = [self._resolve_text_indices(i, seq_len) for i in range(batch_size)]
+
+        if any(len(indices) > 0 for indices in text_indices):
+            # Process each sample separately because the editable token count can vary.
             for i, indices in enumerate(text_indices):
                 if len(indices) == 0:
-                    raise "no text token to edit"
-                    
+                    continue
+
                 text_reps = layer_outpt[i, indices].unsqueeze(0)  # [1, num_tokens, d]
                 b1, l1, _ = text_reps.shape
                 b2, l2, _ = self.edit_reps.shape

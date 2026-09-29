@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "bridge_source_cohorts": 3,
+  "bridge_aggregate_reproduced": true,
+  "normalized_ranking_and_tukey_equivalent": true,
+  "formal_groups_done": 0,
+  "formal_groups_pending": 21,
+  "bridge_not_mixed_with_formal_evaluation": true,
+  "main_rows": 396
+}

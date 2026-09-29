@@ -1,0 +1,45 @@
+{
+  "alt_lengths": {
+    "evqa-pilot500": {
+      "n": 500,
+      "median_words": 1.0,
+      "min_words": 1,
+      "max_words": 4,
+      "first_alt": "yes"
+    },
+    "mmke-visual": {
+      "n": 214,
+      "median_words": 41.0,
+      "min_words": 20,
+      "max_words": 87,
+      "first_alt": "This is the prayer gesture in life gestures. It involves clasping both hands together and placing them in front of the body. It usually signifies prayer or blessing, and is commonly seen in temples in China."
+    },
+    "mmke-entity": {
+      "n": 636,
+      "median_words": 74.0,
+      "min_words": 29,
+      "max_words": 151,
+      "first_alt": "The human in the image corresponds to Stone Cold Steve Austin. Steve Austin (born Steven Jay Smith; December 18, 1964), known as \"Stone Cold\" Steve Austin, is a retired Canadian professional wrestler. He began wrestling in 1989 and joined New Japan Pro-Wrestling (NJPW) in 1995. He retired in 2003 due to injuries and returned for a match against Hiroshi Tanahashi at Wrestle Kingdom 16 in 2022. Austin hosts the podcast \"The Austin Chronicles.\""
+    }
+  },
+  "historical_generation": {
+    "evqa-pilot500/summary.json": {
+      "manifest_sample_count": 500,
+      "common_valid_sample_count": 500,
+      "max_valid_sample_count": 500,
+      "sample_layer_scores_jsonl": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/llava-v1.5-7b/ours_direct_sample_layer_scores.jsonl"
+    },
+    "mmke-visual/summary.json": {
+      "manifest_sample_count": 214,
+      "common_valid_sample_count": 214,
+      "max_valid_sample_count": 214,
+      "sample_layer_scores_jsonl": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/mmke-visual/llava-v1.5-7b/ours_direct_sample_layer_scores.jsonl"
+    },
+    "mmke-entity/summary.json": {
+      "manifest_sample_count": 636,
+      "common_valid_sample_count": 636,
+      "max_valid_sample_count": 636,
+      "sample_layer_scores_jsonl": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/mmke-entity/llava-v1.5-7b/ours_direct_sample_layer_scores.jsonl"
+    }
+  }
+}

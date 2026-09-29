@@ -1,0 +1,53 @@
+{
+  "dataset_key": "evqa-pilot500",
+  "dataset": "EVQA-pilot500",
+  "model_key": "paligemma-3b",
+  "model": "PaliGemma-3B",
+  "method": "CMA-Direct",
+  "score_source": "cr_seq_mean",
+  "ranking_metric": "cr_seq_mean",
+  "target_sequence": "complete alt sequence",
+  "corrupt_scope": "decoder input visual embeddings",
+  "restore_scope": "visual tokens only",
+  "num_layers": 18,
+  "noise_scales": [
+    1.0
+  ],
+  "repeats": [
+    2026
+  ],
+  "delta_logprob": 0.05,
+  "manifest_sample_count": 500,
+  "excluded_sample_count": 0,
+  "max_layer_valid_restore_count": 215,
+  "valid_coverage_ratio": 0.43,
+  "top3_layers": [
+    "L5",
+    "L4",
+    "L0"
+  ],
+  "top5_layers": [
+    "L5",
+    "L4",
+    "L0",
+    "L3",
+    "L2"
+  ],
+  "raw_top3_layers": [
+    "L5",
+    "L4",
+    "L0"
+  ],
+  "raw_top5_layers": [
+    "L5",
+    "L4",
+    "L0",
+    "L3",
+    "L2"
+  ],
+  "status": "done",
+  "failure_reasons": [],
+  "duration_sec": 130.37299227714539,
+  "layer_scores_csv": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cma_direct_v13_full_g09_gpu0_20260703_134818/evqa-pilot500/paligemma-3b/cma_direct_layer_scores.csv",
+  "errors": []
+}

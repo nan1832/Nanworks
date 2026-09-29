@@ -1,0 +1,164 @@
+{
+  "ledger": "outputs\\sweep_ledger_20260928_110311\\ledger.json",
+  "ledger_sha256": "1fca9b575451ac101dccab12ff44c3cb59dba93d94dedeb429d7f297e340c71a",
+  "ledger_updated_at": "2026-09-28T11:10:16+08:00",
+  "script_sha256": "4850b29cf211b04e2692957b49b1784f256acae1475c66db60b66af0b364ee70",
+  "excluded_model": "paligemma-3b",
+  "recipe": "main",
+  "permutation_seed": 20260929,
+  "permutations": 19999,
+  "primary_cohort": "matched_gradient",
+  "primary_flavor": "raw",
+  "peak_primary": "global maximum contiguous component above min+0.90*(max-min)",
+  "peak_sensitivity": [
+    "global_80",
+    "global_95",
+    "highest interior local peak +/-1"
+  ],
+  "sources": [
+    {
+      "dataset": "evqa-pilot500",
+      "model": "blip2-opt-2.7b",
+      "summary_sha256": "f188d984d912cabddf748fbc29ef9a53b167403899bbb93b6a7b97f7095e1fae",
+      "scores_sha256": "d815be0f95a59f32b9f0bdc8d1b6e27dc0ea22f29d0e624aeaac35e2eeb0dae0",
+      "protocol_sha256": "f12ac51c89c0a390aa4435ea4ddd84f195a917c934432d04441102fb91536df0",
+      "diagnostics_sha256": "de7612855df16295c43f2727142ad025a7e058533f6445fb2a9cc77ee9243344"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "instructblip-vicuna-7b",
+      "summary_sha256": "90f6079f7590d167cbd6ab48dc522bdbadf6d45b1e430cc5076f86d4c37b0ee5",
+      "scores_sha256": "33b6ae90a75ddd4f2305f0694fe037419f1231dfd04519893909c075b19dd6ff",
+      "protocol_sha256": "e45bd7696a6202ae5e8ca54dd13a7074f9b45af89200ec7c5b62a86175c44fde",
+      "diagnostics_sha256": "c49fb12f348dbcae867934d557ddb07683c45eba394c7e9e0d46bce09b850c6e"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "summary_sha256": "670913c8ea9a218ce26dbc4ba508be439f99c009879cd18388e8afd2f0d70aa0",
+      "scores_sha256": "b2e29ffb2cce954834c4779843e4dffc645f4e2b898566ea2c6b83bb46d6b667",
+      "protocol_sha256": "5a3fa530231e979363ff73b4631fba046e111bb9536d33450e57c4a100c67c15",
+      "diagnostics_sha256": "18e3d221669c77f3fd42a6dac839a6077eecb5b5f62bcea23974d59cc1c68f76"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "summary_sha256": "797f58484bb3e8149c34832119b4dea9146884d0f8cff45c5180a223b8bffc1e",
+      "scores_sha256": "035c048b5f2a7cf948a1aadd472875049a50ab3b3664df3b75606920cf8e99f8",
+      "protocol_sha256": "c1e8a4d02335ace053764a08dfc604e104e2a2ec57b886102f43d65813bbfa1a",
+      "diagnostics_sha256": "8075fd4d0f4777f6ea9a75c48a7130c391dd7c9752394cdc0a7ec4e651934c2d"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "qwen2.5-vl-3b",
+      "summary_sha256": "beb74b8823a9cbb8756eff7254ba8145e503b09bd1bff5ee0ebc42dfa1f94249",
+      "scores_sha256": "d493a382cf8a1346463c05664e2091e3ea7999b2d8f451a737698efe0e427c90",
+      "protocol_sha256": "fe464c996fbb531a60e14102ba482195e3d3a7a20c984bf01c8d8b8c7de8b197",
+      "diagnostics_sha256": "b611c88094c0d61d6e11233f0c46eb4e20169342f3972e12ddd4955baf401111"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "smolvlm-1.7b",
+      "summary_sha256": "1270097429840f1669515edf5e3135d3fa2d8efe1ca12de62c4dc086d32cc208",
+      "scores_sha256": "b3bab1ab03c9fee2ba1a52fc3b223e4e51d3dc2eaab0f248ac367fa2a74e70e5",
+      "protocol_sha256": "31ea6e64a560b9f4b75c16403af75590e1db4bcc4a1fff8d96b2713d9d693a0b",
+      "diagnostics_sha256": "6b9391d7961b1fb74138bf5f1a701f24b2b032d49a4961613339f92ce9625ff0"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "blip2-opt-2.7b",
+      "summary_sha256": "a2b1631bc4df1c4a545fb51e87a4fa21795f6dd929a6f4671b386ab2b75673e7",
+      "scores_sha256": "7f8f9a7e953dce386a95c142098055891c1b755b510c659e2ec749654bc02ea3",
+      "protocol_sha256": "4854b6d6cd7d25f7ded05c83a01ea646ab8642b675c7010ed527ee0a42f236e4",
+      "diagnostics_sha256": "1579800ce91668bac93f7f5ccb7ef25599e6aebfd0dc7a29554417d5f7867e10"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "summary_sha256": "825d93044a2ffb6ca60bba16e203e68a0e77bd2138fc9e510537ec9a7dee7eda",
+      "scores_sha256": "a7d5eb130d552aee02e93fbaed31238e4d0ddb9c25620ba1cdd6091d5e05ce23",
+      "protocol_sha256": "b0d2c6dbfec4877b206930abec2aa3c38d99f3f378293a0cb4c55acfcae623c1",
+      "diagnostics_sha256": "4347b94bf41047126c393937c4748f803160b67f47f27e31b0d35c466070fa5c"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "summary_sha256": "96f0c7d4cac693347e0f27fdc6515e5bd8284e82dd6cf7b421ad440b2929d0a5",
+      "scores_sha256": "74bdd40f47f62ce6cf1c66408b2f9c9a7718285b9ea09cc332241a574b15d0fd",
+      "protocol_sha256": "f930614c515ed227028a3709d60b8a6d8f29aba091d21dc5f099450cbe9782b9",
+      "diagnostics_sha256": "1b154948e66654954cdbc145c845d960e8c2bde6111d37569da5887a80c7503b"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "llava-v1.5-7b",
+      "summary_sha256": "751c77fcaf9798e23555f2b93bdf3ac0ae3348f8e8515d2ce2ed9f9c496c2f2a",
+      "scores_sha256": "06b6a4c228e055b158a9fdb7b2c8b6787032ec81ee10ecdf65f041f1ef556129",
+      "protocol_sha256": "09a355bbf66f6d97ec012176aa3e041268a5de835a39c76d026872ff29fe0e58",
+      "diagnostics_sha256": "0f3032ff202357aa0258970fbea15790d13192dd4a1d2cea87106b816997ed57"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "qwen2.5-vl-3b",
+      "summary_sha256": "c8e444dd6365b2176b741a5bc442f0da18e79df1d822e36a98ea19e741c9ff10",
+      "scores_sha256": "16f2817c4ec2bfba2658031b875677aa0d68ce25311b489e6752021c5f183a1f",
+      "protocol_sha256": "a8ee9f44fbeccc21eaf677109608ce10ca3b4acf17b45bf9989ceb3b7d383ac6",
+      "diagnostics_sha256": "f8dab3aa1535bc2edda5dd6c4ae0959bc515832959aa69558be6d60c2a0ebe99"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "smolvlm-1.7b",
+      "summary_sha256": "b3bc3a0a1a48ad7d2fd6ea6b651c145000f8a4b220b97129ef9fc64fa98c3ebc",
+      "scores_sha256": "bcf94281ae4adab7552cb582b9a5d0ead249ce8c716862d014350b3aa75727ad",
+      "protocol_sha256": "48f45787816ed21ad8776f57f09248be4df30cc398b0b249b1521208e9e2202c",
+      "diagnostics_sha256": "72cf104909a65d0d68f14caec1e27d1e62dd0a05ea1dee7a6288a0f615061bca"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "blip2-opt-2.7b",
+      "summary_sha256": "1d01d1cfbae3b351ddc92360cd89b4c24c21af330a18cfcdd36c15a274ca61d5",
+      "scores_sha256": "980b7a47aea90beb03e9067ded87a2b30203b2529b0b7c090b5437e221845d1c",
+      "protocol_sha256": "f5cdbc08f142c452921bb8243111659d10157946edbfe68585c980d83788204d",
+      "diagnostics_sha256": "96fa978d4566611b684fca62c9300d2dbb230e59b9c89893fcd899d568e2cc1e"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "summary_sha256": "8032fab87a0e044dacfe4135775e4bcb9cedf143b7d5e55f17e71554f6a829e1",
+      "scores_sha256": "2bc2e415effc05c0f9f8e25f905538445df062f402fe5b78f7d505807a5eb6d4",
+      "protocol_sha256": "02244ec6d6b5f8a044a99da44d1eb5af58354b82917ee8652135e188cea91865",
+      "diagnostics_sha256": "e03d2b884c2ad4c3ea2d13ed59c926cfd90173e2558ae53bb961068fb0b75702"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "minigpt-4-vicuna-7b",
+      "summary_sha256": "00179c932dc9609fe7f3fdca4e0a5b597a1924c95eb4cf8a25d960b9b6a48b11",
+      "scores_sha256": "e87e76dec6640ce457d7dadb803da117f7bb6eed77a09ad214f9a290b8412d7d",
+      "protocol_sha256": "39b424d0aa5813666e96eef9b210fff11093450363cc25c4eb91fecefe6480b9",
+      "diagnostics_sha256": "e6a793f01cba3a8f5f1b0e87dde085f8dadfcf7e08c268b586696c0220906db8"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "summary_sha256": "d76e4f1f9d272476b6583f7093e64769e38939be3b86593e45e868246b757e74",
+      "scores_sha256": "79ad25946339a1b48f005c255fec47bf6989ad0b0f7cdae05e05937cec0045b4",
+      "protocol_sha256": "b2fdb615fe3b8886ad7a8164b1601ebe01f1236ae6749b83bab0748d151f154e",
+      "diagnostics_sha256": "7e69627af6e98bdf90238828b258793f05378e361e91134ff8d373a7578cc712"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "qwen2.5-vl-3b",
+      "summary_sha256": "7a2d8d8ad3fb91801d2f2d02e449122f38b2ab98ce6e183de81a3efdb2f947e5",
+      "scores_sha256": "99533726d1594bbe8b8ce257d69162c9b6b5ec4b1fc57b161e9742ea74975ace",
+      "protocol_sha256": "97fe2fae37ff66f58f3fd6e93bdf2955db53d54f732398e35419b4f595860603",
+      "diagnostics_sha256": "02edb796f7a76d8739dc3356f470b804ea339c1235c16f035657d25e8ea0df7d"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "smolvlm-1.7b",
+      "summary_sha256": "f94e417f1c1d2b193dc9d2d48fd614c5e60083b694eb7761e35e4389a773be7a",
+      "scores_sha256": "a18b5f6b3e041ccbd9440d6b785d4501682cb4c325dffeb6c59ac39d1f72b5c0",
+      "protocol_sha256": "68bedf7c05873580634a07c5a76c91510d85a98a0bdd56bf05f7eac6d4d2b69c",
+      "diagnostics_sha256": "a2c80a1dc26c1be045318306ac08d2e6408ca9bf15911b21ccfdc1e135a26e51"
+    }
+  ]
+}

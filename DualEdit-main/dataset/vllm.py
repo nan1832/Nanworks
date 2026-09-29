@@ -43,14 +43,17 @@ class BaseVLLMEditData(BaseEditData):
             for k in d.keys():
                 if k == 'image':
                     if d[k] != None:
-                        d[k] = Image.open(d[k]) 
+                        with Image.open(d[k]) as img:
+                            d[k] = img.convert('RGB').copy()
                 else:
                     self.__load_imgs_for_data_with_img_path__(d[k])
         elif isinstance(d, list):
             for i in d:
                 self.__load_imgs_for_data_with_img_path__(i)
-        elif isinstance(d, str): return
-        else: raise
+        elif isinstance(d, (str, int, float, bool, type(None))):
+            return
+        else:
+            raise TypeError(f"Unsupported data type while loading images: {type(d)}")
     
     def get_data_with_img_path(self):
         return self.data_with_img_path
@@ -126,4 +129,3 @@ class EIC(BaseVLLMEditData):
 
     def dataset_name(self):
         return 'EIC'
-

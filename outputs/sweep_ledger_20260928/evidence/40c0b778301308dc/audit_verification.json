@@ -1,0 +1,117 @@
+{
+  "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00",
+  "host": "login01",
+  "errors": [],
+  "warnings": [],
+  "artifacts": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/eval_full.done": {
+      "size": 830,
+      "sha256": "8670cec3ee2cc6ecd364a57852cfe1c22a2503f67d03d0cebd9b85a7bf7aca03"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/selected_checkpoint.tsv": {
+      "size": 371,
+      "sha256": "f187742d5104b85e15d1612525d447af4805354085022eade51594be81840612"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/eval_full/vead/blip2-opt-2.7b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit/results.json": {
+      "size": 4868915,
+      "sha256": "d4ac9b0c106e081236d9672c56c868f8902276ffe8f1d8fd8bfbf1d75e088c24"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/eval_full/vead/blip2-opt-2.7b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit/mean_results.json": {
+      "size": 401,
+      "sha256": "c68360d91fd29326cef1f60cad142305917c57dec9b25be824109e19f2b5c52f"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/train.done": {
+      "size": 417,
+      "sha256": "440408eb977637732d53fa4a1d36bf45f7939ce2d4fda111cc254ebc0aca4937"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/loss_history.csv": {
+      "size": 16698,
+      "sha256": "3e3101d4891b66bdf08c7262257fbc08401c293ba6bfbc1d115912d235fd9415"
+    },
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/config.yaml": {
+      "size": 538,
+      "sha256": "2cb04e53dd1f8f3a86b73f4a3f7e8f11a98ed31d5a90d2b32f80e4c1e0fc9182"
+    }
+  },
+  "evaluation": {
+    "layer": 0,
+    "status": "EVAL_DONE",
+    "eval_samples": 2093,
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-43-i-10750-ema_loss-0.3681",
+    "ckpt_epoch": "43",
+    "ckpt_i": "10750",
+    "ckpt_loss": "0.3759908676147461",
+    "ckpt_ema_loss": "0.3681148482874409",
+    "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/eval_full/vead/blip2-opt-2.7b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit",
+    "Rel": 44.15,
+    "T-Gen": 40.43,
+    "M-Gen": 40.29,
+    "T-Loc": 100.0,
+    "M-Loc": 65.95,
+    "Average": 58.164
+  },
+  "selected": {
+    "layer": "0",
+    "status": "TRAIN_DONE",
+    "epoch": "43",
+    "i": "10750",
+    "loss": "0.3759908676147461",
+    "ema_loss": "0.3681148482874409",
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-43-i-10750-ema_loss-0.3681"
+  },
+  "checkpoint": {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-43-i-10750-ema_loss-0.3681",
+    "exists": true,
+    "size": 264686482
+  },
+  "results_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/eval_full/vead/blip2-opt-2.7b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit/results.json",
+  "results_count": 2093,
+  "recomputed_metrics": {
+    "Rel": 44.15,
+    "T-Gen": 40.43,
+    "M-Gen": 40.29,
+    "T-Loc": 100.0,
+    "M-Loc": 65.95
+  },
+  "mean_results": {
+    "reliability": {
+      "edit_time": 0.089,
+      "acc": 0.4415
+    },
+    "generality": {
+      "text_rephrase": {
+        "acc": 0.4043
+      },
+      "image_rephrase": {
+        "acc": 0.4029
+      }
+    },
+    "locality": {
+      "text_loc": {
+        "acc": 1.0
+      },
+      "image_loc": {
+        "acc": 0.6595
+      }
+    },
+    "sample_count": 2093
+  },
+  "mean_results_text": "{\n    \"reliability\": {\n        \"edit_time\": 0.089,\n        \"acc\": 0.4415\n    },\n    \"generality\": {\n        \"text_rephrase\": {\n            \"acc\": 0.4043\n        },\n        \"image_rephrase\": {\n            \"acc\": 0.4029\n        }\n    },\n    \"locality\": {\n        \"text_loc\": {\n            \"acc\": 1.0\n        },\n        \"image_loc\": {\n            \"acc\": 0.6595\n        }\n    },\n    \"sample_count\": 2093\n}",
+  "train_done": true,
+  "history_rows": 50,
+  "max_epoch": 50,
+  "all_50_epochs_present": true,
+  "minimum_ema_row": {
+    "time": "2026-06-01 02:41:54",
+    "layer": "0",
+    "epoch": "43",
+    "i": "10750",
+    "loss": "0.3759908676147461",
+    "ema_loss": "0.3681148482874409",
+    "ckpt_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/cross_dataset_visual_layer_localization/blip2_pilot500_visedit_sweep_20260601/layer_00/records/vead/blip2-opt-2.7b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-43-i-10750-ema_loss-0.3681",
+    "kept": "1"
+  },
+  "minimum_ema_matches": true,
+  "model_config_text": "IT:\n  add_it: true\n  layers:\n  - 20\n  - 21\n  - 22\n  - 23\n  - 24\n  - 25\n  - 26\n  - 27\n  - 28\n  - 29\n  - 30\n  mid_dim: 1024\n  noise_level: 0.7\n  test_n: 1\n  vt_sample_n: 24\n  window: 0\nadaptor_cross_att_head_n: 8\nadaptor_mid_dim: 1024\nedit_layers:\n- 0\nedit_model_name: blip2-opt-2.7b\nedit_text_layers: []\nllm_att_tmp: language_model.model.decoder.layers.{}.self_attn\nllm_hidden_size: 2560\nllm_layer_tmp: language_model.model.decoder.layers.{}\ntrain_cfg:\n  gen_lambda: 1\n  inf_mapper_lambda: 0.1\n  loc_lambda: 1\n  lr: 0.0001\n  rel_lambda: 1\n",
+  "evaluation_verified": true
+}

@@ -1,0 +1,169 @@
+﻿dataset,model,k,layer,new_vs_raw_topk,new_vs_old_seven_union,status,average,training_status,source,main_evaluation_available
+evqa-pilot500,blip2-opt-2.7b,3,4,True,False,main_evaluated,57.264,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,blip2-opt-2.7b,3,16,True,False,main_evaluated,73.8,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,blip2-opt-2.7b,3,18,True,False,main_evaluated,72.2,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,blip2-opt-2.7b,5,4,False,False,main_evaluated,57.264,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,blip2-opt-2.7b,5,16,False,False,main_evaluated,73.8,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,blip2-opt-2.7b,5,18,True,False,main_evaluated,72.2,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,blip2-opt-2.7b,5,17,True,False,main_evaluated,75.6,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,blip2-opt-2.7b,5,15,True,False,main_evaluated,73.04,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,instructblip-vicuna-7b,3,17,True,True,no_local_main_evaluation,,,,False
+evqa-pilot500,instructblip-vicuna-7b,3,18,True,False,main_evaluated,44.858,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3150065,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,instructblip-vicuna-7b,3,20,True,True,no_local_main_evaluation,,,,False
+evqa-pilot500,instructblip-vicuna-7b,5,17,False,False,no_local_main_evaluation,,,,False
+evqa-pilot500,instructblip-vicuna-7b,5,18,True,False,main_evaluated,44.858,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3150065,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,instructblip-vicuna-7b,5,20,True,False,no_local_main_evaluation,,,,False
+evqa-pilot500,instructblip-vicuna-7b,5,19,True,False,main_evaluated_with_training_flags,50.218,TRAIN_DONE_MAIN_RECOVERED_EARLY_EPOCH41_EVAL_DONE_JOB3150065,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,instructblip-vicuna-7b,5,21,True,False,no_local_main_evaluation,,,,False
+evqa-pilot500,llava-v1.5-7b,3,24,False,False,main_evaluated,62.418,TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178538,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,llava-v1.5-7b,3,25,False,False,main_evaluated,60.888,TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178538_TMP_CLEANED_20260915,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,llava-v1.5-7b,3,26,False,False,main_evaluated,62.99,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,llava-v1.5-7b,5,24,False,False,main_evaluated,62.418,TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178538,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,llava-v1.5-7b,5,25,False,False,main_evaluated,60.888,TRAIN_DONE_FORMAL_TOP3_SHARED_JOB3178538_TMP_CLEANED_20260915,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,llava-v1.5-7b,5,26,False,False,main_evaluated,62.99,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,llava-v1.5-7b,5,23,False,False,no_local_main_evaluation,,,,False
+evqa-pilot500,llava-v1.5-7b,5,27,False,False,main_evaluated,62.44,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,minigpt-4-vicuna-7b,3,29,False,False,main_evaluated,58.526,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3126082,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,minigpt-4-vicuna-7b,3,25,False,False,main_evaluated,58.47,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,minigpt-4-vicuna-7b,3,22,False,False,main_evaluated,58.554,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3126082,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,minigpt-4-vicuna-7b,5,29,False,False,main_evaluated,58.526,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3126082,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,minigpt-4-vicuna-7b,5,25,False,False,main_evaluated,58.47,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,minigpt-4-vicuna-7b,5,22,False,False,main_evaluated,58.554,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3126082,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,minigpt-4-vicuna-7b,5,26,False,False,main_evaluated,57.27,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,minigpt-4-vicuna-7b,5,21,False,False,no_local_main_evaluation,,,,False
+evqa-pilot500,paligemma-3b,3,7,False,False,main_evaluated,75.65,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,paligemma-3b,3,0,False,False,no_local_main_evaluation,,,,False
+evqa-pilot500,paligemma-3b,3,8,True,False,main_evaluated,81.0,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,paligemma-3b,5,7,False,False,main_evaluated,75.65,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,paligemma-3b,5,0,False,False,no_local_main_evaluation,,,,False
+evqa-pilot500,paligemma-3b,5,8,False,False,main_evaluated,81.0,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,paligemma-3b,5,13,False,False,no_local_main_evaluation,,,,False
+evqa-pilot500,paligemma-3b,5,16,True,True,no_local_main_evaluation,,,,False
+evqa-pilot500,qwen2.5-vl-3b,3,3,True,True,main_evaluated,61.59,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,qwen2.5-vl-3b,3,10,True,True,no_local_main_evaluation,,,,False
+evqa-pilot500,qwen2.5-vl-3b,3,6,True,True,no_local_main_evaluation,,,,False
+evqa-pilot500,qwen2.5-vl-3b,5,3,False,False,main_evaluated,61.59,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,qwen2.5-vl-3b,5,10,False,False,no_local_main_evaluation,,,,False
+evqa-pilot500,qwen2.5-vl-3b,5,6,True,True,no_local_main_evaluation,,,,False
+evqa-pilot500,qwen2.5-vl-3b,5,12,True,False,main_evaluated,62.67,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,qwen2.5-vl-3b,5,9,True,True,no_local_main_evaluation,,,,False
+evqa-pilot500,smolvlm-1.7b,3,22,False,False,main_evaluated,55.87,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,smolvlm-1.7b,3,21,False,False,main_evaluated,56.37,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,smolvlm-1.7b,3,20,False,False,main_evaluated,57.15,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,smolvlm-1.7b,5,22,False,False,main_evaluated,55.87,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,smolvlm-1.7b,5,21,False,False,main_evaluated,56.37,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,smolvlm-1.7b,5,20,False,False,main_evaluated,57.15,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,smolvlm-1.7b,5,19,False,False,main_evaluated,57.31,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+evqa-pilot500,smolvlm-1.7b,5,18,False,False,no_local_main_evaluation,,,,False
+mmke-entity,blip2-opt-2.7b,3,16,False,False,main_evaluated,69.45,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,blip2-opt-2.7b,3,13,False,False,main_evaluated,69.91,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,blip2-opt-2.7b,3,18,False,False,main_evaluated,70.12,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,blip2-opt-2.7b,5,16,False,False,main_evaluated,69.45,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,blip2-opt-2.7b,5,13,False,False,main_evaluated,69.91,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,blip2-opt-2.7b,5,18,False,False,main_evaluated,70.12,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,blip2-opt-2.7b,5,17,False,False,main_evaluated,70.26,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,blip2-opt-2.7b,5,15,False,False,main_evaluated,69.79,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,instructblip-vicuna-7b,3,1,True,False,main_evaluated,69.18,TRAIN_DONE_RESUMED_EPOCH45_CPU_SYNC_ACTIVATION_CKPT_JOB3044841,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,instructblip-vicuna-7b,3,17,True,False,main_evaluated,48.93,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,instructblip-vicuna-7b,3,20,True,True,no_local_main_evaluation,,,,False
+mmke-entity,instructblip-vicuna-7b,5,1,True,False,main_evaluated,69.18,TRAIN_DONE_RESUMED_EPOCH45_CPU_SYNC_ACTIVATION_CKPT_JOB3044841,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,instructblip-vicuna-7b,5,17,True,False,main_evaluated,48.93,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,instructblip-vicuna-7b,5,20,True,False,no_local_main_evaluation,,,,False
+mmke-entity,instructblip-vicuna-7b,5,18,True,False,main_evaluated,48.62,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,instructblip-vicuna-7b,5,16,True,False,main_evaluated,48.72,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,llava-v1.5-7b,3,9,False,False,main_evaluated,75.626,EVAL_DONE_SERVER_VERIFIED_50_EPOCHS,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\supplemental_evidence\mmke-entity\llava-v1.5-7b\layer_09\eval_full.done,True
+mmke-entity,llava-v1.5-7b,3,7,False,False,no_local_main_evaluation,,,,False
+mmke-entity,llava-v1.5-7b,3,8,True,True,no_local_main_evaluation,,,,False
+mmke-entity,llava-v1.5-7b,5,9,False,False,main_evaluated,75.626,EVAL_DONE_SERVER_VERIFIED_50_EPOCHS,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\supplemental_evidence\mmke-entity\llava-v1.5-7b\layer_09\eval_full.done,True
+mmke-entity,llava-v1.5-7b,5,7,False,False,no_local_main_evaluation,,,,False
+mmke-entity,llava-v1.5-7b,5,8,False,False,no_local_main_evaluation,,,,False
+mmke-entity,llava-v1.5-7b,5,6,False,False,no_local_main_evaluation,,,,False
+mmke-entity,llava-v1.5-7b,5,5,True,True,no_local_main_evaluation,,,,False
+mmke-entity,minigpt-4-vicuna-7b,3,7,True,True,no_local_main_evaluation,,,,False
+mmke-entity,minigpt-4-vicuna-7b,3,8,True,True,no_local_main_evaluation,,,,False
+mmke-entity,minigpt-4-vicuna-7b,3,14,True,False,main_evaluated,76.236,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3117562,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,minigpt-4-vicuna-7b,5,7,True,True,no_local_main_evaluation,,,,False
+mmke-entity,minigpt-4-vicuna-7b,5,8,True,True,no_local_main_evaluation,,,,False
+mmke-entity,minigpt-4-vicuna-7b,5,14,True,False,main_evaluated,76.236,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3117562,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,minigpt-4-vicuna-7b,5,17,True,False,no_local_main_evaluation,,,,False
+mmke-entity,minigpt-4-vicuna-7b,5,13,True,False,no_local_main_evaluation,,,,False
+mmke-entity,paligemma-3b,3,7,False,False,main_evaluated,90.12,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,paligemma-3b,3,8,True,False,main_evaluated,96.3,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,paligemma-3b,3,13,True,False,main_evaluated,48.65,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,paligemma-3b,5,7,False,False,main_evaluated,90.12,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,paligemma-3b,5,8,False,False,main_evaluated,96.3,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,paligemma-3b,5,13,False,False,main_evaluated,48.65,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,paligemma-3b,5,10,True,False,main_evaluated,38.28,TRAIN_DONE_MAIN_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,paligemma-3b,5,0,True,False,main_evaluated_with_training_flags,20.0,TRAIN_DONE_MAIN_NUMERIC_DEGENERATE_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,qwen2.5-vl-3b,3,6,True,True,no_local_main_evaluation,,,,False
+mmke-entity,qwen2.5-vl-3b,3,3,True,True,no_local_main_evaluation,,,,False
+mmke-entity,qwen2.5-vl-3b,3,10,True,True,no_local_main_evaluation,,,,False
+mmke-entity,qwen2.5-vl-3b,5,6,False,False,no_local_main_evaluation,,,,False
+mmke-entity,qwen2.5-vl-3b,5,3,False,False,no_local_main_evaluation,,,,False
+mmke-entity,qwen2.5-vl-3b,5,10,True,True,no_local_main_evaluation,,,,False
+mmke-entity,qwen2.5-vl-3b,5,12,True,False,no_local_main_evaluation,,,,False
+mmke-entity,qwen2.5-vl-3b,5,11,True,True,no_local_main_evaluation,,,,False
+mmke-entity,smolvlm-1.7b,3,0,False,False,main_evaluated,70.47,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,smolvlm-1.7b,3,6,True,False,main_evaluated,70.49,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,smolvlm-1.7b,3,8,True,True,no_local_main_evaluation,,,,False
+mmke-entity,smolvlm-1.7b,5,0,False,False,main_evaluated,70.47,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,smolvlm-1.7b,5,6,False,False,main_evaluated,70.49,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,smolvlm-1.7b,5,8,False,False,no_local_main_evaluation,,,,False
+mmke-entity,smolvlm-1.7b,5,9,True,False,main_evaluated,70.44,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-entity,smolvlm-1.7b,5,5,True,False,no_local_main_evaluation,,,,False
+mmke-visual,blip2-opt-2.7b,3,18,True,False,main_evaluated,71.29,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,blip2-opt-2.7b,3,16,True,False,main_evaluated,70.97,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,blip2-opt-2.7b,3,17,True,True,main_evaluated,71.22,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,blip2-opt-2.7b,5,18,True,False,main_evaluated,71.29,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,blip2-opt-2.7b,5,16,True,False,main_evaluated,70.97,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,blip2-opt-2.7b,5,17,True,False,main_evaluated,71.22,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,blip2-opt-2.7b,5,19,True,False,main_evaluated,71.37,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,blip2-opt-2.7b,5,15,True,False,main_evaluated,71.39,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,instructblip-vicuna-7b,3,17,True,False,main_evaluated,50.73,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,instructblip-vicuna-7b,3,20,True,True,no_local_main_evaluation,,,,False
+mmke-visual,instructblip-vicuna-7b,3,18,True,False,main_evaluated,50.49,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,instructblip-vicuna-7b,5,17,True,False,main_evaluated,50.73,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,instructblip-vicuna-7b,5,20,True,False,no_local_main_evaluation,,,,False
+mmke-visual,instructblip-vicuna-7b,5,18,True,False,main_evaluated,50.49,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,instructblip-vicuna-7b,5,16,True,False,main_evaluated,50.56,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,instructblip-vicuna-7b,5,19,True,False,main_evaluated,50.63,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,llava-v1.5-7b,3,24,False,False,main_evaluated,74.586,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3126082,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,llava-v1.5-7b,3,22,False,False,main_evaluated,73.84,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3126082,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,llava-v1.5-7b,3,27,False,False,main_evaluated,74.396,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3126082,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,llava-v1.5-7b,5,24,False,False,main_evaluated,74.586,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3126082,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,llava-v1.5-7b,5,22,False,False,main_evaluated,73.84,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3126082,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,llava-v1.5-7b,5,27,False,False,main_evaluated,74.396,TRAIN_DONE_MAIN_EVAL_DONE_SHARED_JOB3126082,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,llava-v1.5-7b,5,25,False,False,no_local_main_evaluation,,,,False
+mmke-visual,llava-v1.5-7b,5,23,False,False,no_local_main_evaluation,,,,False
+mmke-visual,minigpt-4-vicuna-7b,3,0,False,False,main_evaluated,75.812,TRAIN_DONE_REPAIRED_SELECTION_LOCAL_TMP_JOB3044841,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,minigpt-4-vicuna-7b,3,1,False,False,main_evaluated,75.824,TRAIN_DONE_REPAIRED_SELECTION_LOCAL_TMP_JOB3044841,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,minigpt-4-vicuna-7b,3,3,False,False,main_evaluated,76.634,TRAIN_DONE_REPAIRED_SELECTION_LOCAL_TMP_JOB3044841,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,minigpt-4-vicuna-7b,5,0,False,False,main_evaluated,75.812,TRAIN_DONE_REPAIRED_SELECTION_LOCAL_TMP_JOB3044841,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,minigpt-4-vicuna-7b,5,1,False,False,main_evaluated,75.824,TRAIN_DONE_REPAIRED_SELECTION_LOCAL_TMP_JOB3044841,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,minigpt-4-vicuna-7b,5,3,False,False,main_evaluated,76.634,TRAIN_DONE_REPAIRED_SELECTION_LOCAL_TMP_JOB3044841,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,minigpt-4-vicuna-7b,5,4,False,False,no_local_main_evaluation,,,,False
+mmke-visual,minigpt-4-vicuna-7b,5,25,False,False,main_evaluated,74.32,TRAIN_DONE,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,paligemma-3b,3,7,False,False,main_evaluated,93.41,TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,paligemma-3b,3,8,True,False,main_evaluated,91.28800000000001,TRAIN_DONE_MAIN,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,paligemma-3b,3,10,True,False,main_evaluated,99.05600000000001,TRAIN_DONE_MAIN,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,paligemma-3b,5,7,False,False,main_evaluated,93.41,TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,paligemma-3b,5,8,False,False,main_evaluated,91.28800000000001,TRAIN_DONE_MAIN,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,paligemma-3b,5,10,False,False,main_evaluated,99.05600000000001,TRAIN_DONE_MAIN,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,paligemma-3b,5,16,True,True,no_local_main_evaluation,,,,False
+mmke-visual,paligemma-3b,5,13,True,False,main_evaluated,40.041999999999994,TRAIN_DONE_MAIN_BACKFILLED_20260926；完整50epoch，有历史非有限梯度记录,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,qwen2.5-vl-3b,3,3,True,True,no_local_main_evaluation,,,,False
+mmke-visual,qwen2.5-vl-3b,3,6,True,True,main_evaluated,70.15,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,qwen2.5-vl-3b,3,10,True,True,no_local_main_evaluation,,,,False
+mmke-visual,qwen2.5-vl-3b,5,3,False,False,no_local_main_evaluation,,,,False
+mmke-visual,qwen2.5-vl-3b,5,6,False,False,main_evaluated,70.15,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,qwen2.5-vl-3b,5,10,True,True,no_local_main_evaluation,,,,False
+mmke-visual,qwen2.5-vl-3b,5,9,True,True,main_evaluated,69.48,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,qwen2.5-vl-3b,5,8,True,True,main_evaluated,70.84,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,smolvlm-1.7b,3,6,False,False,main_evaluated,69.88,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,smolvlm-1.7b,3,8,True,False,main_evaluated,69.66,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,smolvlm-1.7b,3,5,True,False,main_evaluated,70.322,TRAIN_DONE_CMA_MODELPRED_TOP3_BACKFILL_SHARED_JOB3178423,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,smolvlm-1.7b,5,6,False,False,main_evaluated,69.88,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,smolvlm-1.7b,5,8,False,False,main_evaluated,69.66,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,smolvlm-1.7b,5,5,False,False,main_evaluated,70.322,TRAIN_DONE_CMA_MODELPRED_TOP3_BACKFILL_SHARED_JOB3178423,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,smolvlm-1.7b,5,4,True,False,main_evaluated,70.53,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True
+mmke-visual,smolvlm-1.7b,5,9,True,False,main_evaluated,69.45,TRAIN_DONE_LOCAL_TMP_JOB3044208,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\outputs\lga_tukey_correction_20260926\inputs\outcome_ledger_snapshot.md,True

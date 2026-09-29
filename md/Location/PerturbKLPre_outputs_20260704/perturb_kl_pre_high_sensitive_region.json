@@ -1,0 +1,842 @@
+[
+  {
+    "dataset_key": "evqa-pilot500",
+    "dataset": "EVQA-pilot500",
+    "model_key": "blip2-opt-2.7b",
+    "model": "BLIP2-OPT-2.7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.27623446087696574,
+    "std_smoothed_kl": 0.3169467207739105,
+    "threshold": 0.434707821263921,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L7"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L7"
+    ],
+    "direct_top1_layer": "L3",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "evqa-pilot500",
+    "dataset": "EVQA-pilot500",
+    "model_key": "instructblip-vicuna-7b",
+    "model": "InstructBLIP-Vicuna-7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.5608706519098429,
+    "std_smoothed_kl": 0.2893372563272963,
+    "threshold": 0.705539280073491,
+    "high_sensitive_layers": [
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8",
+      "L9",
+      "L10",
+      "L11",
+      "L12",
+      "L13",
+      "L14",
+      "L15"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L2",
+        "L15"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L2",
+      "L15"
+    ],
+    "direct_top1_layer": "L2",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "pre_candidate_layers_out_of_range"
+  },
+  {
+    "dataset_key": "evqa-pilot500",
+    "dataset": "EVQA-pilot500",
+    "model_key": "minigpt-4-vicuna-7b",
+    "model": "MiniGPT-4-Vicuna-7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.4467579932824513,
+    "std_smoothed_kl": 0.3120033532806805,
+    "threshold": 0.6027596699227915,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8",
+      "L9"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L9"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L9"
+    ],
+    "direct_top1_layer": "L0",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "evqa-pilot500",
+    "dataset": "EVQA-pilot500",
+    "model_key": "llava-v1.5-7b",
+    "model": "LLaVA-v1.5-7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.27035729469655884,
+    "std_smoothed_kl": 0.30640405430254414,
+    "threshold": 0.4235593218478309,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L8"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L8"
+    ],
+    "direct_top1_layer": "L0",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "evqa-pilot500",
+    "dataset": "EVQA-pilot500",
+    "model_key": "qwen2.5-vl-3b",
+    "model": "Qwen2.5-VL-3B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.4304885974534634,
+    "std_smoothed_kl": 0.22051191501132444,
+    "threshold": 0.5407445549591257,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L11",
+      "L12",
+      "L13",
+      "L14"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L7"
+      ],
+      [
+        "L11",
+        "L14"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L7"
+    ],
+    "direct_top1_layer": "L0",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "evqa-pilot500",
+    "dataset": "EVQA-pilot500",
+    "model_key": "paligemma-3b",
+    "model": "PaliGemma-3B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.39501036800368017,
+    "std_smoothed_kl": 0.3110237861495741,
+    "threshold": 0.5505222610784672,
+    "high_sensitive_layers": [
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L2",
+        "L8"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L2",
+      "L8"
+    ],
+    "direct_top1_layer": "L5",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "pre_candidate_layers_out_of_range"
+  },
+  {
+    "dataset_key": "evqa-pilot500",
+    "dataset": "EVQA-pilot500",
+    "model_key": "smolvlm-1.7b",
+    "model": "SmolVLM-Instruct-1.7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.4296750009188564,
+    "std_smoothed_kl": 0.2391709776189153,
+    "threshold": 0.5492604897283141,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L7"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L7"
+    ],
+    "direct_top1_layer": "L1",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "mmke-visual",
+    "dataset": "MMKE-visual",
+    "model_key": "blip2-opt-2.7b",
+    "model": "BLIP2-OPT-2.7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.22495916173551256,
+    "std_smoothed_kl": 0.3020792436559543,
+    "threshold": 0.3759987835634897,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L6"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L6"
+    ],
+    "direct_top1_layer": "L3",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "mmke-visual",
+    "dataset": "MMKE-visual",
+    "model_key": "instructblip-vicuna-7b",
+    "model": "InstructBLIP-Vicuna-7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.6193802703172888,
+    "std_smoothed_kl": 0.2891533834006364,
+    "threshold": 0.763956962017607,
+    "high_sensitive_layers": [
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8",
+      "L9",
+      "L10",
+      "L11",
+      "L12",
+      "L13",
+      "L14",
+      "L15",
+      "L16"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L3",
+        "L16"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L3",
+      "L16"
+    ],
+    "direct_top1_layer": "L2",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "pre_candidate_layers_out_of_range"
+  },
+  {
+    "dataset_key": "mmke-visual",
+    "dataset": "MMKE-visual",
+    "model_key": "minigpt-4-vicuna-7b",
+    "model": "MiniGPT-4-Vicuna-7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.38360129782477215,
+    "std_smoothed_kl": 0.32473920079555024,
+    "threshold": 0.5459708982225473,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L8"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L8"
+    ],
+    "direct_top1_layer": "L0",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "mmke-visual",
+    "dataset": "MMKE-visual",
+    "model_key": "llava-v1.5-7b",
+    "model": "LLaVA-v1.5-7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.19893656406820545,
+    "std_smoothed_kl": 0.2495585032255952,
+    "threshold": 0.32371581568100305,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L7"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L7"
+    ],
+    "direct_top1_layer": "L0",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "mmke-visual",
+    "dataset": "MMKE-visual",
+    "model_key": "qwen2.5-vl-3b",
+    "model": "Qwen2.5-VL-3B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.5320116378629207,
+    "std_smoothed_kl": 0.2073700401303989,
+    "threshold": 0.6356966579281201,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L10",
+      "L11",
+      "L12",
+      "L13",
+      "L14",
+      "L15",
+      "L16",
+      "L17"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L6"
+      ],
+      [
+        "L10",
+        "L17"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L10",
+      "L17"
+    ],
+    "direct_top1_layer": "L0",
+    "status": "done",
+    "failure_reason": ""
+  },
+  {
+    "dataset_key": "mmke-visual",
+    "dataset": "MMKE-visual",
+    "model_key": "paligemma-3b",
+    "model": "PaliGemma-3B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.3666772617327259,
+    "std_smoothed_kl": 0.2861578871973874,
+    "threshold": 0.5097562053314196,
+    "high_sensitive_layers": [
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L4",
+        "L8"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L4",
+      "L8"
+    ],
+    "direct_top1_layer": "L7",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "pre_candidate_layers_out_of_range"
+  },
+  {
+    "dataset_key": "mmke-visual",
+    "dataset": "MMKE-visual",
+    "model_key": "smolvlm-1.7b",
+    "model": "SmolVLM-Instruct-1.7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.42400677789260527,
+    "std_smoothed_kl": 0.21646431431455754,
+    "threshold": 0.5322389350498841,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L7"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L7"
+    ],
+    "direct_top1_layer": "L1",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "mmke-entity",
+    "dataset": "MMKE-entity",
+    "model_key": "blip2-opt-2.7b",
+    "model": "BLIP2-OPT-2.7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.23135392044654715,
+    "std_smoothed_kl": 0.32015976447924815,
+    "threshold": 0.39143380268617123,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L6"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L6"
+    ],
+    "direct_top1_layer": "L3",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "mmke-entity",
+    "dataset": "MMKE-entity",
+    "model_key": "instructblip-vicuna-7b",
+    "model": "InstructBLIP-Vicuna-7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.6228089758176631,
+    "std_smoothed_kl": 0.2868584472786572,
+    "threshold": 0.7662381994569918,
+    "high_sensitive_layers": [
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8",
+      "L9",
+      "L10",
+      "L11",
+      "L12",
+      "L13",
+      "L14",
+      "L15"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L3",
+        "L15"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L3",
+      "L15"
+    ],
+    "direct_top1_layer": "L5",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "pre_candidate_layers_out_of_range"
+  },
+  {
+    "dataset_key": "mmke-entity",
+    "dataset": "MMKE-entity",
+    "model_key": "minigpt-4-vicuna-7b",
+    "model": "MiniGPT-4-Vicuna-7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.41124529830457096,
+    "std_smoothed_kl": 0.3091741119428974,
+    "threshold": 0.5658323542760196,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8",
+      "L9"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L9"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L9"
+    ],
+    "direct_top1_layer": "L0",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "mmke-entity",
+    "dataset": "MMKE-entity",
+    "model_key": "llava-v1.5-7b",
+    "model": "LLaVA-v1.5-7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.15601407012748417,
+    "std_smoothed_kl": 0.21562099472038307,
+    "threshold": 0.2638245674876757,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L5"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L5"
+    ],
+    "direct_top1_layer": "L0",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "mmke-entity",
+    "dataset": "MMKE-entity",
+    "model_key": "qwen2.5-vl-3b",
+    "model": "Qwen2.5-VL-3B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.4606009381194561,
+    "std_smoothed_kl": 0.17807676154569144,
+    "threshold": 0.5496393188923019,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L11",
+      "L12",
+      "L13",
+      "L14",
+      "L15",
+      "L16"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L7"
+      ],
+      [
+        "L11",
+        "L16"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L7"
+    ],
+    "direct_top1_layer": "L0",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  },
+  {
+    "dataset_key": "mmke-entity",
+    "dataset": "MMKE-entity",
+    "model_key": "paligemma-3b",
+    "model": "PaliGemma-3B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.3619953697898858,
+    "std_smoothed_kl": 0.25048972125164853,
+    "threshold": 0.4872402304157101,
+    "high_sensitive_layers": [
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8",
+      "L9"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L4",
+        "L9"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L4",
+      "L9"
+    ],
+    "direct_top1_layer": "L7",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "pre_candidate_layers_out_of_range"
+  },
+  {
+    "dataset_key": "mmke-entity",
+    "dataset": "MMKE-entity",
+    "model_key": "smolvlm-1.7b",
+    "model": "SmolVLM-Instruct-1.7B",
+    "method": "Perturb-KL-Pre-AltSeq",
+    "source_method": "Perturb-KL-Direct-AltSeq",
+    "rank_metric": "score_kl_robust_alt_sequence",
+    "smoothing_window": 3,
+    "lambda": 0.5,
+    "threshold_rule": "mean + 0.5 * std(population)",
+    "mean_smoothed_kl": 0.3955504105897281,
+    "std_smoothed_kl": 0.20504414314538388,
+    "threshold": 0.49807248216242006,
+    "high_sensitive_layers": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+    ],
+    "all_high_sensitive_regions": [
+      [
+        "L0",
+        "L7"
+      ]
+    ],
+    "selected_high_sensitive_region": [
+      "L0",
+      "L7"
+    ],
+    "direct_top1_layer": "L0",
+    "status": "insufficient_pre_layers",
+    "failure_reason": "high_sensitive_region_starts_at_L0"
+  }
+]

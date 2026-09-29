@@ -33,7 +33,11 @@ def move_to_device(data, device):
 
 def get_full_model_name(model_name_part:str)->str:
     model_name_part = model_name_part.lower()
-    if 'blip2' in model_name_part:
+    if 'paligemma' in model_name_part or 'pali-gemma' in model_name_part:
+        return 'paligemma-3b'
+    elif 'smolvlm' in model_name_part or 'smol-vlm' in model_name_part:
+        return 'smolvlm-1.7b'
+    elif 'blip2' in model_name_part:
         return 'blip2-opt-2.7b'
     elif 'llava' in model_name_part:
         return 'llava-v1.5-7b'
@@ -59,6 +63,12 @@ def load_vllm_for_edit(model_name:str, device:str)->BaseVLLMForEdit:
     if 'llava' in model_name:
         from editor.vllms_for_edit import LlavaForEdit
         return LlavaForEdit(model_path, device, True)
+    elif 'paligemma' in model_name:
+        from editor.vllms_for_edit import PaliGemmaForEdit
+        return PaliGemmaForEdit(model_path, device)
+    elif 'smolvlm' in model_name:
+        from editor.vllms_for_edit import SmolVLMForEdit
+        return SmolVLMForEdit(model_path, device)
     elif 'blip2' in model_name:
         from editor.vllms_for_edit import BLIP2OPTForEdit
         return BLIP2OPTForEdit(model_path, device)
@@ -85,4 +95,3 @@ def load_vllm_editor(editor_name:str, edit_model_name:str, device:int,
     if editor_ckpt_path != None and isinstance(editor, VLLMBaseEditorWithTraining):
         editor.load_ckpt(editor_ckpt_path, True, False)
     return editor
-

@@ -214,9 +214,24 @@ class VLLMBaseEditorWithTraining(VLLMBaseEditor):
                 if self.train_i % self.log_per_i == 0:
                     self.write_logs(self.train_i, log_dict)
                 if self.train_i % self.save_ckpt_per_i == 0:
-                    self.save_ckpt(self.train_i, self.train_epoch, loss, self.ema_loss)
+                    ckpt_path = self.save_ckpt(self.train_i, self.train_epoch, loss, self.ema_loss)
+                    if hasattr(self, 'after_save_ckpt_callback'):
+                        should_stop = self.after_save_ckpt_callback(
+                            ckpt_path, self.train_i, self.train_epoch, loss, self.ema_loss
+                        )
+                        if should_stop:
+                            self.train_i += 1
+                            progress_bar.update(samp_n)
+                            progress_bar.close()
+                            self.set_train(False)
+                            return
                 self.train_i += 1 
                 progress_bar.update(samp_n)
+                max_steps = getattr(self, 'max_steps', None)
+                if max_steps is not None and self.train_i > max_steps:
+                    progress_bar.close()
+                    self.set_train(False)
+                    return
             progress_bar.close() 
         self.set_train(False)
 
@@ -246,7 +261,25 @@ class VLLMBaseEditorWithTraining(VLLMBaseEditor):
         else:
             ckpt_name = 'epoch-%d-i-%d-loss-%.4f'%(int(epoch), int(i), float(loss))
         ckpt_path = os.path.join(self.save_ckpt_dir, ckpt_name)
-        torch.save(ckpt, ckpt_path)
+        def save_once():
+            torch.save(ckpt, ckpt_path)
+            if getattr(self, 'validate_checkpoint_after_save', False):
+                torch.load(ckpt_path, 'cpu')
+
+        try:
+            save_once()
+        except Exception as err:
+            if os.path.exists(ckpt_path):
+                try:
+                    os.remove(ckpt_path)
+                except OSError:
+                    pass
+            if hasattr(self, 'handle_checkpoint_save_error'):
+                self.handle_checkpoint_save_error(ckpt_path, err)
+                save_once()
+            else:
+                raise
+        return ckpt_path
 
     def load_ckpt(self, ckpt_path, restrict = True, load_opt = True):
         '''Load checkpoint.'''

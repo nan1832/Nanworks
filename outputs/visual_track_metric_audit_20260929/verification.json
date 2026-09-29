@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "independent_pandas_rank_tests": 270,
+  "max_rho_difference": 2.220446049250313e-16,
+  "matching_historical_rows": 324,
+  "maximum_historical_rho_difference": 2.220446049250313e-16,
+  "excluded_paligemma": true,
+  "aligned_main_records": 349,
+  "three_variant_aligned_records": 1047,
+  "source_md_sha256": "6217683f920ac105d4ba7b5d330c6bf16003fc6ec962ec1371b449d7bd262ac0",
+  "source_md_unchanged": true,
+  "report_sha256": "e1832ef5f8249536e74db43e90c007f9322ef4c8b6b47fb8a1356c091e871939",
+  "peak_completeness_checked": true
+}

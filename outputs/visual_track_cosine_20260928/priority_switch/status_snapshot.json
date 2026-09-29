@@ -1,0 +1,183 @@
+{
+  "time": "2026-09-29T07:32:28.553326+08:00",
+  "status.json": {
+    "time": "2026-09-28T22:45:04+0800",
+    "state": "STOPPED_REQUIRES_INSPECTION",
+    "node": "g09",
+    "job": "3443209",
+    "pid": 2379778,
+    "error": "Traceback (most recent call last):\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\", line 133, in <module>\n    try:main(args.continue_paused)\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\", line 112, in main\n    run_child(args,log,'RUNNING_THREE_VARIANTS',model=model,verified_groups=len(receipts),resume_checkpoint=ck['backup'])\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\", line 72, in run_child\n    assert child.returncode==0,'Child failed, inspect '+str(log)\nAssertionError: Child failed, inspect /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/variants_smolvlm-1.7b.log\n",
+    "checkpoint_preserved": true
+  },
+  "pause_receipt.json": {
+    "time": "2026-09-28T19:28:25.901354+08:00",
+    "checkpoint": {
+      "timestamp": "2026-09-28T19:22:39.620302+08:00",
+      "source": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-entity/minigpt-4-vicuna-7b/layer_08/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-14-i-4452-ema_loss-2.2171",
+      "backup": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171",
+      "sha256": "9f16441a8ba9cd260304b7b5a3988e78ba6725e955537e804258e3da46ba2765",
+      "size": 415895994,
+      "epoch": 14,
+      "i": 4452,
+      "loss": 2.0125482082366943,
+      "ema_loss": 2.2171053627262323,
+      "keys": [
+        "i",
+        "epoch",
+        "loss",
+        "ema_loss",
+        "train_modules",
+        "opt"
+      ],
+      "optimizer_states": 26,
+      "all_parameters_and_optimizer_finite": true
+    },
+    "stopped_pids": [
+      2287075,
+      2287248
+    ],
+    "cancelled_own_pending_job": "3463118",
+    "resume_command": [
+      "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+      "-u",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_mmke_minigpt_llava_lowmem_sweep.py",
+      "--out-root",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-entity/minigpt-4-vicuna-7b",
+      "--layers",
+      "8",
+      "--epochs",
+      "50",
+      "--batch-size",
+      "2",
+      "--model-name",
+      "minigpt-4-vicuna-7b",
+      "--device",
+      "cuda:0",
+      "--train-data",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_train_evqa_compat.json",
+      "--eval-data",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_eval_evqa_compat.json",
+      "--train-img-root",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+      "--eval-img-root",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+      "--config-path",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/provenance/code/configs/vead/minigpt-4-vicuna-7b.yaml",
+      "--seed",
+      "20260601",
+      "--ema-alpha",
+      "0.1",
+      "--data-buffer-size",
+      "1",
+      "--keep-top-ckpts",
+      "1",
+      "--keep-last-ckpts",
+      "0",
+      "--skip-eval",
+      "--synchronous-data-loading",
+      "--activation-checkpointing",
+      "--resume-checkpoint",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171",
+      "--resume-layer",
+      "8"
+    ],
+    "child_exit": "Child exited during verified parent stop; both pinned PIDs absent; no second signal sent.",
+    "rng_restoration": "Original checkpoint resume implementation; full RNG states were not saved by original training code."
+  },
+  "verified_variant_groups.json": [
+    {
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "n": 500,
+      "summary_sha256": "797f58484bb3e8149c34832119b4dea9146884d0f8cff45c5180a223b8bffc1e"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "llava-v1.5-7b",
+      "n": 214,
+      "summary_sha256": "751c77fcaf9798e23555f2b93bdf3ac0ae3348f8e8515d2ce2ed9f9c496c2f2a"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "n": 636,
+      "summary_sha256": "d76e4f1f9d272476b6583f7093e64769e38939be3b86593e45e868246b757e74"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "blip2-opt-2.7b",
+      "n": 500,
+      "summary_sha256": "f188d984d912cabddf748fbc29ef9a53b167403899bbb93b6a7b97f7095e1fae"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "blip2-opt-2.7b",
+      "n": 214,
+      "summary_sha256": "a2b1631bc4df1c4a545fb51e87a4fa21795f6dd929a6f4671b386ab2b75673e7"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "blip2-opt-2.7b",
+      "n": 636,
+      "summary_sha256": "1d01d1cfbae3b351ddc92360cd89b4c24c21af330a18cfcdd36c15a274ca61d5"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "instructblip-vicuna-7b",
+      "n": 500,
+      "summary_sha256": "90f6079f7590d167cbd6ab48dc522bdbadf6d45b1e430cc5076f86d4c37b0ee5"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "n": 214,
+      "summary_sha256": "825d93044a2ffb6ca60bba16e203e68a0e77bd2138fc9e510537ec9a7dee7eda"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "n": 636,
+      "summary_sha256": "8032fab87a0e044dacfe4135775e4bcb9cedf143b7d5e55f17e71554f6a829e1"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "n": 500,
+      "summary_sha256": "670913c8ea9a218ce26dbc4ba508be439f99c009879cd18388e8afd2f0d70aa0"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "n": 214,
+      "summary_sha256": "96f0c7d4cac693347e0f27fdc6515e5bd8284e82dd6cf7b421ad440b2929d0a5"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "minigpt-4-vicuna-7b",
+      "n": 636,
+      "summary_sha256": "00179c932dc9609fe7f3fdca4e0a5b597a1924c95eb4cf8a25d960b9b6a48b11"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "paligemma-3b",
+      "n": 500,
+      "summary_sha256": "2468fd4b51927f209609956f81abe53e7f883df027651af65c42b5b79f1031c9"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "n": 214,
+      "summary_sha256": "1b17f83fc26b2dfa0e3bbb52f295426e77f4ae0be05b46480735f5bc11b5e15e"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "paligemma-3b",
+      "n": 636,
+      "summary_sha256": "9f1d26b30dcbfa40d719de06d9f3c2bd212d5c03290c2bfcb7a99b12ef85a4bb"
+    }
+  ],
+  "log_tail": "node\": \"g09\", \"job\": \"3443209\", \"pid\": 2379778, \"phase\": \"three_variants/paligemma-3b\", \"free_mib\": 73046, \"required_mib\": 60000, \"stable\": 2}\n{\"time\": \"2026-09-28T22:27:22+0800\", \"state\": \"WAITING_GPU_MEMORY\", \"node\": \"g09\", \"job\": \"3443209\", \"pid\": 2379778, \"phase\": \"three_variants/paligemma-3b\", \"free_mib\": 73046, \"required_mib\": 60000, \"stable\": 3}\n{\"time\": \"2026-09-28T22:27:22+0800\", \"state\": \"RUNNING_THREE_VARIANTS\", \"node\": \"g09\", \"job\": \"3443209\", \"pid\": 2379778, \"child_pid\": 2411266, \"log\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/variants_paligemma-3b.log\", \"command\": [\"/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python\", \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/code/run_visual_track_targets_20260928.py\", \"--project\", \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main\", \"--out\", \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results\", \"--model\", \"paligemma-3b\"], \"model\": \"paligemma-3b\", \"verified_groups\": 12, \"resume_checkpoint\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171\"}\n{\"time\": \"2026-09-28T22:42:43+0800\", \"state\": \"WAITING_GPU_MEMORY\", \"node\": \"g09\", \"job\": \"3443209\", \"pid\": 2379778, \"phase\": \"three_variants/smolvlm-1.7b\", \"free_mib\": 73046, \"required_mib\": 60000, \"stable\": 1}\n{\"time\": \"2026-09-28T22:43:03+0800\", \"state\": \"WAITING_GPU_MEMORY\", \"node\": \"g09\", \"job\": \"3443209\", \"pid\": 2379778, \"phase\": \"three_variants/smolvlm-1.7b\", \"free_mib\": 73046, \"required_mib\": 60000, \"stable\": 2}\n{\"time\": \"2026-09-28T22:43:24+0800\", \"state\": \"WAITING_GPU_MEMORY\", \"node\": \"g09\", \"job\": \"3443209\", \"pid\": 2379778, \"phase\": \"three_variants/smolvlm-1.7b\", \"free_mib\": 73046, \"required_mib\": 60000, \"stable\": 3}\n{\"time\": \"2026-09-28T22:43:24+0800\", \"state\": \"RUNNING_THREE_VARIANTS\", \"node\": \"g09\", \"job\": \"3443209\", \"pid\": 2379778, \"child_pid\": 2413840, \"log\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/variants_smolvlm-1.7b.log\", \"command\": [\"/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python\", \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/code/run_visual_track_targets_20260928.py\", \"--project\", \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main\", \"--out\", \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results\", \"--model\", \"smolvlm-1.7b\"], \"model\": \"smolvlm-1.7b\", \"verified_groups\": 15, \"resume_checkpoint\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171\"}\n{\"time\": \"2026-09-28T22:45:04+0800\", \"state\": \"STOPPED_REQUIRES_INSPECTION\", \"node\": \"g09\", \"job\": \"3443209\", \"pid\": 2379778, \"error\": \"Traceback (most recent call last):\\n  File \\\"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\\\", line 133, in <module>\\n    try:main(args.continue_paused)\\n  File \\\"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\\\", line 112, in main\\n    run_child(args,log,'RUNNING_THREE_VARIANTS',model=model,verified_groups=len(receipts),resume_checkpoint=ck['backup'])\\n  File \\\"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\\\", line 72, in run_child\\n    assert child.returncode==0,'Child failed, inspect '+str(log)\\nAssertionError: Child failed, inspect /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/variants_smolvlm-1.7b.log\\n\", \"checkpoint_preserved\": true}\nTraceback (most recent call last):\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\", line 133, in <module>\n    try:main(args.continue_paused)\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\", line 112, in main\n    run_child(args,log,'RUNNING_THREE_VARIANTS',model=model,verified_groups=len(receipts),resume_checkpoint=ck['backup'])\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\", line 72, in run_child\n    assert child.returncode==0,'Child failed, inspect '+str(log)\nAssertionError: Child failed, inspect /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/variants_smolvlm-1.7b.log\n",
+  "gpu": "14467, 66690, 84\n",
+  "gpu_processes": "2049332, 3444\n2388051, 582\n2475795, 10420\n",
+  "jobs": "3435286|RUNNING|g08|g08\n3443209|RUNNING|g09|g09\n"
+}

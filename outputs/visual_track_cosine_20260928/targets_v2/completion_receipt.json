@@ -1,0 +1,315 @@
+{
+  "time": "2026-09-29T09:18:13.102942+08:00",
+  "completion": {
+    "time": "2026-09-29T08:37:52+0800",
+    "groups": [
+      {
+        "dataset": "evqa-pilot500",
+        "model": "llava-v1.5-7b",
+        "n": 500,
+        "summary_sha256": "797f58484bb3e8149c34832119b4dea9146884d0f8cff45c5180a223b8bffc1e"
+      },
+      {
+        "dataset": "mmke-visual",
+        "model": "llava-v1.5-7b",
+        "n": 214,
+        "summary_sha256": "751c77fcaf9798e23555f2b93bdf3ac0ae3348f8e8515d2ce2ed9f9c496c2f2a"
+      },
+      {
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "n": 636,
+        "summary_sha256": "d76e4f1f9d272476b6583f7093e64769e38939be3b86593e45e868246b757e74"
+      },
+      {
+        "dataset": "evqa-pilot500",
+        "model": "blip2-opt-2.7b",
+        "n": 500,
+        "summary_sha256": "f188d984d912cabddf748fbc29ef9a53b167403899bbb93b6a7b97f7095e1fae"
+      },
+      {
+        "dataset": "mmke-visual",
+        "model": "blip2-opt-2.7b",
+        "n": 214,
+        "summary_sha256": "a2b1631bc4df1c4a545fb51e87a4fa21795f6dd929a6f4671b386ab2b75673e7"
+      },
+      {
+        "dataset": "mmke-entity",
+        "model": "blip2-opt-2.7b",
+        "n": 636,
+        "summary_sha256": "1d01d1cfbae3b351ddc92360cd89b4c24c21af330a18cfcdd36c15a274ca61d5"
+      },
+      {
+        "dataset": "evqa-pilot500",
+        "model": "instructblip-vicuna-7b",
+        "n": 500,
+        "summary_sha256": "90f6079f7590d167cbd6ab48dc522bdbadf6d45b1e430cc5076f86d4c37b0ee5"
+      },
+      {
+        "dataset": "mmke-visual",
+        "model": "instructblip-vicuna-7b",
+        "n": 214,
+        "summary_sha256": "825d93044a2ffb6ca60bba16e203e68a0e77bd2138fc9e510537ec9a7dee7eda"
+      },
+      {
+        "dataset": "mmke-entity",
+        "model": "instructblip-vicuna-7b",
+        "n": 636,
+        "summary_sha256": "8032fab87a0e044dacfe4135775e4bcb9cedf143b7d5e55f17e71554f6a829e1"
+      },
+      {
+        "dataset": "evqa-pilot500",
+        "model": "minigpt-4-vicuna-7b",
+        "n": 500,
+        "summary_sha256": "670913c8ea9a218ce26dbc4ba508be439f99c009879cd18388e8afd2f0d70aa0"
+      },
+      {
+        "dataset": "mmke-visual",
+        "model": "minigpt-4-vicuna-7b",
+        "n": 214,
+        "summary_sha256": "96f0c7d4cac693347e0f27fdc6515e5bd8284e82dd6cf7b421ad440b2929d0a5"
+      },
+      {
+        "dataset": "mmke-entity",
+        "model": "minigpt-4-vicuna-7b",
+        "n": 636,
+        "summary_sha256": "00179c932dc9609fe7f3fdca4e0a5b597a1924c95eb4cf8a25d960b9b6a48b11"
+      },
+      {
+        "dataset": "evqa-pilot500",
+        "model": "paligemma-3b",
+        "n": 500,
+        "summary_sha256": "2468fd4b51927f209609956f81abe53e7f883df027651af65c42b5b79f1031c9"
+      },
+      {
+        "dataset": "mmke-visual",
+        "model": "paligemma-3b",
+        "n": 214,
+        "summary_sha256": "1b17f83fc26b2dfa0e3bbb52f295426e77f4ae0be05b46480735f5bc11b5e15e"
+      },
+      {
+        "dataset": "mmke-entity",
+        "model": "paligemma-3b",
+        "n": 636,
+        "summary_sha256": "9f1d26b30dcbfa40d719de06d9f3c2bd212d5c03290c2bfcb7a99b12ef85a4bb"
+      },
+      {
+        "dataset": "evqa-pilot500",
+        "model": "smolvlm-1.7b",
+        "n": 500,
+        "summary_sha256": "1270097429840f1669515edf5e3135d3fa2d8efe1ca12de62c4dc086d32cc208"
+      },
+      {
+        "dataset": "mmke-visual",
+        "model": "smolvlm-1.7b",
+        "n": 214,
+        "summary_sha256": "b3bc3a0a1a48ad7d2fd6ea6b651c145000f8a4b220b97129ef9fc64fa98c3ebc"
+      },
+      {
+        "dataset": "mmke-entity",
+        "model": "smolvlm-1.7b",
+        "n": 636,
+        "summary_sha256": "f94e417f1c1d2b193dc9d2d48fd614c5e60083b694eb7761e35e4389a773be7a"
+      },
+      {
+        "dataset": "evqa-pilot500",
+        "model": "qwen2.5-vl-3b",
+        "n": 500,
+        "summary_sha256": "beb74b8823a9cbb8756eff7254ba8145e503b09bd1bff5ee0ebc42dfa1f94249"
+      },
+      {
+        "dataset": "mmke-visual",
+        "model": "qwen2.5-vl-3b",
+        "n": 214,
+        "summary_sha256": "c8e444dd6365b2176b741a5bc442f0da18e79df1d822e36a98ea19e741c9ff10"
+      },
+      {
+        "dataset": "mmke-entity",
+        "model": "qwen2.5-vl-3b",
+        "n": 636,
+        "summary_sha256": "7a2d8d8ad3fb91801d2f2d02e449122f38b2ab98ce6e183de81a3efdb2f947e5"
+      }
+    ]
+  },
+  "state": {
+    "time": "2026-09-29T08:44:35+0800",
+    "state": "RESUMING_MINIGPT_L8",
+    "node": "g09",
+    "job": "3443209",
+    "pid": 2500705,
+    "child_pid": 2512011,
+    "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/resume_minigpt_L8.log",
+    "command": [
+      "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+      "-u",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_mmke_minigpt_llava_lowmem_sweep.py",
+      "--out-root",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-entity/minigpt-4-vicuna-7b",
+      "--layers",
+      "8",
+      "--epochs",
+      "50",
+      "--batch-size",
+      "2",
+      "--model-name",
+      "minigpt-4-vicuna-7b",
+      "--device",
+      "cuda:0",
+      "--train-data",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_train_evqa_compat.json",
+      "--eval-data",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_entity_top3_union_train_eval_7models_20260616_155000/data/vqa_mmke_entity_eval_evqa_compat.json",
+      "--train-img-root",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+      "--eval-img-root",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_image",
+      "--config-path",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/provenance/code/configs/vead/minigpt-4-vicuna-7b.yaml",
+      "--seed",
+      "20260601",
+      "--ema-alpha",
+      "0.1",
+      "--data-buffer-size",
+      "1",
+      "--keep-top-ckpts",
+      "1",
+      "--keep-last-ckpts",
+      "0",
+      "--skip-eval",
+      "--synchronous-data-loading",
+      "--activation-checkpointing",
+      "--resume-checkpoint",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171",
+      "--resume-layer",
+      "8"
+    ],
+    "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171",
+    "resume_epoch": 15,
+    "resume_i": 4453
+  },
+  "training": {
+    "log_mtime": "2026-09-29T09:18:11+08:00",
+    "progress": [
+      [
+        "16",
+        "368",
+        "636"
+      ]
+    ],
+    "errors": [],
+    "last_lines": [
+      "Epoch 16:  57%|█████▋    | 360/636 [10:41<07:45,  1.69s/it]",
+      "Epoch 16:  57%|█████▋    | 362/636 [10:44<07:52,  1.73s/it]",
+      "Epoch 16:  57%|█████▋    | 364/636 [10:48<07:56,  1.75s/it]",
+      "Epoch 16:  58%|█████▊    | 366/636 [10:51<07:45,  1.73s/it]",
+      "Epoch 16:  58%|█████▊    | 368/636 [10:55<07:33,  1.69s/it]"
+    ]
+  },
+  "group_times": [
+    {
+      "dataset": "mmke-entity",
+      "model": "qwen2.5-vl-3b",
+      "completed_at": "2026-09-29T08:37:43+08:00"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "paligemma-3b",
+      "completed_at": "2026-09-28T22:42:40+08:00"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "instructblip-vicuna-7b",
+      "completed_at": "2026-09-28T21:55:34+08:00"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "blip2-opt-2.7b",
+      "completed_at": "2026-09-28T21:22:14+08:00"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "llava-v1.5-7b",
+      "completed_at": "2026-09-28T20:56:58+08:00"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "minigpt-4-vicuna-7b",
+      "completed_at": "2026-09-28T22:26:36+08:00"
+    },
+    {
+      "dataset": "mmke-entity",
+      "model": "smolvlm-1.7b",
+      "completed_at": "2026-09-29T08:04:50+08:00"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "qwen2.5-vl-3b",
+      "completed_at": "2026-09-29T08:22:29+08:00"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "paligemma-3b",
+      "completed_at": "2026-09-28T22:35:42+08:00"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "instructblip-vicuna-7b",
+      "completed_at": "2026-09-28T21:40:10+08:00"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "blip2-opt-2.7b",
+      "completed_at": "2026-09-28T21:11:39+08:00"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "llava-v1.5-7b",
+      "completed_at": "2026-09-28T20:19:33+08:00"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "minigpt-4-vicuna-7b",
+      "completed_at": "2026-09-28T22:12:11+08:00"
+    },
+    {
+      "dataset": "mmke-visual",
+      "model": "smolvlm-1.7b",
+      "completed_at": "2026-09-29T07:54:40+08:00"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "qwen2.5-vl-3b",
+      "completed_at": "2026-09-29T08:17:42+08:00"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "paligemma-3b",
+      "completed_at": "2026-09-28T22:33:39+08:00"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "instructblip-vicuna-7b",
+      "completed_at": "2026-09-28T21:35:39+08:00"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "blip2-opt-2.7b",
+      "completed_at": "2026-09-28T21:08:14+08:00"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "completed_at": "2026-09-28T20:07:34+08:00"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "minigpt-4-vicuna-7b",
+      "completed_at": "2026-09-28T22:07:53+08:00"
+    },
+    {
+      "dataset": "evqa-pilot500",
+      "model": "smolvlm-1.7b",
+      "completed_at": "2026-09-29T07:51:36+08:00"
+    }
+  ]
+}

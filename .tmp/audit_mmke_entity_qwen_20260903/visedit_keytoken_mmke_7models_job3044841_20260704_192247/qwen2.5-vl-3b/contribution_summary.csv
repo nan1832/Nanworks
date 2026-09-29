@@ -1,0 +1,2 @@
+dataset,model,method,key_mode,valid_sample_count,total_sample_count,generic_key_token_ratio,fallback_key_token_ratio,top3_direct_layers,top5_direct_layers,high_contribution_region,top3_pre_layers,top5_pre_layers,status,failure_reason
+mmke-entity,qwen2.5-vl-3b,VisEdit-Contrib-Pre-KeyToken,dataset_key_token,636,636,0.0,0.0,"[31, 33, 32]","[31, 33, 32, 34, 30]","[30, 34]","[29, 28, 27]","[29, 28, 27, 26, 25]",done,

@@ -1,0 +1,1894 @@
+{
+  "time": "2026-09-28T15:27:09.389023+08:00",
+  "scope": [
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/server_results"
+  ],
+  "folders": [
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_fullevqa_blip2_module_contribution_20260602_161102",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_fulltrain_blip2_module_contribution_model_pred_20260604_101922",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_20260602_155510",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_20260602_160202",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_model_pred_20260604_100403",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_smoke",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247"
+  ],
+  "configs": [
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_fullevqa_blip2_module_contribution_20260602_161102/config.json",
+      "sha256": "2a9ff7be2ad1b9b4f6bbdbcadde5bb759105dfc3d0efc2839d0cab29d36898e2",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "data/easy-edit-mm/vqa/vqa_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 6345
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_fullevqa_blip2_module_contribution_20260602_161102/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_fullevqa_blip2_module_contribution_20260602_161102/summary.json",
+      "sha256": "fbc06e8f15bf9855e7bdbb34d69af306c75b6ddbed97f6bdb72151bc4a3860c7",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 6345
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_fullevqa_blip2_module_contribution_20260602_161102/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_fulltrain_blip2_module_contribution_model_pred_20260604_101922/config.json",
+      "sha256": "70f953d316f9682e89f286098d6876431c58d38b77ce52d21062c08cd4500f1d",
+      "config": {
+        "key_mode": "model_pred",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 6345
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_fulltrain_blip2_module_contribution_model_pred_20260604_101922/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_fulltrain_blip2_module_contribution_model_pred_20260604_101922/summary.json",
+      "sha256": "77016c15297db5b188919f693f1511b26a8bbe6ed67635451fc5eed09e71bb7f",
+      "config": {
+        "key_mode": "model_pred",
+        "sample_count": 6345
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_fulltrain_blip2_module_contribution_model_pred_20260604_101922/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/llava-v1.5-7b/config.json",
+      "sha256": "6b54f03d26bbed3ebb7257577be8fdca3890a938bcf94560dacb6696191fbd8d",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "llava-v1.5-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/llava-v1.5-7b/summary.json",
+      "sha256": "ae10db008f2e36f68d9990ee7c5f80255bf026042ab55490b42ed675951f8efb",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/paligemma-3b/config.json",
+      "sha256": "670a2662c47ca4e587e69e208be41195d0791163f1af6eeadac7b9d3f32416ca",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "paligemma-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/paligemma-3b/summary.json",
+      "sha256": "79443982c5b4fd47e1927b643e00e4dfb043e0d452fcba603981905d5ec8c62b",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/instructblip-vicuna-7b/config.json",
+      "sha256": "f3327074b2d9c9cbc8b35f5fbf65419d0975c4fcbc2380eddc292c14f84fd41d",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "instructblip-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/instructblip-vicuna-7b/summary.json",
+      "sha256": "947e18e51010913beee099e3f5d41f7dca743826e51c52e712701203c613ee3d",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/qwen2.5-vl-3b/config.json",
+      "sha256": "3f0e2452d0eb50ecae21a037eb21afa65335f516f33814d07c8247aa0d25a779",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "qwen2.5-vl-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/qwen2.5-vl-3b/summary.json",
+      "sha256": "38bdbf15cb990d2677bb72318acadc29ba1b42a10bf3a7be39cff9c1a0ddceaa",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/smolvlm-1.7b/config.json",
+      "sha256": "0d61dcfc252bc3259ed75831e90ea798e7d11177090dc72f265ffb76346ae397",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "smolvlm-1.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/smolvlm-1.7b/summary.json",
+      "sha256": "8b8874263d6b6175798724f3760dd6d59345c9f7f1956db8b1b092f606e92dfe",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/minigpt-4-vicuna-7b/config.json",
+      "sha256": "d22bc581844a943f121866c1e4c8f58532816b9441d491b6c48f831464889e3e",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "9fceb46bf5d71b4221225b0cd089896e558292367aecbae132efc1d47d13290a",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_module_contribution_smoke/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/paligemma-3b/config.json",
+      "sha256": "cd3546a16567856f9aa4f4ee0b0ecfa07c55bf93df6ffb9705e32ebaa16f5610",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "paligemma-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/paligemma-3b/summary.json",
+      "sha256": "72c9135c84e0d5c124476379bb81acc7ebbdc001f8a0a8d446da846d970ec800",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/qwen2.5-vl-3b/config.json",
+      "sha256": "76fd4945b60ac9d511ed571bfe0971ff1062561ac37f08ac319f77c02018ec12",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "qwen2.5-vl-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/qwen2.5-vl-3b/summary.json",
+      "sha256": "0621e4a51b9b095b372593d9c1f8fd23f1d48bba04e428916d118ade3f0fc49c",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/llava-v1.5-7b/config.json",
+      "sha256": "9142209f8363cd938a6fd0a5f8bf1c363fcc1fc039c9e38c5512f7e463175935",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "llava-v1.5-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/llava-v1.5-7b/summary.json",
+      "sha256": "09924362e4ace4abdfec603f1802a9ceafb7b8857bf602176983cc8595ebd32e",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/instructblip-vicuna-7b/config.json",
+      "sha256": "f44c27cb11e0e5dc7a36a810bed072869934265be5ea2594c359ea223468ad1a",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "instructblip-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/instructblip-vicuna-7b/summary.json",
+      "sha256": "d003239a63dfa8c14201061fe42525030ef060da49f93297624908ac88b5717a",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/minigpt-4-vicuna-7b/config.json",
+      "sha256": "0633ff7637675c9cd086a75976ae43415ab92da5fe8dd3e64b7855df9ee65385",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "4a6adbf919ad5eb1297258dddd2df844cc1cc692fb362ad976637add6f50583d",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/smolvlm-1.7b/config.json",
+      "sha256": "58aa01b8e9b5239439a0d1e898628cc5bbf47f0962b77cac67cf879a7f850814",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "smolvlm-1.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/smolvlm-1.7b/summary.json",
+      "sha256": "d333add6e817c205a6e2b56a286f3a545661007c7e5e454c03fb88d7601505d5",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_20260606_150822/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/paligemma-3b/config.json",
+      "sha256": "beecb6b35688c91f939450d417edf0c6aaa05fac99b058b04ff45147f3a83dc1",
+      "config": {
+        "key_mode": "model_pred",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "paligemma-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/paligemma-3b/summary.json",
+      "sha256": "d01dd1a91388d0764388772766157a3d116e6c0705140525189602bce7c3d592",
+      "config": {
+        "key_mode": "model_pred",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/qwen2.5-vl-3b/config.json",
+      "sha256": "9beb526b0967c793088099bc58e5b295e53b2bd8389e7774680c7d8d9331b1cc",
+      "config": {
+        "key_mode": "model_pred",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "qwen2.5-vl-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/qwen2.5-vl-3b/summary.json",
+      "sha256": "ab62eb18bfd5ca383d7accc14b26a75b130123baebc55aa569f7e01f7f96b1d1",
+      "config": {
+        "key_mode": "model_pred",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/llava-v1.5-7b/config.json",
+      "sha256": "46c5cec13222d2c6fa0e242467e8bb55ec6c6ca257b949828de7bc9b50dc9c76",
+      "config": {
+        "key_mode": "model_pred",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "llava-v1.5-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/llava-v1.5-7b/summary.json",
+      "sha256": "c4f24937fe53a4d059f572cb20ca48b6f20419ca8975ffa2bc59c2185411827e",
+      "config": {
+        "key_mode": "model_pred",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/instructblip-vicuna-7b/config.json",
+      "sha256": "de1931b7e03156e689f221d769480d512feca8b8162bf75972bb284d97f405f2",
+      "config": {
+        "key_mode": "model_pred",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "instructblip-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/instructblip-vicuna-7b/summary.json",
+      "sha256": "7b8f374db1a530df3c1dc4e9f6b94eff137dffb761a05fe44ed3c4c38a8ddbb5",
+      "config": {
+        "key_mode": "model_pred",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/smolvlm-1.7b/config.json",
+      "sha256": "1236f7212ba4a66b7c2d1aa665222545e2169836deb4c02f1714e0ce4843053d",
+      "config": {
+        "key_mode": "model_pred",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "smolvlm-1.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/smolvlm-1.7b/summary.json",
+      "sha256": "185d378f2a6be5f560b9e7c77c871de3e583ccb4b50e3d8e4b8e8e142cf77082",
+      "config": {
+        "key_mode": "model_pred",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/minigpt-4-vicuna-7b/config.json",
+      "sha256": "9a305887788240e1389451d49e93a9ab5fe12bbed22547db5979c50fe0daa218",
+      "config": {
+        "key_mode": "model_pred",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "1084a35e3919b2594c8b3113cb05c4b06fb03734d60d70cdf8da46b0e8fad13b",
+      "config": {
+        "key_mode": "model_pred",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_pilot500_module_contribution_model_pred_20260606_193500/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_20260602_155510/config.json",
+      "sha256": "39bae7dbad0c867cf0270cef4e89819590696f0f52d25b7690e0d3fdeddbfa31",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "blip2-opt-2.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": null
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_20260602_160202/config.json",
+      "sha256": "39bae7dbad0c867cf0270cef4e89819590696f0f52d25b7690e0d3fdeddbfa31",
+      "config": {
+        "key_mode": "alt",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "blip2-opt-2.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_20260602_160202/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_20260602_160202/summary.json",
+      "sha256": "1934ee90c27db22878de0bd5c99f162dedee30c4f7deca749b4a0b031a276640",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_20260602_160202/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_model_pred_20260604_100403/config.json",
+      "sha256": "40c3f12029fd5907476bb8f339e640889adeac0517a3c1062d82c917b94ffbea",
+      "config": {
+        "key_mode": "model_pred",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json",
+        "model_name": "blip2-opt-2.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_model_pred_20260604_100403/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_model_pred_20260604_100403/summary.json",
+      "sha256": "f6c71d5fc41adc58663dacf75b711d90f791a1fd5af7b5f0fd5f453ff71cea48",
+      "config": {
+        "key_mode": "model_pred",
+        "sample_count": 500
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy500_blip2_module_contribution_model_pred_20260604_100403/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/paligemma-3b/config.json",
+      "sha256": "ae5e2d00f3b8de4f346a73ac046e97cb9d9160b7db954b2995203b70d8e16b5c",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "paligemma-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/paligemma-3b/summary.json",
+      "sha256": "7b1b4d620a9d2244904a77ab5a22f92fc7674ac1895f7cd6da4408d6f9192c39",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/qwen2.5-vl-3b/config.json",
+      "sha256": "2761059cbcac324fcf2d6189eba1c76d323158cbf0722ba63ef7afcdd73cbf0c",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "qwen2.5-vl-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/qwen2.5-vl-3b/summary.json",
+      "sha256": "8693c71fbb0c623f57628eb19a7af72fda0d27de725d29b9583407a6d8510f93",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/llava-v1.5-7b/config.json",
+      "sha256": "69c9809bfd63e6acbf15a7d6efa8451732523d593baec475a990cd6bd9489764",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "llava-v1.5-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/llava-v1.5-7b/summary.json",
+      "sha256": "0e04a8c275f2221304a4bb5a87b017443ba4a0898905ca6c1d452f7b18c8562e",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/instructblip-vicuna-7b/config.json",
+      "sha256": "9159f934ed7fdf129fdb6e6e957cc788514f3f4e176e9edf3dc71c21d42ec4c0",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "instructblip-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/instructblip-vicuna-7b/summary.json",
+      "sha256": "06b28f9da2bdc58c74277514bc7713cbf56643917eca9b4a90d013561a6f9c27",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/blip2-opt-2.7b/config.json",
+      "sha256": "7cd06714c5929bd8e095943659dc0710dcc5ca1b74a2fbeb453f376e765110c1",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/blip2-opt-2.7b/summary.json",
+      "sha256": "d323ceca9e6b0b76e64df9086125d5dc9db9b468db7e98ff7e317826710e95f6",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/minigpt-4-vicuna-7b/config.json",
+      "sha256": "faf9f75ede8d8bbb00297e4adaa0e04094ea6edc2075b15cbfbfe03740fa4a71",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "d7ca726050d62aed89ea7785fa20d9021946267c7ac9449ba15aaf3209ed76c5",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/smolvlm-1.7b/config.json",
+      "sha256": "40d8b2488f3ecfe05cecf799007a0f63bae8b8b254e7d0d754a041442a9eb5e1",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "smolvlm-1.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/smolvlm-1.7b/summary.json",
+      "sha256": "d7ad968ad5cc66572d1f5b31cbd408f3ce1c67f26e834a9fa7ad63257df58af5",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/paligemma-3b/config.json",
+      "sha256": "41bb1059c1e70a68fb53a20b463431869c468c67f2d086413c693e182c743eb6",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "paligemma-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/paligemma-3b/summary.json",
+      "sha256": "6e65378836c0b3cc2e58f907de7bc488dfc11b46028b6d836fc9c82a94d6f575",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/qwen2.5-vl-3b/config.json",
+      "sha256": "be3e38918be491aa7270285da37dca424f33460d3622c5e83d0339bcdf5d4e90",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "qwen2.5-vl-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/qwen2.5-vl-3b/summary.json",
+      "sha256": "44dbf2c6705e71c8f04379fb9f7785ee6bec0acea3b7449df42231365aaa74c8",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/llava-v1.5-7b/config.json",
+      "sha256": "f2178556e8c328a762e89ff97f0269d389029be8e61cb9a172ed7f2c839076bc",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "llava-v1.5-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/llava-v1.5-7b/summary.json",
+      "sha256": "ee4ff6fde1ada67a39da0330bb2b0c3edd6eac44e8db350e4be0a32c69decfcd",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/instructblip-vicuna-7b/config.json",
+      "sha256": "60d60d220c92b83c3ef5b31b3cc0fcdd4c0271909a4816a0735d336aa23713b8",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "instructblip-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/instructblip-vicuna-7b/summary.json",
+      "sha256": "39f5c912d7e1441a14b354e7b94b041e9b8245cf46b34054fb3c66152b96ebaf",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/blip2-opt-2.7b/config.json",
+      "sha256": "bc277f682ecbf9f4bbc67bd878c309aa672d81d18e64e79fa5624319e91b165e",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/blip2-opt-2.7b/summary.json",
+      "sha256": "d0ff9ce30672e37a28d21f2813882630ec6084316e32c9d162b5e1a1b1a66e00",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/minigpt-4-vicuna-7b/config.json",
+      "sha256": "d2d76a68129a98ad4feb3a0994a45d4476572c48288a9595c4948d52fd753044",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "edd464aba06822d3b563fd50e803089149442b966d81aaeab175c3eca8a3f54e",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/smolvlm-1.7b/config.json",
+      "sha256": "a8f1242b58f35a94c0553b447cc79798308a78ba9833580a6cb9b5558d0347f0",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "smolvlm-1.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/smolvlm-1.7b/summary.json",
+      "sha256": "619d495a7f928dffbd3c1edfce7527c68d05814c76a81c7693a839ca34399e27",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/alt/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/paligemma-3b/config.json",
+      "sha256": "95047502e921a17e3de813fded9316c3c4caf737567a040bf113459964e5b44d",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "paligemma-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/paligemma-3b/summary.json",
+      "sha256": "dddd428697d71678d7eb62bc669637e09b642a4fb14224c134a8904ee8ea72ed",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/qwen2.5-vl-3b/config.json",
+      "sha256": "8bf0e9c0568b6e404e8fd77a3c9ca817ea61533cb58208edd391b3b2a364b616",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "qwen2.5-vl-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/qwen2.5-vl-3b/summary.json",
+      "sha256": "96b8b147981590a166333b7455b9875a45b9644f7fbbe787464b017b7a058ec2",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/llava-v1.5-7b/config.json",
+      "sha256": "a93e7784517bed7045cc78ec3e5854087f046621e5d5cfd2b2a0b8f48c4d0465",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "llava-v1.5-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/llava-v1.5-7b/summary.json",
+      "sha256": "4bb6d22d9a79c5ef518f081e0814579a8e408bcb4065ff640e325868b7cb508c",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/instructblip-vicuna-7b/config.json",
+      "sha256": "873149e39c31e15bacd65d1abb4b588912763f0f55839f53b1ef4806646339c0",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "instructblip-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/instructblip-vicuna-7b/summary.json",
+      "sha256": "4220f624c284ef1809ca71e8e77a99d0e061570a03f266b6f2359e865375c604",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/blip2-opt-2.7b/config.json",
+      "sha256": "0d56df80013a83d7b5251770fc0aac1795ffb02944152b8df37914dd9826467d",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/blip2-opt-2.7b/summary.json",
+      "sha256": "6933cef4c8473103f7914595b188f641d29ea7ec6cda2baea2f411934193b04c",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/minigpt-4-vicuna-7b/config.json",
+      "sha256": "39b61e610f5a5002c32b6efb0bf0f8635af4cb2398b1e382802791318f3d03b1",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "cff4ef295ae6549f3843daabd82899139a625c4bbdaa842eb685715618245f7a",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/smolvlm-1.7b/config.json",
+      "sha256": "20ba59e74de44d1bf5284bf4adb325df75ddfa0252731d6f96d3ad8a49f93816",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "smolvlm-1.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/smolvlm-1.7b/summary.json",
+      "sha256": "81980e75318be1fb8f410f23c7c6fd52c984df5ccabec1b90908c2448ee6c0b1",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/paligemma-3b/config.json",
+      "sha256": "584a739383a3204d7f29564bd5b505c209502f02d8c7a712e881265a0e438cdb",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "paligemma-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/paligemma-3b/summary.json",
+      "sha256": "aba2ecc53c6331446f85cafdf7081c5d4e4b2f4d4425a40e680f4c2c4cbed808",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/qwen2.5-vl-3b/config.json",
+      "sha256": "1bfe42f68e5a4c5e0cb44498404397951e9c30b81f6c6d6b38c2f67e79cc1a48",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "qwen2.5-vl-3b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/qwen2.5-vl-3b/summary.json",
+      "sha256": "be01b56b622fc19a11f0b6925df257a648b6c52278a8b88f1dc4a10a48c8987e",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/llava-v1.5-7b/config.json",
+      "sha256": "bd78df36e3a71c73ec819f327fc5b737b612b3ed87bc8752d2127092ec3d015f",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "llava-v1.5-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/llava-v1.5-7b/summary.json",
+      "sha256": "d1a26dfd0bb491ea0e1064f0a2173d55a0dd42e0bb361e21d6fbcfd26aa6cd3a",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/instructblip-vicuna-7b/config.json",
+      "sha256": "7fabe331bb4618b21621ec94dd47f0be9a69b067be054c11165ef27b8fb6ec5b",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "instructblip-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/instructblip-vicuna-7b/summary.json",
+      "sha256": "5ccdb1c029dcbdfc2bb0702b1c384096bc37fd07b8132d474c49e43e5317f438",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/blip2-opt-2.7b/config.json",
+      "sha256": "187e03d94f4d137be8f44ca44f274c09dafc9091c5713aaaff2fe002127d7330",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/blip2-opt-2.7b/summary.json",
+      "sha256": "8d54810d11d20c1f400b3bf7d2d907376e5f2c72bc5ddf842f617a037ba8057a",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/minigpt-4-vicuna-7b/config.json",
+      "sha256": "a30ef92ef78c4bd8a6825c9ba2b450108371eee0739b4d2e2603b406a57a8249",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "94fe9caec9b47b83946c0456f506619ef1085945fe878454c12aeece207af9ae",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/smolvlm-1.7b/config.json",
+      "sha256": "298a79541ce69ab61a8098e83dc19e0ec94f30307d514a4555ab22e66c9725f4",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "smolvlm-1.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/smolvlm-1.7b/summary.json",
+      "sha256": "fc15947461a7137055134ffe4fba69a229df58c82bd993e8a5c95528da8405f0",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/alt/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_smoke/visual_alt_blip2/config.json",
+      "sha256": "6e11c1abee076b8587877762c162a83616153ca64ae2982500fa17d639c43032",
+      "config": {
+        "key_mode": "alt",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_smoke/visual_alt_blip2/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_smoke/visual_alt_blip2/summary.json",
+      "sha256": "10d540ed765736f4e23ffbb315400258521511f21e2740f7acd36394411decd7",
+      "config": {
+        "key_mode": "alt",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_smoke/visual_alt_blip2/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_smoke/visual_pred_smol/config.json",
+      "sha256": "831ae5aa52b8441f083b2232a5c67b619c1667ff0ff109ccd3576a8340e731fb",
+      "config": {
+        "key_mode": "pred",
+        "dataset_type": "mmke",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "smolvlm-1.7b",
+        "token_rule": "first token of target answer; leading space enabled unless --no-leading-space",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_smoke/visual_pred_smol/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_smoke/visual_pred_smol/summary.json",
+      "sha256": "54cfc8ed74b7866df7a92b343cf3ec1275bae654287646b81f587f0420a16539",
+      "config": {
+        "key_mode": "pred",
+        "sample_count": 1
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_smoke/visual_pred_smol/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/paligemma-3b/config.json",
+      "sha256": "5f150395b56058cd82dd4e34272867fd1fa0bc55474213b8cab2676013f216ef",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "paligemma-3b",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/paligemma-3b/summary.json",
+      "sha256": "6c5a0a1ed26c91a79bbec845e3addb2dd21377d3795696024af3034a1c09d183",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "paligemma-3b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/qwen2.5-vl-3b/config.json",
+      "sha256": "94ce5760bf98462dcf4714d44f6d23ec4ca63d4e187e550092660eca0119a9d9",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "qwen2.5-vl-3b",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/qwen2.5-vl-3b/summary.json",
+      "sha256": "fc1eae565df70621ff5d73cc9d9833bd34a053da77161eb2e160fd9eec3c85f9",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "qwen2.5-vl-3b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/llava-v1.5-7b/config.json",
+      "sha256": "0b9dc81f3f6e2998e7bbf97c8fef09c09e9ab6f08ac7f26ca7d95b25332bf03c",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "llava-v1.5-7b",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/llava-v1.5-7b/summary.json",
+      "sha256": "9eb620b326fa51bf1f694a3eadd90aca4b2c8803a1bd9c934dc62fb9567239fa",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/instructblip-vicuna-7b/config.json",
+      "sha256": "65e99ec5d8596ed6832915a6b313b22743732473b8f1138dbeb96e19ea04caee",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "instructblip-vicuna-7b",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/instructblip-vicuna-7b/summary.json",
+      "sha256": "606e5b35c969085ed3433146e5595daed2e93396ac026e787f6263ad1ea17422",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "instructblip-vicuna-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/blip2-opt-2.7b/config.json",
+      "sha256": "7b57ad0801c4dffb075a44a829e20316a2f37352ae29e27f2077bf5f52e156c8",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/blip2-opt-2.7b/summary.json",
+      "sha256": "5985589b41c1fa8361d1ba839dde929e6b28f4fc817789e64bde00e265475a4d",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "blip2-opt-2.7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/minigpt-4-vicuna-7b/config.json",
+      "sha256": "385e4d878cbfb862babb4c3ccf80c688c306029ea64dc6bd56741b15e9c9f5cd",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "d37918dc90d521ae121774d3c0821593e9b850cc38a7e095651f267495c0bb35",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "minigpt-4-vicuna-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/smolvlm-1.7b/config.json",
+      "sha256": "23ad6a97bc13d4f705884b50ed83a6d741480f052e2773732d225cc5062415a3",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "smolvlm-1.7b",
+        "sample_count": 636
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/smolvlm-1.7b/summary.json",
+      "sha256": "f22aeb4e0bf3f7adbd63340154823824e2a48f668be2c382ab95ea6818aeb58e",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "smolvlm-1.7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-entity/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/paligemma-3b/config.json",
+      "sha256": "9cb2b3da145efbab43ab707be9ccbff6a271618357f43794804a76908afcabdb",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "paligemma-3b",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/paligemma-3b/summary.json",
+      "sha256": "b7f129cb9f44cf5ea40264a1871922f15a4dd680d611c600d4ef8c51cf6a6649",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "paligemma-3b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/qwen2.5-vl-3b/config.json",
+      "sha256": "bd299c1187b79f36410f37f296c66863e22b98e84ac35de3c8577c003da995f4",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "qwen2.5-vl-3b",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/qwen2.5-vl-3b/summary.json",
+      "sha256": "057d37590b8c3e0db050ce996ffd7594225407636136e1e24c608d08f6cca2bd",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "qwen2.5-vl-3b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/llava-v1.5-7b/config.json",
+      "sha256": "e0ea5958287f6b54e73fdc51da00940596d85ee1ae6194e7089436ae95caa480",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "llava-v1.5-7b",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/llava-v1.5-7b/summary.json",
+      "sha256": "c48bd71219bd21fa9076a80554d134e9879ca8b2edff0c88b4fad6e16a6bddae",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "llava-v1.5-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/instructblip-vicuna-7b/config.json",
+      "sha256": "a04678893086e0e6ed763d64b433efd88cb911437c5c864442a0aacccdd6aa60",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "instructblip-vicuna-7b",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/instructblip-vicuna-7b/summary.json",
+      "sha256": "54637806e7f38b8acbcb36fbcab55bf2ab2d3c791edec7f5a7e868ef2e07227e",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "instructblip-vicuna-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/blip2-opt-2.7b/config.json",
+      "sha256": "b417526428f5d89ee01039db0473d3aca5e70227056346a29ff7419254e5b89d",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/blip2-opt-2.7b/summary.json",
+      "sha256": "3e8e50021c2995c0bcd61074a486a960496eb30fe552c414c6fba112e9aa0ef4",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "blip2-opt-2.7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/minigpt-4-vicuna-7b/config.json",
+      "sha256": "67ee2b6de1997f566a717cef8bef05ea8ad70701473f040da88aeb0d3804d91c",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "1185931d1812798cd25d9d044e56e5abbd99db18421523a61547bdb15bcb209a",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "minigpt-4-vicuna-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/smolvlm-1.7b/config.json",
+      "sha256": "dfa87f28d7d333bfcf96950aa88d2ec4bd387b0772c879f0e2ea43343996a9f8",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "smolvlm-1.7b",
+        "sample_count": 214
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/smolvlm-1.7b/summary.json",
+      "sha256": "d32720694ab7e842a58e786ff6ffa3dae0184d331ea3416abbde8a3cdbf1c7f2",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "smolvlm-1.7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/full/mmke-visual/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/paligemma-3b/config.json",
+      "sha256": "b0bf47a446ff91e9870f16e1ace44933d9924d17a6715f6d68d80fb93bd667a4",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "paligemma-3b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/paligemma-3b/summary.json",
+      "sha256": "506d281ebb78eacaa31558e2581f80d04d9d8a6924c5ea828839407917b376b6",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "paligemma-3b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/qwen2.5-vl-3b/config.json",
+      "sha256": "b352c4cdd28bce9a34f891d5bf6ec122ed8c3d97872be4348a3e0eadd1771998",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "qwen2.5-vl-3b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/qwen2.5-vl-3b/summary.json",
+      "sha256": "7dba37e4acfe21b8784079bdfc5c32c36b39d993ace6029b75702ac7a32af596",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "qwen2.5-vl-3b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/llava-v1.5-7b/config.json",
+      "sha256": "425c56a690aa59e18e701aca7b6fd842606b3520bf83b7f1ea7090fec6b50da8",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "llava-v1.5-7b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/llava-v1.5-7b/summary.json",
+      "sha256": "7d848a8ace6cb5eac822dee47a6a277c1a685fe309383720bebd22b2301bcef6",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/instructblip-vicuna-7b/config.json",
+      "sha256": "16a3c0434646286a464cf3f250e85ce9d189066f421a0581e56e4f3c75a2c772",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "instructblip-vicuna-7b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/instructblip-vicuna-7b/summary.json",
+      "sha256": "305f4bc1b9238dec9513e06793fb3a0746255ab46c117a0ce6c43a5aa2c0d75a",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "instructblip-vicuna-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/blip2-opt-2.7b/config.json",
+      "sha256": "755ad4266ea41d800ee4030f796758b31a9e3eb06a50b2633359a1dd7b420811",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/blip2-opt-2.7b/summary.json",
+      "sha256": "b7b3d3bf1a6849a0051c82eae7ee9784b35eb5d30cc062a072aca946b3176f61",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "blip2-opt-2.7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/minigpt-4-vicuna-7b/config.json",
+      "sha256": "602bc61109ca68f6245ac35c7ca646ce890a6e2afb6effdb96b0a97f973a122f",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "863d295f9a1b79149a303e7c2a862542fa4f1f27614a69bc78a5b4db8c08d00a",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "minigpt-4-vicuna-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/smolvlm-1.7b/config.json",
+      "sha256": "0219c35a075d5aeff813c71f869d0a6d70772b6ae0f065197f506fd1278afeaa",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "smolvlm-1.7b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/smolvlm-1.7b/summary.json",
+      "sha256": "7b6beb4e4dfb288a69b530b48d10924e1bf8472ecf856789d5005032a7b0e440",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "smolvlm-1.7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-entity/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/paligemma-3b/config.json",
+      "sha256": "a72f3f84160e8825659e1687e7797849e1f2aa3e60d6ca85ad3f184fd86f6ca8",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "paligemma-3b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/paligemma-3b/summary.json",
+      "sha256": "2d551cafe8c6ae2cec48c0c2039260426761ee11f3b3251c4e421178ba735b16",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "paligemma-3b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/paligemma-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/qwen2.5-vl-3b/config.json",
+      "sha256": "20999fc4232f25fec49db4e883c52f30731676a05161e628b2b0bdf1588ef09a",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "qwen2.5-vl-3b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/qwen2.5-vl-3b/summary.json",
+      "sha256": "8572fe282a79838d4f2c9300560fc1d750cebcf51f3b5304ae78df8233ae805c",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "qwen2.5-vl-3b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/qwen2.5-vl-3b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/llava-v1.5-7b/config.json",
+      "sha256": "27b3dc4befe1affb7d894b805ec0fb48a4c8ee842dd1ef3b95a97105f0436923",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "llava-v1.5-7b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/llava-v1.5-7b/summary.json",
+      "sha256": "5737d5215f902ce81a726269853a4b1896c3699e337ca784d5865e9dcf0364d8",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "llava-v1.5-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/instructblip-vicuna-7b/config.json",
+      "sha256": "80217c8c93edc5884e1d7e7347d6cf11450edd513e4afd806f92b24b1da0acdb",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "instructblip-vicuna-7b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/instructblip-vicuna-7b/summary.json",
+      "sha256": "0e5976afa3b8544519a9b8061403f1b018138677b28850a774da4fd23b7cd586",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "instructblip-vicuna-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/instructblip-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/blip2-opt-2.7b/config.json",
+      "sha256": "fb7ce86d9288167c11ed4751b33d56e36b4068aba2712fb6c5e127c45afcad7a",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "blip2-opt-2.7b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/blip2-opt-2.7b/summary.json",
+      "sha256": "e3bcc8fde00d5cbc1bb04de4b283b188f824b79acb0205eebb68e30dab9d8947",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "blip2-opt-2.7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/blip2-opt-2.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/minigpt-4-vicuna-7b/config.json",
+      "sha256": "73e54642fc8bf374718aa10b9499d45cc5d4f2d77930d31f2b61fdf553da591c",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "minigpt-4-vicuna-7b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/minigpt-4-vicuna-7b/summary.json",
+      "sha256": "3c3b50d6ac4fccdb4511dbffb01bef54c275b64e2ac7c4e2d59b07510a71e145",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "minigpt-4-vicuna-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/minigpt-4-vicuna-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/smolvlm-1.7b/config.json",
+      "sha256": "0510018cdc2d102077b6bbfa0aede62b5a1fa77f6d9006bd0b08ef53e248b4f1",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "smolvlm-1.7b",
+        "sample_count": 8
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/smolvlm-1.7b/summary.json",
+      "sha256": "d63a5b40c0a904360fc157d47e03e004bb7cba04a574d1dc2dd50f75678c5cd1",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "smolvlm-1.7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/smoke/mmke-visual/smolvlm-1.7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/pilot/mmke-entity/llava-v1.5-7b/config.json",
+      "sha256": "6b551d0f9f42d89208dcce90f1e9a6989a4b144e311b61056b4cd01f72262c17",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/entity_train.json",
+        "model_name": "llava-v1.5-7b",
+        "sample_count": 50
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/pilot/mmke-entity/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/pilot/mmke-entity/llava-v1.5-7b/summary.json",
+      "sha256": "ebed9d7cfbce0b1c723b4bc1bd8d6695b780b060466857dd72680f44441399a0",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-entity",
+        "model": "llava-v1.5-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/pilot/mmke-entity/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/pilot/mmke-visual/llava-v1.5-7b/config.json",
+      "sha256": "fe9426f9fb1871376342cab22ce3c52a1c1f853c645c3cc8fe8b9d338e6a015f",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "data_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+        "model_name": "llava-v1.5-7b",
+        "sample_count": 50
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/pilot/mmke-visual/llava-v1.5-7b/contribution_layer.csv"
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/pilot/mmke-visual/llava-v1.5-7b/summary.json",
+      "sha256": "4c20f24fde479e357ce70da5d7cd67cbdb7ea75c6824713b7d64f3e464e0633a",
+      "config": {
+        "key_mode": "dataset_key_token",
+        "dataset": "mmke-visual",
+        "model": "llava-v1.5-7b",
+        "status": "done"
+      },
+      "score": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visedit_keytoken_mmke_7models_job3044841_20260704_192247/pilot/mmke-visual/llava-v1.5-7b/contribution_layer.csv"
+    }
+  ],
+  "errors": [],
+  "code": [
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_evqa_blip2_module_contribution_proxy500.py",
+      "sha256": "6c63a60a6ec48fbfb5dcbc5ddecca40b316ef0ddbf3ffada2d4a94ac56162c86",
+      "hits": [
+        {
+          "line": 206,
+          "text": "    parser.add_argument(\"--dataset-type\", choices=[\"evqa\", \"mmke\"], default=\"evqa\")\n    parser.add_argument(\"--key-mode\", choices=[\"alt\", \"pred\", \"model_pred\"], default=\"alt\")\n    parser.add_argument(\"--device\", default=\"cuda:0\")\n    parser.add_argument(\"--config-path\", default=\"configs/p_track/blip2-opt-2.7b.yaml\")\n    parser.add_argument(\"--leading-space\", action=\"store_true\", default=True)"
+        },
+        {
+          "line": 249,
+          "text": "        pt.forward_and_trace(request[\"prompt\"], request[\"image\"])\n        if args.key_mode == \"model_pred\":\n            predict_word = None\n        elif args.key_mode == \"pred\":\n            predict_word = make_predict_word(raw_data[sample_idx].get(\"pred\", \"\"), args.leading_space)"
+        },
+        {
+          "line": 251,
+          "text": "            predict_word = None\n        elif args.key_mode == \"pred\":\n            predict_word = make_predict_word(raw_data[sample_idx].get(\"pred\", \"\"), args.leading_space)\n        else:\n            predict_word = make_predict_word(request[\"target_new\"], args.leading_space)"
+        },
+        {
+          "line": 252,
+          "text": "        elif args.key_mode == \"pred\":\n            predict_word = make_predict_word(raw_data[sample_idx].get(\"pred\", \"\"), args.leading_space)\n        else:\n            predict_word = make_predict_word(request[\"target_new\"], args.leading_space)\n        _, _, total_p, total_v = pt.p_tracking(save_results=False, predict_word=predict_word)"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_evqa_module_contribution_pilot500_multi.py",
+      "sha256": "ad459f8c977756254177267e049eb5412d89c0baa93f7e7ee4f6cb10e465acd7",
+      "hits": [
+        {
+          "line": 366,
+          "text": "\n    def predict_id(self, predict_word, logits):\n        if predict_word is None:\n            return int(torch.softmax(logits[0, -1], dim=-1).argmax())\n        return int(self.tokenizer(predict_word, add_special_tokens=False).input_ids[0])"
+        },
+        {
+          "line": 368,
+          "text": "        if predict_word is None:\n            return int(torch.softmax(logits[0, -1], dim=-1).argmax())\n        return int(self.tokenizer(predict_word, add_special_tokens=False).input_ids[0])\n\n    def reps_to_word_predict(self, reps):"
+        },
+        {
+          "line": 428,
+          "text": "    parser.add_argument(\"--dataset-type\", choices=[\"evqa\", \"mmke\"], default=\"evqa\")\n    parser.add_argument(\"--key-mode\", choices=[\"alt\", \"pred\", \"model_pred\"], default=\"alt\")\n    parser.add_argument(\"--device\", default=\"cuda:0\")\n    parser.add_argument(\"--config-path\", default=None)\n    parser.add_argument(\"--leading-space\", action=\"store_true\", default=True)"
+        },
+        {
+          "line": 482,
+          "text": "        request = item[\"request\"]\n        if args.key_mode == \"model_pred\":\n            predict_word = None\n        elif args.key_mode == \"pred\":\n            predict_word = make_predict_word(raw_data[sample_idx].get(\"pred\", \"\"), args.leading_space)"
+        },
+        {
+          "line": 484,
+          "text": "            predict_word = None\n        elif args.key_mode == \"pred\":\n            predict_word = make_predict_word(raw_data[sample_idx].get(\"pred\", \"\"), args.leading_space)\n        else:\n            predict_word = make_predict_word(request[\"target_new\"], args.leading_space)"
+        },
+        {
+          "line": 485,
+          "text": "        elif args.key_mode == \"pred\":\n            predict_word = make_predict_word(raw_data[sample_idx].get(\"pred\", \"\"), args.leading_space)\n        else:\n            predict_word = make_predict_word(request[\"target_new\"], args.leading_space)\n        total_p, total_v = runner.trace_one(request[\"prompt\"], request[\"image\"], predict_word)"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_mmke_module_contribution_g08.sh",
+      "sha256": "bc89ca4402700aca19f3d9e0bcf8d9fed782638dfb915c69c29cf944bd171ba7",
+      "hits": [
+        {
+          "line": 35,
+          "text": "      --data-n \"${DATA_N}\" \\\n      --key-mode \"${mode}\" \\\n      --device \"${DEVICE}\" \\\n      --config-path configs/p_track/blip2-opt-2.7b.yaml \\\n      > \"${out_dir}/run.log\" 2>&1"
+        },
+        {
+          "line": 47,
+          "text": "      --data-n \"${DATA_N}\" \\\n      --key-mode \"${mode}\" \\\n      --device \"${DEVICE}\" \\\n      > \"${out_dir}/run.log\" 2>&1\n  fi"
+        },
+        {
+          "line": 66,
+          "text": "for task in entity visual; do\n  for mode in alt pred; do\n    for model in \"${models[@]}\"; do\n      run_one \"${task}\" \"${mode}\" \"${model}\"\n    done"
+        }
+      ]
+    },
+    {
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_visedit_keytoken_candidate_layers.py",
+      "sha256": "d04d13846cc6176a0044cbbbb9441e8859c60f0750e11131a3527c44c0dddfad",
+      "hits": []
+    }
+  ]
+}

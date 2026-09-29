@@ -1,0 +1,68 @@
+[2026-07-14 19:25:52] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-14 19:25:52] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-14 19:25:52] MMKE-visual/PaliGemma no_current_process: No current training process found.
+
+[2026-07-14 19:59:32] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-14 19:59:32] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-14 19:59:32] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-14 20:29:46] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-14 20:29:46] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-14 20:29:46] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-14 20:59:59] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-14 20:59:59] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-14 20:59:59] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-14 21:30:12] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-14 21:30:12] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-14 21:30:12] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-14 22:00:24] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-14 22:00:24] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-14 22:00:24] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-14 22:30:36] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-14 22:30:36] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-14 22:30:36] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-14 23:00:49] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-14 23:00:49] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-14 23:00:49] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-14 23:31:04] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-14 23:31:04] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-14 23:31:04] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 00:01:19] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 00:01:19] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 00:01:19] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 00:31:33] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 00:31:33] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 00:31:33] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 01:01:49] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 01:01:49] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 01:01:49] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 01:32:05] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 01:32:05] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 01:32:05] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 02:02:23] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 02:02:23] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 02:02:23] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 02:32:41] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 02:32:41] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 02:32:41] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 03:03:02] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 03:03:02] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 03:03:02] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 03:33:23] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 03:33:23] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 03:33:23] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 04:03:47] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 04:03:47] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 04:03:47] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 04:34:17] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 04:34:17] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 04:34:17] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 05:04:48] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 05:04:48] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 05:04:48] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 05:35:21] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 05:35:21] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 05:35:21] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 06:06:02] MMKE-visual/PaliGemma train_or_eval_failed: Recent status contains train/eval failure or skipped eval.
+[2026-07-15 06:06:02] MMKE-visual/PaliGemma stopped_stuck_process: A stuck process was stopped or watchdog intervened.
+[2026-07-15 06:06:02] MMKE-visual/PaliGemma no_current_process: No current training process found.
+[2026-07-15 06:28:23] MMKE-visual/PaliGemma monitor_error: Connection closed by 10.68.162.99 port 22

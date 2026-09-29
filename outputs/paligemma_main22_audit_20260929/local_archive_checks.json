@@ -1,0 +1,105 @@
+[
+  {
+    "path": "server_results/live_backfill/recovered_g09_nodefail_20260810/structured_results.tar.gz",
+    "matches": [
+      {
+        "name": "job3126082/logs/mmke-entity_paligemma-3b_L4_eval_20260801_163446.log",
+        "size": 2177797
+      },
+      {
+        "name": "job3126082/logs/mmke-entity_paligemma-3b_L4_train_20260801_163446.log",
+        "size": 2464222
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b",
+        "size": 0
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/cache",
+        "size": 0
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04",
+        "size": 0
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/eval_full",
+        "size": 0
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/eval_full/vead",
+        "size": 0
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/eval_full/vead/paligemma-3b",
+        "size": 0
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L04",
+        "size": 0
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L04/single_edit",
+        "size": 0
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L04/single_edit/mean_results.json",
+        "size": 401
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L04/single_edit/results.json",
+        "size": 4882846
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/eval_full.done",
+        "size": 709
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/loss_history.csv",
+        "size": 13815
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/selected_checkpoint.tsv",
+        "size": 308
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/layer_04/train.done",
+        "size": 354
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/ALL_DONE",
+        "size": 20
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/full_eval_results.csv",
+        "size": 605
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/loss_curves_all_layers.png",
+        "size": 64695
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/loss_history_all_layers.csv",
+        "size": 13815
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/pliot500-blip2-visedit-sweep-outcom.md",
+        "size": 2013
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/run_config.json",
+        "size": 1119
+      },
+      {
+        "name": "job3126082/mmke-entity/paligemma-3b/selected_checkpoints_all_layers.tsv",
+        "size": 308
+      }
+    ],
+    "note": "匹配文件仅涉及MMKE-entity L4（不属于本次22层），或无匹配文件。"
+  },
+  {
+    "path": "server_results/g09r/flat/flat.tar.gz",
+    "matches": [],
+    "note": "匹配文件仅涉及MMKE-entity L4（不属于本次22层），或无匹配文件。"
+  }
+]

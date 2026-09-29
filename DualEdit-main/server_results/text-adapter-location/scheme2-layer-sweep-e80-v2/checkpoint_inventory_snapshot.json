@@ -1,0 +1,992 @@
+﻿{
+  "2": [
+    {
+      "name": "epoch-10-i-300-ema_loss-3.6536",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 3.6536,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_02/records/vead/llava-v1.5-7b/bridge_text_scheme2_l02-lr0.0001-t2-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-3.6536"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.1999",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.1999,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_02/records/vead/llava-v1.5-7b/bridge_text_scheme2_l02-lr0.0001-t2-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.1999"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0977",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0977,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_02/records/vead/llava-v1.5-7b/bridge_text_scheme2_l02-lr0.0001-t2-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0977"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0748",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0748,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_02/records/vead/llava-v1.5-7b/bridge_text_scheme2_l02-lr0.0001-t2-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0748"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0689",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0689,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_02/records/vead/llava-v1.5-7b/bridge_text_scheme2_l02-lr0.0001-t2-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0689"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0397",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0397,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_02/records/vead/llava-v1.5-7b/bridge_text_scheme2_l02-lr0.0001-t2-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0397"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0375",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0375,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_02/records/vead/llava-v1.5-7b/bridge_text_scheme2_l02-lr0.0001-t2-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0375"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0520",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.052,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_02/records/vead/llava-v1.5-7b/bridge_text_scheme2_l02-lr0.0001-t2-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0520"
+    }
+  ],
+  "4": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.3931",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.3931,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_04/records/vead/llava-v1.5-7b/bridge_text_scheme2_l04-lr0.0001-t4-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.3931"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0411",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0411,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_04/records/vead/llava-v1.5-7b/bridge_text_scheme2_l04-lr0.0001-t4-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0411"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0350",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.035,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_04/records/vead/llava-v1.5-7b/bridge_text_scheme2_l04-lr0.0001-t4-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0350"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0238",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0238,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_04/records/vead/llava-v1.5-7b/bridge_text_scheme2_l04-lr0.0001-t4-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0238"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0285",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0285,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_04/records/vead/llava-v1.5-7b/bridge_text_scheme2_l04-lr0.0001-t4-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0285"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0206",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0206,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_04/records/vead/llava-v1.5-7b/bridge_text_scheme2_l04-lr0.0001-t4-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0206"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0153",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0153,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_04/records/vead/llava-v1.5-7b/bridge_text_scheme2_l04-lr0.0001-t4-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0153"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0505",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0505,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_04/records/vead/llava-v1.5-7b/bridge_text_scheme2_l04-lr0.0001-t4-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0505"
+    }
+  ],
+  "6": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.3683",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.3683,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_06/records/vead/llava-v1.5-7b/bridge_text_scheme2_l06-lr0.0001-t6-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.3683"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0235",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0235,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_06/records/vead/llava-v1.5-7b/bridge_text_scheme2_l06-lr0.0001-t6-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0235"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0201",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0201,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_06/records/vead/llava-v1.5-7b/bridge_text_scheme2_l06-lr0.0001-t6-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0201"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0231",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0231,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_06/records/vead/llava-v1.5-7b/bridge_text_scheme2_l06-lr0.0001-t6-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0231"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0159",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0159,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_06/records/vead/llava-v1.5-7b/bridge_text_scheme2_l06-lr0.0001-t6-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0159"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0100",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.01,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_06/records/vead/llava-v1.5-7b/bridge_text_scheme2_l06-lr0.0001-t6-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0100"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0144",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0144,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_06/records/vead/llava-v1.5-7b/bridge_text_scheme2_l06-lr0.0001-t6-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0144"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0173",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0173,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_06/records/vead/llava-v1.5-7b/bridge_text_scheme2_l06-lr0.0001-t6-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0173"
+    }
+  ],
+  "8": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.4734",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.4734,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_08/records/vead/llava-v1.5-7b/bridge_text_scheme2_l08-lr0.0001-t8-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.4734"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0722",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0722,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_08/records/vead/llava-v1.5-7b/bridge_text_scheme2_l08-lr0.0001-t8-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0722"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0324",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0324,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_08/records/vead/llava-v1.5-7b/bridge_text_scheme2_l08-lr0.0001-t8-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0324"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0123",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0123,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_08/records/vead/llava-v1.5-7b/bridge_text_scheme2_l08-lr0.0001-t8-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0123"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0189",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0189,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_08/records/vead/llava-v1.5-7b/bridge_text_scheme2_l08-lr0.0001-t8-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0189"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0111",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0111,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_08/records/vead/llava-v1.5-7b/bridge_text_scheme2_l08-lr0.0001-t8-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0111"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.1623",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.1623,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_08/records/vead/llava-v1.5-7b/bridge_text_scheme2_l08-lr0.0001-t8-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.1623"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0444",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0444,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_08/records/vead/llava-v1.5-7b/bridge_text_scheme2_l08-lr0.0001-t8-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0444"
+    }
+  ],
+  "10": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.1682",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.1682,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_10/records/vead/llava-v1.5-7b/bridge_text_scheme2_l10-lr0.0001-t10-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.1682"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0346",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0346,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_10/records/vead/llava-v1.5-7b/bridge_text_scheme2_l10-lr0.0001-t10-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0346"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0188",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0188,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_10/records/vead/llava-v1.5-7b/bridge_text_scheme2_l10-lr0.0001-t10-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0188"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0356",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0356,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_10/records/vead/llava-v1.5-7b/bridge_text_scheme2_l10-lr0.0001-t10-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0356"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0175",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0175,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_10/records/vead/llava-v1.5-7b/bridge_text_scheme2_l10-lr0.0001-t10-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0175"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0118",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0118,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_10/records/vead/llava-v1.5-7b/bridge_text_scheme2_l10-lr0.0001-t10-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0118"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0264",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0264,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_10/records/vead/llava-v1.5-7b/bridge_text_scheme2_l10-lr0.0001-t10-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0264"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0118",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0118,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_10/records/vead/llava-v1.5-7b/bridge_text_scheme2_l10-lr0.0001-t10-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0118"
+    }
+  ],
+  "12": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.9809",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.9809,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_12/records/vead/llava-v1.5-7b/bridge_text_scheme2_l12-lr0.0001-t12-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.9809"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0319",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0319,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_12/records/vead/llava-v1.5-7b/bridge_text_scheme2_l12-lr0.0001-t12-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0319"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0271",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0271,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_12/records/vead/llava-v1.5-7b/bridge_text_scheme2_l12-lr0.0001-t12-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0271"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0211",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0211,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_12/records/vead/llava-v1.5-7b/bridge_text_scheme2_l12-lr0.0001-t12-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0211"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0176",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0176,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_12/records/vead/llava-v1.5-7b/bridge_text_scheme2_l12-lr0.0001-t12-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0176"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0099",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0099,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_12/records/vead/llava-v1.5-7b/bridge_text_scheme2_l12-lr0.0001-t12-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0099"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0100",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.01,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_12/records/vead/llava-v1.5-7b/bridge_text_scheme2_l12-lr0.0001-t12-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0100"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0142",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0142,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_12/records/vead/llava-v1.5-7b/bridge_text_scheme2_l12-lr0.0001-t12-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0142"
+    }
+  ],
+  "14": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.1216",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.1216,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_14/records/vead/llava-v1.5-7b/bridge_text_scheme2_l14-lr0.0001-t14-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.1216"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0179",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0179,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_14/records/vead/llava-v1.5-7b/bridge_text_scheme2_l14-lr0.0001-t14-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0179"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0076",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0076,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_14/records/vead/llava-v1.5-7b/bridge_text_scheme2_l14-lr0.0001-t14-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0076"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0096",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0096,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_14/records/vead/llava-v1.5-7b/bridge_text_scheme2_l14-lr0.0001-t14-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0096"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0139",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0139,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_14/records/vead/llava-v1.5-7b/bridge_text_scheme2_l14-lr0.0001-t14-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0139"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0047",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0047,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_14/records/vead/llava-v1.5-7b/bridge_text_scheme2_l14-lr0.0001-t14-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0047"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0065",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0065,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_14/records/vead/llava-v1.5-7b/bridge_text_scheme2_l14-lr0.0001-t14-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0065"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0126",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0126,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_14/records/vead/llava-v1.5-7b/bridge_text_scheme2_l14-lr0.0001-t14-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0126"
+    }
+  ],
+  "16": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.0239",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.0239,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_16/records/vead/llava-v1.5-7b/bridge_text_scheme2_l16-lr0.0001-t16-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.0239"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0085",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0085,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_16/records/vead/llava-v1.5-7b/bridge_text_scheme2_l16-lr0.0001-t16-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0085"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0067",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0067,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_16/records/vead/llava-v1.5-7b/bridge_text_scheme2_l16-lr0.0001-t16-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0067"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0043",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0043,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_16/records/vead/llava-v1.5-7b/bridge_text_scheme2_l16-lr0.0001-t16-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0043"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0059",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0059,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_16/records/vead/llava-v1.5-7b/bridge_text_scheme2_l16-lr0.0001-t16-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0059"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0029",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0029,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_16/records/vead/llava-v1.5-7b/bridge_text_scheme2_l16-lr0.0001-t16-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0029"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0033",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0033,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_16/records/vead/llava-v1.5-7b/bridge_text_scheme2_l16-lr0.0001-t16-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0033"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0041",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0041,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_16/records/vead/llava-v1.5-7b/bridge_text_scheme2_l16-lr0.0001-t16-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0041"
+    }
+  ],
+  "18": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.0650",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.065,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_18/records/vead/llava-v1.5-7b/bridge_text_scheme2_l18-lr0.0001-t18-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.0650"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0074",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0074,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_18/records/vead/llava-v1.5-7b/bridge_text_scheme2_l18-lr0.0001-t18-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0074"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0041",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0041,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_18/records/vead/llava-v1.5-7b/bridge_text_scheme2_l18-lr0.0001-t18-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0041"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0029",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0029,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_18/records/vead/llava-v1.5-7b/bridge_text_scheme2_l18-lr0.0001-t18-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0029"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0032",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0032,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_18/records/vead/llava-v1.5-7b/bridge_text_scheme2_l18-lr0.0001-t18-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0032"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0016",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0016,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_18/records/vead/llava-v1.5-7b/bridge_text_scheme2_l18-lr0.0001-t18-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0016"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0016",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0016,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_18/records/vead/llava-v1.5-7b/bridge_text_scheme2_l18-lr0.0001-t18-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0016"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0044",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0044,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_18/records/vead/llava-v1.5-7b/bridge_text_scheme2_l18-lr0.0001-t18-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0044"
+    }
+  ],
+  "20": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.0208",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.0208,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_20/records/vead/llava-v1.5-7b/bridge_text_scheme2_l20-lr0.0001-t20-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.0208"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0065",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0065,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_20/records/vead/llava-v1.5-7b/bridge_text_scheme2_l20-lr0.0001-t20-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0065"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0035",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0035,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_20/records/vead/llava-v1.5-7b/bridge_text_scheme2_l20-lr0.0001-t20-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0035"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0025",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0025,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_20/records/vead/llava-v1.5-7b/bridge_text_scheme2_l20-lr0.0001-t20-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0025"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0019",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0019,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_20/records/vead/llava-v1.5-7b/bridge_text_scheme2_l20-lr0.0001-t20-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0019"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0014",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0014,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_20/records/vead/llava-v1.5-7b/bridge_text_scheme2_l20-lr0.0001-t20-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0014"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0011",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0011,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_20/records/vead/llava-v1.5-7b/bridge_text_scheme2_l20-lr0.0001-t20-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0011"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0008",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0008,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_20/records/vead/llava-v1.5-7b/bridge_text_scheme2_l20-lr0.0001-t20-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0008"
+    }
+  ],
+  "22": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.5438",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.5438,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_22/records/vead/llava-v1.5-7b/bridge_text_scheme2_l22-lr0.0001-t22-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.5438"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0126",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0126,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_22/records/vead/llava-v1.5-7b/bridge_text_scheme2_l22-lr0.0001-t22-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0126"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0064",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0064,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_22/records/vead/llava-v1.5-7b/bridge_text_scheme2_l22-lr0.0001-t22-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0064"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0043",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0043,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_22/records/vead/llava-v1.5-7b/bridge_text_scheme2_l22-lr0.0001-t22-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0043"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0031",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0031,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_22/records/vead/llava-v1.5-7b/bridge_text_scheme2_l22-lr0.0001-t22-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0031"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0024",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0024,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_22/records/vead/llava-v1.5-7b/bridge_text_scheme2_l22-lr0.0001-t22-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0024"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0018",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0018,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_22/records/vead/llava-v1.5-7b/bridge_text_scheme2_l22-lr0.0001-t22-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0018"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0015",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0015,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_22/records/vead/llava-v1.5-7b/bridge_text_scheme2_l22-lr0.0001-t22-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0015"
+    }
+  ],
+  "24": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.2396",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.2396,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_24/records/vead/llava-v1.5-7b/bridge_text_scheme2_l24-lr0.0001-t24-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.2396"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0139",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0139,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_24/records/vead/llava-v1.5-7b/bridge_text_scheme2_l24-lr0.0001-t24-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0139"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0064",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0064,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_24/records/vead/llava-v1.5-7b/bridge_text_scheme2_l24-lr0.0001-t24-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0064"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0041",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0041,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_24/records/vead/llava-v1.5-7b/bridge_text_scheme2_l24-lr0.0001-t24-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0041"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0031",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0031,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_24/records/vead/llava-v1.5-7b/bridge_text_scheme2_l24-lr0.0001-t24-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0031"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0022",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0022,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_24/records/vead/llava-v1.5-7b/bridge_text_scheme2_l24-lr0.0001-t24-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0022"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0017",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0017,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_24/records/vead/llava-v1.5-7b/bridge_text_scheme2_l24-lr0.0001-t24-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0017"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0015",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0015,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_24/records/vead/llava-v1.5-7b/bridge_text_scheme2_l24-lr0.0001-t24-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0015"
+    }
+  ],
+  "26": [
+    {
+      "name": "epoch-10-i-300-ema_loss-0.3301",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 0.3301,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_26/records/vead/llava-v1.5-7b/bridge_text_scheme2_l26-lr0.0001-t26-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-0.3301"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0177",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0177,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_26/records/vead/llava-v1.5-7b/bridge_text_scheme2_l26-lr0.0001-t26-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0177"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0086",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0086,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_26/records/vead/llava-v1.5-7b/bridge_text_scheme2_l26-lr0.0001-t26-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0086"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0057",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0057,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_26/records/vead/llava-v1.5-7b/bridge_text_scheme2_l26-lr0.0001-t26-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0057"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0042",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0042,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_26/records/vead/llava-v1.5-7b/bridge_text_scheme2_l26-lr0.0001-t26-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0042"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0031",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0031,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_26/records/vead/llava-v1.5-7b/bridge_text_scheme2_l26-lr0.0001-t26-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0031"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0023",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0023,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_26/records/vead/llava-v1.5-7b/bridge_text_scheme2_l26-lr0.0001-t26-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0023"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0028",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0028,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_26/records/vead/llava-v1.5-7b/bridge_text_scheme2_l26-lr0.0001-t26-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0028"
+    }
+  ],
+  "28": [
+    {
+      "name": "epoch-10-i-300-ema_loss-2.4582",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 2.4582,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_28/records/vead/llava-v1.5-7b/bridge_text_scheme2_l28-lr0.0001-t28-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-2.4582"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.0489",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.0489,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_28/records/vead/llava-v1.5-7b/bridge_text_scheme2_l28-lr0.0001-t28-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.0489"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0218",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0218,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_28/records/vead/llava-v1.5-7b/bridge_text_scheme2_l28-lr0.0001-t28-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0218"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0156",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0156,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_28/records/vead/llava-v1.5-7b/bridge_text_scheme2_l28-lr0.0001-t28-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0156"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0097",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0097,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_28/records/vead/llava-v1.5-7b/bridge_text_scheme2_l28-lr0.0001-t28-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0097"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0075",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0075,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_28/records/vead/llava-v1.5-7b/bridge_text_scheme2_l28-lr0.0001-t28-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0075"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0057",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0057,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_28/records/vead/llava-v1.5-7b/bridge_text_scheme2_l28-lr0.0001-t28-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0057"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0039",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0039,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_28/records/vead/llava-v1.5-7b/bridge_text_scheme2_l28-lr0.0001-t28-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0039"
+    }
+  ],
+  "30": [
+    {
+      "name": "epoch-10-i-300-ema_loss-1.5634",
+      "epoch": 10,
+      "iter": 300,
+      "loss_kind": "ema_loss",
+      "loss": 1.5634,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_30/records/vead/llava-v1.5-7b/bridge_text_scheme2_l30-lr0.0001-t30-v-EditBridgeTextAdapter/checkpoints/epoch-10-i-300-ema_loss-1.5634"
+    },
+    {
+      "name": "epoch-20-i-600-ema_loss-0.4016",
+      "epoch": 20,
+      "iter": 600,
+      "loss_kind": "ema_loss",
+      "loss": 0.4016,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_30/records/vead/llava-v1.5-7b/bridge_text_scheme2_l30-lr0.0001-t30-v-EditBridgeTextAdapter/checkpoints/epoch-20-i-600-ema_loss-0.4016"
+    },
+    {
+      "name": "epoch-30-i-900-ema_loss-0.0757",
+      "epoch": 30,
+      "iter": 900,
+      "loss_kind": "ema_loss",
+      "loss": 0.0757,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_30/records/vead/llava-v1.5-7b/bridge_text_scheme2_l30-lr0.0001-t30-v-EditBridgeTextAdapter/checkpoints/epoch-30-i-900-ema_loss-0.0757"
+    },
+    {
+      "name": "epoch-40-i-1200-ema_loss-0.0366",
+      "epoch": 40,
+      "iter": 1200,
+      "loss_kind": "ema_loss",
+      "loss": 0.0366,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_30/records/vead/llava-v1.5-7b/bridge_text_scheme2_l30-lr0.0001-t30-v-EditBridgeTextAdapter/checkpoints/epoch-40-i-1200-ema_loss-0.0366"
+    },
+    {
+      "name": "epoch-50-i-1500-ema_loss-0.0198",
+      "epoch": 50,
+      "iter": 1500,
+      "loss_kind": "ema_loss",
+      "loss": 0.0198,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_30/records/vead/llava-v1.5-7b/bridge_text_scheme2_l30-lr0.0001-t30-v-EditBridgeTextAdapter/checkpoints/epoch-50-i-1500-ema_loss-0.0198"
+    },
+    {
+      "name": "epoch-60-i-1800-ema_loss-0.0158",
+      "epoch": 60,
+      "iter": 1800,
+      "loss_kind": "ema_loss",
+      "loss": 0.0158,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_30/records/vead/llava-v1.5-7b/bridge_text_scheme2_l30-lr0.0001-t30-v-EditBridgeTextAdapter/checkpoints/epoch-60-i-1800-ema_loss-0.0158"
+    },
+    {
+      "name": "epoch-70-i-2100-ema_loss-0.0128",
+      "epoch": 70,
+      "iter": 2100,
+      "loss_kind": "ema_loss",
+      "loss": 0.0128,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_30/records/vead/llava-v1.5-7b/bridge_text_scheme2_l30-lr0.0001-t30-v-EditBridgeTextAdapter/checkpoints/epoch-70-i-2100-ema_loss-0.0128"
+    },
+    {
+      "name": "epoch-80-i-2400-ema_loss-0.0086",
+      "epoch": 80,
+      "iter": 2400,
+      "loss_kind": "ema_loss",
+      "loss": 0.0086,
+      "path": "server_results/text-adapter-location/scheme2-layer-sweep-e80-v2/layer_30/records/vead/llava-v1.5-7b/bridge_text_scheme2_l30-lr0.0001-t30-v-EditBridgeTextAdapter/checkpoints/epoch-80-i-2400-ema_loss-0.0086"
+    }
+  ]
+}

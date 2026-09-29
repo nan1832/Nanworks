@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "formal_groups_done": 21,
+  "formal_variants_done": 63,
+  "formal_groups_pending": 0,
+  "main_rows": 396,
+  "constant_metric_rho_is_null": true,
+  "performance_requires_full_top3": true
+}

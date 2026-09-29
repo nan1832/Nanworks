@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-28T16:38:49.024079+08:00",
+  "test_returncode": 0,
+  "test_output": "sbatch: Job 3463117 to start at 2026-09-28T16:38:49 using 4 processors on nodes g09 in partition phys_hq\n",
+  "returncode": 0,
+  "stdout": "3463118\n",
+  "stderr": "",
+  "job_id": "3463118",
+  "runner_sha256": "abbeb49979bc041d53bd1e4adefbb04c4d99572699256705850e464e83822e4a"
+}

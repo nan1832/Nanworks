@@ -1,0 +1,56 @@
+=== SNAPSHOT ===
+2026-09-26 22:16:57 CST
+g08
+=== SQUEUE ===
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3435286   phys_hq  jupyter ph_teach  R 2-08:19:29      1 g08
+=== SCONTROL ===
+JobId=3435286 JobName=jupyter
+   UserId=ph_teacher3(1244) GroupId=phys-hq-teacher3(1038) MCS_label=N/A
+   Priority=4294845069 Nice=0 Account=phys_hq_teacher QOS=gpu_xl_2
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=2-08:19:29 TimeLimit=30-00:00:00 TimeMin=N/A
+   SubmitTime=2026-09-24T13:55:18 EligibleTime=2026-09-24T13:55:18
+   AccrueTime=2026-09-24T13:55:18
+   StartTime=2026-09-24T13:57:28 EndTime=2026-10-24T13:57:28 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-09-24T13:57:28 Scheduler=Backfill
+   Partition=phys_hq AllocNode:Sid=mgt01:1350282
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=g08
+   BatchHost=g08
+   NumNodes=1 NumCPUs=32 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=4000M,node=1,billing=1,gres/gpu=1
+   AllocTRES=cpu=32,mem=125G,node=1,billing=32,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=32 MinMemoryCPU=4000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/jobs/jupyter_2254607_202609240555.slurm
+   WorkDir=/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/jobs
+   Comment=LICO-2254607 
+   StdErr=/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/jobs/slurm-3435286.out
+   StdIn=/dev/null
+   StdOut=/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/jobs/slurm-3435286.out
+   Power=
+   TresPerNode=gres/gpu:1
+   
+
+=== SSTAT ===
+JobID         MaxVMSize  MaxVMSizeNode  MaxVMSizeTask  AveVMSize     MaxRSS MaxRSSNode MaxRSSTask     AveRSS MaxPages MaxPagesNode   MaxPagesTask   AvePages     MinCPU MinCPUNode MinCPUTask     AveCPU   NTasks AveCPUFreq ReqCPUFreqMin ReqCPUFreqMax ReqCPUFreqGov ConsumedEnergy  MaxDiskRead MaxDiskReadNode MaxDiskReadTask  AveDiskRead MaxDiskWrite MaxDiskWriteNode MaxDiskWriteTask AveDiskWrite TRESUsageInAve TRESUsageInMax TRESUsageInMaxNode TRESUsageInMaxTask TRESUsageInMin TRESUsageInMinNode TRESUsageInMinTask TRESUsageInTot TRESUsageOutAve TRESUsageOutMax TRESUsageOutMaxNode TRESUsageOutMaxTask TRESUsageOutMin TRESUsageOutMinNode TRESUsageOutMinTask TRESUsageOutTot 
+------------ ---------- -------------- -------------- ---------- ---------- ---------- ---------- ---------- -------- ------------ -------------- ---------- ---------- ---------- ---------- ---------- -------- ---------- ------------- ------------- ------------- -------------- ------------ --------------- --------------- ------------ ------------ ---------------- ---------------- ------------ -------------- -------------- ------------------ ------------------ -------------- ------------------ ------------------ -------------- --------------- --------------- ------------------- ------------------- --------------- ------------------- ------------------- --------------- 
+3435286.37     6776820K            g08              0   6251568K   5053880K        g08          0   5053856K    1.50K          g08              0      1.50K   06:51:49        g08          0   06:51:49        1        97K       Unknown       Unknown       Unknown              0 214924770890             g08               0 214924770890  27264278702              g08                0  27264278702 cpu=06:51:49,+ cpu=06:51:49,+ cpu=g08,energy=g0+ cpu=00:00:00,fs/d+ cpu=06:51:49,+ cpu=g08,energy=g0+ cpu=00:00:00,fs/d+ cpu=06:51:49,+ energy=0,fs/di+ energy=0,fs/di+ energy=g08,fs/disk+           fs/disk=0 energy=0,fs/di+ energy=g08,fs/disk+           fs/disk=0 energy=0,fs/di+ 
+=== GPU ===
+0, NVIDIA A800 80GB PCIe, 81054 MiB, 122 MiB, 81920 MiB, 100 %, 53
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa    command 
+# Idx           #    C/G      %      %      %      %      %      %    name 
+    0    3407196     C      -      -      -      -      -      -    python         
+    0    4079818     C     98     11      -      -      -      -    python         
+    0    4145588     C      -      -      -      -      -      -    python         
+=== PROCESSES ===
+4045244 4045239 Sat Sep 26 12:58:59 2026    09:17:57 S    /datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python -u /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/phase2_p4/resume_llava_after_eval_20260926.py
+4079818 4045244 Sat Sep 26 15:21:04 2026    06:55:52 Rl    \_ /datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python scripts/run_mmke_llava_shared_gpu_sweep.py --out-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b --layers 4 --epochs 50 --batch-size 2 --model-name llava-v1.5-7b --device cuda:0 --train-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/data/vqa_train_proxy500.json --train-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_proxy_train500_eval500_20260528/images --eval-data /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/vqa/vqa_eval.json --eval-img-root /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/data/easy-edit-mm/images --config-path configs/vead/llava-v1.5-7b.yaml --seed 20260601 --ema-alpha 0.1 --data-buffer-size 1 --keep-top-ckpts 1 --keep-last-ckpts 0 --synchronous-data-loading --activation-checkpointing --data-proc-device cuda:0 --share-data-proc-vllm --skip-eval --resume-checkpoint /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_after_eval955_20260926/run/evqa-pilot500/llava-v1.5-7b/layer_04/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L04-lr-1-t-1-v-1/checkpoints/epoch-31-i-7750-ema_loss-0.7954 --resume-layer 4
+3338786 3338782 Thu Sep 24 13:57:28 2026  2-08:19:28 S    /bin/bash /var/spool/slurmd/job3435286/slurm_script
+=== TMP ROOTS ===
+=== RECENT COMPLETION MARKERS ===
+=== RECENT LOGS ===

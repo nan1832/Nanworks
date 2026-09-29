@@ -1,0 +1,17 @@
+{
+  "layer": 2,
+  "status": "EVAL_DONE",
+  "eval_samples": 2093,
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626",
+  "ckpt_epoch": "41",
+  "ckpt_i": "10250",
+  "ckpt_loss": "0.39901894330978394",
+  "ckpt_ema_loss": "0.46263132155274744",
+  "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/evqa-pilot500/llava-v1.5-7b/layer_02/eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L02/single_edit",
+  "Rel": 59.550000000000004,
+  "T-Gen": 56.910000000000004,
+  "M-Gen": 57.099999999999994,
+  "T-Loc": 100.0,
+  "M-Loc": 71.74000000000001,
+  "Average": 69.06
+}

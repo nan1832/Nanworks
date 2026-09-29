@@ -1,0 +1,8 @@
+﻿dataset,model,method,previous_clean_top3,all_layer_raw_top3,reason
+evqa-pilot500,llava-v1.5-7b,LGA-Visual,"[30, 29, 28]","[31, 30, 29]",raw now includes the recorded finite zero-gradient last layer; zero exceeds negative signed dot
+evqa-pilot500,smolvlm-1.7b,LGA-Visual,"[22, 21, 20]","[23, 22, 21]",raw now includes the recorded finite zero-gradient last layer; zero exceeds negative signed dot
+mmke-entity,blip2-opt-2.7b,LGA-Visual,"[29, 30, 28]","[31, 29, 30]",raw now includes the recorded finite zero-gradient last layer; zero exceeds negative signed dot
+mmke-entity,llava-v1.5-7b,LGA-Visual,"[29, 21, 30]","[31, 29, 21]",raw now includes the recorded finite zero-gradient last layer; zero exceeds negative signed dot
+mmke-entity,minigpt-4-vicuna-7b,LGA-Visual,"[30, 29, 28]","[31, 30, 29]",raw now includes the recorded finite zero-gradient last layer; zero exceeds negative signed dot
+mmke-visual,llava-v1.5-7b,LGA-Visual,"[30, 29, 28]","[31, 30, 29]",raw now includes the recorded finite zero-gradient last layer; zero exceeds negative signed dot
+mmke-visual,minigpt-4-vicuna-7b,LGA-Visual,"[30, 29, 28]","[31, 30, 29]",raw now includes the recorded finite zero-gradient last layer; zero exceeds negative signed dot

@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-08-01",
+  "source_ledger": "md/Location/6location_7model_3datas_top_3_5_layers_outcome.md",
+  "source_ledger_sha256": "bce3f4105d06d5dfb23ba265f75de9315d4afe5dcef953b0f0859f1a0f7441ef",
+  "raw_score_file_count": 21,
+  "layer_rows": 618,
+  "ranking_rows": 6174,
+  "topk_rows": 1770,
+  "failure_rows": 231,
+  "sweep_rows": 331,
+  "profile_counts": {
+    "main": 296,
+    "stable": 35
+  },
+  "eligibility_counts": {
+    "main_primary": 286,
+    "replicate_excluded_primary": 1,
+    "separate_recovered": 8,
+    "separate_numeric_anomaly": 1,
+    "stable_sensitivity": 31,
+    "separate_stable_recovered": 4
+  },
+  "sample_mismatch_count": 0,
+  "metric_review_count": 0,
+  "files": {
+    "DATA_README.md": {
+      "bytes": 2815,
+      "sha256": "ac421b597a07e77c07e74f83e251f9f4d6d5f0c44db4580e04ee0bb91f309264"
+    },
+    "formula_global_summary.csv": {
+      "bytes": 11822,
+      "sha256": "95c49d66b5f14ae817bdbd27b9a2be52404e4714260a6b92e995ee44c22bba6d"
+    },
+    "real_layer_sweep_results_by_seed.csv": {
+      "bytes": 171753,
+      "sha256": "92fc76eb3d2c98ce288d37a7de0c1ee6930bca86b32bb387655875a20242dc5a"
+    },
+    "source_analysis_manifest.json": {
+      "bytes": 5428,
+      "sha256": "7620558f9e49c2af776979079cb8aaf0e21fb3cc15f7374c8726842f82f006ea"
+    },
+    "visual_candidate_formula_rankings.csv": {
+      "bytes": 1736214,
+      "sha256": "df5a119fa8445ea5547833b358f514d514b9183c6d1ccfe6199a518881235b93"
+    },
+    "visual_candidate_layers_topk.csv": {
+      "bytes": 558727,
+      "sha256": "826354a5b5c048836c49a227dccfcb9ac91b08bf23874459d314cebb83b34674"
+    },
+    "visual_formula_failure_reason_summary.csv": {
+      "bytes": 76007,
+      "sha256": "067bf1b0d9a98dca6be244cfae09f208457d26e992a2030bb3e0109c5923c6f6"
+    },
+    "visual_gradient_layer_scores.csv": {
+      "bytes": 488441,
+      "sha256": "135da2667b623582af86ad78123f3a36f553085aaf713af2cf336318a96e6ac1"
+    },
+    "zn_visual_gradient_prediction_实验操作手册_7基础公式_4Ours指标_视觉版_补充诊断列_修复执行版.md": {
+      "bytes": 39810,
+      "sha256": "6c003611690e63995ea627886a710f63040e4de98b135ccfb0c517ca4dc92eda"
+    }
+  }
+}

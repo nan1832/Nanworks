@@ -1,0 +1,5 @@
+{
+  "rc": 0,
+  "out": "{\"timestamp\": \"2026-09-28T19:22:39.620302+08:00\", \"source\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-entity/minigpt-4-vicuna-7b/layer_08/records/vead/minigpt-4-vicuna-7b/pilot500_blip2_visedit_L08-lr-1-t-1-v-1/checkpoints/epoch-14-i-4452-ema_loss-2.2171\", \"backup\": \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171\", \"sha256\": \"9f16441a8ba9cd260304b7b5a3988e78ba6725e955537e804258e3da46ba2765\", \"size\": 415895994, \"epoch\": 14, \"i\": 4452, \"loss\": 2.0125482082366943, \"ema_loss\": 2.2171053627262323, \"keys\": [\"i\", \"epoch\", \"loss\", \"ema_loss\", \"train_modules\", \"opt\"], \"optimizer_states\": 26, \"all_parameters_and_optimizer_finite\": true}\n",
+  "err": ""
+}

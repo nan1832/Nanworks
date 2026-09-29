@@ -1,0 +1,8 @@
+{
+  "pins": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/code/run_visual_track_targets_20260928.py": "075f790afcd4212f54c71bbb3895b4db2d67957d4f7b748dfb2d5b327acf48e0",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/code/test_visual_track_targets_20260928.py": "9d2303bc1628fe8ca37900b07b5872cd04bb7f7fc817348113a776ebdd52436f"
+  },
+  "test_returncode": 0,
+  "test_output": "....\n----------------------------------------------------------------------\nRan 4 tests in 40.139s\n\nOK\n"
+}

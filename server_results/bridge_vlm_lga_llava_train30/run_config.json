@@ -1,0 +1,21 @@
+{
+  "model_name": "llava-v1.5-7b",
+  "config_path": "configs/p_track/llava-v1.5-7b.yaml",
+  "data_path": "../../Ten_Classes/bridge/bridge_train/edit_30_bridge_train_only_vis.json",
+  "bridge_root": "../../Ten_Classes/bridge",
+  "old_answers_path": "../../Ten_Classes/bridge/bridge_train/beforeedit/open_end/bridge_train_entity_recognition_llava.jsonl",
+  "old_answer_key": "image_id",
+  "layers": "0-31",
+  "module_kind": "mlp",
+  "score_mode": "request_only_lga",
+  "main_score": "dot",
+  "diagnostics": "cos,grad_norm,norm_ratio",
+  "output_dir": "../server_results/bridge_vlm_lga_llava_train30",
+  "device": "cuda:0",
+  "torch_dtype": "float16",
+  "layer_chunk_size": 8,
+  "max_samples": null,
+  "topk": 5,
+  "generate_old_answers_if_missing": false,
+  "max_new_tokens": 32
+}

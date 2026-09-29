@@ -1,0 +1,73 @@
+[2026-08-02 07:40:59] synchronous data loading enabled: no background GPU-prefetch queue
+[2026-08-02 07:40:59] start layers=[9] out=/tmp/ph_teacher3/mabscos_top3_completion_job3126082_20260801/mmke-visual/minigpt-4-vicuna-7b
+[2026-08-02 07:40:59] loading training data
+Load E-VQA from: /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/data/vqa_mmke_visual_train_evqa_compat.json 
+Loading data:   0%|          | 0/214 [00:00<?, ?it/s]Loading data: 100%|██████████| 214/214 [00:00<00:00, 186801.47it/s]
+Loading images:   0%|          | 0/214 [00:00<?, ?it/s]Loading images:   0%|          | 1/214 [00:00<00:36,  5.85it/s]Loading images:   1%|          | 2/214 [00:00<00:32,  6.47it/s]Loading images:   2%|▏         | 4/214 [00:00<00:21,  9.88it/s]Loading images:   3%|▎         | 6/214 [00:00<00:17, 11.63it/s]Loading images:   4%|▎         | 8/214 [00:00<00:17, 11.55it/s]Loading images:   5%|▍         | 10/214 [00:00<00:16, 12.33it/s]Loading images:   6%|▌         | 13/214 [00:01<00:12, 15.55it/s]Loading images:   7%|▋         | 15/214 [00:01<00:12, 16.31it/s]Loading images:   8%|▊         | 17/214 [00:01<00:12, 16.01it/s]Loading images:   9%|▉         | 19/214 [00:01<00:13, 14.56it/s]Loading images:  10%|▉         | 21/214 [00:01<00:14, 13.41it/s]Loading images:  11%|█         | 23/214 [00:01<00:17, 11.04it/s]Loading images:  12%|█▏        | 25/214 [00:02<00:15, 12.09it/s]Loading images:  13%|█▎        | 27/214 [00:02<00:14, 12.72it/s]Loading images:  14%|█▎        | 29/214 [00:02<00:14, 13.18it/s]Loading images:  14%|█▍        | 31/214 [00:02<00:12, 14.37it/s]Loading images:  16%|█▌        | 34/214 [00:02<00:10, 17.79it/s]Loading images:  17%|█▋        | 37/214 [00:02<00:10, 17.60it/s]Loading images:  18%|█▊        | 39/214 [00:02<00:10, 17.03it/s]Loading images:  19%|█▉        | 41/214 [00:02<00:11, 14.87it/s]Loading images:  21%|██        | 44/214 [00:03<00:10, 16.92it/s]Loading images:  21%|██▏       | 46/214 [00:03<00:10, 16.12it/s]Loading images:  23%|██▎       | 49/214 [00:03<00:09, 17.32it/s]Loading images:  24%|██▍       | 52/214 [00:03<00:08, 19.12it/s]Loading images:  25%|██▌       | 54/214 [00:03<00:10, 15.76it/s]Loading images:  26%|██▌       | 56/214 [00:03<00:09, 16.58it/s]Loading images:  28%|██▊       | 60/214 [00:03<00:07, 20.10it/s]Loading images:  29%|██▉       | 63/214 [00:04<00:07, 20.50it/s]Loading images:  31%|███       | 66/214 [00:04<00:07, 18.98it/s]Loading images:  32%|███▏      | 69/214 [00:04<00:07, 19.73it/s]Loading images:  34%|███▎      | 72/214 [00:04<00:10, 12.99it/s]Loading images:  36%|███▌      | 76/214 [00:04<00:08, 16.89it/s]Loading images:  37%|███▋      | 79/214 [00:05<00:10, 13.27it/s]Loading images:  38%|███▊      | 81/214 [00:05<00:10, 13.29it/s]Loading images:  39%|███▉      | 84/214 [00:05<00:08, 15.12it/s]Loading images:  40%|████      | 86/214 [00:05<00:08, 15.29it/s]Loading images:  42%|████▏     | 89/214 [00:05<00:07, 17.50it/s]Loading images:  43%|████▎     | 91/214 [00:05<00:07, 16.73it/s]Loading images:  43%|████▎     | 93/214 [00:06<00:07, 17.05it/s]Loading images:  44%|████▍     | 95/214 [00:06<00:06, 17.74it/s]Loading images:  45%|████▌     | 97/214 [00:06<00:06, 17.47it/s]Loading images:  47%|████▋     | 100/214 [00:06<00:05, 20.57it/s]Loading images:  48%|████▊     | 103/214 [00:06<00:05, 19.61it/s]Loading images:  50%|█████     | 107/214 [00:06<00:04, 23.12it/s]Loading images:  51%|█████▏    | 110/214 [00:06<00:04, 22.48it/s]Loading images:  53%|█████▎    | 113/214 [00:07<00:05, 18.12it/s]Loading images:  56%|█████▌    | 119/214 [00:07<00:03, 25.62it/s]Loading images:  57%|█████▋    | 122/214 [00:07<00:03, 26.53it/s]Loading images:  59%|█████▉    | 127/214 [00:07<00:02, 30.33it/s]Loading images:  61%|██████    | 131/214 [00:07<00:02, 29.85it/s]Loading images:  63%|██████▎   | 135/214 [00:07<00:02, 30.67it/s]Loading images:  65%|██████▍   | 139/214 [00:08<00:04, 15.06it/s]Loading images:  67%|██████▋   | 143/214 [00:08<00:04, 17.68it/s]Loading images:  69%|██████▉   | 148/214 [00:08<00:03, 21.00it/s]Loading images:  71%|███████   | 152/214 [00:08<00:02, 22.42it/s]Loading images:  72%|███████▏  | 155/214 [00:08<00:02, 22.44it/s]Loading images:  74%|███████▍  | 158/214 [00:08<00:02, 23.16it/s]Loading images:  75%|███████▌  | 161/214 [00:09<00:02, 19.57it/s]Loading images:  77%|███████▋  | 164/214 [00:09<00:02, 20.19it/s]Loading images:  79%|███████▊  | 168/214 [00:09<00:02, 19.73it/s]Loading images:  80%|████████  | 172/214 [00:09<00:01, 23.58it/s]Loading images:  83%|████████▎ | 177/214 [00:09<00:01, 26.58it/s]Loading images:  84%|████████▍ | 180/214 [00:09<00:01, 26.19it/s]Loading images:  86%|████████▌ | 183/214 [00:10<00:02, 13.31it/s]Loading images:  87%|████████▋ | 186/214 [00:10<00:02, 13.99it/s]Loading images:  89%|████████▉ | 190/214 [00:10<00:01, 16.65it/s]Loading images:  91%|█████████ | 194/214 [00:10<00:00, 20.28it/s]Loading images:  93%|█████████▎| 199/214 [00:11<00:00, 24.18it/s]Loading images:  94%|█████████▍| 202/214 [00:11<00:00, 25.32it/s]Loading images:  96%|█████████▌| 205/214 [00:11<00:00, 23.27it/s]Loading images:  97%|█████████▋| 208/214 [00:11<00:00, 12.06it/s]Loading images:  98%|█████████▊| 210/214 [00:11<00:00, 12.90it/s]Loading images:  99%|█████████▉| 212/214 [00:12<00:00, 13.74it/s]Loading images: 100%|██████████| 214/214 [00:12<00:00, 17.58it/s][2026-08-02 07:41:11] train samples=214
+[2026-08-02 07:41:11] loading BLIP2 train models
+[2026-08-02 07:41:11] before_train_model_load CUDA_VISIBLE_DEVICES=0 cuda_available=True cuda_count=1 cuda_name_0=NVIDIA A800 80GB PCIe
+
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message
+/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/lib/python3.8/site-packages/transformers/generation/configuration_utils.py:568: UserWarning: `pad_token_id` should be positive but got -1. This will cause errors when batch generating, if there is padding. Please set `pad_token_id` explicitly as `model.generation_config.pad_token_id=PAD_TOKEN_ID` to avoid errors in generation
+  warnings.warn(
+Loading minigpt-4-vicuna-7b from "models/minigpt-4-vicuna-7b".
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:48<00:48, 48.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:04<00:00, 29.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:04<00:00, 32.50s/it]
+BertLMHeadModel has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Loading Q-Former
+Loading Q-Former Done
+Load MiniGPT-4 Checkpoint: models/minigpt-4-vicuna-7b/prerained_minigpt4_7b.pth
+Padding side is set as "right".
+[2026-08-02 07:42:51] activation checkpointing enabled model=LlamaForCausalLM
+Loading minigpt-4-vicuna-7b from "models/minigpt-4-vicuna-7b".
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:06<?, ?it/s]
+Traceback (most recent call last):
+  File "scripts/run_mmke_minigpt_llava_lowmem_sweep.py", line 762, in <module>
+    main()
+  File "scripts/run_mmke_minigpt_llava_lowmem_sweep.py", line 718, in main
+    vllm_data_proc = load_vllm_for_edit(args.model_name, args.device)
+  File "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/utils/__init__.py", line 90, in load_vllm_for_edit
+    return MiniGPT4ForEdit(model_path, device, True)
+  File "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllms_for_edit/minigpt4/minigpt4.py", line 22, in __init__
+    self.model = MiniGPT4.from_config(model_config).to(device)
+  File "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllms_for_edit/minigpt4/modules/minigpt4.py", line 271, in from_config
+    model = cls(
+  File "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllms_for_edit/minigpt4/modules/minigpt4.py", line 36, in __init__
+    self.llama_model, self.llama_tokenizer = self.init_llm(
+  File "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllms_for_edit/minigpt4/modules/base_model.py", line 160, in init_llm
+    llama_model = LlamaForCausalLM.from_pretrained(
+  File "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 4225, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 4728, in _load_pretrained_model
+    new_error_msgs, offload_index, state_dict_index = _load_state_dict_into_meta_model(
+  File "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 993, in _load_state_dict_into_meta_model
+    set_module_tensor_to_device(model, param_name, param_device, **set_module_kwargs)
+  File "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/lib/python3.8/site-packages/accelerate/utils/modeling.py", line 329, in set_module_tensor_to_device
+    new_value = value.to(device)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 64.00 MiB. GPU 0 has a total capacity of 79.25 GiB of which 3.19 MiB is free. Process 1390053 has 35.92 GiB memory in use. Including non-PyTorch memory, this process has 43.32 GiB memory in use. Of the allocated memory 42.91 GiB is allocated by PyTorch, and 5.37 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "scripts/run_mmke_minigpt_llava_lowmem_sweep.py", line 762, in <module>
+    main()
+  File "scripts/run_mmke_minigpt_llava_lowmem_sweep.py", line 718, in main
+    vllm_data_proc = load_vllm_for_edit(args.model_name, args.device)
+  File "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/utils/__init__.py", line 90, in load_vllm_for_edit
+    return MiniGPT4ForEdit(model_path, device, True)
+  File "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllms_for_edit/minigpt4/minigpt4.py", line 22, in __init__
+    self.model = MiniGPT4.from_config(model_config).to(device)
+  File "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllms_for_edit/minigpt4/modules/minigpt4.py", line 271, in from_config
+    model = cls(
+  File "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllms_for_edit/minigpt4/modules/minigpt4.py", line 36, in __init__
+    self.llama_model, self.llama_tokenizer = self.init_llm(
+  File "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllms_for_edit/minigpt4/modules/base_model.py", line 160, in init_llm
+    llama_model = LlamaForCausalLM.from_pretrained(
+  File "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 4225, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 4728, in _load_pretrained_model
+    new_error_msgs, offload_index, state_dict_index = _load_state_dict_into_meta_model(
+  File "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 993, in _load_state_dict_into_meta_model
+    set_module_tensor_to_device(model, param_name, param_device, **set_module_kwargs)
+  File "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/lib/python3.8/site-packages/accelerate/utils/modeling.py", line 329, in set_module_tensor_to_device
+    new_value = value.to(device)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 64.00 MiB. GPU 0 has a total capacity of 79.25 GiB of which 3.19 MiB is free. Process 1390053 has 35.92 GiB memory in use. Including non-PyTorch memory, this process has 43.32 GiB memory in use. Of the allocated memory 42.91 GiB is allocated by PyTorch, and 5.37 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

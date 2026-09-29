@@ -1,0 +1,28 @@
+{
+  "dataset": "mmke-visual",
+  "model": "smolvlm-1.7b",
+  "key_mode": "model_pred",
+  "sample_count": 214,
+  "dataset_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/datasets/MMKE-Bench/data_json/visual_train.json",
+  "dataset_sha256": "b8e8e53aaeb231df09cfcd5dd75fd2bd882d7d31dbd82e02625b10cd0be6edce",
+  "cfg_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/configs/p_track/smolvlm-1.7b.yaml",
+  "cfg_sha256": "d6d4882821a0e9508d900efacd9494a61ddf1296f05877c8b12a2154f755e2cf",
+  "source_sha256": {
+    "scripts__run_visedit_keytoken_candidate_layers.py": "08da1fe15da9ad669e4c6c8c3f0b743fbaaa5e38b00d6b165526a7d2f21094c6",
+    "scripts__run_evqa_module_contribution_pilot500_multi.py": "3ce6aca58f4815ec9b6c96a7d3059ad437c245493347de6973a60575b9a89c30",
+    "p_track__p_track.py": "cc130cc57fa1f89a31b46c4522d2864ac61b9674448fd8381ff55e7f37aeca78",
+    "scripts__run_evqa_blip2_module_contribution_proxy500.py": "a2259723ec563efa77ac885050d0345b46232e4a6004c1ef1a6dedb0363bcc5f"
+  },
+  "runner_sha256": "74d81216f7d57db521412d173c7cd6607065ecd9b9d0c6d5393791afe4b4e7e3",
+  "torch_version": "2.4.1+cu118",
+  "transformers_version": "4.51.3",
+  "target_rule": "next-token argmax at final prompt position, no answer teacher forcing",
+  "prompt_rule": "row['src'] + ' The answer is:'",
+  "loader": "smolvlm",
+  "torch_dtype": "original auto",
+  "contribution_rule": "sign(v/M)*sqrt(abs(v/M)+1e-12)*sqrt(max(p,0)); M=max_abs_attn_mlp_per_sample",
+  "aggregate_rule": "mean signed contribution first; clip each module mean to nonnegative; sum for attn+mlp",
+  "pre_rule": "window=3; mean+0.5 population std; longest high region; precede by up to 3 layers",
+  "tie_rule": "numpy argsort(-scores), matching original contribution rank_positive",
+  "num_layers": 24
+}

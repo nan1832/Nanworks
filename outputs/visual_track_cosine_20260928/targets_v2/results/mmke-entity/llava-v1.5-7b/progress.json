@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "dataset": "mmke-entity",
+  "model": "llava-v1.5-7b",
+  "processed": 636,
+  "total": 636,
+  "failures": 0,
+  "elapsed_seconds": 2211.969018936157,
+  "job_id": "3443209"
+}

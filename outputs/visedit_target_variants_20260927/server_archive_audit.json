@@ -1,0 +1,128 @@
+{
+  "audit_date": "2026-09-27",
+  "scope": "named contribution/visedit archives in project server_results; no claim of exhaustive node tmp scan",
+  "root": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results",
+  "directories": [
+    "LATEST_blip2_pilot500_visedit_sweep_L18_2_L20_L21.txt",
+    "LATEST_evqa_fulltrain_blip2_module_contribution_model_pred.txt",
+    "LATEST_evqa_proxy500_blip2_module_contribution_model_pred.txt",
+    "evqa_fullevqa_blip2_module_contribution_20260602_161102",
+    "evqa_fulltrain_blip2_module_contribution_model_pred_20260604_101922",
+    "evqa_module_contribution_smoke",
+    "evqa_pilot500_module_contribution_20260606_150822",
+    "evqa_pilot500_module_contribution_g08_launcher.log",
+    "evqa_pilot500_module_contribution_g08_launcher.pid",
+    "evqa_pilot500_module_contribution_model_pred_20260606_193500",
+    "evqa_proxy500_blip2_module_contribution_20260602_155510",
+    "evqa_proxy500_blip2_module_contribution_20260602_160202",
+    "evqa_proxy500_blip2_module_contribution_model_pred_20260604_100403",
+    "latest_visedit_pre_alt_pilot500_6models_run.txt",
+    "mmke_module_contribution_20260607_150600",
+    "mmke_module_contribution_20260607_150600.continue.nohup.log",
+    "mmke_module_contribution_20260607_150600.nohup.log",
+    "mmke_module_contribution_smoke",
+    "visedit_keytoken_mmke_7models_job3044841_20260704_192247",
+    "visedit_keytoken_mmke_latest.txt",
+    "visedit_pre_alt_pilot500_6models_20260608_092829"
+  ],
+  "mmke_pred_configs": [
+    {
+      "dataset": "visual",
+      "model": "blip2-opt-2.7b",
+      "key_mode": "pred",
+      "sample_count": 214,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/blip2-opt-2.7b/config.json"
+    },
+    {
+      "dataset": "visual",
+      "model": "instructblip-vicuna-7b",
+      "key_mode": "pred",
+      "sample_count": 214,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/instructblip-vicuna-7b/config.json"
+    },
+    {
+      "dataset": "visual",
+      "model": "llava-v1.5-7b",
+      "key_mode": "pred",
+      "sample_count": 214,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/llava-v1.5-7b/config.json"
+    },
+    {
+      "dataset": "visual",
+      "model": "minigpt-4-vicuna-7b",
+      "key_mode": "pred",
+      "sample_count": 214,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/minigpt-4-vicuna-7b/config.json"
+    },
+    {
+      "dataset": "visual",
+      "model": "paligemma-3b",
+      "key_mode": "pred",
+      "sample_count": 214,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/paligemma-3b/config.json"
+    },
+    {
+      "dataset": "visual",
+      "model": "qwen2.5-vl-3b",
+      "key_mode": "pred",
+      "sample_count": 214,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/qwen2.5-vl-3b/config.json"
+    },
+    {
+      "dataset": "visual",
+      "model": "smolvlm-1.7b",
+      "key_mode": "pred",
+      "sample_count": 214,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/visual/pred/smolvlm-1.7b/config.json"
+    },
+    {
+      "dataset": "entity",
+      "model": "blip2-opt-2.7b",
+      "key_mode": "pred",
+      "sample_count": 636,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/blip2-opt-2.7b/config.json"
+    },
+    {
+      "dataset": "entity",
+      "model": "instructblip-vicuna-7b",
+      "key_mode": "pred",
+      "sample_count": 636,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/instructblip-vicuna-7b/config.json"
+    },
+    {
+      "dataset": "entity",
+      "model": "llava-v1.5-7b",
+      "key_mode": "pred",
+      "sample_count": 636,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/llava-v1.5-7b/config.json"
+    },
+    {
+      "dataset": "entity",
+      "model": "minigpt-4-vicuna-7b",
+      "key_mode": "pred",
+      "sample_count": 636,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/minigpt-4-vicuna-7b/config.json"
+    },
+    {
+      "dataset": "entity",
+      "model": "paligemma-3b",
+      "key_mode": "pred",
+      "sample_count": 636,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/paligemma-3b/config.json"
+    },
+    {
+      "dataset": "entity",
+      "model": "qwen2.5-vl-3b",
+      "key_mode": "pred",
+      "sample_count": 636,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/qwen2.5-vl-3b/config.json"
+    },
+    {
+      "dataset": "entity",
+      "model": "smolvlm-1.7b",
+      "key_mode": "pred",
+      "sample_count": 636,
+      "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_module_contribution_20260607_150600/entity/pred/smolvlm-1.7b/config.json"
+    }
+  ]
+}

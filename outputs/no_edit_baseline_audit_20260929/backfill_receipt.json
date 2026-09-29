@@ -1,0 +1,9 @@
+{
+  "time": "2026-09-29T22:21:17.208876+08:00",
+  "verified_groups": 0,
+  "baseline_rows": 21,
+  "delta_rows": 433,
+  "worker_state": "WAITING_MEMORY_OR_EXISTING_GROUP",
+  "document": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\md\\Location\\SWeeplayers.md",
+  "document_sha256": "e2c5038c2dcfe8b1b32f088acac930ba2bd21e00ed19064f1eadf35980f68e5d"
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>第二阶段 · 实体构图审核</title>
+<link rel="stylesheet" href="review.css">
+</head>
+<body>
+<header class="app-header">
+ <div class="brand"><span class="logo">KG</span><div><h1>实体构图审核</h1><p>第二阶段 · MMKE-entity · 冻结构图快照</p></div></div>
+ <div class="header-actions"><span class="readonly">● 只读实验数据</span><button id="export-reviews">导出审核意见</button><button id="import-reviews">导入意见</button><input id="review-file" type="file" accept=".json" hidden></div>
+</header>
+<div id="load-error" class="fatal" hidden>数据未能加载。请保留本文件与 review-data.js、review.js、review.css 在同一文件夹。</div>
+<div class="layout">
+ <aside class="sidebar" aria-label="样本导航">
+  <label class="field-label" for="split">数据范围</label>
+  <select id="split"><option value="eval">正式评测集 · 955 条</option><option value="train">官方训练集 · 636 条</option></select>
+  <label class="field-label" for="search">查找实体 / 原文 / 零基索引</label><input id="search" type="search" placeholder="如 Pixies、John Gould、#10">
+  <label class="field-label" for="filter">审核筛选</label>
+  <select id="filter"><option value="all">全部记录</option><option value="neighbors">有真实邻域</option><option value="empty">没有编辑根边</option><option value="excluded">有被过滤的事实（评测集）</option><option value="pending">尚未人工审核</option><option value="issue">已标记有问题</option></select>
+  <div id="list-summary" class="small"></div>
+  <div id="samples" class="sample-list" aria-label="样本列表"></div>
+  <div class="sidebar-foot"><strong id="review-progress"></strong><p>“通过”是你的人工结论，不由程序自动判定。</p></div>
+ </aside>
+ <main>
+  <section class="entity-head">
+   <div><div id="record-label" class="eyebrow"></div><h2 id="entity-name"></h2><div id="sample-id" class="mono small"></div></div>
+   <div class="nav-buttons"><button id="previous" aria-label="上一条">← 上一条</button><button id="next" aria-label="下一条">下一条 →</button></div>
+  </section>
+  <div id="coverage-note" class="coverage-note"></div>
+  <section class="workspace">
+   <article class="panel source-panel">
+    <div class="panel-heading"><h3>原始数据</h3><button id="export-sample" class="quiet">导出本条证据</button></div>
+    <div class="tabs" role="tablist" aria-label="原始数据视图"><button role="tab" aria-selected="true" data-tab="json">完整 JSON</button><button role="tab" aria-selected="false" data-tab="compare">pred / alt</button><button role="tab" aria-selected="false" data-tab="diff">逐句差异</button><button role="tab" aria-selected="false" data-tab="image">原始图片</button></div>
+    <div id="source-content" class="source-content"></div>
+    <div class="source-foot">原始字段完整保留。评测问答只供审核展示，不用于补边或重建图。</div>
+   </article>
+   <article class="panel graph-panel">
+    <div class="panel-heading"><h3>实际输入图谱</h3><select id="group" aria-label="图谱版本"><option value="G3_Overlay1hop">G3 · 一跳叠加图</option><option value="G3_EditOnly0hop">G3 · 仅编辑零跳图</option><option value="G3_RealOnly">G3 · pred 旧知识图</option><option value="G4_RandomMatched">G4 · 匹配随机对照</option></select></div>
+    <div class="graph-toolbar"><label><input type="checkbox" id="show-excluded">叠加未入图事实</label><label><input type="checkbox" id="show-loops">自环</label><label><input type="checkbox" id="show-labels" checked>关系标签</label><select id="direction" aria-label="箭头方向"><option value="semantic">事实方向</option><option value="message">RGCN 消息方向</option></select><button id="fit">适应画布</button><button id="zoom-in" aria-label="放大">＋</button><button id="zoom-out" aria-label="缩小">－</button></div>
+    <div id="graph-warning" class="graph-warning" hidden></div>
+    <div id="graph-area" class="graph-area"><svg id="graph" role="img" aria-label="实体图谱，可拖动节点、缩放画布"></svg><div class="graph-instruction">拖动节点 · 拖动空白平移 · 滚轮缩放 · 点击节点 / 边查看证据</div></div>
+    <div class="legend"><span><i class="subject-color"></i>编辑主体</span><span><i class="edit-color"></i>alt 编辑事实</span><span><i class="neighbor-color"></i>冻结真实邻域</span><span><i class="old-color"></i>pred 旧事实</span><span><i class="excluded-color"></i>未入图（虚线）</span><span><i class="random-color"></i>随机对照</span></div>
+    <div id="graph-counts" class="small graph-counts"></div>
+   </article>
+  </section>
+  <section class="details-grid">
+   <article class="panel evidence-panel"><div class="panel-heading"><h3 id="detail-title">节点与边的来源证据</h3><button id="raw-graph" class="quiet">查看运行时 JSON</button></div><div id="detail-content" class="detail-content"><p class="empty">点击图中节点、连线或下方事实，检查完整文本与来源。</p></div></article>
+   <article class="panel review-panel"><div class="panel-heading"><h3>本条人工审核</h3><span id="save-state" class="small" aria-live="polite"></span></div><div class="review-body"><label for="verdict">审核结论</label><select id="verdict"><option value="pending">未审核</option><option value="pass">通过</option><option value="issue">有问题，需修正</option><option value="uncertain">存疑，待确认</option></select><label for="note">问题与修改建议</label><textarea id="note" rows="4" placeholder="例如：John Gould 被过滤；人名被断句；实体 Q-ID 对应错误。可填写边编号。"></textarea><p class="small">自动暂存于当前浏览器。请导出 JSON 备份；意见不会回写冻结图谱，也不会改变训练或评测。</p></div></article>
+  </section>
+  <section class="panel facts-panel"><div class="panel-heading"><h3>抽取事实与入图核对</h3><span id="fact-summary" class="small"></span></div><div class="table-scroll"><table><thead><tr><th>关系</th><th>旧值 · pred</th><th>新值 · alt</th><th>Overlay 入图核对</th><th>来源</th></tr></thead><tbody id="fact-rows"></tbody></table></div><p class="small section-note">核对的是事实是否进入冻结 Overlay 图，不等于语义正确。训练集此表为冻结高置信事实子集，并非全部抽取候选；被排除的训练候选不在此表范围内。</p></section>
+  <details class="panel edge-panel"><summary>当前版本的全部边（含自环，无截断） <span id="edge-total"></span></summary><div class="table-scroll"><table><thead><tr><th>边号</th><th>事实主体</th><th>关系</th><th>事实客体</th><th>状态</th></tr></thead><tbody id="edge-rows"></tbody></table></div></details>
+  <details class="panel provenance"><summary>数据版本、完整性校验与使用边界</summary><div id="provenance-content"></div></details>
+ </main>
+</div>
+<div id="toast" role="status" hidden></div>
+<input type="file" id="image-folder" webkitdirectory multiple hidden>
+<script src="review-data.js"></script><script src="review.js"></script>
+</body></html>

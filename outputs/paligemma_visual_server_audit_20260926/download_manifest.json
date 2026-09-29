@@ -1,0 +1,457 @@
+[
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/configs/vead/paligemma-3b-stable.yaml",
+    "relative": "VisEdit-main/configs/vead/paligemma-3b-stable.yaml",
+    "bytes": 442,
+    "sha256": "205d7a1236bdf9e05df4bd3d5aba58ce01da5cf6b81c0700026db2583d2ecd22",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\code\\paligemma-3b-stable.yaml"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/configs/vead/paligemma-3b.yaml",
+    "relative": "VisEdit-main/configs/vead/paligemma-3b.yaml",
+    "bytes": 442,
+    "sha256": "408ea59cf079c7eb7b1e70aee64603812d8f81dfa9e3e02e2ef5c871edcac3b6",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\code\\paligemma-3b.yaml"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/editor/vllm_editors/vead/vead.py",
+    "relative": "VisEdit-main/editor/vllm_editors/vead/vead.py",
+    "bytes": 42670,
+    "sha256": "65d5c23e22796cabc8e99782c2eec391ec433f48d0a4e3ebdb100e31a59b20d8",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\code\\vead.py"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/evaluation/vllm_editor_eval.py",
+    "relative": "VisEdit-main/evaluation/vllm_editor_eval.py",
+    "bytes": 9216,
+    "sha256": "42ff8a6a12733e3fb82cb00414f6294c4f37f8b54ae818fdc56f403be622e720",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\code\\vllm_editor_eval.py"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_evqa_pilot500_blip2_visedit_sweep.py",
+    "relative": "VisEdit-main/scripts/run_evqa_pilot500_blip2_visedit_sweep.py",
+    "bytes": 24756,
+    "sha256": "7c26d9f37d0d0aca4e6f70a7e730d7edbe1dbdb03954ca7766689b4ce91656b3",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\code\\run_evqa_pilot500_blip2_visedit_sweep.py"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main/scripts/run_evqa_pilot500_blip2_visedit_sweep_pali_stable.py",
+    "relative": "VisEdit-main/scripts/run_evqa_pilot500_blip2_visedit_sweep_pali_stable.py",
+    "bytes": 10083,
+    "sha256": "c57ba12a6a9661bd64a04f695e46f8c778771f1c0a51ee356bdade0f0efa0294",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\code\\run_evqa_pilot500_blip2_visedit_sweep_pali_stable.py"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L01/single_edit/mean_results.json",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L01/single_edit/mean_results.json",
+    "bytes": 400,
+    "sha256": "86a2625d23218185fcd01496a2c455037c36f85de6c0e89ceec67f639cb8d480",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_01\\mean_results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L01/single_edit/results.json",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L01/single_edit/results.json",
+    "bytes": 1116256,
+    "sha256": "e7429e44c46b7ca9c3564aa43015aee3725c9ba7d1ba0b78d73c1df3d45c3525",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_01\\results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/eval_full.done",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/eval_full.done",
+    "bytes": 801,
+    "sha256": "b0b195ee4fa9f51727fd01e353c60fb63ae074c5b6eca291288e200b962201e5",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_01\\eval_full.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/loss_history.csv",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/loss_history.csv",
+    "bytes": 16198,
+    "sha256": "a8942de8e2c90f313caa7581aa09b39c461747e0ff9746fc9705292ed938ed51",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_01\\loss_history.csv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/records/vead/paligemma-3b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/config.yaml",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/records/vead/paligemma-3b/pilot500_blip2_visedit_L01-lr-1-t-1-v-1/config.yaml",
+    "bytes": 450,
+    "sha256": "f4c72bdc7f0c938f8a50492956345d086d01cf4a80dcd5cf8f7727791098295e",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_01\\config.yaml"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/selected_checkpoint.tsv",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/selected_checkpoint.tsv",
+    "bytes": 356,
+    "sha256": "1b7e2e858bd611b046dd60c3ff505c3737760966b522bd59362ad71ecabe88ef",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_01\\selected_checkpoint.tsv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/train.done",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_01/train.done",
+    "bytes": 402,
+    "sha256": "f6243e953c3a17a04bf729f547503a611d8096d3c16150cb1adc457557d4bd8b",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_01\\train.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L02/single_edit/mean_results.json",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L02/single_edit/mean_results.json",
+    "bytes": 400,
+    "sha256": "8b68b230bbf84aad0f599f07c039f470b878dc8b700c1c3397648b6eb812a0b5",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_02\\mean_results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L02/single_edit/results.json",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L02/single_edit/results.json",
+    "bytes": 1146168,
+    "sha256": "87092b1e131f060ae39e7d006b45b8b0a6368aa266167f644b132cf025169856",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_02\\results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/eval_full.done",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/eval_full.done",
+    "bytes": 828,
+    "sha256": "0f3cd48d4e3721a74668b330d3185d1fb32138b326aae8d308a1690a442eb76f",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_02\\eval_full.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/loss_history.csv",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/loss_history.csv",
+    "bytes": 16229,
+    "sha256": "55acd31682a27a6a1faf39641efea05589f170d25b22c8205f32e6a0af3b4bf1",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_02\\loss_history.csv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/records/vead/paligemma-3b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/config.yaml",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/records/vead/paligemma-3b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/config.yaml",
+    "bytes": 450,
+    "sha256": "4e91cb2fbdb09841470e02d8610ea703fd6e5b03a3a5ab6d080dda7792827588",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_02\\config.yaml"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/selected_checkpoint.tsv",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/selected_checkpoint.tsv",
+    "bytes": 355,
+    "sha256": "0079569bcf62aa76c4b931acfb8325633459f32bbc38bbb824f369a586693981",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_02\\selected_checkpoint.tsv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/train.done",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_02/train.done",
+    "bytes": 401,
+    "sha256": "a028b39b73bb30c549dabdd366a4345ce8ebb210ef91af876b97690dbeebd1a0",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_02\\train.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L06/single_edit/mean_results.json",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L06/single_edit/mean_results.json",
+    "bytes": 401,
+    "sha256": "145a1f7d7a1ad2f24baa340bf316bb5054d13bbb9ef49c9a6d03c1e13ea77c6e",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_06\\mean_results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L06/single_edit/results.json",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L06/single_edit/results.json",
+    "bytes": 1147817,
+    "sha256": "92be53645757b6140cefc050610cc9204f21ad132a1a1277fdcfcf9892a25f6c",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_06\\results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/eval_full.done",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/eval_full.done",
+    "bytes": 817,
+    "sha256": "99478991674aae35df30347499ac8b95df0867db82627226cef47925085f7dc1",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_06\\eval_full.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/loss_history.csv",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/loss_history.csv",
+    "bytes": 16182,
+    "sha256": "334b68996d739fa3bf6d9c79e6a241c922c6f685c00be5e266dab91e129c3c44",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_06\\loss_history.csv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/records/vead/paligemma-3b/pilot500_blip2_visedit_L06-lr-1-t-1-v-1/config.yaml",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/records/vead/paligemma-3b/pilot500_blip2_visedit_L06-lr-1-t-1-v-1/config.yaml",
+    "bytes": 450,
+    "sha256": "76e11fdc2273ec58ee4b57e9fd844f5f56f61c8859b48b04502ee745a19429ae",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_06\\config.yaml"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/selected_checkpoint.tsv",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/selected_checkpoint.tsv",
+    "bytes": 356,
+    "sha256": "37c7269baa3fb3fbe42f4d33ece0d12e52780d033d94114c3d8dd39c16bb70cc",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_06\\selected_checkpoint.tsv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/train.done",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_06/train.done",
+    "bytes": 402,
+    "sha256": "72b6a63b7f778ba5f666ef3883ae1fdf97629c525fe18ceeec8b9522acf84242",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_06\\train.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L07/single_edit/mean_results.json",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L07/single_edit/mean_results.json",
+    "bytes": 400,
+    "sha256": "cc815131a83deadeb6c7f6723532a85e6f2b3dc951f781aff6935156faa999d2",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_07\\mean_results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L07/single_edit/results.json",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L07/single_edit/results.json",
+    "bytes": 1146673,
+    "sha256": "10dd436c43758502ab710fa6d075fc1705660ad8c339ce9966fca680f557b006",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_07\\results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/eval_full.done",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/eval_full.done",
+    "bytes": 827,
+    "sha256": "c4a9ca46ddb0c2849c09465659fd60ecb77c01cf053bf8f36735d866539196df",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_07\\eval_full.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/loss_history.csv",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/loss_history.csv",
+    "bytes": 25253,
+    "sha256": "cb5bc30824fe59eaf82d0f3929f53ccff7a301aa7b930e8bec78aede0c77ec26",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_07\\loss_history.csv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/records/vead/paligemma-3b/pilot500_blip2_visedit_L07-lr-1-t-1-v-1/config.yaml",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/records/vead/paligemma-3b/pilot500_blip2_visedit_L07-lr-1-t-1-v-1/config.yaml",
+    "bytes": 450,
+    "sha256": "17b57e8f5a9d863c30d31499e06bf5caff24d6b2514d879979e223195e486509",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_07\\config.yaml"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/selected_checkpoint.tsv",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/selected_checkpoint.tsv",
+    "bytes": 355,
+    "sha256": "332f1de3b916644c111db6f10b37caf7d59340e48c84a9e0a8a4d0529e4107f8",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_07\\selected_checkpoint.tsv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/train.done",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/train.done",
+    "bytes": 401,
+    "sha256": "1ab18be39e14e6b74afb814581295cd09f943e477081887354d922150cb3d238",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_07\\train.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L13/single_edit/mean_results.json",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L13/single_edit/mean_results.json",
+    "bytes": 401,
+    "sha256": "31a8119652cbd3564ac68603ed8862b2b996ef28de643a2d68d863d9b693cff6",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_13\\mean_results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L13/single_edit/results.json",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L13/single_edit/results.json",
+    "bytes": 1116814,
+    "sha256": "a6d635b3418c665b37426b9828b77d15338d784be5ce38e728357d57d2688f41",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_13\\results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/eval_full.done",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/eval_full.done",
+    "bytes": 845,
+    "sha256": "e1a87319af415f430066c5e2fcf2f8b5359c7eaf2fc014d791193549194afdd2",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_13\\eval_full.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/loss_history.csv",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/loss_history.csv",
+    "bytes": 16260,
+    "sha256": "4184c9a51212ebc804a30377f2a5d26855e1003da66e56762abe8c716d24b5f8",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_13\\loss_history.csv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/records/vead/paligemma-3b/pilot500_blip2_visedit_L13-lr-1-t-1-v-1/config.yaml",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/records/vead/paligemma-3b/pilot500_blip2_visedit_L13-lr-1-t-1-v-1/config.yaml",
+    "bytes": 451,
+    "sha256": "88a470c1578d89fb645457c8721cace08a55e48a3b9819346cf67d2662866ecb",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_13\\config.yaml"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/selected_checkpoint.tsv",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/selected_checkpoint.tsv",
+    "bytes": 360,
+    "sha256": "78d8a1175c340883ae90cb4e57d56ff92859a0773f31128b2803621882f25173",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_13\\selected_checkpoint.tsv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/train.done",
+    "relative": "server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_13/train.done",
+    "bytes": 406,
+    "sha256": "0ae09905c44a6ab4464b2ab15386f429b2051a026b515087b58fc9d6e2cd065a",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_original\\layer_13\\train.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_pending_followup_job3044208_20260713_204917/paligemma_pending_followup_layer_status.csv",
+    "relative": "server_results/paligemma_pending_followup_job3044208_20260713_204917/paligemma_pending_followup_layer_status.csv",
+    "bytes": 4197,
+    "sha256": "26f7a19b6f7e2b53485242c995fb9631c53a525d0d6bcad141be1ef6ccf1a7fe",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\controller\\paligemma_pending_followup_layer_status.csv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_pending_followup_job3044208_20260713_204917/paligemma_pending_followup_status.log",
+    "relative": "server_results/paligemma_pending_followup_job3044208_20260713_204917/paligemma_pending_followup_status.log",
+    "bytes": 5989,
+    "sha256": "03a8b8e74b01a7377eca92960dae2b83cbb6df29d83b20c65cddad3db2ac8a38",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\controller\\paligemma_pending_followup_status.log"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/ALL_DONE",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/ALL_DONE",
+    "bytes": 20,
+    "sha256": "08b9c66fe64704454ed036eb01eed9fc51e43154a084423732f02ed7596ca398",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\root\\ALL_DONE"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/full_eval_results.csv",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/full_eval_results.csv",
+    "bytes": 1280,
+    "sha256": "52678075d0b36c035d7564fac5295609bc9cd2b41569a89abbafdb7f61408a66",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\root\\full_eval_results.csv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L03/single_edit/mean_results.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L03/single_edit/mean_results.json",
+    "bytes": 401,
+    "sha256": "6de1177b13efff560808a6fe8daee89584664abf18f1131b4aea70b24c89a1fb",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_03\\mean_results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L03/single_edit/results.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L03/single_edit/results.json",
+    "bytes": 1114079,
+    "sha256": "4a55e679b9bde581ced280f6419b718d85b2d93c4c27a60ac0458f303cadd267",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_03\\results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/eval_full.done",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/eval_full.done",
+    "bytes": 1159,
+    "sha256": "e3b7a813c9bfad6050626a8bd933af4274cc9ad9889bc60c258c366140464874",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_03\\eval_full.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/original_config.yaml",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/original_config.yaml",
+    "bytes": 450,
+    "sha256": "1cfe5e99700f10716138c0009eaab7ce20d5560ceae318af8bc6953d021cc7ea",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_03\\original_config.yaml"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/selected_checkpoint.tsv",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/selected_checkpoint.tsv",
+    "bytes": 396,
+    "sha256": "8a742f50bb9227b934510ca53722fbc66606df6c589ce8c6f08954db4127d6c1",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_03\\selected_checkpoint.tsv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/selection_audit.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/selection_audit.json",
+    "bytes": 1327,
+    "sha256": "c8fb929f70d448b28448f9c691c017a365264d9c8fb7ab718fca8b4d707c12e5",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_03\\selection_audit.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/source_loss_history.csv",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/source_loss_history.csv",
+    "bytes": 8763,
+    "sha256": "44ea1b30783aae052dee93283d17037b8680a4b9b7360c32bd5c9a62883cf1ae",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_03\\source_loss_history.csv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/verified_evaluation.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_03/verified_evaluation.json",
+    "bytes": 1159,
+    "sha256": "e3b7a813c9bfad6050626a8bd933af4274cc9ad9889bc60c258c366140464874",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_03\\verified_evaluation.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L05/single_edit/mean_results.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L05/single_edit/mean_results.json",
+    "bytes": 401,
+    "sha256": "d365f0b3f10bcb33b09ac596322c106584b5a40eaa70a1c9f0a9e54ee1088b2a",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_05\\mean_results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L05/single_edit/results.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L05/single_edit/results.json",
+    "bytes": 1126024,
+    "sha256": "3a5f03702077f074eea3dd1127dc7631727fa999e4c88a2f82a7b0e8e7c1ceac",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_05\\results.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/eval_full.done",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/eval_full.done",
+    "bytes": 1158,
+    "sha256": "16a4e8ff695d8b3711c76e26e0ed6c3e7dbccbd98dbe66e6dd5cbf4f4283885f",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_05\\eval_full.done"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/original_config.yaml",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/original_config.yaml",
+    "bytes": 450,
+    "sha256": "fb21d36f141b7a8ff133c4c32803f42eaa4446c85adbcacc582d59a4590ce753",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_05\\original_config.yaml"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/selected_checkpoint.tsv",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/selected_checkpoint.tsv",
+    "bytes": 395,
+    "sha256": "e5965b29705b8363d5cf43624a9cd68636110712622ca7f92c4cd8af55545705",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_05\\selected_checkpoint.tsv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/selection_audit.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/selection_audit.json",
+    "bytes": 1322,
+    "sha256": "85337711466495d0c67d5c8e1674e1f6f4edebd64763df1bcaff2ac7ca51ae9c",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_05\\selection_audit.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/source_loss_history.csv",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/source_loss_history.csv",
+    "bytes": 1007,
+    "sha256": "1f4f739e2c519d52a0661a8e0ea65527ad40941ffabe121ff05c07e125ad27f0",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_05\\source_loss_history.csv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/verified_evaluation.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/layer_05/verified_evaluation.json",
+    "bytes": 1158,
+    "sha256": "16a4e8ff695d8b3711c76e26e0ed6c3e7dbccbd98dbe66e6dd5cbf4f4283885f",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\layer_05\\verified_evaluation.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/protocol.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/protocol.json",
+    "bytes": 5584,
+    "sha256": "5b2b65073724e8ad2cf24f07cfff23b550a2ec257cd79a714d35527a11bee74a",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\root\\protocol.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/run_config.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/run_config.json",
+    "bytes": 1260,
+    "sha256": "c74bd7ab0e957b8f583b779daf3959bc41013710687df4440af5c5c9c992187d",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\root\\run_config.json"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/selected_checkpoints_all_layers.tsv",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/selected_checkpoints_all_layers.tsv",
+    "bytes": 744,
+    "sha256": "cdbdb3951ac05b7d5814ad07440c89c6e978ca68f1141c72bb052b7f15d57287",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\root\\selected_checkpoints_all_layers.tsv"
+  },
+  {
+    "path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_visual_main_nonconvergent_eval_20260926/status.json",
+    "relative": "server_results/paligemma_visual_main_nonconvergent_eval_20260926/status.json",
+    "bytes": 2874,
+    "sha256": "d7ff7f60737c4f6398dc5ee1db269d0bd55bf5aee8163c3b9774ea14b30f319a",
+    "local_path": "D:\\开题\\正式开题\\Model Edit\\bli2-reasonvqa\\dataset\\outputs\\paligemma_visual_server_audit_20260926\\downloaded_results\\main_diagnostic\\root\\status.json"
+  }
+]

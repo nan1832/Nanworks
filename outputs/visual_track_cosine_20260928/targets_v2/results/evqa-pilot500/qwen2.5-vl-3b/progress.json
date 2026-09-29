@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "dataset": "evqa-pilot500",
+  "model": "qwen2.5-vl-3b",
+  "processed": 500,
+  "total": 500,
+  "failures": 0,
+  "elapsed_seconds": 648.5814805030823,
+  "job_id": "3443209"
+}

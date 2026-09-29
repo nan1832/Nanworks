@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "summary_sha256": "56da19da52e20d374d917c00a36e9fd79ec2f9d8a24a351fada0b803bd2085a6",
+  "samples_verified": 214,
+  "variants_verified": [
+    "attn",
+    "mlp",
+    "attn+mlp"
+  ],
+  "original_formula_parity": true,
+  "torch_dtype": "bfloat16",
+  "attribution_scope": "next_token_argmax",
+  "sample_storage": "samples.json.gz",
+  "checked_at": "2026-09-29T11:57:45.234662+08:00"
+}

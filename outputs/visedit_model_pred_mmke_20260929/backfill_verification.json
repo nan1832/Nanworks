@@ -1,0 +1,13 @@
+{
+  "verified_groups": 14,
+  "module_variants": 42,
+  "attribution_scope": "next_token_argmax",
+  "full_response_attribution_completed": false,
+  "unrelated_method_sections_preserved": true,
+  "real_editing_ledger_preserved": true,
+  "checked_at": "2026-09-29T12:13:31.323653+08:00",
+  "documents": {
+    "md\\Location\\ALL_Methods_Recommends_layers.md": "8836c51fede890bac2af1b94687936b5f98f4afd5fbf1062900975348e0b8432",
+    "md\\Location\\6location_7model_3datas_top_3_5_layers_outcome.md": "43da7b08290f2634458d43847a0689d22534b7a2efbe4df2eb09752f490aec6c"
+  }
+}

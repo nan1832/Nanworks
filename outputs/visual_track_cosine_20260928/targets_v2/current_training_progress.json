@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-09-29T07:33:00.493739+08:00",
+  "jobs": [
+    {
+      "job": "3435286",
+      "node": "g08",
+      "dataset": "E-VQA",
+      "model": "LLaVA",
+      "layer": 4,
+      "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/evqa_llava_job3435286_20260924/resume_L4_wait_memory_20260928/train_L4.log",
+      "log_mtime": "2026-09-29T03:36:02+08:00",
+      "recent_progress": [
+        "Epoch 50: 100%|█████████▉| 498/500 [1:31:23<00:19,  9.98s/it][2026-09-29 03:35:59] [ckpt] layer=4 epoch=50 i=12500 loss=0.565573 ema=0.758474 removed=1 kept~=2",
+        "Epoch 50: 100%|██████████| 500/500 [1:31:45<00:00, 10.38s/it]",
+        "Epoch 50: 100%|██████████| 500/500 [1:31:45<00:00, 11.01s/it]"
+      ],
+      "latest_checkpoint": [
+        "Epoch 50: 100%|█████████▉| 498/500 [1:31:23<00:19,  9.98s/it][2026-09-29 03:35:59] [ckpt] layer=4 epoch=50 i=12500 loss=0.565573 ema=0.758474 removed=1 kept~=2"
+      ],
+      "recent_errors": [],
+      "epoch": 50,
+      "current": 500,
+      "total": 500,
+      "total_epochs": 50,
+      "training_fraction": 1.0
+    },
+    {
+      "job": "3443209",
+      "node": "g09",
+      "dataset": "MMKE-entity",
+      "model": "MiniGPT4",
+      "layer": 8,
+      "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_tail_job3443209_20260926/work/mmke-entity/minigpt-4-vicuna-7b/train_L8.log",
+      "log_mtime": "2026-09-28T19:27:17+08:00",
+      "recent_progress": [
+        "Epoch 15:  85%|████████▍ | 540/636 [41:53<07:11,  4.49s/it]",
+        "Epoch 15:  85%|████████▌ | 542/636 [42:03<07:25,  4.74s/it]",
+        "Epoch 15:  86%|████████▌ | 544/636 [42:13<07:15,  4.73s/it]"
+      ],
+      "latest_checkpoint": [
+        "Epoch 14: 100%|█████████▉| 634/636 [43:37<00:10,  5.18s/it][2026-09-28 18:45:03] [ckpt] layer=8 epoch=14 i=4452 loss=2.012548 ema=2.217105 removed=1 kept~=1"
+      ],
+      "recent_errors": [],
+      "epoch": 15,
+      "current": 544,
+      "total": 636,
+      "total_epochs": 50,
+      "training_fraction": 0.2971069182389937,
+      "historical_training_log_only": true,
+      "current_phase": "STOPPED_REQUIRES_INSPECTION",
+      "note": "L8 log is a historical snapshot during the authorized pause; use priority controller for current GPU work."
+    }
+  ],
+  "gpus": {
+    "g08": {
+      "returncode": 0,
+      "output": "NVIDIA A800 80GB PCIe, 38235, 42941, 100\n"
+    },
+    "g09": {
+      "returncode": 0,
+      "output": "NVIDIA A800 80GB PCIe, 14467, 66690, 100\n"
+    }
+  },
+  "squeue": "3435286|RUNNING|g08|g08|4-17:35:33|25-06:24:27\n3443209|RUNNING|g09|g09|2-12:49:12|27-11:10:48\n",
+  "lga_waiters": {
+    "g08": {
+      "state": "RUNNING_ABLATION",
+      "node": "g08",
+      "time": "2026-09-29T07:28:41+0800",
+      "job": "3435286",
+      "pid": 3047130,
+      "space": "visual",
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "child_pid": 3483970,
+      "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/lga_two_spaces_ablation_20260928/results/visual/evqa-pilot500/llava-v1.5-7b/run_20260929_072841.log"
+    },
+    "g09": {
+      "state": "WAITING_PREVIOUS_EXPERIMENTS",
+      "node": "g09",
+      "time": "2026-09-29T07:32:44+0800",
+      "job": "3443209",
+      "pid": 2328322,
+      "completion_marker": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/tukey_top3_two_gpu_20260926/control/g09/DONE.json",
+      "space": "parameter"
+    }
+  },
+  "g09_priority_controller": {
+    "time": "2026-09-28T22:45:04+0800",
+    "state": "STOPPED_REQUIRES_INSPECTION",
+    "node": "g09",
+    "job": "3443209",
+    "pid": 2379778,
+    "error": "Traceback (most recent call last):\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\", line 133, in <module>\n    try:main(args.continue_paused)\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\", line 112, in main\n    run_child(args,log,'RUNNING_THREE_VARIANTS',model=model,verified_groups=len(receipts),resume_checkpoint=ck['backup'])\n  File \"/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/priority_visual_track_g09_20260928.py\", line 72, in run_child\n    assert child.returncode==0,'Child failed, inspect '+str(log)\nAssertionError: Child failed, inspect /datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/variants_smolvlm-1.7b.log\n",
+    "checkpoint_preserved": true
+  }
+}

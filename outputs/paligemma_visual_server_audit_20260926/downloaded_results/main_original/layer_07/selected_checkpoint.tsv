@@ -1,0 +1,2 @@
+layer	status	epoch	i	loss	ema_loss	checkpoint
+7	TRAIN_DONE	2	214	1.6153326034545898	1.543866485194477	/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/mmke_visual_top3_union_train_eval_7models_20260613_014644/paligemma-3b/layer_07/records/vead/paligemma-3b/pilot500_blip2_visedit_L07-lr-1-t-1-v-1/checkpoints/epoch-2-i-214-ema_loss-1.5439

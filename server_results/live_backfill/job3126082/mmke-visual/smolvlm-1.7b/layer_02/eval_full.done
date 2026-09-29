@@ -1,0 +1,15 @@
+{
+  "layer": 2,
+  "status": "EVAL_DONE",
+  "eval_samples": 293,
+  "ckpt_epoch": "46",
+  "ckpt_i": "4922",
+  "ckpt_loss": "0.36743274331092834",
+  "ckpt_ema_loss": "0.4114225463580293",
+  "Rel": 52.96,
+  "T-Gen": 52.77,
+  "M-Gen": 53.14,
+  "T-Loc": 100.0,
+  "M-Loc": 93.74,
+  "Average": 70.522
+}

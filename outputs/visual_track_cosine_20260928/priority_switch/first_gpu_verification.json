@@ -1,0 +1,62 @@
+{
+  "time": "2026-09-28T19:31:55.847544+08:00",
+  "state": {
+    "time": "2026-09-28T19:29:06+0800",
+    "state": "RUNNING_THREE_VARIANTS",
+    "node": "g09",
+    "job": "3443209",
+    "pid": 2379778,
+    "child_pid": 2379970,
+    "log": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/variants_llava-v1.5-7b.log",
+    "command": [
+      "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/code/run_visual_track_targets_20260928.py",
+      "--project",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/VisEdit-main",
+      "--out",
+      "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/targets_v2/results",
+      "--model",
+      "llava-v1.5-7b"
+    ],
+    "model": "llava-v1.5-7b",
+    "verified_groups": 0,
+    "resume_checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/visual_track_cosine_20260928/priority_switch/epoch-14-i-4452-ema_loss-2.2171"
+  },
+  "groups": [
+    {
+      "dataset": "evqa-pilot500",
+      "model": "llava-v1.5-7b",
+      "samples": 2,
+      "progress": {
+        "status": "running",
+        "dataset": "evqa-pilot500",
+        "model": "llava-v1.5-7b",
+        "processed": 1,
+        "total": 500,
+        "failures": 0,
+        "elapsed_seconds": 8.449894905090332,
+        "job_id": "3443209"
+      },
+      "first_sample_status": "ok",
+      "first_sample_variants": {
+        "none": {
+          "status": "ok",
+          "layers": 32,
+          "tokens": 1
+        },
+        "alt": {
+          "status": "ok",
+          "layers": 32,
+          "tokens": 1
+        },
+        "model_pred": {
+          "status": "ok",
+          "layers": 32,
+          "tokens": 1
+        }
+      }
+    }
+  ],
+  "log_tail": "g images:  88%|████████▊ | 440/500 [00:22<00:02, 24.46it/s]\rLoading images:  89%|████████▊ | 443/500 [00:22<00:02, 25.14it/s]\rLoading images:  89%|████████▉ | 446/500 [00:22<00:02, 24.35it/s]\rLoading images:  90%|████████▉ | 449/500 [00:22<00:02, 24.24it/s]\rLoading images:  90%|█████████ | 452/500 [00:22<00:01, 24.53it/s]\rLoading images:  91%|█████████ | 455/500 [00:22<00:01, 24.82it/s]\rLoading images:  92%|█████████▏| 458/500 [00:22<00:01, 24.99it/s]\rLoading images:  92%|█████████▏| 461/500 [00:22<00:01, 24.91it/s]\rLoading images:  93%|█████████▎| 464/500 [00:23<00:01, 25.05it/s]\rLoading images:  93%|█████████▎| 467/500 [00:23<00:01, 25.58it/s]\rLoading images:  94%|█████████▍| 470/500 [00:23<00:01, 25.38it/s]\rLoading images:  95%|█████████▍| 473/500 [00:23<00:01, 24.27it/s]\rLoading images:  95%|█████████▌| 476/500 [00:23<00:01, 23.97it/s]\rLoading images:  96%|█████████▌| 479/500 [00:23<00:00, 23.75it/s]\rLoading images:  96%|█████████▋| 482/500 [00:23<00:00, 23.89it/s]\rLoading images:  97%|█████████▋| 485/500 [00:23<00:00, 25.07it/s]\rLoading images:  98%|█████████▊| 488/500 [00:24<00:00, 24.94it/s]\rLoading images:  98%|█████████▊| 491/500 [00:24<00:00, 25.04it/s]\rLoading images:  99%|█████████▉| 494/500 [00:24<00:00, 25.30it/s]\rLoading images:  99%|█████████▉| 497/500 [00:24<00:00, 26.00it/s]\rLoading images: 100%|██████████| 500/500 [00:24<00:00, 25.74it/s]\rLoading images: 100%|██████████| 500/500 [00:24<00:00, 20.37it/s]\n/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/lib/python3.8/site-packages/torch/nn/modules/conv.py:456: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1704987290659/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)\n  return F.conv2d(input, weight, bias, self.stride,\n{\"status\": \"running\", \"dataset\": \"evqa-pilot500\", \"model\": \"llava-v1.5-7b\", \"processed\": 1, \"total\": 500, \"failures\": 0, \"elapsed_seconds\": 8.449894905090332, \"job_id\": \"3443209\"}\n",
+  "gpu": "37552, 43605, 100\n"
+}

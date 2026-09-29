@@ -1,0 +1,20 @@
+{
+  "layer": 0,
+  "status": "EVAL_DONE_NONCONVERGENT_STABLE_RECOVERED",
+  "eval_samples": 293,
+  "checkpoint": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_stable_mmke_visual_pending8_job3044208_20260713_204917/paligemma-3b/layer_00/records/vead/paligemma-3b/pilot500_blip2_visedit_L00-lr-1-t-1-v-1/checkpoints/epoch-25-i-2675-ema_loss-3454.8157",
+  "ckpt_epoch": "25",
+  "ckpt_i": "2675",
+  "ckpt_loss": "3402.662841796875",
+  "ckpt_ema_loss": "3454.8156604339",
+  "result_dir": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_l0_nonconvergent_eval_20260921/mmke-visual_stable_l0_lr1e6/layer_00/eval_full/vead/paligemma-3b/EVQA_full_test_pilot500_blip2_visedit_L00/single_edit",
+  "Rel": 0.09,
+  "T-Gen": 0.09,
+  "M-Gen": 0.1,
+  "T-Loc": 100.0,
+  "M-Loc": 76.92999999999999,
+  "Average": 35.44199999999999,
+  "converged": false,
+  "training_complete_50_epochs": false,
+  "selection_audit": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/paligemma_l0_nonconvergent_eval_20260921/mmke-visual_stable_l0_lr1e6/selection_audit.json"
+}

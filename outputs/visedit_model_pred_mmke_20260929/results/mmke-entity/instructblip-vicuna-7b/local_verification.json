@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "summary_sha256": "cedd5d1d9fa3df619deb004acaf72419bd6dc0d56109ae29f06b97378388827c",
+  "samples_verified": 636,
+  "variants_verified": [
+    "attn",
+    "mlp",
+    "attn+mlp"
+  ],
+  "original_formula_parity": true,
+  "checked_at": "2026-09-29T11:02:27.054177+08:00"
+}

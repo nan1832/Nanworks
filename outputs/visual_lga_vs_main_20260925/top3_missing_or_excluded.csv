@@ -1,0 +1,22 @@
+﻿dataset,model,formula,layer,reason,source
+evqa-pilot500,llava-v1.5-7b,M_dot,29,not_in_local_verified_outcomes,
+evqa-pilot500,llava-v1.5-7b,M_abscos_x_newn,2,not_in_local_verified_outcomes,
+evqa-pilot500,qwen2.5-vl-3b,M_dot,6,not_in_local_verified_outcomes,
+evqa-pilot500,qwen2.5-vl-3b,M_dot,5,not_in_local_verified_outcomes,
+evqa-pilot500,qwen2.5-vl-3b,M_dot,7,not_in_local_verified_outcomes,
+mmke-entity,blip2-opt-2.7b,M_dot,28,not_in_local_verified_outcomes,
+mmke-entity,llava-v1.5-7b,M_dot,29,not_in_local_verified_outcomes,
+mmke-entity,llava-v1.5-7b,M_dot,21,not_in_local_verified_outcomes,
+mmke-entity,llava-v1.5-7b,M_dot,30,not_in_local_verified_outcomes,
+mmke-entity,llava-v1.5-7b,M_abscos_x_newn,13,not_in_local_verified_outcomes,
+mmke-entity,llava-v1.5-7b,M_abscos_x_newn,11,not_in_local_verified_outcomes,
+mmke-entity,llava-v1.5-7b,M_abscos_x_newn,12,not_in_local_verified_outcomes,
+mmke-entity,minigpt-4-vicuna-7b,M_dot,30,not_in_local_verified_outcomes,
+mmke-entity,minigpt-4-vicuna-7b,M_dot,29,not_in_local_verified_outcomes,
+mmke-visual,llava-v1.5-7b,M_dot,30,not_in_local_verified_outcomes,
+mmke-visual,llava-v1.5-7b,M_dot,29,not_in_local_verified_outcomes,
+mmke-visual,minigpt-4-vicuna-7b,M_dot,30,not_in_local_verified_outcomes,
+mmke-visual,paligemma-3b,M_dot,5,stable_only,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md
+mmke-visual,paligemma-3b,M_dot,3,stable_only,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md
+mmke-visual,paligemma-3b,M_abscos_x_newn,5,stable_only,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md
+mmke-visual,paligemma-3b,M_abscos_x_newn,3,stable_only,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md

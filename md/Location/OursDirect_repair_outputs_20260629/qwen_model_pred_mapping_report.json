@@ -1,0 +1,398 @@
+[
+  {
+    "dataset": "EVQA-pilot500",
+    "model": "Qwen2.5-VL-3B",
+    "dataset_key": "evqa-pilot500",
+    "model_key": "qwen2.5-vl-3b",
+    "cache_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/qwen2.5-vl-3b/model_pred_cache.jsonl",
+    "summary_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/evqa-pilot500/qwen2.5-vl-3b/summary.json",
+    "coverage": 0.914,
+    "status": "failed",
+    "empty_examples": [
+      {
+        "sample_i": 1,
+        "sample_id": "0b685992780ad722",
+        "prompt": "Can all of the body parts of this stuffed animal be seen? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 25,
+        "sample_id": "088396c4baae04df",
+        "prompt": "How many women's handbags do you see? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 28,
+        "sample_id": "ea069745bf23bc80",
+        "prompt": "Does it look like it is a rainy day? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 42,
+        "sample_id": "70f8c4c4111d6d15",
+        "prompt": "How many are looking at the camera? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 62,
+        "sample_id": "6d71828156811f8f",
+        "prompt": "How many brown boards make up this floor? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 68,
+        "sample_id": "2b8c53ea5167a534",
+        "prompt": "How many lights are illuminated in the tunnel? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 72,
+        "sample_id": "9c8caa19670a9036",
+        "prompt": "Is this a nature preserve? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 76,
+        "sample_id": "8a37fde7397ad7f5",
+        "prompt": "Is it possible that one person in this picture is a teacher? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 84,
+        "sample_id": "59b9d544c12fa3c6",
+        "prompt": "Are these animals facing opposite directions? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 89,
+        "sample_id": "a1e7bbeade37db5c",
+        "prompt": "How many windows are there? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 93,
+        "sample_id": "395d628f57470a81",
+        "prompt": "How many cabinets are visible? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 95,
+        "sample_id": "524a62e89b47e471",
+        "prompt": "What color is the paper? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 106,
+        "sample_id": "f4a9062a93e84106",
+        "prompt": "How many feet are in this picture? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 113,
+        "sample_id": "5adc32af94ec16aa",
+        "prompt": "How many flags are there? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 138,
+        "sample_id": "3fb5651233dcd784",
+        "prompt": "Is there a driver in the vehicle in the foreground? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 148,
+        "sample_id": "1227078f38284cd5",
+        "prompt": "Are there any women in the picture? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 165,
+        "sample_id": "9540834d8a0e49ba",
+        "prompt": "Is this a wooded area? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 171,
+        "sample_id": "4cc0e1984eb4628b",
+        "prompt": "How many people are shown? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 178,
+        "sample_id": "f77fddb717ee00de",
+        "prompt": "How many burners are occupied? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 205,
+        "sample_id": "5526dda4a0f73f63",
+        "prompt": "How many light are hanging? The answer is:",
+        "status": "empty_model_pred"
+      }
+    ]
+  },
+  {
+    "dataset": "MMKE-entity",
+    "model": "Qwen2.5-VL-3B",
+    "dataset_key": "mmke-entity",
+    "model_key": "qwen2.5-vl-3b",
+    "cache_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/mmke-entity/qwen2.5-vl-3b/model_pred_cache.jsonl",
+    "summary_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/mmke-entity/qwen2.5-vl-3b/summary.json",
+    "coverage": 0.007861635220125786,
+    "status": "invalid_low_coverage",
+    "empty_examples": [
+      {
+        "sample_i": 0,
+        "sample_id": "mmke_0",
+        "prompt": "Give me some important information about the human in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 1,
+        "sample_id": "mmke_1",
+        "prompt": "Give me some important information about the bird in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 2,
+        "sample_id": "mmke_2",
+        "prompt": "Give me some important information about the moth in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 3,
+        "sample_id": "mmke_3",
+        "prompt": "Give me some important information about the turtle in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 4,
+        "sample_id": "mmke_4",
+        "prompt": "Give me some important information about the bird in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 5,
+        "sample_id": "mmke_5",
+        "prompt": "Give me some important information about the bird in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 6,
+        "sample_id": "mmke_6",
+        "prompt": "Give me some important information about the plant in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 7,
+        "sample_id": "mmke_7",
+        "prompt": "Give me some important information about the bird in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 8,
+        "sample_id": "mmke_8",
+        "prompt": "Give me some important information about the rabbit in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 9,
+        "sample_id": "mmke_9",
+        "prompt": "Give me some important information about the building in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 10,
+        "sample_id": "mmke_10",
+        "prompt": "Give me some important information about the wild boar in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 11,
+        "sample_id": "mmke_11",
+        "prompt": "Give me some important information about the cattle in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 12,
+        "sample_id": "mmke_12",
+        "prompt": "Give me some important information about the bird in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 13,
+        "sample_id": "mmke_13",
+        "prompt": "Give me some important information about the musical group in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 14,
+        "sample_id": "mmke_14",
+        "prompt": "Give me some important information about the squirrel in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 15,
+        "sample_id": "mmke_15",
+        "prompt": "Give me some important information about the plant in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 16,
+        "sample_id": "mmke_16",
+        "prompt": "Give me some important information about the aircraft in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 17,
+        "sample_id": "mmke_17",
+        "prompt": "Give me some important information about the bird in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 18,
+        "sample_id": "mmke_18",
+        "prompt": "Give me some important information about the fungus in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 19,
+        "sample_id": "mmke_19",
+        "prompt": "Give me some important information about the plant in the image. The answer is:",
+        "status": "empty_model_pred"
+      }
+    ]
+  },
+  {
+    "dataset": "MMKE-visual",
+    "model": "Qwen2.5-VL-3B",
+    "dataset_key": "mmke-visual",
+    "model_key": "qwen2.5-vl-3b",
+    "cache_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/mmke-visual/qwen2.5-vl-3b/model_pred_cache.jsonl",
+    "summary_path": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/ours_direct_7models_3datasets_g08_gpu0_20260626_131624/mmke-visual/qwen2.5-vl-3b/summary.json",
+    "coverage": 0.4485981308411215,
+    "status": "low_confidence",
+    "empty_examples": [
+      {
+        "sample_i": 0,
+        "sample_id": "mmke_0",
+        "prompt": "What does this everyday gesture in the image mean? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 1,
+        "sample_id": "mmke_1",
+        "prompt": "What does this linesman gesture in the image mean in soccer? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 2,
+        "sample_id": "mmke_2",
+        "prompt": "What does this dog body language in the image mean? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 6,
+        "sample_id": "mmke_6",
+        "prompt": "Give me some important information about this texture in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 7,
+        "sample_id": "mmke_7",
+        "prompt": "What does this everyday gesture in the image mean? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 12,
+        "sample_id": "mmke_12",
+        "prompt": "Give me some important information about this texture in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 14,
+        "sample_id": "mmke_14",
+        "prompt": "Give me some important information about this shape in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 19,
+        "sample_id": "mmke_19",
+        "prompt": "Give me some important information about this layout in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 23,
+        "sample_id": "mmke_23",
+        "prompt": "What does this referee gesture mean in the image in fencing? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 24,
+        "sample_id": "mmke_24",
+        "prompt": "What does this referee gesture mean in the image in table_tennis? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 25,
+        "sample_id": "mmke_25",
+        "prompt": "What does this dog body language in the image mean? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 27,
+        "sample_id": "mmke_27",
+        "prompt": "Give me some important information about this texture in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 29,
+        "sample_id": "mmke_29",
+        "prompt": "What is the relationship between the human and the nog? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 30,
+        "sample_id": "mmke_30",
+        "prompt": "What does this everyday gesture in the image mean? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 31,
+        "sample_id": "mmke_31",
+        "prompt": "What is this human action in the image? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 32,
+        "sample_id": "mmke_32",
+        "prompt": "What does this social behavior in the image mean? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 33,
+        "sample_id": "mmke_33",
+        "prompt": "What does this cat body language in the image mean? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 35,
+        "sample_id": "mmke_35",
+        "prompt": "Give me some important information about this texture in the image. The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 36,
+        "sample_id": "mmke_36",
+        "prompt": "What does this referee gesture mean in the image in handball? The answer is:",
+        "status": "empty_model_pred"
+      },
+      {
+        "sample_i": 37,
+        "sample_id": "mmke_37",
+        "prompt": "What does this referee gesture mean in the image in basketball? The answer is:",
+        "status": "empty_model_pred"
+      }
+    ]
+  }
+]

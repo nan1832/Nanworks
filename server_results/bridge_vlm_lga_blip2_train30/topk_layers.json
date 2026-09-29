@@ -1,0 +1,82 @@
+{
+  "model": "blip2-opt-2.7b",
+  "data": "bridge30",
+  "module_kind": "mlp",
+  "layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "n_request": 30,
+  "main_score": "S_lga_dot",
+  "diagnostic_scores": [
+    "S_lga_cos",
+    "old_grad_norm",
+    "new_grad_norm",
+    "joint_grad_norm",
+    "norm_ratio"
+  ],
+  "top_by_dot": {
+    "top1": 30,
+    "top3": [
+      30,
+      29,
+      28
+    ],
+    "top5": [
+      30,
+      29,
+      28,
+      27,
+      31
+    ]
+  },
+  "top_by_cos": {
+    "top1": 30,
+    "top3": [
+      30,
+      29,
+      28
+    ],
+    "top5": [
+      30,
+      29,
+      28,
+      27,
+      26
+    ]
+  },
+  "selected_golden_layer": {
+    "by": "S_lga_dot",
+    "top1": 30
+  }
+}

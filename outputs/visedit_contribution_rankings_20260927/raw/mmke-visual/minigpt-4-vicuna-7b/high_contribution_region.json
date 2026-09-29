@@ -1,0 +1,23 @@
+{
+  "dataset": "mmke-visual",
+  "model": "minigpt-4-vicuna-7b",
+  "method": "VisEdit-Contrib-Pre-KeyToken",
+  "rank_metric": "score_positive_key_token",
+  "smoothing_window": 3,
+  "lambda": 0.5,
+  "threshold_rule": "mean + lambda * std",
+  "threshold": 0.014498887991536586,
+  "high_layers": [
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "selected_region": [
+    27,
+    31
+  ],
+  "status": "done",
+  "failure_reason": ""
+}

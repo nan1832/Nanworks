@@ -1,0 +1,25 @@
+﻿dataset,model,layer,main_score,main_rank,new_norm_score,new_norm_rank,actual_average,eval_samples,outcome_source,source_line
+evqa-pilot500,minigpt-4-vicuna-7b,0,0.002151500861966428,16,0.21276918559788702,1,57.83,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,380
+evqa-pilot500,minigpt-4-vicuna-7b,1,0.0021663246881850192,15,0.21254412025840344,2,71.104,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,381
+evqa-pilot500,minigpt-4-vicuna-7b,2,0.002007112332032559,18,0.21125686207491315,3,63.496,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,382
+evqa-pilot500,minigpt-4-vicuna-7b,16,0.0034706106692874786,3,0.14251988653265282,17,64.94,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,389
+evqa-pilot500,minigpt-4-vicuna-7b,18,0.004204471253774694,1,0.12855169969519417,19,59.56,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,391
+evqa-pilot500,minigpt-4-vicuna-7b,19,0.0035286199017935775,2,0.12184100258229431,20,58.378,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,392
+evqa-pilot500,qwen2.5-vl-3b,0,0.002441270408091086,16,0.2547191233726917,1,62.89,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,428
+evqa-pilot500,qwen2.5-vl-3b,1,0.0019863046920121745,20,0.25366731337615056,2,61.46,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,429
+evqa-pilot500,qwen2.5-vl-3b,2,0.0024192481188165782,17,0.24591640644497237,3,62.25,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,430
+evqa-pilot500,qwen2.5-vl-3b,17,0.005591912646956958,3,0.17556069071774255,19,62.6,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,437
+evqa-pilot500,qwen2.5-vl-3b,19,0.005741935494162905,2,0.15196386641837306,20,63.21,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,439
+evqa-pilot500,qwen2.5-vl-3b,21,0.005887999033381404,1,0.11959483880031621,22,63.74,2093,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,441
+mmke-entity,minigpt-4-vicuna-7b,0,0.0012064611709660018,31,0.014723907149420266,1,75.336,954,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,768
+mmke-entity,minigpt-4-vicuna-7b,1,0.0012094014646362337,30,0.014708178221107513,2,75.162,954,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,769
+mmke-entity,minigpt-4-vicuna-7b,2,0.0012137743090682974,28,0.014586241313244609,3,75.55,954,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,770
+mmke-entity,minigpt-4-vicuna-7b,26,0.0021005763870646445,3,0.006262548183275492,27,75.52,954,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,781
+mmke-entity,minigpt-4-vicuna-7b,27,0.002209634684234893,1,0.006073009429584439,28,75.824,954,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,782
+mmke-entity,minigpt-4-vicuna-7b,28,0.0021295935035479645,2,0.0053616159821790205,29,76.04,954,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,783
+mmke-visual,minigpt-4-vicuna-7b,0,0.0018482252679805913,29,0.020795703922163383,1,75.812,293,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,571
+mmke-visual,minigpt-4-vicuna-7b,1,0.001850630843490042,28,0.020774980645766047,2,75.824,293,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,572
+mmke-visual,minigpt-4-vicuna-7b,2,0.0018384461507243198,30,0.020574387014956674,3,76.064,293,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,573
+mmke-visual,minigpt-4-vicuna-7b,9,0.002383003307141647,1,0.016123696530638176,10,76.582,293,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,577
+mmke-visual,minigpt-4-vicuna-7b,10,0.0022451616346263205,2,0.015485131860684568,11,76.63,293,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,578
+mmke-visual,minigpt-4-vicuna-7b,11,0.0022257919699155784,3,0.01513058385837858,12,76.83,293,D:\开题\正式开题\Model Edit\bli2-reasonvqa\dataset\md\TODO\Second_prashe\Firstprash_testvalue_our_direct_recommend.md,579

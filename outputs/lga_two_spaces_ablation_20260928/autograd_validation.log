@@ -1,0 +1,2 @@
+PASS: 8 visual tensor comparisons; zero last layer; 8 chunked parameter comparisons; no weight updates
+

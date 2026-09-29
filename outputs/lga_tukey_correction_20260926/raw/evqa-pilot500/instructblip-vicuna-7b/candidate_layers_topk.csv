@@ -1,0 +1,9 @@
+dataset,model,method,variant,top_k,rank,layer,score,raw_rank,filtered_rank,raw_candidate_layers,clean_candidate_layers,selection_source,candidate_conversion,status,failure_reason
+EVQA-pilot500,InstructBLIP-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,3,1,L2,47670.000601975466,1,,"L2,L0,L1","L2,L0,L1",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,InstructBLIP-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,3,2,L0,23338.568498550074,2,,"L2,L0,L1","L2,L0,L1",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,InstructBLIP-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,3,3,L1,7287.549941990859,3,,"L2,L0,L1","L2,L0,L1",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,InstructBLIP-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,5,1,L2,47670.000601975466,1,,"L2,L0,L1,L4,L17","L2,L0,L1,L4,L17",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,InstructBLIP-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,5,2,L0,23338.568498550074,2,,"L2,L0,L1,L4,L17","L2,L0,L1,L4,L17",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,InstructBLIP-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,5,3,L1,7287.549941990859,3,,"L2,L0,L1,L4,L17","L2,L0,L1,L4,L17",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,InstructBLIP-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,5,4,L4,4413.011079247793,4,,"L2,L0,L1,L4,L17","L2,L0,L1,L4,L17",raw_old_new_parameter_gradient_dot,direct,done,
+EVQA-pilot500,InstructBLIP-Vicuna-7B,LGA-Param-Direct-AltModelPred,direct,5,5,L17,1040.8373662423396,5,,"L2,L0,L1,L4,L17","L2,L0,L1,L4,L17",raw_old_new_parameter_gradient_dot,direct,done,

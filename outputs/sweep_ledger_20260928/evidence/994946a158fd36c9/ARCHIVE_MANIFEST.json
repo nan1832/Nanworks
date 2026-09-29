@@ -1,0 +1,44 @@
+[
+  {
+    "relative_path": "records/vead/llava-v1.5-7b/pilot500_blip2_visedit_L02-lr-1-t-1-v-1/checkpoints/epoch-41-i-10250-ema_loss-0.4626",
+    "source_sha256": "71c8db9bea7a27ddaf2414d5f135801ba564707e78a0856b84de5d1f43a8c13f",
+    "size": 415896102,
+    "archive_sha256": "71c8db9bea7a27ddaf2414d5f135801ba564707e78a0856b84de5d1f43a8c13f"
+  },
+  {
+    "relative_path": "train.done",
+    "source_sha256": "fdf8dac2bbc25914b356c37dc9607303bc53a6d4102bdfd2a7fa87acbd7001b9",
+    "size": 353,
+    "archive_sha256": "ca390d53c01c846b5836cd9da699363b8349596b8b8fad8601e50db12835cf2a"
+  },
+  {
+    "relative_path": "selected_checkpoint.tsv",
+    "source_sha256": "30565355dd87d1fbcb76bd2f75386af84f51139eafc8a06566f9f674084eff0f",
+    "size": 305,
+    "archive_sha256": "e7ea6ad20def6f0e321eb7110fc195abccfe408435963f7f05a0777d041a0e21"
+  },
+  {
+    "relative_path": "eval_full.done",
+    "source_sha256": "9ffb7ae38aeaec08ce2a64c7f4ccdd52ebb5a32662ca633cb56608f0b3ded915",
+    "size": 750,
+    "archive_sha256": "3e4b3cad5fb28249d1526fc689b7532bc0cbf113fc1d9e326e48048cc38ca688"
+  },
+  {
+    "relative_path": "loss_history.csv",
+    "source_sha256": "96c6e29414085b3e8e87633552cde4d296f8d55bec907eb129996ea539a9f7c5",
+    "size": 13336,
+    "archive_sha256": "3d4060699879ffb1f3e645a4a9248bbf77be5f07bec4a2744cf7d0af228c62e2"
+  },
+  {
+    "relative_path": "eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L02/single_edit/results.json",
+    "source_sha256": "fda03fdca1aa49a932405a0c11b704d90bbad5b21fb028ca20a02b507d351a21",
+    "size": 4869001,
+    "archive_sha256": "fda03fdca1aa49a932405a0c11b704d90bbad5b21fb028ca20a02b507d351a21"
+  },
+  {
+    "relative_path": "eval_full/vead/llava-v1.5-7b/EVQA_full_test_pilot500_blip2_visedit_L02/single_edit/mean_results.json",
+    "source_sha256": "82bab47e91ccec2ec66b3782df47718006634e8554fd8b7b7c2b76cea7f57294",
+    "size": 401,
+    "archive_sha256": "82bab47e91ccec2ec66b3782df47718006634e8554fd8b7b7c2b76cea7f57294"
+  }
+]

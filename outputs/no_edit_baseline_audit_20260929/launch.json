@@ -1,0 +1,22 @@
+{
+  "time": "2026-09-29T18:45:25.512479+08:00",
+  "login_pid": 131551,
+  "job": "3435286",
+  "node": "g08",
+  "command": [
+    "srun",
+    "--jobid=3435286",
+    "--overlap",
+    "--nodes=1",
+    "--ntasks=1",
+    "--nodelist=g08",
+    "/datapool/home/ph_teacher3/lzh/.lico_env/jupyter/env/bin/python",
+    "-u",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/no_edit_baseline_audit_20260929/aligned_v2/code/queue.py"
+  ],
+  "code_pins": {
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/no_edit_baseline_audit_20260929/aligned_v2/code/evaluate.py": "c9c369995e43a8d8035adb90ff65e6c02385c269480761d7a95e59197ec7be1f",
+    "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/no_edit_baseline_audit_20260929/aligned_v2/code/queue.py": "5fcff03d22b35a50e38f63f661493905092c2c96a52f8d6e827e64ab6732884a"
+  },
+  "root": "/datapool/home/ph_teacher3/Lwy/zhounan/Visedit2/server_results/no_edit_baseline_audit_20260929/aligned_v2"
+}

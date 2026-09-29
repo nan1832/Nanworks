@@ -1,0 +1,24 @@
+{
+  "time": "2026-09-29T11:38:58.377975+08:00",
+  "config_dtype": "bfloat16",
+  "shards": [
+    {
+      "file": "model-00001-of-00002.safetensors",
+      "header_bytes": 61320,
+      "tensor_dtypes": {
+        "BF16": 556
+      },
+      "vision_tensor_dtypes": {
+        "BF16": 390
+      }
+    },
+    {
+      "file": "model-00002-of-00002.safetensors",
+      "header_bytes": 30688,
+      "tensor_dtypes": {
+        "BF16": 268
+      },
+      "vision_tensor_dtypes": {}
+    }
+  ]
+}
